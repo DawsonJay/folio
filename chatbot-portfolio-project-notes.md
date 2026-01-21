@@ -4,7 +4,7 @@
 
 **Project Name**: Folio  
 **AI Assistant Name**: Folio  
-**GitHub Repository**: [Link to be added]
+**GitHub Repository**: https://github.com/DawsonJay/folio
 
 Folio is a minimalist portfolio website featuring an AI chatbot assistant that answers questions about skills, experience, and projects using RAG (Retrieval Augmented Generation). The name "Folio" references both portfolio and evokes growth (foliage), representing a living, evolving portfolio.
 
