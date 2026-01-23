@@ -138,12 +138,23 @@ If you'd like to learn more, feel free to contact me for an interview!"
      - Avatar animates to show current state (thinking, surprised, ready, etc.)
      - Always visible since there's only one message bubble
      - Clean, focused visual feedback
-   - **Expressions**:
-     - **Thinking/Processing**: Shows thinking face while generating response
-     - **Surprised**: Shows surprised expression when receiving/processing response
-     - **Happy/Ready**: Shows happy/content expression when ready for next question
-     - **Confused**: Shows confused expression for unclear questions
-     - **Idle**: Neutral expression when waiting for input
+   - **Expressions** (6 total):
+     1. **Happy**: Default/ready state - smiling face, welcoming
+     2. **Thinking**: Processing questions - confused/questioning expression with floating question marks accent
+     3. **Surprised**: Initial response moment - wide eyes, excited
+     4. **Derp/Oops**: Dual purpose - AI errors OR unclear questions
+     5. **Tired**: Rate limiting - sleepy expression with floating Z's accent
+     6. **Annoyed**: Offensive questions - irritated expression with huff lines accent
+   - **Component Structure**:
+     - **Base Face Component**: Renders facial expression (eyes, mouth, etc.)
+     - **Accent Component**: Separate overlay for animated accents (question marks, Z's, sparkles, huff lines)
+     - Accents animate independently from the face for enhanced expressiveness
+     - Benefits: Modular design, independent animations, performance optimization
+   - **Expression Usage Flow**:
+     1. Initial state: **Happy** (welcoming, ready for questions)
+     2. Question asked: **Thinking** (with question marks)
+     3. Response received: **Surprised** → **Happy** (brief excitement, then ready)
+     4. Error scenarios: **Derp** (AI error or unclear question), **Tired** (rate limit), **Annoyed** (offensive)
    - Makes the AI feel more alive and responsive
    - Visual feedback enhances user experience
 
@@ -288,7 +299,8 @@ If you'd like to learn more, feel free to contact me for an interview!"
 - **AI Avatar**: Animated head/face with expressions showing AI state
   - Visual feedback for thinking, processing, ready states
   - Makes the AI feel more alive and responsive
-  - Simple, cartoon-style expressions (thinking, surprised, happy, confused, idle)
+  - Simple, cartoon-style expressions (happy, thinking, surprised, derp, tired, annoyed)
+  - Separate accent components for independent animation (question marks, Z's, sparkles, huff lines)
 
 ### Color Palette
 ```css
@@ -603,11 +615,19 @@ compact_context = {
 ```typescript
 // events/eventTypes.ts
 export type AvatarEmotion = 
+  | 'happy' 
   | 'thinking' 
   | 'surprised' 
-  | 'happy' 
-  | 'confused' 
-  | 'idle';
+  | 'derp' 
+  | 'tired' 
+  | 'annoyed';
+
+export type AccentType = 
+  | 'questionMarks'  // For thinking
+  | 'sparkles'       // For surprised
+  | 'zzz'            // For tired
+  | 'huff'           // For annoyed
+  | null;            // No accent (happy, derp)
 
 export type ChatEvent = 
   | { type: 'avatar:setEmotion', emotion: AvatarEmotion }
@@ -645,19 +665,62 @@ interface FolioAvatarProps {
   // Minimal props, listens to events
 }
 
-// Avatar exposes emotion transition functions
+// Separate components for modularity
+<AvatarContainer>
+  <AvatarFace expression={currentExpression} />
+  {accent && <AvatarAccent type={accent} />}
+</AvatarContainer>
+
+// Accent types and their animations
+type AccentType = 'questionMarks' | 'zzz' | 'sparkles' | 'huff' | null;
+
+// Animation possibilities:
+// - Question marks: subtle float/rotation while thinking
+// - Z's: gentle drift upward when tired
+// - Sparkles: twinkle/pulse on surprise
+// - Huff lines: brief puff animation when annoyed
+// - Face: minimal or no animation (stays stable)
+
 // Other components emit events to request emotions:
 // eventBus.emit('avatar:setEmotion', 'thinking')
-// eventBus.emit('avatar:setEmotion', 'surprised')
+// eventBus.emit('avatar:setEmotion', 'happy')
 ```
+
+### Avatar Image Assets
+**Location**: `frontend/src/assets/avatar/`
+
+**Base Face Expressions** (6 total):
+- `face-happy.png` - Default/ready state
+- `face-thinking.png` - Processing questions
+- `face-surprised.png` - Initial response moment
+- `face-derp.png` - AI errors or unclear questions
+- `face-tired.png` - Rate limiting
+- `face-annoyed.png` - Offensive questions
+
+**Accent Components** (4 total):
+- `accent-question-marks.png` - For thinking expression
+- `accent-sparkles.png` - For surprised expression
+- `accent-zzz.png` - For tired expression
+- `accent-huff.png` - For annoyed expression
+
+**Export Settings** (for web use):
+- Format: PNG
+- Compression: 6-9 (optimized for web)
+- Force convert to sRGB: ✓
+- Store alpha channel (transparency): ✓
+- Force convert to 8 bits/channel: ✓
 
 ### Component Communication Flow
 1. **Chat component** receives question → emits `chat:questionAsked`
-2. **Avatar component** listens → transitions to `thinking` emotion
+2. **Avatar component** listens → transitions to `thinking` emotion (with question marks accent)
 3. **Chat component** receives response → emits `chat:responseReceived`
-4. **Avatar component** listens → transitions to `surprised` then `happy`
+4. **Avatar component** listens → transitions to `surprised` (with sparkles accent) then `happy` (no accent)
 5. **Input component** ready → emits `chat:ready`
-6. **Avatar component** listens → transitions to `idle`
+6. **Avatar component** listens → stays on `happy` (ready for next question)
+7. **Error scenarios**: 
+   - AI error or unclear question → `derp` (no accent)
+   - Rate limit → `tired` (with Z's accent)
+   - Offensive question → `annoyed` (with huff lines accent)
 
 ### Benefits of Event System
 - **Modularity**: Each component is independent
