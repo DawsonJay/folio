@@ -1,11 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(
-    title="Folio API",
-    description="AI-powered portfolio chatbot backend",
-    version="0.1.0"
-)
+app = FastAPI()
 
 # CORS middleware configuration
 app.add_middleware(

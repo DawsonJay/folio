@@ -28,9 +28,9 @@ This guide explains how to deploy the Folio project. Currently set up as minimal
 4. **Set Root Directory to:** `backend` (just the word "backend", no slashes)
 5. Click **Save** or **Update**
 
-**Why this is critical:** Without setting the root directory, Railway tries to build from the repository root and can't find `requirements.txt`. Setting it to `backend` tells Railway to look in the `backend/` directory where `requirements.txt` and `app/main.py` are located.
+**Why this is critical:** The project is organized with `backend/` and `frontend/` directories. Setting root directory to `backend` tells Railway to look in the `backend/` directory where `requirements.txt`, `Procfile`, and `app/main.py` are located.
 
-**After setting root directory:** Railway will auto-detect Python from `requirements.txt` and build your FastAPI app.
+**After setting root directory:** Railway will auto-detect Python from `requirements.txt` and use the `Procfile` start command.
 
 ### 3. Set Start Command (Optional but Recommended)
 
