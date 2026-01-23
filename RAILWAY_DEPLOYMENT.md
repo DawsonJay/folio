@@ -2,6 +2,13 @@
 
 This guide explains how to deploy the Folio project. Currently set up as minimal backend-only deployment. Frontend will be added once backend deploys successfully.
 
+## Production URL
+
+**Live Application:** https://folio-production-16b7.up.railway.app
+
+- Health Check: https://folio-production-16b7.up.railway.app/health
+- Database Test: https://folio-production-16b7.up.railway.app/db-test
+
 ## Prerequisites
 
 1. Railway account (you already have one)
