@@ -21,9 +21,12 @@ This guide explains how to deploy both the backend and frontend services to Rail
 ### 2. Configure Backend Service
 
 1. Railway should auto-detect the backend service from `backend/requirements.txt`
-2. If not, manually add a service and point it to the `backend/` directory
-3. Set the start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-4. Railway will automatically set the `PORT` environment variable
+2. **IMPORTANT**: In the service settings, set the **Root Directory** to `backend`
+   - Go to your backend service → Settings → Root Directory
+   - Set it to: `backend`
+3. Railway will use `backend/nixpacks.toml` for build configuration
+4. The start command is already configured: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+5. Railway will automatically set the `PORT` environment variable
 
 **Environment Variables to Set:**
 - `PORT` (auto-set by Railway)
@@ -32,10 +35,14 @@ This guide explains how to deploy both the backend and frontend services to Rail
 ### 3. Configure Frontend Service
 
 1. Add a new service in the same Railway project
-2. Point it to the `frontend/` directory
-3. Railway will auto-detect Node.js from `package.json`
-4. Build command: `npm install && npm run build`
-5. Start command: `npm run preview` (or use a static file server)
+2. **IMPORTANT**: In the service settings, set the **Root Directory** to `frontend`
+   - Go to your frontend service → Settings → Root Directory
+   - Set it to: `frontend`
+3. Railway will use `frontend/nixpacks.toml` for build configuration
+4. Railway will auto-detect Node.js from `package.json`
+5. Build and start commands are configured in `nixpacks.toml`:
+   - Build: `npm install && npm run build`
+   - Start: `npx serve dist -p $PORT`
 
 **Alternative: Use Static File Serving**
 
