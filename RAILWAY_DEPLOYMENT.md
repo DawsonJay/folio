@@ -1,6 +1,6 @@
 # Railway Deployment Guide
 
-This guide explains how to deploy the Folio project as a single service on Railway, where the backend builds and serves the frontend.
+This guide explains how to deploy the Folio project. Currently set up as minimal backend-only deployment. Frontend will be added once backend deploys successfully.
 
 ## Prerequisites
 
@@ -33,12 +33,10 @@ This tells Railway to build from the `backend/` directory, which contains the `n
 ### 3. How It Works
 
 The `backend/nixpacks.toml` configuration:
-1. Installs Node.js and Python dependencies
-2. Builds the frontend React app (`npm run build` in `frontend/`)
-3. Installs Python backend dependencies
-4. Starts FastAPI server, which serves:
-   - API endpoints at `/api/*`
-   - Frontend static files at `/` (SPA routing)
+1. Installs Python dependencies
+2. Starts FastAPI server with:
+   - Health check at `/health`
+   - Root endpoint at `/`
 
 ### 4. Environment Variables
 
@@ -61,15 +59,11 @@ Set these in Railway dashboard → Service → Variables:
 
 ### 5. Verify Deployment
 
-1. **Health Check**: Visit `https://your-app.railway.app/api/health`
+1. **Health Check**: Visit `https://your-app.railway.app/health`
    - Should return: `{"status": "ok"}`
 
-2. **Frontend**: Visit `https://your-app.railway.app`
-   - Should display the Folio frontend
-   - Should show backend connection status
-
-3. **API**: Visit `https://your-app.railway.app/api/`
-   - Should return API information
+2. **Root Endpoint**: Visit `https://your-app.railway.app/`
+   - Should return: `{"message": "Folio API", "version": "0.1.0", "status": "running"}`
 
 ## Project Structure
 
@@ -87,12 +81,10 @@ folio/
 └── ...
 ```
 
-## How Frontend is Served
+## Current Status
 
-- FastAPI serves static files from `frontend/dist/`
-- API routes are prefixed with `/api/`
-- All other routes serve `index.html` for SPA routing
-- Frontend makes API calls to `/api/*` endpoints
+- **Backend only**: Minimal FastAPI app with health check
+- **Frontend**: Will be added once backend deploys successfully
 
 ## Troubleshooting
 
