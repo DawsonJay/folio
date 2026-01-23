@@ -11,19 +11,20 @@ if DATABASE_URL and DATABASE_URL.startswith("postgresql://"):
     DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+psycopg2://", 1)
 
 # Create SQLAlchemy engine (only if DATABASE_URL is set)
+# Use a dummy URL if not set to prevent initialization errors
 if DATABASE_URL:
+    # Handle Railway's postgresql:// format - SQLAlchemy needs postgresql+psycopg2://
+    if DATABASE_URL.startswith("postgresql://"):
+        DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+psycopg2://", 1)
+    
     engine = create_engine(
         DATABASE_URL,
         pool_pre_ping=True,  # Verify connections before using
         echo=False  # Set to True for SQL query logging in development
     )
-else:
-    engine = None
-
-# Create session factory (only if engine exists)
-if engine:
     SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 else:
+    engine = None
     SessionLocal = None
 
 # Base class for models
