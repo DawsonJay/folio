@@ -9,9 +9,10 @@ This guide explains how to deploy the Folio project using a monorepo structure w
 - Health Check: https://folio-production-16b7.up.railway.app/health
 - Database Test: https://folio-production-16b7.up.railway.app/db-test
 
-**Frontend:** (URL will be provided after frontend service is created)
+**Frontend:** https://folio-frontend-production.up.railway.app
 
-- Frontend service URL will be like: `https://folio-frontend-[hash].up.railway.app`
+- Live React application
+- Connects to backend API at: https://folio-production-16b7.up.railway.app
 
 ## Architecture
 
@@ -155,12 +156,13 @@ Set these in Railway dashboard → Frontend Service → Variables:
 
 #### Frontend Verification
 
-1. **Visit Frontend URL**: Railway will provide a URL like `https://folio-frontend-[hash].up.railway.app`
+1. **Visit Frontend URL**: https://folio-frontend-production.up.railway.app
    - Should show the React application
    - Should display "✓ Backend Connected" (green status) if backend is reachable
 
 2. **Check Backend Connection**: The frontend should successfully call the backend health endpoint
-   - If connection fails, verify `VITE_API_URL` environment variable is set correctly
+   - If connection fails, verify `VITE_API_URL` environment variable is set correctly in frontend service
+   - Should be set to: `https://folio-production-16b7.up.railway.app`
 
 ## Project Structure
 
