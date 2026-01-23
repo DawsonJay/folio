@@ -20,13 +20,18 @@ This guide explains how to deploy both the backend and frontend services to Rail
 
 ### 2. Configure Backend Service
 
-1. Railway should auto-detect the backend service from `backend/requirements.txt`
-2. **IMPORTANT**: In the service settings, set the **Root Directory** to `backend`
-   - Go to your backend service → Settings → Root Directory
-   - Set it to: `backend`
-3. Railway will use `backend/nixpacks.toml` for build configuration
-4. The start command is already configured: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-5. Railway will automatically set the `PORT` environment variable
+**CRITICAL STEP - This must be done in Railway Dashboard:**
+
+1. In Railway, go to your backend service
+2. Click on **Settings** (gear icon)
+3. Scroll down to **Root Directory**
+4. **Set Root Directory to:** `backend`
+5. Click **Save** or **Update**
+6. Railway will now look for `backend/requirements.txt` and `backend/nixpacks.toml`
+7. The start command is configured in `nixpacks.toml`: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+8. Railway will automatically set the `PORT` environment variable
+
+**If you don't set the root directory, Railway will try to build from the repository root and fail with "Railpack could not determine how to build the app"**
 
 **Environment Variables to Set:**
 - `PORT` (auto-set by Railway)
@@ -34,15 +39,20 @@ This guide explains how to deploy both the backend and frontend services to Rail
 
 ### 3. Configure Frontend Service
 
-1. Add a new service in the same Railway project
-2. **IMPORTANT**: In the service settings, set the **Root Directory** to `frontend`
-   - Go to your frontend service → Settings → Root Directory
-   - Set it to: `frontend`
-3. Railway will use `frontend/nixpacks.toml` for build configuration
-4. Railway will auto-detect Node.js from `package.json`
-5. Build and start commands are configured in `nixpacks.toml`:
+**CRITICAL STEP - This must be done in Railway Dashboard:**
+
+1. Add a new service in the same Railway project (if not already created)
+2. Click on the frontend service
+3. Click on **Settings** (gear icon)
+4. Scroll down to **Root Directory**
+5. **Set Root Directory to:** `frontend`
+6. Click **Save** or **Update**
+7. Railway will now look for `frontend/package.json` and `frontend/nixpacks.toml`
+8. Build and start commands are configured in `nixpacks.toml`:
    - Build: `npm install && npm run build`
    - Start: `npx serve dist -p $PORT`
+
+**If you don't set the root directory, Railway will try to build from the repository root and fail with "Railpack could not determine how to build the app"**
 
 **Alternative: Use Static File Serving**
 
