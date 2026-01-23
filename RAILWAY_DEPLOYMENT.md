@@ -20,23 +20,36 @@ This guide explains how to deploy the Folio project. Currently set up as minimal
 
 ### 2. Configure Service Root Directory
 
-**CRITICAL STEP:**
+**CRITICAL STEP - THIS MUST BE DONE:**
 
-1. Click on your service
-2. Click **Settings** (gear icon)
-3. Scroll down to **Root Directory**
-4. **Set Root Directory to:** `backend`
+1. Click on your service in Railway
+2. Click **Settings** (gear icon) in the top right
+3. Scroll down to find **"Root Directory"** setting
+4. **Set Root Directory to:** `backend` (just the word "backend", no slashes)
 5. Click **Save** or **Update**
 
-This tells Railway to build from the `backend/` directory, which contains the `nixpacks.toml` that builds both frontend and backend.
+**Why this is critical:** Without setting the root directory, Railway tries to build from the repository root and can't find `requirements.txt`. Setting it to `backend` tells Railway to look in the `backend/` directory where `requirements.txt` and `app/main.py` are located.
 
-### 3. How It Works
+**After setting root directory:** Railway will auto-detect Python from `requirements.txt` and build your FastAPI app.
 
-The `backend/nixpacks.toml` configuration:
-1. Installs Python dependencies
-2. Starts FastAPI server with:
-   - Health check at `/health`
-   - Root endpoint at `/`
+### 3. Set Start Command (Optional but Recommended)
+
+After setting the root directory, you may need to set the start command:
+
+1. In your service Settings
+2. Find **"Start Command"** or **"Deploy"** section
+3. Set it to: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+4. Save
+
+Railway might auto-detect this, but setting it explicitly ensures it works.
+
+### 4. How It Works
+
+Once root directory is set to `backend`:
+1. Railway detects `requirements.txt` in the `backend/` directory
+2. Auto-detects Python and installs dependencies
+3. Runs the start command to start FastAPI
+4. Your API is live!
 
 ### 4. Environment Variables
 
