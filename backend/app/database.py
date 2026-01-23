@@ -10,15 +10,21 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 if DATABASE_URL and DATABASE_URL.startswith("postgresql://"):
     DATABASE_URL = DATABASE_URL.replace("postgresql://", "postgresql+psycopg2://", 1)
 
-# Create SQLAlchemy engine
-engine = create_engine(
-    DATABASE_URL,
-    pool_pre_ping=True,  # Verify connections before using
-    echo=False  # Set to True for SQL query logging in development
-)
+# Create SQLAlchemy engine (only if DATABASE_URL is set)
+if DATABASE_URL:
+    engine = create_engine(
+        DATABASE_URL,
+        pool_pre_ping=True,  # Verify connections before using
+        echo=False  # Set to True for SQL query logging in development
+    )
+else:
+    engine = None
 
-# Create session factory
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+# Create session factory (only if engine exists)
+if engine:
+    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+else:
+    SessionLocal = None
 
 # Base class for models
 Base = declarative_base()

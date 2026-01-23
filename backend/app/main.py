@@ -37,6 +37,24 @@ async def test_database():
     from app.models.test import TestItem
     import os
     
+    database_url = os.getenv("DATABASE_URL")
+    
+    # Check if DATABASE_URL is set
+    if not database_url:
+        return {
+            "status": "error",
+            "error": "DATABASE_URL environment variable not set",
+            "database_url_set": False
+        }
+    
+    # Check if engine and SessionLocal are initialized
+    if not engine or not SessionLocal:
+        return {
+            "status": "error",
+            "error": "Database engine not initialized",
+            "database_url_set": True
+        }
+    
     try:
         # Create tables if they don't exist (for minimal setup)
         Base.metadata.create_all(bind=engine)
@@ -47,14 +65,14 @@ async def test_database():
             count = db.query(TestItem).count()
             return {
                 "status": "connected",
-                "database_url_set": bool(os.getenv("DATABASE_URL")),
+                "database_url_set": True,
                 "test_items_count": count
             }
         except Exception as e:
             return {
                 "status": "error",
                 "error": str(e),
-                "database_url_set": bool(os.getenv("DATABASE_URL"))
+                "database_url_set": True
             }
         finally:
             db.close()
@@ -62,6 +80,6 @@ async def test_database():
         return {
             "status": "error",
             "error": str(e),
-            "database_url_set": bool(os.getenv("DATABASE_URL"))
+            "database_url_set": True
         }
 
