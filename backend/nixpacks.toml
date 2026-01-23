@@ -1,9 +1,18 @@
 [phases.setup]
-nixPkgs = ["python311", "pip"]
+nixPkgs = ["python311", "pip", "nodejs-18_x", "npm"]
 
 [phases.install]
 cmds = [
+  # Install frontend dependencies (from repo root, frontend is sibling to backend)
+  "cd $RAILWAY_WORKSPACE_DIR/../frontend && npm install || cd ../frontend && npm install",
+  # Install backend dependencies
   "pip install -r requirements.txt"
+]
+
+[phases.build]
+cmds = [
+  # Build frontend (try both path options)
+  "cd $RAILWAY_WORKSPACE_DIR/../frontend && npm run build || cd ../frontend && npm run build"
 ]
 
 [start]

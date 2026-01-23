@@ -9,12 +9,14 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+  // Use /api prefix when served from same origin, or full URL for development
+  const apiUrl = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? 'http://localhost:8000' : '/api')
 
   useEffect(() => {
     const checkHealth = async () => {
       try {
-        const response = await fetch(`${apiUrl}/health`)
+        const healthUrl = apiUrl.startsWith('http') ? `${apiUrl}/api/health` : `${apiUrl}/health`
+        const response = await fetch(healthUrl)
         if (!response.ok) {
           throw new Error('Health check failed')
         }
