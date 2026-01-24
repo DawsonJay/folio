@@ -18,10 +18,12 @@
   .content {
     width: 100%;
     flex: 1;
+    margin-bottom: -80px;
     background-color: $bg-primary;
     @include rounded-top-lg;
     @include drop-shadow;
     @include texture('black-linen', 0.8);
+    @include drop-in-animation;
     position: relative;
     z-index: 1;
   }
