@@ -1,0 +1,29 @@
+@import '../theme';
+@import '../mixins';
+
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  nav {
+    height: 40px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .content {
+    width: 100%;
+    flex: 1;
+    background-color: $bg-primary;
+    @include rounded-top-lg;
+    @include drop-shadow;
+    @include texture('black-linen', 0.8);
+    position: relative;
+    z-index: 1;
+  }
+}
+
