@@ -1,0 +1,13 @@
+# Project Preferences
+
+## Code Style
+- No JSDoc comments
+- No inline comments unless explaining non-obvious logic
+- Code should be self-documenting through clear naming
+- Prefer clear variable and function names over comments
+
+## Documentation
+- Use README.md files for usage examples and documentation
+- Keep code clean and readable without verbose comments
+- AI assistants can read code directly, so extensive comments are unnecessary
+
