@@ -15,7 +15,7 @@
   color: $primary-black;
   font-family: $font-sans;
   overflow-y: auto;
-  max-height: calc(100vh - 350px);
+  max-height: calc(100vh - 320px - 4rem);
 
   @include custom-scrollbar();
 
