@@ -113,6 +113,7 @@ describe('Event System Integration Tests', () => {
 
       eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, {
         answer: 'React is a JavaScript library for building user interfaces.',
+        suggestions: [],
       });
 
       expect(answers).toEqual(['React is a JavaScript library for building user interfaces.']);
@@ -213,7 +214,7 @@ describe('Event System Integration Tests', () => {
       eventBus.emit(EVENT_TYPES.CHAT_READY, {});
       expect(states).toEqual(['error', 'ready']);
 
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Success' });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Success', suggestions: [] });
       expect(states).toEqual(['error', 'ready', 'success']);
     });
   });
