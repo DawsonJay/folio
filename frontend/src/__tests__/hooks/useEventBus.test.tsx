@@ -7,7 +7,6 @@ import { eventBus } from '../../events/eventBus';
 
 describe('useEvent', () => {
   beforeEach(() => {
-    eventBus.clear(EVENT_TYPES.AVATAR_SET_EMOTION);
     eventBus.clear(EVENT_TYPES.CHAT_QUESTION_ASKED);
     eventBus.clear(EVENT_TYPES.CHAT_RESPONSE_RECEIVED);
     eventBus.clear(EVENT_TYPES.CHAT_ERROR);
@@ -18,17 +17,17 @@ describe('useEvent', () => {
     const callback = vi.fn();
     
     function TestComponent() {
-      useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
       return <div>Test</div>;
     }
 
     render(<TestComponent />);
     
-    eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+    eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
     expect(callback).toHaveBeenCalledWith({
-      type: EVENT_TYPES.AVATAR_SET_EMOTION,
-      emotion: 'happy',
+      type: EVENT_TYPES.CHAT_QUESTION_ASKED,
+      question: 'test',
     });
   });
 
@@ -36,19 +35,19 @@ describe('useEvent', () => {
     const callback = vi.fn();
 
     function TestComponent() {
-      useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
       return <div>Test</div>;
     }
 
     const { unmount } = render(<TestComponent />);
     
-    expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(1);
+    expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(1);
 
     unmount();
 
-    expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(0);
+    expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(0);
 
-    eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+    eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
     expect(callback).not.toHaveBeenCalled();
   });
 
@@ -58,16 +57,16 @@ describe('useEvent', () => {
     const callback3 = vi.fn();
 
     function TestComponent() {
-      useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, callback1);
-      useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, callback2);
-      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback3);
+      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback1);
+      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback2);
+      useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, callback3);
       return <div>Test</div>;
     }
 
     render(<TestComponent />);
 
-    eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
     eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
+    eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [] });
 
     expect(callback1).toHaveBeenCalledTimes(1);
     expect(callback2).toHaveBeenCalledTimes(1);
@@ -79,20 +78,20 @@ describe('useEvent', () => {
     const callback2 = vi.fn();
 
     function TestComponent() {
-      useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, callback1);
-      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback2);
+      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback1);
+      useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, callback2);
       return <div>Test</div>;
     }
 
     const { unmount } = render(<TestComponent />);
 
-    expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(1);
     expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(1);
+    expect(eventBus.listenerCount(EVENT_TYPES.CHAT_RESPONSE_RECEIVED)).toBe(1);
 
     unmount();
 
-    expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(0);
     expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(0);
+    expect(eventBus.listenerCount(EVENT_TYPES.CHAT_RESPONSE_RECEIVED)).toBe(0);
   });
 
   it('should update when callback changes', () => {
@@ -101,7 +100,7 @@ describe('useEvent', () => {
 
     function TestComponent({ useCallback1 }: { useCallback1: boolean }) {
       useEvent(
-        EVENT_TYPES.AVATAR_SET_EMOTION,
+        EVENT_TYPES.CHAT_QUESTION_ASKED,
         useCallback1 ? callback1 : callback2
       );
       return <div>Test</div>;
@@ -109,13 +108,13 @@ describe('useEvent', () => {
 
     const { rerender } = render(<TestComponent useCallback1={true} />);
 
-    eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+    eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test1' });
     expect(callback1).toHaveBeenCalledTimes(1);
     expect(callback2).not.toHaveBeenCalled();
 
     rerender(<TestComponent useCallback1={false} />);
 
-    eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'thinking' });
+    eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test2' });
     expect(callback1).toHaveBeenCalledTimes(1);
     expect(callback2).toHaveBeenCalledTimes(1);
   });
@@ -125,12 +124,12 @@ describe('useEvent', () => {
     const callback2 = vi.fn();
 
     function Component1() {
-      useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, callback1);
+      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback1);
       return <div>Component1</div>;
     }
 
     function Component2() {
-      useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, callback2);
+      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback2);
       return <div>Component2</div>;
     }
 
@@ -141,7 +140,7 @@ describe('useEvent', () => {
       </>
     );
 
-    eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+    eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
     expect(callback1).toHaveBeenCalledTimes(1);
     expect(callback2).toHaveBeenCalledTimes(1);
@@ -149,16 +148,16 @@ describe('useEvent', () => {
 
   it('should handle type-safe event callbacks', () => {
     const callback = vi.fn((event) => {
-      expect(event.emotion).toBeDefined();
+      expect(event.question).toBeDefined();
     });
 
     function TestComponent() {
-      useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
       return <div>Test</div>;
     }
 
     render(<TestComponent />);
-    eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+    eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
     expect(callback).toHaveBeenCalled();
   });
@@ -181,7 +180,7 @@ describe('useEmit', () => {
 
   it('should emit events correctly', () => {
     const callback = vi.fn();
-    eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+    eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
     let emitFn: ReturnType<typeof useEmit> | null = null;
 
@@ -192,11 +191,11 @@ describe('useEmit', () => {
 
     render(<TestComponent />);
 
-    emitFn!(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+    emitFn!(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
     expect(callback).toHaveBeenCalledWith({
-      type: EVENT_TYPES.AVATAR_SET_EMOTION,
-      emotion: 'happy',
+      type: EVENT_TYPES.CHAT_QUESTION_ASKED,
+      question: 'test',
     });
   });
 
@@ -263,7 +262,7 @@ describe('useEmit', () => {
 
   it('should work with multiple components', () => {
     const callback = vi.fn();
-    eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+    eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
     let emitFn1: ReturnType<typeof useEmit> | null = null;
     let emitFn2: ReturnType<typeof useEmit> | null = null;
@@ -285,8 +284,8 @@ describe('useEmit', () => {
       </>
     );
 
-    emitFn1!(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
-    emitFn2!(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'thinking' });
+    emitFn1!(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test1' });
+    emitFn2!(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test2' });
 
     expect(callback).toHaveBeenCalledTimes(2);
   });
@@ -297,13 +296,13 @@ describe('useEvent and useEmit integration', () => {
     const receivedEvents: any[] = [];
 
     function TestComponent() {
-      useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, (event) => {
+      useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, (event) => {
         receivedEvents.push(event);
       });
       const emit = useEmit();
 
       useEffect(() => {
-        emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+        emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
       }, [emit]);
 
       return <div>Test</div>;
@@ -316,8 +315,8 @@ describe('useEvent and useEmit integration', () => {
     });
 
     expect(receivedEvents[0]).toEqual({
-      type: EVENT_TYPES.AVATAR_SET_EMOTION,
-      emotion: 'happy',
+      type: EVENT_TYPES.CHAT_QUESTION_ASKED,
+      question: 'test',
     });
   });
 });

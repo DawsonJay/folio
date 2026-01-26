@@ -3,26 +3,28 @@ import { render, screen } from '@testing-library/react';
 import { useEvent, useEmit } from '../../hooks/useEventBus';
 import { EVENT_TYPES } from '../../events/eventTypes';
 import { eventBus } from '../../events/eventBus';
-import type { AvatarEmotion } from '../../events/eventTypes';
 
 describe('Event System Integration Tests', () => {
   beforeEach(() => {
-    eventBus.clear(EVENT_TYPES.AVATAR_SET_EMOTION);
     eventBus.clear(EVENT_TYPES.CHAT_QUESTION_ASKED);
     eventBus.clear(EVENT_TYPES.CHAT_RESPONSE_RECEIVED);
     eventBus.clear(EVENT_TYPES.CHAT_ERROR);
     eventBus.clear(EVENT_TYPES.CHAT_READY);
   });
 
-  describe('Avatar emotion flow', () => {
-    it('should handle complete avatar emotion change flow', () => {
-      const emotionHistory: AvatarEmotion[] = [];
+  describe('Chat question flow', () => {
+    it('should handle complete chat question and response flow', () => {
+      const questionHistory: string[] = [];
+      const responseHistory: string[] = [];
 
-      function AvatarComponent() {
-        useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, (event) => {
-          emotionHistory.push(event.emotion);
+      function ChatComponent() {
+        useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, (event) => {
+          questionHistory.push(event.question);
         });
-        return <div data-testid="avatar">Avatar</div>;
+        useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, (event) => {
+          responseHistory.push(event.answer);
+        });
+        return <div data-testid="chat">Chat</div>;
       }
 
       function InputComponent() {
@@ -41,7 +43,7 @@ describe('Event System Integration Tests', () => {
 
       render(
         <>
-          <AvatarComponent />
+          <ChatComponent />
           <InputComponent />
         </>
       );
@@ -49,49 +51,28 @@ describe('Event System Integration Tests', () => {
       const askButton = screen.getByTestId('ask-button');
       askButton.click();
 
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'thinking' });
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Test answer' });
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'surprised' });
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      expect(questionHistory).toEqual(['test']);
 
-      expect(emotionHistory).toEqual(['thinking', 'surprised', 'happy']);
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Test answer', suggestions: [] });
+
+      expect(responseHistory).toEqual(['Test answer']);
     });
 
     it('should handle error states correctly', () => {
-      const emotionHistory: AvatarEmotion[] = [];
+      const errorHistory: string[] = [];
 
-      function AvatarComponent() {
-        useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, (event) => {
-          emotionHistory.push(event.emotion);
+      function ErrorComponent() {
+        useEvent(EVENT_TYPES.CHAT_ERROR, (event) => {
+          errorHistory.push(event.error);
         });
-        useEvent(EVENT_TYPES.CHAT_ERROR, () => {
-          eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'derp' });
-        });
-        return <div>Avatar</div>;
+        return <div>Error Handler</div>;
       }
 
-      render(<AvatarComponent />);
+      render(<ErrorComponent />);
 
       eventBus.emit(EVENT_TYPES.CHAT_ERROR, { error: 'Something went wrong' });
 
-      expect(emotionHistory).toContain('derp');
-    });
-
-    it('should handle rate limiting state', () => {
-      const emotionHistory: AvatarEmotion[] = [];
-
-      function AvatarComponent() {
-        useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, (event) => {
-          emotionHistory.push(event.emotion);
-        });
-        return <div>Avatar</div>;
-      }
-
-      render(<AvatarComponent />);
-
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'tired' });
-
-      expect(emotionHistory).toContain('tired');
+      expect(errorHistory).toContain('Something went wrong');
     });
   });
 
@@ -172,10 +153,10 @@ describe('Event System Integration Tests', () => {
       render(<ChatComponent />);
 
       screen.getByTestId('q1').click();
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'A1' });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'A1', suggestions: [] });
 
       screen.getByTestId('q2').click();
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'A2' });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'A2', suggestions: [] });
 
       expect(conversation).toEqual([
         { question: 'Q1' },
@@ -189,16 +170,10 @@ describe('Event System Integration Tests', () => {
   describe('Error propagation', () => {
     it('should propagate errors through the system', () => {
       const errors: string[] = [];
-      const emotionHistory: AvatarEmotion[] = [];
 
       function ErrorHandlingComponent() {
         useEvent(EVENT_TYPES.CHAT_ERROR, (event) => {
           errors.push(event.error);
-          eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'derp' });
-        });
-
-        useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, (event) => {
-          emotionHistory.push(event.emotion);
         });
 
         return <div>Error Handler</div>;
@@ -209,7 +184,6 @@ describe('Event System Integration Tests', () => {
       eventBus.emit(EVENT_TYPES.CHAT_ERROR, { error: 'API Error' });
 
       expect(errors).toEqual(['API Error']);
-      expect(emotionHistory).toContain('derp');
     });
 
     it('should handle error recovery flow', () => {
@@ -246,14 +220,14 @@ describe('Event System Integration Tests', () => {
 
   describe('Multiple components communication', () => {
     it('should allow multiple components to communicate via events', () => {
-      const avatarEmotions: AvatarEmotion[] = [];
+      const questions: string[] = [];
       const chatMessages: string[] = [];
 
-      function AvatarComponent() {
-        useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, (event) => {
-          avatarEmotions.push(event.emotion);
+      function QuestionComponent() {
+        useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, (event) => {
+          questions.push(event.question);
         });
-        return <div data-testid="avatar">Avatar</div>;
+        return <div data-testid="questions">Questions</div>;
       }
 
       function ChatComponent() {
@@ -270,7 +244,6 @@ describe('Event System Integration Tests', () => {
             data-testid="send"
             onClick={() => {
               emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
-              emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'thinking' });
             }}
           >
             Send
@@ -280,7 +253,7 @@ describe('Event System Integration Tests', () => {
 
       render(
         <>
-          <AvatarComponent />
+          <QuestionComponent />
           <ChatComponent />
           <InputComponent />
         </>
@@ -288,13 +261,11 @@ describe('Event System Integration Tests', () => {
 
       screen.getByTestId('send').click();
 
-      expect(avatarEmotions).toEqual(['thinking']);
+      expect(questions).toEqual(['test']);
 
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Response' });
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Response', suggestions: [] });
 
       expect(chatMessages).toEqual(['Response']);
-      expect(avatarEmotions).toEqual(['thinking', 'happy']);
     });
   });
 
@@ -307,16 +278,12 @@ describe('Event System Integration Tests', () => {
           eventOrder.push('question');
         });
 
-        useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, (event) => {
-          if (event.emotion === 'thinking') {
-            eventOrder.push('thinking');
-          } else if (event.emotion === 'happy') {
-            eventOrder.push('happy');
-          }
-        });
-
         useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, () => {
           eventOrder.push('response');
+        });
+
+        useEvent(EVENT_TYPES.CHAT_ERROR, () => {
+          eventOrder.push('error');
         });
 
         return <div>Order Test</div>;
@@ -325,11 +292,10 @@ describe('Event System Integration Tests', () => {
       render(<OrderTestComponent />);
 
       eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'thinking' });
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer' });
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [] });
+      eventBus.emit(EVENT_TYPES.CHAT_ERROR, { error: 'error' });
 
-      expect(eventOrder).toEqual(['question', 'thinking', 'response', 'happy']);
+      expect(eventOrder).toEqual(['question', 'response', 'error']);
     });
   });
 });

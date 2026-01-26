@@ -39,14 +39,14 @@ function InputComponent() {
 import { useEvent } from '../hooks/useEventBus';
 import { EVENT_TYPES } from '../events/eventTypes';
 
-function AvatarComponent() {
-  const [emotion, setEmotion] = useState('happy');
+function ChatComponent() {
+  const [answer, setAnswer] = useState('');
   
-  useEvent(EVENT_TYPES.AVATAR_SET_EMOTION, (event) => {
-    setEmotion(event.emotion);
+  useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, (event) => {
+    setAnswer(event.answer);
   });
   
-  return <AvatarFace expression={emotion} />;
+  return <div>{answer}</div>;
 }
 ```
 
@@ -77,12 +77,12 @@ import { eventBus } from '../events/eventBus';
 import { EVENT_TYPES } from '../events/eventTypes';
 
 // Subscribe
-const unsubscribe = eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, (event) => {
-  console.log(event.emotion);
+const unsubscribe = eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, (event) => {
+  console.log(event.question);
 });
 
 // Emit
-eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
 // Unsubscribe
 unsubscribe();
@@ -92,9 +92,9 @@ unsubscribe();
 
 All event types are defined in `eventTypes.ts`:
 
-- `EVENT_TYPES.AVATAR_SET_EMOTION` - Change avatar emotion
 - `EVENT_TYPES.CHAT_QUESTION_ASKED` - User submitted a question
 - `EVENT_TYPES.CHAT_RESPONSE_RECEIVED` - AI response received
+- `EVENT_TYPES.INITIAL_SUGGESTIONS_RECEIVED` - Initial suggestions received
 - `EVENT_TYPES.CHAT_ERROR` - Error occurred
 - `EVENT_TYPES.CHAT_READY` - Chat system ready
 

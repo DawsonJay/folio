@@ -5,7 +5,6 @@ import type { ChatEvent } from '../../events/eventTypes';
 
 describe('EventBus', () => {
   beforeEach(() => {
-    eventBus.clear(EVENT_TYPES.AVATAR_SET_EMOTION);
     eventBus.clear(EVENT_TYPES.CHAT_QUESTION_ASKED);
     eventBus.clear(EVENT_TYPES.CHAT_RESPONSE_RECEIVED);
     eventBus.clear(EVENT_TYPES.CHAT_ERROR);
@@ -22,9 +21,9 @@ describe('EventBus', () => {
   describe('Listener registration (on)', () => {
     it('should register a listener and return unsubscribe function', () => {
       const callback = vi.fn();
-      const unsubscribe = eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      const unsubscribe = eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(1);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(1);
       expect(typeof unsubscribe).toBe('function');
     });
 
@@ -33,19 +32,19 @@ describe('EventBus', () => {
       const callback2 = vi.fn();
       const callback3 = vi.fn();
 
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback1);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback2);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback3);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback1);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback2);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback3);
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(3);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(3);
     });
 
     it('should not register the same callback twice', () => {
       const callback = vi.fn();
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(1);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(1);
     });
   });
 
@@ -55,11 +54,11 @@ describe('EventBus', () => {
       const callback2 = vi.fn();
       const callback3 = vi.fn();
 
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback1);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback2);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback3);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback1);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback2);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback3);
 
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
       expect(callback1).toHaveBeenCalledTimes(1);
       expect(callback2).toHaveBeenCalledTimes(1);
@@ -68,33 +67,34 @@ describe('EventBus', () => {
 
     it('should pass correct event data to listeners', () => {
       const callback = vi.fn();
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'thinking' });
+      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test question' });
 
       expect(callback).toHaveBeenCalledWith({
-        type: EVENT_TYPES.AVATAR_SET_EMOTION,
-        emotion: 'thinking',
+        type: EVENT_TYPES.CHAT_QUESTION_ASKED,
+        question: 'test question',
       });
     });
 
     it('should handle events with different payload structures', () => {
-      const avatarCallback = vi.fn();
-      const chatCallback = vi.fn();
+      const questionCallback = vi.fn();
+      const responseCallback = vi.fn();
 
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, avatarCallback);
-      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, chatCallback);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, questionCallback);
+      eventBus.on(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, responseCallback);
 
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
-      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'What is React?' });
+      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [] });
 
-      expect(avatarCallback).toHaveBeenCalledWith({
-        type: EVENT_TYPES.AVATAR_SET_EMOTION,
-        emotion: 'happy',
-      });
-      expect(chatCallback).toHaveBeenCalledWith({
+      expect(questionCallback).toHaveBeenCalledWith({
         type: EVENT_TYPES.CHAT_QUESTION_ASKED,
-        question: 'What is React?',
+        question: 'test',
+      });
+      expect(responseCallback).toHaveBeenCalledWith({
+        type: EVENT_TYPES.CHAT_RESPONSE_RECEIVED,
+        answer: 'answer',
+        suggestions: [],
       });
     });
 
@@ -111,9 +111,9 @@ describe('EventBus', () => {
 
     it('should not call listeners for different event types', () => {
       const callback = vi.fn();
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
-      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [] });
 
       expect(callback).not.toHaveBeenCalled();
     });
@@ -124,11 +124,11 @@ describe('EventBus', () => {
       const callback2 = () => callOrder.push(2);
       const callback3 = () => callOrder.push(3);
 
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback1);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback2);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback3);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback1);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback2);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback3);
 
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
       expect(callOrder).toEqual([1, 2, 3]);
     });
@@ -139,14 +139,14 @@ describe('EventBus', () => {
       const callback1 = vi.fn();
       const callback2 = vi.fn();
 
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback1);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback2);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback1);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback2);
 
-      eventBus.off(EVENT_TYPES.AVATAR_SET_EMOTION, callback1);
+      eventBus.off(EVENT_TYPES.CHAT_QUESTION_ASKED, callback1);
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(1);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(1);
 
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
       expect(callback1).not.toHaveBeenCalled();
       expect(callback2).toHaveBeenCalledTimes(1);
@@ -155,7 +155,7 @@ describe('EventBus', () => {
     it('should handle removing non-existent listener gracefully', () => {
       const callback = vi.fn();
       expect(() => {
-        eventBus.off(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+        eventBus.off(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
       }).not.toThrow();
     });
   });
@@ -163,33 +163,33 @@ describe('EventBus', () => {
   describe('Unsubscribe function', () => {
     it('should remove listener when unsubscribe is called', () => {
       const callback = vi.fn();
-      const unsubscribe = eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      const unsubscribe = eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(1);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(1);
 
       unsubscribe();
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(0);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(0);
     });
 
     it('should prevent listener from being called after unsubscribe', () => {
       const callback = vi.fn();
-      const unsubscribe = eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      const unsubscribe = eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
       unsubscribe();
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
       expect(callback).not.toHaveBeenCalled();
     });
 
     it('should handle multiple unsubscribe calls gracefully', () => {
       const callback = vi.fn();
-      const unsubscribe = eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      const unsubscribe = eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
       unsubscribe();
       unsubscribe();
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(0);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(0);
     });
   });
 
@@ -199,15 +199,15 @@ describe('EventBus', () => {
       const callback2 = vi.fn();
       const callback3 = vi.fn();
 
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback1);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback2);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback3);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback1);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback2);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback3);
 
-      eventBus.clear(EVENT_TYPES.AVATAR_SET_EMOTION);
+      eventBus.clear(EVENT_TYPES.CHAT_QUESTION_ASKED);
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(0);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(0);
 
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
       expect(callback1).not.toHaveBeenCalled();
       expect(callback2).not.toHaveBeenCalled();
@@ -222,11 +222,11 @@ describe('EventBus', () => {
       });
       const normalCallback = vi.fn();
 
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, errorCallback);
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, normalCallback);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, errorCallback);
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, normalCallback);
 
       expect(() => {
-        eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+        eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
       }).not.toThrow();
 
       expect(normalCallback).toHaveBeenCalledTimes(1);
@@ -238,8 +238,8 @@ describe('EventBus', () => {
         throw new Error('Test error');
       });
 
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, errorCallback);
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, errorCallback);
+      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
 
       expect(consoleSpy).toHaveBeenCalledWith(
         expect.stringContaining('Error in event listener'),
@@ -253,33 +253,33 @@ describe('EventBus', () => {
   describe('Memory leak prevention', () => {
     it('should clean up listeners when unsubscribe is called', () => {
       const callback = vi.fn();
-      const unsubscribe = eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      const unsubscribe = eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(1);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(1);
 
       unsubscribe();
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(0);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(0);
     });
 
     it('should remove empty listener sets', () => {
       const callback = vi.fn();
-      const unsubscribe = eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
+      const unsubscribe = eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
       unsubscribe();
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(0);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(0);
     });
   });
 
   describe('Type safety', () => {
     it('should enforce correct payload types at compile time', () => {
-      const callback = (event: Extract<ChatEvent, { type: typeof EVENT_TYPES.AVATAR_SET_EMOTION }>) => {
-        expect(event.emotion).toBeDefined();
+      const callback = (event: Extract<ChatEvent, { type: typeof EVENT_TYPES.CHAT_QUESTION_ASKED }>) => {
+        expect(event.question).toBeDefined();
       };
 
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, callback);
-      eventBus.emit(EVENT_TYPES.AVATAR_SET_EMOTION, { emotion: 'happy' });
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
+      eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
     });
 
     it('should prevent emitting wrong payload types', () => {
@@ -297,15 +297,15 @@ describe('EventBus', () => {
 
   describe('Listener count', () => {
     it('should return 0 for event types with no listeners', () => {
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(0);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(0);
     });
 
     it('should return correct count for event types with listeners', () => {
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, vi.fn());
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, vi.fn());
-      eventBus.on(EVENT_TYPES.AVATAR_SET_EMOTION, vi.fn());
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, vi.fn());
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, vi.fn());
+      eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, vi.fn());
 
-      expect(eventBus.listenerCount(EVENT_TYPES.AVATAR_SET_EMOTION)).toBe(3);
+      expect(eventBus.listenerCount(EVENT_TYPES.CHAT_QUESTION_ASKED)).toBe(3);
     });
   });
 });
