@@ -1,0 +1,29 @@
+@keyframes accent-appear {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  50% {opacity: 1;}
+  100% {
+    opacity: 0;
+    transform: translate(5px, -5px);
+  }
+}
+
+.accent {
+  position: absolute;
+  top: 0px;
+  right: -30px;
+  z-index: 2;
+  animation: accent-appear 0.7s ease-out forwards;
+  width: 50%;
+  height: 50%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+  }
+}
+

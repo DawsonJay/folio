@@ -1,0 +1,80 @@
+@use '../theme' as *;
+
+@keyframes arrow-bob {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes arrow-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes arrow-bob-hover {
+  0% {
+    transform: translateX(0) rotate(360deg);
+  }
+  50% {
+    transform: translateX(4px) rotate(360deg);
+  }
+  100% {
+    transform: translateX(0) rotate(360deg);
+  }
+}
+
+.header {
+  height: 40px;
+  width: 100%;
+  background-color: $bg-header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 $spacing-md;
+  position: relative;
+  z-index: 1;
+}
+
+.header-name {
+  color: $primary-white;
+  font-family: $font-sans;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-button {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  color: $accent;
+  text-decoration: none;
+  font-family: $font-sans;
+  font-weight: 500;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: lighten($accent, 15%);
+
+    .header-arrow {
+      animation: arrow-spin 0.3s ease-in-out, arrow-bob-hover 0.8s ease-in-out 0.3s infinite;
+    }
+  }
+}
+
+.header-arrow {
+  color: currentColor;
+  animation: arrow-bob 1.5s ease-in-out infinite;
+  transform-origin: center;
+}
+

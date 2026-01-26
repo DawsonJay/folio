@@ -1,0 +1,33 @@
+@use '../theme' as *;
+@use '../mixins' as *;
+
+.chat-bubble {
+  width: 100%;
+  padding-top: 12px;
+  transition: height 0.3s ease-out;
+}
+
+.chat-bubble-content {
+  position: relative;
+  background-color: $ui-base;
+  border-radius: $radius-lg;
+  padding: $spacing-md $spacing-lg;
+  color: $primary-black;
+  font-family: $font-sans;
+  overflow-y: auto;
+  max-height: calc(100vh - 350px);
+
+  @include custom-scrollbar();
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background-color: $ui-base;
+  }
+}
+

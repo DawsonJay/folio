@@ -180,15 +180,20 @@
     - **Verify:** All notes are stored, vectors are searchable, metadata is preserved, upsert is idempotent
     - **Build:** Create script or function to upsert all notes to Pinecone, handle errors, verify completion
 
-- [ ] **Chat API Endpoint**
-  - **Test:** Chat endpoint accepts questions and returns RAG-powered answers
-  - **Verify:** POST /api/chat accepts question, returns answer with sources, rate limiting works, errors are handled
-  - **Build:** Create `backend/app/api/chat.py` with chat endpoint, integrate RAG service, rate limiter, error handling
+- [x] **Chat API Endpoint (Mock)**
+  - **Test:** Chat endpoint accepts questions and returns mock answers
+  - **Verify:** POST /api/chat accepts question, returns answer with suggestions, delays 3 seconds, errors are handled
+  - **Build:** Created `backend/app/api/chat.py` with mock chat endpoint, Pydantic models, 3 second delay, hardcoded responses
 
-  - [ ] **Chat Endpoint Implementation**
+  - [x] **Chat Endpoint Implementation**
     - **Test:** Endpoint handles chat requests correctly
-    - **Verify:** Request validation works, RAG service is called, response is formatted, status codes are correct
-    - **Build:** Create POST /api/chat endpoint with request validation, RAG service integration, response formatting
+    - **Verify:** Request validation works, response is formatted, status codes are correct, delay works
+    - **Build:** Created POST /api/chat endpoint with Pydantic request/response models, async delay, mock response data
+
+  - [x] **Initial Suggestions Endpoint**
+    - **Test:** Endpoint returns initial suggestions for users to start conversations
+    - **Verify:** GET /api/suggestions returns 6 starter questions, delays 1 second, response format matches frontend types
+    - **Build:** Created GET /api/suggestions endpoint with 1 second delay, hardcoded initial suggestions matching frontend format
 
   - [ ] **Session Management**
     - **Test:** Chat endpoint creates and manages sessions

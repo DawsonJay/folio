@@ -1,0 +1,70 @@
+@use '../theme' as *;
+
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+  width: 100%;
+  justify-content: center;
+}
+
+.suggestion-chip {
+  background-color: $ui-secondary;
+  color: $primary-white;
+  border: none;
+  border-radius: $radius-md;
+  padding: $spacing-xs $spacing-sm;
+  font-family: $font-sans;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  white-space: nowrap;
+  flex: 1 1 auto;
+  max-width: 100%;
+  animation: fadeIn 0.3s ease-in;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &:hover:not(:disabled) {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(0);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.suggestion-skeleton {
+  background-color: rgba($ui-secondary, 0.3);
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+  pointer-events: none;
+  padding: $spacing-xs $spacing-sm;
+  height: 23px;
+  box-sizing: border-box;
+}
+
+@keyframes skeleton-pulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

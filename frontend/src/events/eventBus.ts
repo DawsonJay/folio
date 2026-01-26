@@ -4,7 +4,17 @@ import { logEvent } from '../utils/eventLogger';
 type EventCallback<T extends ChatEvent> = (event: T) => void;
 
 class EventBus {
+  private static instance: EventBus;
   private listeners: Map<EventType, Set<EventCallback<ChatEvent>>> = new Map();
+
+  private constructor() {}
+
+  static getInstance(): EventBus {
+    if (!EventBus.instance) {
+      EventBus.instance = new EventBus();
+    }
+    return EventBus.instance;
+  }
 
   on<T extends EventType>(
     eventType: T,
@@ -69,5 +79,5 @@ class EventBus {
   }
 }
 
-export const eventBus = new EventBus();
+export const eventBus = EventBus.getInstance();
 

@@ -20,125 +20,125 @@
     - **Verify:** Hook provides event bus instance, listeners are cleaned up on unmount, hook can be used in multiple components
     - **Build:** Create `frontend/src/hooks/useEventBus.ts` with useEvent and useEmit hooks that handle subscription and emission with automatic cleanup
 
-- [ ] **Type Definitions**
+- [x] **Type Definitions**
   - **Test:** Shared TypeScript types are available for all components
   - **Verify:** Types can be imported and used across components, type safety is maintained
   - **Build:** Create `frontend/src/types/index.ts` with interfaces for Message, Suggestion, APIResponse, and other shared types
 
-- [ ] **Header Component**
-  - **Test:** Header displays name and "Get in Touch" link at top of page
-  - **Verify:** Header renders with dark background (#2D4A42), name is visible, link navigates to contact page or section
-  - **Build:** Create `frontend/src/components/Header.tsx` with dark header strip, name display, and "Get in Touch" link, styled with bg-header color
+- [x] **Header Component**
+  - **Test:** Header displays name and "Reach Out" link at top of page
+  - **Verify:** Header renders with dark background (#2D4A42), name is visible and clickable (links to home), link navigates to contact page, arrow has idle and hover animations
+  - **Build:** Created `frontend/src/components/Header.tsx` with dark header strip, clickable name display, and "Reach Out" link with animated arrow icon, styled with bg-header color
 
-- [ ] **Avatar System**
+- [x] **Avatar System**
   - **Test:** Avatar displays expressions and responds to events, accents animate independently
   - **Verify:** Avatar shows correct expression for each emotion, accents appear/disappear correctly, transitions are smooth
   - **Build:** Create avatar components that listen to events, render expressions from image assets, animate accents
 
-  - [ ] **Avatar Core Components**
+  - [x] **Avatar Core Components**
     - **Test:** Base face and accent components render correctly from image assets
     - **Verify:** Face expressions load from assets, accents overlay correctly, images are properly imported
-    - **Build:** Create `frontend/src/components/AvatarFace.tsx` and `frontend/src/components/AvatarAccent.tsx` that render images from `frontend/src/assets/avatar/`
+    - **Build:** Create `frontend/src/avatar/Avatar.tsx` and `frontend/src/avatar/Accent.tsx` that render images from `frontend/src/assets/avatar/`
 
-  - [ ] **FolioAvatar Component**
+  - [x] **FolioAvatar Component**
     - **Test:** Main avatar component listens to events and displays correct expression with accent
     - **Verify:** Avatar transitions between expressions on events, correct accent appears for each emotion, default state is 'happy'
-    - **Build:** Create `frontend/src/components/FolioAvatar.tsx` that composes AvatarFace and AvatarAccent, listens to 'avatar:setEmotion' events, manages current expression state
+    - **Build:** Created `frontend/src/avatar/Avatar.tsx` that composes face image and Accent component, listens to 'avatar:setEmotion' events, manages current expression state
 
-  - [ ] **Avatar Animations**
+  - [x] **Avatar Animations**
     - **Test:** Accent animations work independently from face, animations are smooth
-    - **Verify:** Question marks float/rotate, sparkles twinkle/pulse, Z's drift upward, huff lines puff briefly, face stays stable
-    - **Build:** Add CSS animations or React animation library for accent animations (question marks, sparkles, zzz, huff)
+    - **Verify:** Accents animate with diagonal movement and fade-out, face has cheerful rocking idle animation, animations are smooth
+    - **Build:** Added CSS animations for accent (diagonal movement and fade-out) and avatar (rocking idle animation)
 
-  - [ ] **Avatar Event Integration**
+  - [x] **Avatar Event Integration**
     - **Test:** Avatar responds to all chat events correctly
     - **Verify:** 'chat:questionAsked' → thinking, 'chat:responseReceived' → surprised then happy, error events → appropriate error states
-    - **Build:** Connect avatar to event bus, handle all event types, implement expression transition logic
+    - **Build:** Connected avatar to event bus, implemented emotion queue system with delay mechanism, handles all event types with appropriate emotion sequences
 
-- [ ] **Message Display**
+- [x] **Message Display**
   - **Test:** Single message bubble displays AI responses and updates when new response received
   - **Verify:** Message bubble shows current response, updates smoothly when new response arrives, empty state handled
-  - **Build:** Create `frontend/src/components/MessageBubble.tsx` that listens to 'chat:responseReceived' events, displays message text, styled with ui-base color
+  - **Build:** Created `frontend/src/components/ChatBubble.tsx` that listens to 'chat:responseReceived' events, displays message text, styled with ui-base color
 
-  - [ ] **Message Bubble Component**
+  - [x] **Message Bubble Component**
     - **Test:** Message bubble renders with correct styling and content
     - **Verify:** Background color is #F0F2F1, text color is #1E2A26, rounded corners, proper padding, content updates on events
-    - **Build:** Create MessageBubble component with Tailwind classes using ui-base and primary-black colors, listens to event bus
+    - **Build:** Created ChatBubble component with Sass styling using ui-base and primary-black colors, listens to event bus, includes speech bubble point design
 
-  - [ ] **Message Content Handling**
+  - [x] **Message Content Handling**
     - **Test:** Message content displays correctly, empty state shows welcoming message
-    - **Verify:** Text renders properly, empty state appears when no message, content transitions smoothly
-    - **Build:** Implement message state management, empty state UI, content update logic
+    - **Verify:** Text renders properly, empty state appears when no message, content transitions smoothly, scrolling works when content exceeds space
+    - **Build:** Implemented message state management, initial welcome message, content update logic, height transitions, internal scrolling
 
-- [ ] **Input System**
+- [x] **Input System**
   - **Test:** User can type questions and submit them, input emits events correctly
-  - **Verify:** Input field accepts text, Enter key or button submits, 'chat:questionAsked' event is emitted, input clears after submit
-  - **Build:** Create `frontend/src/components/InputBox.tsx` with text input, submit button, event emission, disabled state during processing
+  - **Verify:** Input field accepts text, Enter key or button submits, 'chat:questionAsked' event is emitted, input clears when response received
+  - **Build:** Created `frontend/src/components/InputBox.tsx` with text input, submit button with magnifying glass icon, event emission, event-driven disabled state, animations
 
-  - [ ] **Input Component**
+  - [x] **Input Component**
     - **Test:** Input field is styled correctly and functional
-    - **Verify:** Background color is #F0F2F1, text color is #1E2A26, input is accessible, submit works
-    - **Build:** Create InputBox component with Tailwind styling, form handling, Enter key support
+    - **Verify:** Background color is #F0F2F1, text color is #1E2A26, accent-colored submit button with white icon, animations work, disabled state with grey shade
+    - **Build:** Created InputBox component with Sass styling, form handling, Enter key support, magnifying glass icon with idle rock animation, hover effects, click spin animation
 
-  - [ ] **Input Event Integration**
-    - **Test:** Input emits correct events on submit and when ready
-    - **Verify:** 'chat:questionAsked' emitted on submit, 'chat:ready' emitted when input is ready, events include question text
-    - **Build:** Connect input to event bus, emit events with question data, handle submit logic
+  - [x] **Input Event Integration**
+    - **Test:** Input emits correct events on submit and responds to chat events
+    - **Verify:** 'chat:questionAsked' emitted on submit, input disables on question asked, enables on response/error, input clears when response received
+    - **Build:** Connected input to event bus, emits events with question data, listens to events for disabled state management, clears input on response
 
-- [ ] **Suggestions System**
+- [x] **Suggestions System**
   - **Test:** Suggested questions appear in empty state and after responses, clicking fills input
   - **Verify:** Suggestions show when no question asked, suggestions appear after response, clicking suggestion submits question
-  - **Build:** Create `frontend/src/components/FollowUpSuggestions.tsx` with suggestion chips, click handlers, conditional rendering
+  - **Build:** Created `frontend/src/components/Suggestions.tsx` with suggestion chips, click handlers, conditional rendering, skeleton loaders
 
-  - [ ] **Suggestions Component**
+  - [x] **Suggestions Component**
     - **Test:** Suggestions render with correct styling and are clickable
     - **Verify:** Background color is #5B8A7A, text color is #E8E8D8, chips are clickable, animations are smooth
-    - **Build:** Create FollowUpSuggestions component with Tailwind styling using ui-secondary and primary-white colors
+    - **Build:** Created Suggestions component with Sass styling using ui-secondary and primary-white colors, flex-wrap layout, varied skeleton loaders
 
-  - [ ] **Suggestions Logic**
+  - [x] **Suggestions Logic**
     - **Test:** Suggestions appear at correct times and trigger input submission
     - **Verify:** Empty state suggestions show initially, follow-up suggestions show after response, clicking suggestion fills and submits input
-    - **Build:** Implement suggestion state management, empty state detection, suggestion click handlers that emit events
+    - **Build:** Implemented suggestion state management, loading state with skeletons, suggestion click handlers that emit events, input value population on suggestion click
 
-- [ ] **API Integration**
-  - **Test:** Mock API client simulates backend responses and emits events
+- [x] **API Integration**
+  - **Test:** API client connects to backend and emits events
   - **Verify:** API function accepts questions, returns responses after delay, emits 'chat:responseReceived' events, handles errors
-  - **Build:** Create `frontend/src/api/chatApi.ts` with mock sendQuestion function, simulated delay, sample responses, event emission
+  - **Build:** Created `frontend/src/api/chatApi.ts` with fetchInitialSuggestions and sendQuestion functions, `frontend/src/api/ChatApiClient.ts` singleton class that handles API calls via events
 
-  - [ ] **Mock API Client**
-    - **Test:** Mock API returns responses based on questions or randomly
-    - **Verify:** Function returns response object, delay is 1-2 seconds, response structure matches expected format
-    - **Build:** Create chatApi.ts with async sendQuestion function, setTimeout for delay, mock response data
+  - [x] **API Client Functions**
+    - **Test:** API functions make HTTP requests to backend endpoints
+    - **Verify:** Functions return response objects, handle errors, response structure matches expected format
+    - **Build:** Created chatApi.ts with async fetchInitialSuggestions and sendQuestion functions, proper error handling, uses VITE_API_URL or vite proxy
 
-  - [ ] **API Event Integration**
+  - [x] **API Event Integration**
     - **Test:** API client emits events when responses are received or errors occur
     - **Verify:** 'chat:responseReceived' emitted on success, 'chat:error' emitted on failure, events include response data
-    - **Build:** Connect API client to event bus, emit events with response/error data, handle different response types
+    - **Build:** Created ChatApiClient singleton class that listens to events, makes API calls, and emits responses via event bus
 
-- [ ] **Landing Page**
+- [x] **Landing Page**
   - **Test:** All components are composed together and work as integrated system
-  - **Verify:** Header, Avatar, MessageBubble, InputBox, and FollowUpSuggestions all render and communicate via events
-  - **Build:** Create `frontend/src/pages/LandingPage.tsx` that imports and composes all components, handles event flow
+  - **Verify:** Header, Avatar, ChatBubble, InputBox, and Suggestions all render and communicate via events
+  - **Build:** Created `frontend/src/pages/LandingPage.tsx` that imports and composes all components, handles event flow
 
-  - [ ] **Landing Page Layout**
+  - [x] **Landing Page Layout**
     - **Test:** Landing page has correct layout with centered container
-    - **Verify:** Container is max-width 600px, centered, padding 1rem, background extends full width
-    - **Build:** Create LandingPage component with container div, Tailwind classes for layout, proper spacing
+    - **Verify:** Container is max-width 600px, centered, padding, background extends full width, avatar section expands to fill space, input at bottom
+    - **Build:** Created LandingPage component with flexbox layout, avatar section uses flex: 1, input section pushed to bottom for mobile thumb access
 
-  - [ ] **Component Composition**
+  - [x] **Component Composition**
     - **Test:** All components are rendered in correct order and communicate
-    - **Verify:** Header at top, Avatar and MessageBubble in middle, InputBox and Suggestions at bottom, events flow correctly
-    - **Build:** Import all components, arrange in JSX, ensure event bus is shared across components
+    - **Verify:** Header at top, Avatar and ChatBubble in middle, InputBox and Suggestions at bottom, events flow correctly
+    - **Build:** Imported all components, arranged in JSX with proper sections, event bus shared across components
 
-  - [ ] **Event Flow Integration**
+  - [x] **Event Flow Integration**
     - **Test:** Complete event flow works from input to response to avatar updates
     - **Verify:** User submits question → avatar thinks → API responds → avatar surprised → avatar happy → suggestions appear
-    - **Build:** Wire up complete event flow, connect API client to input, ensure all components respond to events
+    - **Build:** Wired up complete event flow, connected API client to input, all components respond to events, created INITIAL_SUGGESTIONS_RECEIVED event for clean separation
 
-- [ ] **App Integration**
+- [x] **App Integration**
   - **Test:** App.tsx renders LandingPage instead of health check
   - **Verify:** LandingPage is displayed, old health check code is removed, app loads correctly
-  - **Build:** Update `frontend/src/App.tsx` to import and render LandingPage, remove health check code
+  - **Build:** Updated `frontend/src/App.tsx` to import and render LandingPage, removed health check code, initialized ChatApiClient in main.tsx
 
 - [ ] **Styling & Polish**
   - **Test:** All styling matches design specifications, responsive design works
