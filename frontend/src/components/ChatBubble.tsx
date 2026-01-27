@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useEvent } from '../hooks/useEventBus';
+import { useConstrainedHeight } from '../hooks/useConstrainedHeight';
 import { EVENT_TYPES } from '../events/eventTypes';
 
 interface ChatBubbleProps {
@@ -9,6 +10,8 @@ interface ChatBubbleProps {
 export default function ChatBubble({ children }: ChatBubbleProps) {
   const initialText = typeof children === 'string' ? children : '';
   const [text, setText] = useState<string>(initialText);
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (typeof children === 'string') {
@@ -20,9 +23,11 @@ export default function ChatBubble({ children }: ChatBubbleProps) {
     setText(event.answer);
   });
 
+  useConstrainedHeight(wrapperRef, contentRef);
+
   return (
-    <div className="chat-bubble">
-      <div className="chat-bubble-content">
+    <div ref={wrapperRef} className="chat-bubble">
+      <div ref={contentRef} className="chat-bubble-content">
         {text}
       </div>
     </div>
