@@ -6,12 +6,15 @@ export function useConstrainedHeight(
 ): void {
   useEffect(() => {
     const content = contentRef.current;
-    if (!content) return;
+    const wrapper = wrapperRef.current;
+    if (!content || !wrapper) return;
 
     const updateMaxHeight = () => {
+      const wrapperHeight = wrapper.clientHeight;
       const contentHeight = content.scrollHeight;
-      if (contentHeight > 0) {
-        content.style.setProperty('max-height', `${contentHeight}px`, 'important');
+      if (contentHeight > 0 && wrapperHeight > 0) {
+        const maxHeight = Math.min(contentHeight, wrapperHeight);
+        content.style.setProperty('max-height', `${maxHeight}px`, 'important');
         content.style.removeProperty('height');
       }
     };
@@ -21,6 +24,7 @@ export function useConstrainedHeight(
     });
     
     resizeObserver.observe(content);
+    resizeObserver.observe(wrapper);
     updateMaxHeight();
 
     return () => {

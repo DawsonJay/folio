@@ -8,11 +8,27 @@
   min-height: 0;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background-color: $ui-base;
+    z-index: 1;
+  }
 }
 
 .chat-bubble-content {
-  position: relative;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0;
   background-color: $ui-base;
   border-radius: $radius-lg;
   padding: $spacing-md $spacing-lg;
@@ -20,18 +36,18 @@
   font-family: $font-sans;
   overflow-y: auto;
   height: fit-content;
+  max-height: calc(100% - 12px);
+  transition: opacity 0.5s ease-in-out, max-height 0.3s ease-out;
 
   @include custom-scrollbar();
+}
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: -6px;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    width: 12px;
-    height: 12px;
-    background-color: $ui-base;
-  }
+.chat-bubble-content-active {
+  opacity: 1;
+}
+
+.chat-bubble-content-inactive {
+  opacity: 0;
+  pointer-events: none;
 }
 

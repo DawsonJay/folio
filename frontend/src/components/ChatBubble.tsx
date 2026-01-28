@@ -9,27 +9,53 @@ interface ChatBubbleProps {
 
 export default function ChatBubble({ children }: ChatBubbleProps) {
   const initialText = typeof children === 'string' ? children : '';
-  const [text, setText] = useState<string>(initialText);
+  const [activeBuffer, setActiveBuffer] = useState<number>(0);
+  const [buffers, setBuffers] = useState<[string, string]>([initialText, '']);
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const contentRef = useRef<HTMLDivElement>(null);
+  const refs = [useRef<HTMLDivElement>(null), useRef<HTMLDivElement>(null)];
+
+  const switchToBuffer = (text: string) => {
+    const inactiveBuffer = activeBuffer === 0 ? 1 : 0;
+    setBuffers(prev => {
+      const newBuffers: [string, string] = [...prev];
+      newBuffers[inactiveBuffer] = text;
+      return newBuffers;
+    });
+    setActiveBuffer(inactiveBuffer);
+  };
+
+  const updateActiveBuffer = (text: string) => {
+    setBuffers(prev => {
+      const newBuffers: [string, string] = [...prev];
+      newBuffers[activeBuffer] = text;
+      return newBuffers;
+    });
+  };
 
   useEffect(() => {
     if (typeof children === 'string') {
-      setText(children);
+      updateActiveBuffer(children);
     }
   }, [children]);
 
   useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, (event) => {
-    setText(event.answer);
+    switchToBuffer(event.answer);
   });
 
-  useConstrainedHeight(wrapperRef, contentRef);
+  useConstrainedHeight(wrapperRef, refs[0]);
+  useConstrainedHeight(wrapperRef, refs[1]);
 
   return (
     <div ref={wrapperRef} className="chat-bubble">
-      <div ref={contentRef} className="chat-bubble-content">
-        {text}
-      </div>
+      {buffers.map((text, index) => (
+        <div
+          key={index}
+          ref={refs[index]}
+          className={`chat-bubble-content ${activeBuffer === index ? 'chat-bubble-content-active' : 'chat-bubble-content-inactive'}`}
+        >
+          {text}
+        </div>
+      ))}
     </div>
   );
 }
