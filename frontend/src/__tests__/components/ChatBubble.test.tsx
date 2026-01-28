@@ -17,7 +17,7 @@ describe('ChatBubble Sizing Mechanics', () => {
       rafCallbacks.push(cb);
       return 1;
     });
-    global.requestAnimationFrame = mockRequestAnimationFrame;
+    globalThis.requestAnimationFrame = mockRequestAnimationFrame;
 
     const observe = vi.fn();
     const unobserve = vi.fn();
@@ -38,7 +38,7 @@ describe('ChatBubble Sizing Mechanics', () => {
     mockResizeObserver = vi.fn(MockResizeObserver);
     mockResizeObserver.mock.instances = [];
 
-    global.ResizeObserver = mockResizeObserver as any;
+    globalThis.ResizeObserver = mockResizeObserver as any;
   });
 
   afterEach(() => {
@@ -54,7 +54,6 @@ describe('ChatBubble Sizing Mechanics', () => {
     it('should pass both buffer refs to useConstrainedHeight', () => {
       const { container } = render(<ChatBubble>Initial text</ChatBubble>);
       
-      const wrapper = container.querySelector('.chat-bubble') as HTMLElement;
       const buffers = container.querySelectorAll('.chat-bubble-content');
       
       expect(buffers.length).toBe(2);
@@ -66,8 +65,8 @@ describe('ChatBubble Sizing Mechanics', () => {
       
       expect(mockResizeObserver).toHaveBeenCalledTimes(2);
       
-      const instances = mockResizeObserver.mock.results.map(r => r.value);
-      instances.forEach(instance => {
+      const instances = mockResizeObserver.mock.results.map((r: any) => r.value);
+      instances.forEach((instance: any) => {
         expect(instance.observe).toHaveBeenCalled();
       });
     });
@@ -159,7 +158,7 @@ describe('ChatBubble Sizing Mechanics', () => {
         Object.defineProperty(wrapper, 'clientHeight', { value: 500, configurable: true });
         Object.defineProperty(content, 'scrollHeight', { value: 100, configurable: true });
         
-        const instances = mockResizeObserver.mock.results.map(r => r.value);
+        const instances = mockResizeObserver.mock.results.map((r: any) => r.value);
         instances[0].callback();
         flushRAF();
 
@@ -187,7 +186,7 @@ describe('ChatBubble Sizing Mechanics', () => {
         Object.defineProperty(wrapper, 'clientHeight', { value: 500, configurable: true });
         Object.defineProperty(content, 'scrollHeight', { value: 1000, configurable: true });
         
-        const instances = mockResizeObserver.mock.results.map(r => r.value);
+        const instances = mockResizeObserver.mock.results.map((r: any) => r.value);
         instances[0].callback();
         flushRAF();
 
@@ -286,7 +285,7 @@ describe('ChatBubble Sizing Mechanics', () => {
 
   describe('ResizeObserver Behavior', () => {
     it('should update max-height when content text changes', async () => {
-      const { container } = render(
+      render(
         <div style={{ height: '500px' }}>
           <ChatBubble>Initial text</ChatBubble>
         </div>
@@ -296,7 +295,7 @@ describe('ChatBubble Sizing Mechanics', () => {
         flushRAF();
       });
 
-      const instances = mockResizeObserver.mock.results.map(r => r.value);
+      const instances = mockResizeObserver.mock.results.map((r: any) => r.value);
       const contentInstance = instances[0];
       
       contentInstance.callback();
@@ -306,7 +305,7 @@ describe('ChatBubble Sizing Mechanics', () => {
     });
 
     it('should update max-height when wrapper size changes', async () => {
-      const { container } = render(
+      render(
         <div style={{ height: '500px' }}>
           <ChatBubble>Text</ChatBubble>
         </div>
@@ -316,8 +315,8 @@ describe('ChatBubble Sizing Mechanics', () => {
         flushRAF();
       });
 
-      const instances = mockResizeObserver.mock.results.map(r => r.value);
-      const wrapperInstance = instances.find(inst => 
+      const instances = mockResizeObserver.mock.results.map((r: any) => r.value);
+      const wrapperInstance = instances.find((inst: any) => 
         inst.observe.mock.calls.some((call: any[]) => 
           call[0]?.classList?.contains('chat-bubble')
         )
@@ -333,8 +332,8 @@ describe('ChatBubble Sizing Mechanics', () => {
     it('should observe both content and wrapper', () => {
       render(<ChatBubble>Text</ChatBubble>);
 
-      const instances = mockResizeObserver.mock.results.map(r => r.value);
-      instances.forEach(instance => {
+      const instances = mockResizeObserver.mock.results.map((r: any) => r.value);
+      instances.forEach((instance: any) => {
         expect(instance.observe).toHaveBeenCalled();
       });
     });
@@ -342,11 +341,11 @@ describe('ChatBubble Sizing Mechanics', () => {
     it('should disconnect ResizeObserver on component unmount', () => {
       const { unmount } = render(<ChatBubble>Text</ChatBubble>);
 
-      const instances = mockResizeObserver.mock.results.map(r => r.value);
+      const instances = mockResizeObserver.mock.results.map((r: any) => r.value);
       
       unmount();
 
-      instances.forEach(instance => {
+      instances.forEach((instance: any) => {
         expect(instance.disconnect).toHaveBeenCalled();
       });
     });
@@ -382,7 +381,7 @@ describe('ChatBubble Sizing Mechanics', () => {
         Object.defineProperty(content, 'scrollHeight', { value: 1000, configurable: true });
         Object.defineProperty(container.querySelector('.chat-bubble') as HTMLElement, 'clientHeight', { value: 200, configurable: true });
         
-        const instances = mockResizeObserver.mock.results.map(r => r.value);
+        const instances = mockResizeObserver.mock.results.map((r: any) => r.value);
         instances[0].callback();
         flushRAF();
 
@@ -410,7 +409,7 @@ describe('ChatBubble Sizing Mechanics', () => {
         Object.defineProperty(content, 'scrollHeight', { value: 50, configurable: true });
         Object.defineProperty(container.querySelector('.chat-bubble') as HTMLElement, 'clientHeight', { value: 500, configurable: true });
         
-        const instances = mockResizeObserver.mock.results.map(r => r.value);
+        const instances = mockResizeObserver.mock.results.map((r: any) => r.value);
         instances[0].callback();
         flushRAF();
 
@@ -447,7 +446,7 @@ describe('ChatBubble Sizing Mechanics', () => {
     it('should handle empty text gracefully', async () => {
       const { container } = render(
         <div style={{ height: '500px' }}>
-          <ChatBubble></ChatBubble>
+          <ChatBubble>{''}</ChatBubble>
         </div>
       );
 
