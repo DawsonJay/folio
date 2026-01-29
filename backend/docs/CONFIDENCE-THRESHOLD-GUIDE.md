@@ -5,15 +5,21 @@ Practical guide for implementing and maintaining the confidence threshold system
 ## Quick Reference
 
 ```python
+VERY_LOW_THRESHOLD = 0.20
 CONFIDENCE_THRESHOLD = 0.40
 
-if top_score >= 0.40:
-    # Generate detailed answer (500 tokens max)
-    mode = "full_answer"
+# Check profanity first
+if profanity_filter.check_question(question)["has_profanity"]:
+    mode = "boundary_setting"
+elif top_score < 0.20:
+    mode = "off_topic"
+elif top_score < 0.40:
+    mode = "redirect"  # LLM with redirect prompt, 700 tokens max
 else:
-    # Generate redirect response (200 tokens max)
-    mode = "redirect"
+    mode = "full_answer"  # LLM with full prompt, 700 tokens max
 ```
+
+**For detailed prompt design, see:** `backend/docs/PROMPT-DESIGN.md`
 
 ## Architecture Overview
 

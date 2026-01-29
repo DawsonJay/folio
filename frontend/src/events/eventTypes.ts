@@ -27,7 +27,7 @@ export type AccentType =
 
 export type ChatEvent =
   | { type: typeof EVENT_TYPES.CHAT_QUESTION_ASKED; question: string }
-  | { type: typeof EVENT_TYPES.CHAT_RESPONSE_RECEIVED; answer: string; suggestions: Suggestion[] }
+  | { type: typeof EVENT_TYPES.CHAT_RESPONSE_RECEIVED; answer: string; suggestions: Suggestion[]; emotion: AvatarEmotion }
   | { type: typeof EVENT_TYPES.INITIAL_SUGGESTIONS_RECEIVED; suggestions: Suggestion[] }
   | { type: typeof EVENT_TYPES.CHAT_ERROR; error: string }
   | { type: typeof EVENT_TYPES.CHAT_READY };

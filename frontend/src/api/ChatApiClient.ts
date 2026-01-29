@@ -57,6 +57,7 @@ class ChatApiClient {
       eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, {
         answer: response.answer,
         suggestions: response.suggestions,
+        emotion: response.emotion,
       });
     } catch (error) {
       const errorMessage =

@@ -94,10 +94,10 @@ export default function Avatar() {
     });
   };
 
-  const responseSuccess = () => {
+  const responseSuccess = (emotion: AvatarEmotion) => {
     addToQueue([
       { emotion: 'surprised', accent: 'sparkles' },
-      { emotion: 'happy', accent: null },
+      { emotion, accent: null },
     ]);
   };
 
@@ -116,8 +116,8 @@ export default function Avatar() {
     responseQuestion();
   });
 
-  useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, () => {
-    responseSuccess();
+  useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, (data) => {
+    responseSuccess(data.emotion);
   });
 
   useEvent(EVENT_TYPES.CHAT_ERROR, () => {
