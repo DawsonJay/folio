@@ -1,0 +1,22 @@
+# Wonder and Connection: My Core Values
+
+My values system is built on two fundamental concepts that I think of as binary stars - Wonder and Connection. They orbit each other, equal and mutually supporting, each making the other more meaningful.
+
+Wonder is about curiosity, exploration, and understanding the world. It's what draws me to deep sea and space exploration - those extreme environments where only cleverness and engineering keep your probe alive, where you're reaching into the unknown to discover something new. It's about learning how things work, not just accepting that they do. It's the excitement of solving a difficult problem or understanding a complex system. Wonder is what makes me want to build things that help people explore and understand the natural world.
+
+Connection is about relationships, community, and how we relate to each other and the world around us. It's what makes me care about teaching and mentoring, about creating safe spaces where people can learn and grow. It's why I think about technology's impact on how humans relate to nature. It's the satisfaction I get from building tools that help people learn or connect with ideas in new ways. Connection is what makes me want my work to have meaning beyond just technical achievement.
+
+These two values support each other. Wonder without connection becomes isolated cleverness. Connection without wonder becomes stagnant routine. Together, they create a framework where I'm curious about the world and want to share that curiosity with others, where I care about people and want to help them discover and understand things that matter to them.
+
+My environmental values come from this framework. I want to help restore humanity's relationship with the world, but I don't think planting trees or recycling solves that when human culture is fundamentally about consumption and destruction. Real change comes from helping people understand and connect with the natural world in ways that make them want to protect it. Technology can either serve consumption or serve connection - I want to build things that help people truly see and value the world around them.
+
+This is why I'm drawn to exploration projects, especially in extreme environments. The deep sea and space aren't just technically interesting - they represent the ultimate expression of wonder and the potential for expanding human connection to places we've never experienced. Building a self-powered lunar clock like Lunascope isn't just a cool hardware project; it's about connecting technology to natural cycles in a way that makes people think about time differently. An underwater drone like Atlantis isn't just robotics; it's about making the unmapped deep accessible.
+
+My career decisions reflect these values. I left the Heriot-Watt AI program after first year because I realized I was there for the content, not the credential, and my time was better spent building actual projects. I'm building this portfolio and pursuing immigration to Canada because I want to work on projects that align with these values - environmental technology, exploration, systems that help people learn and connect. I'd rather work on something meaningful at lower pay than get rich building systems that don't matter to me.
+
+What I call my "small good" philosophy comes from these values too. I believe small, pure good things stack up and have ripple effects that can spark deep change. I don't trust "greater good" arguments that justify harm now for supposed future benefits. Leading by example, creating bright sparks, building things that genuinely help people understand and connect - that's how change happens.
+
+When I evaluate whether I want to work on something, I ask: Does this create wonder - does it help people explore, understand, or discover something? Does this create connection - does it bring people together, help them learn, or improve their relationship with the world? If the answer is yes to either, and especially if it's yes to both, then it's work that matters to me.
+
+These values show up in how I approach everything: technical decisions that prioritize long-term sustainability over short-term convenience, leadership that focuses on helping others grow, project choices that aim for real impact over impressive credentials, and communication that's authentic and thoughtful rather than performative. Wonder and Connection aren't just abstract ideals - they're the framework I use to navigate every significant decision in my career and life.
+

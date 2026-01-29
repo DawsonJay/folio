@@ -1,0 +1,28 @@
+# WhatNow: Contextual Bandits Implementation
+
+WhatNow uses contextual bandits, a reinforcement learning approach that's particularly well-suited for recommendation systems. Unlike supervised learning where you train on fixed datasets, or traditional reinforcement learning where you explore entire state spaces, contextual bandits learn continuously from partial feedback in real-world usage.
+
+The "contextual" part means the AI considers the current situation when making recommendations. I input five context dimensions: mood (anxious to excited), energy (tired to energized), social (alone to social), time available (minutes to hours), and weather (stormy to sunny). Each of these maps to a numerical value that represents my current state.
+
+The "bandit" part refers to the classic multi-armed bandit problem - imagine slot machines with different payout rates, and you need to balance trying machines to learn which are best (exploration) versus pulling the machines you know pay well (exploitation). In WhatNow, each activity is like a slot machine, and the context determines which activities are likely to be good choices right now.
+
+The implementation does feature engineering by combining context attributes with activity attributes. Each activity in the database has its own characteristics - some are high-energy, some are social, some require lots of time, some are indoor/outdoor dependent on weather. The AI learns patterns like "when energy is low and weather is rainy, indoor restful activities get selected" or "when mood is excited and social is high, group activities get selected."
+
+For the math, I'm using a linear contextual bandit model. For each activity, the AI maintains weight vectors that represent how strongly different context-activity feature combinations predict I'll select that activity. When generating recommendations, it computes scores for each activity based on the current context and these learned weights. Activities with higher predicted scores are more likely to be recommended.
+
+The learning happens through online updates - after each session where I make a final selection, the AI updates the weights for the chosen activity to better predict that choice given the context. This is different from batch learning where you collect lots of data then train periodically. Online learning means the system continuously improves from each interaction.
+
+What's interesting about my implementation is that it's custom code, not using standard ML libraries. I initially tried scikit-learn's contextual bandit implementations, but they were too heavy for my deployment constraints and didn't give me the flexibility I wanted for the two-layer architecture. Writing the contextual bandit logic myself meant I could implement exactly the behavior I wanted: lightweight Python code for Base AI on the backend, equivalent JavaScript code for Session AI on the frontend, and explicit control over learning rates and update rules.
+
+The feature engineering was crucial for making the system work well. I experimented with different ways to represent context-activity combinations: simple concatenation of values, polynomial features to capture interactions, normalized values to handle different scales. The current implementation uses carefully designed features that capture the relationships between context and activity attributes in ways that actually predict my preferences.
+
+One challenge was the cold start problem - how do you make reasonable recommendations before the AI has learned anything about me? The solution was to initialize with sensible priors based on general assumptions about activities. For example, high-energy activities start with small positive weights for high-energy contexts, social activities start associated with social contexts, etc. These priors mean the first session's recommendations are reasonable even though the AI hasn't learned my specific preferences yet.
+
+Exploration versus exploitation is handled through the recommendation strategy. The system doesn't just recommend the 50 activities with the absolute highest scores - it samples from activities with a probability based on their scores. This means there's always some chance of recommending activities the AI is less certain about, which provides exploration that helps it learn more completely about my preferences while still mostly recommending things it believes I'll like.
+
+From a reinforcement learning perspective, contextual bandits are simpler than full RL approaches like Q-learning or policy gradients, but that simplicity is a feature, not a bug. The problem WhatNow solves doesn't need the complexity of sequential decision-making or long-term planning. It needs to learn which activities I prefer in different contexts, and contextual bandits do exactly that with minimal complexity.
+
+What makes this implementation notable is that it's production AI that actually works. It's not a toy example or tutorial code - it's a system that runs continuously, learns from real usage, handles edge cases, and provides genuine utility. The fact that I can point to a live application where you can interact with the contextual bandit system and see how it behaves is much more valuable than just describing the algorithm in theory.
+
+For employers, this demonstrates I understand reinforcement learning beyond just knowing buzzwords. I can implement contextual bandits from scratch, make pragmatic engineering decisions about which ML approach fits the problem, handle the details of feature engineering and learning rate tuning, and deploy ML systems that work reliably in production. These are skills that separate developers who can build real AI systems from those who can only follow tutorials.
+

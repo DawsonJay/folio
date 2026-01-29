@@ -1,0 +1,20 @@
+# From Artist to Technology: A Creative Foundation
+
+My journey into technology began with art. I completed a Foundation Year in Illustration at the University of Derby, studying visual approaches, creative skills, and artistic techniques. This might seem like an unusual background for a software developer, but I've found that art and technology share more than people usually recognize.
+
+Both art and tech are fundamentally about taking an idea and making it real. In art, you have a vision and you figure out how to bring it into existence through drawing, painting, sculpture, or digital media. In technology, you have a concept and you figure out how to build it through code, architecture, and systems design. The creative process is remarkably similar - starting with something abstract, working through constraints and technical challenges, iterating based on what works, and ultimately producing something that exists in the world.
+
+The transition from art to technology was driven by practicality. I loved the creative aspects of art, but I became increasingly drawn to the problem-solving and systematic thinking involved in technical work. There's something deeply satisfying about building systems that work, about code that executes cleanly, about architecture that holds together under real-world use. Technology offered the same creative satisfaction as art, but with clearer feedback loops and more obvious paths to building sustainable career.
+
+What my artistic background gave me is a different way of thinking about technical problems. I approach UI design with an understanding of visual balance, color theory, and how people interact with visual information. When I built the theatrical diorama system for my portfolio website - with its layered SVG animations and color gradients from dark tech surfaces to warm paper lantern tones - that came from my artistic foundation. I think about how systems look and feel to users, not just whether they function correctly.
+
+The creative foundation also influences how I think about component architecture and system design. There's an aesthetic to good code - clean composition, elegant solutions, systems that feel naturally structured rather than forced. When I describe my architecture philosophy as "crystal formation" - simple components combining into sophisticated structure - that's a visual metaphor that comes from my art background.
+
+I completed an Access to HE Diploma in Science to bridge from art to technical education, achieving perfect performance in computing modules alongside strong results in mathematics and physics. This demonstrated I could handle the analytical and mathematical thinking required for technology, while my art foundation remained valuable for creative and visual aspects of software development.
+
+The combination of artistic creativity and technical skill has shaped my approach to projects. I'm drawn to work that has both technical depth and creative expression - like the synchronized scrolling and chunk highlighting in moh-ami, the theatrical animations in my portfolio, or the constraint-driven innovation in Lunascope where aesthetic choices (black copper patina) also serve functional purposes (thermal absorption for power generation).
+
+I don't think of myself as an artist who learned programming or a programmer with an art background. I'm someone who found that art and technology are different expressions of the same underlying drive - taking ideas and making them real in the world. The creative problem-solving, visual thinking, and appreciation for elegance I developed through art inform everything I build in technology.
+
+When employers see my background, some might worry about whether someone who started in art can handle rigorous technical work. My portfolio of production systems, complex algorithms, and deployed applications demonstrates that the transition is complete. But I haven't left the art behind - I've integrated it into how I approach technology, and I think that makes me a better developer because I think about both how systems work and how they feel to use.
+

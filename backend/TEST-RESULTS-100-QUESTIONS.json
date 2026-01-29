@@ -1,0 +1,2314 @@
+{
+  "overall_score": 3.84,
+  "score_distribution": {
+    "5": 28,
+    "4": 29,
+    "3": 42,
+    "2": 1,
+    "1": 0
+  },
+  "category_scores": {
+    "Technical Skills - General": 4.0,
+    "AI/ML Specific": 3.9,
+    "Project Deep Dives": 4.0,
+    "Technical Challenges": 3.7,
+    "Teamwork & Collaboration": 4.0,
+    "Work Experience": 3.8,
+    "Problem Solving": 3.8,
+    "Career & Growth": 3.6,
+    "Soft Skills & Values": 4.0,
+    "Specific Technologies": 3.6
+  },
+  "results": [
+    {
+      "question": "What programming languages are you most proficient in?",
+      "category": "Technical Skills - General",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "react-frontend-experience",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.41479019665996225,
+        0.35768336193822736,
+        0.34945686261424996
+      ]
+    },
+    {
+      "question": "Tell me about your experience with React",
+      "category": "Technical Skills - General",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "react-frontend-experience",
+        "whatnow-frontend-architecture-evolution",
+        "state-management-patterns"
+      ],
+      "top_scores": [
+        0.6730298854983214,
+        0.528533908951801,
+        0.5163092355730371
+      ]
+    },
+    {
+      "question": "What's your experience with Python?",
+      "category": "Technical Skills - General",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "ai-ml-experience",
+        "my-work-style-and-preferences"
+      ],
+      "top_scores": [
+        0.5773976067085426,
+        0.34600600919812713,
+        0.2865946249243958
+      ]
+    },
+    {
+      "question": "How comfortable are you with TypeScript?",
+      "category": "Technical Skills - General",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "moh-ami-typescript-type-safety",
+        "react-frontend-experience",
+        "css-frameworks-and-styling"
+      ],
+      "top_scores": [
+        0.610094157619178,
+        0.4388315872846431,
+        0.36544506012699357
+      ]
+    },
+    {
+      "question": "What databases have you worked with?",
+      "category": "Technical Skills - General",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "moh-ami-database-prisma",
+        "project-links-all"
+      ],
+      "top_scores": [
+        0.41908601249442845,
+        0.39766574803984245,
+        0.3833858180841925
+      ]
+    },
+    {
+      "question": "Tell me about your frontend development experience",
+      "category": "Technical Skills - General",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "react-frontend-experience",
+        "whatnow-frontend-architecture-evolution",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.642121608499028,
+        0.5414584441105292,
+        0.5399028260128438
+      ]
+    },
+    {
+      "question": "What's your backend development experience?",
+      "category": "Technical Skills - General",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "python-backend-experience",
+        "react-frontend-experience",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.576746328483873,
+        0.49992517840250666,
+        0.45996232635013923
+      ]
+    },
+    {
+      "question": "Have you worked with GraphQL?",
+      "category": "Technical Skills - General",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "moh-ami-graphql-api-design",
+        "react-frontend-experience",
+        "moh-ami-database-prisma"
+      ],
+      "top_scores": [
+        0.5690773761190796,
+        0.4429712434414333,
+        0.4068463910456225
+      ]
+    },
+    {
+      "question": "What's your experience with REST APIs?",
+      "category": "Technical Skills - General",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "moh-ami-graphql-api-design",
+        "react-frontend-experience"
+      ],
+      "top_scores": [
+        0.4274861993023634,
+        0.3699327091861287,
+        0.3562668073297314
+      ]
+    },
+    {
+      "question": "Tell me about your testing practices",
+      "category": "Technical Skills - General",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "folio-test-driven-development",
+        "debugging-and-problem-solving-process",
+        "moh-ami-development-iteration"
+      ],
+      "top_scores": [
+        0.48702976895212147,
+        0.44264461680582623,
+        0.4385400913276996
+      ]
+    },
+    {
+      "question": "What AI/ML experience do you have?",
+      "category": "AI/ML Specific",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "ai-ml-experience",
+        "llm-integration-experience",
+        "cirrus-ml-implementation"
+      ],
+      "top_scores": [
+        0.6155113461224245,
+        0.5500496375839149,
+        0.4943540175283182
+      ]
+    },
+    {
+      "question": "Tell me about a machine learning project you've built",
+      "category": "AI/ML Specific",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "ai-ml-experience",
+        "cirrus-ml-implementation",
+        "whatnow-overview-and-motivation"
+      ],
+      "top_scores": [
+        0.5807538130454759,
+        0.5105736879658194,
+        0.49435027420772637
+      ]
+    },
+    {
+      "question": "Do you have experience with LLMs?",
+      "category": "AI/ML Specific",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "llm-integration-experience",
+        "prompt-engineering-experience",
+        "moh-ami-llm-integration"
+      ],
+      "top_scores": [
+        0.5579803245114954,
+        0.3993995714094249,
+        0.3475462325279334
+      ]
+    },
+    {
+      "question": "What's your understanding of embeddings?",
+      "category": "AI/ML Specific",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "folio-embeddings-semantic-search",
+        "whatnow-metadata-to-embeddings-evolution",
+        "ai-ml-experience"
+      ],
+      "top_scores": [
+        0.5613863891697374,
+        0.43413500886524975,
+        0.3306253436560971
+      ]
+    },
+    {
+      "question": "Have you worked with recommendation systems?",
+      "category": "AI/ML Specific",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "whatnow-contextual-bandits-implementation",
+        "ai-ml-experience",
+        "hardest-bug-technical-problem"
+      ],
+      "top_scores": [
+        0.4389013657124747,
+        0.4231598351109287,
+        0.4052249573510132
+      ]
+    },
+    {
+      "question": "Tell me about contextual bandits",
+      "category": "AI/ML Specific",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "whatnow-contextual-bandits-implementation",
+        "hardest-bug-technical-problem",
+        "hardest-bug-detailed-story"
+      ],
+      "top_scores": [
+        0.5162224345548718,
+        0.35507715177578153,
+        0.35314347993556366
+      ]
+    },
+    {
+      "question": "What's your experience with RAG systems?",
+      "category": "AI/ML Specific",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "folio-rag-system-architecture",
+        "ai-ml-experience",
+        "llm-integration-experience"
+      ],
+      "top_scores": [
+        0.4366159165028351,
+        0.3572116160174754,
+        0.3340989243680852
+      ]
+    },
+    {
+      "question": "How do you approach AI project scoping?",
+      "category": "AI/ML Specific",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "cirrus-scope-lessons",
+        "ai-ml-experience",
+        "folio-deployment-and-links"
+      ],
+      "top_scores": [
+        0.49634400631038195,
+        0.4742669326180936,
+        0.4452743318961723
+      ]
+    },
+    {
+      "question": "What AI frameworks have you used?",
+      "category": "AI/ML Specific",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "ai-ml-experience",
+        "folio-rag-system-architecture",
+        "llm-integration-experience"
+      ],
+      "top_scores": [
+        0.5592485969939395,
+        0.4355344642378468,
+        0.4252123826867601
+      ]
+    },
+    {
+      "question": "Tell me about prompt engineering experience",
+      "category": "AI/ML Specific",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "prompt-engineering-experience",
+        "daily-responsibilities-at-nurtur",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.5120926337372348,
+        0.4171399881939259,
+        0.3987427872123827
+      ]
+    },
+    {
+      "question": "Tell me about your most successful project",
+      "category": "Project Deep Dives",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "integrations-dashboard-achievement",
+        "project-links-all",
+        "integrations-dashboard-overview"
+      ],
+      "top_scores": [
+        0.46011241777138107,
+        0.43731367470020593,
+        0.4315452890345156
+      ]
+    },
+    {
+      "question": "What's the most complex system you've built?",
+      "category": "Project Deep Dives",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "integrations-dashboard-achievement",
+        "nexus-dashboard-overview",
+        "project-links-all"
+      ],
+      "top_scores": [
+        0.4311458367080965,
+        0.4193623976523552,
+        0.39975287929291586
+      ]
+    },
+    {
+      "question": "Tell me about WhatNow",
+      "category": "Project Deep Dives",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "whatnow-overview-and-motivation",
+        "whatnow-deployment-and-links",
+        "whatnow-solving-dataset-problem"
+      ],
+      "top_scores": [
+        0.5108559356557375,
+        0.4529377306728569,
+        0.44907722173071035
+      ]
+    },
+    {
+      "question": "Tell me about moh-ami",
+      "category": "Project Deep Dives",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "moh-ami-overview-and-motivation",
+        "moh-ami-deployment-and-links",
+        "moh-ami-outcomes-learnings"
+      ],
+      "top_scores": [
+        0.49306799244754523,
+        0.4518907232469963,
+        0.44884773350620166
+      ]
+    },
+    {
+      "question": "Tell me about Atlantis",
+      "category": "Project Deep Dives",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "atlantis-mapping-system-architecture",
+        "atlantis-lora-communication-system",
+        "atlantis-deployment-and-links"
+      ],
+      "top_scores": [
+        0.4607073652281727,
+        0.4450128980765744,
+        0.42891921639380626
+      ]
+    },
+    {
+      "question": "What project are you most proud of?",
+      "category": "Project Deep Dives",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "integrations-dashboard-achievement",
+        "project-links-all",
+        "atlantis-overview-and-pivot"
+      ],
+      "top_scores": [
+        0.4180758001123833,
+        0.41709304473889314,
+        0.4119890105613532
+      ]
+    },
+    {
+      "question": "Tell me about a project that failed",
+      "category": "Project Deep Dives",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "jam-hot-failure-lessons",
+        "jam-hot-ai-journey-start",
+        "cirrus-scope-lessons"
+      ],
+      "top_scores": [
+        0.5037744971998391,
+        0.46202482357288926,
+        0.4404317425563226
+      ]
+    },
+    {
+      "question": "What's your current work project?",
+      "category": "Project Deep Dives",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "project-links-all",
+        "nexus-current-work-status",
+        "ai-ml-experience"
+      ],
+      "top_scores": [
+        0.4669190704826431,
+        0.435536650606786,
+        0.43027483849172526
+      ]
+    },
+    {
+      "question": "Show me examples of your work",
+      "category": "Project Deep Dives",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "project-links-all",
+        "portfolio-website-meta-demonstration",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.40342042048487087,
+        0.3773104513547079,
+        0.36858691935598464
+      ]
+    },
+    {
+      "question": "Which project best demonstrates your skills?",
+      "category": "Project Deep Dives",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "project-links-all",
+        "cirrus-technical-depth",
+        "atlantis-technical-achievements"
+      ],
+      "top_scores": [
+        0.5259302330747931,
+        0.5067632552270542,
+        0.4942296365053906
+      ]
+    },
+    {
+      "question": "Tell me about a difficult technical problem you solved",
+      "category": "Technical Challenges",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "hardest-bug-detailed-story",
+        "debugging-and-problem-solving-process",
+        "moh-ami-technical-challenges"
+      ],
+      "top_scores": [
+        0.46026659342498516,
+        0.44347319121379974,
+        0.43912365891336724
+      ]
+    },
+    {
+      "question": "What was your biggest technical challenge?",
+      "category": "Technical Challenges",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "moh-ami-technical-challenges",
+        "whatnow-technical-challenges-and-solutions",
+        "atlantis-hardware-evolution-pivot"
+      ],
+      "top_scores": [
+        0.4626789294402701,
+        0.43236094985903606,
+        0.4068986217546535
+      ]
+    },
+    {
+      "question": "How do you debug complex issues?",
+      "category": "Technical Challenges",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "hardest-bug-detailed-story",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.5483414943567435,
+        0.439739353134607,
+        0.3660303052832677
+      ]
+    },
+    {
+      "question": "Tell me about a time you had to learn something quickly",
+      "category": "Technical Challenges",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "learning-new-technologies-quickly",
+        "handling-stress-and-pressure",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.4610158961552598,
+        0.4228358866645949,
+        0.376679123171503
+      ]
+    },
+    {
+      "question": "How do you handle technical debt?",
+      "category": "Technical Challenges",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "integrations-dashboard-tech-decisions",
+        "handling-ambiguous-requirements",
+        "nexus-scalability-design"
+      ],
+      "top_scores": [
+        0.4178370908595142,
+        0.415243890237352,
+        0.39495194294778113
+      ]
+    },
+    {
+      "question": "What's the hardest bug you've fixed?",
+      "category": "Technical Challenges",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "hardest-bug-detailed-story",
+        "debugging-and-problem-solving-process",
+        "hardest-bug-technical-problem"
+      ],
+      "top_scores": [
+        0.46259938232811737,
+        0.3623507399137752,
+        0.2744524006534363
+      ]
+    },
+    {
+      "question": "Tell me about optimizing performance",
+      "category": "Technical Challenges",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "nexus-performance-optimization",
+        "folio-local-storage-decision",
+        "integrations-dashboard-tech-decisions"
+      ],
+      "top_scores": [
+        0.5776774838816664,
+        0.4056977658336943,
+        0.38947229248221804
+      ]
+    },
+    {
+      "question": "How do you approach system architecture?",
+      "category": "Technical Challenges",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "nexus-scalability-design",
+        "nexus-dashboard-overview",
+        "nexus-foundation-blocks-architecture"
+      ],
+      "top_scores": [
+        0.4834187815140362,
+        0.4739843267966819,
+        0.4635967051538721
+      ]
+    },
+    {
+      "question": "Tell me about scaling a system",
+      "category": "Technical Challenges",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "nexus-scalability-design",
+        "nexus-dashboard-overview",
+        "whatnow-platform-migration-railway-to-render"
+      ],
+      "top_scores": [
+        0.4891819782690977,
+        0.4047904554552781,
+        0.378129467661839
+      ]
+    },
+    {
+      "question": "What's a technical decision you regret?",
+      "category": "Technical Challenges",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "integrations-dashboard-tech-decisions",
+        "cirrus-overview-cancellation",
+        "cirrus-scope-lessons"
+      ],
+      "top_scores": [
+        0.4252303583880677,
+        0.3903242117780352,
+        0.3894006098345219
+      ]
+    },
+    {
+      "question": "Tell me about your leadership style",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "team-dad-leadership",
+        "helping-struggling-teammates",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.565566062706803,
+        0.5247756543575488,
+        0.5104932513700468
+      ]
+    },
+    {
+      "question": "How do you work in a team?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-team-disagreements",
+        "helping-struggling-teammates",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.4331227744864577,
+        0.4235652040955345,
+        0.39317436940985784
+      ]
+    },
+    {
+      "question": "Have you mentored other developers?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "email-editor-mentoring-backend-developers",
+        "team-dad-leadership",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.535377066069861,
+        0.4737032677796317,
+        0.4666889856825815
+      ]
+    },
+    {
+      "question": "How do you handle disagreements with teammates?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "handling-team-disagreements",
+        "helping-struggling-teammates",
+        "handling-stress-and-pressure"
+      ],
+      "top_scores": [
+        0.6223294599405831,
+        0.4185464142989293,
+        0.3604578888274429
+      ]
+    },
+    {
+      "question": "Tell me about collaborating with non-technical people",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "communicating-technical-concepts",
+        "integrations-dashboard-liaison-role",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.5658961821620537,
+        0.5180808788788892,
+        0.4861086678357165
+      ]
+    },
+    {
+      "question": "What's your experience with code reviews?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "receiving-and-acting-on-feedback",
+        "email-editor-mentoring-backend-developers",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.4129573538266299,
+        0.40333187428712797,
+        0.3747087458193
+      ]
+    },
+    {
+      "question": "How do you communicate technical concepts?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "communicating-technical-concepts",
+        "artist-to-tech-transition",
+        "integrations-dashboard-liaison-role"
+      ],
+      "top_scores": [
+        0.5477873891717127,
+        0.39591173095518256,
+        0.39081605476604997
+      ]
+    },
+    {
+      "question": "Tell me about a successful team project",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "email-editor-team-collaboration",
+        "integrations-dashboard-achievement",
+        "integrations-dashboard-overview"
+      ],
+      "top_scores": [
+        0.5011492590719436,
+        0.4796826950409431,
+        0.4545975426218633
+      ]
+    },
+    {
+      "question": "What makes you a good team member?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-team-disagreements",
+        "team-dad-leadership",
+        "why-employers-should-hire-me"
+      ],
+      "top_scores": [
+        0.4473711762026453,
+        0.43997520584706823,
+        0.43865830033917397
+      ]
+    },
+    {
+      "question": "How do you help struggling team members?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "helping-struggling-teammates",
+        "handling-team-disagreements",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.6175203743112838,
+        0.4415514887009808,
+        0.3756125199319132
+      ]
+    },
+    {
+      "question": "Tell me about your current role",
+      "category": "Work Experience",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "daily-responsibilities-at-nurtur",
+        "work-experience-timeline",
+        "areas-i-want-to-grow-in"
+      ],
+      "top_scores": [
+        0.4720963061848177,
+        0.43838260997797746,
+        0.4055003463017334
+      ]
+    },
+    {
+      "question": "What do you do at Nurtur?",
+      "category": "Work Experience",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "daily-responsibilities-at-nurtur",
+        "work-experience-timeline",
+        "why-looking-for-new-opportunities"
+      ],
+      "top_scores": [
+        0.5811766219743788,
+        0.4447984414919956,
+        0.44391493706421
+      ]
+    },
+    {
+      "question": "Tell me about the Integrations Dashboard",
+      "category": "Work Experience",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "integrations-dashboard-achievement",
+        "integrations-dashboard-simplicity-principle",
+        "integrations-dashboard-user-gratitude"
+      ],
+      "top_scores": [
+        0.45460161857911524,
+        0.4437388754707037,
+        0.44198892022328207
+      ]
+    },
+    {
+      "question": "Tell me about the Nexus Dashboard",
+      "category": "Work Experience",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "nexus-developer-experience-focus",
+        "nexus-dashboard-overview",
+        "nexus-current-work-status"
+      ],
+      "top_scores": [
+        0.6003541549527354,
+        0.5815022233249282,
+        0.562576571381391
+      ]
+    },
+    {
+      "question": "Tell me about the Email Editor project",
+      "category": "Work Experience",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "email-editor-redux-toolkit",
+        "email-editor-team-collaboration",
+        "email-editor-lexical-framework"
+      ],
+      "top_scores": [
+        0.5529007032716908,
+        0.5392677132189139,
+        0.5331858517538378
+      ]
+    },
+    {
+      "question": "What are your responsibilities at work?",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "daily-responsibilities-at-nurtur",
+        "email-editor-team-collaboration",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.4063585697590141,
+        0.3472321047487477,
+        0.34127771313972466
+      ]
+    },
+    {
+      "question": "How long have you been a developer?",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "react-frontend-experience",
+        "python-backend-experience",
+        "daily-responsibilities-at-nurtur"
+      ],
+      "top_scores": [
+        0.4457358486787762,
+        0.43577326850975,
+        0.4104651124214246
+      ]
+    },
+    {
+      "question": "What was your first development job?",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "daily-responsibilities-at-nurtur",
+        "email-editor-team-collaboration",
+        "react-frontend-experience"
+      ],
+      "top_scores": [
+        0.417273525590116,
+        0.4028005686840333,
+        0.3885129393292168
+      ]
+    },
+    {
+      "question": "Tell me about your freelance experience",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "ideal-work-environment",
+        "work-experience-timeline",
+        "why-employers-should-hire-me"
+      ],
+      "top_scores": [
+        0.42346627895061595,
+        0.4231400102242047,
+        0.422918020342549
+      ]
+    },
+    {
+      "question": "Why did you leave your previous job?",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "why-leaving-nurtur-explicitly",
+        "work-experience-timeline",
+        "why-looking-for-new-opportunities"
+      ],
+      "top_scores": [
+        0.4220501728137545,
+        0.3915081357072097,
+        0.37397455370730803
+      ]
+    },
+    {
+      "question": "How do you approach problem-solving?",
+      "category": "Problem Solving",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "handling-ambiguous-requirements",
+        "handling-stress-and-pressure"
+      ],
+      "top_scores": [
+        0.5143529916968361,
+        0.4098338801751269,
+        0.3896611527181759
+      ]
+    },
+    {
+      "question": "Walk me through your development process",
+      "category": "Problem Solving",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "moh-ami-development-iteration",
+        "debugging-and-problem-solving-process",
+        "whatnow-frontend-architecture-evolution"
+      ],
+      "top_scores": [
+        0.5039584272795272,
+        0.49700637408426845,
+        0.4495632494661114
+      ]
+    },
+    {
+      "question": "How do you handle ambiguous requirements?",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "handling-team-disagreements",
+        "moh-ami-technical-challenges"
+      ],
+      "top_scores": [
+        0.6082394628035903,
+        0.3315893792471884,
+        0.3248301741795392
+      ]
+    },
+    {
+      "question": "Tell me about debugging a complex issue",
+      "category": "Problem Solving",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "hardest-bug-detailed-story",
+        "moh-ami-development-iteration"
+      ],
+      "top_scores": [
+        0.5400157789428687,
+        0.4540831688388275,
+        0.35829359905865454
+      ]
+    },
+    {
+      "question": "How do you prioritize tasks?",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "prioritization-strategies",
+        "handling-stress-and-pressure",
+        "my-work-style-and-preferences"
+      ],
+      "top_scores": [
+        0.5312457605142091,
+        0.38139172794788734,
+        0.3579987754327091
+      ]
+    },
+    {
+      "question": "What's your approach to learning new technologies?",
+      "category": "Problem Solving",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "learning-new-technologies-quickly",
+        "staying-current-with-technology",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.5367193686992094,
+        0.5037934285353468,
+        0.47030617871045
+      ]
+    },
+    {
+      "question": "How do you make technical decisions?",
+      "category": "Problem Solving",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "integrations-dashboard-tech-decisions",
+        "handling-team-disagreements",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.5040824251776345,
+        0.4403089182427971,
+        0.4081366860472078
+      ]
+    },
+    {
+      "question": "Tell me about balancing quality and speed",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "nexus-performance-optimization",
+        "nexus-scalability-design",
+        "integrations-dashboard-tech-decisions"
+      ],
+      "top_scores": [
+        0.4298465411098784,
+        0.36368310166393736,
+        0.35905756811158146
+      ]
+    },
+    {
+      "question": "How do you handle scope creep?",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "cirrus-scope-lessons",
+        "handling-ambiguous-requirements",
+        "nexus-scalability-design"
+      ],
+      "top_scores": [
+        0.4335145009252512,
+        0.42409792912316024,
+        0.3542298114836214
+      ]
+    },
+    {
+      "question": "What's your testing strategy?",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "folio-test-driven-development",
+        "debugging-and-problem-solving-process",
+        "moh-ami-development-iteration"
+      ],
+      "top_scores": [
+        0.4453542910360467,
+        0.3855380993870464,
+        0.36088985209838303
+      ]
+    },
+    {
+      "question": "Why do you want to work in Canada?",
+      "category": "Career & Growth",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "why-canada-and-new-opportunities",
+        "canadian-immigration-journey",
+        "why-looking-for-new-opportunities"
+      ],
+      "top_scores": [
+        0.5842090477764668,
+        0.558726049594535,
+        0.47547529123008025
+      ]
+    },
+    {
+      "question": "What are your career goals?",
+      "category": "Career & Growth",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "five-year-professional-vision",
+        "career-goals-and-aspirations",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.42967339294832957,
+        0.42093962220710596,
+        0.3901259931180582
+      ]
+    },
+    {
+      "question": "Why are you interested in this role?",
+      "category": "Career & Growth",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "areas-i-want-to-grow-in",
+        "daily-responsibilities-at-nurtur",
+        "why-employers-should-hire-me"
+      ],
+      "top_scores": [
+        0.4665437253502789,
+        0.4300068268926002,
+        0.4259659641249138
+      ]
+    },
+    {
+      "question": "What are you learning right now?",
+      "category": "Career & Growth",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "learning-new-technologies-quickly",
+        "ai-ml-experience",
+        "staying-current-with-technology"
+      ],
+      "top_scores": [
+        0.42593874479197213,
+        0.3874856254535942,
+        0.3687987272871452
+      ]
+    },
+    {
+      "question": "Where do you see yourself in 5 years?",
+      "category": "Career & Growth",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "five-year-professional-vision",
+        "ideal-work-environment",
+        "work-experience-timeline"
+      ],
+      "top_scores": [
+        0.48183240539345273,
+        0.3266304793982436,
+        0.3239529093707524
+      ]
+    },
+    {
+      "question": "Why did you transition from theatre to tech?",
+      "category": "Career & Growth",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "artist-to-tech-transition",
+        "ironhack-bootcamp-education",
+        "work-experience-timeline"
+      ],
+      "top_scores": [
+        0.4709197058742087,
+        0.4325338409812655,
+        0.41096147136259326
+      ]
+    },
+    {
+      "question": "Tell me about your educational background",
+      "category": "Career & Growth",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "education-journey-detailed",
+        "artist-to-tech-transition",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.42787121454749605,
+        0.3792572802242131,
+        0.3563691240257028
+      ]
+    },
+    {
+      "question": "What drives you as a developer?",
+      "category": "Career & Growth",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "what-drives-me-as-developer",
+        "nexus-developer-experience-focus",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.6006822784747926,
+        0.4936699006274984,
+        0.47196805762565214
+      ]
+    },
+    {
+      "question": "What areas do you want to grow in?",
+      "category": "Career & Growth",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "five-year-professional-vision",
+        "why-looking-for-new-opportunities",
+        "docker-and-containerization"
+      ],
+      "top_scores": [
+        0.36620587058547144,
+        0.3357885656525577,
+        0.32354102386948885
+      ]
+    },
+    {
+      "question": "Why should we hire you?",
+      "category": "Career & Growth",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "why-employers-should-hire-me",
+        "five-year-professional-vision",
+        "areas-i-want-to-grow-in"
+      ],
+      "top_scores": [
+        0.5827308020580245,
+        0.40199785088620577,
+        0.39969004009042225
+      ]
+    },
+    {
+      "question": "What are your core values?",
+      "category": "Soft Skills & Values",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "wonder-connection-values",
+        "ideal-work-environment",
+        "my-work-style-and-preferences"
+      ],
+      "top_scores": [
+        0.5578020214354756,
+        0.4892172925268416,
+        0.4710688137947842
+      ]
+    },
+    {
+      "question": "How do you handle stress?",
+      "category": "Soft Skills & Values",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "work-life-balance-approach",
+        "helping-struggling-teammates"
+      ],
+      "top_scores": [
+        0.5406517412139347,
+        0.2750528003522893,
+        0.27221491987281643
+      ]
+    },
+    {
+      "question": "What motivates you?",
+      "category": "Soft Skills & Values",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "what-drives-me-as-developer",
+        "wonder-connection-values",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.48518103402755636,
+        0.4133666370835749,
+        0.4092709044132918
+      ]
+    },
+    {
+      "question": "How do you handle feedback?",
+      "category": "Soft Skills & Values",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "receiving-and-acting-on-feedback",
+        "handling-team-disagreements",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.602343742088687,
+        0.4315509674405039,
+        0.37483100311606826
+      ]
+    },
+    {
+      "question": "What's your work style?",
+      "category": "Soft Skills & Values",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "my-work-style-and-preferences",
+        "work-life-balance-approach",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.5902784930972195,
+        0.47682907767178595,
+        0.4704602258339368
+      ]
+    },
+    {
+      "question": "How do you maintain work-life balance?",
+      "category": "Soft Skills & Values",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "work-life-balance-approach",
+        "handling-stress-and-pressure",
+        "prioritization-strategies"
+      ],
+      "top_scores": [
+        0.5452906133088171,
+        0.4252125263557198,
+        0.37504487297269956
+      ]
+    },
+    {
+      "question": "What makes you passionate about coding?",
+      "category": "Soft Skills & Values",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "what-drives-me-as-developer",
+        "learning-new-technologies-quickly",
+        "my-work-style-and-preferences"
+      ],
+      "top_scores": [
+        0.4838774132939811,
+        0.4376095731418097,
+        0.4340207385946839
+      ]
+    },
+    {
+      "question": "How do you stay current with technology?",
+      "category": "Soft Skills & Values",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "staying-current-with-technology",
+        "learning-new-technologies-quickly",
+        "artist-to-tech-transition"
+      ],
+      "top_scores": [
+        0.5542559502880601,
+        0.37248278443255506,
+        0.3316083983962789
+      ]
+    },
+    {
+      "question": "What's your ideal work environment?",
+      "category": "Soft Skills & Values",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "ideal-work-environment",
+        "my-work-style-and-preferences",
+        "work-life-balance-approach"
+      ],
+      "top_scores": [
+        0.5487006376016976,
+        0.4163630383365762,
+        0.4129897957081392
+      ]
+    },
+    {
+      "question": "How do you handle failure?",
+      "category": "Soft Skills & Values",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "jam-hot-failure-lessons",
+        "jam-hot-ai-journey-start"
+      ],
+      "top_scores": [
+        0.4235993431777433,
+        0.40802298941281356,
+        0.38925188128551474
+      ]
+    },
+    {
+      "question": "Tell me about your Redux experience",
+      "category": "Specific Technologies",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "state-management-patterns",
+        "email-editor-redux-toolkit",
+        "react-frontend-experience"
+      ],
+      "top_scores": [
+        0.6384790539363265,
+        0.5722544333175644,
+        0.5548337734801517
+      ]
+    },
+    {
+      "question": "What's your experience with state management?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "state-management-patterns",
+        "react-frontend-experience",
+        "whatnow-frontend-architecture-evolution"
+      ],
+      "top_scores": [
+        0.5276388154061974,
+        0.3629121875802808,
+        0.35378755012295754
+      ]
+    },
+    {
+      "question": "Have you used Lexical framework?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-lexical-framework",
+        "folio-atomic-notes-philosophy",
+        "llm-integration-experience"
+      ],
+      "top_scores": [
+        0.5589645655646136,
+        0.37208833146426484,
+        0.36697071055280894
+      ]
+    },
+    {
+      "question": "Tell me about working with embeddings",
+      "category": "Specific Technologies",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "folio-embeddings-semantic-search",
+        "whatnow-metadata-to-embeddings-evolution",
+        "ai-ml-experience"
+      ],
+      "top_scores": [
+        0.5751874501884822,
+        0.4846611973214322,
+        0.4462055833351374
+      ]
+    },
+    {
+      "question": "What's your experience with PostgreSQL?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "moh-ami-database-prisma",
+        "whatnow-platform-migration-railway-to-render"
+      ],
+      "top_scores": [
+        0.4225116708859986,
+        0.40083404373521947,
+        0.3721031523700956
+      ]
+    },
+    {
+      "question": "Have you used Prisma?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "moh-ami-database-prisma",
+        "moh-ami-graphql-api-design",
+        "moh-ami-overview-and-motivation"
+      ],
+      "top_scores": [
+        0.44409643278931893,
+        0.36173149653275216,
+        0.3165440984422011
+      ]
+    },
+    {
+      "question": "Tell me about Next.js experience",
+      "category": "Specific Technologies",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "react-frontend-experience",
+        "whatnow-frontend-architecture-evolution",
+        "state-management-patterns"
+      ],
+      "top_scores": [
+        0.6147412034986458,
+        0.5150610552724108,
+        0.4947536332624064
+      ]
+    },
+    {
+      "question": "What CSS frameworks do you know?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "css-frameworks-and-styling",
+        "react-frontend-experience",
+        "state-management-patterns"
+      ],
+      "top_scores": [
+        0.5300703800736071,
+        0.39882265964444324,
+        0.37235508280346713
+      ]
+    },
+    {
+      "question": "Have you worked with FastAPI?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "react-frontend-experience",
+        "moh-ami-graphql-api-design"
+      ],
+      "top_scores": [
+        0.5394561794558916,
+        0.3443581222180365,
+        0.3180773227776104
+      ]
+    },
+    {
+      "question": "Tell me about your Docker experience",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "docker-and-containerization",
+        "react-frontend-experience",
+        "integrations-dashboard-achievement"
+      ],
+      "top_scores": [
+        0.5906908671714695,
+        0.3768177235029118,
+        0.355433887860342
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "question": "What programming languages are you most proficient in?",
+      "category": "Technical Skills - General",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "react-frontend-experience",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.41479019665996225,
+        0.35768336193822736,
+        0.34945686261424996
+      ]
+    },
+    {
+      "question": "What's your experience with Python?",
+      "category": "Technical Skills - General",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "ai-ml-experience",
+        "my-work-style-and-preferences"
+      ],
+      "top_scores": [
+        0.5773976067085426,
+        0.34600600919812713,
+        0.2865946249243958
+      ]
+    },
+    {
+      "question": "What databases have you worked with?",
+      "category": "Technical Skills - General",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "moh-ami-database-prisma",
+        "project-links-all"
+      ],
+      "top_scores": [
+        0.41908601249442845,
+        0.39766574803984245,
+        0.3833858180841925
+      ]
+    },
+    {
+      "question": "What's your experience with REST APIs?",
+      "category": "Technical Skills - General",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "moh-ami-graphql-api-design",
+        "react-frontend-experience"
+      ],
+      "top_scores": [
+        0.4274861993023634,
+        0.3699327091861287,
+        0.3562668073297314
+      ]
+    },
+    {
+      "question": "Do you have experience with LLMs?",
+      "category": "AI/ML Specific",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "llm-integration-experience",
+        "prompt-engineering-experience",
+        "moh-ami-llm-integration"
+      ],
+      "top_scores": [
+        0.5579803245114954,
+        0.3993995714094249,
+        0.3475462325279334
+      ]
+    },
+    {
+      "question": "Have you worked with recommendation systems?",
+      "category": "AI/ML Specific",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "whatnow-contextual-bandits-implementation",
+        "ai-ml-experience",
+        "hardest-bug-technical-problem"
+      ],
+      "top_scores": [
+        0.4389013657124747,
+        0.4231598351109287,
+        0.4052249573510132
+      ]
+    },
+    {
+      "question": "Tell me about contextual bandits",
+      "category": "AI/ML Specific",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "whatnow-contextual-bandits-implementation",
+        "hardest-bug-technical-problem",
+        "hardest-bug-detailed-story"
+      ],
+      "top_scores": [
+        0.5162224345548718,
+        0.35507715177578153,
+        0.35314347993556366
+      ]
+    },
+    {
+      "question": "What's your experience with RAG systems?",
+      "category": "AI/ML Specific",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "folio-rag-system-architecture",
+        "ai-ml-experience",
+        "llm-integration-experience"
+      ],
+      "top_scores": [
+        0.4366159165028351,
+        0.3572116160174754,
+        0.3340989243680852
+      ]
+    },
+    {
+      "question": "What's the most complex system you've built?",
+      "category": "Project Deep Dives",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "integrations-dashboard-achievement",
+        "nexus-dashboard-overview",
+        "project-links-all"
+      ],
+      "top_scores": [
+        0.4311458367080965,
+        0.4193623976523552,
+        0.39975287929291586
+      ]
+    },
+    {
+      "question": "What project are you most proud of?",
+      "category": "Project Deep Dives",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "integrations-dashboard-achievement",
+        "project-links-all",
+        "atlantis-overview-and-pivot"
+      ],
+      "top_scores": [
+        0.4180758001123833,
+        0.41709304473889314,
+        0.4119890105613532
+      ]
+    },
+    {
+      "question": "Show me examples of your work",
+      "category": "Project Deep Dives",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "project-links-all",
+        "portfolio-website-meta-demonstration",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.40342042048487087,
+        0.3773104513547079,
+        0.36858691935598464
+      ]
+    },
+    {
+      "question": "How do you handle technical debt?",
+      "category": "Technical Challenges",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "integrations-dashboard-tech-decisions",
+        "handling-ambiguous-requirements",
+        "nexus-scalability-design"
+      ],
+      "top_scores": [
+        0.4178370908595142,
+        0.415243890237352,
+        0.39495194294778113
+      ]
+    },
+    {
+      "question": "What's the hardest bug you've fixed?",
+      "category": "Technical Challenges",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "hardest-bug-detailed-story",
+        "debugging-and-problem-solving-process",
+        "hardest-bug-technical-problem"
+      ],
+      "top_scores": [
+        0.46259938232811737,
+        0.3623507399137752,
+        0.2744524006534363
+      ]
+    },
+    {
+      "question": "What's a technical decision you regret?",
+      "category": "Technical Challenges",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "integrations-dashboard-tech-decisions",
+        "cirrus-overview-cancellation",
+        "cirrus-scope-lessons"
+      ],
+      "top_scores": [
+        0.4252303583880677,
+        0.3903242117780352,
+        0.3894006098345219
+      ]
+    },
+    {
+      "question": "How do you work in a team?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-team-disagreements",
+        "helping-struggling-teammates",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.4331227744864577,
+        0.4235652040955345,
+        0.39317436940985784
+      ]
+    },
+    {
+      "question": "What's your experience with code reviews?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "receiving-and-acting-on-feedback",
+        "email-editor-mentoring-backend-developers",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.4129573538266299,
+        0.40333187428712797,
+        0.3747087458193
+      ]
+    },
+    {
+      "question": "How do you communicate technical concepts?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "communicating-technical-concepts",
+        "artist-to-tech-transition",
+        "integrations-dashboard-liaison-role"
+      ],
+      "top_scores": [
+        0.5477873891717127,
+        0.39591173095518256,
+        0.39081605476604997
+      ]
+    },
+    {
+      "question": "What makes you a good team member?",
+      "category": "Teamwork & Collaboration",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-team-disagreements",
+        "team-dad-leadership",
+        "why-employers-should-hire-me"
+      ],
+      "top_scores": [
+        0.4473711762026453,
+        0.43997520584706823,
+        0.43865830033917397
+      ]
+    },
+    {
+      "question": "What are your responsibilities at work?",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "daily-responsibilities-at-nurtur",
+        "email-editor-team-collaboration",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.4063585697590141,
+        0.3472321047487477,
+        0.34127771313972466
+      ]
+    },
+    {
+      "question": "How long have you been a developer?",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "react-frontend-experience",
+        "python-backend-experience",
+        "daily-responsibilities-at-nurtur"
+      ],
+      "top_scores": [
+        0.4457358486787762,
+        0.43577326850975,
+        0.4104651124214246
+      ]
+    },
+    {
+      "question": "What was your first development job?",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "daily-responsibilities-at-nurtur",
+        "email-editor-team-collaboration",
+        "react-frontend-experience"
+      ],
+      "top_scores": [
+        0.417273525590116,
+        0.4028005686840333,
+        0.3885129393292168
+      ]
+    },
+    {
+      "question": "Tell me about your freelance experience",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "ideal-work-environment",
+        "work-experience-timeline",
+        "why-employers-should-hire-me"
+      ],
+      "top_scores": [
+        0.42346627895061595,
+        0.4231400102242047,
+        0.422918020342549
+      ]
+    },
+    {
+      "question": "Why did you leave your previous job?",
+      "category": "Work Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "why-leaving-nurtur-explicitly",
+        "work-experience-timeline",
+        "why-looking-for-new-opportunities"
+      ],
+      "top_scores": [
+        0.4220501728137545,
+        0.3915081357072097,
+        0.37397455370730803
+      ]
+    },
+    {
+      "question": "How do you handle ambiguous requirements?",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "handling-team-disagreements",
+        "moh-ami-technical-challenges"
+      ],
+      "top_scores": [
+        0.6082394628035903,
+        0.3315893792471884,
+        0.3248301741795392
+      ]
+    },
+    {
+      "question": "How do you prioritize tasks?",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "prioritization-strategies",
+        "handling-stress-and-pressure",
+        "my-work-style-and-preferences"
+      ],
+      "top_scores": [
+        0.5312457605142091,
+        0.38139172794788734,
+        0.3579987754327091
+      ]
+    },
+    {
+      "question": "Tell me about balancing quality and speed",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "nexus-performance-optimization",
+        "nexus-scalability-design",
+        "integrations-dashboard-tech-decisions"
+      ],
+      "top_scores": [
+        0.4298465411098784,
+        0.36368310166393736,
+        0.35905756811158146
+      ]
+    },
+    {
+      "question": "How do you handle scope creep?",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "cirrus-scope-lessons",
+        "handling-ambiguous-requirements",
+        "nexus-scalability-design"
+      ],
+      "top_scores": [
+        0.4335145009252512,
+        0.42409792912316024,
+        0.3542298114836214
+      ]
+    },
+    {
+      "question": "What's your testing strategy?",
+      "category": "Problem Solving",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "folio-test-driven-development",
+        "debugging-and-problem-solving-process",
+        "moh-ami-development-iteration"
+      ],
+      "top_scores": [
+        0.4453542910360467,
+        0.3855380993870464,
+        0.36088985209838303
+      ]
+    },
+    {
+      "question": "What are your career goals?",
+      "category": "Career & Growth",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "five-year-professional-vision",
+        "career-goals-and-aspirations",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.42967339294832957,
+        0.42093962220710596,
+        0.3901259931180582
+      ]
+    },
+    {
+      "question": "What are you learning right now?",
+      "category": "Career & Growth",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "learning-new-technologies-quickly",
+        "ai-ml-experience",
+        "staying-current-with-technology"
+      ],
+      "top_scores": [
+        0.42593874479197213,
+        0.3874856254535942,
+        0.3687987272871452
+      ]
+    },
+    {
+      "question": "Where do you see yourself in 5 years?",
+      "category": "Career & Growth",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "five-year-professional-vision",
+        "ideal-work-environment",
+        "work-experience-timeline"
+      ],
+      "top_scores": [
+        0.48183240539345273,
+        0.3266304793982436,
+        0.3239529093707524
+      ]
+    },
+    {
+      "question": "Tell me about your educational background",
+      "category": "Career & Growth",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "education-journey-detailed",
+        "artist-to-tech-transition",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.42787121454749605,
+        0.3792572802242131,
+        0.3563691240257028
+      ]
+    },
+    {
+      "question": "What areas do you want to grow in?",
+      "category": "Career & Growth",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "five-year-professional-vision",
+        "why-looking-for-new-opportunities",
+        "docker-and-containerization"
+      ],
+      "top_scores": [
+        0.36620587058547144,
+        0.3357885656525577,
+        0.32354102386948885
+      ]
+    },
+    {
+      "question": "How do you handle stress?",
+      "category": "Soft Skills & Values",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "work-life-balance-approach",
+        "helping-struggling-teammates"
+      ],
+      "top_scores": [
+        0.5406517412139347,
+        0.2750528003522893,
+        0.27221491987281643
+      ]
+    },
+    {
+      "question": "How do you stay current with technology?",
+      "category": "Soft Skills & Values",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "staying-current-with-technology",
+        "learning-new-technologies-quickly",
+        "artist-to-tech-transition"
+      ],
+      "top_scores": [
+        0.5542559502880601,
+        0.37248278443255506,
+        0.3316083983962789
+      ]
+    },
+    {
+      "question": "How do you handle failure?",
+      "category": "Soft Skills & Values",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "jam-hot-failure-lessons",
+        "jam-hot-ai-journey-start"
+      ],
+      "top_scores": [
+        0.4235993431777433,
+        0.40802298941281356,
+        0.38925188128551474
+      ]
+    },
+    {
+      "question": "What's your experience with state management?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "state-management-patterns",
+        "react-frontend-experience",
+        "whatnow-frontend-architecture-evolution"
+      ],
+      "top_scores": [
+        0.5276388154061974,
+        0.3629121875802808,
+        0.35378755012295754
+      ]
+    },
+    {
+      "question": "Have you used Lexical framework?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-lexical-framework",
+        "folio-atomic-notes-philosophy",
+        "llm-integration-experience"
+      ],
+      "top_scores": [
+        0.5589645655646136,
+        0.37208833146426484,
+        0.36697071055280894
+      ]
+    },
+    {
+      "question": "What's your experience with PostgreSQL?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "moh-ami-database-prisma",
+        "whatnow-platform-migration-railway-to-render"
+      ],
+      "top_scores": [
+        0.4225116708859986,
+        0.40083404373521947,
+        0.3721031523700956
+      ]
+    },
+    {
+      "question": "Have you used Prisma?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "moh-ami-database-prisma",
+        "moh-ami-graphql-api-design",
+        "moh-ami-overview-and-motivation"
+      ],
+      "top_scores": [
+        0.44409643278931893,
+        0.36173149653275216,
+        0.3165440984422011
+      ]
+    },
+    {
+      "question": "What CSS frameworks do you know?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "css-frameworks-and-styling",
+        "react-frontend-experience",
+        "state-management-patterns"
+      ],
+      "top_scores": [
+        0.5300703800736071,
+        0.39882265964444324,
+        0.37235508280346713
+      ]
+    },
+    {
+      "question": "Have you worked with FastAPI?",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "python-backend-experience",
+        "react-frontend-experience",
+        "moh-ami-graphql-api-design"
+      ],
+      "top_scores": [
+        0.5394561794558916,
+        0.3443581222180365,
+        0.3180773227776104
+      ]
+    },
+    {
+      "question": "Tell me about your Docker experience",
+      "category": "Specific Technologies",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "docker-and-containerization",
+        "react-frontend-experience",
+        "integrations-dashboard-achievement"
+      ],
+      "top_scores": [
+        0.5906908671714695,
+        0.3768177235029118,
+        0.355433887860342
+      ]
+    }
+  ]
+}

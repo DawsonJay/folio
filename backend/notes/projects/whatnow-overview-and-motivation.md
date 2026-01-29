@@ -1,0 +1,20 @@
+# WhatNow: AI Activity Recommendation System
+
+WhatNow is an AI-powered activity recommendation system that helps me decide what to do when I'm feeling stuck or unmotivated. It's a production-deployed application that I actually use in my daily life, which makes it particularly satisfying - it's not just a portfolio piece, it's a tool that provides real value.
+
+The core concept is simple: I input my current context using sliders for mood, energy level, social preference, available time, and weather conditions. The AI then generates 50 personalized activity suggestions from a database of 1,249 activities with semantic embeddings. I pick my top 3 favorites, and if none are quite right, I can regenerate for more options while my favorites accumulate in a pool. Eventually I make a final selection from all the activities I've marked as favorites, and the AI learns from my choice to make better recommendations in future sessions.
+
+What makes WhatNow special is that it's a complete end-to-end machine learning system in production, not just a model or proof of concept. It handles data acquisition through user interaction, implements continuous learning that improves over time, balances immediate responsiveness with long-term robustness, and provides genuine utility that keeps me engaged with it. The fact that I actually use it regularly means the AI is constantly training on real data from real usage.
+
+The motivation for building WhatNow came from a very practical problem. I had tried building computer vision projects - a fruit recognition system called Jam Hot and a weather prediction system called Cirrus - and both failed because of fundamental dataset quality issues. The Fruit-360 dataset gave me 86% validation accuracy but 0% real-world accuracy when I tested it with actual photos. I realized that for personal portfolio projects, acquiring high-quality datasets is often the insurmountable barrier to completion.
+
+WhatNow solves that problem by generating its own training data. Every time I use it, I'm providing labeled examples of what activities I prefer given specific contexts. The AI doesn't need a massive pre-existing dataset - it learns from my actual usage over time. This meant I could actually finish the project and deploy it, rather than getting stuck in the data acquisition phase indefinitely.
+
+The personal utility aspect is important beyond just data generation. I genuinely find it helpful when I'm in that state of "I want to do something but I don't know what." Having an AI suggest activities based on my current mood and energy level often surfaces ideas I wouldn't have thought of myself. Sometimes I don't follow its suggestions exactly, but the act of seeing possibilities helps break through the initial stuck feeling.
+
+From a portfolio perspective, WhatNow demonstrates several valuable skills. It shows I can build complete AI/ML systems from scratch, not just follow tutorials. It proves I understand reinforcement learning and contextual bandits. It demonstrates full-stack development with React, TypeScript, FastAPI, and PostgreSQL. It shows I can deploy and maintain production systems on platforms like Render. Most importantly, it proves I can take projects all the way from concept to deployed, usable application.
+
+The project has gone through multiple significant iterations - from manual metadata to AI embeddings, from vanilla JavaScript to professional React architecture, from Railway to Render for hosting, from scikit-learn to custom lightweight implementations. These pivots demonstrate adaptability and the ability to make pragmatic technical decisions based on changing constraints.
+
+What I'm most proud of with WhatNow is that it's real. It's not a toy example or a tutorial project. It's a complete system that works, that I use, and that continuously improves through actual usage. That realness - building something that provides genuine value and works reliably in production - is exactly what I want to demonstrate to potential employers.
+

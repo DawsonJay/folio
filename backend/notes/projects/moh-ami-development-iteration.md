@@ -1,0 +1,36 @@
+# moh-ami: Development Process and Iteration Approach
+
+The development of moh-ami wasn't a linear path from design to completion. It involved significant iteration, pivots based on learnings, and continuous refinement. This process demonstrates my ability to adapt technical approaches when evidence shows better paths forward.
+
+The initial concept was simpler - just translate text and show the French version. As I started building, I realized that simple translation didn't help me learn. I needed to understand why words were translated certain ways, what grammar rules applied, and what alternatives existed. This insight led to expanding the scope to include word mappings, grammar explanations, cultural context, and alternative translations. The project evolved from a translation tool to an educational tool.
+
+The chunk selection system went through three iterations. First version tried word-by-word selection, which felt tedious and disconnected. Second version used text content matching to link English and French chunks, but this was fragile when text had variations. Third version implemented ID-based chunk pairing, which is simpler and more reliable. Each iteration taught me something, and I recognized when to abandon approaches that weren't working.
+
+The LLM prompt engineering required extensive experimentation. Early prompts asked for translations in natural language, which was inconsistent and hard to parse. I iterated toward structured JSON outputs with specific schema requirements. Even then, I discovered the LLM sometimes wrapped JSON in markdown code blocks, required example outputs for consistency, needed explicit field names rather than descriptions, and worked better with temperature at 0.3 rather than higher values. These details came from testing and iteration.
+
+The semantic chunking algorithm emerged from frustration with word-level approaches. I tested different chunk sizes - 20-50 characters felt too fragmented, 200+ characters felt too broad. The 50-150 character range produced explanations that felt natural and educational. This wasn't theoretical - I tested it by translating various texts and seeing what chunk size produced the most useful explanations.
+
+The GraphQL schema evolved as I understood frontend needs better. Initial schema was minimal with just Translation type. As UI complexity grew, I added Chunk type, WordMapping type, error types, and pagination support. The schema became more sophisticated as I discovered what data structures made the frontend code cleaner. This is a normal pattern - APIs evolve as you understand requirements through implementation.
+
+The synchronized scrolling feature almost didn't make it. Initial implementation was buggy with text jumping around erratically. I nearly removed it entirely, but decided to try percentage-based calculation instead of absolute positioning. That insight fixed it, and the feature became central to the user experience. The lesson was to not give up on features too quickly - sometimes a different approach makes difficult features work.
+
+The error handling improved through encountering actual failures. In development with local testing, everything worked fine. In production, I encountered quota limits, billing issues, network timeouts, and rate limiting. Each failure mode required specific handling logic that I added incrementally. The error handling in the current version reflects real-world experience rather than theoretical planning.
+
+The Redux state management was introduced mid-development when component state became unmanageable. Initially I used useState in components, which worked for simple cases. As interactions became more complex with synchronized scrolling, chunk selection, panel expansion, and loading states, the component state became a tangled mess. Introducing Redux centralized state and simplified components dramatically. This is a classic refactoring - recognize when current approach isn't scaling and adopt appropriate tools.
+
+The mobile responsiveness was initially an afterthought. I built for desktop, then tested on mobile and found it barely worked. I spent dedicated time making the interface truly mobile-friendly with appropriate touch targets, stacked layouts, and optimized interactions. This taught me to consider mobile from the start rather than retrofitting responsive design.
+
+The testing strategy evolved from manual testing to more systematic validation. Early development involved manually testing each change. As complexity grew, I implemented more automated testing with TypeScript type checking catching many issues, unit tests for utility functions, integration tests for API endpoints, and systematic manual testing of user flows. The testing maturity grew with the application complexity.
+
+The performance optimization happened after initial functionality worked. First make it work, then make it fast. I profiled the application to find bottlenecks - database N+1 queries, excessive re-renders, unnecessary API calls. Each optimization was targeted at measured bottlenecks rather than premature optimization. This evidence-based approach to performance is more effective than guessing.
+
+The deployment process took multiple attempts to get right. Initial deployments failed due to environment variable issues. The OpenAI client initialization timing caused problems. Database migrations needed specific sequencing. Each deployment failure taught me something about production deployment that wasn't obvious in development. The current deployment process is reliable because it reflects lessons from failures.
+
+Code quality improved through refactoring sessions. After implementing features quickly, I'd revisit code to improve naming, extract reusable functions, simplify complex logic, add comments for non-obvious parts, and ensure consistent patterns. This refactoring discipline keeps the codebase maintainable despite adding features. Technical debt is addressed continuously rather than accumulating.
+
+The feature scope was deliberately constrained. I had ideas for user authentication, saved translations, translation history, multiple language support, pronunciation audio, grammar quizzes, and more. I resisted feature creep and focused on making the core translation and explanation experience excellent. Additional features can be added later, but the foundation needed to be solid first. This discipline demonstrates priority management.
+
+What I learned from the development process is that iteration is normal and valuable. First attempts often aren't optimal. Recognizing when to pivot or refactor is a skill. Testing with real usage reveals issues that theoretical planning misses. Starting simple and adding complexity as needed is more effective than designing everything upfront. These lessons apply broadly to software development.
+
+For employers, the development process demonstrates I can iterate based on evidence, recognize when approaches aren't working and pivot, refactor code for maintainability, manage complexity as applications grow, learn from failures, constrain scope to deliver quality, and continuously improve code through refactoring. These process skills are as important as technical skills for building successful products.
+

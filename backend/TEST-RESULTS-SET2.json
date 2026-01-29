@@ -1,0 +1,2491 @@
+{
+  "test_name": "Interview Questions Set 2",
+  "overall_score": 3.44,
+  "score_distribution": {
+    "5": 19,
+    "4": 27,
+    "3": 33,
+    "2": 21,
+    "1": 0
+  },
+  "category_scores": {
+    "Technical Skills & Experience": 3.4,
+    "AI/ML & Emerging Tech": 4.4,
+    "Project & Portfolio": 3.5,
+    "Problem Solving & Debugging": 3.2,
+    "Team & Communication": 3.5,
+    "Leadership & Initiative": 3.8,
+    "Work Style & Productivity": 2.8,
+    "Professional Development": 3.2,
+    "Career & Motivation": 3.5,
+    "Behavioral & Soft Skills": 3.1
+  },
+  "results": [
+    {
+      "question": "Walk me through your technical stack",
+      "category": "Technical Skills & Experience",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "react-frontend-experience",
+        "whatnow-deployment-and-links",
+        "project-links-all"
+      ],
+      "top_scores": [
+        0.48996351687148054,
+        0.4856781610156408,
+        0.45684022610283376
+      ]
+    },
+    {
+      "question": "What's your strongest programming language?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "python-backend-experience",
+        "project-links-all",
+        "react-frontend-experience"
+      ],
+      "top_scores": [
+        0.39669169076015426,
+        0.3408660294585578,
+        0.3344952284072113
+      ]
+    },
+    {
+      "question": "How do you approach learning a new framework?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "learning-new-technologies-quickly",
+        "communicating-technical-concepts",
+        "react-frontend-experience"
+      ],
+      "top_scores": [
+        0.40423300359385,
+        0.37027077594077873,
+        0.3686367234799209
+      ]
+    },
+    {
+      "question": "Tell me about a recent technical challenge",
+      "category": "Technical Skills & Experience",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "whatnow-technical-challenges-and-solutions",
+        "moh-ami-technical-challenges",
+        "atlantis-hardware-evolution-pivot"
+      ],
+      "top_scores": [
+        0.48147851216672966,
+        0.47690745208422103,
+        0.4324101070910977
+      ]
+    },
+    {
+      "question": "What development tools do you use daily?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "nexus-developer-experience-focus",
+        "react-frontend-experience",
+        "nexus-current-work-status"
+      ],
+      "top_scores": [
+        0.42478507967303986,
+        0.3925701717791766,
+        0.3850473490684084
+      ]
+    },
+    {
+      "question": "How do you ensure code quality?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "integrations-dashboard-tech-decisions",
+        "moh-ami-development-iteration",
+        "debugging-and-problem-solving-process"
+      ],
+      "top_scores": [
+        0.37805073763435254,
+        0.37476229187494076,
+        0.36008533655642805
+      ]
+    },
+    {
+      "question": "What's your experience with version control?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "react-frontend-experience",
+        "handling-team-disagreements",
+        "state-management-patterns"
+      ],
+      "top_scores": [
+        0.33206007057959197,
+        0.3265625945072559,
+        0.32621458946868764
+      ]
+    },
+    {
+      "question": "Describe your testing approach",
+      "category": "Technical Skills & Experience",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "folio-test-driven-development",
+        "debugging-and-problem-solving-process",
+        "moh-ami-development-iteration"
+      ],
+      "top_scores": [
+        0.47883396778023946,
+        0.4224287064762146,
+        0.4048731756487468
+      ]
+    },
+    {
+      "question": "How comfortable are you with backend development?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "python-backend-experience",
+        "react-frontend-experience",
+        "email-editor-mentoring-backend-developers"
+      ],
+      "top_scores": [
+        0.5223330618864287,
+        0.46046615920366674,
+        0.42621807869560885
+      ]
+    },
+    {
+      "question": "What frontend frameworks have you worked with?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "react-frontend-experience",
+        "css-frameworks-and-styling",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.5640920729130333,
+        0.4845555097590797,
+        0.45489594156734703
+      ]
+    },
+    {
+      "question": "How have you used AI in your projects?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "ai-ml-experience",
+        "whatnow-overview-and-motivation",
+        "project-links-all"
+      ],
+      "top_scores": [
+        0.613576565157982,
+        0.5039790544237999,
+        0.4849959311842717
+      ]
+    },
+    {
+      "question": "What's your experience with machine learning?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "ai-ml-experience",
+        "cirrus-ml-implementation",
+        "llm-integration-experience"
+      ],
+      "top_scores": [
+        0.5886696565515654,
+        0.5203292088445942,
+        0.4955271127984881
+      ]
+    },
+    {
+      "question": "Have you integrated LLMs into applications?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "llm-integration-experience",
+        "moh-ami-llm-integration",
+        "prompt-engineering-experience"
+      ],
+      "top_scores": [
+        0.59001920942187,
+        0.4539570775067948,
+        0.4453515283326625
+      ]
+    },
+    {
+      "question": "Tell me about working with embeddings",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "folio-embeddings-semantic-search",
+        "whatnow-metadata-to-embeddings-evolution",
+        "ai-ml-experience"
+      ],
+      "top_scores": [
+        0.5751874501884822,
+        0.4846611973214322,
+        0.4462055833351374
+      ]
+    },
+    {
+      "question": "What AI tools or APIs have you used?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "ai-ml-experience",
+        "whatnow-overview-and-motivation",
+        "python-backend-experience"
+      ],
+      "top_scores": [
+        0.5625656507049541,
+        0.43322095746545286,
+        0.4244294395569067
+      ]
+    },
+    {
+      "question": "How do you see AI changing web development?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "ai-ml-experience",
+        "whatnow-solving-dataset-problem",
+        "whatnow-overview-and-motivation"
+      ],
+      "top_scores": [
+        0.4788653663068161,
+        0.4266763139844341,
+        0.4218104100497933
+      ]
+    },
+    {
+      "question": "What's your understanding of RAG systems?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "folio-rag-system-architecture",
+        "README",
+        "prompt-engineering-experience"
+      ],
+      "top_scores": [
+        0.474982438077282,
+        0.3461906150866713,
+        0.34289690517609406
+      ]
+    },
+    {
+      "question": "Have you worked with recommendation engines?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "whatnow-contextual-bandits-implementation",
+        "ai-ml-experience",
+        "hardest-bug-technical-problem"
+      ],
+      "top_scores": [
+        0.43150547692958435,
+        0.42057365693309595,
+        0.3972074574522548
+      ]
+    },
+    {
+      "question": "What ML frameworks are you familiar with?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "cirrus-ml-implementation",
+        "ai-ml-experience",
+        "llm-integration-experience"
+      ],
+      "top_scores": [
+        0.4555373909832719,
+        0.4503016708283859,
+        0.4208395405279711
+      ]
+    },
+    {
+      "question": "How do you approach AI project requirements?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "ai-ml-experience",
+        "folio-deployment-and-links",
+        "whatnow-solving-dataset-problem"
+      ],
+      "top_scores": [
+        0.5144392929529015,
+        0.49096304891060877,
+        0.46044822971441046
+      ]
+    },
+    {
+      "question": "Walk me through your portfolio",
+      "category": "Project & Portfolio",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "portfolio-website-theatrical-design",
+        "portfolio-website-meta-demonstration",
+        "portfolio-website-design-iteration"
+      ],
+      "top_scores": [
+        0.5334942522413451,
+        0.524799785101605,
+        0.49485558221904974
+      ]
+    },
+    {
+      "question": "What's your most impressive project?",
+      "category": "Project & Portfolio",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "project-links-all",
+        "integrations-dashboard-achievement",
+        "moh-ami-outcomes-learnings"
+      ],
+      "top_scores": [
+        0.4597469010683939,
+        0.45086358830348033,
+        0.4288999924482749
+      ]
+    },
+    {
+      "question": "Tell me about a project you're proud of",
+      "category": "Project & Portfolio",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "integrations-dashboard-achievement",
+        "integrations-dashboard-overview",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.4654178646568646,
+        0.42972252345882067,
+        0.42690759477616114
+      ]
+    },
+    {
+      "question": "What was the biggest project you led?",
+      "category": "Project & Portfolio",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-team-collaboration",
+        "integrations-dashboard-liaison-role",
+        "integrations-dashboard-achievement"
+      ],
+      "top_scores": [
+        0.4031177774934622,
+        0.37034063161167563,
+        0.367335859799114
+      ]
+    },
+    {
+      "question": "How do you choose what to build?",
+      "category": "Project & Portfolio",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "prioritization-strategies",
+        "integrations-dashboard-tech-decisions"
+      ],
+      "top_scores": [
+        0.34793040536521963,
+        0.34228237779533927,
+        0.33065318649130804
+      ]
+    },
+    {
+      "question": "What's a project that didn't go as planned?",
+      "category": "Project & Portfolio",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "cirrus-scope-lessons",
+        "jam-hot-failure-lessons",
+        "cirrus-overview-cancellation"
+      ],
+      "top_scores": [
+        0.41951331857399077,
+        0.4008596407225217,
+        0.3955938150018366
+      ]
+    },
+    {
+      "question": "How do you validate project ideas?",
+      "category": "Project & Portfolio",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "folio-test-driven-development",
+        "ideal-work-environment",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.4096625428158819,
+        0.4061556363909416,
+        0.3915090199482816
+      ]
+    },
+    {
+      "question": "What's the longest-running project you've maintained?",
+      "category": "Project & Portfolio",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "integrations-dashboard-achievement",
+        "integrations-dashboard-production-longevity",
+        "integrations-dashboard-overview"
+      ],
+      "top_scores": [
+        0.5001100950653137,
+        0.4518425500524728,
+        0.4462706521346322
+      ]
+    },
+    {
+      "question": "Tell me about a time you rescued a failing project",
+      "category": "Project & Portfolio",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "email-editor-team-collaboration",
+        "cirrus-scope-lessons",
+        "helping-struggling-teammates"
+      ],
+      "top_scores": [
+        0.4607176482390751,
+        0.4474513677911476,
+        0.4359584256637022
+      ]
+    },
+    {
+      "question": "How do you measure project success?",
+      "category": "Project & Portfolio",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "jam-hot-to-whatnow-evolution",
+        "integrations-dashboard-overview",
+        "cirrus-scope-lessons"
+      ],
+      "top_scores": [
+        0.3795895512628621,
+        0.37332323091347014,
+        0.3634863682265528
+      ]
+    },
+    {
+      "question": "How do you approach a new technical problem?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "handling-ambiguous-requirements",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.45529271449766207,
+        0.377963834404315,
+        0.37480821789134006
+      ]
+    },
+    {
+      "question": "Walk me through your debugging process",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "moh-ami-development-iteration",
+        "hardest-bug-detailed-story"
+      ],
+      "top_scores": [
+        0.5461270231352309,
+        0.3986062709588722,
+        0.3830058138832592
+      ]
+    },
+    {
+      "question": "Tell me about a time you solved a critical bug",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "hardest-bug-detailed-story",
+        "debugging-and-problem-solving-process",
+        "integrations-dashboard-achievement"
+      ],
+      "top_scores": [
+        0.5629410256087406,
+        0.5067943760375283,
+        0.4427311602787243
+      ]
+    },
+    {
+      "question": "How do you handle production issues?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-production-deployment",
+        "handling-stress-and-pressure",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.44149555208807445,
+        0.33479713806794537,
+        0.3284977727264198
+      ]
+    },
+    {
+      "question": "What's your process for troubleshooting?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "hardest-bug-detailed-story",
+        "moh-ami-development-iteration"
+      ],
+      "top_scores": [
+        0.5492219407961024,
+        0.3850019554670388,
+        0.3515901379175144
+      ]
+    },
+    {
+      "question": "How do you deal with unclear error messages?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "debugging-and-problem-solving-process",
+        "hardest-bug-detailed-story"
+      ],
+      "top_scores": [
+        0.3588787247477109,
+        0.3159978684840785,
+        0.2874133739165508
+      ]
+    },
+    {
+      "question": "Tell me about investigating a performance issue",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "nexus-performance-optimization",
+        "hardest-bug-detailed-story",
+        "debugging-and-problem-solving-process"
+      ],
+      "top_scores": [
+        0.4192538987450744,
+        0.39885729533805975,
+        0.39549024211282874
+      ]
+    },
+    {
+      "question": "How do you prevent bugs in the first place?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "hardest-bug-detailed-story",
+        "debugging-and-problem-solving-process",
+        "nexus-safety-layers"
+      ],
+      "top_scores": [
+        0.2838466075593617,
+        0.2834927959968782,
+        0.2134184912015338
+      ]
+    },
+    {
+      "question": "What's your approach to code review?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "receiving-and-acting-on-feedback",
+        "debugging-and-problem-solving-process",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.4529584619467997,
+        0.42771495003985033,
+        0.4067060046954407
+      ]
+    },
+    {
+      "question": "How do you balance fixing bugs vs building features?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "hardest-bug-detailed-story",
+        "receiving-and-acting-on-feedback"
+      ],
+      "top_scores": [
+        0.4877739406358888,
+        0.4549160199325366,
+        0.39602162582080214
+      ]
+    },
+    {
+      "question": "How do you collaborate with other developers?",
+      "category": "Team & Communication",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-mentoring-backend-developers",
+        "receiving-and-acting-on-feedback",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.4153097584658719,
+        0.40295263890817945,
+        0.40205622553819986
+      ]
+    },
+    {
+      "question": "Tell me about working with designers",
+      "category": "Team & Communication",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "css-frameworks-and-styling",
+        "communicating-technical-concepts",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.4631716290113564,
+        0.45589179656612006,
+        0.4548833939330894
+      ]
+    },
+    {
+      "question": "How do you handle difficult teammates?",
+      "category": "Team & Communication",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "handling-team-disagreements",
+        "helping-struggling-teammates",
+        "handling-stress-and-pressure"
+      ],
+      "top_scores": [
+        0.4912630553370671,
+        0.4618225650807331,
+        0.38081606951630165
+      ]
+    },
+    {
+      "question": "What's your communication style?",
+      "category": "Team & Communication",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "my-work-style-and-preferences",
+        "communicating-technical-concepts",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.47294344912305547,
+        0.41256576265271666,
+        0.3645552064343616
+      ]
+    },
+    {
+      "question": "How do you give constructive feedback?",
+      "category": "Team & Communication",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "receiving-and-acting-on-feedback",
+        "communicating-technical-concepts",
+        "helping-struggling-teammates"
+      ],
+      "top_scores": [
+        0.5445535863306246,
+        0.38303636568803556,
+        0.37771340314434926
+      ]
+    },
+    {
+      "question": "Tell me about mentoring junior developers",
+      "category": "Team & Communication",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "email-editor-mentoring-backend-developers",
+        "team-dad-leadership",
+        "helping-struggling-teammates"
+      ],
+      "top_scores": [
+        0.5648377410633996,
+        0.5259034828014392,
+        0.48258995786154674
+      ]
+    },
+    {
+      "question": "How do you resolve technical disagreements?",
+      "category": "Team & Communication",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-team-disagreements",
+        "handling-ambiguous-requirements",
+        "integrations-dashboard-tech-decisions"
+      ],
+      "top_scores": [
+        0.5353520080360074,
+        0.395983427846459,
+        0.36741041135258184
+      ]
+    },
+    {
+      "question": "What makes you a good teammate?",
+      "category": "Team & Communication",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "helping-struggling-teammates",
+        "handling-team-disagreements",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.453685490892546,
+        0.43730039101462925,
+        0.42161432400378585
+      ]
+    },
+    {
+      "question": "How do you keep stakeholders informed?",
+      "category": "Team & Communication",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "receiving-and-acting-on-feedback",
+        "email-editor-production-deployment"
+      ],
+      "top_scores": [
+        0.4200839870020707,
+        0.38296524464219034,
+        0.37881513362933195
+      ]
+    },
+    {
+      "question": "Tell me about pair programming experience",
+      "category": "Team & Communication",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "python-backend-experience",
+        "email-editor-mentoring-backend-developers",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.38950699850672577,
+        0.38791622741531906,
+        0.37202076744071716
+      ]
+    },
+    {
+      "question": "Have you led any projects?",
+      "category": "Leadership & Initiative",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-team-collaboration",
+        "team-dad-leadership",
+        "daily-responsibilities-at-nurtur"
+      ],
+      "top_scores": [
+        0.4101685240643846,
+        0.40804729899218833,
+        0.40514706318853555
+      ]
+    },
+    {
+      "question": "How do you take initiative on a team?",
+      "category": "Leadership & Initiative",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "helping-struggling-teammates",
+        "handling-team-disagreements",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.44334044237989384,
+        0.43835832040574657,
+        0.43269818983377845
+      ]
+    },
+    {
+      "question": "Tell me about influencing technical decisions",
+      "category": "Leadership & Initiative",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "integrations-dashboard-tech-decisions",
+        "communicating-technical-concepts",
+        "integrations-dashboard-liaison-role"
+      ],
+      "top_scores": [
+        0.4804730850062578,
+        0.47993950866515556,
+        0.4694450904395391
+      ]
+    },
+    {
+      "question": "How do you handle project ownership?",
+      "category": "Leadership & Initiative",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "handling-team-disagreements",
+        "my-work-style-and-preferences",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.47934178772117325,
+        0.4331612622082383,
+        0.3834015487383527
+      ]
+    },
+    {
+      "question": "What's your approach to delegating work?",
+      "category": "Leadership & Initiative",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "my-work-style-and-preferences",
+        "handling-team-disagreements",
+        "prioritization-strategies"
+      ],
+      "top_scores": [
+        0.478766112400675,
+        0.4664612703154002,
+        0.4365571730214873
+      ]
+    },
+    {
+      "question": "How do you motivate team members?",
+      "category": "Leadership & Initiative",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "helping-struggling-teammates",
+        "team-dad-leadership",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.45741815078396963,
+        0.4185760594761878,
+        0.3881363276677087
+      ]
+    },
+    {
+      "question": "Tell me about a time you stepped up as a leader",
+      "category": "Leadership & Initiative",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "helping-struggling-teammates",
+        "team-dad-leadership",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.4599634009876306,
+        0.45280802078328136,
+        0.4138781593911827
+      ]
+    },
+    {
+      "question": "How do you handle responsibility?",
+      "category": "Leadership & Initiative",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "handling-team-disagreements",
+        "helping-struggling-teammates"
+      ],
+      "top_scores": [
+        0.41577292082169953,
+        0.3634087039944705,
+        0.3431254192181247
+      ]
+    },
+    {
+      "question": "What's your leadership philosophy?",
+      "category": "Leadership & Initiative",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "team-dad-leadership",
+        "handling-team-disagreements",
+        "helping-struggling-teammates"
+      ],
+      "top_scores": [
+        0.5657476984569779,
+        0.5470978254513805,
+        0.5301443105421811
+      ]
+    },
+    {
+      "question": "How do you build trust with your team?",
+      "category": "Leadership & Initiative",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "handling-team-disagreements",
+        "helping-struggling-teammates",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.49440739134128986,
+        0.4743036202840723,
+        0.4294508559432402
+      ]
+    },
+    {
+      "question": "How do you manage your time?",
+      "category": "Work Style & Productivity",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "prioritization-strategies",
+        "work-life-balance-approach"
+      ],
+      "top_scores": [
+        0.39350344943448884,
+        0.3728226537684115,
+        0.3303864916868592
+      ]
+    },
+    {
+      "question": "What's your typical day like?",
+      "category": "Work Style & Productivity",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "my-work-style-and-preferences",
+        "work-life-balance-approach",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.3046080095524165,
+        0.28128599267666754,
+        0.2811500273730809
+      ]
+    },
+    {
+      "question": "How do you handle multiple priorities?",
+      "category": "Work Style & Productivity",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "prioritization-strategies",
+        "handling-stress-and-pressure",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.4881371155739064,
+        0.42678169957116086,
+        0.3826957846561363
+      ]
+    },
+    {
+      "question": "What makes you productive?",
+      "category": "Work Style & Productivity",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-production-deployment",
+        "handling-stress-and-pressure",
+        "work-life-balance-approach"
+      ],
+      "top_scores": [
+        0.4129945708542588,
+        0.3768975142571958,
+        0.3662845648261845
+      ]
+    },
+    {
+      "question": "How do you avoid burnout?",
+      "category": "Work Style & Productivity",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "work-life-balance-approach",
+        "handling-stress-and-pressure",
+        "staying-current-with-technology"
+      ],
+      "top_scores": [
+        0.44258347086271077,
+        0.4255344161175988,
+        0.40355337252350165
+      ]
+    },
+    {
+      "question": "What's your preferred work environment?",
+      "category": "Work Style & Productivity",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "ideal-work-environment",
+        "my-work-style-and-preferences",
+        "work-life-balance-approach"
+      ],
+      "top_scores": [
+        0.47080158836371044,
+        0.4445495831942079,
+        0.3751449017843442
+      ]
+    },
+    {
+      "question": "How do you stay focused?",
+      "category": "Work Style & Productivity",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "staying-current-with-technology",
+        "handling-stress-and-pressure",
+        "prioritization-strategies"
+      ],
+      "top_scores": [
+        0.42732973713737304,
+        0.3988437898907764,
+        0.36545290151126114
+      ]
+    },
+    {
+      "question": "What's your approach to deadlines?",
+      "category": "Work Style & Productivity",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "prioritization-strategies",
+        "my-work-style-and-preferences",
+        "handling-stress-and-pressure"
+      ],
+      "top_scores": [
+        0.4465285764020617,
+        0.4311634085260663,
+        0.42370196789791276
+      ]
+    },
+    {
+      "question": "How do you handle interruptions?",
+      "category": "Work Style & Productivity",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "handling-team-disagreements",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.36417675423897916,
+        0.34607533714110855,
+        0.3343235818195726
+      ]
+    },
+    {
+      "question": "What tools help you stay organized?",
+      "category": "Work Style & Productivity",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "prioritization-strategies",
+        "nexus-developer-experience-focus"
+      ],
+      "top_scores": [
+        0.36366446791261214,
+        0.3569080967732314,
+        0.33076692501870564
+      ]
+    },
+    {
+      "question": "How do you keep your skills current?",
+      "category": "Professional Development",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "staying-current-with-technology",
+        "learning-new-technologies-quickly",
+        "handling-stress-and-pressure"
+      ],
+      "top_scores": [
+        0.5438590404318524,
+        0.4310013617183374,
+        0.4065469270430159
+      ]
+    },
+    {
+      "question": "What are you currently learning?",
+      "category": "Professional Development",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "learning-new-technologies-quickly",
+        "ai-ml-experience",
+        "staying-current-with-technology"
+      ],
+      "top_scores": [
+        0.4646343429422241,
+        0.42851887521473164,
+        0.4056614840259885
+      ]
+    },
+    {
+      "question": "How do you evaluate new technologies?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "folio-test-driven-development",
+        "project-links-all",
+        "ai-ml-experience"
+      ],
+      "top_scores": [
+        0.36700781784235575,
+        0.35064310696468803,
+        0.34888334411576516
+      ]
+    },
+    {
+      "question": "What conferences or resources do you follow?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "project-links-all",
+        "ai-ml-experience",
+        "staying-current-with-technology"
+      ],
+      "top_scores": [
+        0.36547564554367945,
+        0.3475607116870978,
+        0.3426758065774923
+      ]
+    },
+    {
+      "question": "How do you decide what to learn next?",
+      "category": "Professional Development",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "learning-new-technologies-quickly",
+        "staying-current-with-technology",
+        "education-journey-detailed"
+      ],
+      "top_scores": [
+        0.5017916939580076,
+        0.45552516562034645,
+        0.4275150881659845
+      ]
+    },
+    {
+      "question": "Tell me about your learning process",
+      "category": "Professional Development",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "learning-new-technologies-quickly",
+        "moh-ami-development-iteration",
+        "education-journey-detailed"
+      ],
+      "top_scores": [
+        0.5246487102728776,
+        0.471104843969046,
+        0.4550570312478764
+      ]
+    },
+    {
+      "question": "What technical blogs do you read?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "portfolio-website-article-system",
+        "integrations-dashboard-tech-decisions",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.3730788298539503,
+        0.35820293864892344,
+        0.35090498060285447
+      ]
+    },
+    {
+      "question": "How do you share knowledge with others?",
+      "category": "Professional Development",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "communicating-technical-concepts",
+        "receiving-and-acting-on-feedback",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.42964307346755654,
+        0.3601559735753135,
+        0.35178028032448244
+      ]
+    },
+    {
+      "question": "What certifications do you have?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "education-journey-detailed",
+        "why-employers-should-hire-me",
+        "five-year-professional-vision"
+      ],
+      "top_scores": [
+        0.36292737686257603,
+        0.35424800162907105,
+        0.3411665843063446
+      ]
+    },
+    {
+      "question": "How do you track industry trends?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "staying-current-with-technology",
+        "ai-ml-experience",
+        "five-year-professional-vision"
+      ],
+      "top_scores": [
+        0.29939870594235046,
+        0.2704769136906692,
+        0.2506991344705937
+      ]
+    },
+    {
+      "question": "What attracted you to this position?",
+      "category": "Career & Motivation",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "why-employers-should-hire-me",
+        "daily-responsibilities-at-nurtur",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.4528466074984055,
+        0.4397154632914542,
+        0.4215819481575926
+      ]
+    },
+    {
+      "question": "Why are you leaving your current job?",
+      "category": "Career & Motivation",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "why-leaving-nurtur-explicitly",
+        "why-looking-for-new-opportunities",
+        "work-experience-timeline"
+      ],
+      "top_scores": [
+        0.5197176334732693,
+        0.46088371054048705,
+        0.4445779459408437
+      ]
+    },
+    {
+      "question": "What are you looking for in your next role?",
+      "category": "Career & Motivation",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "areas-i-want-to-grow-in",
+        "work-experience-timeline",
+        "five-year-professional-vision"
+      ],
+      "top_scores": [
+        0.4864402588372018,
+        0.4823164272134273,
+        0.4531965595023372
+      ]
+    },
+    {
+      "question": "What type of projects excite you?",
+      "category": "Career & Motivation",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "ideal-work-environment",
+        "project-links-all",
+        "wonder-connection-values"
+      ],
+      "top_scores": [
+        0.47944964827065967,
+        0.43205436445815987,
+        0.4110198232353735
+      ]
+    },
+    {
+      "question": "How do you define career success?",
+      "category": "Career & Motivation",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "career-goals-and-aspirations",
+        "five-year-professional-vision",
+        "cirrus-learning-outcomes"
+      ],
+      "top_scores": [
+        0.4489253338127123,
+        0.4086029060883332,
+        0.36070076718487504
+      ]
+    },
+    {
+      "question": "What impact do you want to make?",
+      "category": "Career & Motivation",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "wonder-connection-values",
+        "ideal-work-environment",
+        "what-drives-me-as-developer"
+      ],
+      "top_scores": [
+        0.4056136363497097,
+        0.37963870450715814,
+        0.36380066588262366
+      ]
+    },
+    {
+      "question": "What kind of company culture do you prefer?",
+      "category": "Career & Motivation",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "my-work-style-and-preferences",
+        "ideal-work-environment",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.4373806967752047,
+        0.43367427284687193,
+        0.33565326852893584
+      ]
+    },
+    {
+      "question": "What are your salary expectations?",
+      "category": "Career & Motivation",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "areas-i-want-to-grow-in",
+        "five-year-professional-vision",
+        "why-employers-should-hire-me"
+      ],
+      "top_scores": [
+        0.39136012228118144,
+        0.38493243133281185,
+        0.3810438355519534
+      ]
+    },
+    {
+      "question": "Why did you choose software development?",
+      "category": "Career & Motivation",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "ironhack-bootcamp-education",
+        "artist-to-tech-transition",
+        "education-journey-detailed"
+      ],
+      "top_scores": [
+        0.41904217440034214,
+        0.4125353445319306,
+        0.41019891881433057
+      ]
+    },
+    {
+      "question": "What's most important to you in a job?",
+      "category": "Career & Motivation",
+      "quality_score": 4,
+      "quality": "Good",
+      "top_notes": [
+        "ideal-work-environment",
+        "wonder-connection-values",
+        "what-drives-me-as-developer"
+      ],
+      "top_scores": [
+        0.4527832849611822,
+        0.4093929799499547,
+        0.4077205379501519
+      ]
+    },
+    {
+      "question": "Tell me about a time you failed",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "jam-hot-failure-lessons",
+        "jam-hot-ai-journey-start",
+        "jam-hot-to-whatnow-evolution"
+      ],
+      "top_scores": [
+        0.41063101253582135,
+        0.4006382772370985,
+        0.35196877544079175
+      ]
+    },
+    {
+      "question": "How do you handle criticism?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "receiving-and-acting-on-feedback",
+        "handling-team-disagreements",
+        "handling-stress-and-pressure"
+      ],
+      "top_scores": [
+        0.4341365482337793,
+        0.4080553501815581,
+        0.37836005579699694
+      ]
+    },
+    {
+      "question": "Describe a difficult decision you made",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "hardest-bug-detailed-story",
+        "handling-team-disagreements",
+        "integrations-dashboard-tech-decisions"
+      ],
+      "top_scores": [
+        0.35596433980303127,
+        0.3461619766606762,
+        0.34201875240358715
+      ]
+    },
+    {
+      "question": "How do you deal with ambiguity?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "handling-team-disagreements",
+        "debugging-and-problem-solving-process"
+      ],
+      "top_scores": [
+        0.5448184934796424,
+        0.3827999265180026,
+        0.3232755975135447
+      ]
+    },
+    {
+      "question": "Tell me about a conflict you resolved",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-team-disagreements",
+        "handling-stress-and-pressure",
+        "integrations-dashboard-liaison-role"
+      ],
+      "top_scores": [
+        0.45243277565854495,
+        0.36047390837729626,
+        0.3602494712262021
+      ]
+    },
+    {
+      "question": "How do you handle tight deadlines?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "handling-ambiguous-requirements",
+        "prioritization-strategies"
+      ],
+      "top_scores": [
+        0.45310101588163887,
+        0.3802517975503351,
+        0.37509022749051124
+      ]
+    },
+    {
+      "question": "What's your approach to work-life balance?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "work-life-balance-approach",
+        "my-work-style-and-preferences",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.6156123089170523,
+        0.45741918197886544,
+        0.4526829538570132
+      ]
+    },
+    {
+      "question": "How do you adapt to change?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "staying-current-with-technology",
+        "handling-stress-and-pressure",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.360283714037428,
+        0.35399195835245534,
+        0.33984076601364915
+      ]
+    },
+    {
+      "question": "Tell me about receiving difficult feedback",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 5,
+      "quality": "Excellent",
+      "top_notes": [
+        "receiving-and-acting-on-feedback",
+        "helping-struggling-teammates",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.5178326401868941,
+        0.4134806991399082,
+        0.40314552875502807
+      ]
+    },
+    {
+      "question": "How do you build relationships at work?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "helping-struggling-teammates",
+        "handling-team-disagreements",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.38145515529033813,
+        0.36252670613916493,
+        0.3522285839969818
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "question": "What's your strongest programming language?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "python-backend-experience",
+        "project-links-all",
+        "react-frontend-experience"
+      ],
+      "top_scores": [
+        0.39669169076015426,
+        0.3408660294585578,
+        0.3344952284072113
+      ]
+    },
+    {
+      "question": "How do you approach learning a new framework?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "learning-new-technologies-quickly",
+        "communicating-technical-concepts",
+        "react-frontend-experience"
+      ],
+      "top_scores": [
+        0.40423300359385,
+        0.37027077594077873,
+        0.3686367234799209
+      ]
+    },
+    {
+      "question": "What development tools do you use daily?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "nexus-developer-experience-focus",
+        "react-frontend-experience",
+        "nexus-current-work-status"
+      ],
+      "top_scores": [
+        0.42478507967303986,
+        0.3925701717791766,
+        0.3850473490684084
+      ]
+    },
+    {
+      "question": "How do you ensure code quality?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "integrations-dashboard-tech-decisions",
+        "moh-ami-development-iteration",
+        "debugging-and-problem-solving-process"
+      ],
+      "top_scores": [
+        0.37805073763435254,
+        0.37476229187494076,
+        0.36008533655642805
+      ]
+    },
+    {
+      "question": "What's your experience with version control?",
+      "category": "Technical Skills & Experience",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "react-frontend-experience",
+        "handling-team-disagreements",
+        "state-management-patterns"
+      ],
+      "top_scores": [
+        0.33206007057959197,
+        0.3265625945072559,
+        0.32621458946868764
+      ]
+    },
+    {
+      "question": "What's your understanding of RAG systems?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "folio-rag-system-architecture",
+        "README",
+        "prompt-engineering-experience"
+      ],
+      "top_scores": [
+        0.474982438077282,
+        0.3461906150866713,
+        0.34289690517609406
+      ]
+    },
+    {
+      "question": "Have you worked with recommendation engines?",
+      "category": "AI/ML & Emerging Tech",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "whatnow-contextual-bandits-implementation",
+        "ai-ml-experience",
+        "hardest-bug-technical-problem"
+      ],
+      "top_scores": [
+        0.43150547692958435,
+        0.42057365693309595,
+        0.3972074574522548
+      ]
+    },
+    {
+      "question": "What was the biggest project you led?",
+      "category": "Project & Portfolio",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-team-collaboration",
+        "integrations-dashboard-liaison-role",
+        "integrations-dashboard-achievement"
+      ],
+      "top_scores": [
+        0.4031177774934622,
+        0.37034063161167563,
+        0.367335859799114
+      ]
+    },
+    {
+      "question": "How do you choose what to build?",
+      "category": "Project & Portfolio",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "prioritization-strategies",
+        "integrations-dashboard-tech-decisions"
+      ],
+      "top_scores": [
+        0.34793040536521963,
+        0.34228237779533927,
+        0.33065318649130804
+      ]
+    },
+    {
+      "question": "What's a project that didn't go as planned?",
+      "category": "Project & Portfolio",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "cirrus-scope-lessons",
+        "jam-hot-failure-lessons",
+        "cirrus-overview-cancellation"
+      ],
+      "top_scores": [
+        0.41951331857399077,
+        0.4008596407225217,
+        0.3955938150018366
+      ]
+    },
+    {
+      "question": "How do you validate project ideas?",
+      "category": "Project & Portfolio",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "folio-test-driven-development",
+        "ideal-work-environment",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.4096625428158819,
+        0.4061556363909416,
+        0.3915090199482816
+      ]
+    },
+    {
+      "question": "How do you measure project success?",
+      "category": "Project & Portfolio",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "jam-hot-to-whatnow-evolution",
+        "integrations-dashboard-overview",
+        "cirrus-scope-lessons"
+      ],
+      "top_scores": [
+        0.3795895512628621,
+        0.37332323091347014,
+        0.3634863682265528
+      ]
+    },
+    {
+      "question": "How do you approach a new technical problem?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "handling-ambiguous-requirements",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.45529271449766207,
+        0.377963834404315,
+        0.37480821789134006
+      ]
+    },
+    {
+      "question": "Walk me through your debugging process",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "moh-ami-development-iteration",
+        "hardest-bug-detailed-story"
+      ],
+      "top_scores": [
+        0.5461270231352309,
+        0.3986062709588722,
+        0.3830058138832592
+      ]
+    },
+    {
+      "question": "How do you handle production issues?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-production-deployment",
+        "handling-stress-and-pressure",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.44149555208807445,
+        0.33479713806794537,
+        0.3284977727264198
+      ]
+    },
+    {
+      "question": "What's your process for troubleshooting?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "debugging-and-problem-solving-process",
+        "hardest-bug-detailed-story",
+        "moh-ami-development-iteration"
+      ],
+      "top_scores": [
+        0.5492219407961024,
+        0.3850019554670388,
+        0.3515901379175144
+      ]
+    },
+    {
+      "question": "How do you deal with unclear error messages?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "debugging-and-problem-solving-process",
+        "hardest-bug-detailed-story"
+      ],
+      "top_scores": [
+        0.3588787247477109,
+        0.3159978684840785,
+        0.2874133739165508
+      ]
+    },
+    {
+      "question": "Tell me about investigating a performance issue",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "nexus-performance-optimization",
+        "hardest-bug-detailed-story",
+        "debugging-and-problem-solving-process"
+      ],
+      "top_scores": [
+        0.4192538987450744,
+        0.39885729533805975,
+        0.39549024211282874
+      ]
+    },
+    {
+      "question": "How do you prevent bugs in the first place?",
+      "category": "Problem Solving & Debugging",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "hardest-bug-detailed-story",
+        "debugging-and-problem-solving-process",
+        "nexus-safety-layers"
+      ],
+      "top_scores": [
+        0.2838466075593617,
+        0.2834927959968782,
+        0.2134184912015338
+      ]
+    },
+    {
+      "question": "How do you collaborate with other developers?",
+      "category": "Team & Communication",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-mentoring-backend-developers",
+        "receiving-and-acting-on-feedback",
+        "email-editor-team-collaboration"
+      ],
+      "top_scores": [
+        0.4153097584658719,
+        0.40295263890817945,
+        0.40205622553819986
+      ]
+    },
+    {
+      "question": "How do you give constructive feedback?",
+      "category": "Team & Communication",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "receiving-and-acting-on-feedback",
+        "communicating-technical-concepts",
+        "helping-struggling-teammates"
+      ],
+      "top_scores": [
+        0.5445535863306246,
+        0.38303636568803556,
+        0.37771340314434926
+      ]
+    },
+    {
+      "question": "How do you resolve technical disagreements?",
+      "category": "Team & Communication",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-team-disagreements",
+        "handling-ambiguous-requirements",
+        "integrations-dashboard-tech-decisions"
+      ],
+      "top_scores": [
+        0.5353520080360074,
+        0.395983427846459,
+        0.36741041135258184
+      ]
+    },
+    {
+      "question": "How do you keep stakeholders informed?",
+      "category": "Team & Communication",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "receiving-and-acting-on-feedback",
+        "email-editor-production-deployment"
+      ],
+      "top_scores": [
+        0.4200839870020707,
+        0.38296524464219034,
+        0.37881513362933195
+      ]
+    },
+    {
+      "question": "Tell me about pair programming experience",
+      "category": "Team & Communication",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "python-backend-experience",
+        "email-editor-mentoring-backend-developers",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.38950699850672577,
+        0.38791622741531906,
+        0.37202076744071716
+      ]
+    },
+    {
+      "question": "Have you led any projects?",
+      "category": "Leadership & Initiative",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-team-collaboration",
+        "team-dad-leadership",
+        "daily-responsibilities-at-nurtur"
+      ],
+      "top_scores": [
+        0.4101685240643846,
+        0.40804729899218833,
+        0.40514706318853555
+      ]
+    },
+    {
+      "question": "How do you take initiative on a team?",
+      "category": "Leadership & Initiative",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "helping-struggling-teammates",
+        "handling-team-disagreements",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.44334044237989384,
+        0.43835832040574657,
+        0.43269818983377845
+      ]
+    },
+    {
+      "question": "How do you handle responsibility?",
+      "category": "Leadership & Initiative",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "handling-team-disagreements",
+        "helping-struggling-teammates"
+      ],
+      "top_scores": [
+        0.41577292082169953,
+        0.3634087039944705,
+        0.3431254192181247
+      ]
+    },
+    {
+      "question": "How do you manage your time?",
+      "category": "Work Style & Productivity",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "prioritization-strategies",
+        "work-life-balance-approach"
+      ],
+      "top_scores": [
+        0.39350344943448884,
+        0.3728226537684115,
+        0.3303864916868592
+      ]
+    },
+    {
+      "question": "What's your typical day like?",
+      "category": "Work Style & Productivity",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "my-work-style-and-preferences",
+        "work-life-balance-approach",
+        "ideal-work-environment"
+      ],
+      "top_scores": [
+        0.3046080095524165,
+        0.28128599267666754,
+        0.2811500273730809
+      ]
+    },
+    {
+      "question": "What makes you productive?",
+      "category": "Work Style & Productivity",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "email-editor-production-deployment",
+        "handling-stress-and-pressure",
+        "work-life-balance-approach"
+      ],
+      "top_scores": [
+        0.4129945708542588,
+        0.3768975142571958,
+        0.3662845648261845
+      ]
+    },
+    {
+      "question": "How do you avoid burnout?",
+      "category": "Work Style & Productivity",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "work-life-balance-approach",
+        "handling-stress-and-pressure",
+        "staying-current-with-technology"
+      ],
+      "top_scores": [
+        0.44258347086271077,
+        0.4255344161175988,
+        0.40355337252350165
+      ]
+    },
+    {
+      "question": "How do you stay focused?",
+      "category": "Work Style & Productivity",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "staying-current-with-technology",
+        "handling-stress-and-pressure",
+        "prioritization-strategies"
+      ],
+      "top_scores": [
+        0.42732973713737304,
+        0.3988437898907764,
+        0.36545290151126114
+      ]
+    },
+    {
+      "question": "What's your approach to deadlines?",
+      "category": "Work Style & Productivity",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "prioritization-strategies",
+        "my-work-style-and-preferences",
+        "handling-stress-and-pressure"
+      ],
+      "top_scores": [
+        0.4465285764020617,
+        0.4311634085260663,
+        0.42370196789791276
+      ]
+    },
+    {
+      "question": "How do you handle interruptions?",
+      "category": "Work Style & Productivity",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "handling-team-disagreements",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.36417675423897916,
+        0.34607533714110855,
+        0.3343235818195726
+      ]
+    },
+    {
+      "question": "What tools help you stay organized?",
+      "category": "Work Style & Productivity",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "prioritization-strategies",
+        "nexus-developer-experience-focus"
+      ],
+      "top_scores": [
+        0.36366446791261214,
+        0.3569080967732314,
+        0.33076692501870564
+      ]
+    },
+    {
+      "question": "How do you evaluate new technologies?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "folio-test-driven-development",
+        "project-links-all",
+        "ai-ml-experience"
+      ],
+      "top_scores": [
+        0.36700781784235575,
+        0.35064310696468803,
+        0.34888334411576516
+      ]
+    },
+    {
+      "question": "What conferences or resources do you follow?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "project-links-all",
+        "ai-ml-experience",
+        "staying-current-with-technology"
+      ],
+      "top_scores": [
+        0.36547564554367945,
+        0.3475607116870978,
+        0.3426758065774923
+      ]
+    },
+    {
+      "question": "What technical blogs do you read?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "portfolio-website-article-system",
+        "integrations-dashboard-tech-decisions",
+        "communicating-technical-concepts"
+      ],
+      "top_scores": [
+        0.3730788298539503,
+        0.35820293864892344,
+        0.35090498060285447
+      ]
+    },
+    {
+      "question": "How do you share knowledge with others?",
+      "category": "Professional Development",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "communicating-technical-concepts",
+        "receiving-and-acting-on-feedback",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.42964307346755654,
+        0.3601559735753135,
+        0.35178028032448244
+      ]
+    },
+    {
+      "question": "What certifications do you have?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "education-journey-detailed",
+        "why-employers-should-hire-me",
+        "five-year-professional-vision"
+      ],
+      "top_scores": [
+        0.36292737686257603,
+        0.35424800162907105,
+        0.3411665843063446
+      ]
+    },
+    {
+      "question": "How do you track industry trends?",
+      "category": "Professional Development",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "staying-current-with-technology",
+        "ai-ml-experience",
+        "five-year-professional-vision"
+      ],
+      "top_scores": [
+        0.29939870594235046,
+        0.2704769136906692,
+        0.2506991344705937
+      ]
+    },
+    {
+      "question": "How do you define career success?",
+      "category": "Career & Motivation",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "career-goals-and-aspirations",
+        "five-year-professional-vision",
+        "cirrus-learning-outcomes"
+      ],
+      "top_scores": [
+        0.4489253338127123,
+        0.4086029060883332,
+        0.36070076718487504
+      ]
+    },
+    {
+      "question": "What impact do you want to make?",
+      "category": "Career & Motivation",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "wonder-connection-values",
+        "ideal-work-environment",
+        "what-drives-me-as-developer"
+      ],
+      "top_scores": [
+        0.4056136363497097,
+        0.37963870450715814,
+        0.36380066588262366
+      ]
+    },
+    {
+      "question": "What kind of company culture do you prefer?",
+      "category": "Career & Motivation",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "my-work-style-and-preferences",
+        "ideal-work-environment",
+        "handling-team-disagreements"
+      ],
+      "top_scores": [
+        0.4373806967752047,
+        0.43367427284687193,
+        0.33565326852893584
+      ]
+    },
+    {
+      "question": "What are your salary expectations?",
+      "category": "Career & Motivation",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "areas-i-want-to-grow-in",
+        "five-year-professional-vision",
+        "why-employers-should-hire-me"
+      ],
+      "top_scores": [
+        0.39136012228118144,
+        0.38493243133281185,
+        0.3810438355519534
+      ]
+    },
+    {
+      "question": "Why did you choose software development?",
+      "category": "Career & Motivation",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "ironhack-bootcamp-education",
+        "artist-to-tech-transition",
+        "education-journey-detailed"
+      ],
+      "top_scores": [
+        0.41904217440034214,
+        0.4125353445319306,
+        0.41019891881433057
+      ]
+    },
+    {
+      "question": "Tell me about a time you failed",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "jam-hot-failure-lessons",
+        "jam-hot-ai-journey-start",
+        "jam-hot-to-whatnow-evolution"
+      ],
+      "top_scores": [
+        0.41063101253582135,
+        0.4006382772370985,
+        0.35196877544079175
+      ]
+    },
+    {
+      "question": "How do you handle criticism?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "receiving-and-acting-on-feedback",
+        "handling-team-disagreements",
+        "handling-stress-and-pressure"
+      ],
+      "top_scores": [
+        0.4341365482337793,
+        0.4080553501815581,
+        0.37836005579699694
+      ]
+    },
+    {
+      "question": "Describe a difficult decision you made",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "hardest-bug-detailed-story",
+        "handling-team-disagreements",
+        "integrations-dashboard-tech-decisions"
+      ],
+      "top_scores": [
+        0.35596433980303127,
+        0.3461619766606762,
+        0.34201875240358715
+      ]
+    },
+    {
+      "question": "How do you deal with ambiguity?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-ambiguous-requirements",
+        "handling-team-disagreements",
+        "debugging-and-problem-solving-process"
+      ],
+      "top_scores": [
+        0.5448184934796424,
+        0.3827999265180026,
+        0.3232755975135447
+      ]
+    },
+    {
+      "question": "Tell me about a conflict you resolved",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-team-disagreements",
+        "handling-stress-and-pressure",
+        "integrations-dashboard-liaison-role"
+      ],
+      "top_scores": [
+        0.45243277565854495,
+        0.36047390837729626,
+        0.3602494712262021
+      ]
+    },
+    {
+      "question": "How do you handle tight deadlines?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 3,
+      "quality": "Adequate",
+      "top_notes": [
+        "handling-stress-and-pressure",
+        "handling-ambiguous-requirements",
+        "prioritization-strategies"
+      ],
+      "top_scores": [
+        0.45310101588163887,
+        0.3802517975503351,
+        0.37509022749051124
+      ]
+    },
+    {
+      "question": "How do you adapt to change?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "staying-current-with-technology",
+        "handling-stress-and-pressure",
+        "handling-ambiguous-requirements"
+      ],
+      "top_scores": [
+        0.360283714037428,
+        0.35399195835245534,
+        0.33984076601364915
+      ]
+    },
+    {
+      "question": "How do you build relationships at work?",
+      "category": "Behavioral & Soft Skills",
+      "quality_score": 2,
+      "quality": "Weak",
+      "top_notes": [
+        "helping-struggling-teammates",
+        "handling-team-disagreements",
+        "team-dad-leadership"
+      ],
+      "top_scores": [
+        0.38145515529033813,
+        0.36252670613916493,
+        0.3522285839969818
+      ]
+    }
+  ]
+}

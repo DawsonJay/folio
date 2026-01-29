@@ -1,0 +1,24 @@
+# moh-ami: LLM Integration and Prompt Engineering
+
+The LLM integration in moh-ami represents one of my most sophisticated implementations of working with large language models in production. Unlike simple API calls, this system involves careful prompt engineering, structured output parsing, validation, and comprehensive error handling to create a reliable educational tool.
+
+I use OpenAI's GPT-4o-mini model because it's cost-effective while still providing high-quality translations and explanations. The temperature is set to 0.3 for consistency - low enough to get reliable, factual responses but high enough to allow natural language explanations. The response format is enforced as JSON objects to ensure parseable output.
+
+The prompt engineering is where most of the complexity lives. I designed prompts that request very specific JSON schema outputs with exact field names and data structures. For each text chunk, the LLM returns the French translation, word-by-word mappings with array indices, grammar rules that apply, cultural context if relevant, and alternative translations with explanations of nuanced differences. This structured approach makes the output consistent and eliminates the ambiguity of free-form responses.
+
+Semantic chunking was a key insight. Initially I tried word-by-word translation, but explanations felt disconnected and didn't capture phrase-level meaning. I switched to chunking text into meaningful units of 50-150 characters - roughly phrase or sentence level. This produces more coherent explanations because the LLM can explain "Comment allez-vous" as a unit rather than explaining "Comment", "allez", and "vous" separately without context.
+
+The validation logic catches common LLM errors before they reach users. Sometimes GPT-4o-mini wraps JSON in markdown code blocks, so I strip those. Sometimes it returns index values that don't match the actual text positions, so I correct those. Sometimes required fields are missing, so I provide defaults or request regeneration. This defensive programming means users see consistent results even when the LLM makes mistakes.
+
+Error handling is comprehensive because production systems need to gracefully handle API failures. I handle quota exceeded errors (tell user to wait or contact me), billing issues (alert me to fix payment), rate limit errors (implement exponential backoff), context length exceeded (break into smaller chunks), network failures (retry with timeout), and general API errors (log for debugging, show user-friendly message). Each error type has specific handling logic rather than generic error messages.
+
+The lazy initialization pattern was necessary for deployment. During Next.js build time, environment variables might not be available, so eagerly creating the OpenAI client would fail. I switched to lazy initialization where the client is created on first use at runtime when environment variables are definitely available. This seems like a small detail but it's the kind of production concern that separates working code from deployed systems.
+
+One interesting challenge was handling the asynchronous nature of LLM calls in the UI. Users don't want to wait 3-5 seconds staring at a blank screen, so I implemented loading states, progress indicators, and optimistic UI updates. The interface shows that processing is happening and gives feedback about what's being done. This UX consideration makes the system feel responsive even though LLM calls have inherent latency.
+
+The cost considerations mattered for a personal project. At $0.15 per million tokens for GPT-4o-mini, each translation costs roughly $0.001-0.003 depending on length. That's affordable for personal use but required thinking about efficiency. I cache translations in the PostgreSQL database so repeated requests don't call the API again. I limit text length to reasonable bounds. I use semantic chunking to reduce total tokens compared to word-by-word approaches. These optimizations keep costs manageable while maintaining functionality.
+
+What I learned from this implementation is that production LLM integration is very different from prototype LLM integration. Prototypes can make API calls and display whatever comes back. Production systems need structured outputs, validation, error handling, cost optimization, and user experience considerations. The technical skills to call an API are straightforward; the engineering skills to make it reliable and usable are where the real work happens.
+
+For employers evaluating moh-ami, the LLM integration demonstrates I can work with cutting-edge AI APIs in production contexts, design effective prompts that get consistent results, handle the practical challenges of unreliable external APIs, and build systems that are robust enough for real users. This is increasingly valuable as LLM integration becomes standard in software development.
+
