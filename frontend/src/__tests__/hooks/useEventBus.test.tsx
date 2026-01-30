@@ -66,7 +66,7 @@ describe('useEvent', () => {
     render(<TestComponent />);
 
     eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
-    eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [] });
+    eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [], emotion: 'happy' });
 
     expect(callback1).toHaveBeenCalledTimes(1);
     expect(callback2).toHaveBeenCalledTimes(1);
