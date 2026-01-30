@@ -57,3 +57,4 @@ def extract_project_links(note_ids: List[str]) -> Optional[Dict[str, Dict[str, O
     
     return mentioned_projects if mentioned_projects else None
 
+

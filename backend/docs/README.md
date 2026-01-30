@@ -191,3 +191,4 @@ When updating prompts:
 
 For detailed implementation questions, see the specific guides listed above. For system architecture questions, start with [ATOMIC-NOTES-TECHNICAL.md](ATOMIC-NOTES-TECHNICAL.md).
 
+
