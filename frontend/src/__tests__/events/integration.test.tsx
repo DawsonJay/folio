@@ -53,7 +53,7 @@ describe('Event System Integration Tests', () => {
 
       expect(questionHistory).toEqual(['test']);
 
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Test answer', suggestions: [] });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Test answer', suggestions: [], emotion: 'happy' });
 
       expect(responseHistory).toEqual(['Test answer']);
     });
@@ -114,6 +114,7 @@ describe('Event System Integration Tests', () => {
       eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, {
         answer: 'React is a JavaScript library for building user interfaces.',
         suggestions: [],
+        emotion: 'happy',
       });
 
       expect(answers).toEqual(['React is a JavaScript library for building user interfaces.']);
@@ -154,10 +155,10 @@ describe('Event System Integration Tests', () => {
       render(<ChatComponent />);
 
       screen.getByTestId('q1').click();
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'A1', suggestions: [] });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'A1', suggestions: [], emotion: 'happy' });
 
       screen.getByTestId('q2').click();
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'A2', suggestions: [] });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'A2', suggestions: [], emotion: 'happy' });
 
       expect(conversation).toEqual([
         { question: 'Q1' },
@@ -214,7 +215,7 @@ describe('Event System Integration Tests', () => {
       eventBus.emit(EVENT_TYPES.CHAT_READY, {});
       expect(states).toEqual(['error', 'ready']);
 
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Success', suggestions: [] });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Success', suggestions: [], emotion: 'happy' });
       expect(states).toEqual(['error', 'ready', 'success']);
     });
   });
@@ -264,7 +265,7 @@ describe('Event System Integration Tests', () => {
 
       expect(questions).toEqual(['test']);
 
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Response', suggestions: [] });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'Response', suggestions: [], emotion: 'happy' });
 
       expect(chatMessages).toEqual(['Response']);
     });
@@ -293,7 +294,7 @@ describe('Event System Integration Tests', () => {
       render(<OrderTestComponent />);
 
       eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [] });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [], emotion: 'happy' });
       eventBus.emit(EVENT_TYPES.CHAT_ERROR, { error: 'error' });
 
       expect(eventOrder).toEqual(['question', 'response', 'error']);

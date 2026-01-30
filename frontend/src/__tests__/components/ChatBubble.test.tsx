@@ -264,6 +264,7 @@ describe('ChatBubble Sizing Mechanics', () => {
       eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, {
         answer: 'New response text',
         suggestions: [],
+        emotion: 'happy',
       });
 
       await waitFor(() => {

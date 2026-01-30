@@ -85,7 +85,7 @@ describe('EventBus', () => {
       eventBus.on(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, responseCallback);
 
       eventBus.emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: 'test' });
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [] });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [], emotion: 'happy' });
 
       expect(questionCallback).toHaveBeenCalledWith({
         type: EVENT_TYPES.CHAT_QUESTION_ASKED,
@@ -95,6 +95,7 @@ describe('EventBus', () => {
         type: EVENT_TYPES.CHAT_RESPONSE_RECEIVED,
         answer: 'answer',
         suggestions: [],
+        emotion: 'happy',
       });
     });
 
@@ -113,7 +114,7 @@ describe('EventBus', () => {
       const callback = vi.fn();
       eventBus.on(EVENT_TYPES.CHAT_QUESTION_ASKED, callback);
 
-      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [] });
+      eventBus.emit(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, { answer: 'answer', suggestions: [], emotion: 'happy' });
 
       expect(callback).not.toHaveBeenCalled();
     });
