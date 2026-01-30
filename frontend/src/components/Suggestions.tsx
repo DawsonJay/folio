@@ -5,6 +5,7 @@ import type { Suggestion } from '../types';
 
 export default function Suggestions() {
   const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
+  const [initialSuggestions, setInitialSuggestions] = useState<Suggestion[]>([]);
   const emit = useEmit();
 
   useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, () => {
@@ -13,10 +14,17 @@ export default function Suggestions() {
 
   useEvent(EVENT_TYPES.INITIAL_SUGGESTIONS_RECEIVED, (event) => {
     setSuggestions(event.suggestions);
+    setInitialSuggestions(event.suggestions);
   });
 
   useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, (event) => {
     setSuggestions(event.suggestions);
+  });
+
+  useEvent(EVENT_TYPES.CHAT_ERROR, () => {
+    if (initialSuggestions.length > 0) {
+      setSuggestions(initialSuggestions);
+    }
   });
 
   const handleSuggestionClick = (suggestion: Suggestion) => {

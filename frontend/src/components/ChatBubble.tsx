@@ -42,6 +42,10 @@ export default function ChatBubble({ children }: ChatBubbleProps) {
     switchToBuffer(event.answer);
   });
 
+  useEvent(EVENT_TYPES.CHAT_ERROR, () => {
+    switchToBuffer("Eerk! That didn't go as planned. I'm having trouble right now, try again in a moment?");
+  });
+
   useConstrainedHeight(wrapperRef, refs[0]);
   useConstrainedHeight(wrapperRef, refs[1]);
 

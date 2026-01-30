@@ -27,12 +27,12 @@ class SuggestionsResponse(BaseModel):
     suggestions: List[Suggestion]
 
 INITIAL_SUGGESTIONS = [
-    {"text": "What technologies did you use?"},
-    {"text": "What can you build?"},
-    {"text": "How long did that take?"},
-    {"text": "What was your role in this project?"},
-    {"text": "Show me your best work"},
-    {"text": "What problems did you solve?"}
+    {"text": "What is Folio?"},
+    {"text": "Tell me about your current experience"},
+    {"text": "Why are you looking for a new role?"},
+    {"text": "What are your strongest technical skills?"},
+    {"text": "Tell me about a project you're proud of"},
+    {"text": "What are you looking for in your next role?"}
 ]
 
 FOLLOW_UP_SUGGESTIONS = [
