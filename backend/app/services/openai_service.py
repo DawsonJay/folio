@@ -51,7 +51,7 @@ JSON: {"answer":"str","emotion":"happy|thinking|surprised|derp","suggestions":[{
 
 Emotions: happy(positive), thinking(technical), surprised(impressive), derp(limitations). Default: happy
 ProjectLinks: Only for projects discussed. Reference: "demo/GitHub available"
-Suggestions: 6 varied, relevant follow-ups"""
+Suggestions: 6 varied, relevant follow-ups, each max 45 characters"""
 
         user_message = f"""Context:
 {context}
@@ -106,7 +106,7 @@ Emotions: thinking(redirecting), derp(limitation). Default: thinking"""
 
 Context: {weak_context}
 
-Can't fully answer. Acknowledge topic. Mention related info. Suggest 6 alternatives. Note: can discuss in interview. JSON only."""
+Can't fully answer. Acknowledge topic. Mention related info. Suggest 6 alternatives, each max 45 characters. Note: can discuss in interview. JSON only."""
         
         messages = [
             {"role": "system", "content": system_message},
@@ -139,12 +139,12 @@ Can't fully answer. Acknowledge topic. Mention related info. Suggest 6 alternati
             "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
             "emotion": "thinking",
             "suggestions": [
-                {"text": "What technologies do you use?"},
-                {"text": "Tell me about your projects"},
-                {"text": "What's your experience with AI/ML?"},
-                {"text": "How do you approach problem-solving?"},
-                {"text": "What's your leadership style?"},
-                {"text": "Show me your best work"}
+                {"text": "What projects have you built?"},
+                {"text": "Tell me about your AI/ML work"},
+                {"text": "What's your backend experience?"},
+                {"text": "How do you approach debugging?"},
+                {"text": "What's your frontend stack?"},
+                {"text": "Tell me about your work process"}
             ]
         }
     
@@ -153,12 +153,12 @@ Can't fully answer. Acknowledge topic. Mention related info. Suggest 6 alternati
             "answer": "I'm here to help you learn about James's professional background and experience. Please keep questions professional and on-topic.\n\nIf you're interested in James's work, I'd be happy to answer questions about his technical skills, projects, or development approach.",
             "emotion": "annoyed",
             "suggestions": [
-                {"text": "What's your technical experience?"},
-                {"text": "Tell me about your projects"},
-                {"text": "What technologies do you use?"},
-                {"text": "How do you approach development?"},
-                {"text": "What are your strengths?"},
-                {"text": "Show me your portfolio"}
+                {"text": "What is Folio?"},
+                {"text": "How does Folio work?"},
+                {"text": "What tech powers Folio?"},
+                {"text": "Why did you build Folio?"},
+                {"text": "Tell me about the RAG system"},
+                {"text": "How did you build Folio?"}
             ]
         }
 

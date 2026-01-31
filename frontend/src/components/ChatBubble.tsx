@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useEvent } from '../hooks/useEventBus';
 import { useConstrainedHeight } from '../hooks/useConstrainedHeight';
 import { EVENT_TYPES } from '../events/eventTypes';
+import TypingAnimation from './TypingAnimation';
 
 interface ChatBubbleProps {
   children: React.ReactNode;
@@ -11,6 +12,7 @@ export default function ChatBubble({ children }: ChatBubbleProps) {
   const initialText = typeof children === 'string' ? children : '';
   const [activeBuffer, setActiveBuffer] = useState<number>(0);
   const [buffers, setBuffers] = useState<[string, string]>([initialText, '']);
+  const [isTyping, setIsTyping] = useState<boolean>(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const refs = [useRef<HTMLDivElement>(null), useRef<HTMLDivElement>(null)];
 
@@ -38,11 +40,17 @@ export default function ChatBubble({ children }: ChatBubbleProps) {
     }
   }, [children]);
 
+  useEvent(EVENT_TYPES.CHAT_QUESTION_ASKED, () => {
+    setIsTyping(true);
+  });
+
   useEvent(EVENT_TYPES.CHAT_RESPONSE_RECEIVED, (event) => {
+    setIsTyping(false);
     switchToBuffer(event.answer);
   });
 
   useEvent(EVENT_TYPES.CHAT_ERROR, () => {
+    setIsTyping(false);
     switchToBuffer("Eerk! That didn't go as planned. I'm having trouble right now, try again in a moment?");
   });
 
@@ -51,15 +59,21 @@ export default function ChatBubble({ children }: ChatBubbleProps) {
 
   return (
     <div ref={wrapperRef} className="chat-bubble">
-      {buffers.map((text, index) => (
-        <div
-          key={index}
-          ref={refs[index]}
-          className={`chat-bubble-content ${activeBuffer === index ? 'chat-bubble-content-active' : 'chat-bubble-content-inactive'}`}
-        >
-          {text}
+      {isTyping ? (
+        <div className="chat-bubble-content chat-bubble-content-active">
+          <TypingAnimation />
         </div>
-      ))}
+      ) : (
+        buffers.map((text, index) => (
+          <div
+            key={index}
+            ref={refs[index]}
+            className={`chat-bubble-content ${activeBuffer === index ? 'chat-bubble-content-active' : 'chat-bubble-content-inactive'}`}
+          >
+            {text}
+          </div>
+        ))
+      )}
     </div>
   );
 }
