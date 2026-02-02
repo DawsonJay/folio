@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /get-in-touch/sent
+
+Sitemap: https://jamesfolio.dev/sitemap.xml
+
