@@ -12,6 +12,7 @@ Folio is a portfolio website with a single, focused interaction: an AI chatbot t
 - **Single Message Bubble Interface**: Clean, focused design - no scrolling chat history
 - **Animated Avatar**: Folio avatar with facial expressions showing AI state
 - **Suggested Questions**: Contextual follow-up suggestions
+- **Contact Form**: EmailJS-powered contact form with validation
 - **Dark Theme**: Forest green color palette with warm terracotta accents
 - **Responsive Design**: Mobile-first, same design across all screen sizes
 
@@ -29,7 +30,8 @@ Folio is a portfolio website with a single, focused interaction: an AI chatbot t
 ### Frontend
 - **Framework**: React + TypeScript
 - **Build Tool**: Vite
-- **Styling**: Tailwind CSS
+- **Styling**: SCSS/Sass
+- **Email Service**: EmailJS
 - **Architecture**: Event-driven, modular component system
 - **Deployment**: Vercel/Netlify
 
@@ -62,6 +64,18 @@ pip install -r requirements.txt
 ```bash
 cd frontend
 npm install
+```
+
+### Environment Variables
+
+Create a `.env` file in the `frontend` directory with the following variables:
+
+```env
+# EmailJS Configuration (for contact form)
+# Sign up at https://www.emailjs.com/ to get these values
+VITE_EMAILJS_SERVICE_ID=your_service_id_here
+VITE_EMAILJS_TEMPLATE_ID=your_template_id_here
+VITE_EMAILJS_PUBLIC_KEY=your_public_key_here
 ```
 
 ## Design

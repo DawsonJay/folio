@@ -38,3 +38,4 @@ The technical architecture uses foundation block components for scalability and 
 
 Looking across these favorites, I see a pattern: I care deeply about building things that matter. Whether it's helping a friend learn French, exploring inaccessible places, learning from ambitious failures, or supporting my colleagues' daily work, the projects I'm most passionate about are the ones with genuine purpose and human connection. The technical challenges excite me, but what really drives me is creating systems that provide real value to real people.
 
+

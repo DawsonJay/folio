@@ -1,11 +1,13 @@
 @use 'theme' as *;
 @use 'mixins' as *;
 @use 'pages/landing-page';
+@use 'pages/get-in-touch-page';
 @use 'avatar/avatar';
 @use 'components/header';
 @use 'components/input-box';
 @use 'components/suggestions';
 @use 'components/chat-bubble';
+@use 'components/contact-form';
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');

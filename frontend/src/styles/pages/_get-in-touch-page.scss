@@ -1,0 +1,193 @@
+@use '../theme' as *;
+@use '../mixins' as *;
+
+.get-in-touch-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  @include custom-scrollbar();
+
+  .main-panel {
+    width: 100%;
+    min-height: 100vh;
+    flex: 0 0 auto;
+    background-color: $bg-primary;
+    @include rounded-top-lg;
+    @include drop-shadow;
+    @include texture('skulls', 0.2);
+    @include drop-in-animation;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: $spacing-xl $spacing-md;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 600px;
+    padding: $spacing-lg;
+    padding-top: $spacing-xl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $spacing-lg;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+  }
+}
+
+.page-title {
+  font-family: $font-sans;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: $primary-white;
+  margin: 0 0 $spacing-sm 0;
+  text-align: center;
+}
+
+.page-subtitle {
+  font-size: 1.25rem;
+  color: $accent;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+}
+
+.availability-card {
+  background: transparent;
+  border-radius: $radius-lg;
+  padding: $spacing-xl;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.availability-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: $primary-white;
+  text-align: center;
+  margin: 0;
+}
+
+.contact-additional-info {
+  width: 100%;
+  margin-top: $spacing-md;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.contact-info-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: $primary-white;
+  text-align: center;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.success-screen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+
+  .main-panel {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    background-color: $bg-primary;
+    @include rounded-top-lg;
+    @include drop-shadow;
+    @include texture('skulls', 0.2);
+    @include drop-in-animation;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin-bottom: -80px;
+  }
+
+  .content {
+    flex: 1;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 $spacing-lg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-lg;
+    min-height: 0;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+  }
+}
+
+.success-message {
+  padding: 0;
+  background: transparent;
+  border-radius: $radius-lg;
+  text-align: center;
+  color: $primary-white;
+  width: 100%;
+}
+
+.success-title {
+  font-family: $font-sans;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 $spacing-md 0;
+  color: $primary-white;
+}
+
+.success-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 $spacing-lg 0;
+  opacity: 0.9;
+  color: $primary-white;
+}
+
+.success-highlight {
+  color: $accent;
+  font-weight: 600;
+}
+
+.success-button {
+  display: inline-block;
+  padding: $spacing-md $spacing-xl;
+  background: $accent;
+  color: $primary-white;
+  font-family: $font-sans;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: $radius-md;
+  border: 2px solid $accent;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  margin-top: $spacing-lg;
+
+  &:hover {
+    background: lighten($accent, 5%);
+    border-color: lighten($accent, 5%);
+  }
+}
+

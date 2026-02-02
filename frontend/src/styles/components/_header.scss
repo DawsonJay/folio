@@ -43,6 +43,7 @@
   padding: 0 $spacing-md;
   position: relative;
   z-index: 1;
+  flex-shrink: 0;
 }
 
 .header-name {
