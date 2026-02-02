@@ -1,0 +1,14 @@
+# How I Describe Myself: Personality and Work Style
+
+I am creative and supportive by nature. Those two traits define how I approach both work and relationships with colleagues. I love making things - that hasn't changed at all since my past in art. I love designing projects, watching them grow and develop into something physical and real, seeing an idea become concrete through code and architecture.
+
+The supportive side is equally fundamental to who I am. I generally gravitate toward being the leader of any group, not because I need authority but because it's my reflex to look after the people around me and make sure they have everything they need to flourish. I tend to take responsibility for organizing teams and ensuring everyone is set up for success. In team projects at university, I was often called the "team dad" because of this natural caretaking approach to leadership.
+
+I don't particularly need to be in charge, though. As I said, I like to support people, and if there's an established hierarchy, I have no problem acting as social glue - pulling a team together but letting someone else take the lead. For me, leadership isn't about ego or control. It's about creating an environment where everyone can be the best they can be. If I'm leading, great. If I'm supporting someone else's leadership while helping the team function well, that's equally satisfying to me.
+
+My core values are wonder and connection. Wonder is about discovery - finding new things and experiences, finding the magic in the world, and reflecting that sense of possibility in what I create. It's what drives me to keep learning, to explore new technologies, to tackle ambitious projects. Connection is about forming meaningful relationships with people and sharing that sense of wonder with them. It's why I care so much about building software that genuinely helps people, and why I invest energy in mentoring and supporting my teammates.
+
+I think others would describe me as friendly, funny, creative, probably a little weird. But also genuine and caring. I don't put on a professional mask at work - what you see is who I am. I make jokes, I get enthusiastic about clever solutions, I show real interest in my colleagues' lives and growth. But there's substance behind the friendliness - when someone needs help or support, they know I'll be there with practical assistance and genuine care for their success.
+
+My approach to work and life is driven by the desire to make meaningful things while supporting the people around me. I want to create software that lasts, that solves real problems, that reflects craftsmanship and thoughtfulness. And I want to do that as part of teams where everyone is growing, contributing, and feeling valued for what they bring. Creation and connection - that's what drives me in everything I do.
+

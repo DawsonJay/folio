@@ -1,0 +1,14 @@
+# Approach to Salary Expectations and Negotiation
+
+I handle salary expectations by researching market rates before any conversation about compensation. I look at factors like the Canadian market specifically, location within Canada, role responsibilities, company size, and typical compensation for someone with my experience level - several years of production experience plus AI and machine learning skills. Research gives me a foundation for professional discussion rather than pulling numbers from thin air.
+
+I typically provide a range rather than a specific number when asked about salary expectations. I frame it as being competitive based on market research for the role and my experience level, while making it clear I'm flexible and consider the full opportunity. A range shows I've done my homework while leaving room for negotiation and acknowledging that different companies have different compensation structures.
+
+I emphasize that I'm looking for a competitive package that reflects the value I bring - my production experience, AI and ML capabilities, full-stack skills, and leadership potential. However, I'm genuinely flexible because I consider multiple factors beyond just base salary. Growth opportunities, team culture, professional development support, benefits, and the work itself all matter to me. A role with great growth potential and excellent team culture might be worth more to me than a higher salary with limited advancement possibilities.
+
+When thinking about compensation, I consider the full package. Base salary is important, but so are benefits, professional development opportunities, growth potential, work-life balance, and whether the work is meaningful. A complete evaluation of an opportunity includes all of these factors, not just the number on the salary line. I want to make sure the compensation is fair and competitive for my skills and experience, but I'm also thinking about long-term career value and whether this role will help me grow professionally.
+
+If an offer comes in below what my research suggests is appropriate, I respond professionally. I acknowledge the offer positively and reference my market research. I ask if there's flexibility on the compensation package, and I'm genuinely open to discussing other aspects that could make it work - perhaps additional benefits, professional development support, clear growth opportunities, or other factors that add real value beyond base salary.
+
+The key throughout is being professional, demonstrating I've done my research, showing flexibility, and focusing on finding the right opportunity rather than just maximizing the number. I want to ensure compensation is fair and competitive for my skills and experience while remaining open to the full value proposition of the role. This approach has served me well - it shows I value myself professionally while being reasonable and focused on finding genuine fit rather than just the highest bidder.
+

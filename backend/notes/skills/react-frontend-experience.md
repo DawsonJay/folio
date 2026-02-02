@@ -1,6 +1,6 @@
 # React Frontend Development Experience
 
-I've been building React applications for over 3 years, and it's my primary framework for frontend development. My experience spans from small personal projects to enterprise-level applications at my current role at Nurtur, where I work as a Junior Frontend Developer.
+I've been building React applications for over 3 years, and it's my primary framework for frontend development. My experience spans from small personal projects to enterprise-level applications at my current role at Nurtur, where I work as a Full Stack Developer.
 
 I work exclusively with modern React patterns - functional components with Hooks, not class components. I'm very comfortable with the core Hooks like useState, useEffect, useContext, useMemo, and useCallback, and I understand when and why to use each one. I've built custom hooks to encapsulate reusable logic, like useScrollTracking for my portfolio's article navigation system and useDioramaAnimation for coordinating SVG animations.
 

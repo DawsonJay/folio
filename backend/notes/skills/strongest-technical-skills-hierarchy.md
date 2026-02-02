@@ -1,0 +1,14 @@
+# My Strongest Technical Skills
+
+My strongest technical skills are TypeScript and React - these are what I use every single day in my professional work, and where I have the deepest expertise. I'm highly proficient at building complex, production-ready user interfaces that are maintainable, performant, and built to last for years. The Integrations Dashboard I built has been running in production for over three years with zero crashes or bug reports, and my current work on the Nexus dashboard showcases my ability to design and implement full frontend systems from scratch with complete technical ownership.
+
+I am familiar with backend development and have worked with Python, C#, and various backend technologies in both professional and personal projects. However, my emphasis is clearly on frontend development - that's where my strongest skills lie and where I can deliver the most value. I can work across the full stack when needed, but frontend is my specialty.
+
+What makes my technical skills particularly valuable is how I approach development. I use Cursor extensively and have developed a highly effective AI-assisted workflow. I'm not just competent with traditional programming - my roots are in traditional programming workflows, so I have a deep understanding of code at multiple levels, from architecture down to implementation details. The AI assistance lets me work at a higher level of abstraction, focusing on code structure, architecture, and the big picture while being more efficient with implementation.
+
+This combination is powerful: I have the deep foundational understanding that comes from learning programming the traditional way, but I've evolved to leverage modern AI tools to work more effectively. I understand systems deeply enough to know what to ask for, how to break problems down, and how to evaluate whether the solutions fit into the larger architecture. I'm not dependent on AI tools - I could work without them - but using them strategically makes me significantly more productive and lets me maintain higher quality documentation and code structure.
+
+In terms of specific technical strengths with React and TypeScript, I excel at component architecture, state management patterns, type-safe systems, performance optimization, and building scalable frontend applications. I understand how to structure code for long-term maintainability, which is why my production systems continue running smoothly years after deployment with minimal maintenance.
+
+The combination of deep frontend expertise in React and TypeScript, strategic use of AI-assisted development with Cursor, and foundational understanding from traditional programming creates a unique skill set. I can build production-quality frontend systems efficiently while maintaining the architectural thinking and code quality that comes from deep technical understanding.
+

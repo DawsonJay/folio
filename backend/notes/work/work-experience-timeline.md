@@ -2,7 +2,7 @@
 
 ## Current Position
 
-**Junior Front End Developer at Nurtur**  
+**Full Stack Developer at Nurtur**  
 July 2022 - Present (2+ years)  
 Derby, UK
 
@@ -77,7 +77,7 @@ Pre-2020 (University and before)
 
 **2020**: Bootcamp graduate → First junior role  
 **2021**: Freelance (learned I need teams)  
-**2022**: Back to Nurtur as Junior Frontend Developer  
+**2022**: Back to Nurtur as Full Stack Developer  
 **2023-2024**: Grew into trusted contributor on critical systems, mentor to others  
 **2025**: Ready for next step - more AI/ML work, alignment with values, growth toward robotics/exploration
 

@@ -1,0 +1,12 @@
+# Communication Preferences and Style
+
+I usually prefer communication through calls rather than text, but with an important caveat - I prepare beforehand. Before reaching out to someone, I clearly lay out the problem in my own mind and develop specific questions I need answered. I don't like wasting someone's time because I haven't bothered to prepare, and I don't like having to contact someone again because I didn't ask for what I actually needed the first time. I like to treat other people's time as valuable and to honor that through preparation.
+
+A call is usually much more friendly and enjoyable than text communication, and unless things are in a dire rush, I'll typically go for a call because it's much easier to express complex problems in that medium. You can have a real conversation, pick up on tone and nuance, clarify misunderstandings immediately, and build rapport. When things are urgent and I need a quick answer, I'll ask my prepared questions in text, usually phrased so the other person can answer in just a few words without needing to type out long explanations.
+
+This approach balances efficiency with respect for others. I'm not avoiding communication or defaulting to async because I'm uncomfortable with interaction - quite the opposite. I enjoy talking with colleagues and building those working relationships. But I'm intentional about when and how I reach out because I know everyone's time is limited and valuable. Preparation means our conversations are focused, productive, and respectful of everyone's schedules.
+
+In practice, this means I lean toward synchronous communication for complex discussions, but I make that synchronous time count. I'll spend time thinking through a problem before scheduling a call, I'll have specific questions ready, and I'll make sure I'm using that face-to-face (or voice-to-voice) time for things that genuinely benefit from real-time interaction. For simple questions, status updates, or things that don't require discussion, I'm perfectly comfortable with text-based async communication.
+
+The underlying principle is respect. I respect my colleagues' time, their focus, and their need to manage their own schedules. I respect that interruptions are costly when you're deep in code. And I respect that good communication requires thought and preparation, not just reaching out whenever a question pops into my head. This communication style has served me well in remote work environments where intentional communication is even more important than it is in person.
+

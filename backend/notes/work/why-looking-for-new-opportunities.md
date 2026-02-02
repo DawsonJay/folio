@@ -8,7 +8,7 @@ I'm not leaving Nurtur because of issues or dissatisfaction. They gave me valuab
 
 **Deliberate progression**: I'm building from web development → AI/ML → robotics → exploration technology. This isn't random - it's strategic.
 
-**Current position**: Junior Frontend Developer focused primarily on React/TypeScript dashboards.
+**Current position**: Full Stack Developer with primary focus on React/TypeScript frontend, but with full-stack responsibilities including backend work, architecture decisions, and mentoring.
 
 **Next needed step**: More AI/ML focused work, deeper technical challenges, projects that align with my values of wonder and connection.
 

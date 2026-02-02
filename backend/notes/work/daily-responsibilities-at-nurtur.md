@@ -1,6 +1,6 @@
 # Daily Responsibilities at Nurtur
 
-## Role: Junior Front End Developer
+## Role: Full Stack Developer
 
 **Company**: Nurtur (operating as BriefYourMarket.com)  
 **Duration**: July 2022 - Present (2+ years)  
@@ -123,7 +123,7 @@
 
 ## Growth at Nurtur
 
-**Started as Junior Frontend Developer** with primarily Ironhack bootcamp experience.
+**Started with primarily Ironhack bootcamp experience, but quickly took on full-stack responsibilities** including solo full-stack projects and architecture decisions.
 
 **Grown into**:
 - Trusted contributor on critical systems (Nexus)

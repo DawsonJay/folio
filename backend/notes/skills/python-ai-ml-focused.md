@@ -1,8 +1,8 @@
-# Python Backend Development Experience
+# Python for AI/ML Projects
 
-I've been working with Python for backend development for over 3 years now, and it's become my primary language for building server-side applications and APIs. My experience centers around FastAPI as my main framework, which I've used extensively across multiple production projects.
+I've been familiar with Python for around 7 years, but I only started using it in a more focused way in the past year as I began building AI and machine learning projects. Python is not my primary language - TypeScript and React are my core strengths - but I've developed solid Python skills specifically for AI/ML work and backend APIs that support AI systems. My experience centers around FastAPI as my framework of choice for building AI-powered backends.
 
-In my professional work and personal projects, I've built RESTful APIs using FastAPI that handle everything from simple CRUD operations to complex data processing pipelines. I'm comfortable with async/await patterns for handling concurrent operations, which is crucial for building responsive APIs. The type hints and automatic OpenAPI documentation generation in FastAPI have made my code more maintainable and easier to collaborate on.
+Over the past year, I've built several AI-focused projects using Python and FastAPI. I've created RESTful APIs that integrate with AI systems, handle embeddings and vector search, and serve LLM-powered applications. I'm comfortable with async/await patterns for handling concurrent operations, which is important for responsive AI APIs. The type hints and automatic OpenAPI documentation generation in FastAPI make it a great choice for building maintainable AI backends.
 
 My Python work spans several domains. I've integrated machine learning and AI systems into production applications, including contextual bandits for reinforcement learning in WhatNow, LLM integration with OpenAI APIs in both moh-ami and my current Folio project, and attempted weather prediction models in Cirrus. I'm experienced with data processing at scale - in the Cirrus project I processed 56 million weather records using NumPy, Pandas, and multiprocessing for performance optimization.
 
@@ -12,5 +12,5 @@ Beyond web frameworks and databases, I have experience with scientific Python li
 
 I follow Python best practices including virtual environments for dependency isolation, requirements.txt for dependency management, proper error handling and logging, and writing clean, readable code. I'm comfortable with Python's ecosystem of tools and can quickly pick up new libraries as needed for specific project requirements.
 
-What I particularly appreciate about Python is how it lets me move quickly from idea to working prototype, while still being powerful enough for production systems. Whether it's building APIs, processing data, integrating AI models, or solving complex algorithmic problems, Python has been my go-to tool for backend development.
+What I particularly appreciate about Python is how well it serves the AI/ML ecosystem. The libraries, frameworks, and community support for AI work in Python are unmatched. While I'm strongest in TypeScript and React for frontend work, Python has become my tool of choice specifically for AI projects - building RAG systems, integrating LLMs, working with embeddings, and creating AI-powered backends. It's a supporting skill that complements my primary frontend expertise and enables me to build full-stack AI applications.
 

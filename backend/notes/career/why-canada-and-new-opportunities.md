@@ -28,7 +28,7 @@ I'm actively pursuing permanent residence in Canada through the Working Holiday 
 
 ## Why Now
 
-**Career progression**: I've been at Nurtur for 2+ years as Junior Frontend Developer. I've built production systems like the Integrations Dashboard (3+ years in production with zero maintenance) and contributed to complex projects like the Nexus Dashboard and Email Editor.
+**Career progression**: I've been at Nurtur for 2+ years as a Full Stack Developer. I've built production systems like the Integrations Dashboard (3+ years in production with zero maintenance) and contributed to complex projects like the Nexus Dashboard and Email Editor.
 
 **Demonstrated trajectory**: My portfolio shows clear progression:
 - Started with web development foundations (Ironhack bootcamp)

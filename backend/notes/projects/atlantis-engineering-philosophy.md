@@ -1,6 +1,6 @@
 # Atlantis: Engineering Philosophy and Space Exploration Parallels
 
-The engineering philosophy guiding Atlantis embodies "Survivability Over Perfection" - creating tools robust enough to access environments that require genuine engineering skill to reach. This philosophy draws direct parallels to space exploration, particularly Mars rover operations, and demonstrates mature engineering thinking about reliability, safety, and pragmatic design.
+The engineering philosophy guiding Atlantis puts survivability as the main goal - nothing else is achievable if the system doesn't survive. Creating tools robust enough to access environments that require genuine engineering skill to reach, where survival depends entirely on design quality and code cleverness. This philosophy draws direct parallels to space exploration, particularly Mars rover operations, and demonstrates mature engineering thinking about reliability, safety, and pragmatic design.
 
 The core principle is that perfect is the enemy of good enough. A system that works reliably is better than a theoretically superior system that's too complex to actually implement. The mapping system doesn't need to be as sophisticated as professional surveyor equipment; it needs to reliably produce accurate maps without failing. The probe doesn't need every possible sensor; it needs the right sensors working well together. The boat doesn't need autonomous AI navigation; it needs responsive manual control that never surprises the operator.
 
@@ -32,5 +32,5 @@ From a portfolio perspective, the engineering philosophy demonstrates mature pro
 
 What I learned from developing the Atlantis philosophy is that good engineering is as much about what you choose not to do as what you do. Saying no to complex underwater communication, no to expensive professional equipment, no to autonomous AI in the first version - these decisions simplified the project and made it achievable. Knowing what to cut without compromising core goals is a critical skill.
 
-The Atlantis engineering philosophy - survivability over perfection, space exploration parallels, layered safety, modular testing, comprehensive documentation, cost-conscious design, learning from setbacks, and environmental responsibility - creates a framework for tackling ambitious projects successfully. This philosophy transfers to any engineering domain and represents the kind of mature systems thinking that distinguishes senior engineers from junior ones.
+The Atlantis engineering philosophy - survivability as the main goal, space exploration parallels, layered safety, modular testing, comprehensive documentation, cost-conscious design, learning from setbacks, and environmental responsibility - creates a framework for tackling ambitious projects successfully. This philosophy transfers to any engineering domain and represents the kind of mature systems thinking that distinguishes senior engineers from junior ones.
 

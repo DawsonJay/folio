@@ -58,7 +58,8 @@ async def chat(request: ChatRequest):
     from pathlib import Path
     
     VERY_LOW_THRESHOLD = 0.20
-    CONFIDENCE_THRESHOLD = 0.40
+    CONFIDENCE_HIGH = 0.40
+    CONFIDENCE_MEDIUM = 0.30
     EMBEDDINGS_FILE = Path(__file__).parent.parent.parent / "embeddings.json"
     
     openai_service = OpenAIService()
@@ -114,7 +115,12 @@ async def chat(request: ChatRequest):
     
     project_links = extract_project_links(note_ids[:3])
     
-    if top_score < CONFIDENCE_THRESHOLD:
+    # Confidence tiers (defined at top of file):
+    # >= 0.4: High confidence - full answer
+    # 0.3 - 0.4: Medium confidence - qualified answer with acknowledgment
+    # < 0.3: Low confidence - redirect
+    
+    if top_score < CONFIDENCE_MEDIUM:
         result = openai_service.generate_redirect_response(request.question, context)
         return ChatResponse(
             answer=result["answer"],
@@ -124,6 +130,32 @@ async def chat(request: ChatRequest):
             top_score=top_score
         )
     
+    # Medium confidence (0.3-0.4): Provide answer with qualification
+    if top_score < CONFIDENCE_HIGH:
+        qualification = "The question is a little vague - I'm better with more specific questions, but I'll try my best:"
+        result = openai_service.generate_chat_response(
+            request.question, 
+            context, 
+            project_links,
+            qualification=qualification
+        )
+        
+        project_links_response = None
+        if result.get("projectLinks"):
+            project_links_response = {
+                k: ProjectLinks(**v) for k, v in result["projectLinks"].items()
+            }
+        
+        return ChatResponse(
+            answer=result["answer"],
+            emotion=result["emotion"],
+            suggestions=[Suggestion(**s) for s in result["suggestions"]],
+            projectLinks=project_links_response,
+            confidence="medium",
+            top_score=top_score
+        )
+    
+    # High confidence (>= 0.4): Full answer
     result = openai_service.generate_chat_response(request.question, context, project_links)
     
     project_links_response = None
