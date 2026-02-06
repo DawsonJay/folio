@@ -1,8 +1,8 @@
 # Why I'm Looking for New Opportunities
 
-## It's About Growth, Not Problems
+## Current Situation
 
-I'm not leaving Nurtur because of issues or dissatisfaction. They gave me valuable experience, and I'm grateful for what I've learned. I'm leaving because I'm ready for the next stage of my career progression.
+I'm being made redundant at Nurtur. While this wasn't my choice, it aligns with my career goals and provides an opportunity to pursue the next stage of my professional development.
 
 ## Career Trajectory Goals
 
@@ -14,7 +14,7 @@ I'm not leaving Nurtur because of issues or dissatisfaction. They gave me valuab
 
 **Long-term vision**: Working on exploration technology (deep sea/space) or environmental systems that help people understand and connect with the natural world.
 
-## What I've Achieved at Nurtur (2+ Years)
+## What I've Achieved at Nurtur (3.5 Years)
 
 ✅ Built production systems (Integrations Dashboard - 3+ years, zero maintenance)  
 ✅ Contributed to critical infrastructure (Nexus Dashboard, Email Editor)  
@@ -23,7 +23,7 @@ I'm not leaving Nurtur because of issues or dissatisfaction. They gave me valuab
 ✅ Mastered Redux Toolkit and complex state management  
 ✅ Learned to work in established codebases at scale
 
-**I've maximized what this role can teach me**. To keep growing, I need different challenges.
+**I've maximized what this role could teach me**. The redundancy provides an opportunity to pursue different challenges that align with my growth trajectory.
 
 ## Immigration to Canada
 
@@ -31,7 +31,7 @@ I'm not leaving Nurtur because of issues or dissatisfaction. They gave me valuab
 
 **Why Canada**: Natural beauty, environmental values, work-life balance culture, innovation in technology. I want to build my life and career there.
 
-**Timing**: Now is the right time to make this move. I have 2+ years of solid experience and proven production systems.
+**Timing**: This transition comes at the right time. I have 3.5 years of solid experience and proven production systems, making this an ideal moment to make the move to Canada.
 
 **Commitment**: This isn't about "trying out" Canada. It's about choosing where I want to live long-term and finding work that grows with me there.
 
@@ -68,22 +68,22 @@ I'm not leaving Nurtur because of issues or dissatisfaction. They gave me valuab
 
 **Leadership opportunity**: Ready to take on more leadership while remaining technical contributor. My "team dad" style brings teams together and encourages everyone's best work.
 
-## No Bitterness or Complaints
+## Gratitude for the Experience
 
 **Nurtur was exactly what I needed at that stage**: I went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities, let me build the Integrations Dashboard solo, trusted me with critical systems like Nexus.
 
-**Why leave something good**: Because staying would mean not pursuing my actual career goals. Nurtur doesn't have AI/robotics work. They don't focus on exploration or environmental technology. They can't offer what I need for the next 5 years of growth.
+**Why this transition works**: While the redundancy wasn't my choice, it aligns with my career goals. Nurtur doesn't have AI/robotics work. They don't focus on exploration or environmental technology. This transition allows me to pursue what I need for the next 5 years of growth.
 
-**Leaving professionally**: I'll give proper notice, document my work thoroughly, help transition my responsibilities. I respect what they've given me and want to leave them in good shape.
+**Handling the transition professionally**: I'm committed to a smooth transition, documenting my work thoroughly, and helping transition my responsibilities. I respect what they've given me and want to leave them in good shape.
 
 ## The Bottom Line
 
 I'm looking because:
-1. **Geographic**: Moving to Canada for immigration and lifestyle
-2. **Technical**: Need more AI/ML and systems work to continue growth trajectory
-3. **Values**: Want projects that align with wonder, connection, and helping humanity relate to nature
-4. **Growth**: Maximized what current role can teach me
-5. **Timing**: 2+ years experience is right time to make this move
+1. **Transition**: Being made redundant provides opportunity to pursue next career stage
+2. **Geographic**: Moving to Canada for immigration and lifestyle
+3. **Technical**: Need more AI/ML and systems work to continue growth trajectory
+4. **Values**: Want projects that align with wonder, connection, and helping humanity relate to nature
+5. **Timing**: 3.5 years experience is right time to make this move
 
 I'm not running away from problems. I'm running toward my goals. The next role should use my current strengths (full-stack web dev, AI/ML foundations, leadership) while growing me toward robotics and exploration technology in a Canadian environment with meaningful work.
 

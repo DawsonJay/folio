@@ -2,7 +2,7 @@
 
 ## The Practical Reality
 
-**Primary driver: Moving to Canada**: My priority is immigrating to Canada. Moving internationally is expensive, and I need stable employment to make it happen. I have 2+ years of production web development experience, which means I can:
+**Primary driver: Moving to Canada**: My priority is immigrating to Canada. Moving internationally is expensive, and I need stable employment to make it happen. I have 3.5 years of production web development experience, which means I can:
 - Get hired in senior roles (not entry-level wages)
 - Start contributing immediately (no learning curve)
 - Save money for future transitions if needed

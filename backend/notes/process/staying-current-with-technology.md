@@ -28,7 +28,7 @@
 
 ## Professional Work Exposure
 
-**At Nurtur (2+ years)**:
+**At Nurtur (3.5 years)**:
 - **Nexus Dashboard**: Modern React patterns, foundation blocks architecture
 - **Email Editor**: Redux Toolkit (when it was relatively new), Lexical framework
 - **Team collaboration**: Learning from senior developers, code reviews, architectural discussions

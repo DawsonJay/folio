@@ -1,0 +1,390 @@
+{
+  "test_metadata": {
+    "timestamp": "2026-02-06-0243",
+    "api_url": "http://localhost:8000/api/chat",
+    "total_questions": 11,
+    "test_focus": "Redundancy and employment status questions"
+  },
+  "results": [
+    {
+      "question_number": 1,
+      "question": "When can you start?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 8822,
+      "answer": "I understand that you're looking for clarity on my availability, especially considering my current situation of being made redundant at Nurtur. I am currently navigating the redundancy process, which includes a notice period. My commitment to ensuring a smooth transition is paramount, and I am dedicated to fulfilling my responsibilities during this time. \n\nIn terms of availability, I anticipate being able to start a new role once my notice period concludes. This could vary based on the specific timeline set by my employer at Nurtur, but I am aiming for a start date that aligns with the end of my notice period. I believe that clear communication and a structured timeline will facilitate a seamless transition into a new role, allowing me to focus on contributing effectively from day one.\n\nAdditionally, I am actively pursuing opportunities in web development as part of my broader goal of immigrating to Canada. This goal is driven by my desire for stability and the alignment of my personal and professional aspirations in a new environment. Canada represents a fantastic opportunity for growth, and I am eager to integrate my diverse skills—ranging from coding to creativity—into a role that allows me to thrive in this new setting.\n\nMoving internationally is a significant undertaking, and I recognize the importance of securing a stable job to support my transition. I believe my varied experiences, coupled with a strong work ethic, will make me a valuable asset to any team. \n\nIn summary, I am committed to ensuring a smooth transition at Nurtur and look forward to discussing potential opportunities that align with my timeline and aspirations.",
+      "suggestions": [
+        {
+          "text": "What skills do you bring to web development?"
+        },
+        {
+          "text": "How do you approach problem-solving in coding?"
+        },
+        {
+          "text": "Tell me about your experience in teaching."
+        },
+        {
+          "text": "What projects have you worked on recently?"
+        },
+        {
+          "text": "How do you handle transitions between roles?"
+        },
+        {
+          "text": "What motivates you to move to Canada?"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "medium",
+      "top_score": 0.3443355867858795,
+      "projectLinks": null
+    },
+    {
+      "question_number": 2,
+      "question": "Are you currently employed?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 2371,
+      "answer": "I'm currently employed as a Full Stack Developer at Nurtur, but I'm also going through a redundancy process. My focus has been on React and TypeScript development, and I've worked remotely throughout my career. I'm committed to a smooth transition during this time.",
+      "suggestions": [
+        {
+          "text": "What projects have you worked on?"
+        },
+        {
+          "text": "How do you approach full stack development?"
+        },
+        {
+          "text": "Tell me about your remote work experience."
+        },
+        {
+          "text": "What skills do you consider your strengths?"
+        },
+        {
+          "text": "How do you manage project deadlines?"
+        },
+        {
+          "text": "What technologies are you most comfortable with?"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "redirect",
+      "top_score": 0.2968469216962343,
+      "projectLinks": null
+    },
+    {
+      "question_number": 3,
+      "question": "Why did you leave your last job?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 7673,
+      "answer": "I am leaving my current role at Nurtur due to being made redundant. This decision was not made by me, but I view it as an opportunity that aligns with my career goals and aspirations. My time at Nurtur has been enriching and has allowed me to hone my skills as a Full Stack Developer, particularly in React and TypeScript development for internal dashboards. I joined Nurtur in July 2022, and I have been working in a fully remote capacity, which has been a consistent aspect of my professional journey since my first role at BriefYourMarket.\n\nDuring my tenure at Nurtur, my daily responsibilities included not only coding but also collaborating with cross-functional teams to ensure that the applications we developed met the needs of our users. The experience of working in a remote environment has equipped me with strong communication and collaboration skills, which I believe are essential for any successful development team. Although my time here is coming to an end, I feel prepared to take on new challenges and continue my growth in the tech industry.\n\nAs I look for new opportunities, I am excited about the prospect of applying my expertise in a new role. I believe that being made redundant, while unexpected, is a chance to reflect on my career path and explore avenues that align more closely with my long-term goals. I am eager to leverage my skills and experiences in a new environment that values innovation and collaboration. \n\nIn summary, while leaving Nurtur is not a choice I made, it opens the door for me to pursue my aspirations and embrace the next stage of my career with enthusiasm and determination.",
+      "suggestions": [
+        {
+          "text": "What skills do you want to develop next?"
+        },
+        {
+          "text": "How do you approach remote teamwork?"
+        },
+        {
+          "text": "Tell me about your favorite project."
+        },
+        {
+          "text": "What technologies are you most passionate about?"
+        },
+        {
+          "text": "How do you handle technical challenges?"
+        },
+        {
+          "text": "What are your career goals moving forward?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.4219704179571817,
+      "projectLinks": null
+    },
+    {
+      "question_number": 4,
+      "question": "Why are you looking for a new role?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 7722,
+      "answer": "I am currently looking for a new role due to an unexpected redundancy at Nurtur, where I have been working as a Full Stack Developer since July 2022. Although this situation was not my choice, I see it as an opportunity to align my career goals with my next steps. My primary focus at Nurtur has been on React and TypeScript development for our internal dashboard, which has allowed me to enhance my skills in modern web technologies and contribute to meaningful projects. \n\nAs I look ahead, I am eager to find positions that not only allow me to use my existing skill set but also provide avenues for growth. I have a strong desire to come into an environment that values professional development and collaboration among team members. Working with great teams is essential to me, as I believe that a supportive and innovative atmosphere fosters creativity and productivity. \n\nI am particularly interested in roles where I can take on new challenges and responsibilities, as I want to continue evolving in my career rather than simply climbing a corporate ladder. I want to immerse myself in projects that push my boundaries and encourage learning. \n\nWhile the redundancy itself was not ideal, I am looking at it positively, viewing this transition as a chance to explore new opportunities that better align with my aspirations. I am ready to bring my experience and enthusiasm to a new team that shares my commitment to growth and collaboration. If you have any recommendations or openings that fit this description, I would be eager to discuss them further!",
+      "suggestions": [
+        {
+          "text": "What skills are you looking to develop?"
+        },
+        {
+          "text": "How do you approach team collaboration?"
+        },
+        {
+          "text": "Tell me about your development experience?"
+        },
+        {
+          "text": "What projects are you most proud of?"
+        },
+        {
+          "text": "How do you handle challenges in development?"
+        },
+        {
+          "text": "What motivates you in your career?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.50006299170961,
+      "projectLinks": null
+    },
+    {
+      "question_number": 5,
+      "question": "What's your notice period?",
+      "timestamp": "2026-02-06-0243",
+      "success": true,
+      "error": null,
+      "response_time_ms": 6859,
+      "answer": "My notice period at Nurtur is currently in process as I navigate through the redundancy transition. I was informed about the redundancy, which was not a decision I made, and while it brings about a challenging situation, I view it as a chance to align my career with my goals. I am committed to ensuring a smooth transition during my time at Nurtur, which means I will continue to fulfill my responsibilities and assist in knowledge transfer where necessary.\n\nThroughout my time at Nurtur, I have been a Full Stack Developer, focusing largely on React and TypeScript to develop internal dashboards. My experience spans over 3.5 years in this role, where I have honed my skills in creating efficient and user-friendly applications. \n\nThe remote work structure has been a constant throughout my professional career, starting from my initial position at BriefYourMarket to my current role at Nurtur. This experience has equipped me with the ability to collaborate effectively across teams without the need for physical presence, making me adaptable and proficient in various digital communication tools.\n\nAs I approach the end of my tenure at Nurtur, I am actively looking for new opportunities that will allow me to apply my skills in a fresh environment. I believe that the upcoming transition, although due to redundancy, will ultimately serve as a stepping stone to the next phase of my career. I am enthusiastic about exploring roles that will allow me to leverage my technical expertise in full-stack development and continue growing professionally in a supportive and innovative setting.",
+      "suggestions": [
+        {
+          "text": "What remote work tools do you prefer?"
+        },
+        {
+          "text": "How do you manage work-life balance?"
+        },
+        {
+          "text": "Tell me about your biggest project challenge."
+        },
+        {
+          "text": "What skills do you want to develop next?"
+        },
+        {
+          "text": "How do you approach teamwork in remote settings?"
+        },
+        {
+          "text": "What are your career goals for the next few years?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.47742947873076735,
+      "projectLinks": null
+    },
+    {
+      "question_number": 6,
+      "question": "How long did you work at Nurtur?",
+      "timestamp": "2026-02-06-0243",
+      "success": true,
+      "error": null,
+      "response_time_ms": 5899,
+      "answer": "I have been working as a Full Stack Developer at Nurtur since July 2022, and I will continue until February 2026, totaling 3.5 years in this role. During my time at Nurtur, I have been deeply involved in several key projects that are crucial to the company’s operations and growth. My primary focus has been on React and TypeScript development, which has allowed me to contribute significantly to the internal dashboard and various production systems that are designed to last for many years. \n\nOne of the major projects I've been part of is the Nexus project, where I am currently dedicating my efforts. The Nexus project is integral to enhancing our product offerings and improving user experience. Additionally, I have worked on the Email Editor, a significant team collaboration initiative aimed at rebuilding the core product of the company. This project involves a drag-and-drop email template system that requires not only technical expertise but also effective teamwork and communication to ensure its successful implementation. \n\nWhile my journey at Nurtur has been fulfilling, I am facing redundancy, which, although unexpected, aligns with my career aspirations. I view this as an opportunity to explore new avenues and challenges in my professional journey. My experience at Nurtur has equipped me with a robust skill set in full-stack development, and I am excited about what lies ahead in my career path.",
+      "suggestions": [
+        {
+          "text": "What projects have you enjoyed most?"
+        },
+        {
+          "text": "How do you approach team collaboration?"
+        },
+        {
+          "text": "Tell me about your technical skills."
+        },
+        {
+          "text": "What challenges have you faced at Nurtur?"
+        },
+        {
+          "text": "How do you stay updated in tech?"
+        },
+        {
+          "text": "What are your career goals moving forward?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.6024703412611209,
+      "projectLinks": null
+    },
+    {
+      "question_number": 7,
+      "question": "What happened at your last job?",
+      "timestamp": "2026-02-06-0243",
+      "success": true,
+      "error": null,
+      "response_time_ms": 6600,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: my last position was at Nurtur, where I served as a Full Stack Developer from July 2022 until February 2026. During my time there, I focused primarily on developing production systems that are designed to last for years. My main project was the Nexus project, which involved creating robust applications using React and TypeScript. This role provided me with a deep understanding of both front-end and back-end development, allowing me to contribute effectively to our internal systems.\n\nIn addition to my work on Nexus, I participated in a significant team collaboration project that revolved around rebuilding our core product—the drag-and-drop email template editor. This project required close cooperation with cross-functional teams to ensure that the new editor met user needs while also aligning with technical constraints. Working on this email editor not only honed my skills in collaborative project development but also emphasized the importance of user-centered design in creating functional and appealing software.\n\nUnfortunately, I'm transitioning out of Nurtur due to redundancy, which was not my choice. However, I view this change as an opportunity to pursue the next stage of my career, where I can apply the skills and experiences I've gained in a new context and continue to grow as a developer. I'm excited about the potential to explore new challenges and contribute to innovative projects in the tech industry.\n\nOverall, my experience at Nurtur has been invaluable, and I am looking forward to leveraging my background in full stack development and team collaboration in my future endeavors.",
+      "suggestions": [
+        {
+          "text": "What projects are you most proud of?"
+        },
+        {
+          "text": "How do you approach full stack development?"
+        },
+        {
+          "text": "Tell me about your technical skills."
+        },
+        {
+          "text": "What challenges have you faced in teams?"
+        },
+        {
+          "text": "How do you handle project deadlines?"
+        },
+        {
+          "text": "What technologies do you enjoy working with?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "medium",
+      "top_score": 0.35266477172927213,
+      "projectLinks": null
+    },
+    {
+      "question_number": 8,
+      "question": "Are you available to start immediately?",
+      "timestamp": "2026-02-06-0243",
+      "success": true,
+      "error": null,
+      "response_time_ms": 5647,
+      "answer": "I am currently in the redundancy process at Nurtur, which entails a notice period. While I am committed to ensuring a smooth transition for my team and the projects I have been involved in, I want to clarify my availability. Given this timeline, I will not be available to start immediately, but I am actively seeking opportunities that align with my skills and aspirations. I am particularly focused on finding a stable role in Canada as I pursue permanent residence through the Working Holiday Visa pathway. \n\nThroughout my professional career, I have worked entirely remotely, starting from my first position at BriefYourMarket to my current role at Nurtur. This experience has equipped me with the necessary skills to adapt to various work environments and collaborate effectively with teams across different time zones. I believe my remote work experience, combined with my creativity and thoughtfulness, makes me a strong candidate for any role that values a diverse range of perspectives. \n\nCanada represents a significant opportunity for me, not only in terms of professional growth but also as a place that aligns with my personal values and lifestyle. I am excited about the possibility of contributing my skills in a stable role within Canada while navigating the immigration process. I am eager to bring my unique background and experiences to a new team, and I am confident that I can make a meaningful impact in any organization I join.",
+      "suggestions": [
+        {
+          "text": "What skills do you bring to projects?"
+        },
+        {
+          "text": "How do you approach remote work?"
+        },
+        {
+          "text": "Tell me about your coding experience."
+        },
+        {
+          "text": "What motivates you to relocate?"
+        },
+        {
+          "text": "How do you ensure smooth transitions?"
+        },
+        {
+          "text": "What are your long-term career goals?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.44369170307966477,
+      "projectLinks": null
+    },
+    {
+      "question_number": 9,
+      "question": "What's your employment status?",
+      "timestamp": "2026-02-06-0243",
+      "success": true,
+      "error": null,
+      "response_time_ms": 5957,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: my current employment status is that I am a Full Stack Developer at Nurtur, a position I've held since July 2022. I focus primarily on React and TypeScript development, specifically working on internal dashboards that are part of our ongoing Nexus project. This project is critical for streamlining operations and enhancing user experience within our internal systems. \n\nCurrently, I am navigating through a redundancy process at Nurtur, which involves a notice period. I am committed to ensuring a smooth transition during this time, as I understand the importance of maintaining productivity and supporting my team until my departure. My anticipated end date at Nurtur is February 2026, but the redundancy process may alter this timeline. \n\nIn addition to my technical skills, what makes me stand out as a candidate is the breadth of my experiences beyond coding. My background includes creativity and thoughtfulness influenced by my interests in art, teaching, and kayaking. These experiences allow me to approach problems from unique angles, fostering innovative solutions in my work. I am currently looking for a stable role in Canada as I pursue permanent residence through the Working Holiday Visa pathway, which aligns with my professional aspirations and personal growth goals. \n\nI am excited about the opportunities ahead and am eager to contribute my skills and perspectives to a new team, ensuring that I can make a lasting impact in my next role.",
+      "suggestions": [
+        {
+          "text": "What projects have you worked on?"
+        },
+        {
+          "text": "How do you handle technical challenges?"
+        },
+        {
+          "text": "Tell me about your coding skills."
+        },
+        {
+          "text": "What is your approach to teamwork?"
+        },
+        {
+          "text": "How do you stay updated with tech trends?"
+        },
+        {
+          "text": "What motivates you in your career?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "medium",
+      "top_score": 0.34263324051176103,
+      "projectLinks": null
+    },
+    {
+      "question_number": 10,
+      "question": "Why did you leave Nurtur?",
+      "timestamp": "2026-02-06-0243",
+      "success": true,
+      "error": null,
+      "response_time_ms": 5724,
+      "answer": "I am currently in the process of leaving my role as a Full Stack Developer at Nurtur, where I have been working since July 2022. Unfortunately, I am being made redundant, which was unexpected and not my choice. However, this situation aligns with my career goals and presents an opportunity for me to explore new challenges and avenues in my professional journey. During my time at Nurtur, I focused primarily on React and TypeScript development, particularly for our internal dashboard systems. One of my key projects has been the Nexus project, which has been crucial in enhancing our internal operations and improving user experience.\n\nMy role involved developing and maintaining robust production systems, ensuring they are scalable and efficient over time. I enjoyed collaborating with teams to address technical challenges and implement innovative solutions that met our users' needs. While the redundancy is not an ideal situation, I see it as a necessary step that allows me to pursue new opportunities that can further develop my skills and career. I am eager to find a role where I can leverage my full stack development expertise and continue making impactful contributions to exciting projects. Overall, I believe this transition will enable me to grow both personally and professionally as I seek out new challenges and opportunities in the tech industry.",
+      "suggestions": [
+        {
+          "text": "What projects have you worked on?"
+        },
+        {
+          "text": "How do you approach problem-solving?"
+        },
+        {
+          "text": "Tell me about your technical skills."
+        },
+        {
+          "text": "What are your career goals?"
+        },
+        {
+          "text": "How do you handle teamwork in projects?"
+        },
+        {
+          "text": "What technologies are you passionate about?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.5436801593091408,
+      "projectLinks": null
+    },
+    {
+      "question_number": 11,
+      "question": "What do you plan to do next?",
+      "timestamp": "2026-02-06-0243",
+      "success": true,
+      "error": null,
+      "response_time_ms": 7098,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I'm currently a Full Stack Developer at Nurtur, where I've been focusing primarily on React and TypeScript development for our internal dashboard. My role has allowed me to deepen my skills in these technologies, and I have enjoyed contributing to the team's projects. However, I have recently been informed that I will be made redundant. While this situation wasn't something I anticipated, I see it as an opportunity to align my career goals more closely with my aspirations. This change has prompted me to actively pursue new opportunities that will allow me to continue growing my skills while making meaningful contributions to a new team. \n\nOne of my primary goals is to relocate to Canada, which is not just an option for me but a firm plan. I am excited about the potential of working in a new environment that fosters innovation and offers diverse challenges. I am looking for roles where I can further develop my expertise and take on new responsibilities. Growth is central to what I want in my next position; I don’t just want to climb the career ladder but also to be part of a team where I can make a significant impact. \n\nAs I navigate this transition, I am focusing on opportunities that align with my technical skills and personal aspirations, particularly in environments that value collaboration and continuous learning. I am confident that this change will lead me to a fulfilling role where I can contribute effectively while also advancing my career. \n\nIf you have any questions about my background or what I’m looking for, feel free to ask!",
+      "suggestions": [
+        {
+          "text": "What skills do you want to develop next?"
+        },
+        {
+          "text": "How do you approach full stack development?"
+        },
+        {
+          "text": "Tell me about your experience with React."
+        },
+        {
+          "text": "What challenges have you faced in your projects?"
+        },
+        {
+          "text": "How do you prioritize your career growth?"
+        },
+        {
+          "text": "What motivates you in your work?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "medium",
+      "top_score": 0.3172351532959347,
+      "projectLinks": null
+    }
+  ],
+  "summary": {
+    "total_questions": 11,
+    "successful_responses": 11,
+    "failed_responses": 0,
+    "average_response_time_ms": 6397,
+    "confidence_distribution": {
+      "medium": 4,
+      "redirect": 1,
+      "high": 6
+    },
+    "emotion_distribution": {
+      "thinking": 2,
+      "happy": 9
+    },
+    "correct_duration_mentions": 2,
+    "redundancy_mentions": 11
+  }
+}

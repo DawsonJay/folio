@@ -1,0 +1,390 @@
+{
+  "test_metadata": {
+    "timestamp": "2026-02-06-0239",
+    "api_url": "http://localhost:8000/api/chat",
+    "total_questions": 11,
+    "test_focus": "Redundancy and employment status questions"
+  },
+  "results": [
+    {
+      "question_number": 1,
+      "question": "When can you start?",
+      "timestamp": "2026-02-06-0238",
+      "success": true,
+      "error": null,
+      "response_time_ms": 10275,
+      "answer": "The question of my start date is indeed a bit vague, but I can provide a clear timeline based on my current commitments. I am currently working at Nurtur, where I have a notice period of four weeks. I believe in giving proper notice to ensure a smooth transition, which includes thoroughly documenting my work and responsibilities. This commitment to a seamless handover reflects my professional ethics and respect for my current team.\n\nGiven this notice period, I would be available to start a new role approximately four weeks after I officially resign. I am dedicated to ensuring that my current projects are well-documented and that my team members are equipped to carry on without interruption. This approach not only benefits my current employer but also positions me well for my future endeavors.\n\nIn terms of my immediate priorities, I am focused on securing a stable position in Canada as I pursue permanent residence through the Working Holiday Visa pathway. My goal to immigrate is a significant driver behind my search for web development roles. I understand the practical realities of moving internationally, including the financial implications, and I am seeking a role that provides the stability I need during this transition.\n\nWhat makes me stand out to potential employers is the breadth of my experience. I bring more than just coding skills to the table; I offer creativity, thoughtfulness, and diverse perspectives gained from my background in art, teaching, and even kayaking. This unique combination allows me to approach problems from various angles and contribute meaningfully to a team.\n\nLooking ahead, I have a clear vision for where I want to be in five years. My aim is to be a valuable member of my team, becoming the go-to person for answers and advice on projects, and fostering a collaborative environment that encourages knowledge-sharing and innovation. \n\nOverall, I am excited about the opportunities that lie ahead and am committed to ensuring a smooth transition in my current role while preparing for the next chapter of my career in Canada.",
+      "suggestions": [
+        {
+          "text": "What skills do you excel in?"
+        },
+        {
+          "text": "How do you approach problem-solving?"
+        },
+        {
+          "text": "Tell me about your web development experience."
+        },
+        {
+          "text": "What projects are you most proud of?"
+        },
+        {
+          "text": "How do you handle team collaboration?"
+        },
+        {
+          "text": "What are your long-term career goals?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "medium",
+      "top_score": 0.35977822778918506,
+      "projectLinks": null
+    },
+    {
+      "question_number": 2,
+      "question": "Are you currently employed?",
+      "timestamp": "2026-02-06-0238",
+      "success": true,
+      "error": null,
+      "response_time_ms": 5167,
+      "answer": "Yes, I am currently employed as a Full Stack Developer at Nurtur since July 2022. My role involves building production systems, particularly focusing on React and TypeScript development for internal dashboards. I have been working remotely throughout my career, which has allowed me to adapt to different working environments effectively.",
+      "suggestions": [
+        {
+          "text": "What projects are you most proud of?"
+        },
+        {
+          "text": "How do you approach coding challenges?"
+        },
+        {
+          "text": "Tell me about your development skills."
+        },
+        {
+          "text": "What inspires your tech projects?"
+        },
+        {
+          "text": "How do you manage remote work?"
+        },
+        {
+          "text": "What tools do you use in development?"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "redirect",
+      "top_score": 0.29807000856085064,
+      "projectLinks": null
+    },
+    {
+      "question_number": 3,
+      "question": "Why did you leave your last job?",
+      "timestamp": "2026-02-06-0238",
+      "success": true,
+      "error": null,
+      "response_time_ms": 9943,
+      "answer": "I am currently a Full Stack Developer at Nurtur, a position I have held since July 2022. My time here has been incredibly rewarding, allowing me to grow significantly in my role as I focus primarily on React and TypeScript development for internal dashboards. Nurtur has provided me with a strong foundation in building production systems that are designed to last for years, which is a critical skill in the software development landscape today.\n\nDespite my positive experience at Nurtur, I have decided to explore new opportunities not because of any dissatisfaction but rather to continue my personal and professional growth. After over two years in my current role, I feel I have achieved what I set out to do, and I’m eager to take on new challenges that will expand my skill set and experience. It’s important to me to continually evolve as a developer, and I believe that seeking out new opportunities is a vital part of that journey.\n\nI want to emphasize that my departure is not due to any issues with Nurtur. They have been excellent for my growth, and I genuinely appreciate everything I have learned while working with them. My entire professional career has been remote, starting from my first position at BriefYourMarket to my ongoing work at Nurtur. This remote work experience has equipped me with the ability to collaborate effectively across teams, manage my time efficiently, and maintain productivity regardless of the physical workspace.\n\nGiven the current landscape of technology and the importance of adaptability, I am excited about the prospect of working on diverse projects that may incorporate different technologies and methodologies. I am particularly interested in roles that challenge me to think critically and innovate within the tech space. Overall, my decision to seek new opportunities is driven by a desire for growth and the excitement of what the future holds for my career.",
+      "suggestions": [
+        {
+          "text": "What projects are you most proud of?"
+        },
+        {
+          "text": "How do you approach problem-solving?"
+        },
+        {
+          "text": "Tell me about your tech stack expertise."
+        },
+        {
+          "text": "What inspires your development work?"
+        },
+        {
+          "text": "How do you manage remote team dynamics?"
+        },
+        {
+          "text": "What are your career goals moving forward?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.41679673990764843,
+      "projectLinks": null
+    },
+    {
+      "question_number": 4,
+      "question": "Why are you looking for a new role?",
+      "timestamp": "2026-02-06-0238",
+      "success": true,
+      "error": null,
+      "response_time_ms": 6912,
+      "answer": "I'm currently seeking new opportunities primarily because I am focused on growth rather than any dissatisfaction with my current role at Nurtur. I have gained substantial experience as a Full Stack Developer there, particularly in React and TypeScript development for internal dashboards. This position has allowed me to hone my technical skills and work on meaningful projects that contribute to the company's success. I am grateful for the experience I've accumulated, and it's important for me to emphasize that my decision to explore new opportunities is driven by a desire to expand my skills and take on new challenges rather than any issues at my current job.\n\nIn my next role, I am looking for an environment that fosters collaboration and teamwork, where I can continue to grow professionally. I believe that working with great teams is essential to not only my success but also the success of the projects we undertake. Finding a company that values development and provides a platform for continuous learning is my top priority. \n\nAnother significant aspect of my search is my immigration goal; I am pursuing permanent residence in Canada through the Working Holiday Visa pathway. This means I am particularly interested in stable roles in Canada that will allow me to contribute my skills while also fulfilling my immigration objectives. I am excited about the prospect of working in a vibrant tech community where I can further develop my career and make meaningful contributions. Overall, my focus is on finding a position that aligns with my professional goals and personal aspirations, particularly in a collaborative and innovative environment.",
+      "suggestions": [
+        {
+          "text": "What skills do you want to develop?"
+        },
+        {
+          "text": "How do you define meaningful contributions?"
+        },
+        {
+          "text": "Tell me about your experience with React."
+        },
+        {
+          "text": "What projects are you most proud of?"
+        },
+        {
+          "text": "How do you approach professional growth?"
+        },
+        {
+          "text": "What type of team environment do you prefer?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.4878427722385304,
+      "projectLinks": null
+    },
+    {
+      "question_number": 5,
+      "question": "What's your notice period?",
+      "timestamp": "2026-02-06-0238",
+      "success": true,
+      "error": null,
+      "response_time_ms": 7587,
+      "answer": "My current notice period at Nurtur is four weeks. I have made a commitment to provide proper notice, ensuring a smooth transition for my team and the projects I have been involved in. This entails thoroughly documenting my work and responsibilities to facilitate the handover process, ensuring that my colleagues have the necessary resources and guidance to continue efficiently. I believe that maintaining professionalism during this transition is crucial, especially given the positive experiences I’ve had at Nurtur. \n\nI want to clarify that my decision to leave is not due to any issues with Nurtur. They have been instrumental in my professional growth over the past two years, providing me with valuable experience and opportunities. I have achieved significant milestones here, and I am genuinely grateful for the supportive environment and the challenges that have helped me develop my skills. \n\nAs I look for new opportunities, I am motivated by the desire for growth rather than dissatisfaction. I am excited to explore roles that can further enhance my skills and offer new challenges. Additionally, my entire professional career has been conducted remotely, starting from my first position at BriefYourMarket to my current role at Nurtur. This experience has equipped me with the capabilities to collaborate effectively in virtual environments, manage projects independently, and communicate clearly across different time zones.  \n\nOne of my immediate priorities is to secure a stable role in Canada, as I am pursuing permanent residence through the Working Holiday Visa pathway. I am eager to find a position that aligns with my career aspirations and allows me to contribute meaningfully to a new team while continuing my personal and professional development.",
+      "suggestions": [
+        {
+          "text": "What projects have you worked on?"
+        },
+        {
+          "text": "How do you manage remote work challenges?"
+        },
+        {
+          "text": "Tell me about your experience at Nurtur."
+        },
+        {
+          "text": "What skills are you looking to develop?"
+        },
+        {
+          "text": "How do you ensure smooth transitions?"
+        },
+        {
+          "text": "What are your long-term career goals?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.5235251365704418,
+      "projectLinks": null
+    },
+    {
+      "question_number": 6,
+      "question": "How long did you work at Nurtur?",
+      "timestamp": "2026-02-06-0239",
+      "success": true,
+      "error": null,
+      "response_time_ms": 9036,
+      "answer": "I have worked at Nurtur, operating as BriefYourMarket.com, for over two years now, starting in July 2022. During my time here, I have taken on the role of a full stack developer, and my focus has primarily been on developing production systems that are built to last. This involves a deep engagement with various technologies, especially in React and TypeScript, which I utilize extensively for creating internal dashboards that enhance our operational efficiency.\n\nOne of the significant projects I'm currently involved in is the Nexus project, which showcases my commitment to building robust and scalable applications. Additionally, I've also contributed to the Email Editor, a major team collaboration initiative aimed at rebuilding the core company product. This project focuses on enhancing our drag-and-drop email template functionality, making it more user-friendly and efficient for our clients. Working on these projects has allowed me to refine my skills in both front-end and back-end development, ensuring that I can effectively contribute to all aspects of our systems.\n\nThroughout my time at Nurtur, I've been dedicated to not only delivering high-quality software but also ensuring that our products meet the evolving needs of our users. My role involves collaborating with cross-functional teams, gathering requirements, and implementing features that provide real value. I take pride in thoroughly documenting my work to facilitate a smooth transition, especially as I approach the end of my notice period, which is four weeks. This commitment to documentation is crucial for maintaining continuity and ensuring future developers can build upon the work we've done. \n\nOverall, my experience at Nurtur has been transformative, allowing me to grow as a developer while contributing to meaningful projects that impact the company's success.",
+      "suggestions": [
+        {
+          "text": "What projects have you worked on?"
+        },
+        {
+          "text": "How do you approach full stack development?"
+        },
+        {
+          "text": "Tell me about your role at Nurtur."
+        },
+        {
+          "text": "What technologies do you prefer to use?"
+        },
+        {
+          "text": "How do you ensure code quality?"
+        },
+        {
+          "text": "What challenges have you faced in projects?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.5903189836568705,
+      "projectLinks": null
+    },
+    {
+      "question_number": 7,
+      "question": "What happened at your last job?",
+      "timestamp": "2026-02-06-0239",
+      "success": true,
+      "error": null,
+      "response_time_ms": 7279,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best:\n\nIn my current role as a Full Stack Developer at Nurtur, which I joined in July 2022, I have been deeply involved in developing production systems that are designed to last. My primary focus has been on React and TypeScript, particularly for internal dashboards that support various functions within the company. One of the significant projects I am working on is the Nexus project, which has been a substantial endeavor to enhance our internal capabilities.\n\nAnother major aspect of my work has been the Email Editor project. This represents a significant team collaboration effort aimed at rebuilding our core product, which is a drag-and-drop email template system. The Email Editor is crucial for our operations as it enables users to create visually appealing and effective emails with ease. This project has required not only technical skills but also effective communication and collaboration with team members across various departments to ensure that the end product meets the needs of our clients and aligns with our strategic goals.\n\nI have enjoyed my time at Nurtur and have achieved significant milestones, contributing to both ongoing and completed projects that have positively impacted the company’s trajectory. My decision to leave is not due to any issues with the company; rather, it stems from a desire to seek new challenges after my growth here over the past two years. I believe that I have maximized my learning and contributions in my current role, and I am excited to explore new opportunities that will further enhance my skills and career.\n\nOverall, my experiences at Nurtur have equipped me with valuable skills in full stack development, project management, and collaborative teamwork, and I look forward to leveraging these in my future endeavors.",
+      "suggestions": [
+        {
+          "text": "What led you to full stack development?"
+        },
+        {
+          "text": "How do you approach team collaboration?"
+        },
+        {
+          "text": "Tell me about your tech stack experience."
+        },
+        {
+          "text": "What challenges have you faced in projects?"
+        },
+        {
+          "text": "How do you ensure code quality in your work?"
+        },
+        {
+          "text": "What are your future career aspirations?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "medium",
+      "top_score": 0.33943152795841075,
+      "projectLinks": null
+    },
+    {
+      "question_number": 8,
+      "question": "Are you available to start immediately?",
+      "timestamp": "2026-02-06-0239",
+      "success": true,
+      "error": null,
+      "response_time_ms": 6659,
+      "answer": "I am currently committed to a four-week notice period at Nurtur, which reflects my dedication to ensuring a smooth transition for my team and responsibilities. I believe in the importance of thoroughly documenting my work and preparing my colleagues for my departure. This approach not only helps maintain continuity within the team but also demonstrates my professionalism and respect for the company's processes. Therefore, while I am fully engaged in my current role, I am available to start a new position after this notice period, allowing for a seamless handover of my tasks.\n\nIn terms of my career trajectory, I am actively pursuing opportunities in Canada through the Working Holiday Visa pathway, which aligns with my long-term goal of obtaining permanent residence here. I view Canada as a place that resonates with my personal and professional aspirations, providing a stable environment to grow and contribute. My entire professional career has been remote, starting from my first position at BriefYourMarket to my ongoing work at Nurtur. This remote experience has equipped me with the skills necessary to thrive in a digital workspace, ensuring productivity and collaboration regardless of location.\n\nI believe that my diverse background in coding, combined with creative influences from art, teaching, and activities like kayaking, allows me to bring unique perspectives to any team. This breadth of experience enhances my problem-solving abilities and enables me to approach challenges with innovation and thoughtfulness. Overall, I am excited about the potential to leverage my skills and experiences in a new role in Canada after fulfilling my notice period, and I am eager to contribute to a team that values creativity and diverse thinking.",
+      "suggestions": [
+        {
+          "text": "What skills do you bring to a team?"
+        },
+        {
+          "text": "How do you handle remote work challenges?"
+        },
+        {
+          "text": "Tell me about your coding experience."
+        },
+        {
+          "text": "What inspired your move to Canada?"
+        },
+        {
+          "text": "How do you maintain work-life balance?"
+        },
+        {
+          "text": "What projects are you most proud of?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.43536022127985696,
+      "projectLinks": null
+    },
+    {
+      "question_number": 9,
+      "question": "What's your employment status?",
+      "timestamp": "2026-02-06-0239",
+      "success": true,
+      "error": null,
+      "response_time_ms": 9235,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: Currently, I am employed as a full stack developer at Nurtur, where I have been since July 2022. In my role, I focus primarily on React and TypeScript development, particularly for internal dashboards that support various production systems. I take pride in building solutions that not only meet immediate needs but are also designed to last for years, ensuring stability and reliability within the organization.\n\nAt Nurtur, which also operates under the name BriefYourMarket.com, I have had the opportunity to work on a variety of projects that enhance operational efficiencies and improve user experience for internal stakeholders. My work involves the full stack of development, meaning I engage with both front-end and back-end technologies, allowing me to have a holistic understanding of the projects I work on. This comprehensive skill set enables me to contribute effectively to team discussions and decision-making processes, aligning technical solutions with business goals.\n\nIn addition to my technical skills, I bring a unique perspective to my work due to my diverse background, which includes experience in art, teaching, and kayaking. This breadth of experience enriches my approach to problem-solving and creativity, allowing me to develop innovative solutions that are thoughtful and effective.\n\nI am currently focused on securing a stable role in Canada, as I am pursuing permanent residency through the Working Holiday Visa pathway. This goal underscores my commitment to finding a long-term position where I can continue to grow and contribute to impactful projects. Overall, my employment status is solid, with a keen focus on both my current responsibilities and future aspirations in Canada.",
+      "suggestions": [
+        {
+          "text": "What projects are you passionate about?"
+        },
+        {
+          "text": "How do you approach problem-solving?"
+        },
+        {
+          "text": "Tell me about your development process."
+        },
+        {
+          "text": "What technologies do you enjoy working with?"
+        },
+        {
+          "text": "How do you balance creativity and coding?"
+        },
+        {
+          "text": "What skills are you looking to develop next?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "medium",
+      "top_score": 0.3419383020435642,
+      "projectLinks": null
+    },
+    {
+      "question_number": 10,
+      "question": "Why did you leave Nurtur?",
+      "timestamp": "2026-02-06-0239",
+      "success": true,
+      "error": null,
+      "response_time_ms": 8441,
+      "answer": "I am currently a Full Stack Developer at Nurtur, where I have been engaged in building production systems that are designed to be sustainable over many years. My primary focus has been on developing internal dashboards using React and TypeScript, which has allowed me to hone my skills in creating efficient and user-friendly interfaces. I joined Nurtur in July 2022, and during my time here, I have had the opportunity to work on the Nexus project, which has further enhanced my experience in full stack development.\n\nThe decision to leave Nurtur is not driven by any dissatisfaction or issues within the company. In fact, I have had a very positive experience that has significantly contributed to my professional growth. I am grateful for the opportunities I have had to learn and develop my skills while working with a talented team. After over two years in my current role, I feel I have achieved what I set out to accomplish and am now seeking new challenges that will allow me to continue my growth trajectory.\n\nI believe that exploring fresh opportunities is essential for personal and professional development. Each new role presents unique challenges and learning experiences, which I find invigorating. My aim is to leverage the skills I have acquired at Nurtur and apply them in a new environment where I can contribute meaningfully while also expanding my expertise in full stack development. Therefore, I am actively looking for new opportunities that align with my career goals and passion for technology.",
+      "suggestions": [
+        {
+          "text": "What projects have you worked on?"
+        },
+        {
+          "text": "How do you approach full stack development?"
+        },
+        {
+          "text": "Tell me about your technical skills."
+        },
+        {
+          "text": "What challenges have you faced in your role?"
+        },
+        {
+          "text": "How do you stay updated with tech trends?"
+        },
+        {
+          "text": "What are your career goals moving forward?"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "high",
+      "top_score": 0.5358637597716284,
+      "projectLinks": null
+    },
+    {
+      "question_number": 11,
+      "question": "What do you plan to do next?",
+      "timestamp": "2026-02-06-0239",
+      "success": true,
+      "error": null,
+      "response_time_ms": 7659,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I am currently a Full Stack Developer at Nurtur, where I've been working since July 2022. My primary focus has been on React and TypeScript development for internal dashboards. This role has significantly contributed to my growth, allowing me to enhance my technical skills and work collaboratively within a talented team. I have enjoyed my time at Nurtur and appreciate the support they have provided in my professional development.\n\nHowever, after more than two years, I feel that I've achieved what I set out to do in this role. I'm looking for new opportunities not because of any dissatisfaction with Nurtur, but rather as a natural progression in my career. I believe that continuous growth is essential, and I am eager to take on new challenges that will allow me to further develop my skill set and make meaningful contributions.\n\nAs part of this growth journey, I am actively pursuing relocation to Canada. This is not just an option for me; it is a definitive plan. I am excited about the opportunities that await me there, both personally and professionally. I am committed to finding a role that aligns with my goals and values, where I can leverage my experience and continue to evolve as a developer.\n\nIn summary, I am looking for a new opportunity that offers the chance to grow my skills and contribute to impactful projects. I am particularly interested in environments that foster innovation and collaboration, where I can work on exciting technologies and take on more responsibility. If you have any specific questions about my experience or what I am looking for, feel free to ask!",
+      "suggestions": [
+        {
+          "text": "What skills are you looking to develop?"
+        },
+        {
+          "text": "How do you approach problem-solving?"
+        },
+        {
+          "text": "Tell me about your experience with React."
+        },
+        {
+          "text": "What projects are you most proud of?"
+        },
+        {
+          "text": "How do you handle team collaboration?"
+        },
+        {
+          "text": "What motivates you in your work?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "medium",
+      "top_score": 0.32277265167193725,
+      "projectLinks": null
+    }
+  ],
+  "summary": {
+    "total_questions": 11,
+    "successful_responses": 11,
+    "failed_responses": 0,
+    "average_response_time_ms": 8017,
+    "confidence_distribution": {
+      "medium": 4,
+      "redirect": 1,
+      "high": 6
+    },
+    "emotion_distribution": {
+      "happy": 9,
+      "thinking": 2
+    },
+    "correct_duration_mentions": 0,
+    "redundancy_mentions": 0
+  }
+}

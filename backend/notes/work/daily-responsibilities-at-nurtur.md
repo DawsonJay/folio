@@ -3,7 +3,7 @@
 ## Role: Full Stack Developer
 
 **Company**: Nurtur (operating as BriefYourMarket.com)  
-**Duration**: July 2022 - Present (2+ years)  
+**Duration**: July 2022 - February 2026 (3.5 years)  
 **Location**: Derby, UK  
 **Hours**: 9:00 a.m. to 5:30 p.m., Monday to Friday (flexible in practice)
 
@@ -142,7 +142,7 @@
 
 ## Why This Role
 
-This role gave me **real production experience** that's essential for career progression. I went from bootcamp graduate to shipped multiple production systems in 2+ years, gained mentoring experience, and worked on genuinely complex technical challenges.
+This role gave me **real production experience** that's essential for career progression. I went from bootcamp graduate to shipped multiple production systems in 3.5 years, gained mentoring experience, and worked on genuinely complex technical challenges.
 
 The experience at Nurtur has been invaluable for building the foundation I need to move toward AI/robotics and exploration technology work.
 

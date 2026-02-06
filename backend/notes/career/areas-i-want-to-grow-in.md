@@ -49,7 +49,7 @@
 ### Immediate Value
 
 **Senior-level capability from day one**:
-- 2+ years production experience
+- 3.5 years production experience
 - Shipped systems still running years later
 - Mentored other developers
 - Led complex projects

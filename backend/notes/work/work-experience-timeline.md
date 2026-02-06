@@ -3,10 +3,12 @@
 ## Current Position
 
 **Full Stack Developer at Nurtur**  
-July 2022 - Present (2+ years)  
+July 2022 - February 2026 (3.5 years)  
 Derby, UK
 
 Primary focus on React/TypeScript development for internal dashboards and tools. Major projects include Nexus Dashboard (foundation blocks architecture), Email Editor (Redux Toolkit and Lexical integration), and Integrations Dashboard (solo full-stack project, 3+ years in production with zero maintenance).
+
+**End of role**: Being made redundant. The role provided valuable experience and growth, and this transition aligns with my career goals to pursue more AI/ML and systems work in Canada.
 
 ## Previous Experience
 
@@ -95,18 +97,18 @@ Pre-2020 (University and before)
 
 ## Why I'm Looking for New Opportunities
 
-**2+ years at Nurtur** has given me solid foundation:
+**3.5 years at Nurtur** has given me solid foundation:
 - Production system experience
 - Team collaboration
 - Mentoring capability
 - Complex state management
 - Full-stack development
 
-**Ready for growth**:
-- Want more AI/ML focused work (built foundations through WhatNow, moh-ami, Folio)
-- Seeking alignment with values (exploration, environmental tech, meaningful work)
+**Current transition**: Being made redundant provides opportunity to pursue:
+- More AI/ML focused work (built foundations through WhatNow, moh-ami, Folio)
+- Alignment with values (exploration, environmental tech, meaningful work)
 - Moving to Canada for personal and professional reasons
-- Ready for roles with more technical depth and growth potential
+- Roles with more technical depth and growth potential
 
-**Not leaving due to problems**: Nurtur gave me valuable experience. I'm leaving to pursue the next stage of my deliberate career progression toward AI/robotics and exploration technology.
+**Gratitude for Nurtur**: They gave me valuable experience that prepared me for this next stage. I'm moving forward with appreciation for what I learned and excitement for what's next.
 

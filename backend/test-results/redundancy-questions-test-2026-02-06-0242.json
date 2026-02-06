@@ -1,0 +1,387 @@
+{
+  "test_metadata": {
+    "timestamp": "2026-02-06-0242",
+    "api_url": "http://localhost:8000/api/chat",
+    "total_questions": 11,
+    "test_focus": "Redundancy and employment status questions"
+  },
+  "results": [
+    {
+      "question_number": 1,
+      "question": "When can you start?",
+      "timestamp": "2026-02-06-0241",
+      "success": true,
+      "error": null,
+      "response_time_ms": 253,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 2,
+      "question": "Are you currently employed?",
+      "timestamp": "2026-02-06-0241",
+      "success": true,
+      "error": null,
+      "response_time_ms": 325,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 3,
+      "question": "Why did you leave your last job?",
+      "timestamp": "2026-02-06-0241",
+      "success": true,
+      "error": null,
+      "response_time_ms": 402,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 4,
+      "question": "Why are you looking for a new role?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 297,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 5,
+      "question": "What's your notice period?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 216,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 6,
+      "question": "How long did you work at Nurtur?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 235,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 7,
+      "question": "What happened at your last job?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 341,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 8,
+      "question": "Are you available to start immediately?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 276,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 9,
+      "question": "What's your employment status?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 224,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 10,
+      "question": "Why did you leave Nurtur?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 334,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    },
+    {
+      "question_number": 11,
+      "question": "What do you plan to do next?",
+      "timestamp": "2026-02-06-0242",
+      "success": true,
+      "error": null,
+      "response_time_ms": 303,
+      "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
+      "suggestions": [
+        {
+          "text": "What projects have you built?"
+        },
+        {
+          "text": "Tell me about your AI/ML work"
+        },
+        {
+          "text": "What's your backend experience?"
+        },
+        {
+          "text": "How do you approach debugging?"
+        },
+        {
+          "text": "What's your frontend stack?"
+        },
+        {
+          "text": "Tell me about your work process"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "off_topic",
+      "top_score": 0.0,
+      "projectLinks": null
+    }
+  ],
+  "summary": {
+    "total_questions": 11,
+    "successful_responses": 11,
+    "failed_responses": 0,
+    "average_response_time_ms": 291,
+    "confidence_distribution": {
+      "off_topic": 11
+    },
+    "emotion_distribution": {
+      "thinking": 11
+    },
+    "correct_duration_mentions": 0,
+    "redundancy_mentions": 0
+  }
+}

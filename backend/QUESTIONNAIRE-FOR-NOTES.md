@@ -535,7 +535,7 @@ I combine creativity with technical skills the same way I did as an artist. Prog
 
 _Answer:_
 
-I handle salary expectations by first researching market rates for my experience level and the specific role in the Canadian market. I look at factors like location, role responsibilities, company size, and typical compensation for someone with 2+ years of production experience plus AI/ML skills.
+I handle salary expectations by first researching market rates for my experience level and the specific role in the Canadian market. I look at factors like location, role responsibilities, company size, and typical compensation for someone with 3.5 years of production experience plus AI/ML skills.
 
 I typically provide a range rather than a specific number, based on my research. I frame it as "I'm looking for something competitive in the range of [X-Y] based on market research for this role and my experience level, but I'm flexible and consider the full opportunity."
 

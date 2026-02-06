@@ -2,11 +2,11 @@
 
 ## Direct Answer
 
-I'm not leaving because of problems with Nurtur - they've been excellent for my growth. I'm leaving because after 2+ years, I've achieved what this role can teach me and I'm ready for the next stage of my career progression.
+I'm being made redundant at Nurtur. While this wasn't my choice, it aligns with my career goals and provides an opportunity to pursue the next stage of my professional development.
 
 ## What I've Accomplished at Nurtur
 
-In 2+ years, I've:
+In 3.5 years, I've:
 - ✅ Gone from junior developer to trusted contributor on critical systems
 - ✅ Built production systems that last (Integrations Dashboard: 3+ years, zero maintenance)
 - ✅ Developed mentoring capability (teaching backend devs frontend)
@@ -14,7 +14,7 @@ In 2+ years, I've:
 - ✅ Mastered complex state management (Redux Toolkit)
 - ✅ Worked on company's most critical infrastructure (Nexus Dashboard)
 
-**I've maximized what this role can teach me.** To keep growing, I need different challenges.
+**I've maximized what this role could teach me.** The redundancy provides an opportunity to pursue different challenges.
 
 ## Why Now Is the Right Time
 
@@ -23,44 +23,37 @@ In 2+ years, I've:
 
 **What I need next**: More AI/ML focused work, deeper technical challenges, projects involving real-world systems (not just web interfaces).
 
-**My trajectory**: Web dev → AI/ML → robotics → exploration technology. Nurtur doesn't have AI/robotics work, so staying means not progressing toward my goals.
+**My trajectory**: Web dev → AI/ML → robotics → exploration technology. Nurtur doesn't have AI/robotics work, so this transition allows me to progress toward my goals.
 
 ### 2. Immigration to Canada
 **Major life decision**: I'm pursuing permanent residence in Canada through Working Holiday Visa pathway.
 
 **Why Canada**: Natural beauty, environmental values, work-life balance culture, innovation in technology. I want to build my life there.
 
-**Timing**: After 2+ years of solid UK experience, now is the right time to make this international move.
+**Timing**: After 3.5 years of solid UK experience, this transition comes at the right time to make this international move.
 
 ### 3. Values Alignment
 **Current work**: Internal business dashboards. Practical and valuable, but not aligned with my deeper values.
 
 **What I want**: Projects that help people experience wonder and connect with the natural world. Technologies for exploration, environmental monitoring, or scientific discovery.
 
-**Nurtur can't provide this** - they're a business software company. This isn't a criticism; it's a mismatch of long-term direction.
+**Nurtur can't provide this** - they're a business software company. This isn't a criticism; it's a mismatch of long-term direction that this transition allows me to address.
 
-## What I'm NOT Leaving For
+## Gratitude for the Experience
 
-**Not leaving because**:
-- ❌ Dissatisfaction with team or management (team is great)
-- ❌ Conflict or problems (excellent working relationships)
-- ❌ Better pay elsewhere (values matter more than money)
-- ❌ Boredom or laziness (I'm pursuing harder challenges)
-- ❌ Burnout (I'm energized to grow more)
+**Nurtur gave me exactly what I needed at that stage**: First professional role out of bootcamp, real production experience, mentoring opportunities, complex technical challenges.
 
-**I'm leaving because I've succeeded here and need the next challenge.**
+**No bitterness**: They took a chance on a bootcamp graduate and gave me opportunities to prove myself. The Integrations Dashboard success, Nexus contributions, Email Editor work - all valuable experiences I'm grateful for.
 
-## How I'm Leaving
+## How I'm Handling the Transition
 
 **Professionally and respectfully**:
-- Giving proper notice
+- Completing all responsibilities during notice period
 - Documenting my work thoroughly
 - Helping transition my responsibilities
 - Maintaining relationships (they're good people)
 
-**No bitterness**: Nurtur gave me exactly what I needed at that stage. First professional role out of bootcamp, real production experience, mentoring opportunities, complex technical challenges.
-
-**Gratitude**: They took a chance on a bootcamp graduate and gave me opportunities to prove myself. The Integrations Dashboard success, Nexus contributions, Email Editor work - all valuable experiences I'm grateful for.
+**Focus on the future**: While the redundancy wasn't my choice, I'm viewing it as an opportunity to pursue work that better aligns with my career trajectory and values.
 
 ## What I'm Looking For Next
 
@@ -79,7 +72,7 @@ In 2+ years, I've:
 
 ## The Simple Version
 
-**Why leaving**: After 2+ years, I've accomplished what this role can teach me. To continue my deliberate progression toward AI/robotics and exploration technology, I need roles with different technical focus. Combined with immigration to Canada and seeking values-aligned work, now is the right time to move forward.
+**Why leaving**: I'm being made redundant at Nurtur. While this wasn't my choice, it aligns with my career trajectory toward AI/robotics and exploration technology. Combined with immigration to Canada and seeking values-aligned work, this transition provides the right opportunity to move forward.
 
-**Not a problem with Nurtur** - it's about my career trajectory requiring the next stage. I'm leaving successfully, not running from problems.
+**Gratitude for Nurtur** - they gave me valuable experience that prepared me for this next stage. I'm leaving with appreciation for what I learned and excitement for what's next.
 

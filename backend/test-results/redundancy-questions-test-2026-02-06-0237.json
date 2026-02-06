@@ -1,0 +1,97 @@
+{
+  "test_metadata": {
+    "timestamp": "2026-02-06-0237",
+    "api_url": "http://localhost:8000/api/chat",
+    "total_questions": 11,
+    "test_focus": "Redundancy and employment status questions"
+  },
+  "results": [
+    {
+      "question_number": 1,
+      "question": "When can you start?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 2,
+      "question": "Are you currently employed?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 3,
+      "question": "Why did you leave your last job?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 4,
+      "question": "Why are you looking for a new role?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 5,
+      "question": "What's your notice period?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 6,
+      "question": "How long did you work at Nurtur?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 7,
+      "question": "What happened at your last job?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 8,
+      "question": "Are you available to start immediately?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 9,
+      "question": "What's your employment status?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 10,
+      "question": "Why did you leave Nurtur?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 11,
+      "question": "What do you plan to do next?",
+      "timestamp": "2026-02-06-0237",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    }
+  ],
+  "summary": {
+    "total_questions": 11,
+    "successful_responses": 0,
+    "failed_responses": 11,
+    "average_response_time_ms": 0,
+    "confidence_distribution": {},
+    "emotion_distribution": {},
+    "correct_duration_mentions": 0,
+    "redundancy_mentions": 0
+  }
+}
