@@ -65,9 +65,13 @@ async def chat(request: ChatRequest):
     
     try:
         if not EMBEDDINGS_FILE.exists():
-            print(f"⚠️  embeddings.json not found at: {EMBEDDINGS_FILE}")
+            error_msg = f"embeddings.json not found at: {EMBEDDINGS_FILE.absolute()}"
+            print(f"❌ {error_msg}")
+            print(f"   Current working directory: {Path.cwd()}")
+            print(f"   File exists check: {EMBEDDINGS_FILE.exists()}")
+            print(f"   Parent dir exists: {EMBEDDINGS_FILE.parent.exists()}")
             return ChatResponse(
-                answer="I'm currently experiencing technical difficulties. Please try again in a moment.",
+                answer=f"Configuration error: {error_msg}. Please check server logs.",
                 emotion="tired",
                 suggestions=[Suggestion(**s) for s in FOLLOW_UP_SUGGESTIONS],
                 confidence="off_topic",
@@ -77,16 +81,6 @@ async def chat(request: ChatRequest):
         openai_service = OpenAIService()
         embedding_storage = LocalEmbeddingStorage(storage_path=str(EMBEDDINGS_FILE))
         profanity_filter = ProfanityFilter()
-    except Exception as e:
-        error_trace = traceback.format_exc()
-        print(f"❌ Error initializing chat endpoint: {error_trace}")
-        return ChatResponse(
-            answer="I'm currently experiencing technical difficulties. Please try again in a moment.",
-            emotion="tired",
-            suggestions=[Suggestion(**s) for s in FOLLOW_UP_SUGGESTIONS],
-            confidence="off_topic",
-            top_score=0.0
-        )
         
         profanity_check = profanity_filter.check_question(request.question)
         
@@ -196,9 +190,22 @@ async def chat(request: ChatRequest):
         )
     except Exception as e:
         error_trace = traceback.format_exc()
-        print(f"❌ Error in chat endpoint: {error_trace}")
+        error_type = type(e).__name__
+        error_message = str(e)
+        print(f"❌ Error in chat endpoint ({error_type}): {error_message}")
+        print(f"   Full traceback:\n{error_trace}")
+        
+        import os
+        env_info = {
+            "OPENAI_API_KEY": "SET" if os.getenv("OPENAI_API_KEY") else "NOT SET",
+            "cwd": str(Path.cwd()),
+            "embeddings_path": str(EMBEDDINGS_FILE),
+            "embeddings_exists": EMBEDDINGS_FILE.exists() if 'EMBEDDINGS_FILE' in locals() else "N/A"
+        }
+        print(f"   Environment info: {env_info}")
+        
         return ChatResponse(
-            answer="I'm currently experiencing technical difficulties. Please try again in a moment.",
+            answer=f"Error ({error_type}): {error_message}. Check server logs for details.",
             emotion="tired",
             suggestions=[Suggestion(**s) for s in FOLLOW_UP_SUGGESTIONS],
             confidence="off_topic",
