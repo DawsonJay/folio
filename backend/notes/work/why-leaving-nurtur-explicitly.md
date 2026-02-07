@@ -1,8 +1,8 @@
-# Why I'm Leaving My Current Role
+# Why I Left My Role at Nurtur
 
 ## Direct Answer
 
-I'm being made redundant at Nurtur. While this wasn't my choice, it aligns with my career goals and provides an opportunity to pursue the next stage of my professional development.
+I was made redundant at Nurtur. While this wasn't my choice, it aligns with my career goals and provides an opportunity to pursue the next stage of my professional development.
 
 ## What I've Accomplished at Nurtur
 
@@ -19,7 +19,7 @@ In 3.5 years, I've:
 ## Why Now Is the Right Time
 
 ### 1. Technical Growth Ceiling
-**Current role**: React/TypeScript frontend development for internal dashboards.
+**My role at Nurtur**: React/TypeScript frontend development for internal dashboards.
 
 **What I need next**: More AI/ML focused work, deeper technical challenges, projects involving real-world systems (not just web interfaces).
 
@@ -72,7 +72,7 @@ In 3.5 years, I've:
 
 ## The Simple Version
 
-**Why leaving**: I'm being made redundant at Nurtur. While this wasn't my choice, it aligns with my career trajectory toward AI/robotics and exploration technology. Combined with immigration to Canada and seeking values-aligned work, this transition provides the right opportunity to move forward.
+**Why I left**: I was made redundant at Nurtur. While this wasn't my choice, it aligns with my career trajectory toward AI/robotics and exploration technology. Combined with immigration to Canada and seeking values-aligned work, this transition provides the right opportunity to move forward.
 
 **Gratitude for Nurtur** - they gave me valuable experience that prepared me for this next stage. I'm leaving with appreciation for what I learned and excitement for what's next.
 

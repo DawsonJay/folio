@@ -8,7 +8,7 @@ Staying productive in remote work comes naturally to me because I genuinely find
 
 For communication tools, I've used Microsoft Teams extensively at my current company, and previously worked with Discord in other roles. I'm comfortable with various remote collaboration platforms and can adapt to whatever tools a team uses.
 
-Building relationships in remote teams isn't difficult - it just requires intentionality. I think genuine affection and strong working relationships develop naturally when you're helpful and authentic with colleagues. In my current role, I often reach out to teams I haven't spoken to before to gather their thoughts on projects and designs. It's about making the effort to connect around work-relevant topics and maintaining a helpful, professional presence.
+Building relationships in remote teams isn't difficult - it just requires intentionality. I think genuine affection and strong working relationships develop naturally when you're helpful and authentic with colleagues. At Nurtur, I often reached out to teams I hadn't spoken to before to gather their thoughts on projects and designs. It's about making the effort to connect around work-relevant topics and maintaining a helpful, professional presence.
 
 I'm completely willing to work remotely during my move to Canada. In fact, this flexibility allows me to start providing value to a new employer immediately while completing my notice period and managing the practical aspects of relocation. Remote work during the transition means I can begin contributing to a team right away rather than waiting until I'm physically in Canada.
 

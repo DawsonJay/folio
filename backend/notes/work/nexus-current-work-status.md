@@ -1,6 +1,6 @@
-# Nexus Dashboard: Current Work Status and Development Progress
+# Nexus Dashboard: Work Status and Development Progress
 
-Nexus Dashboard represents my current primary project at Nurtur, actively developed throughout 2025 and continuing into 2026. This ongoing work demonstrates my day-to-day professional development capabilities and provides concrete examples of working within a team on production systems.
+Nexus Dashboard was my primary project at Nurtur, actively developed throughout 2025 until February 2026 when I was made redundant. This work demonstrates my day-to-day professional development capabilities and provides concrete examples of working within a team on production systems.
 
 The project originated from developer frustration with the existing admin interface. The old system was functionally adequate but usability was terrible - clunky navigation, raw data dumps without helpful formatting, no safety features preventing mistakes, and slow performance with large datasets. Developers used it because they had to, not because it was good. Leadership recognized this pain point and gave me the opportunity to design something better.
 
@@ -32,9 +32,9 @@ The comparison to personal projects reveals professional development constraints
 
 The measurable impact of Nexus includes reduced developer time spent fighting the old interface, decreased errors from improved safety features, faster operations from performance optimization, and improved developer satisfaction expressed directly through feedback. These concrete improvements justify the development investment and demonstrate value delivery rather than just code production.
 
-From a portfolio perspective, Nexus as current work demonstrates I'm actively employed, contributing to production systems, working in team environments, solving real business problems, and continuously developing skills. The ongoing nature means I can discuss it with recent context and detailed specifics. This currency is valuable for job applications because it shows what I'm doing now, not just what I did years ago.
+From a portfolio perspective, Nexus demonstrates my ability to contribute to production systems, work in team environments, solve real business problems, and continuously develop skills. The recent nature of this work means I can discuss it with detailed specifics and recent context. This recency is valuable for job applications because it shows recent professional capabilities, not just work from years ago.
 
 What distinguishes Nexus from other work projects is the architectural freedom I was given combined with the disciplined approach I took. Many developers given freedom over-engineer or under-design. I struck the balance of sophisticated architecture that remains understandable and maintainable. This demonstrates judgment about when sophistication serves needs versus when simplicity suffices.
 
-Nexus Dashboard as current work demonstrates my professional capabilities in production environments, architectural thinking for long-term systems, performance optimization under real constraints, collaborative development in teams, and continuous delivery of incremental value. These are exactly the day-to-day skills employers need in developers who will work on their production systems.
+Nexus Dashboard demonstrates my professional capabilities in production environments, architectural thinking for long-term systems, performance optimization under real constraints, collaborative development in teams, and continuous delivery of incremental value. These are exactly the day-to-day skills employers need in developers who will work on their production systems.
 

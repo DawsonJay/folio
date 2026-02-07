@@ -1,6 +1,6 @@
 # Work Experience Timeline
 
-## Current Position
+## Most Recent Position
 
 **Full Stack Developer at Nurtur**  
 July 2022 - February 2026 (3.5 years)  
@@ -28,7 +28,7 @@ United Kingdom
 October 2020 - February 2021 (5 months)  
 United Kingdom
 
-**First professional development role**: This position helped me secure my current role at Nurtur (same company, different contract structure).
+**First professional development role**: This position helped me secure my role at Nurtur (same company, different contract structure).
 
 **Skills**: Full-stack web development basics, working in professional codebases, collaborating with teams, understanding production systems.
 
@@ -65,7 +65,7 @@ Pre-2020 (University and before)
 
 ## Total Time in Development
 
-**Professional experience**: 2.5+ years (October 2020 - Present, with freelance period)
+**Professional experience**: 3.5+ years (October 2020 - February 2026, with freelance period)
 
 **Self-taught coding**: Started learning years before professional work:
 - Taught myself Java before university
