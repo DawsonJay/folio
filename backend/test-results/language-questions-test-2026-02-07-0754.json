@@ -1,0 +1,451 @@
+{
+  "test_metadata": {
+    "timestamp": "2026-02-07-0754",
+    "api_url": "http://localhost:8000/api/chat",
+    "total_questions": 9,
+    "test_focus": "Programming languages questions and response length"
+  },
+  "results": [
+    {
+      "question_number": 1,
+      "question": "What languages do you know?",
+      "timestamp": "2026-02-07-0753",
+      "success": true,
+      "error": null,
+      "response_time_ms": 2074,
+      "answer": "I'm proficient in TypeScript and React, and I've worked extensively with Python for AI and machine learning projects. I also have experience integrating Large Language Models. In the context of moh-ami, I focused on UI/UX design and interactive implementation for a language learning tool. My strongest skills lie in frontend development and leveraging AI technologies.",
+      "word_count": 55,
+      "character_count": 369,
+      "suggestions": [
+        {
+          "text": "What inspired your projects?"
+        },
+        {
+          "text": "How do you approach UI/UX design?"
+        },
+        {
+          "text": "Tell me about your experience with LLMs."
+        },
+        {
+          "text": "What challenges did you face in moh-ami?"
+        },
+        {
+          "text": "How do you stay updated on tech trends?"
+        },
+        {
+          "text": "What skills are you currently developing?"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "redirect",
+      "top_score": 0.2726552581788254,
+      "languages_mentioned": [
+        "typescript",
+        "python",
+        "react"
+      ],
+      "mentions_csharp": false,
+      "mentions_java": false,
+      "mentions_python": true,
+      "mentions_lua": false,
+      "mentions_typescript": true
+    },
+    {
+      "question_number": 2,
+      "question": "What programming languages are you familiar with?",
+      "timestamp": "2026-02-07-0753",
+      "success": true,
+      "error": null,
+      "response_time_ms": 4529,
+      "answer": "I am proficient in several programming languages, with my strongest expertise lying in TypeScript and React. These two technologies are integral to my daily work as a Full Stack Developer, allowing me to create dynamic and responsive web applications. My familiarity with TypeScript enhances my ability to write robust and maintainable code, while React serves as my primary framework for frontend development, which I've been using for over three years. My experience with React spans a wide range of projects, from small personal applications to larger, more complex systems, showcasing my adaptability and depth of knowledge in this area.\n\nIn addition to TypeScript and React, I have a solid foundation in Python, which I have been familiar with for around seven years. However, it has been in the last year that I have focused more on Python, particularly for building AI and machine learning projects. This shift has allowed me to explore the capabilities of Python in data analysis and algorithm development, further enriching my technical skill set.\n\nMoreover, I possess extensive experience with modern build tools and development infrastructure across the full stack. My pragmatic approach to build tools ensures that I can efficiently manage and optimize the development environment, enabling smoother workflows and faster delivery of projects. \n\nFinally, one of my key strengths is my ability to communicate complex technical concepts clearly. I excel at using metaphors and relatable experiences to explain intricate topics, making it easier for others to grasp challenging ideas. This skill is rooted in my background in art and teaching, allowing me to bridge the gap between technical jargon and user-friendly language. Overall, my diverse programming language skills, combined with my ability to communicate effectively, position me as a well-rounded developer ready to tackle various challenges in the tech industry.",
+      "word_count": 296,
+      "character_count": 1933,
+      "suggestions": [
+        {
+          "text": "What are your main projects?"
+        },
+        {
+          "text": "How do you approach problem-solving?"
+        },
+        {
+          "text": "Tell me about your tech stack."
+        },
+        {
+          "text": "What challenges have you faced?"
+        },
+        {
+          "text": "How do you stay updated with tech?"
+        },
+        {
+          "text": "What do you enjoy most about coding?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.4053471110457851,
+      "languages_mentioned": [
+        "typescript",
+        "python",
+        "react"
+      ],
+      "mentions_csharp": false,
+      "mentions_java": false,
+      "mentions_python": true,
+      "mentions_lua": false,
+      "mentions_typescript": true
+    },
+    {
+      "question_number": 3,
+      "question": "Tell me about the programming languages you use",
+      "timestamp": "2026-02-07-0753",
+      "success": true,
+      "error": null,
+      "response_time_ms": 4090,
+      "answer": "I primarily use TypeScript and React in my daily professional work, and these languages represent my strongest technical skills. TypeScript enhances my JavaScript experience by providing static typing, which significantly reduces runtime errors and improves code maintainability. On the other hand, React has been my main framework for frontend development for over three years. I've built various applications using React, ranging from small personal projects to more extensive systems. My deep expertise in these technologies allows me to create responsive, user-friendly interfaces that effectively meet user needs.\n\nIn addition to TypeScript and React, I've been familiar with Python for around seven years. However, I've only recently begun to leverage Python in a focused manner, particularly in the context of AI and machine learning projects. This past year, I've immersed myself in using Python to develop algorithms and models, which has enriched my skill set significantly. My experience with Python is evolving rapidly as I engage more with AI/ML concepts and practices.\n\nFurthermore, I have extensive experience with modern build tools and development infrastructure across the full stack. My pragmatic approach ensures that I select the right tools for specific tasks, optimizing the development process and enhancing productivity. I believe that effective communication of technical concepts is crucial, and I excel at explaining complex ideas through relatable metaphors and experiences. This skill is particularly beneficial when collaborating with team members from diverse backgrounds.\n\nOverall, my blend of expertise in TypeScript, React, and Python, combined with my experience with build tools and ability to communicate effectively, equips me to tackle a wide range of development challenges with confidence and creativity.",
+      "word_count": 268,
+      "character_count": 1846,
+      "suggestions": [
+        {
+          "text": "What projects have you built with React?"
+        },
+        {
+          "text": "How do you approach learning new languages?"
+        },
+        {
+          "text": "Tell me about your AI/ML projects."
+        },
+        {
+          "text": "What build tools do you prefer and why?"
+        },
+        {
+          "text": "How do you communicate complex concepts?"
+        },
+        {
+          "text": "What challenges have you faced in development?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.4401072606344739,
+      "languages_mentioned": [
+        "typescript",
+        "javascript",
+        "java",
+        "python",
+        "react"
+      ],
+      "mentions_csharp": false,
+      "mentions_java": true,
+      "mentions_python": true,
+      "mentions_lua": false,
+      "mentions_typescript": true
+    },
+    {
+      "question_number": 4,
+      "question": "What languages have you worked with?",
+      "timestamp": "2026-02-07-0753",
+      "success": true,
+      "error": null,
+      "response_time_ms": 4829,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I have a solid background in Python, which I've been using for around seven years. Over the past year, I've focused my skills on building AI and machine learning projects, diving deeper into the Python ecosystem to leverage its capabilities in these domains. I've integrated and worked with Large Language Models (LLMs) across multiple projects, gaining hands-on production experience that has shaped my understanding of how to effectively utilize these powerful tools in real-world applications.\n\nIn addition to Python, I have experience with various other programming languages as part of my work in full-stack development. My extensive experience with modern build tools and development infrastructure complements my programming skills, allowing me to create robust systems that are efficient and maintainable. This practical approach to development is informed by my work across different layers of technology, from backend services to frontend user interfaces.\n\nMoreover, I believe that communication is vital in technical fields. I have developed a knack for explaining complex technical concepts in relatable ways, drawing from my background in art and teaching. This ability has been valuable not only in collaborative environments but also in educating others about the intricacies of AI and machine learning. My goal is always to create systems that are not just theoretically sound but also functional and effective in production settings. \n\nAs I continue to seek new opportunities, I look forward to applying my skills and experience in innovative projects that challenge me and allow me to further grow as a developer and a communicator.",
+      "word_count": 269,
+      "character_count": 1746,
+      "suggestions": [
+        {
+          "text": "What AI projects have you worked on?"
+        },
+        {
+          "text": "How do you approach learning new languages?"
+        },
+        {
+          "text": "Tell me about your experience with LLMs."
+        },
+        {
+          "text": "What build tools do you prefer?"
+        },
+        {
+          "text": "How do you explain complex concepts?"
+        },
+        {
+          "text": "What challenges have you faced in development?"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "medium",
+      "top_score": 0.36244863024366253,
+      "languages_mentioned": [
+        "typescript",
+        "python",
+        "lua"
+      ],
+      "mentions_csharp": false,
+      "mentions_java": false,
+      "mentions_python": true,
+      "mentions_lua": true,
+      "mentions_typescript": true
+    },
+    {
+      "question_number": 5,
+      "question": "What backend languages do you know?",
+      "timestamp": "2026-02-07-0753",
+      "success": true,
+      "error": null,
+      "response_time_ms": 4825,
+      "answer": "I primarily focus on TypeScript and React for my frontend development, but I also have experience with backend technologies, particularly with GraphQL. The backend of my moh-ami project is designed using GraphQL, which showcases my understanding of modern API design principles. This choice was intentional, as GraphQL allows for more efficient data retrieval and manipulation compared to traditional REST APIs. It provides a flexible and powerful way to interact with data, which I believe is crucial for building robust applications.\n\nIn terms of programming languages, while I have not explicitly mentioned multiple backend languages in the context, my background indicates that I am well-versed in TypeScript, which I use for both client-side and server-side development. My experience with Python, which I have been familiar with for about seven years, has recently shifted towards using it for AI and machine learning projects. This includes using Python for backend services that can integrate with my frontend applications.\n\nFurthermore, my extensive experience with modern build tools and development infrastructure complements my backend skills. I am proficient in setting up and maintaining the development environment, ensuring that both frontend and backend systems work seamlessly together. This holistic approach allows me to effectively contribute to projects that require both frontend and backend expertise.\n\nOverall, my backend capabilities are enriched by my strong foundation in TypeScript, experience with GraphQL APIs, and familiarity with Python for data-centric applications. I am always eager to expand my knowledge further in backend technologies and languages, adapting to the needs of the projects I work on.\n\nFor a practical example of my work, you can check out my moh-ami project here: [moh-ami Demo](https://moh-ami-production.up.railway.app/) and the source code on [GitHub](https://github.com/DawsonJay/moh-ami).",
+      "word_count": 278,
+      "character_count": 1947,
+      "suggestions": [
+        {
+          "text": "What AI projects have you built?"
+        },
+        {
+          "text": "How do you approach API design?"
+        },
+        {
+          "text": "Tell me about your React experience."
+        },
+        {
+          "text": "What build tools do you prefer?"
+        },
+        {
+          "text": "How do you integrate Python with projects?"
+        },
+        {
+          "text": "What challenges have you faced in development?"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "high",
+      "top_score": 0.4192570396274555,
+      "languages_mentioned": [
+        "typescript",
+        "python",
+        "react"
+      ],
+      "mentions_csharp": false,
+      "mentions_java": false,
+      "mentions_python": true,
+      "mentions_lua": false,
+      "mentions_typescript": true
+    },
+    {
+      "question_number": 6,
+      "question": "Do you know C#?",
+      "timestamp": "2026-02-07-0754",
+      "success": true,
+      "error": null,
+      "response_time_ms": 2515,
+      "answer": "I can't specifically say if I know C#. My strongest skills are in TypeScript and React, which I use daily. My projects, like moh-ami, showcase my proficiency in TypeScript. If you're interested in other programming languages or skills I might have, feel free to ask!",
+      "word_count": 45,
+      "character_count": 266,
+      "suggestions": [
+        {
+          "text": "What are your main programming languages?"
+        },
+        {
+          "text": "How did you start with TypeScript?"
+        },
+        {
+          "text": "Tell me about your React projects."
+        },
+        {
+          "text": "What tools do you use for development?"
+        },
+        {
+          "text": "How do you approach software development?"
+        },
+        {
+          "text": "What is your experience with AI in coding?"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "redirect",
+      "top_score": 0.26773511058030885,
+      "languages_mentioned": [
+        "typescript",
+        "c#",
+        "react"
+      ],
+      "mentions_csharp": true,
+      "mentions_java": false,
+      "mentions_python": false,
+      "mentions_lua": false,
+      "mentions_typescript": true
+    },
+    {
+      "question_number": 7,
+      "question": "Do you know Java?",
+      "timestamp": "2026-02-07-0754",
+      "success": true,
+      "error": null,
+      "response_time_ms": 2844,
+      "answer": "I don't have Java expertise. My strongest skills are in TypeScript and React. I focus on those in my work, leveraging my art background to approach problems creatively. I also use AI-assisted development tools like Cursor regularly. If you have any questions about my projects or skills, feel free to ask!",
+      "word_count": 51,
+      "character_count": 305,
+      "suggestions": [
+        {
+          "text": "What inspired your tech journey?"
+        },
+        {
+          "text": "How do you approach problem-solving?"
+        },
+        {
+          "text": "Tell me about your art background."
+        },
+        {
+          "text": "What projects are you currently working on?"
+        },
+        {
+          "text": "How do you use AI in your work?"
+        },
+        {
+          "text": "What skills have you developed recently?"
+        }
+      ],
+      "emotion": "thinking",
+      "confidence": "redirect",
+      "top_score": 0.22014131761153738,
+      "languages_mentioned": [
+        "typescript",
+        "java",
+        "react"
+      ],
+      "mentions_csharp": false,
+      "mentions_java": true,
+      "mentions_python": false,
+      "mentions_lua": false,
+      "mentions_typescript": true
+    },
+    {
+      "question_number": 8,
+      "question": "What's your experience with Python?",
+      "timestamp": "2026-02-07-0754",
+      "success": true,
+      "error": null,
+      "response_time_ms": 4404,
+      "answer": "I have been familiar with Python for around seven years, but it was only in the last year that I began utilizing it in a more focused way for building AI and machine learning projects. This transition allowed me to deepen my understanding and apply my skills to practical, real-world problems rather than just theoretical concepts. My experience in AI and machine learning encompasses several domains, with a strong emphasis on developing systems that are operational and effective in production environments. I prioritize practical applications and have hands-on experience integrating and working with Large Language Models (LLMs) across various projects, which has further enhanced my capabilities in this field.\n\nMy educational background is eclectic, as I have pursued areas that genuinely interest me rather than adhering to a conventional educational path. This diverse background not only enriches my perspective on technology and problem-solving but also fosters creativity in my approach to programming and system design. I believe in a core philosophy: \"Work That Matters, Not the Process.\" I prefer to focus on the outcomes of my work rather than the methodologies used to achieve them. This mindset fuels my motivation to create impactful solutions that can drive real change.\n\nOverall, my journey with Python and AI/ML has been a fulfilling one, and I am excited about the opportunities to leverage these skills in future projects. As I continue to seek new challenges, I am committed to building systems that not only function well but also make a meaningful contribution to the fields I engage with.",
+      "word_count": 255,
+      "character_count": 1615,
+      "suggestions": [
+        {
+          "text": "What projects have you built with Python?"
+        },
+        {
+          "text": "How do you approach AI/ML problem-solving?"
+        },
+        {
+          "text": "Tell me about your experience with LLMs."
+        },
+        {
+          "text": "What are your favorite Python libraries?"
+        },
+        {
+          "text": "How do you stay updated in tech?"
+        },
+        {
+          "text": "What challenges have you faced in projects?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.5299053075805141,
+      "languages_mentioned": [
+        "typescript",
+        "python"
+      ],
+      "mentions_csharp": false,
+      "mentions_java": false,
+      "mentions_python": true,
+      "mentions_lua": false,
+      "mentions_typescript": true
+    },
+    {
+      "question_number": 9,
+      "question": "What languages did you use at Nurtur?",
+      "timestamp": "2026-02-07-0754",
+      "success": true,
+      "error": null,
+      "response_time_ms": 4868,
+      "answer": "During my time at Nurtur, I primarily utilized React and TypeScript for frontend development. My role as a Full Stack Developer demanded a strong understanding of both the frontend and backend aspects of the projects I worked on. React was my go-to framework for building user interfaces, allowing me to create dynamic and responsive applications. I have over three years of experience with React, which has equipped me with the skills needed to develop complex applications that are user-friendly and efficient. \n\nIn addition to React, I also worked with TypeScript, which complements my JavaScript skills by providing static type checking. This was particularly beneficial in a team environment, as it helped prevent bugs and made the codebase more maintainable. My focus on TypeScript allowed me to enhance the robustness of the applications I developed, ensuring that they met the high standards expected at Nurtur.\n\nBeyond the frontend, I was involved in backend development as well. While the context does not provide specific details about the backend technologies used, I can say that my full-stack experience enabled me to bridge the gap between different components of our applications. This cross-functional capability was critical during collaborative projects, such as the Email Editor, where I contributed to rebuilding the core product. This project required extensive teamwork and communication, highlighting my ability to work well in a collaborative setting.\n\nOverall, my experience at Nurtur helped me hone my skills in both frontend and backend development, with a strong emphasis on React and TypeScript. I am proud of the systems I helped build and the significant contributions I made to our projects during my time there. I am now actively seeking new opportunities to leverage these skills and experiences in my next role.",
+      "word_count": 288,
+      "character_count": 1847,
+      "suggestions": [
+        {
+          "text": "What projects have you worked on?"
+        },
+        {
+          "text": "How do you approach problem-solving?"
+        },
+        {
+          "text": "Tell me about your team collaboration style."
+        },
+        {
+          "text": "What technologies are you most proficient in?"
+        },
+        {
+          "text": "How do you stay updated with tech trends?"
+        },
+        {
+          "text": "What are your future career goals?"
+        }
+      ],
+      "emotion": "happy",
+      "confidence": "high",
+      "top_score": 0.522040801587929,
+      "languages_mentioned": [
+        "typescript",
+        "javascript",
+        "java",
+        "react"
+      ],
+      "mentions_csharp": false,
+      "mentions_java": true,
+      "mentions_python": false,
+      "mentions_lua": false,
+      "mentions_typescript": true
+    }
+  ],
+  "summary": {
+    "total_questions": 9,
+    "successful_responses": 9,
+    "failed_responses": 0,
+    "average_response_time_ms": 3886,
+    "word_count_stats": {
+      "average": 200,
+      "minimum": 45,
+      "maximum": 296
+    },
+    "short_responses_count": 3,
+    "short_responses": [
+      {
+        "question": "What languages do you know?",
+        "word_count": 55
+      },
+      {
+        "question": "Do you know C#?",
+        "word_count": 45
+      },
+      {
+        "question": "Do you know Java?",
+        "word_count": 51
+      }
+    ],
+    "confidence_distribution": {
+      "redirect": 3,
+      "high": 5,
+      "medium": 1
+    },
+    "emotion_distribution": {
+      "thinking": 5,
+      "happy": 4
+    },
+    "language_mentions": {
+      "typescript": 9,
+      "javascript": 0,
+      "c#": 1,
+      "java": 3,
+      "python": 6,
+      "lua": 1
+    }
+  }
+}

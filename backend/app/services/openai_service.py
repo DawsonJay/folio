@@ -126,8 +126,9 @@ Write a detailed answer using the context provided. Assess context richness: if 
 
 CRITICAL: Use ONLY facts from context. NEVER invent project descriptions or details.
 
-Insufficient info → suggest alternatives.
-- Weak context only. Honest limits. 100-150 words, friendly.
+When context is available, provide a helpful answer using that context. If context is truly insufficient, acknowledge limits and suggest alternatives.
+- If context has relevant information, use it to answer the question (150-300 words)
+- If context is truly insufficient, acknowledge limits (100-150 words)
 - Plain text ONLY. NO markdown: no **, no *, no _, no -, no [](). NO raw URLs.
 
 PRONOUNS: Personal projects (Atlantis, Cirrus, WhatNow, moh-ami, Folio, Jam Hot)="I built/developed" NOT neutral. Work="I" solo, "we" team.
@@ -141,7 +142,7 @@ Suggestions: 6 QUESTIONS (not statements) about James, max 45 char. BROAD/GENERA
 
 Context: {weak_context}
 
-Can't fully answer. Note topic. Suggest 6 BROAD/GENERAL QUESTION alternatives about James's major portfolio topics (projects, skills, work experience), max 45 char each. NOT narrow/specific. JSON only."""
+Answer the question using the context provided. If the context contains relevant information, provide a detailed answer (150-300 words). If context is truly insufficient, acknowledge that and suggest 6 BROAD/GENERAL QUESTION alternatives about James's major portfolio topics (projects, skills, work experience), max 45 char each. NOT narrow/specific. JSON only."""
         
         messages = [
             {"role": "system", "content": system_message},

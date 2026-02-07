@@ -1,0 +1,96 @@
+{
+  "test_metadata": {
+    "timestamp": "2026-02-07-0801",
+    "api_url": "http://localhost:8000/api/chat",
+    "total_questions": 9,
+    "test_focus": "Programming languages questions and response length"
+  },
+  "results": [
+    {
+      "question_number": 1,
+      "question": "What languages do you know?",
+      "timestamp": "2026-02-07-0801",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 2,
+      "question": "What programming languages are you familiar with?",
+      "timestamp": "2026-02-07-0801",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 3,
+      "question": "Tell me about the programming languages you use",
+      "timestamp": "2026-02-07-0801",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 4,
+      "question": "What languages have you worked with?",
+      "timestamp": "2026-02-07-0801",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 5,
+      "question": "What backend languages do you know?",
+      "timestamp": "2026-02-07-0801",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 6,
+      "question": "Do you know C#?",
+      "timestamp": "2026-02-07-0801",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 7,
+      "question": "Do you know Java?",
+      "timestamp": "2026-02-07-0801",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 8,
+      "question": "What's your experience with Python?",
+      "timestamp": "2026-02-07-0801",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    },
+    {
+      "question_number": 9,
+      "question": "What languages did you use at Nurtur?",
+      "timestamp": "2026-02-07-0801",
+      "success": false,
+      "error": "Connection error: Backend server not running. Start it with 'uvicorn app.main:app --reload'"
+    }
+  ],
+  "summary": {
+    "total_questions": 9,
+    "successful_responses": 0,
+    "failed_responses": 9,
+    "average_response_time_ms": 0,
+    "word_count_stats": {
+      "average": 0,
+      "minimum": 0,
+      "maximum": 0
+    },
+    "short_responses_count": 0,
+    "short_responses": [],
+    "confidence_distribution": {},
+    "emotion_distribution": {},
+    "language_mentions": {
+      "typescript": 0,
+      "javascript": 0,
+      "c#": 0,
+      "java": 0,
+      "python": 0,
+      "lua": 0
+    }
+  }
+}
