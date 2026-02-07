@@ -56,89 +56,129 @@ async def chat(request: ChatRequest):
     from app.services.profanity_filter import ProfanityFilter
     from app.services.project_links import extract_project_links
     from pathlib import Path
+    import traceback
     
     VERY_LOW_THRESHOLD = 0.20
     CONFIDENCE_HIGH = 0.40
     CONFIDENCE_MEDIUM = 0.30
     EMBEDDINGS_FILE = Path(__file__).parent.parent.parent / "embeddings.json"
     
-    openai_service = OpenAIService()
-    embedding_storage = LocalEmbeddingStorage(storage_path=str(EMBEDDINGS_FILE))
-    profanity_filter = ProfanityFilter()
-    
-    profanity_check = profanity_filter.check_question(request.question)
-    
-    if profanity_check["has_profanity"]:
-        result = openai_service.generate_boundary_response()
+    try:
+        if not EMBEDDINGS_FILE.exists():
+            print(f"⚠️  embeddings.json not found at: {EMBEDDINGS_FILE}")
+            return ChatResponse(
+                answer="I'm currently experiencing technical difficulties. Please try again in a moment.",
+                emotion="tired",
+                suggestions=[Suggestion(**s) for s in FOLLOW_UP_SUGGESTIONS],
+                confidence="off_topic",
+                top_score=0.0
+            )
+        
+        openai_service = OpenAIService()
+        embedding_storage = LocalEmbeddingStorage(storage_path=str(EMBEDDINGS_FILE))
+        profanity_filter = ProfanityFilter()
+    except Exception as e:
+        error_trace = traceback.format_exc()
+        print(f"❌ Error initializing chat endpoint: {error_trace}")
         return ChatResponse(
-            answer=result["answer"],
-            emotion=result["emotion"],
-            suggestions=[Suggestion(**s) for s in result["suggestions"]],
-            confidence="boundary",
-            top_score=0.0
-        )
-    
-    query_embedding = openai_service.get_embedding(request.question)
-    similar_notes = embedding_storage.query_similar(query_embedding, top_k=5)
-    
-    if not similar_notes:
-        result = openai_service.generate_off_topic_response()
-        return ChatResponse(
-            answer=result["answer"],
-            emotion=result["emotion"],
-            suggestions=[Suggestion(**s) for s in result["suggestions"]],
+            answer="I'm currently experiencing technical difficulties. Please try again in a moment.",
+            emotion="tired",
+            suggestions=[Suggestion(**s) for s in FOLLOW_UP_SUGGESTIONS],
             confidence="off_topic",
             top_score=0.0
         )
-    
-    top_score = similar_notes[0]['score']
-    
-    if top_score < VERY_LOW_THRESHOLD:
-        result = openai_service.generate_off_topic_response()
-        return ChatResponse(
-            answer=result["answer"],
-            emotion=result["emotion"],
-            suggestions=[Suggestion(**s) for s in result["suggestions"]],
-            confidence="off_topic",
-            top_score=top_score
-        )
-    
-    context_parts = []
-    note_ids = []
-    for note in similar_notes:
-        note_id = note['id']
-        note_ids.append(note_id)
-        content = note['metadata'].get('content_preview', '')
-        context_parts.append(content)
-    
-    context = "\n\n".join(context_parts)
-    
-    project_links = extract_project_links(note_ids[:3])
-    
-    # Confidence tiers (defined at top of file):
-    # >= 0.4: High confidence - full answer
-    # 0.3 - 0.4: Medium confidence - qualified answer with acknowledgment
-    # < 0.3: Low confidence - redirect
-    
-    if top_score < CONFIDENCE_MEDIUM:
-        result = openai_service.generate_redirect_response(request.question, context)
-        return ChatResponse(
-            answer=result["answer"],
-            emotion=result["emotion"],
-            suggestions=[Suggestion(**s) for s in result["suggestions"]],
-            confidence="redirect",
-            top_score=top_score
-        )
-    
-    # Medium confidence (0.3-0.4): Provide answer with qualification
-    if top_score < CONFIDENCE_HIGH:
-        qualification = "The question is a little vague - I'm better with more specific questions, but I'll try my best:"
-        result = openai_service.generate_chat_response(
-            request.question, 
-            context, 
-            project_links,
-            qualification=qualification
-        )
+        
+        profanity_check = profanity_filter.check_question(request.question)
+        
+        if profanity_check["has_profanity"]:
+            result = openai_service.generate_boundary_response()
+            return ChatResponse(
+                answer=result["answer"],
+                emotion=result["emotion"],
+                suggestions=[Suggestion(**s) for s in result["suggestions"]],
+                confidence="boundary",
+                top_score=0.0
+            )
+        
+        query_embedding = openai_service.get_embedding(request.question)
+        similar_notes = embedding_storage.query_similar(query_embedding, top_k=5)
+        
+        if not similar_notes:
+            result = openai_service.generate_off_topic_response()
+            return ChatResponse(
+                answer=result["answer"],
+                emotion=result["emotion"],
+                suggestions=[Suggestion(**s) for s in result["suggestions"]],
+                confidence="off_topic",
+                top_score=0.0
+            )
+        
+        top_score = similar_notes[0]['score']
+        
+        if top_score < VERY_LOW_THRESHOLD:
+            result = openai_service.generate_off_topic_response()
+            return ChatResponse(
+                answer=result["answer"],
+                emotion=result["emotion"],
+                suggestions=[Suggestion(**s) for s in result["suggestions"]],
+                confidence="off_topic",
+                top_score=top_score
+            )
+        
+        context_parts = []
+        note_ids = []
+        for note in similar_notes:
+            note_id = note['id']
+            note_ids.append(note_id)
+            content = note['metadata'].get('content_preview', '')
+            context_parts.append(content)
+        
+        context = "\n\n".join(context_parts)
+        
+        project_links = extract_project_links(note_ids[:3])
+        
+        # Confidence tiers (defined at top of file):
+        # >= 0.4: High confidence - full answer
+        # 0.3 - 0.4: Medium confidence - qualified answer with acknowledgment
+        # < 0.3: Low confidence - redirect
+        
+        if top_score < CONFIDENCE_MEDIUM:
+            result = openai_service.generate_redirect_response(request.question, context)
+            return ChatResponse(
+                answer=result["answer"],
+                emotion=result["emotion"],
+                suggestions=[Suggestion(**s) for s in result["suggestions"]],
+                confidence="redirect",
+                top_score=top_score
+            )
+        
+        # Medium confidence (0.3-0.4): Provide answer with qualification
+        if top_score < CONFIDENCE_HIGH:
+            qualification = "The question is a little vague - I'm better with more specific questions, but I'll try my best:"
+            result = openai_service.generate_chat_response(
+                request.question, 
+                context, 
+                project_links,
+                qualification=qualification
+            )
+            
+            project_links_response = None
+            if result.get("projectLinks"):
+                project_links_response = {
+                    k: ProjectLinks(**v) for k, v in result["projectLinks"].items()
+                }
+            
+            return ChatResponse(
+                answer=result["answer"],
+                emotion=result["emotion"],
+                suggestions=[Suggestion(**s) for s in result["suggestions"]],
+                projectLinks=project_links_response,
+                confidence="medium",
+                top_score=top_score
+            )
+        
+        # High confidence (>= 0.4): Full answer
+        result = openai_service.generate_chat_response(request.question, context, project_links)
         
         project_links_response = None
         if result.get("projectLinks"):
@@ -151,25 +191,17 @@ async def chat(request: ChatRequest):
             emotion=result["emotion"],
             suggestions=[Suggestion(**s) for s in result["suggestions"]],
             projectLinks=project_links_response,
-            confidence="medium",
+            confidence="high",
             top_score=top_score
         )
-    
-    # High confidence (>= 0.4): Full answer
-    result = openai_service.generate_chat_response(request.question, context, project_links)
-    
-    project_links_response = None
-    if result.get("projectLinks"):
-        project_links_response = {
-            k: ProjectLinks(**v) for k, v in result["projectLinks"].items()
-        }
-    
-    return ChatResponse(
-        answer=result["answer"],
-        emotion=result["emotion"],
-        suggestions=[Suggestion(**s) for s in result["suggestions"]],
-        projectLinks=project_links_response,
-        confidence="high",
-        top_score=top_score
-    )
+    except Exception as e:
+        error_trace = traceback.format_exc()
+        print(f"❌ Error in chat endpoint: {error_trace}")
+        return ChatResponse(
+            answer="I'm currently experiencing technical difficulties. Please try again in a moment.",
+            emotion="tired",
+            suggestions=[Suggestion(**s) for s in FOLLOW_UP_SUGGESTIONS],
+            confidence="off_topic",
+            top_score=0.0
+        )
 
