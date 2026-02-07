@@ -11,15 +11,15 @@
 
 ### Frontend Development
 
-**React/TypeScript development**: Building and maintaining user-facing features across multiple dashboards and tools.
+**React/TypeScript development**: Built and maintained user-facing features across multiple dashboards and tools.
 
-**Component architecture**: Creating reusable, maintainable React components that scale across different dashboard types.
+**Component architecture**: Created reusable, maintainable React components that scale across different dashboard types.
 
-**State management**: Implementing Redux Toolkit for complex application state, particularly in Email Editor and Nexus Dashboard.
+**State management**: Implemented Redux Toolkit for complex application state, particularly in Email Editor and Nexus Dashboard.
 
-**Responsive design**: Ensuring interfaces work seamlessly across desktop, tablet, and mobile devices.
+**Responsive design**: Ensured interfaces worked seamlessly across desktop, tablet, and mobile devices.
 
-**Performance optimization**: Keeping applications fast and responsive, especially important for data-heavy dashboards.
+**Performance optimization**: Kept applications fast and responsive, especially important for data-heavy dashboards.
 
 ## Major Projects
 
@@ -28,11 +28,11 @@
 **Most critical company system**: The main internal dashboard used by multiple teams daily.
 
 **My contributions**:
-- Implementing foundation blocks architecture for scalability
-- Building reusable dashboard components
-- Focusing on developer experience (making it easy for teammates to build new features)
-- Creating safety layers to prevent breaking changes
-- Performance optimization for complex data visualizations
+- Implemented foundation blocks architecture for scalability
+- Built reusable dashboard components
+- Focused on developer experience (making it easy for teammates to build new features)
+- Created safety layers to prevent breaking changes
+- Optimized performance for complex data visualizations
 
 **Collaboration**: Worked with backend team on API design, with designers on UX, with other frontend developers on component standards.
 
@@ -63,21 +63,21 @@
 
 ## Daily Activities
 
-**Standup/check-ins**: Coordinating with team on current tasks and blockers (typically 2x per week in person, async as needed).
+**Standup/check-ins**: Coordinated with team on current tasks and blockers (typically 2x per week in person, async as needed).
 
-**Feature development**: Most of my day is writing React/TypeScript code, implementing designs, and building components.
+**Feature development**: Most of my day was writing React/TypeScript code, implementing designs, and building components.
 
-**Code review**: Reviewing teammates' pull requests, giving feedback, learning from others' approaches.
+**Code review**: Reviewed teammates' pull requests, gave feedback, learned from others' approaches.
 
-**Mentoring**: Helping backend developers learning frontend, explaining CSS and React patterns, pair programming when teammates are stuck.
+**Mentoring**: Helped backend developers learning frontend, explained CSS and React patterns, did pair programming when teammates were stuck.
 
-**Cross-team communication**: Working with backend team on API contracts, with sales/support on user needs, with designers on implementation feasibility.
+**Cross-team communication**: Worked with backend team on API contracts, with sales/support on user needs, with designers on implementation feasibility.
 
-**Testing**: Writing tests for critical components, manual testing of features before PR.
+**Testing**: Wrote tests for critical components, did manual testing of features before PR.
 
-**Documentation**: Documenting component APIs, updating README files, maintaining developer guides for complex systems like Nexus foundation blocks.
+**Documentation**: Documented component APIs, updated README files, maintained developer guides for complex systems like Nexus foundation blocks.
 
-**Bug fixes**: Addressing issues reported by internal users, debugging production problems, maintaining existing systems.
+**Bug fixes**: Addressed issues reported by internal users, debugged production problems, maintained existing systems.
 
 ## Technical Environment
 
@@ -89,9 +89,9 @@
 - Azure DevOps for version control and CI/CD
 
 **Backend Interaction**:
-- Working with C# backend APIs
+- Worked with C# backend APIs
 - Azure Functions
-- Understanding backend constraints to design better frontend solutions
+- Understood backend constraints to design better frontend solutions
 
 **Tools**:
 - VS Code
@@ -101,31 +101,31 @@
 
 ## Work Style
 
-**Results-focused**: "Work that matters, not the process." I'm judged on what I create, not rigid adherence to hours or processes.
+**Results-focused**: "Work that matters, not the process." I was judged on what I created, not rigid adherence to hours or processes.
 
-**Self-directed**: Given tasks and expected to deliver by next check-in. I structure my own time and approach.
+**Self-directed**: Given tasks and expected to deliver by next check-in. I structured my own time and approach.
 
-**Collaborative when needed**: While I work independently most of the time, I proactively communicate with teammates when I need input or when I can help them.
+**Collaborative when needed**: While I worked independently most of the time, I proactively communicated with teammates when I needed input or when I could help them.
 
-**Problem-solver**: Often the liaison between teams because I can understand both technical and user perspectives.
+**Problem-solver**: Often the liaison between teams because I could understand both technical and user perspectives.
 
-## Challenges I Handle
+## Challenges I Handled
 
-**Legacy code**: Working with existing codebases that weren't perfectly architected, refactoring when appropriate while maintaining stability.
+**Legacy code**: Worked with existing codebases that weren't perfectly architected, refactored when appropriate while maintaining stability.
 
-**Unclear requirements**: Often need to figure out what stakeholders actually need vs. what they initially ask for.
+**Unclear requirements**: Often needed to figure out what stakeholders actually needed vs. what they initially asked for.
 
-**Cross-browser compatibility**: Ensuring features work across different browsers and devices.
+**Cross-browser compatibility**: Ensured features worked across different browsers and devices.
 
-**Performance with large datasets**: Dashboards displaying thousands of records need careful optimization.
+**Performance with large datasets**: Dashboards displaying thousands of records needed careful optimization.
 
-**Team dynamics**: Sometimes mediating between what backend team can provide and what frontend/users need.
+**Team dynamics**: Sometimes mediated between what backend team could provide and what frontend/users needed.
 
 ## Growth at Nurtur
 
 **Started with primarily Ironhack bootcamp experience, but quickly took on full-stack responsibilities** including solo full-stack projects and architecture decisions.
 
-**Grown into**:
+**Grew into**:
 - Trusted contributor on critical systems (Nexus)
 - Mentor to backend developers learning frontend
 - Solo full-stack capability (Integrations Dashboard)

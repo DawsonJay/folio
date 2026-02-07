@@ -1,6 +1,6 @@
 # Nexus Dashboard: Scalable Architecture for Complex Backend Systems
 
-Nexus Dashboard represents my current work project at Nurtur, where I'm the first developer building a visualization and control interface for a complex backend system involving queues, virtual machines, and job processing. This project showcases architectural thinking focused on decades of maintainability rather than quick delivery.
+Nexus Dashboard was my primary work project at Nurtur (July 2022 - February 2026), where I was the first developer building a visualization and control interface for a complex backend system involving queues, virtual machines, and job processing. This project showcases architectural thinking focused on decades of maintainability rather than quick delivery.
 
 The backend system Nexus visualizes is sophisticated and still evolving. It manages queues of work, provisions and controls virtual machines for processing, handles job scheduling and execution, and provides data processing infrastructure for the company's core products. The existing interface developers used was clunky, ugly, and frustrating - a minimal admin panel that showed raw data without helpful organization or safety features. My goal was creating a dashboard that developers would actually want to use.
 

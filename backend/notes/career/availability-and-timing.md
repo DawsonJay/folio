@@ -8,7 +8,7 @@ I don't have any other commitments that would affect my start date beyond housin
 
 My ideal timeline would be to secure housing in Canada and then start the new role. However, I understand that different opportunities may have different timelines and I'm flexible about that. One option that provides additional flexibility is that I can work remotely from the UK during the transition period if needed. This means I could start contributing to a new team while finalizing relocation arrangements.
 
-For interview availability, I can make time whenever needed. I'm flexible with scheduling and can accommodate different time zones easily. Fortunately, because of the time difference between the UK and Canada, most of my interviews have been in the evening UK time, which works very well for me and doesn't interfere with my current work schedule. I can be available for interviews on short notice.
+For interview availability, I can make time whenever needed. I'm flexible with scheduling and can accommodate different time zones easily. Fortunately, because of the time difference between the UK and Canada, most of my interviews have been in the evening UK time, which works very well for me. I can be available for interviews on short notice.
 
 I'm committed to making this work and will be proactive about finding housing once I have an offer. The practical aspects of relocation won't be barriers - I'll handle them efficiently so I can start contributing to a new team as soon as is reasonable after my notice period.
 

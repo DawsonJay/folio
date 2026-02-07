@@ -1,0 +1,228 @@
+{
+  "test_metadata": {
+    "timestamp": "2026-02-07-0611",
+    "local_api_url": "http://localhost:8000/api/chat",
+    "production_api_url": "https://folio-production-16b7.up.railway.app/api/chat",
+    "total_questions": 5
+  },
+  "results": [
+    {
+      "environment": "local",
+      "api_url": "http://localhost:8000/api/chat",
+      "question": "What is your experience?",
+      "success": true,
+      "error": null,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I have extensive experience integrating and working with Large Language Models (LLMs) across multiple projects. This hands-on production experience has not only deepened my understanding of LLMs but also allowed me to explore their practical applications in various domains. One of the projects I worked on, moh-ami, involved utilizing LLMs to enhance user interactions and provide intelligent responses in real-time. This project was focused on leveraging the capabilities of LLMs to create a more engaging user experience, demonstrating my ability to apply advanced AI technologies in practical settings.\n\nIn addition to my LLM experience, I have been building React applications for over three years, making it my primary framework for frontend development. My journey into development started with a background in fine art, where I honed my creativity and passion for making things. However, I transitioned into technology because I found that I could combine my artistic skills with programming, allowing me to create interactive and visually appealing applications. This unique blend of art and technology informs my approach to development, as I always seek to enhance user experience through design and functionality.\n\nMy educational background has been diverse, shaped by my interests rather than a traditional path. This eclectic approach has equipped me with a well-rounded perspective on problem-solving and creativity in technology. My experience with AI and machine learning also spans practical applications, as I focus on building systems that work effectively in production rather than solely pursuing theoretical knowledge.\n\nOverall, my journey from art to technology has enriched my skill set and fueled my passion for developing innovative solutions that leverage cutting-edge technologies like LLMs and React. I am eager to continue exploring the intersection of art and technology in my future projects.",
+      "present_tense_found": [
+        "i am",
+        "i'm",
+        "i work"
+      ],
+      "past_tense_found": [
+        "i worked"
+      ],
+      "has_issue": false,
+      "response_time_ms": 4791,
+      "confidence": "medium",
+      "top_score": 0.3754098739317783
+    },
+    {
+      "environment": "production",
+      "api_url": "https://folio-production-16b7.up.railway.app/api/chat",
+      "question": "What is your experience?",
+      "success": true,
+      "error": null,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I have a diverse background that combines my passion for art and teaching with a strong focus on technology, particularly in AI and frontend development. My journey into development began with my love for creating art, which led me to explore various avenues where I could express my creativity. This eventually transitioned into a fascination with technology, prompting me to delve into programming and system building.\n\nI have hands-on production experience integrating and working with Large Language Models (LLMs) across multiple projects. This practical focus on AI and machine learning emphasizes building systems that perform efficiently in real-world applications, rather than merely engaging with theoretical concepts. One of my notable projects is moh-ami, where I applied my expertise in LLMs to develop solutions that enhance user interaction and engagement.\n\nIn addition to my AI experience, I have been building React applications for over three years. React is my primary framework for frontend development, and I have worked on a variety of projects ranging from small personal endeavors to more substantial collaborative efforts. This experience has equipped me with a solid understanding of component-based architecture, state management, and the integration of APIs, making me proficient in creating dynamic and responsive web applications.\n\nMy educational background has been eclectic, shaped more by pursuing interests than adhering to a traditional educational path. This diverse foundation has allowed me to approach technology from unique angles, combining artistic creativity with technical skills. Overall, my experience spans various domains within technology, focusing on practical implementations that drive real-world results, particularly in the realms of AI, machine learning, and frontend development.",
+      "present_tense_found": [
+        "i'm"
+      ],
+      "past_tense_found": [],
+      "has_issue": true,
+      "response_time_ms": 4222,
+      "confidence": "medium",
+      "top_score": 0.37540987393177816
+    },
+    {
+      "environment": "local",
+      "api_url": "http://localhost:8000/api/chat",
+      "question": "Tell me about yourself",
+      "success": true,
+      "error": null,
+      "answer": "I am a creative and supportive full stack developer with a passion for building long-lasting production systems. My journey in technology has been fueled by a love for making things and a desire to contribute positively to my team and projects. I worked at Nurtur for three and a half years, where I focused on developing robust applications that meet user needs and stand the test of time. Currently, I am engaged with the Nexus project, where I utilize my skills to create innovative solutions that enhance user experience and streamline processes.\n\nWhat sets me apart is not just my coding abilities but also the breadth of perspectives I bring from various facets of my life, including art, teaching, and kayaking. These experiences have fostered a unique approach to problem-solving, allowing me to think outside the box and offer creative solutions that resonate with both technical and non-technical team members. I believe that my diverse background enables me to connect with colleagues on a deeper level, fostering collaboration and a sense of community within the workplace.\n\nLooking ahead, my five-year professional vision is to be the go-to person for answers and advice on projects within my team. I aspire to be seen as a valuable resource, someone who not only excels in their technical abilities but also supports others in their growth and development. My core values of Wonder and Connection guide me in this journey, as I strive to cultivate a work environment where curiosity is encouraged, and relationships are nurtured.\n\nIn summary, I am driven by creativity and supportiveness, both of which are essential in my work as a developer. I aim to create meaningful connections with my colleagues and contribute to a positive and productive work culture while continually growing in my profession.",
+      "present_tense_found": [
+        "currently",
+        "i am",
+        "i work"
+      ],
+      "past_tense_found": [
+        "worked at nurtur",
+        "i worked",
+        "three and a half years"
+      ],
+      "has_issue": true,
+      "response_time_ms": 4084,
+      "confidence": "high",
+      "top_score": 0.4564657408684305
+    },
+    {
+      "environment": "production",
+      "api_url": "https://folio-production-16b7.up.railway.app/api/chat",
+      "question": "Tell me about yourself",
+      "success": true,
+      "error": null,
+      "answer": "I'm a full stack developer currently working at Nurtur, where I've been dedicated to building robust production systems that stand the test of time. My approach to development is deeply influenced by my creative and supportive nature, which I believe is essential not only in crafting technical solutions but also in fostering positive relationships with my colleagues. I thrive on the challenge of making things, whether it’s writing code or collaborating on innovative projects. \n\nAt present, I am focused on the Nexus project, where I leverage my skills to create solutions that are not only functional but also user-friendly and aesthetically pleasing. My diverse background in art, teaching, and kayaking allows me to bring a unique perspective to my work, enabling me to think outside the box and approach problems with creativity and thoughtfulness. I believe that this breadth of experience enhances my coding abilities and enriches the collaborative process with my team.\n\nLooking ahead, I envision myself becoming a valuable member of my team in the next five years, someone who is relied upon for insights and advice on various projects. I want to be the go-to person for my colleagues, providing support and guidance that helps us all excel in our roles. My core values, which revolve around Wonder and Connection, drive my commitment to fostering a collaborative and inspiring work environment. I see these two concepts as binary stars, orbiting each other, supporting and enhancing the overall experience for everyone involved. \n\nI am passionate about creating a workplace where creativity flourishes and connections are built, and I am excited about the opportunities that lie ahead as I continue to grow in my career. My journey as a developer is just beginning, and I look forward to the challenges and accomplishments that await me.",
+      "present_tense_found": [
+        "currently",
+        "i am",
+        "i'm"
+      ],
+      "past_tense_found": [],
+      "has_issue": true,
+      "response_time_ms": 4284,
+      "confidence": "high",
+      "top_score": 0.45646574086843045
+    },
+    {
+      "environment": "local",
+      "api_url": "http://localhost:8000/api/chat",
+      "question": "What is your current employment status?",
+      "success": true,
+      "error": null,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best:\n\nI worked at Nurtur for 3.5 years, from July 2022 until February 2026, when I was made redundant. During my time there, I held the position of Full Stack Developer, where I focused primarily on React and TypeScript development. My role involved building and maintaining internal dashboards and production systems that are designed to last for years. I was actively engaged in the Nexus project, which allowed me to leverage my skills in both front-end and back-end development, ensuring a robust user experience and efficient data management.\n\nWhile the redundancy was not my choice, it aligns with my long-term career goals, and I view this transition as an opportunity to pursue new challenges and further develop my professional skills. I am currently navigating the redundancy process, which includes a notice period, and I am committed to ensuring a smooth transition for my team and the projects I was involved in. I believe that my experience at Nurtur has prepared me well for the next stage of my career, where I can apply the knowledge and skills I have gained in a new environment. \n\nIf you would like to know more about my experiences or specific projects I worked on during my time at Nurtur, feel free to ask!",
+      "present_tense_found": [
+        "currently",
+        "i am",
+        "i'm",
+        "i work"
+      ],
+      "past_tense_found": [
+        "worked at nurtur",
+        "was made redundant",
+        "i was",
+        "i worked",
+        "3.5 years"
+      ],
+      "has_issue": true,
+      "response_time_ms": 4542,
+      "confidence": "medium",
+      "top_score": 0.3804649321710129
+    },
+    {
+      "environment": "production",
+      "api_url": "https://folio-production-16b7.up.railway.app/api/chat",
+      "question": "What is your current employment status?",
+      "success": true,
+      "error": null,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I am currently a full stack developer at Nurtur, where I have been working since July 2022. My primary focus has been on developing production systems that are built to last, specifically with an emphasis on React and TypeScript for internal dashboard applications. My role has allowed me to engage with various aspects of full stack development, ensuring that the systems I create are not only functional but also maintainable and scalable.\n\nCurrently, I am involved in the Nexus project, which is an ongoing initiative aimed at enhancing our internal capabilities and improving user experience. While my experience at Nurtur has been valuable, I am in the process of transitioning out of my role due to redundancy. This situation, while unexpected, aligns with my career goals, providing me with an opportunity to explore new challenges and advancements in my professional journey.\n\nThroughout my time at Nurtur, I have taken on various responsibilities that include collaborating closely with cross-functional teams, designing user interfaces, and implementing efficient backend services. My exposure to full stack development has given me a well-rounded understanding of both front-end and back-end technologies, allowing me to contribute effectively to the projects I work on.\n\nAs I navigate through this redundancy process, I am committed to ensuring a smooth transition for my team and the projects we have been working on. I believe that every challenge presents an opportunity for growth, and I am excited to see where my next steps will take me in my career as a full stack developer.",
+      "present_tense_found": [
+        "currently",
+        "i am",
+        "i'm",
+        "i work"
+      ],
+      "past_tense_found": [],
+      "has_issue": true,
+      "response_time_ms": 5168,
+      "confidence": "medium",
+      "top_score": 0.3804649321710128
+    },
+    {
+      "environment": "local",
+      "api_url": "http://localhost:8000/api/chat",
+      "question": "Where do you work?",
+      "success": true,
+      "error": null,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I worked at Nurtur for 3.5 years, from July 2022 until February 2026, when I was made redundant. During my time there, I served as a Full Stack Developer, where I focused on building production systems designed for longevity. One of the key projects I was involved in was the Nexus project, which aimed to streamline and enhance our service offerings. \n\nAt Nurtur, I thrived in a collaborative environment, which is something I value greatly in my work life. I believe that small teams, typically consisting of 3-4 motivated individuals, are the most effective for fostering genuine collaboration and innovation. This structure allows for open communication, quick decision-making, and a strong sense of camaraderie among team members.\n\nCreativity and supportiveness are at the core of my personality and work style. I approach my projects with a mindset geared towards making things better and supporting my colleagues in their endeavors. I take pride in my ability to contribute not only through my technical skills but also by fostering a positive and encouraging atmosphere within my team. I appreciate working in environments where collaboration is emphasized, as it leads to better outcomes and a more enjoyable work experience.\n\nOverall, I am looking for opportunities where I can continue to grow professionally while being part of a motivated and supportive team. My past experiences at Nurtur have solidified my preference for smaller, dynamic teams where creativity can flourish and where I can make a meaningful impact on projects and team dynamics.",
+      "present_tense_found": [
+        "i am",
+        "i'm",
+        "i work"
+      ],
+      "past_tense_found": [
+        "worked at nurtur",
+        "was made redundant",
+        "i was",
+        "i worked",
+        "3.5 years"
+      ],
+      "has_issue": true,
+      "response_time_ms": 4373,
+      "confidence": "medium",
+      "top_score": 0.31702685550942744
+    },
+    {
+      "environment": "production",
+      "api_url": "https://folio-production-16b7.up.railway.app/api/chat",
+      "question": "Where do you work?",
+      "success": true,
+      "error": null,
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I currently work at Nurtur, which operates as BriefYourMarket.com. I hold the position of a full stack developer, and my role has me deeply involved in building production systems that are designed to last for years. This focus on durability and long-term functionality is a core aspect of what I do, ensuring that the systems we create not only meet immediate needs but are also sustainable and effective over time.\n\nAt Nurtur, I have been part of the Nexus project, which emphasizes collaboration and innovation. I find that working in a small team of 3-4 motivated individuals is essential for fostering a collaborative environment. My experience has shown that smaller teams tend to be more cohesive, allowing us to work closely together and support one another effectively. This structure aligns perfectly with my personality and work style as I am naturally creative and supportive, which I believe are vital traits in both professional and personal relationships.\n\nThe ideal work environment for me is one where I can continue to grow professionally while working alongside talented colleagues. I thrive in settings that encourage open communication and collaboration, as I find that great ideas often emerge from diverse perspectives. The small team dynamic at Nurtur allows for this kind of interaction, leading to innovative solutions and a more enjoyable work experience overall. \n\nI am excited about the opportunity to contribute to meaningful projects and be part of a team that values creativity, collaboration, and professional growth. Looking ahead, I am eager to continue this journey and further develop my skills in a supportive and collaborative setting.",
+      "present_tense_found": [
+        "currently",
+        "i am",
+        "i'm"
+      ],
+      "past_tense_found": [],
+      "has_issue": true,
+      "response_time_ms": 4614,
+      "confidence": "medium",
+      "top_score": 0.3169811657379081
+    },
+    {
+      "environment": "local",
+      "api_url": "http://localhost:8000/api/chat",
+      "question": "What do you do?",
+      "success": true,
+      "error": null,
+      "answer": "",
+      "present_tense_found": [],
+      "past_tense_found": [],
+      "has_issue": false,
+      "response_time_ms": 1327,
+      "confidence": "redirect",
+      "top_score": 0.291210473310527
+    },
+    {
+      "environment": "production",
+      "api_url": "https://folio-production-16b7.up.railway.app/api/chat",
+      "question": "What do you do?",
+      "success": true,
+      "error": null,
+      "answer": "I'm a full stack developer who enjoys creating and collaborating in small teams. I thrive under pressure and communicate effectively, often preferring calls after preparing thoroughly.",
+      "present_tense_found": [
+        "i'm"
+      ],
+      "past_tense_found": [],
+      "has_issue": true,
+      "response_time_ms": 1639,
+      "confidence": "redirect",
+      "top_score": 0.2911494498314909
+    }
+  ],
+  "analysis": {
+    "local": {
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "issues_found": 3,
+      "issue_questions": [
+        "Tell me about yourself",
+        "What is your current employment status?",
+        "Where do you work?"
+      ]
+    },
+    "production": {
+      "total_tests": 5,
+      "successful": 5,
+      "failed": 0,
+      "issues_found": 5,
+      "issue_questions": [
+        "What is your experience?",
+        "Tell me about yourself",
+        "What is your current employment status?",
+        "Where do you work?",
+        "What do you do?"
+      ]
+    }
+  }
+}
