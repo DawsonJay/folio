@@ -23,7 +23,7 @@
 
 ## Major Projects
 
-### Nexus Dashboard (Current Focus)
+### Nexus Dashboard
 
 **Most critical company system**: The main internal dashboard used by multiple teams daily.
 
@@ -34,7 +34,7 @@
 - Creating safety layers to prevent breaking changes
 - Performance optimization for complex data visualizations
 
-**Collaboration**: Working with backend team on API design, with designers on UX, with other frontend developers on component standards.
+**Collaboration**: Worked with backend team on API design, with designers on UX, with other frontend developers on component standards.
 
 ### Email Editor
 

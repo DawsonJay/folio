@@ -1,6 +1,6 @@
 # Remote Work Experience and Capabilities
 
-My entire professional career has been remote. All of my roles - from my first position at BriefYourMarket to my current work at Nurtur - have been fully remote positions. I occasionally go into the office for special meetings or events, but my daily work life has always been structured around remote collaboration.
+My entire professional career has been remote. All of my roles - from my first position at BriefYourMarket to my work at Nurtur (July 2022 - February 2026) - have been fully remote positions. I occasionally went into the office for special meetings or events, but my daily work life was structured around remote collaboration.
 
 I'm a big fan of remote work and I think it brings out the best in professional communication. Remote collaboration gives me the space to prepare thoughtful questions before reaching out to someone, which means our conversations are always focused and purposeful. When you call someone remotely, it's always for a specific reason, not just because they happen to be nearby. I find this makes it easier to stay focused, professional, and respectful of everyone's time.
 

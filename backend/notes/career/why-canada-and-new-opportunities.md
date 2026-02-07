@@ -28,7 +28,7 @@ I'm actively pursuing permanent residence in Canada through the Working Holiday 
 
 ## Why Now
 
-**Career progression**: I've been at Nurtur for 3.5 years as a Full Stack Developer. I've built production systems like the Integrations Dashboard (3+ years in production with zero maintenance) and contributed to complex projects like the Nexus Dashboard and Email Editor.
+**Career progression**: I worked at Nurtur for 3.5 years (July 2022 - February 2026) as a Full Stack Developer until being made redundant. I built production systems like the Integrations Dashboard (3+ years in production with zero maintenance) and contributed to complex projects like the Nexus Dashboard and Email Editor.
 
 **Demonstrated trajectory**: My portfolio shows clear progression:
 - Started with web development foundations (Ironhack bootcamp)

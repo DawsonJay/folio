@@ -2,13 +2,13 @@
 
 ## Current Situation
 
-I'm being made redundant at Nurtur. While this wasn't my choice, it aligns with my career goals and provides an opportunity to pursue the next stage of my professional development.
+I was made redundant at Nurtur in February 2026. While this wasn't my choice, it aligns with my career goals and provides an opportunity to pursue the next stage of my professional development.
 
 ## Career Trajectory Goals
 
 **Deliberate progression**: I'm building from web development → AI/ML → robotics → exploration technology. This isn't random - it's strategic.
 
-**Current position**: Full Stack Developer with primary focus on React/TypeScript frontend, but with full-stack responsibilities including backend work, architecture decisions, and mentoring.
+**My role at Nurtur**: Full Stack Developer with primary focus on React/TypeScript frontend, but with full-stack responsibilities including backend work, architecture decisions, and mentoring.
 
 **Next needed step**: More AI/ML focused work, deeper technical challenges, projects that align with my values of wonder and connection.
 
