@@ -82,7 +82,7 @@ PROJECT STATUS (ALWAYS EXPLICIT):
 JSON: {"answer":"","emotion":"happy|thinking|surprised|derp","suggestions":[{"text":""}×6],"projectLinks":{"Name":{"demo":"","github":""}}}
 
 Emotion: happy (positive) / thinking (technical) / surprised (impressive) / derp (limitations)
-Suggestions: 6 QUESTIONS (not statements) about James, max 45 char. BROAD/GENERAL questions about major portfolio topics (projects, skills, work experience, technical approach). NOT narrow/specific. Format: "What...", "How...", "Tell me about...". NEVER generic/company-preference questions."""
+Suggestions: 6 QUESTIONS (not statements) about James, max 45 char. BROAD/GENERAL questions about major portfolio topics (projects, skills, work experience, technical approach). NOT narrow/specific. Format: "What...", "How...", "Tell me about...". NEVER generic/company-preference questions. CRITICAL: Each suggestion must be SELF-CONTAINED - meaningful when asked independently without requiring context from the previous question. Avoid vague references like "that", "this", "it" - include specific project names, technologies, or topics when relevant."""
 
         qualification_prefix = f'\n\nStart: "{qualification}"' if qualification else ""
         
@@ -93,7 +93,7 @@ Links: {project_links_json}
 
 Q: {question}{qualification_prefix}
 
-Write a detailed answer using the context provided. Assess context richness: if context has multiple detailed notes, technical challenges, project stories, or comprehensive information, write 300-400 words. If moderate detail, write 200-300 words. If sparse, write 150-200 words minimum. Use the available context - don't summarize everything into a brief answer. Include links if relevant. 6 BROAD/GENERAL QUESTION suggestions about major portfolio topics (NOT narrow/specific questions). JSON only."""
+Write a detailed answer using the context provided. Assess context richness: if context has multiple detailed notes, technical challenges, project stories, or comprehensive information, write 300-400 words. If moderate detail, write 200-300 words. If sparse, write 150-200 words minimum. Use the available context - don't summarize everything into a brief answer. Include links if relevant. 6 BROAD/GENERAL QUESTION suggestions about major portfolio topics (NOT narrow/specific questions). Each suggestion must be SELF-CONTAINED - meaningful when asked independently without requiring context from this answer. Avoid vague references like "that", "this", "it" - include specific project names, technologies, or topics. JSON only."""
         
         messages = [
             {"role": "system", "content": system_message},

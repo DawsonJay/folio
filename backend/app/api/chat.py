@@ -55,15 +55,23 @@ async def chat(request: ChatRequest):
     from app.services.embedding_storage import LocalEmbeddingStorage
     from app.services.profanity_filter import ProfanityFilter
     from app.services.project_links import extract_project_links
+    from app.services.direct_answer_service import DirectAnswerService
     from pathlib import Path
+    import logging
+    
+    logger = logging.getLogger(__name__)
     
     VERY_LOW_THRESHOLD = 0.20
     CONFIDENCE_HIGH = 0.40
     CONFIDENCE_MEDIUM = 0.30
+    DIRECT_ANSWER_THRESHOLD = 0.65
     EMBEDDINGS_FILE = Path(__file__).parent.parent.parent / "embeddings.json"
+    DIRECT_ANSWER_EMBEDDINGS_FILE = Path(__file__).parent.parent.parent / "direct-answer-embeddings.json"
     
     openai_service = OpenAIService()
     embedding_storage = LocalEmbeddingStorage(storage_path=str(EMBEDDINGS_FILE))
+    direct_answer_storage = LocalEmbeddingStorage(storage_path=str(DIRECT_ANSWER_EMBEDDINGS_FILE))
+    direct_answer_service = DirectAnswerService()
     profanity_filter = ProfanityFilter()
     
     profanity_check = profanity_filter.check_question(request.question)
@@ -79,6 +87,34 @@ async def chat(request: ChatRequest):
         )
     
     query_embedding = openai_service.get_embedding(request.question)
+    
+    try:
+        direct_answer_results = direct_answer_storage.query_similar(query_embedding, top_k=1)
+        
+        if direct_answer_results and direct_answer_results[0]['score'] >= DIRECT_ANSWER_THRESHOLD:
+            try:
+                file_path = direct_answer_results[0]['metadata']['file_path']
+                direct_answer = direct_answer_service.load_direct_answer(file_path)
+                
+                project_links_response = None
+                if direct_answer.get("projectLinks"):
+                    project_links_response = {
+                        k: ProjectLinks(**v) for k, v in direct_answer["projectLinks"].items()
+                    }
+                
+                return ChatResponse(
+                    answer=direct_answer["answer"],
+                    emotion=direct_answer["emotion"],
+                    suggestions=[Suggestion(text=s) for s in direct_answer["suggestions"]],
+                    projectLinks=project_links_response,
+                    confidence="direct_answer",
+                    top_score=direct_answer_results[0]['score']
+                )
+            except Exception as e:
+                logger.warning(f"Failed to load direct answer: {e}, falling back to RAG")
+    except Exception as e:
+        logger.warning(f"Direct answer query failed: {e}, falling back to RAG")
+    
     similar_notes = embedding_storage.query_similar(query_embedding, top_k=5)
     
     if not similar_notes:

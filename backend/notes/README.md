@@ -19,7 +19,7 @@ This directory contains 20 atomic notes designed to test the RAG (Retrieval Augm
 3. ai-ml-experience
 4. integrations-dashboard-achievement
 5. team-dad-leadership
-6. wonder-connection-values
+6. core-values-framework
 7. canadian-immigration-journey
 8. artist-to-tech-transition
 9. ironhack-bootcamp-education

@@ -37,7 +37,16 @@ def main():
     
     print(f"Reading notes from {notes_dir}...")
     note_files = list(notes_dir.rglob("*.md"))
-    print(f"Found {len(note_files)} note files")
+    
+    # Exclude metadata directories and template files
+    excluded_files = {"TEMPLATE.md", "COMMON-QUESTIONS.md"}
+    note_files = [
+        f for f in note_files 
+        if f.name not in excluded_files 
+        and "metadata" not in f.parts
+    ]
+    
+    print(f"Found {len(note_files)} note files (excluding metadata directories and template files)")
     
     notes_data = []
     for note_file in note_files:

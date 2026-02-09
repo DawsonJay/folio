@@ -1,0 +1,31 @@
+# Tell me about Atlantis
+
+Atlantis, formally known as "The Momo," is a lake bed mapping system that demonstrates advanced engineering for impossible-to-reach places. The project underwent a major strategic pivot from an underwater drone to a surface boat with towed probe mapping system, representing sophisticated problem-solving and adaptation in hardware development.
+
+The project began as an ambitious underwater drone concept using a Raspberry Pi 4 for processing and Raspberry Pi Pico for real-time sensor control. The hybrid architecture combined Python for high-level AI and C++ for low-level hardware control. The original design included four brushless motors for propulsion, IMU sensors for orientation, pressure sensors for depth measurement, ultrasonic obstacle detection, and a camera system for underwater photography.
+
+The pivot happened when I realized the underwater drone approach had fundamental complexity issues. Waterproofing at depth, real-time communication underwater, and safe recovery systems created overwhelming challenges. More importantly, for the actual goal of mapping lake beds, a surface boat with a towed probe offered superior advantages in accuracy, reliability, cost, and safety. This recognition led to completely reimagining the system architecture.
+
+The current system consists of a remote-controlled surface boat that tows a weighted probe equipped with eight ultrasonic sensors arranged in a hemispherical array. The boat uses GPS positioning and a winch system to control probe depth, while the probe sends detailed mapping data back via LoRa long-range communication. This creates highly accurate 3D maps of lake beds and submerged structures at a fraction of professional equipment costs.
+
+The technical innovation is striking. Professional lake mapping equipment costs $50,000 to $200,000 and provides accuracy of plus or minus 10 to 50 centimeters with resolution detecting 10 to 50 centimeter objects. My system aims for accuracy of plus or minus 1 to 2 centimeters with resolution detecting 5 to 10 centimeter objects, all at a cost of $500 to $2,000. This is possible because eight ultrasonic sensors covering a hemisphere provide extremely dense point cloud data, and stopping the boat at measurement points eliminates motion artifacts.
+
+The project draws direct parallels to space exploration, particularly Mars rover operations. Operating in environments where real-time communication is impossible or impractical requires autonomous decision-making, comprehensive safety systems, and robust failure recovery. These same challenges exist underwater. The solution strategies I developed mirror those used in planetary exploration, demonstrating systems thinking that transcends specific domains.
+
+What makes this project particularly valuable for a portfolio is the strategic pivot demonstration. Recognizing when an approach isn't working and having the confidence to radically change direction shows engineering maturity. The ability to repurpose existing components rather than starting from scratch demonstrates resourcefulness. The new system is simpler, more reliable, and better suited to the actual goal - exactly the kind of pragmatic engineering employers value.
+
+From a technical portfolio perspective, Atlantis showcases hardware integration skills beyond typical web development. Working with LoRa communication, GPS positioning, winch control systems, ultrasonic sensor arrays, and 3D printing demonstrates breadth. The project required learning embedded systems, RF communication protocols, spatial data processing, and mechanical design.
+
+What I'm most proud of is that Atlantis solves a real problem in a genuinely novel way. Professional lake mapping is expensive and often overkill for small projects. Recreational divers want to know what's down there before committing to dives. Environmental researchers need affordable monitoring tools. My system provides professional-grade data at consumer prices by rethinking the problem from first principles rather than copying existing approaches.
+
+---
+
+**emotion:** happy
+**suggestions:**
+- Tell me about a project that failed
+- How do you approach project scoping?
+- What challenges have you faced?
+- Tell me about your hardware experience
+- How do you approach problem-solving?
+- What projects have you built?
+
