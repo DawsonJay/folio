@@ -24,8 +24,8 @@ Ultimately, I'm looking for somewhere I can establish myself long-term. I'm not 
 **suggestions:**
 - Why are you looking for a new role?
 - What are your career goals?
-- Why do you want to move to Canada?
 - What projects have you built?
 - What are you passionate about?
 - How do you approach work-life balance?
+- What are your strongest technical skills?
 

@@ -1,6 +1,6 @@
 # Tell me about your current experience
 
-I have 5.5 years of professional development experience, with my most recent role at Nurtur where I worked for 3.5 years as a Full Stack Developer from July 2022 to February 2026. I'm currently seeking new opportunities as I transition to working in Canada.
+I have 5.5 years of professional development experience, with my most recent role at Nurtur where I worked for 3.5 years as a Full Stack Developer from July 2022 to February 2026. I'm currently seeking new opportunities.
 
 My professional experience started at BriefYourMarket.com as a Junior Web Developer in October 2020, which lasted 5 months. I then spent 15 months as a freelance web developer, which taught me that I prefer working in teams. I returned to the same company (now Nurtur) in July 2022 and worked there for 3.5 years until February 2026.
 

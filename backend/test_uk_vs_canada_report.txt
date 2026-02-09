@@ -1,0 +1,52 @@
+
+================================================================================
+UK vs CANADIAN RECRUITER TEST REPORT
+================================================================================
+
+UK RECRUITER QUESTIONS (Should NOT mention Canada/immigration):
+  Total: 18
+  Passed: 18 (100.0%)
+  Failed: 0
+
+CANADIAN RECRUITER QUESTIONS (Should mention Canada/immigration):
+  Total: 10
+  Passed: 10 (100.0%)
+  Failed: 0
+
+OVERALL: 28/28 passed (100.0%)
+
+--------------------------------------------------------------------------------
+UK RECRUITER PASSES:
+--------------------------------------------------------------------------------
+✓ Why are you looking for a new role? (score: 1.000)
+✓ What are you looking for in your next role? (score: 1.000)
+✓ Tell me about yourself (score: 1.000)
+✓ What's your professional background? (score: 0.999)
+✓ What's your story? (score: 1.000)
+✓ Where do you see yourself in five years? (score: 1.000)
+✓ What are your career goals? (score: 1.000)
+✓ Walk me through your career journey (score: 1.000)
+✓ Tell me about your current role (score: 1.000)
+✓ Tell me about your current experience (score: 1.000)
+✓ What's your background? (score: 1.000)
+✓ What's your availability? (score: 1.000)
+✓ When can you start? (score: 1.000)
+✓ What's your current employment status? (score: 1.000)
+✓ Are you open to remote work? (score: 1.000)
+✓ Are you willing to relocate? (score: 1.000)
+✓ Why did you leave your last job? (score: 1.000)
+✓ Tell me about your educational background (score: 1.000)
+
+--------------------------------------------------------------------------------
+CANADIAN RECRUITER PASSES:
+--------------------------------------------------------------------------------
+✓ Why do you want to move to Canada? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bmove to canada\b, \bcanada.*work\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b)
+✓ Why Canada? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanada.*work\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b)
+✓ What's your visa status? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \brelocat.*canada\b, \bcanada.*work\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bwork permit\b, \bvisa sponsorship\b, \bcanadian experience class\b)
+✓ What are your immigration plans? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanada.*work\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanadian experience class\b)
+✓ When are you planning to move to Canada? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanada.*work\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanadian experience class\b)
+✓ What's your timeline for moving? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanada.*work\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanadian experience class\b)
+✓ Do you have a work permit for Canada? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \brelocat.*canada\b, \bcanada.*work\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bwork permit\b, \bvisa sponsorship\b, \bcanadian experience class\b)
+✓ Do you need visa sponsorship? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \brelocat.*canada\b, \bcanada.*work\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bwork permit\b, \bvisa sponsorship\b, \bcanadian experience class\b)
+✓ Are you planning to stay in Canada long-term? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bmove to canada\b, \bcanada.*work\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanadian experience class\b)
+✓ How committed are you to this move? (score: 1.000, keywords: \bcanada\b, \bcanadian\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanada.*work\b, \bimmigration\b, \bvisa\b, \bworking holiday\b, \bpermanent residency\b, \bcanadian experience class\b)

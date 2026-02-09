@@ -12,7 +12,7 @@ I did an Ironhack bootcamp in May 2020, which was a strategic decision to bridge
 
 My professional background is primarily in full-stack web development with React and TypeScript, which I've used daily for 3.5 years at Nurtur. I have significant professional experience with C# as my primary backend language for 3 years. I've also worked extensively with Python for AI/ML projects like WhatNow, moh-ami, and Folio.
 
-The project I was working on at Nurtur concluded in February 2026 when the team was restructured. I'm currently seeking new opportunities as I transition to working in Canada, bringing 5.5 years of proven production experience.
+The project I was working on at Nurtur concluded in February 2026 when the team was restructured. I'm currently seeking new opportunities, bringing 5.5 years of proven production experience.
 
 ---
 

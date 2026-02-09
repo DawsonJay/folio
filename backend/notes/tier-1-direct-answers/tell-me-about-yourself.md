@@ -1,6 +1,6 @@
 # Tell me about yourself
 
-I'm a Full Stack Developer with 5.5 years of professional experience, currently seeking new opportunities as I transition to working in Canada. I'm ready to start immediately and excited about finding a role that aligns with my values.
+I'm a Full Stack Developer with 5.5 years of professional experience, currently seeking new opportunities. I'm ready to start immediately and excited about finding a role that aligns with my values.
 
 My journey into development started with art. I completed a Foundation Year in Illustration at the University of Derby, but I realized that while I loved the creative process, I needed something that combined creativity with intellectual challenges. Coding gave me that same satisfaction of bringing ideas into reality, but with clear, objective parameters for success. Code either works or it doesn't. That clarity is what sparked my interest in tech.
 
@@ -12,7 +12,7 @@ My core values are curiosity, collaboration, and craftsmanship. I'm driven by co
 
 What makes me unique is the combination of artistic intuition and technical rigor. My art background gives me a sense of when code structure feels right, when something is done, and how systems should feel to users, not just function correctly. I approach problems with both creative problem-solving and logical investigation. I can follow an instinct on what might be causing a bug and usually be right - then I follow up with rigorous logical investigation. The feeling acts as a compass, not as proof.
 
-I'm currently seeking new opportunities that align with my values and career goals. I'm particularly interested in full-stack web development roles that incorporate AI/ML capabilities, and I'm open to opportunities in Canada where I'm planning to build my long-term career. I'm ready to start immediately and bring 5.5 years of proven production experience.
+I'm currently seeking new opportunities that align with my values and career goals. I'm particularly interested in full-stack web development roles that incorporate AI/ML capabilities. I'm ready to start immediately and bring 5.5 years of proven production experience.
 
 ---
 

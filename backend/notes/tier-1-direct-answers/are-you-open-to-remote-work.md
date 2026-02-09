@@ -10,7 +10,7 @@ For communication tools, I've used Microsoft Teams extensively at Nurtur, and pr
 
 Building relationships in remote teams isn't difficult - it just requires intentionality. Strong working relationships develop naturally when you're helpful and authentic with colleagues. At Nurtur, I often reached out to teams I hadn't spoken to before to gather their thoughts on projects and designs. It's about making the effort to connect around work-relevant topics and maintaining a helpful, professional presence.
 
-I'm completely willing to work remotely during my move to Canada. In fact, this flexibility allows me to start providing value to a new employer immediately while managing the practical aspects of relocation. Remote work during the transition means I can begin contributing to a team right away rather than waiting until I'm physically in Canada.
+I'm completely willing to work remotely. This flexibility allows me to start providing value to a new employer immediately. Remote work means I can begin contributing to a team right away.
 
 I've been working remotely for nearly six years now, and I've developed strong instincts for remote collaboration, async communication, self-directed work, and building relationships across digital spaces. Remote work isn't just something I can do - it's the environment where I've built my entire professional skill set and where I consistently do my best work.
 
@@ -25,5 +25,5 @@ Remote work suits my working style perfectly. I can structure my day around when
 - Are you willing to relocate?
 - How do you work in a team?
 - What are you looking for in your next role?
-- Why do you want to move to Canada?
+- What are your strongest technical skills?
 

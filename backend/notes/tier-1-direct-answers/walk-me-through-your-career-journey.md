@@ -14,7 +14,7 @@ I returned to the same company in July 2022, but by then it had been bought by N
 
 I also worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading and intelligent caching. I mentored backend developers and developed a team dad leadership style focused on supporting teammates.
 
-The project I was working on concluded in February 2026 when the team was restructured. While the timing wasn't my choice, it aligns perfectly with my career goals. I'm currently seeking new opportunities as I transition to working in Canada, bringing 5.5 years of proven production experience.
+The project I was working on concluded in February 2026 when the team was restructured. While the timing wasn't my choice, it aligns perfectly with my career goals. I'm currently seeking new opportunities, bringing 5.5 years of proven production experience.
 
 ---
 

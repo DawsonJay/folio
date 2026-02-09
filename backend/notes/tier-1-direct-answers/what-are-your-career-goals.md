@@ -21,5 +21,5 @@ Looking 5 years into the future, I want to be working in a small team on a proje
 - What are you passionate about?
 - What makes you unique as a developer?
 - How do you approach learning new technologies?
-- Why do you want to move to Canada?
+- What are your strongest technical skills?
 

@@ -6,8 +6,6 @@ I've maximized what this role could teach me. I went from bootcamp graduate to c
 
 My values are curiosity, collaboration, and craftsmanship. My long-term vision involves working on exploration technology (deep sea/space) or environmental systems that help people understand and connect with the natural world. Nurtur was focused on internal business dashboards, which were practical and valuable, but not aligned with my deeper values.
 
-Immigration to Canada is also a major factor. I'm actively pursuing permanent residence through the Working Holiday Visa pathway. Canada represents natural beauty, environmental values, work-life balance culture, and innovation in technology. I want to build my life and career there. This transition comes at the right time with 5.5 years of professional experience and proven production systems.
-
 I'm seeking a role that uses my current strengths in full-stack web development while expanding into AI/ML integration. I want to work on web applications that incorporate AI capabilities - things like intelligent search, personalized recommendations, or LLM-powered features. I want to work with experienced engineers in areas that matter to me. My learning style is goal-driven, so I need work that challenges me and allows me to grow my skills.
 
 I'm looking for a team environment where I can continue to grow. I thrived at Nurtur with small teams, professional respect, and autonomy. I'm seeking similar environments - ideally a 3-4 person team where everyone is extremely motivated and believes in the project. I want decisions made by consensus, and results to matter more than process.
@@ -20,8 +18,8 @@ I'm not running away from problems. I'm running toward my goals. The project con
 **suggestions:**
 - What are you looking for in your next role?
 - Tell me about your career goals
-- Why do you want to move to Canada?
 - What projects have you built?
 - What are you passionate about?
 - How do you approach work-life balance?
+- What are your strongest technical skills?
 

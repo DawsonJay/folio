@@ -10,7 +10,7 @@ I did an Ironhack bootcamp in May 2020, which was a strategic decision to bridge
 
 I also spent 15 months as a freelance web developer, which taught me that I prefer working in teams. I learned that I need teammates to share solutions with, people to discuss technical challenges with, and the ability to support others' growth. Working alone took that away.
 
-My most recent role was at Nurtur, where I worked for 3.5 years as a Full Stack Developer, building production systems that are still running today. I'm currently seeking new opportunities as I transition to working in Canada.
+My most recent role was at Nurtur, where I worked for 3.5 years as a Full Stack Developer, building production systems that are still running today. I'm currently seeking new opportunities.
 
 What makes my background unique is the combination of artistic intuition and technical rigor. My art background gives me a sense of when code structure feels right, when something is done, and how systems should feel to users, not just function correctly. I approach problems with both creative problem-solving and logical investigation.
 

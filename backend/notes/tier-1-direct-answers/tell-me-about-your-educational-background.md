@@ -10,7 +10,7 @@ I did an Ironhack bootcamp in May 2020, which was a strategic decision to bridge
 
 The bootcamp validated my self-taught foundation. While other students were learning programming concepts for the first time, I was building on years of prior experience. This allowed me to focus on professional practices - working in teams, code reviews, deployment, real project constraints - rather than basic syntax.
 
-I've also completed an IELTS exam with an overall band score of 8.5 (C2 level), with perfect scores in listening, reading, and speaking. This was for Canadian immigration purposes, demonstrating my commitment and preparation for moving to Canada.
+I've also completed an IELTS exam with an overall band score of 8.5 (C2 level), with perfect scores in listening, reading, and speaking.
 
 My educational journey taught me that practical, hands-on learning works better for me than theoretical academic study. I learn best by doing, not by studying. This is why bootcamp was more valuable than university for me, and why my portfolio projects continue to teach me more than courses ever did.
 
