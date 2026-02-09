@@ -6,7 +6,7 @@ I was made redundant at Nurtur. While this wasn't my choice, it aligns with my c
 
 ## What I've Accomplished at Nurtur
 
-In 3.5 years, I've:
+In 3.5 years at Nurtur (part of 5.5 years total professional experience), I've:
 - ✅ Gone from junior developer to trusted contributor on critical systems
 - ✅ Built production systems that last (Integrations Dashboard: 3+ years, zero maintenance)
 - ✅ Developed mentoring capability (teaching backend devs frontend)
@@ -23,14 +23,14 @@ In 3.5 years, I've:
 
 **What I need next**: More AI/ML focused work, deeper technical challenges, projects involving real-world systems (not just web interfaces).
 
-**My trajectory**: Web dev → AI/ML → robotics → exploration technology. Nurtur doesn't have AI/robotics work, so this transition allows me to progress toward my goals.
+**My trajectory**: Building on web development foundations, expanding into AI/ML integration for web applications. Nurtur doesn't have AI/ML integration work, so this transition allows me to pursue opportunities that combine my web dev strengths with AI capabilities.
 
 ### 2. Immigration to Canada
 **Major life decision**: I'm pursuing permanent residence in Canada through Working Holiday Visa pathway.
 
 **Why Canada**: Natural beauty, environmental values, work-life balance culture, innovation in technology. I want to build my life there.
 
-**Timing**: After 3.5 years of solid UK experience, this transition comes at the right time to make this international move.
+**Timing**: After 5.5 years of professional experience, this transition comes at the right time to make this international move.
 
 ### 3. Values Alignment
 **Current work**: Internal business dashboards. Practical and valuable, but not aligned with my deeper values.
@@ -61,7 +61,7 @@ In 3.5 years, I've:
 - Small, motivated team (3-4 people) working on meaningful projects
 - More AI/ML and systems work (not just web interfaces)
 - Projects aligned with exploration or environmental technology
-- Growth opportunity toward robotics/embedded systems
+- Growth opportunity to integrate AI/ML capabilities into web applications
 - Results-focused culture (not rigid processes)
 
 **Career progression**:
@@ -72,7 +72,7 @@ In 3.5 years, I've:
 
 ## The Simple Version
 
-**Why I left**: I was made redundant at Nurtur. While this wasn't my choice, it aligns with my career trajectory toward AI/robotics and exploration technology. Combined with immigration to Canada and seeking values-aligned work, this transition provides the right opportunity to move forward.
+**Why I left**: I was made redundant at Nurtur. While this wasn't my choice, it aligns with my career trajectory toward integrating AI/ML capabilities into web applications. Combined with immigration to Canada and seeking values-aligned work, this transition provides the right opportunity to move forward.
 
 **Gratitude for Nurtur** - they gave me valuable experience that prepared me for this next stage. I'm leaving with appreciation for what I learned and excitement for what's next.
 

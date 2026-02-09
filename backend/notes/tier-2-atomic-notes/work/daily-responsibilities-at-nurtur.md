@@ -144,5 +144,5 @@
 
 This role gave me **real production experience** that's essential for career progression. I went from bootcamp graduate to shipped multiple production systems in 3.5 years, gained mentoring experience, and worked on genuinely complex technical challenges.
 
-The experience at Nurtur has been invaluable for building the foundation I need to move toward AI/robotics and exploration technology work.
+The experience at Nurtur has been invaluable for building the foundation I need to integrate AI/ML capabilities into web applications.
 

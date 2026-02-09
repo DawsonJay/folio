@@ -14,9 +14,9 @@ I'm actively pursuing permanent residence in Canada through the Working Holiday 
 
 ## What I'm Looking For
 
-**Meaningful work in AI, robotics, or exploration technology**: I want to contribute to projects that help people understand and connect with the natural world. Whether that's deep sea exploration, space technology, environmental monitoring, or innovative solutions to ecological challenges.
+**Meaningful work integrating AI/ML into web applications**: I want to contribute to projects that help people understand and connect with the natural world. Whether that's AI-powered search systems, personalized recommendation features, or intelligent web applications.
 
-**Growth opportunity**: I'm building from web development toward AI/robotics systematically. I'm looking for roles where I can:
+**Growth opportunity**: I'm building on web development foundations, expanding into AI/ML integration systematically. I'm looking for roles where I can:
 - Apply my current full-stack skills immediately
 - Grow into more AI/ML and systems work over time
 - Work on projects with real-world impact
@@ -28,7 +28,7 @@ I'm actively pursuing permanent residence in Canada through the Working Holiday 
 
 ## Why Now
 
-**Career progression**: I worked at Nurtur for 3.5 years (July 2022 - February 2026) as a Full Stack Developer until being made redundant. I built production systems like the Integrations Dashboard (3+ years in production with zero maintenance) and contributed to complex projects like the Nexus Dashboard and Email Editor.
+**Career progression**: I have 5.5 years of professional experience, including 3.5 years at Nurtur (July 2022 - February 2026) as a Full Stack Developer until being made redundant. I built production systems like the Integrations Dashboard (3+ years in production with zero maintenance) and contributed to complex projects like the Nexus Dashboard and Email Editor.
 
 **Demonstrated trajectory**: My portfolio shows clear progression:
 - Started with web development foundations (Ironhack bootcamp)

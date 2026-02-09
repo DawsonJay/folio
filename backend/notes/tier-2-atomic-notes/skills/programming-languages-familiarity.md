@@ -4,7 +4,7 @@
 
 I know several programming languages: TypeScript, JavaScript, React, C#, Java, Python, and Lua. Yes, I know C#. Yes, I know Java. Here's a comprehensive overview of my language familiarity and experience.
 
-**Quick Answer**: I know TypeScript, JavaScript, React, C#, Java, Python, and Lua. My strongest are TypeScript and React (daily use for 3.5 years). I have significant professional C# experience (3 years at Nurtur as primary backend language). Java was my first programming language. Python for AI/ML. Lua for personal projects.
+**Quick Answer**: I know TypeScript, JavaScript, React, C#, Java, Python, and Lua. My strongest are TypeScript and React (daily use for 3.5 years at Nurtur, part of 5.5 years total professional experience). I have significant professional C# experience (3 years at Nurtur as primary backend language). Java was my first programming language. Python for AI/ML. Lua for personal projects.
 
 **Direct Answers**:
 - "What languages do you know?" - I know TypeScript, JavaScript, React, C#, Java, Python, and Lua
@@ -13,7 +13,7 @@ I know several programming languages: TypeScript, JavaScript, React, C#, Java, P
 
 ## Primary Languages (Daily Professional Use)
 
-**TypeScript/JavaScript**: My strongest languages, used daily for 3.5 years at Nurtur. Deep expertise in React, TypeScript, and modern JavaScript patterns. This is where I have the most production experience and can deliver the most value.
+**TypeScript/JavaScript**: My strongest languages, used daily for 3.5 years at Nurtur (part of 5.5 years total professional experience). Deep expertise in React, TypeScript, and modern JavaScript patterns. This is where I have the most production experience and can deliver the most value.
 
 ## Backend Languages (Professional Experience)
 
@@ -41,7 +41,7 @@ This goal-driven approach means I understand languages in context - I know how t
 
 ## Direct Answers to Common Questions
 
-**"What languages do you know?"**: I know TypeScript, JavaScript, React, C#, Java, Python, and Lua. My strongest languages are TypeScript and React (used daily for 3.5 years at Nurtur). I have significant professional experience with C# (3 years at Nurtur as primary backend language). Java was my first programming language, learned during Higher Education and at Heriot Watt University. Python I use extensively for AI/ML projects. Lua I'm familiar with through personal projects.
+**"What languages do you know?"**: I know TypeScript, JavaScript, React, C#, Java, Python, and Lua. My strongest languages are TypeScript and React (used daily for 3.5 years at Nurtur, part of 5.5 years total professional experience). I have significant professional experience with C# (3 years at Nurtur as primary backend language). Java was my first programming language, learned during Higher Education and at Heriot Watt University. Python I use extensively for AI/ML projects. Lua I'm familiar with through personal projects.
 
 **"Do you know C#?"**: Yes, I know C# very well. I used C# as my primary backend language for 3 of my 3.5 years at Nurtur (July 2022 - February 2026). I worked extensively with C# backend APIs, Azure Functions, and backend systems that supported the frontend dashboards I built. I also used C# in my volunteer game development role and for personal Unity projects. I'm very familiar with C# and comfortable working with it in production environments. I have significant professional C# experience.
 

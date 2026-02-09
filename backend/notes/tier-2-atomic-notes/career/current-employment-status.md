@@ -4,7 +4,7 @@ I am currently unemployed and actively seeking new opportunities. I was made red
 
 **Current Employment Status**: Unemployed. Not currently employed. Actively job searching. Ready to start immediately.
 
-**Previous Employment**: I worked at Nurtur for 3.5 years (July 2022 - February 2026) until I was made redundant. That role has ended completely.
+**Previous Employment**: I worked at Nurtur for 3.5 years (July 2022 - February 2026) until I was made redundant. That role has ended completely. I have 5.5 years total professional experience including BriefYourMarket, freelance work, and Nurtur.
 
 **Availability**: I can start a new position immediately. I have no notice period, no current employment, and no other commitments that would delay my start date. I am ready to begin work right away.
 
@@ -12,7 +12,7 @@ I am currently unemployed and actively seeking new opportunities. I was made red
 
 **Interview Availability**: I'm available for interviews at any time. I can accommodate different time zones easily, and I'm flexible with scheduling. I can be available for interviews on short notice.
 
-**Readiness**: I'm ready to contribute from day one. I have 3.5 years of production experience at Nurtur, and I'm eager to bring my skills to a new team and start making an impact immediately.
+**Readiness**: I'm ready to contribute from day one. I have 5.5 years of professional experience, and I'm eager to bring my skills to a new team and start making an impact immediately.
 
 **When asked "What is your current employment status?" or "Are you currently employed?" or "Where do you work?"**: I am currently unemployed. I was made redundant at Nurtur in February 2026 and I am now actively seeking new opportunities. I am ready to start immediately.
 

@@ -65,7 +65,7 @@ Pre-2020 (University and before)
 
 ## Total Time in Development
 
-**Professional experience**: 3.5+ years (October 2020 - February 2026, with freelance period)
+**Professional experience**: 5.5 years (October 2020 - February 2026, with freelance period)
 
 **Self-taught coding**: Started learning years before professional work:
 - Taught myself Java before university
@@ -81,7 +81,7 @@ Pre-2020 (University and before)
 **2021**: Freelance (learned I need teams)  
 **2022**: Back to Nurtur as Full Stack Developer  
 **2023-2024**: Grew into trusted contributor on critical systems, mentor to others  
-**2025**: Ready for next step - more AI/ML work, alignment with values, growth toward robotics/exploration
+**2025**: Ready for next step - more AI/ML integration work, alignment with values, expanding into AI-powered web applications
 
 ## What This Timeline Shows
 
@@ -97,7 +97,7 @@ Pre-2020 (University and before)
 
 ## Why I'm Looking for New Opportunities
 
-**3.5 years at Nurtur** has given me solid foundation:
+**5.5 years of professional experience** (including 3.5 years at Nurtur) has given me solid foundation:
 - Production system experience
 - Team collaboration
 - Mentoring capability

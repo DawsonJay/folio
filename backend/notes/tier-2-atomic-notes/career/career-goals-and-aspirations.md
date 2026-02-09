@@ -20,7 +20,7 @@ My primary career goal is to be a valuable member of my team - the person people
 
 **The "team dad" approach**: I bring people together, encourage everyone to be their best, create safe spaces where people can discover their own strength.
 
-**Why this matters long-term**: Leadership skills transcend technology. Whether I'm leading web developers, AI engineers, or robotics teams, the core skills are identical:
+**Why this matters long-term**: Leadership skills transcend technology. Whether I'm leading web developers or teams building AI-powered web applications, the core skills are identical:
 - Making people feel capable
 - Clear communication
 - Strategic project thinking
@@ -98,7 +98,7 @@ This could be 2 years or 5+ years depending on what opportunities emerge.
 
 ## Long-Term Vision (Honest but Flexible)
 
-**My interests are broad**: Web development, AI/ML systems, robotics, embedded systems, environmental technology. I'm drawn to technical work that combines cleverness with real-world impact.
+**My interests are broad**: Web development is my core strength, and I'm expanding into AI/ML integration for web applications. I'm drawn to technical work that combines cleverness with real-world impact, building AI-powered features that enhance user experiences.
 
 **The common thread**: Leadership, problem-solving, building things that matter. These goals stay constant even if the specific technical domain evolves.
 

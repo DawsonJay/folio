@@ -54,7 +54,7 @@ My approach to prioritization centers on **"work that matters, not the process."
 
 ### Long-term Prioritization
 
-**Career trajectory**: I'm building from web development → AI/ML → robotics deliberately. Project choices should advance this progression. WhatNow taught me contextual bandits. moh-ami taught me LLM integration. Each project strategically builds skills toward my exploration technology goal.
+**Career trajectory**: I'm building on web development foundations, expanding into AI/ML integration for web applications. Project choices should advance this progression. WhatNow taught me contextual bandits. moh-ami taught me LLM integration. Each project strategically builds skills for AI-powered web applications.
 
 **Values alignment**: "I don't want to work for money alone." I prioritize projects that align with my values of curiosity, collaboration, and craftsmanship. This makes work sustainable and meaningful.
 

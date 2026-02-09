@@ -8,7 +8,7 @@
 - Save money for future transitions if needed
 - Establish myself professionally in Canada
 
-**This is strategic, not cynical**: I could pursue AI/robotics roles directly, but they're harder to get (more competitive, often want advanced degrees), and I'd likely start at lower levels. Web dev roles let me enter Canada with financial stability.
+**This is strategic, not cynical**: Web development is my core strength, and I'm looking for roles that integrate AI/ML capabilities into web applications. These roles let me enter Canada with financial stability while building on my proven web development expertise.
 
 ## What I Value in Web Development
 
@@ -21,11 +21,11 @@
 - Understanding project structure
 - Debugging and performance optimization
 
-These skills transfer to AI, robotics, embedded systems, or any technical field. Time spent developing them in web dev context is valuable regardless of where my career goes.
+These skills are foundational for building AI-powered web applications, intelligent search systems, and personalized recommendation features. Time spent developing them in web dev context directly supports integrating AI/ML capabilities into web applications.
 
 ### 2. Leadership Opportunities
 
-**Leadership transcends technology**: Whether I'm leading web developers, AI engineers, or robotics teams, the core skills are identical:
+**Leadership transcends technology**: Whether I'm leading web developers or teams building AI-powered web applications, the core skills are identical:
 - Bringing out the best in people
 - Creating psychological safety
 - Clear communication
@@ -34,7 +34,7 @@ These skills transfer to AI, robotics, embedded systems, or any technical field.
 
 I value senior web dev roles because they offer leadership responsibility. That's something I'll invest significant time developing because it matters in every technical domain.
 
-**My "team dad" leadership style** is equally valuable in web development, AI research, or robotics engineering.
+**My "team dad" leadership style** is equally valuable in web development and AI-powered web application teams.
 
 ### 3. AI Integration in Web Applications
 
@@ -66,7 +66,7 @@ Web development is how AI reaches people. It's a bridge I'm genuinely interested
 - I care about delivering quality work (my reputation matters)
 - Being valuable to my team is how I look after people
 
-**Not mentally checked out**: I won't be collecting a paycheck while dreaming of robotics. I'll be genuinely invested in projects, team success, and delivering value.
+**Not mentally checked out**: I'll be genuinely invested in projects, team success, and delivering value. Web development is my core strength, and I'm excited to integrate AI capabilities into web applications.
 
 ### How Long I'll Stay
 

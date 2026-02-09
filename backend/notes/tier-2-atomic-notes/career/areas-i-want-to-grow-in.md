@@ -20,7 +20,7 @@
 - Making architectural and strategic decisions
 - Being the person people come to for guidance
 
-**Leadership transcends technology**: These skills matter whether I'm leading web developers, AI engineers, or robotics teams in the future. I'll invest significant time developing them.
+**Leadership transcends technology**: These skills matter whether I'm leading web developers or teams building AI-powered web applications. I'll invest significant time developing them.
 
 ### 2. AI/ML Integration Work
 
@@ -49,7 +49,7 @@
 ### Immediate Value
 
 **Senior-level capability from day one**:
-- 3.5 years production experience
+- 5.5 years professional experience
 - Shipped systems still running years later
 - Mentored other developers
 - Led complex projects
