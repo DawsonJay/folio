@@ -6,7 +6,7 @@ The relocation timeline depends on finding housing. I'll start looking for housi
 
 I can start working remotely from the UK immediately upon receiving a job offer, which means I can begin contributing to a team right away rather than waiting until I'm physically in Canada. This flexibility is an advantage for employers - they get immediate value while I manage the practical aspects of relocation.
 
-My Working Holiday visa is approved, so I'm ready to work in Canada whenever I receive a job offer. The visa gives me legal work authorization for 2 years, so there's no rush from an immigration perspective. I can take the time needed to find appropriate housing and make a smooth transition.
+My IEC Working Holiday visa application is submitted and in the final stages (biometrics scheduled); I'm currently waiting for the visa to be issued. It doesn't require employer sponsorship. I can start working remotely from the UK immediately while the visa is being issued, then relocate once it's active and housing is arranged. Once issued, the visa gives me legal work authorization for 2 years, so there's no rush from an immigration perspective.
 
 The plan is to work for 1 year with the Working Holiday visa (must be physically in Canada for the work experience to count toward permanent residency), then apply for Permanent Residency through Canadian Experience Class. I'll start applying as soon as I have a year of experience, which leaves months for it to process within the 2-year visa validity period.
 

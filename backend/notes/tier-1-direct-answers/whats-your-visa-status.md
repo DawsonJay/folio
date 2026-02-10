@@ -1,6 +1,6 @@
 # What's your visa status?
 
-My Working Holiday visa (IEC) is approved. This gives me legal work authorization in Canada for 2 years. No work permit sponsorship required. I can start work immediately, including working remotely from UK while organizing relocation to Canada.
+My IEC Working Holiday visa application is submitted and in the final stages (biometrics scheduled); I'm currently waiting for the visa to be issued. It doesn't require employer sponsorship. I can start working remotely from the UK immediately while the visa is being issued, then relocate once it's active and housing is arranged.
 
 The Working Holiday visa strategy is deliberate. It gives me a two-year window to prove myself in the Canadian job market and demonstrate that I'm someone worth keeping. I'm not looking for shortcuts or trying to game the system - I'm building a portfolio of real work that shows Canadian employers what I can contribute.
 

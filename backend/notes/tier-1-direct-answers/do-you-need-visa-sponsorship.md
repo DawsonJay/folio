@@ -1,8 +1,8 @@
 # Do you need visa sponsorship?
 
-No, I don't need visa sponsorship. My Working Holiday visa (IEC) is approved, which gives me legal work authorization in Canada for 2 years. No work permit sponsorship required. I can start work immediately, including working remotely from UK while organizing relocation to Canada.
+No, I don't need visa sponsorship. My IEC Working Holiday visa application is submitted and in the final stages (biometrics scheduled); I'm currently waiting for the visa to be issued. It doesn't require employer sponsorship. I can start working remotely from the UK immediately while the visa is being issued, then relocate once it's active and housing is arranged.
 
-The Working Holiday visa is an independent work authorization that I've already obtained. I don't need employer sponsorship for this visa - it's something I've secured independently. This means employers don't need to sponsor my work permit or go through any immigration processes on my behalf.
+The Working Holiday visa is an independent work authorization that I'm managing myself. The application is submitted and in its final stages - I don't need employer sponsorship for this visa. This means employers don't need to sponsor my work permit or go through any immigration processes on my behalf.
 
 The plan is to work for 1 year with the Working Holiday visa, then apply for Permanent Residency through Canadian Experience Class. This is a long-term commitment to building a career and life in Canada. I plan to complete the immigration path independently without employer sponsorship, though company sponsorship could make the process easier if available.
 
@@ -10,7 +10,7 @@ What I need from an employer is only the work experience itself - no sponsorship
 
 This is an advantage for employers - no burden on them, no immigration paperwork, no sponsorship costs. I can proceed independently through the Canadian Experience Class program after gaining the required work experience.
 
-I've completed all the requirements for the Working Holiday visa: UK citizen, age 18-35 (currently 30), can demonstrate minimum funds, no criminal record, meets health requirements. The visa is approved and ready to use.
+I've completed all the requirements for the Working Holiday visa: UK citizen, age 18-35 (currently 30), can demonstrate minimum funds, no criminal record, meets health requirements. The application is submitted, biometrics are scheduled, and I'm waiting for the visa to be issued.
 
 ---
 

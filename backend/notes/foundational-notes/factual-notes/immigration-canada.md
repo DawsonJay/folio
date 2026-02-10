@@ -28,14 +28,14 @@
 - [x] Educational credential assessment (WES ECA - completed 17/03/2025)
 - [x] Portfolio development
 - [x] Working Holiday visa eligibility confirmed (UK citizen, age 30, meets all requirements)
-- [x] Working Holiday visa approved
+- [x] Working Holiday visa application submitted (biometrics scheduled, waiting for visa to be issued)
 - **Source**: `linked-in-job-hunter/profile-documents/details.md`
 
 ---
 
 ## Current Status
 
-- [x] Working Holiday visa approved
+- [x] Working Holiday visa application submitted (biometrics scheduled, waiting for visa to be issued)
 - [ ] Job offer in Canada
 - [ ] Relocate to Canada
 - [ ] 1 year Canadian work experience
@@ -47,9 +47,9 @@
 ## Working Holiday Visa (IEC)
 
 ### Status
-- **Status**: Approved
-- **Timeline**: Approved
-- **Validity**: 2 years (allows legal work in Canada)
+- **Status**: Application submitted, biometrics scheduled, waiting for visa to be issued
+- **Timeline**: Biometrics scheduled in ~1 week, then 2-8 weeks processing time
+- **Validity**: 2 years (allows legal work in Canada) once issued
 - **Advantage**: No employer sponsorship required
 - **Purpose**: Initial work authorization period - plan is to work for 1 year, then apply for Permanent Residency through Canadian Experience Class for long-term stay in Canada
 - **Source**: `linked-in-job-hunter/profile-documents/details.md`, `atomic-notes/career/relocation-willingness.md`, User feedback 2026-02-07
@@ -68,7 +68,7 @@
 - **Source**: `linked-in-job-hunter/profile-documents/details.md`
 
 ### For Job Applications
-**Statement**: "Working Holiday visa (IEC) approved. Legal work authorization in Canada for 2 years. No work permit sponsorship required. Can start work immediately, including working remotely from UK while organizing relocation to Canada."
+**Statement**: "IEC Working Holiday visa application submitted and in final stages (biometrics scheduled); currently waiting for visa to be issued. No work permit sponsorship required. Can start working remotely from UK immediately while visa is being issued, then relocate once it's active and housing is arranged."
 
 **Source**: `linked-in-job-hunter/profile-documents/details.md`, `atomic-notes/career/relocation-willingness.md`, User feedback 2026-02-07
 
@@ -92,7 +92,7 @@
 - **Source**: `linked-in-job-hunter/profile-documents/details.md`, User feedback 2026-02-07
 
 ### Requirements
-- Working Holiday visa approved ✅
+- Working Holiday visa application submitted (biometrics scheduled, waiting for issuance) ✅
 - Job offer secured [ ]
 - Savings for relocation (~£6,000-8,000)
 - Health insurance: To be obtained (required before entering Canada, waiting for job offer in case included in employment package)
@@ -181,12 +181,13 @@
 ## Complete Timeline Estimate
 
 ### Month 1-2
-- Apply for Working Holiday visa ✅ (already approved)
+- Apply for Working Holiday visa ✅ (application submitted)
+- Biometrics scheduled (~1 week from now)
 - Continue job search from UK
-- Visa processing: 2-8 weeks ✅ (already approved)
+- Visa processing: 2-8 weeks after biometrics (in progress)
 
 ### Month 2-4 (or as soon as job offer received)
-- Visa approved ✅
+- Visa issued (expected within 2-8 weeks after biometrics)
 - Secure job offer [ ]
 - Start working remotely from UK immediately [ ]
 - Find housing in Canada [ ]
@@ -309,7 +310,8 @@
 
 ## Gaps to Fill
 
-- [ ] Exact date Working Holiday visa was approved (not yet obtained)
+- [ ] Exact date Working Holiday visa application was submitted (not yet obtained)
+- [ ] Exact date biometrics appointment scheduled (not yet obtained)
 - [x] Health insurance status (to be obtained, waiting for job offer in case included in employment package - required before entering Canada)
 - [ ] Specific cities researched in Canada (no specific cities researched yet)
 - [ ] Backup plan details if needed (no backup plan details available)

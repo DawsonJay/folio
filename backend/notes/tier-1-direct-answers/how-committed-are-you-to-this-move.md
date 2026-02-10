@@ -4,7 +4,7 @@ I'm extremely committed. This isn't about "trying out" Canada. It's about choosi
 
 I've completed my WES (World Education Services) educational credential assessment for Canadian immigration purposes. I've taken the IELTS English proficiency exam and scored 8.5 overall (C2 level), with perfect scores in listening, reading, and speaking. These aren't just bureaucratic checkboxes - they're demonstrations of my commitment and preparation.
 
-My Working Holiday visa is approved, which required significant preparation and investment. The plan is to work for 1 year with the Working Holiday visa, then apply for Permanent Residency through Canadian Experience Class. This is a long-term commitment to building a career and life in Canada, not just a temporary 2-year stay.
+My IEC Working Holiday visa application is submitted and in the final stages (biometrics scheduled), which required significant preparation and investment. I'm currently waiting for the visa to be issued. The plan is to work for 1 year with the Working Holiday visa once issued, then apply for Permanent Residency through Canadian Experience Class. This is a long-term commitment to building a career and life in Canada, not just a temporary 2-year stay.
 
 I'm building specific skills in AI/ML, RAG systems, full-stack development, and hardware integration because these are the capabilities that Canadian companies need for the kinds of projects I want to work on. When I apply for positions, I want to be someone who can contribute immediately to meaningful work.
 
