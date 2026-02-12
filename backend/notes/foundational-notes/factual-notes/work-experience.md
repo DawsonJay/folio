@@ -80,15 +80,18 @@
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`
 
 #### Nexus Dashboard
-- **Type**: Scalable Architecture Project
-- **Timeline**: October 2025 - February 2026 (continued until left)
+- **Type**: Scalable Architecture Project / React/TypeScript Microfrontend
+- **Timeline**: July 2022 - February 2026 (primary project), with focused development period October 2025 - February 2026
 - **Status**: Project cancelled/team redundant (February 2026)
-- **Technologies**: React/TypeScript, complex backend system integration
-- **Description**: First developer to build dashboard for complex backend system (queues, virtual machines)
-- **Architecture**: Designed to adapt to major backend changes without significant frontend rewrites
-- **Documentation**: Created comprehensive documentation and setup guides for future developers
+- **Team**: 2-person team (frontend developer + backend engineer collaboration)
+- **Technologies**: React/TypeScript, Module Federation, TypeSpec, .NET BFF/API, React Query, complex backend system integration
+- **Architecture**: Microfrontend integrated into Nexus platform using Module Federation, designed to adapt to major backend changes without significant frontend rewrites
+- **Description**: Modern React/TypeScript microfrontend replacing legacy "Robocop" interface for distributed job processing system (Job Dispatcher + Job Managers + multi-tenant queues). First developer to build dashboard for complex backend system (queues, virtual machines, job processing).
+- **Key Features**: Real-time monitoring, multi-tenant queue management, visual dashboards emphasizing patterns (backlogs, spikes, stuck jobs), hierarchical drill-down navigation
+- **Documentation**: Created comprehensive documentation and setup guides for future developers, improved local development environment setup
+- **Testing**: Playwright e2e tests covering navigation, queue management, error/loading states, and optimistic updates
 - **Safety**: Added safety layers preventing accidental data corruption or removal
-- **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `linked-in-job-hunter/profile-documents/project-nexus-dashboard.md`
+- **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `linked-in-job-hunter/profile-documents/project-nexus-dashboard.md`, `/home/james/Downloads/job-manager-interview-notes.md`, `/home/james/Downloads/cv-project-description.txt`
 
 #### Email Editor
 - **Type**: Core Product Rebuild - Team Collaboration

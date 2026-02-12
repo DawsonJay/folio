@@ -369,13 +369,28 @@ Portfolio website featuring theatrical diorama design system with layered SVG an
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `atomic-notes/resources/project-links-all.md`
 
 ### Nexus Dashboard
-- **Type**: Enterprise component system
+- **Type**: Enterprise component system / React/TypeScript microfrontend
 - **Status**: Project cancelled/team made redundant (February 2026) - wasn't showing results fast enough, considered experimental project
-- **Technologies**: React/TypeScript, foundation block architecture, React Query (for caching), Material UI
-- **Description**: Dashboard for complex backend system (queues, virtual machines)
-- **Achievements**: Reduced load time from 15+ seconds to sub-5 seconds through React Query caching, strategic loading patterns, buffer systems
+- **Timeline**: July 2022 - February 2026 (primary project), with focused development period October 2025 - February 2026
+- **Technologies**: React/TypeScript, foundation block architecture, React Query (for caching), Material UI, Module Federation, TypeSpec, .NET BFF/API
+- **Architecture**: Microfrontend integrated into Nexus platform using Module Federation
+- **Team**: 2-person team (frontend developer + backend engineer collaboration)
+- **Description**: Modern React/TypeScript microfrontend replacing legacy "Robocop" interface for distributed job processing system (Job Dispatcher + Job Managers + multi-tenant queues). Provides real-time visibility and control over a distributed, multi-tenant job processing platform.
+- **Key Features**: 
+  - Real-time monitoring and control of distributed job processing
+  - Multi-tenant queue management with hierarchical organization
+  - Job manager control and status monitoring
+  - Visual dashboards emphasizing patterns (backlogs, spikes, stuck jobs) rather than raw metrics
+  - Drill-down navigation by instance/tenant, queue type, and environment
+- **Achievements**: 
+  - Reduced load time from 15+ seconds to sub-5 seconds through React Query caching, strategic loading patterns, buffer systems
+  - Replaced legacy "Robocop" interface with modern, intuitive UI
+  - Improved operations team efficiency and reduced dependency on people who "knew the old screens"
+  - Designed reusable component architecture enabling rapid iteration (new graphs in ~10 minutes, new pages in ~30 minutes)
+  - Smoothed out complex multi-service local development environment (SQL Server, IIS, .NET 8 APIs, React)
+- **Testing**: Playwright e2e tests covering navigation, queue management, error/loading states, and optimistic updates
 - **Source Code**: Proprietary (cannot share)
-- **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `atomic-notes/resources/project-links-all.md`, `atomic-notes/work/nexus-performance-optimization.md`
+- **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `atomic-notes/resources/project-links-all.md`, `atomic-notes/work/nexus-performance-optimization.md`, `/home/james/Downloads/job-manager-interview-notes.md`, `/home/james/Downloads/cv-project-description.txt`, `/home/james/Downloads/dev_log/`
 
 ### Email Editor
 - **Type**: Core product rebuild

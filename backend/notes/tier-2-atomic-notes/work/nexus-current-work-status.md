@@ -1,6 +1,6 @@
 # Nexus Dashboard: Work Status and Development Progress
 
-Nexus Dashboard was my primary project at Nurtur, actively developed throughout 2025 until February 2026 when I was made redundant. This work demonstrates my day-to-day professional development capabilities and provides concrete examples of working within a team on production systems.
+Nexus Dashboard was my primary project at Nurtur, actively developed throughout 2025 until February 2026 when I was made redundant. The project was delivered as part of a 2-person team (frontend developer + backend engineer), with focused development from October 2025 through February 2026. This work demonstrates my day-to-day professional development capabilities and provides concrete examples of working within a team on production systems.
 
 The project originated from developer frustration with the existing admin interface. The old system was functionally adequate but usability was terrible - clunky navigation, raw data dumps without helpful formatting, no safety features preventing mistakes, and slow performance with large datasets. Developers used it because they had to, not because it was good. Leadership recognized this pain point and gave me the opportunity to design something better.
 
@@ -18,7 +18,7 @@ The feedback integration process actively incorporates user input into developme
 
 The technical challenges throughout development provided learning opportunities. Handling very large datasets required buffer strategies and pagination. Making the interface responsive while fetching much data needed intelligent caching. Preventing accidents in production systems demanded thoughtful safety layers. Each challenge required researching solutions, weighing tradeoffs, implementing carefully, and validating results. This problem-solving cycle is daily professional development work.
 
-The code review participation with backend team members ensured my frontend work integrates cleanly with backend systems. Reviews catch potential issues early. They ensure consistency with team standards. They provide learning opportunities as more experienced developers share knowledge. This collaborative review process improves code quality and maintains team cohesion around shared codebase.
+The code review participation with my backend teammate ensured my frontend work integrates cleanly with backend systems. Working in a 2-person team allowed for close collaboration on API contracts, data structures, and endpoint designs. Reviews catch potential issues early. They ensure consistency with team standards. They provide learning opportunities as we shared knowledge. This collaborative review process improves code quality and maintains team cohesion around shared codebase.
 
 The documentation maintenance keeps architectural docs and user guides current as the system evolves. When I add features or change designs, documentation updates happen concurrently. This discipline prevents the documentation drift that makes docs useless in many projects. Keeping docs fresh serves both current team members and future developers who will maintain Nexus after I move on.
 
