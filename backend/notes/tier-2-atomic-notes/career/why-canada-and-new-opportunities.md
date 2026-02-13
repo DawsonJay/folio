@@ -6,11 +6,13 @@ I'm actively pursuing permanent residence in Canada through the Working Holiday 
 
 ## Why Canada Specifically
 
-**Natural beauty and connection to the world**: Canada's vast landscapes, commitment to environmental protection, and culture of outdoor recreation align with my core values. I want to live where my connection to nature (hiking, kayaking, experiencing awe at the world) is supported by the culture and geography.
+**Strong and developing AI industry**: Canada has organizations like the Vector Institute, concentration of AI labs in Montreal and Toronto, and companies building production AI systems at scale. This is where AI-powered web application work is happening - not just research, but production systems creating value.
 
-**Immigration as commitment**: Moving to Canada isn't just about a job - it's about choosing where I want to build my life and career long-term. This commitment means I'm looking for opportunities that grow with me and where I can contribute meaningfully for years.
+**Career development opportunity**: I want to develop my career specifically in AI-powered web applications. Canada is the right place for this career trajectory.
 
-**Values alignment**: Canadian culture around work-life balance, environmental consciousness, and innovation in technology matches how I want to live and work.
+**Work-life balance and practical innovation**: Canadian tech culture emphasizes sustainable work and building things that matter over chasing unicorns. This aligns with what I'm looking for - meaningful projects at a sustainable pace.
+
+**Nature and outdoor recreation**: I like nature a lot and live in the Peak District for hiking access. Canada's vast landscapes and outdoor culture are a significant benefit, though the career opportunity is the primary driver.
 
 ## What I'm Looking For
 

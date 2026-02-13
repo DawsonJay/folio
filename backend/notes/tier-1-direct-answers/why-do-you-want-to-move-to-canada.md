@@ -1,22 +1,16 @@
 # Why do you want to move to Canada?
 
-I'm pursuing immigration to Canada through the Working Holiday visa program, with plans to apply for Permanent Residency after gaining Canadian work experience. This isn't a casual decision or just about getting a visa - it's a carefully considered step toward building a life in a place that aligns with my values and career goals.
+Canada has a strong and developing AI industry. Organizations like the Vector Institute, the concentration of AI labs in Montreal and Toronto, and companies building production AI systems at scale make Canada the right place to develop my career in AI-powered web applications. I want to work on production AI systems that create real value, and Canada is where that work is happening.
 
-My motivation for Canada is something I describe as "homesickness for a place I've never been." There's something about Canada - its approach to technology and innovation, its balance between wild spaces and cities, its culture around quality of life and work-life balance - that resonates deeply with me. I've never been there, but everything I learn about it makes me feel like it's where I should be.
+I'm pursuing immigration through the Working Holiday visa program, with plans to apply for Permanent Residency after gaining Canadian work experience. The Working Holiday visa gives me a two-year window to prove myself. No employer sponsorship required. I've completed WES educational credential assessment and IELTS (8.5 overall, C2 level, perfect scores in listening, reading, and speaking).
 
-What attracts me to Canadian tech culture specifically is the strong AI/ML innovation scene. Canada has companies building cutting-edge AI-powered web applications and intelligent systems - exactly the kinds of values-aligned projects I want to contribute to. The Canadian tech sector seems to value building things that matter, not just chasing venture capital and unicorn exits.
+Canadian tech culture emphasizes work-life balance and practical innovation. The focus seems to be on building things that matter and solving real problems rather than chasing venture capital unicorns. This aligns with what I'm looking for - meaningful projects at a sustainable pace.
 
-I want to be working on AI-powered web applications that solve real problems and create genuine value. Canada has the culture, the companies, and the opportunities that align with these goals. Canadian values around practical innovation, work-life balance, and quality of life feel like a natural fit for my values of curiosity, collaboration, and craftsmanship.
+I like nature a lot. I live in the Peak District specifically for access to hiking and natural landscapes. Canada's outdoor recreation culture and vast wilderness are a significant benefit, though the career opportunity is the primary driver.
 
-Natural beauty and connection to the world are central to why Canada appeals to me. Canada's vast landscapes and culture of outdoor recreation align with my core values. I want to live where my connection to nature (hiking, kayaking, experiencing awe at the world) is supported by the culture and geography.
+I'm 30 with 5.5 years of professional experience including production systems running 3+ years with zero maintenance. This is the right timing - established enough to contribute immediately, young enough to build a long-term career in Canada. I've visited Toronto. I'm flexible on city location - what matters most is finding the right role and company fit.
 
-The Working Holiday visa strategy is deliberate. It gives me a two-year window to prove myself in the Canadian job market and demonstrate that I'm someone worth keeping. I'm not looking for shortcuts or trying to game the system - I'm building a portfolio of real work that shows Canadian employers what I can contribute. This Folio project, my other portfolio pieces, and the professional experience I gained at Nurtur (3.5 years) are all part of showing that I'm serious and capable.
-
-I've completed my WES (World Education Services) educational credential assessment for Canadian immigration purposes. I've taken the IELTS English proficiency exam and scored 8.5 overall (C2 level), with perfect scores in listening, reading, and speaking. These aren't just bureaucratic checkboxes - they're demonstrations of my commitment and preparation.
-
-Moving to Canada isn't just about a job - it's about choosing where I want to build my life and career long-term. This commitment means I'm looking for opportunities that grow with me and where I can contribute meaningfully for years. I'm not treating Canada as a convenient destination - I'm investing in becoming part of the Canadian technical community and contributing to Canadian projects.
-
-The timing feels right. I have 5.5 years of professional experience and proven production systems, making this an ideal moment to make the move to Canada. I've built the technical foundation, I understand what I want to work on, and I'm ready to contribute to meaningful projects in a place that aligns with my values.
+This is a calculated career move. I want to be part of the Canadian AI/ML ecosystem, contribute to meaningful projects, and build my career in a place with strong tech opportunities and quality of life.
 
 ---
 

@@ -1,16 +1,16 @@
 # Canadian Immigration Journey and Motivation
 
-I'm pursuing immigration to Canada through the Working Holiday visa program, with plans to apply in 2026 when I'm eligible. This isn't a casual decision or just about getting a visa - it's a carefully considered step toward building a life in a place that aligns with my values and career goals.
+I'm pursuing immigration to Canada through the Working Holiday visa program, with plans to apply for Permanent Residency after gaining Canadian work experience. This is a calculated career move at the right stage of my professional development - I'm 30 with 5.5 years of experience, established enough to contribute immediately but young enough to build a long-term career in Canada.
 
-My motivation for Canada is something I describe as "homesickness for a place I've never been." There's something about Canada - its approach to technology and innovation, its balance between wild spaces and cities, its culture around quality of life and work-life balance - that resonates deeply with me. I've never been there, but everything I learn about it makes me feel like it's where I should be.
+Canada has a strong and developing AI industry. Organizations like the Vector Institute, the concentration of AI labs in Montreal and Toronto, and companies building production AI systems at scale make Canada the right place to develop my career in AI-powered web applications. I want to work on production AI systems that create real value, and Canada is where that work is happening - not just research papers, but production systems.
 
 The Working Holiday visa strategy is deliberate. It gives me a two-year window to prove myself in the Canadian job market and demonstrate that I'm someone worth keeping. I'm not looking for shortcuts or trying to game the system - I'm building a portfolio of real work that shows Canadian employers what I can contribute. This Folio project, my other portfolio pieces, and my 5.5 years of professional experience (including 3.5 years at Nurtur, July 2022 - February 2026) are all part of showing that I'm serious and capable.
 
 I've completed my WES (World Education Services) educational credential assessment for Canadian immigration purposes. I've taken the IELTS English proficiency exam and scored 8.5 overall (C2 level), with perfect scores in listening, reading, and speaking. These aren't just bureaucratic checkboxes - they're demonstrations of my commitment and preparation.
 
-What attracts me to Canadian tech culture specifically is the strong AI/ML innovation scene. Canada has companies building cutting-edge AI-powered web applications and intelligent systems - exactly the kinds of values-aligned projects I want to contribute to. The Canadian tech sector seems to value building things that matter, not just chasing venture capital and unicorn exits.
+Canadian tech culture emphasizes work-life balance and practical innovation. The focus seems to be on building things that matter and solving real problems rather than chasing venture capital unicorns. This aligns with what I'm looking for - meaningful projects at a sustainable pace.
 
-I want to be working on AI-powered web applications that solve real problems and create genuine value. Canada has the culture, the companies, and the opportunities that align with these goals. Canadian values around practical innovation, work-life balance, and quality of life feel like a natural fit for my values of curiosity, collaboration, and craftsmanship.
+I like nature a lot. I live in the Peak District specifically for access to hiking and natural landscapes. Canada's outdoor recreation culture and vast wilderness are a significant benefit, though the career opportunity is the primary driver.
 
 I'm realistic about the challenges. Immigration is difficult and uncertain. The Working Holiday visa is competitive. I'll be moving to a new country where I don't have an existing network. But I'm approaching this the same way I approach complex technical projects - by understanding the constraints, planning carefully, building the skills and portfolio I need, and being persistent in working toward the goal.
 

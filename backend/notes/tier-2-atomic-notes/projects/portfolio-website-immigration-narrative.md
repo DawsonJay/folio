@@ -14,7 +14,7 @@ The website design itself demonstrates Canadian cultural fit through professiona
 
 The long-term commitment signal through permanent residency pathway addresses employer concerns about temporary workers leaving after training investment. The explicit plan to work for a year then apply for permanent residency shows serious investment in Canadian life. This commitment makes employers more comfortable investing in training and integration knowing I'm not just passing through.
 
-The portfolio strategy positions technical growth toward Canadian tech ecosystem opportunities. AI/ML skills align with growing Canadian AI sector. Full-stack web development with AI integration serves established Canadian tech companies. This strategic skill development targets actual Canadian job market opportunities rather than abstract technical interests.
+The portfolio strategy positions technical growth toward Canadian tech ecosystem opportunities. AI/ML skills align with Canada's strong and developing AI industry (Vector Institute, AI labs in Montreal and Toronto, production AI systems at scale). Full-stack web development with AI integration serves established Canadian tech companies. This strategic skill development targets actual Canadian job market opportunities - the career development is the primary motivation for moving to Canada.
 
 The narrative coherence throughout the portfolio creates consistent story about who I am, what I offer, and why Canada. The projects reflect genuine interests not just resume padding. The growth trajectory shows intentional skill development. The Canadian connections like Cirrus show genuine Canadian engagement. This narrative authenticity makes the portfolio memorable and convincing.
 

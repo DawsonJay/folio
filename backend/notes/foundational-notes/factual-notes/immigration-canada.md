@@ -91,12 +91,20 @@
 - **Relocation Phase**: Relocate to Canada once housing is secured (timeline depends on finding housing)
 - **Source**: `linked-in-job-hunter/profile-documents/details.md`, User feedback 2026-02-07
 
+### Location Preferences
+- **Preference**: Flexible on location within Canada
+- **Priority**: Finding the right role and company fit matters most
+- **Philosophy**: You only really know how much you'll like a place once you've lived there for a while
+- **Previous visit**: Toronto and the botanical gardens
+- **Approach**: Find the right role first, then commit to the location that makes sense for that role. Even fully remote positions typically expect occasional in-person meetups, so location still matters.
+- **Source**: User feedback 2026-02-13
+
 ### Requirements
 - Working Holiday visa application submitted (biometrics scheduled, waiting for issuance) ✅
 - Job offer secured [ ]
 - Savings for relocation (~£6,000-8,000)
 - Health insurance: To be obtained (required before entering Canada, waiting for job offer in case included in employment package)
-- Housing arranged in Canada [ ]
+- Housing arranged in Canada [ ] (to be arranged after job offer, in best location for the role)
 - Flight arranged [ ]
 - **Source**: `linked-in-job-hunter/profile-documents/details.md`, User feedback 2026-02-07
 
@@ -222,24 +230,24 @@
 
 ## Why Canada
 
-### Motivation
-"Because it feels like where I'm meant to be. It's like a homesickness for a place I've never been. Everything I hear about it is like a half forgotten memory, something that just fits in me when I learn about the culture and land."
+### Primary Motivation: Career Development in AI/ML
+- **Strong and developing AI industry**: Vector Institute, AI labs in Montreal and Toronto, production AI systems at scale
+- **Career opportunity**: Canada is where AI-powered web application work is happening - not just research, but production systems creating value
+- **Right career trajectory**: Want to develop career specifically in AI-powered web applications
+- **Source**: User feedback 2026-02-13
 
-**Source**: `linked-in-job-hunter/profile-documents/details.md`
-
-### Specific Reasons
-- **Natural beauty and connection to the world**: Canada's vast landscapes and culture of outdoor recreation align with core values
-- **Work-life balance culture**: Matches how I want to live and work
-- **Innovation in technology**: Canadian tech sector values building things that matter, strong AI/ML innovation scene
-- **Values alignment**: Canadian culture around work-life balance, quality of life, and innovation in technology
-- **Source**: `atomic-notes/values/canadian-immigration-journey.md`, `atomic-notes/career/why-canada-and-new-opportunities.md`
+### Secondary Benefits
+- **Work-life balance culture**: Canadian tech emphasizes sustainable work and practical innovation over chasing unicorns
+- **Nature and outdoor recreation**: Like nature a lot, live in Peak District for hiking access - Canada's vast landscapes and outdoor culture are a significant benefit but not the primary driver
+- **Tech culture values**: Focus on building things that matter and solving real problems
+- **Source**: User feedback 2026-02-13
 
 ### Canadian Tech Culture
-- Strong AI/ML innovation scene
-- Companies building cutting-edge AI-powered web applications and intelligent systems
-- Values-aligned projects (exactly the kinds of projects I want to contribute to)
-- Canadian tech sector values building things that matter, not just chasing venture capital and unicorn exits
-- **Source**: `atomic-notes/values/canadian-immigration-journey.md`
+- Strong AI/ML innovation scene - Vector Institute, concentration of AI labs and companies
+- Companies building production AI-powered web applications and intelligent systems at scale
+- Tech sector values building things that matter, not just chasing venture capital and unicorn exits
+- Emphasis on work-life balance and practical innovation
+- **Source**: User feedback 2026-02-13
 
 ---
 

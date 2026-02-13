@@ -51,16 +51,17 @@
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`
 
 ### Key Responsibilities
-- Front-end development duties
-- Full-stack development (frontend and backend)
-- Devote full time and attention to company interests
-- Comply with security policies (access to personal and company data)
-- Additional duties as necessary
-- Coordinate with colleagues for department cover during breaks
-- Conduct regular code reviews
-- Provide technical guidance to colleagues
-- Mentor other developers
-- **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `atomic-notes/work/daily-responsibilities-at-nurtur.md`
+- **Full-stack ownership of products including design**: Owned entire products from conception through design and implementation, both frontend and backend
+- **Front-end development**: React/TypeScript development for dashboards and internal tools
+- **Full-stack development**: Both frontend and backend work across projects
+- **Jack of all trades**: Could lend a hand when needed across different areas of the codebase and different types of work
+- **Design and architecture**: Made architectural decisions for projects, designed UI/UX for dashboards
+- **Code reviews**: Conducted regular code reviews with educational feedback
+- **Mentoring**: Mentored 3 backend developers transitioning to full-stack roles, taught CSS and frontend concepts
+- **Technical guidance**: Provided technical guidance to colleagues on React, TypeScript, frontend architecture
+- **Collaboration**: Worked closely with backend engineers, designers, and stakeholders
+- **Stakeholder communication**: Bridged gaps between technical and non-technical teams (backend and sales)
+- **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `atomic-notes/work/daily-responsibilities-at-nurtur.md`, User feedback 2026-02-13
 
 ### Major Projects
 
