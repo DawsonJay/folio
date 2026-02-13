@@ -6,7 +6,7 @@ I value feedback as essential to creating valuable work and improving as a devel
 
 My approach to feedback comes from two sources: teaching kayaking and building the Integrations Dashboard at Nurtur.
 
-**Feedback is about the work, not about me**: I separate my ego from my code. What matters is creating something that solves problems and provides value, not being right about how I initially approached it.
+**Feedback is about the work, not about me**: I focus on the outcome, not being right. What matters is creating something that solves problems and provides value, not defending my initial approach.
 
 **Real feedback makes real value**: When building the Integrations Dashboard, I talked at length with both the sales team and backend team to find out what they needed and what they found most valuable as I worked. This real feedback and collaboration was vital to making something that provided real value. The result has been in production for 3+ years with zero maintenance, proving that feedback-driven development creates lasting solutions.
 

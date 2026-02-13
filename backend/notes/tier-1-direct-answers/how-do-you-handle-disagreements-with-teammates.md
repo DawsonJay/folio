@@ -14,7 +14,7 @@ Sometimes there's still a disagreement after we've both listened and explained. 
 
 This is about respect for ownership and responsibility. If someone owns the project, they own the decisions. I can provide information, perspective, and reasoning, but if they make a different decision after hearing everything, I'll execute their decision professionally. They're the ones who will bear the consequences, so they get to make the call.
 
-When we both have the same authority, I'll still listen, but if it's an area where I have more experience, I'll go forward with my own approach and they'll accept it. This isn't about ego - it's about recognizing expertise. If I've built similar systems before and understand the tradeoffs, and someone else hasn't, it makes sense for me to lead in that area.
+When we both have the same authority, I'll still listen, but if it's an area where I have more experience, I'll go forward with my own approach and they'll accept it. It's about recognizing expertise. If I've built similar systems before and understand the tradeoffs, and someone else hasn't, it makes sense for me to lead in that area.
 
 I address disagreements early, when they're small and solvable. By listening first, I often discover that what seemed like a disagreement was actually just missing information. By explaining my reasoning, I help others understand my perspective. By respecting authority and expertise, I avoid power struggles that don't serve the project.
 

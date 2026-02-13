@@ -14,7 +14,7 @@ What draws me to Canadian tech is the values I've learned about:
 
 **Practical innovation**: Canada appears to value building things that matter and solving real problems over chasing venture capital unicorns. This practical approach to innovation aligns with my values of curiosity, collaboration, and craftsmanship.
 
-**Fit with my values**: The Canadian emphasis on collaboration, diversity, and building things that create genuine value matches how I want to work. I care about meaningful work with skilled, passionate people - not ego-driven competition or status games.
+**Fit with my values**: The Canadian emphasis on collaboration, diversity, and building things that create genuine value matches how I want to work. I care about meaningful work with skilled, passionate people - not status-driven competition or status games.
 
 ## Nature and Outdoor Recreation
 

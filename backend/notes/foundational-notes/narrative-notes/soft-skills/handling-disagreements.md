@@ -8,7 +8,7 @@ Respect autonomy: People have their own perspectives and choices. My role isn't 
 
 Listen to understand: Before presenting my perspective, I focus on truly understanding what others think and why. Often disagreements come from different valid concerns that all need addressing.
 
-Put aside ego: What matters is the project and creating something valuable, not being right. I try to approach disagreements with professional respect and focus on goals rather than personal positions.
+Focus on the outcome: What matters is the project and creating something valuable, not being right. I try to approach disagreements with professional respect and focus on goals rather than personal positions.
 
 Make decisions by consensus: In my ideal team structure, everyone has a stake in the project's success. Decisions should emerge from collaborative discussion where everyone feels heard.
 

@@ -4,7 +4,7 @@ Mid to senior frontend role where I can integrate AI capabilities into products 
 
 Growth is central. Not just titles, but continuously expanding technical capabilities and leadership responsibility. I want to make architectural decisions, mentor developers, and contribute to technical strategy. I'm building toward roles combining technical depth with team leadership. I need to be somewhere I'm still learning in five years, tackling challenges I can't fully solve yet.
 
-I work best in small, motivated teams where everyone believes in the mission and puts aside ego for excellent work. Results-focused cultures - judge me on what I create, not how I create it. My best work has been in teams of 3-4 people who are extremely good at what they do and genuinely care about the outcome.
+I work best in small, motivated teams where everyone believes in the mission and focuses on excellent work. Results-focused cultures - judge me on what I create, not how I create it. My best work has been in teams of 3-4 people who are extremely good at what they do and genuinely care about the outcome.
 
 Technical excellence needs to be valued and rewarded. I want to work somewhere that appreciates well-crafted code, thoughtful architecture, and systems built to last - where taking time to do things right is professional responsibility, not wasted effort. I've built systems that run years without maintenance because quality matters to me.
 

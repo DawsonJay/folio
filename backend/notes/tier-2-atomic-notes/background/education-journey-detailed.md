@@ -51,7 +51,7 @@
 1. **Subjectivity**: Struggled with how subjective art value was, dependent on public opinion rather than skill or intrinsic quality.
 2. **Career uncertainty**: Path to success felt arbitrary (right connections, right zeitgeist) rather than merit-based.
 3. **Intellectual needs**: Art satisfied creative needs but not intellectual/logical needs. I needed both.
-4. **Ego and pretension**: Found art world culture difficult - too much ego, not enough substance.
+4. **Focus on status over substance**: Found art world culture difficult - too much concern with being seen as important, not enough focus on the actual work.
 
 **Discovering coding**: In the time after leaving, I got interested in coding and realized it fulfilled both creative needs (building beautiful systems, elegant solutions) and intellectual needs (logic, problem-solving, systems thinking).
 

@@ -14,7 +14,7 @@ Technical excellence should be valued and rewarded. I want to work somewhere tha
 
 I'm looking for work that aligns with my values. I want to contribute to projects that help people explore and understand the natural world. Technologies that help humanity live with nature rather than consume it. This doesn't mean every project has to be environmental - but the overall mission should matter. I don't want to work for money alone.
 
-I prefer small, motivated teams. 3-4 people who all believe in the project and are extremely good at what they do. Everyone has a stake in success and puts aside ego because what we care about is the work. Results-focused culture: "Work that matters, not the process." I want to be judged on what I create, not micromanaged on how I create it. If I need to hike for 2 days with a notebook to solve a problem, that should be fine as long as my work gets done.
+I prefer small, motivated teams. 3-4 people who all believe in the project and are extremely good at what they do. Everyone has a stake in success and focuses on the work, not being right. Results-focused culture: "Work that matters, not the process." I want to be judged on what I create, not micromanaged on how I create it. If I need to hike for 2 days with a notebook to solve a problem, that should be fine as long as my work gets done.
 
 Ultimately, I'm looking for somewhere I can establish myself long-term. I'm not looking to job-hop or use a role as a stepping stone. I want to find a team and a mission I can commit to, where I can grow from mid-level to senior to potentially tech lead or architect over years of sustained contribution. The right opportunity is one where I can build a career, not just fill a position.
 

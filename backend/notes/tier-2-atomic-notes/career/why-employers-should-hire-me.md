@@ -6,7 +6,7 @@
 
 **Care about the people I work with**: My "team dad" leadership style means I make teams stronger. I bring people together, encourage everyone to be their best, and create safe spaces where people discover their own strength.
 
-**Values-driven, not ego-driven**: I'm motivated by passion for meaningful work and alignment with my values, not by needing to be the smartest person in the room. I put aside ego because what matters is creating something excellent together.
+**Values-driven**: I'm motivated by passion for meaningful work and alignment with my values, not by needing to be the smartest in the room. What matters is creating something excellent together.
 
 ## Proven Track Record
 
@@ -50,7 +50,7 @@
 
 **Growth trajectory**: I'm deliberately building from web development toward AI/ML integration. Each project expands my skills strategically. Hiring me means hiring someone who's always pushing to learn more and take on bigger challenges.
 
-**Cultural fit**: I care about meaningful work, professional respect, and putting aside ego for the sake of creating something excellent. I want to work on projects that matter, with people who are passionate and skilled.
+**Cultural fit**: I care about meaningful work, professional respect, and focusing on outcomes rather than being right. I want to work on projects that matter, with people who are passionate and skilled.
 
 ## The Bottom Line
 

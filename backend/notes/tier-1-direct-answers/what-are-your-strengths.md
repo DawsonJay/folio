@@ -8,7 +8,7 @@ I'm strong at problem-solving. I frame limits first, then find creative solution
 
 I'm skilled at mentoring and team collaboration. My team dad leadership style brings out capability in others. I explain technical concepts to non-technical people - I bridged backend developers and sales teams on the Integrations Dashboard, translating between completely different perspectives.
 
-I build things that last. The Integrations Dashboard has run 3+ years without maintenance - long-term sustainability over short-term convenience. I'm a fast learner who taught myself programming through goal-driven projects. If a project needs technology I don't know, I learn it. I'm values-driven, not ego-driven - motivated by meaningful work and creating excellent things together, not being the smartest in the room.
+I build things that last. The Integrations Dashboard has run 3+ years without maintenance - long-term sustainability over short-term convenience. I'm a fast learner who taught myself programming through goal-driven projects. If a project needs technology I don't know, I learn it. I'm motivated by meaningful work and creating excellent things together, not being the smartest in the room.
 
 ---
 

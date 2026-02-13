@@ -24,7 +24,7 @@ I'm actively pursuing permanent residence in Canada through the Working Holiday 
 - Work on projects with real-world impact
 - Learn from experienced engineers in my target fields
 
-**Small, motivated teams**: 3-4 people who all believe in the project and are extremely good at what they do. Everyone has a stake in success and puts aside ego because what we care about is the work.
+**Small, motivated teams**: 3-4 people who all believe in the project and are extremely good at what they do. Everyone has a stake in success and focuses on the work, not being right.
 
 **Results-focused culture**: "Work that matters, not the process." I want to be judged on what I create, not micromanaged on how I create it. If I need to hike for 2 days with a notebook to solve a problem, that should be fine as long as my work gets done.
 

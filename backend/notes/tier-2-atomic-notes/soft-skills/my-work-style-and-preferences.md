@@ -28,7 +28,7 @@ I like small groups (3-4 people) who are all very motivated and believe in the p
 
 ## Communication Style
 
-I prefer consensus-based decisions where everyone puts aside ego because what we care about is the project. Professional respect and passion matter more than hierarchy.
+I prefer consensus-based decisions where everyone focuses on the project outcome. Professional respect and passion matter more than hierarchy.
 
 My approach to collaboration comes from my "team dad" leadership style: bringing people together, encouraging everyone to be their best, and creating safe spaces where people can discover their own strength.
 

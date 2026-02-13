@@ -8,11 +8,11 @@
 
 **Everyone has a stake in the project**: If it succeeds, we all benefit. This shared investment means everyone's committed to quality and success, not just collecting a paycheck.
 
-**Professional respect and passion**: Teams should be driven by respect for each other's expertise and passion for what we're building, not by hierarchy or ego.
+**Professional respect and passion**: Teams should be driven by respect for each other's expertise and passion for what we're building, not by hierarchy or being right.
 
 ## Work Culture
 
-**Puts aside ego because what we care about is the project**: Decisions should be about what's best for the work, not who's right. Consensus-based decision-making where everyone feels heard.
+**Focus on the project**: Decisions should be about what's best for the work, not who's right. Consensus-based decision-making where everyone feels heard.
 
 **One person takes responsibility for organizing**: Often that's me. Someone needs to coordinate everyone else and ensure work gets done on time, but this is support leadership, not authoritarian control.
 

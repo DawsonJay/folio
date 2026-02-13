@@ -2,7 +2,7 @@
 
 ## What Makes Me Stand Out
 
-Breadth: I'm not just good at coding. I bring creativity, thoughtfulness, and a range of perspectives from art, teaching, and kayaking that inform my technical work. Care about the people I work with: My "team dad" leadership style means I make teams stronger. I bring people together, encourage everyone to be their best, and create safe spaces where people discover their own strength. Values-driven, not ego-driven: I'm motivated by passion for meaningful work and alignment with my values, not by needing to be the smartest person in the room. I put aside ego because what matters is creating something excellent together.
+Breadth: I'm not just good at coding. I bring creativity, thoughtfulness, and a range of perspectives from art, teaching, and kayaking that inform my technical work. Care about the people I work with: My "team dad" leadership style means I make teams stronger. I bring people together, encourage everyone to be their best, and create safe spaces where people discover their own strength. Values-driven: I'm motivated by passion for meaningful work and alignment with my values, not by needing to be the smartest person in the room. What matters is creating something excellent together.
 
 ## Proven Track Record
 
@@ -18,7 +18,7 @@ Communication across contexts: I can explain technical concepts to non-technical
 
 ## What I'll Bring to Your Team
 
-Immediate value: I can contribute production-quality React/TypeScript/Python code from day one. I've shipped real systems that real users depend on. Team improvement: I make the people around me better. I mentored backend developers at Nurtur, taught kayaking, and helped colleagues feel capable of tackling challenges they thought were beyond them. Long-term thinking: I build systems that last. The Integrations Dashboard proves I think about maintainability, not just getting something working. Growth trajectory: I'm deliberately building from web development toward AI/ML integration. Each project expands my skills strategically. Hiring me means hiring someone who's always pushing to learn more and take on bigger challenges. Cultural fit: I care about meaningful work, professional respect, and putting aside ego for the sake of creating something excellent. I want to work on projects that matter, with people who are passionate and skilled.
+Immediate value: I can contribute production-quality React/TypeScript/Python code from day one. I've shipped real systems that real users depend on. Team improvement: I make the people around me better. I mentored backend developers at Nurtur, taught kayaking, and helped colleagues feel capable of tackling challenges they thought were beyond them. Long-term thinking: I build systems that last. The Integrations Dashboard proves I think about maintainability, not just getting something working. Growth trajectory: I'm deliberately building from web development toward AI/ML integration. Each project expands my skills strategically. Hiring me means hiring someone who's always pushing to learn more and take on bigger challenges. Cultural fit: I care about meaningful work, professional respect, and focusing on outcomes rather than being right. I want to work on projects that matter, with people who are passionate and skilled.
 
 ## Ready for Mid to Senior Roles
 

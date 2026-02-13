@@ -78,7 +78,7 @@ For prototypes or experiments, speed matters more. I can iterate quickly and fix
 
 **Facilitate consensus**: My team prefers decisions by consensus. When stakeholders have conflicting priorities, I help them see each other's perspectives and find solutions that serve shared goals.
 
-**Focus on project success**: "Puts aside ego because what we care about is the project." Reminding everyone of the shared goal often resolves priority conflicts.
+**Focus on project success**: "What we care about is the project, not who's right." Reminding everyone of the shared goal often resolves priority conflicts.
 
 ## Tools and Techniques
 

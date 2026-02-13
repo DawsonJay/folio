@@ -1,0 +1,901 @@
+{
+  "summary": {
+    "total_questions": 43,
+    "direct_answer_count": 40,
+    "direct_answer_rate_pct": 93.0,
+    "critical_total": 10,
+    "critical_pass": 10,
+    "critical_fail": 0,
+    "total_red_flags": 9,
+    "fail_count": 9,
+    "grade": "C",
+    "failed_questions": [
+      "Why are you looking for a new role?",
+      "Tell me about your most recent role",
+      "How do you make technical decisions?",
+      "How did you work with backend developers?",
+      "How do you handle conflict in teams?",
+      "What are your strengths?",
+      "How do you handle failure?",
+      "Tell me about a mistake you made",
+      "What are you looking for in your next role?"
+    ]
+  },
+  "results": [
+    {
+      "category": "opening",
+      "question": "Tell me about yourself",
+      "answer_preview": "I'm a Frontend Engineer with 5.5 years of professional experience, specializing in React/TypeScript and AI integration. I build interfaces that last. The Integrations Dashboard I shipped at Nurtur has...",
+      "word_count": 260,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Mentoring experience",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "opening",
+      "question": "Walk me through your experience with React and TypeScript",
+      "answer_preview": "React is my strongest skill - used it daily for 3.5 years building production systems. Dashboard running 3+ years without maintenance. Infrastructure managers handling thousands of distributed jobs. A...",
+      "word_count": 219,
+      "confidence": "direct_answer",
+      "score": 0.767,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Nexus mentioned",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "opening",
+      "question": "Why are you looking for a new role?",
+      "answer_preview": "The project I was working on at Nurtur concluded in February 2026 when the team was restructured. The timing wasn't my choice, but it aligns with my career goals. I've learned what I could from Nurtur...",
+      "word_count": 359,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [
+        "Too long (359 words, loses attention)"
+      ],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Nexus framed as technical lead",
+        "Mentoring experience",
+        "Concrete metrics"
+      ],
+      "length_ok": false,
+      "length_note": "Long (359 words)",
+      "pass_fail": "FAIL"
+    },
+    {
+      "category": "opening",
+      "question": "Why should we hire you?",
+      "answer_preview": "I deliver production systems that scale and last. Dashboard running 3+ years with zero maintenance. Infrastructure manager optimized from 15+ seconds to under 5 seconds. Three developers I mentored no...",
+      "word_count": 218,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Mentoring experience",
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "work_experience",
+      "question": "Tell me about your role at Nurtur",
+      "answer_preview": "I joined Nurtur in July 2022 as a Full Stack Developer. My first project was the Integrations Dashboard - I was the sole frontend developer and learned backend implementation under senior mentorship. ...",
+      "word_count": 236,
+      "confidence": "direct_answer",
+      "score": 0.857,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Nexus framed as technical lead",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Mentoring experience",
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "work_experience",
+      "question": "What was your biggest accomplishment at Nurtur?",
+      "answer_preview": "The Integrations Dashboard - a production system that ran for 3+ years with zero maintenance, zero crashes, and zero bug reports. Built in my first 4 months at Nurtur (July-November 2022), it's still ...",
+      "word_count": 236,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Integrations Dashboard mentioned",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "work_experience",
+      "question": "What was your biggest accomplishment there?",
+      "answer_preview": "The Integrations Dashboard - a production system that ran for 3+ years with zero maintenance, zero crashes, and zero bug reports. Built in my first 4 months at Nurtur (July-November 2022), it's still ...",
+      "word_count": 236,
+      "confidence": "direct_answer",
+      "score": 0.689,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Integrations Dashboard mentioned",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "work_experience",
+      "question": "Have you led any projects?",
+      "answer_preview": "On Nexus Dashboard (Oct 2025-Feb 2026), I was the technical lead. I drove architecture and design decisions, chose API contracts and data structures, and liaised with stakeholders. I had a senior deve...",
+      "word_count": 309,
+      "confidence": "direct_answer",
+      "score": 0.945,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Nexus framed as technical lead",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Mentoring experience",
+        "Concrete metrics"
+      ],
+      "length_ok": false,
+      "length_note": "Long (309 words)",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "work_experience",
+      "question": "How did you grow in your position at Nurtur?",
+      "answer_preview": "I joined Nurtur in July 2022 as a Full Stack Developer. My first project was the Integrations Dashboard - I was the sole frontend developer and learned backend implementation under senior mentorship. ...",
+      "word_count": 236,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Nexus framed as technical lead",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Mentoring experience",
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "work_experience",
+      "question": "Tell me about your most recent role",
+      "answer_preview": "My most recent role was at Nurtur, where I worked for 3.5 years from July 2022 to February 2026 as a Full Stack Developer. It was where I built the most significant production systems of my career and...",
+      "word_count": 382,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [
+        "Too long (382 words, loses attention)"
+      ],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Mentoring experience",
+        "Concrete metrics"
+      ],
+      "length_ok": false,
+      "length_note": "Long (382 words)",
+      "pass_fail": "FAIL"
+    },
+    {
+      "category": "work_experience",
+      "question": "What did you do at Nurtur?",
+      "answer_preview": "At Nurtur, I worked as a Full Stack Developer for 3.5 years from July 2022 to February 2026. My primary focus was React/TypeScript frontend development, but I had full-stack responsibilities including...",
+      "word_count": 307,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Mentoring experience",
+        "Concrete metrics"
+      ],
+      "length_ok": false,
+      "length_note": "Long (307 words)",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "technical",
+      "question": "What's your experience with state management? Redux, Context?",
+      "answer_preview": "My experience with state management, particularly using Redux Toolkit, has been a significant aspect of my work in frontend development, especially during my time at Nurtur. I implemented Redux Toolki...",
+      "word_count": 310,
+      "confidence": "high",
+      "score": 0.686,
+      "used_direct_answer": false,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [],
+      "length_ok": false,
+      "length_note": "Long (310 words)",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "technical",
+      "question": "Tell me about a complex technical problem you've solved",
+      "answer_preview": "The hardest bug I've fixed was invisible bias in WhatNow's recommendation algorithm. The system was working - no crashes, no errors - but recommendations felt \"samey.\" Metrics showed acceptable click-...",
+      "word_count": 243,
+      "confidence": "direct_answer",
+      "score": 0.706,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "technical",
+      "question": "How do you approach performance optimization?",
+      "answer_preview": "When approaching performance optimization, I rely on a combination of intuition and logical analysis. My artistic background provides me with a unique perspective, allowing me to intuitively sense whe...",
+      "word_count": 267,
+      "confidence": "high",
+      "score": 0.556,
+      "used_direct_answer": false,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "technical",
+      "question": "What's your testing strategy?",
+      "answer_preview": "I've tested production systems for 3.5 years at Nurtur using Jest, React Testing Library, and Wallaby. My strategy is to test the critical paths users actually follow, not every possible edge case. I ...",
+      "word_count": 259,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "technical",
+      "question": "How do you make technical decisions?",
+      "answer_preview": "When I make architectural decisions, I consider several factors: maintainability (will this be easy to understand and modify later?), performance (does this approach scale to the expected load?), exte...",
+      "word_count": 392,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [
+        "Too long (392 words, loses attention)"
+      ],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Concrete metrics"
+      ],
+      "length_ok": false,
+      "length_note": "Long (392 words)",
+      "pass_fail": "FAIL"
+    },
+    {
+      "category": "technical",
+      "question": "What's your debugging process?",
+      "answer_preview": "I combine intuition with rigorous logical investigation. My artistic background gives me a gut feeling about where problems lie - this acts as a compass, not proof. I follow intuition with systematic ...",
+      "word_count": 244,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "team",
+      "question": "What size team do you prefer?",
+      "answer_preview": "Small teams of 3-5 people work best for me. At Nurtur, my most successful projects happened in small teams - the Integrations Dashboard (sole frontend developer, learned backend under mentorship), Ema...",
+      "word_count": 211,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Nexus framed as technical lead",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Mentoring experience",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "team",
+      "question": "Tell me about a time you mentored someone",
+      "answer_preview": "One of the most rewarding experiences I had mentoring someone was during the Email Editor project. In this role, I focused on helping three backend developers transition to full-stack capabilities. My...",
+      "word_count": 299,
+      "confidence": "high",
+      "score": 0.485,
+      "used_direct_answer": false,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Mentoring experience"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "team",
+      "question": "How do you handle code reviews?",
+      "answer_preview": "I have extensive experience with code reviews. At Nurtur, I conducted regular code reviews and provided technical guidance to colleagues. I understand how to review code effectively, provide construct...",
+      "word_count": 243,
+      "confidence": "direct_answer",
+      "score": 0.839,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "team",
+      "question": "How did you work with backend developers?",
+      "answer_preview": "I have 3 years of professional backend development experience with C# and Azure Functions at Nurtur. I also have experience with Python and FastAPI for AI/ML projects. I've built RESTful APIs, worked ...",
+      "word_count": 369,
+      "confidence": "direct_answer",
+      "score": 0.785,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [
+        "Too long (369 words, loses attention)"
+      ],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": false,
+      "length_note": "Long (369 words)",
+      "pass_fail": "FAIL"
+    },
+    {
+      "category": "team",
+      "question": "How do you handle conflict in teams?",
+      "answer_preview": "When building the Integrations Dashboard, there were natural tensions between what the backend team thought was needed and what the sales team actually wanted. Backend developers had been building in ...",
+      "word_count": 253,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [
+        "Negative language about environment"
+      ],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Mentoring experience"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "FAIL"
+    },
+    {
+      "category": "ai_ml",
+      "question": "I see you have AI/ML experience - tell me about that",
+      "answer_preview": "I've built production AI systems. WhatNow - recommendation engine using contextual bandits and reinforcement learning. moh-ami - LLM-powered language learning tool with structured prompt engineering. ...",
+      "word_count": 231,
+      "confidence": "direct_answer",
+      "score": 0.842,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "ai_ml",
+      "question": "Have you integrated AI into web applications?",
+      "answer_preview": "I use LangChain for building LLM applications, OpenAI API for embeddings and language models, and I've implemented contextual bandits for recommendation systems. For Folio, I use LangChain with OpenAI...",
+      "word_count": 226,
+      "confidence": "direct_answer",
+      "score": 0.664,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "ai_ml",
+      "question": "What AI/ML experience do you have?",
+      "answer_preview": "I've built production AI systems. WhatNow - recommendation engine using contextual bandits and reinforcement learning. moh-ami - LLM-powered language learning tool with structured prompt engineering. ...",
+      "word_count": 231,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "logistics",
+      "question": "What's your visa status for Canada?",
+      "answer_preview": "My IEC Working Holiday visa application is submitted and in the final stages (biometrics scheduled); I'm currently waiting for the visa to be issued. It doesn't require employer sponsorship. I can sta...",
+      "word_count": 311,
+      "confidence": "direct_answer",
+      "score": 0.8,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Concrete metrics"
+      ],
+      "length_ok": false,
+      "length_note": "Long (311 words)",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "logistics",
+      "question": "When can you start?",
+      "answer_preview": "I can start immediately. There's no notice period - the team at Nurtur was restructured in February 2026, ending that role. I have 5.5 years of production experience and can contribute React/TypeScrip...",
+      "word_count": 112,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "logistics",
+      "question": "Are you okay with hybrid work - 2 days in office?",
+      "answer_preview": "Absolutely. My entire 5.5 year career has been remote. I've shipped production systems, mentored distributed teams, and collaborated effectively across time zones without being co-located. I'm already...",
+      "word_count": 210,
+      "confidence": "direct_answer",
+      "score": 0.807,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Mentoring experience",
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "logistics",
+      "question": "Are you comfortable with hybrid work?",
+      "answer_preview": "Absolutely. My entire 5.5 year career has been remote. I've shipped production systems, mentored distributed teams, and collaborated effectively across time zones without being co-located. I'm already...",
+      "word_count": 210,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Mentoring experience",
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "logistics",
+      "question": "Are you open to remote work?",
+      "answer_preview": "Absolutely. My entire 5.5 year career has been remote. I've shipped production systems, mentored distributed teams, and collaborated effectively across time zones. The track record proves remote works...",
+      "word_count": 192,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Mentoring experience",
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "logistics",
+      "question": "What are your salary expectations?",
+      "answer_preview": "Based on my research for full-stack developers with AI/ML experience, I'm looking in the range of \u00a355-75K depending on location, team, and total compensation package. I'm flexible within that range fo...",
+      "word_count": 127,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "logistics",
+      "question": "What's your current employment status?",
+      "answer_preview": "Currently unemployed. My role at Nurtur ended in February 2026 when the team was restructured after 3.5 years. While the timing wasn't my choice, it aligns with my career goals.\n\nI learned what I coul...",
+      "word_count": 178,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": true,
+      "critical_pass": true,
+      "red_flags": [],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned",
+        "Nexus framed as technical lead",
+        "Mentoring experience",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "canada",
+      "question": "Why are you looking to move to Canada?",
+      "answer_preview": "Canada has a strong and developing AI industry. Organizations like the Vector Institute, the concentration of AI labs in Montreal and Toronto, and companies building production AI systems at scale mak...",
+      "word_count": 292,
+      "confidence": "direct_answer",
+      "score": 0.934,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "canada",
+      "question": "Why Canada?",
+      "answer_preview": "Canada has a strong and developing AI industry with organizations like the Vector Institute, concentration of AI labs in Montreal and Toronto, and companies building production AI systems at scale. I'...",
+      "word_count": 243,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "canada",
+      "question": "How will you handle the transition period to Canada?",
+      "answer_preview": "I'll start working remotely from the UK immediately upon receiving a job offer, then relocate to Canada once housing is secured. This approach reduces financial pressure and lets me start providing va...",
+      "word_count": 235,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "behavioral",
+      "question": "What are your strengths?",
+      "answer_preview": "I combine technical depth with creative problem-solving and leadership. My strongest technical skills are React/TypeScript frontend development and AI/ML integration - contextual bandits, LLM implemen...",
+      "word_count": 246,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [
+        "Negative language about environment"
+      ],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Integrations Dashboard mentioned",
+        "Mentoring experience",
+        "Concrete metrics",
+        "Direct opening (no hedging)"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "FAIL"
+    },
+    {
+      "category": "behavioral",
+      "question": "What's your biggest weakness?",
+      "answer_preview": "My tendency to get completely absorbed in projects. When I'm deep in something, I'll stay up until early morning trying to get one thing perfect. That intensity created the Integrations Dashboard runn...",
+      "word_count": 224,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Integrations Dashboard mentioned",
+        "Mentoring experience",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "behavioral",
+      "question": "How do you handle failure?",
+      "answer_preview": "Things fail all the time. That's not a problem - it's reality. The key is to make sure they don't fail in the same way twice. Failure is information. It tells you what doesn't work, what needs improve...",
+      "word_count": 423,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [
+        "Too long (423 words, loses attention)"
+      ],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Nexus mentioned"
+      ],
+      "length_ok": false,
+      "length_note": "Long (423 words)",
+      "pass_fail": "FAIL"
+    },
+    {
+      "category": "behavioral",
+      "question": "Tell me about a mistake you made",
+      "answer_preview": "The hardest bug I've fixed wasn't a crash - it was invisible bias in WhatNow's recommendation algorithm. The system worked, metrics looked fine, but user feedback suggested recommendations felt samey....",
+      "word_count": 206,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [
+        "Negative language about environment"
+      ],
+      "positive_signals": [],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "FAIL"
+    },
+    {
+      "category": "behavioral",
+      "question": "What are you looking for in your next role?",
+      "answer_preview": "Mid to senior frontend role where I can integrate AI capabilities into products that matter. I want to bring LLM features, intelligent recommendations, and semantic search to web applications - combin...",
+      "word_count": 278,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [
+        "Negative language about environment"
+      ],
+      "positive_signals": [],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "FAIL"
+    },
+    {
+      "category": "edge",
+      "question": "What project are you most proud of?",
+      "answer_preview": "I'm proud of the Integrations Dashboard I built at Nurtur. It's been in production for over 3 years without any maintenance, crashes, or bug reports. But that's not why I'm proud of it. I'm proud beca...",
+      "word_count": 327,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Concrete metrics"
+      ],
+      "length_ok": false,
+      "length_note": "Long (327 words)",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "edge",
+      "question": "What's your favorite project?",
+      "answer_preview": "I'm proud of the Integrations Dashboard I built at Nurtur. I love that it's well-made enough to have lasted for years with no major problems. I love that it's something that actively helps the people ...",
+      "word_count": 312,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Integrations Dashboard mentioned",
+        "Integrations framed correctly (frontend ownership / mentorship)",
+        "Concrete metrics"
+      ],
+      "length_ok": false,
+      "length_note": "Long (312 words)",
+      "pass_fail": "PASS"
+    },
+    {
+      "category": "edge",
+      "question": "Which project best demonstrates your skills?",
+      "answer_preview": "Folio - this portfolio chatbot you're talking to right now. It's a creative idea that took a range of skills to make and uses clever mechanics to increase reliability and reduce cost.\n\nAI/ML capabilit...",
+      "word_count": 228,
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "used_direct_answer": true,
+      "is_critical": false,
+      "critical_pass": null,
+      "red_flags": [],
+      "positive_signals": [
+        "Credibility anchor (3+ years / zero maintenance)",
+        "Integrations Dashboard mentioned",
+        "Concrete metrics"
+      ],
+      "length_ok": true,
+      "length_note": "OK",
+      "pass_fail": "PASS"
+    }
+  ]
+}
