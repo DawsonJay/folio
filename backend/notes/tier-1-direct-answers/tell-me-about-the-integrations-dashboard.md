@@ -18,7 +18,7 @@ The Integrations Dashboard wasn't just a technical project - it was about bridgi
 
 **emotion:** happy
 **suggestions:**
-- What challenges did you face building it?
+- Challenges with the Integrations Dashboard?
 - Tell me about your work experience
 - How do you approach system design?
 - What makes a project successful?

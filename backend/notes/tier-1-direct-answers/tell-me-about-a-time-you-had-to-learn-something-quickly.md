@@ -18,7 +18,7 @@ I believe in continuous learning - you build strong foundations, then keep expan
 
 **emotion:** happy
 **suggestions:**
-- What's your approach to learning new technologies?
+- How do you learn new technologies?
 - How do you stay current with technology?
 - Tell me about moh-ami project
 - What challenges have you faced?

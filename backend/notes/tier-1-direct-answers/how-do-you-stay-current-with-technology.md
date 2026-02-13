@@ -20,7 +20,7 @@ People who stop learning are the ones who stop making bigger, more exciting goal
 
 **emotion:** happy
 **suggestions:**
-- What's your approach to learning new technologies?
+- How do you learn new technologies?
 - Tell me about a time you had to learn something quickly
 - What technologies are you learning?
 - What projects have you built?

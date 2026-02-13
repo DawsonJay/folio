@@ -17,7 +17,7 @@ I'm not running away from problems. I'm running toward my goals. The project con
 **emotion:** happy
 **suggestions:**
 - What are you looking for in your next role?
-- Tell me about your career goals
+- What are your career goals?
 - What projects have you built?
 - What are you passionate about?
 - How do you approach work-life balance?

@@ -39,13 +39,14 @@ Narrative notes complement factual notes by:
 3. **nexus-dashboard-architecture.md** - Performance optimization (15+ seconds to sub-5 seconds), foundation blocks
 4. **why-leaving-nurtur.md** - Project conclusion, career transition, values alignment, Canada immigration
 
-### Process & Problem-Solving (6 files)
+### Process & Problem-Solving (7 files)
 1. **problem-solving-approach.md** - Intuition as compass, logic as proof, debugging process
 2. **learning-new-technologies.md** - Goal-driven learning, hands-on approach, self-directed growth
 3. **hardest-bug-story.md** - WhatNow's invisible recommendation bias, debugging without error messages
 4. **tight-deadline-folio-story.md** - Building Folio under time pressure, trellis approach, balancing quality and speed
 5. **handling-failure-philosophy.md** - Learning from failures, structure prevents repeated mistakes, small failures frequently
 6. **system-design-architecture-thinking.md** - Crystal formation philosophy, foundation blocks architecture, architectural decision-making, design patterns, trade-offs, scalability
+7. **how-i-approach-ui-ux-design.md** - Intent and use first, paper and Figma iteration, feeling and communication, Integrations and Nexus examples, aesthetics as function
 
 ### Career Goals (7 files)
 1. **what-drives-me.md** - Core values (curiosity, collaboration, craftsmanship), creating things that matter, making teams better

@@ -22,5 +22,5 @@ I emphasize TypeScript/React as core with C# and Python as significant professio
 - How do you approach learning new languages?
 - Tell me about your experience with React
 - What challenges have you faced in development?
-- How do you ensure code quality in projects?
-- What do you enjoy most about programming?
+- What's your experience with code reviews?
+- What motivates you as a developer?

@@ -14,9 +14,9 @@ I've never formally led a team. My team dad approach works well for mentoring - 
 
 **emotion:** thinking
 **suggestions:**
-- How do you manage work-life balance?
-- What are you doing to improve?
-- Tell me about your learning process
+- How do you handle stress and pressure?
+- What areas do you want to grow in?
+- How do you learn new technologies?
 - What are your career goals?
-- How do you approach challenges?
+- How do you approach problem-solving?
 - What skills are you developing?

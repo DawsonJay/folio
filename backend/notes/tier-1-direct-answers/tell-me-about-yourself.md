@@ -18,5 +18,5 @@ I'm looking for mid to senior frontend roles where I can integrate AI capabiliti
 - How did you transition from art to tech?
 - Tell me about your work experience
 - What are you passionate about?
-- What technologies do you use?
+- What technologies are you most excited about?
 - How do you approach problem-solving?

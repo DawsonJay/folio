@@ -15,7 +15,7 @@ I get most excited about technologies when they enable projects that matter to m
 **emotion:** happy
 **suggestions:**
 - What projects have you built?
-- Tell me about your AI/ML experience
+- What AI/ML experience do you have?
 - What are you passionate about?
 - Tell me about WhatNow project
 - How do you approach learning new technologies?

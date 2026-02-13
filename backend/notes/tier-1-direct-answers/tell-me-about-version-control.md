@@ -19,7 +19,7 @@ Version control enables collaboration, provides safety nets for experimentation,
 **emotion:** happy
 **suggestions:**
 - How do you approach code reviews?
-- Tell me about your development workflow
+- What's your experience with code reviews?
 - What projects have you built?
 - How do you ensure code quality?
 - How do you work in a team?

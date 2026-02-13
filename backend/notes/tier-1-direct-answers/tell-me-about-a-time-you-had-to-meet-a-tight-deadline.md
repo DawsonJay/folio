@@ -14,7 +14,7 @@ The Folio project is now live, providing value, and I'm continuing to improve it
 
 **emotion:** thinking
 **suggestions:**
-- What challenges did you face building it?
+- Tell me about a challenging project
 - How do you approach tight deadlines?
 - Tell me about your work experience
 - How do you balance quality and speed?

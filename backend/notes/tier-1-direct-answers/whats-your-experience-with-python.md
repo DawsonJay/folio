@@ -16,10 +16,10 @@ I'm continuously improving Python/AI skills toward long-term goals in AI/ML web 
 
 **emotion:** happy
 **suggestions:**
-- What projects have you built with Python?
+- Tell me about WhatNow
 - Tell me about your AI/ML experience
 - How do you approach learning new languages?
 - What challenges have you faced?
-- How do you ensure code quality?
+- What's your experience with code reviews?
 - What AI technologies are you learning?
 

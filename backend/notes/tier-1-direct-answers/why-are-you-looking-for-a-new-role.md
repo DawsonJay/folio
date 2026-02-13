@@ -17,7 +17,7 @@ I'm ready to start immediately and bring 5.5 years of proven production experien
 **emotion:** happy
 **suggestions:**
 - What are you looking for in your next role?
-- Tell me about your career goals
+- What are your career goals?
 - What projects have you built?
 - What are you passionate about?
 - How do you approach work-life balance?
