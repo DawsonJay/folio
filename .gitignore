@@ -62,3 +62,9 @@ Thumbs.db
 data/notes/*.md
 !data/notes/.gitkeep
 
+# Test outputs
+backend/test-results/
+backend/test_*.txt
+backend/compare_embeddings.py
+backend/embeddings.json.backup
+
