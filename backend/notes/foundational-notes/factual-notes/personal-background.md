@@ -99,10 +99,10 @@
   - Got bought by Nurtur (large corporation with multiple small real estate tech companies) when returned after freelance period
   - ~20 developers total, worked in small teams (usually 3-5 people)
 - **Role Reality**: 
-  - Official title remained "Junior Front End Developer" throughout
-  - Actually cross-trained as full-stack developer and did full-stack development
-  - Responsibilities increased to include creating/working from own designs and owning own projects
-  - "Distinctly undervalued but overused" - title didn't reflect actual responsibilities and contributions
+  - Full Stack Developer with complete product ownership from day one
+  - Built both frontend (React/TypeScript) and backend (API endpoints, databases)
+  - Responsibilities included creating/working from own designs and owning complete projects solo
+  - Small company with informal title structure - role was always full-stack regardless of administrative title
 - **Major Projects**: Integrations Dashboard, Nexus Dashboard, Email Editor
 - **Achievements**: 
   - Integrations Dashboard: No major or moderate problems since built, people still compliment it and say how useful it is, team greets fondly years later

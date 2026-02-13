@@ -10,7 +10,7 @@
 
 ## Proven Track Record
 
-**Integrations Dashboard**: Solo full-stack project that's been in production for 3+ years with zero maintenance. I bridged the gap between backend and sales teams, created something intuitive and stable, and it's still providing value today without me needing to touch it.
+**Integrations Dashboard**: Sole frontend developer on project that's been in production for 3+ years with zero maintenance. I learned backend implementation under senior mentorship, bridged the gap between backend and sales teams, created something intuitive and stable, and it's still providing value today without me needing to touch it.
 
 **Nexus Dashboard**: Working on company's most critical system, implementing foundation blocks architecture for scalability, focused on developer experience and safety layers.
 

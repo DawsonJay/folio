@@ -6,7 +6,7 @@ My primary focus was React/TypeScript frontend development, but I had full-stack
 
 I conducted regular code reviews and provided technical guidance. I mentored 3 backend developers transitioning to full-stack roles, teaching them CSS and React concepts. I developed a team dad leadership style focused on supporting teammates and creating environments where people can learn and grow.
 
-My major projects included the Integrations Dashboard, which I built solo in my first four months. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented both the frontend and backend, working with React, TypeScript, PostgreSQL, and API endpoints.
+My major projects included the Integrations Dashboard, where I was the sole frontend developer in my first four months. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented the complete frontend and learned backend implementation under senior mentorship, working with React, TypeScript, PostgreSQL, and API endpoints.
 
 I worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading, intelligent caching, and careful data management. I designed a foundation blocks architecture that makes the dashboard maintainable and extensible.
 

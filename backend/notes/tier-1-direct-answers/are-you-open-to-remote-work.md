@@ -1,20 +1,12 @@
 # Are you open to remote work?
 
-Yes, absolutely. My entire professional career has been remote. All of my roles - from my first position at BriefYourMarket to my work at Nurtur (July 2022 - February 2026) - have been fully remote positions. I occasionally went into the office for special meetings or events, but my daily work life was structured around remote collaboration.
+Absolutely. My entire 5.5 year career has been remote. I've shipped production systems, mentored distributed teams, and collaborated effectively across time zones. The track record proves remote works for me.
 
-I'm a big fan of remote work and I think it brings out the best in professional communication. Remote collaboration gives me the space to prepare thoughtful questions before reaching out to someone, which means our conversations are always focused and purposeful. When you call someone remotely, it's always for a specific reason, not just because they happen to be nearby. I find this makes it easier to stay focused, professional, and respectful of everyone's time.
+Production systems running 3+ years without maintenance, infrastructure optimization reducing load times from 15+ seconds to under 5, mentoring 3 backend developers into full-stack roles - all done remotely without being co-located. I can start contributing from day one without setup delays or training on remote tools.
 
-Staying productive in remote work comes naturally to me because I genuinely find coding and problem-solving interesting. Most days there isn't anything I'd rather be doing than solving the next technical challenge and building my skills and experience. I stay organized by maintaining a clear list of tasks, breaking problems down into manageable chunks, and working through them systematically. Organization is key to productivity whether you're remote or in an office, but remote work particularly rewards self-direction and focus.
+I've worked with distributed teams at Nurtur, reached across departments to gather requirements and feedback, built relationships with colleagues I've never met in person. I use Microsoft Teams, Discord, and adapt quickly to whatever collaboration tools a team prefers. Clear written communication, proactive updates, focused video calls - the habits that make remote effective are already built in.
 
-For communication tools, I've used Microsoft Teams extensively at Nurtur, and previously worked with Discord in other roles. I'm comfortable with various remote collaboration platforms and can adapt to whatever tools a team uses.
-
-Building relationships in remote teams isn't difficult - it just requires intentionality. Strong working relationships develop naturally when you're helpful and authentic with colleagues. At Nurtur, I often reached out to teams I hadn't spoken to before to gather their thoughts on projects and designs. It's about making the effort to connect around work-relevant topics and maintaining a helpful, professional presence.
-
-I'm completely willing to work remotely. This flexibility allows me to start providing value to a new employer immediately. Remote work means I can begin contributing to a team right away.
-
-I've been working remotely for nearly six years now, and I've developed strong instincts for remote collaboration, async communication, self-directed work, and building relationships across digital spaces. Remote work isn't just something I can do - it's the environment where I've built my entire professional skill set and where I consistently do my best work.
-
-Remote work suits my working style perfectly. I can structure my day around when I'm most productive, take breaks when I need to think through problems (like hiking), and focus deeply without office distractions. The flexibility of remote work enables me to do my best work while maintaining work-life balance.
+Remote gives me focused time for deep work - complex debugging, architectural decisions, feature implementation. But I'm not dogmatic about it. If a role needs occasional office time for team events, whiteboarding sessions, or building relationships in person, I'm completely flexible. The goal is effective collaboration and high-quality output, and I've proven I can deliver that remotely.
 
 ---
 

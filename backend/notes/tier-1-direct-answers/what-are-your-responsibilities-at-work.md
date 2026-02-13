@@ -1,6 +1,6 @@
 # What are your responsibilities at work?
 
-At Nurtur I had full-stack ownership of products including design. I owned entire products from conception through design and implementation, both frontend and backend. The Integrations Dashboard was entirely my responsibility - I designed the UI, built the React/TypeScript frontend, implemented backend features, and made all architectural decisions. It's been running 3+ years with zero maintenance.
+At Nurtur I had full-stack ownership of products including design. I owned entire products from conception through design and implementation, both frontend and backend. On the Integrations Dashboard, I was the sole frontend developer - I designed the UI and built the complete React/TypeScript frontend, while learning backend implementation under senior mentorship. It's been running 3+ years with zero maintenance.
 
 I was the jack of all trades who could lend a hand when needed across different areas of the codebase. Frontend development with React/TypeScript for dashboards and internal tools was my primary focus, but I worked full-stack across projects. I made architectural decisions for projects and designed UI/UX for dashboards based on user needs.
 

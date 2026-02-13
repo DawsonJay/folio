@@ -2,7 +2,7 @@
 
 ## The Achievement
 
-One of my proudest achievements at Nurtur is the Integrations Dashboard I built solo, which has been running in production for over 2 years with zero maintenance, zero crashes, and zero bug reports. It's used daily by 15+ team members and has become an essential tool for the company.
+One of my proudest achievements at Nurtur is the Integrations Dashboard where I was the sole frontend developer, which has been running in production for over 3 years with zero maintenance, zero crashes, and zero bug reports. I learned backend implementation under senior mentorship on this project. It's used daily by 15+ team members and has become an essential tool for the company.
 
 This was a full-stack project where I handled everything from database design to frontend implementation. The backend uses React for the interface and PostgreSQL for data storage, integrating with our existing systems to track and manage third-party integrations. The dashboard displays integration status, health metrics, and provides tools for managing API connections and troubleshooting issues.
 

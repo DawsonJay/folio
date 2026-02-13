@@ -40,7 +40,7 @@ I'm ready to take on more leadership while remaining a technical contributor. My
 
 ## Gratitude and Professional Transition
 
-I have gratitude for the Nurtur experience. Nurtur was exactly what I needed at that stage - I went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities, let me build the Integrations Dashboard solo, trusted me with critical systems like Nexus. The project conclusion wasn't my choice, but it aligns with my career goals. Nurtur doesn't have opportunities to integrate AI/ML into web applications, which is where I want to grow. This transition allows me to pursue what I need for the next 5 years of growth.
+I have gratitude for the Nurtur experience. Nurtur was exactly what I needed at that stage - I went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities on the Integrations Dashboard, trusted me as technical lead on critical systems like Nexus. The project conclusion wasn't my choice, but it aligns with my career goals. Nurtur doesn't have opportunities to integrate AI/ML into web applications, which is where I want to grow. This transition allows me to pursue what I need for the next 5 years of growth.
 
 I'm handling the transition professionally. I'm committed to a smooth transition, documenting my work thoroughly, and helping transition my responsibilities. I respect what they've given me and want to leave them in good shape.
 

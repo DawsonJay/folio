@@ -25,7 +25,7 @@
 ## Nurtur (BriefYourMarket.com)
 
 ### Basic Information
-- **Role**: Full Stack Developer (initially Junior Front End Developer)
+- **Role**: Full Stack Developer
 - **Company**: Nurtur (operating as BriefYourMarket.com)
 - **Start Date**: 18 July 2022
 - **End Date**: 11 February 2026
@@ -35,11 +35,10 @@
 - **Probationary Period**: 6 months (completed January 2023)
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `atomic-notes/work/work-experience-timeline.md`
 
-### Role Evolution
-- **Initial Role**: Junior Front End Developer
-- **Final Role**: Full Stack Developer (work started July 2022, title never updated)
-- **Full-Stack Training**: Started full-stack work when started at Nurtur (July 2022). Training to be full-stack was part of the agreement, with the assumption that I'd actually get promoted, not just do full-stack work without title change.
+### Role Description
+- **Full-Stack Development**: Worked full-stack from day one - complete ownership of products including frontend (React/TypeScript), backend (API endpoints, databases), and deployment
 - **Primary Focus**: React/TypeScript development for internal dashboards and tools
+- **Note**: Official title at small company was administratively different, but role was always full-stack with complete product ownership
 - **Source**: `atomic-notes/work/work-experience-timeline.md`, User feedback 2026-02-07
 
 ### Working Conditions
@@ -66,9 +65,9 @@
 ### Major Projects
 
 #### Integrations Dashboard
-- **Type**: Solo Full-Stack Project
+- **Type**: Primary Frontend Ownership with Backend Mentorship
 - **Timeline**: July 2022 - November 2022 (4 months, first task when started at Nurtur)
-- **Status**: Still in production (2+ years later)
+- **Status**: Still in production (3+ years later)
 - **Users**: 15+ sales team members (daily use)
 - **Technologies**: React/TypeScript (frontend), API endpoints, PostgreSQL (backend)
 - **Outcomes**: 
@@ -77,7 +76,8 @@
   - Zero bug reports
   - Users continue to express gratitude
 - **Description**: Rebuilt barebones buggy backend page into intuitive full-stack dashboard
-- **Role**: Designed and implemented both frontend and backend
+- **Role**: Sole frontend developer, learned backend implementation under senior developer mentorship
+- **Learning Context**: First major project at Nurtur - demonstrated ability to deliver production systems while learning full-stack development
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`
 
 #### Nexus Dashboard
@@ -85,6 +85,7 @@
 - **Timeline**: July 2022 - February 2026 (primary project), with focused development period October 2025 - February 2026
 - **Status**: Project cancelled/team redundant (February 2026)
 - **Team**: 2-person team (frontend developer + backend engineer collaboration)
+- **Leadership**: Technical lead role - drove architecture and design decisions, chose API contracts and data structures, liaised with stakeholders, had senior developer oversight but operated hands-off. Made day-to-day technical decisions with approval on major changes.
 - **Technologies**: React/TypeScript, Module Federation, TypeSpec, .NET BFF/API, React Query, complex backend system integration
 - **Architecture**: Microfrontend integrated into Nexus platform using Module Federation, designed to adapt to major backend changes without significant frontend rewrites
 - **Description**: Modern React/TypeScript microfrontend replacing legacy "Robocop" interface for distributed job processing system (Job Dispatcher + Job Managers + multi-tenant queues). First developer to build dashboard for complex backend system (queues, virtual machines, job processing).

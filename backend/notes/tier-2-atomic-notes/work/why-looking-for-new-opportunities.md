@@ -70,7 +70,7 @@ I was made redundant at Nurtur in February 2026. While this wasn't my choice, it
 
 ## Gratitude for the Experience
 
-**Nurtur was exactly what I needed at that stage**: I went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities, let me build the Integrations Dashboard solo, trusted me with critical systems like Nexus.
+**Nurtur was exactly what I needed at that stage**: I went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities on the Integrations Dashboard, trusted me as technical lead on critical systems like Nexus.
 
 **Why this transition works**: While the redundancy wasn't my choice, it aligns with my career goals. Nurtur doesn't have AI/ML integration work. They focus on internal business dashboards, not AI-powered web applications. This transition allows me to pursue what I need for the next 5 years of growth.
 

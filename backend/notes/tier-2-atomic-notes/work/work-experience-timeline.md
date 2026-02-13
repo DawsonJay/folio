@@ -6,7 +6,7 @@
 July 2022 - February 2026 (3.5 years)  
 Derby, UK
 
-Primary focus on React/TypeScript development for internal dashboards and tools. Major projects include Nexus Dashboard (foundation blocks architecture), Email Editor (Redux Toolkit and Lexical integration), and Integrations Dashboard (solo full-stack project, 3+ years in production with zero maintenance).
+Primary focus on React/TypeScript development for internal dashboards and tools. Major projects include Nexus Dashboard (technical lead, foundation blocks architecture), Email Editor (Redux Toolkit and Lexical integration, mentored 3 developers), and Integrations Dashboard (sole frontend developer with backend mentorship, 3+ years in production with zero maintenance).
 
 **End of role**: Being made redundant. The role provided valuable experience and growth, and this transition aligns with my career goals to pursue more AI/ML and systems work in Canada.
 

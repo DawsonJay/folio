@@ -4,7 +4,7 @@ At Nurtur, I worked as a Full Stack Developer for 3.5 years from July 2022 to Fe
 
 My key responsibilities included front-end development duties, full-stack development (frontend and backend), conducting regular code reviews, providing technical guidance to colleagues, and mentoring other developers. I coordinated with colleagues for department cover during breaks and handled additional duties as necessary.
 
-My major projects included the Integrations Dashboard, which I built solo in my first four months. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented both the frontend and backend, working with React, TypeScript, PostgreSQL, and API endpoints. The dashboard has been in production for over 3 years without any maintenance, crashes, or bug reports.
+My major projects included the Integrations Dashboard, where I was the sole frontend developer in my first four months. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented the complete frontend and learned backend implementation under senior mentorship, working with React, TypeScript, PostgreSQL, and API endpoints. The dashboard has been in production for over 3 years without any maintenance, crashes, or bug reports.
 
 I worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading, intelligent caching, and careful data management. I designed a foundation blocks architecture that makes the dashboard maintainable and extensible. I worked on the company's most critical system, implementing architecture designed to adapt to major backend changes without significant frontend rewrites.
 

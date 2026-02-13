@@ -7,7 +7,7 @@ I was made redundant at Nurtur. While this wasn't my choice, it aligns with my c
 ## What I've Accomplished at Nurtur
 
 In 3.5 years at Nurtur (part of 5.5 years total professional experience), I've:
-- ✅ Gone from junior developer to trusted contributor on critical systems
+- ✅ Grown from individual contributor to trusted technical leader on critical systems
 - ✅ Built production systems that last (Integrations Dashboard: 3+ years, zero maintenance)
 - ✅ Developed mentoring capability (teaching backend devs frontend)
 - ✅ Proven full-stack ability

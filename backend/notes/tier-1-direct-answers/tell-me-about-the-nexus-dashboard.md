@@ -1,6 +1,6 @@
 # Tell me about the Nexus Dashboard
 
-The Nexus Dashboard was my most complex project at Nurtur - a React/TypeScript microfrontend managing distributed job processing infrastructure for multiple estate-agency customers. I built it as part of a 2-person team, replacing a legacy interface with a modern system. Full-stack development, performance optimization, and architectural thinking.
+The Nexus Dashboard was my most complex project at Nurtur - a React/TypeScript microfrontend managing distributed job processing infrastructure for multiple estate-agency customers. I was the technical lead on this project, driving architecture and design decisions while working in a 2-person team. I chose API contracts, endpoints, and data structures, liaised with stakeholders, and made day-to-day technical decisions with hands-off senior oversight.
 
 The biggest challenge was performance. Initial load times of 15+ seconds made it essentially unusable - users waited staring at spinners wondering if it froze. I optimized it to under 5 seconds through strategic loading patterns. Instead of loading 1000 queue objects to display Total Queues: 1000, I count them on backend and send the number. I implemented buffer systems paging data into chunks, React Query caching preventing redundant calls, and prioritized critical data to render basic interfaces immediately.
 

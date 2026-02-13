@@ -4,7 +4,7 @@ I'm proud of the Integrations Dashboard I built at Nurtur. I love that it's well
 
 This isn't just about technical achievement, though the maintenance-free record is objectively impressive. It's about creating something that genuinely improves people's daily work. The sales team uses it every day. They still express gratitude for it years later. It's become an essential tool that the company depends on.
 
-I built it in my first four months at Nurtur, from July to November 2022. It was my first task when I started there. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented both the frontend and backend, working with React, TypeScript, PostgreSQL, and API endpoints.
+I built it in my first four months at Nurtur, from July to November 2022. It was my first task when I started there. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I was the sole frontend developer and learned backend implementation under senior mentorship, working with React, TypeScript, PostgreSQL, and API endpoints.
 
 The dashboard has been in production for over 3 years without any maintenance, crashes, or bug reports. That longevity isn't an accident. It's the result of careful architecture, thorough testing, and thinking about edge cases upfront. I didn't just build something that worked. I built something that would continue working reliably for years.
 

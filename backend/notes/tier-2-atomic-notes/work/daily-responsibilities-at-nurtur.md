@@ -128,7 +128,7 @@
 **Grew into**:
 - Trusted contributor on critical systems (Nexus)
 - Mentor to backend developers learning frontend
-- Solo full-stack capability (Integrations Dashboard)
+- Full-stack development (learned backend under mentorship on Integrations Dashboard, technical lead on Nexus Dashboard)
 - Technical leader on Email Editor project
 - Go-to person for bridging technical and non-technical teams
 

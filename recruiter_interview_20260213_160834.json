@@ -1,0 +1,282 @@
+[
+  {
+    "question": "Tell me about yourself",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "Walk me through your experience with React and TypeScript",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "Why are you looking to move to Canada?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "What's your experience with state management? Redux, Context, etc?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "Tell me about a complex technical problem you've solved",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "How do you approach performance optimization?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "What's your testing strategy?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "Tell me about your role at Nurtur",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "What was your biggest accomplishment there?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "Have you led any projects?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "How did you work with backend developers?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "What size team do you prefer working in?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "Tell me about a time you mentored someone",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "How do you handle code reviews?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "I see you have AI/ML experience - tell me about that",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "Have you integrated AI into web applications?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "What's your visa status for Canada?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "When can you start?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "Are you okay with hybrid work - 2 days in office?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  },
+  {
+    "question": "What are your salary expectations?",
+    "answer": "ERROR: 422 Client Error: Unprocessable Content for url: http://localhost:8000/api/chat",
+    "confidence": "error",
+    "score": 0,
+    "response_time": 0,
+    "rating": {
+      "relevance": 0,
+      "clarity": 0,
+      "credibility": 0,
+      "fit": 0,
+      "concerns": []
+    }
+  }
+]

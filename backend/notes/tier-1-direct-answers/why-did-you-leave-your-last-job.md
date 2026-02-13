@@ -2,7 +2,7 @@
 
 The project I was working on at Nurtur concluded in February 2026 when the team was restructured. The timing wasn't my choice, but it aligns with my career goals. I've learned what I could from Nurtur, built solid production experience over 3.5 years, and I'm ready for the next challenge.
 
-I've maximized what this role could teach me. I went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities, let me build the Integrations Dashboard solo, trusted me with critical systems like Nexus. But Nurtur doesn't have opportunities to integrate AI/ML into web applications, which is where I want to grow. I'm looking for deeper technical challenges and projects that align with my values.
+I've maximized what this role could teach me. I went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities on the Integrations Dashboard, trusted me with critical systems like Nexus where I was technical lead. But Nurtur doesn't have opportunities to integrate AI/ML into web applications, which is where I want to grow. I'm looking for deeper technical challenges and projects that align with my values.
 
 My values are curiosity, collaboration, and craftsmanship. I'm driven to build things that matter and have real impact. Personally passionate about nature and outdoor experiences, which influences how I think about technology serving real human needs. Nurtur was focused on internal business dashboards, which were practical and valuable, but I want to work on projects that create more direct value for end users.
 

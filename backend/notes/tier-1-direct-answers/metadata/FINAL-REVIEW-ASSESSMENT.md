@@ -158,8 +158,8 @@ After implementing recommended improvements, the notes now present a **well-roun
 
 #### Technical Leadership - **STRENGTHENED** ✅
 - **Architectural decision-making**: Explicitly stated with examples ✅
-  - Integrations Dashboard: Solo project, independent decisions ✅
-  - Nexus Dashboard: Technology stack and design patterns ✅
+  - Nexus Dashboard: Technical lead role, drove architecture and design decisions ✅
+  - Integrations Dashboard: Frontend architecture ownership, learned backend under mentorship ✅
   - Portfolio projects: Led technical direction (WhatNow, moh-ami, Folio) ✅
 - **Mentoring**: 3 backend developers, documented impact ✅
 - **Documentation**: Created comprehensive guides for future developers ✅
@@ -221,7 +221,7 @@ After implementing recommended improvements, the notes now present a **well-roun
 - **Scalability considerations**: Designed for growth (data, users, features, team)
 
 ### 2. Technical Decision-Making Authority ✅
-- **Independent decisions**: Integrations Dashboard (solo project)
+- **Independent decisions**: Nexus Dashboard (technical lead), portfolio projects (complete ownership)
 - **Technology choices**: Nexus Dashboard (foundation blocks, React Query)
 - **Technical direction**: Portfolio projects (WhatNow, moh-ami, Folio)
 - **Architecture design**: Foundation blocks, crystal formation, performance optimization

@@ -2,7 +2,7 @@
 
 My most recent role was at Nurtur, where I worked for 3.5 years from July 2022 to February 2026 as a Full Stack Developer. It was where I built the most significant production systems of my career and developed my leadership and mentoring capabilities.
 
-My proudest achievement is the Integrations Dashboard I built in my first four months. It was my first task when I started there. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented both the frontend and backend, working with React, TypeScript, PostgreSQL, and API endpoints. The dashboard has been in production for over 3 years without any maintenance, crashes, or bug reports. The sales team uses it every day and still expresses gratitude for it years later.
+My proudest achievement is the Integrations Dashboard I built in my first four months. It was my first task when I started there. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I was the sole frontend developer and learned backend implementation under senior mentorship, working with React, TypeScript, PostgreSQL, and API endpoints. The dashboard has been in production for over 3 years without any maintenance, crashes, or bug reports. The sales team uses it every day and still expresses gratitude for it years later.
 
 I worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading, intelligent caching, and careful data management. I designed a foundation blocks architecture that makes the dashboard maintainable and extensible. I worked on the company's most critical system, implementing architecture designed to adapt to major backend changes without significant frontend rewrites.
 

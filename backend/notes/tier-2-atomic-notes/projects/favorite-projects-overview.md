@@ -28,7 +28,7 @@ Ultimately, the project failed because the underlying weather data had fundament
 
 ## Favorite Work Project: Nexus Dashboard
 
-My favorite work project is the Nexus Dashboard at Nurtur. What makes this special is the complete ownership and creative freedom I have. I own the entire frontend - everything from the design to the code is mine. I built it from nothing, and that level of autonomy is both challenging and deeply satisfying.
+My favorite work project is the Nexus Dashboard at Nurtur. What makes this special is the technical lead role and creative freedom. As technical lead, I drove the architecture and design with hands-off senior oversight. I own the entire frontend - everything from the design to the code is mine. I built it from nothing, making day-to-day technical decisions while running major choices by senior leadership. That level of responsibility and trust is both challenging and deeply satisfying.
 
 Nexus is built to help internal teams visualize and manage the Job Manager system. What I love most is being able to talk directly to the end users - my colleagues who will use this tool every day - and tailor it exactly to their needs. That direct feedback loop, where I can understand their workflows, anticipate their pain points, and craft solutions that genuinely make their work easier, is incredibly rewarding.
 

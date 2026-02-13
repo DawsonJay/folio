@@ -24,7 +24,7 @@ The crystal formation approach contributed to the dashboard's longevity - it's b
 
 When I make architectural decisions, I consider several factors: maintainability (will this be easy to understand and modify later?), performance (does this approach scale to the expected load?), extensibility (can we add features without major refactoring?), and team needs (does this make the codebase easier for teammates to work with?).
 
-On Integrations Dashboard, I made independent architectural decisions as the solo developer. I chose React for the frontend because it was what I knew best and would allow rapid development. I chose PostgreSQL for the backend because it integrated with existing systems. I designed the component structure to be simple and maintainable because I knew this would be a long-term system.
+On Integrations Dashboard, I made frontend architectural decisions as the sole frontend developer, with guidance on backend architecture from a senior developer. I chose React for the frontend because it was what I knew best and would allow rapid development. PostgreSQL for the backend was chosen because it integrated with existing systems. I designed the component structure to be simple and maintainable because I knew this would be a long-term system.
 
 On Nexus Dashboard, I chose the foundation blocks architecture because the backend system was complex and could change. I needed an architecture that could adapt without major rewrites. I chose React Query for caching because performance was critical (15+ seconds load time was unacceptable). I designed safety layers to prevent accidental data corruption because the system managed critical infrastructure.
 
@@ -68,7 +68,7 @@ I've also learned that architecture evolves. WhatNow started with manual metadat
 
 ## What This Demonstrates
 
-My architectural thinking demonstrates: ability to design systems that last (Integrations Dashboard), understanding of performance at scale (Nexus Dashboard optimization), experience making independent technical decisions (solo projects, technology choices), and consideration of trade-offs and scalability.
+My architectural thinking demonstrates: ability to design systems that last (Integrations Dashboard), understanding of performance at scale (Nexus Dashboard optimization), experience making independent technical decisions (Nexus technical lead role, portfolio projects), and consideration of trade-offs and scalability.
 
 For mid to senior roles, this demonstrates: architectural decision-making capability, understanding of design patterns and principles, ability to balance trade-offs, and consideration of long-term maintainability and team needs.
 

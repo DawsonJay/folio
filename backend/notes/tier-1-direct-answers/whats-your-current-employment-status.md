@@ -2,7 +2,7 @@
 
 Currently unemployed. My role at Nurtur ended in February 2026 when the team was restructured after 3.5 years. While the timing wasn't my choice, it aligns with my career goals.
 
-I learned what I could from Nurtur - went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities, let me build the Integrations Dashboard solo, and trusted me with critical systems. I'm grateful for that growth.
+I learned what I could from Nurtur - went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities on the Integrations Dashboard, and trusted me with critical systems like Nexus where I was technical lead. I'm grateful for that growth.
 
 But Nurtur doesn't have opportunities to integrate AI/ML into web applications, which is where I want to grow. The next step I need is more AI/ML focused work, deeper technical challenges, and projects aligning with my values. I've maximized what that role could teach me - now I need work that challenges me in directions I want to grow.
 
