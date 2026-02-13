@@ -1,7 +1,11 @@
 import asyncio
+import time
+import uuid
 from typing import List, Optional, Dict, Literal
-from fastapi import APIRouter
-from pydantic import BaseModel
+from fastapi import APIRouter, Depends
+from pydantic import BaseModel, Field
+from sqlalchemy.orm import Session
+from app.database import get_db
 
 router = APIRouter()
 
@@ -14,6 +18,7 @@ class ProjectLinks(BaseModel):
 
 class ChatRequest(BaseModel):
     question: str
+    session_id: Optional[str] = Field(default_factory=lambda: str(uuid.uuid4()))
 
 class ChatResponse(BaseModel):
     answer: str
@@ -50,16 +55,35 @@ async def get_suggestions():
     return SuggestionsResponse(suggestions=[Suggestion(**s) for s in INITIAL_SUGGESTIONS])
 
 @router.post("/chat", response_model=ChatResponse)
-async def chat(request: ChatRequest):
+async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     from app.services.openai_service import OpenAIService
     from app.services.embedding_storage import LocalEmbeddingStorage
     from app.services.profanity_filter import ProfanityFilter
     from app.services.project_links import extract_project_links
     from app.services.direct_answer_service import DirectAnswerService
+    from app.services.analytics_service import AnalyticsService
     from pathlib import Path
     import logging
     
     logger = logging.getLogger(__name__)
+    analytics_service = AnalyticsService()
+    start_time = time.time()
+    
+    def log_and_return(response: ChatResponse) -> ChatResponse:
+        response_time_ms = int((time.time() - start_time) * 1000)
+        try:
+            analytics_service.log_question(
+                db=db,
+                question=request.question,
+                session_id=request.session_id,
+                confidence=response.confidence,
+                top_score=response.top_score,
+                response_time_ms=response_time_ms,
+                answer=response.answer
+            )
+        except Exception as e:
+            logger.error(f"Failed to log analytics: {e}")
+        return response
     
     VERY_LOW_THRESHOLD = 0.20
     CONFIDENCE_HIGH = 0.40
@@ -78,13 +102,13 @@ async def chat(request: ChatRequest):
     
     if profanity_check["has_profanity"]:
         result = openai_service.generate_boundary_response()
-        return ChatResponse(
+        return log_and_return(ChatResponse(
             answer=result["answer"],
             emotion=result["emotion"],
             suggestions=[Suggestion(**s) for s in result["suggestions"]],
             confidence="boundary",
             top_score=0.0
-        )
+        ))
     
     query_embedding = openai_service.get_embedding(request.question)
     
@@ -102,14 +126,14 @@ async def chat(request: ChatRequest):
                         k: ProjectLinks(**v) for k, v in direct_answer["projectLinks"].items()
                     }
                 
-                return ChatResponse(
+                return log_and_return(ChatResponse(
                     answer=direct_answer["answer"],
                     emotion=direct_answer["emotion"],
                     suggestions=[Suggestion(text=s) for s in direct_answer["suggestions"]],
                     projectLinks=project_links_response,
                     confidence="direct_answer",
                     top_score=direct_answer_results[0]['score']
-                )
+                ))
             except Exception as e:
                 logger.warning(f"Failed to load direct answer: {e}, falling back to RAG")
     except Exception as e:
@@ -119,25 +143,25 @@ async def chat(request: ChatRequest):
     
     if not similar_notes:
         result = openai_service.generate_off_topic_response()
-        return ChatResponse(
+        return log_and_return(ChatResponse(
             answer=result["answer"],
             emotion=result["emotion"],
             suggestions=[Suggestion(**s) for s in result["suggestions"]],
             confidence="off_topic",
             top_score=0.0
-        )
+        ))
     
     top_score = similar_notes[0]['score']
     
     if top_score < VERY_LOW_THRESHOLD:
         result = openai_service.generate_off_topic_response()
-        return ChatResponse(
+        return log_and_return(ChatResponse(
             answer=result["answer"],
             emotion=result["emotion"],
             suggestions=[Suggestion(**s) for s in result["suggestions"]],
             confidence="off_topic",
             top_score=top_score
-        )
+        ))
     
     context_parts = []
     note_ids = []
@@ -158,13 +182,13 @@ async def chat(request: ChatRequest):
     
     if top_score < CONFIDENCE_MEDIUM:
         result = openai_service.generate_redirect_response(request.question, context)
-        return ChatResponse(
+        return log_and_return(ChatResponse(
             answer=result["answer"],
             emotion=result["emotion"],
             suggestions=[Suggestion(**s) for s in result["suggestions"]],
             confidence="redirect",
             top_score=top_score
-        )
+        ))
     
     # Medium confidence (0.3-0.4): Provide answer with qualification
     if top_score < CONFIDENCE_HIGH:
@@ -182,14 +206,14 @@ async def chat(request: ChatRequest):
                 k: ProjectLinks(**v) for k, v in result["projectLinks"].items()
             }
         
-        return ChatResponse(
+        return log_and_return(ChatResponse(
             answer=result["answer"],
             emotion=result["emotion"],
             suggestions=[Suggestion(**s) for s in result["suggestions"]],
             projectLinks=project_links_response,
             confidence="medium",
             top_score=top_score
-        )
+        ))
     
     # High confidence (>= 0.4): Full answer
     result = openai_service.generate_chat_response(request.question, context, project_links)
@@ -200,12 +224,12 @@ async def chat(request: ChatRequest):
             k: ProjectLinks(**v) for k, v in result["projectLinks"].items()
         }
     
-    return ChatResponse(
+    return log_and_return(ChatResponse(
         answer=result["answer"],
         emotion=result["emotion"],
         suggestions=[Suggestion(**s) for s in result["suggestions"]],
         projectLinks=project_links_response,
         confidence="high",
         top_score=top_score
-    )
+    ))
 

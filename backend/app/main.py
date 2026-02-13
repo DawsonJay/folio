@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 from app.api.chat import router as chat_router
+from app.api.analytics import router as analytics_router
 
 load_dotenv()
 
@@ -23,6 +24,7 @@ app.add_middleware(
 
 # Mount API routers
 app.include_router(chat_router, prefix="/api", tags=["chat"])
+app.include_router(analytics_router, prefix="/api/analytics", tags=["analytics"])
 
 @app.get("/health")
 async def health_check():
