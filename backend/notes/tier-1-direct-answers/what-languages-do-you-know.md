@@ -1,16 +1,18 @@
 # What languages do you know?
 
-I know TypeScript, JavaScript, C#, Python, Java, and Lua. My strongest languages are TypeScript and React, which I've used daily for 3.5 years at Nurtur from July 2022 to February 2026. These are where I have the most production experience and can deliver the most value.
+TypeScript and React are my core strengths - used daily for 3.5 years building production systems running 3+ years without maintenance. Where I deliver most value.
 
-I have significant professional experience with C#. I used it as my primary backend language for 3 years at Nurtur. I worked with C# APIs, Azure Functions, and backend systems that supported the frontend dashboards I built. This gave me solid full-stack experience across the entire technology stack.
+I have strong C# experience as my primary backend language for 3 years at Nurtur - C# APIs, Azure Functions, backend systems supporting dashboards I built. Solid full-stack capability.
 
-I use Python extensively for AI/ML projects. I've built WhatNow, an AI-powered activity recommendation system using contextual bandits, which is a form of reinforcement learning. I've worked on moh-ami, a French learning tool with LLM integration, and Folio, the RAG-powered portfolio chatbot you're talking to right now. I've been familiar with Python for around 7 years, but I've been using it as a primary language for AI/ML work for about the past year. I'm comfortable with data science libraries like pandas, scikit-learn, and numpy.
+Python is my AI/ML language. I've built WhatNow using contextual bandits, moh-ami with LLM integration, and Folio, the RAG chatbot you're using now. Comfortable with pandas, scikit-learn, numpy, and FastAPI.
 
-Java was my first programming language. I learned it during my self-taught period and at Heriot-Watt University. While I haven't used it professionally in recent years, I have a solid foundational understanding from 6 years of familiarity.
+JavaScript I'm advanced with - 3.5+ years professionally, the foundation I use with React. Modern patterns, ES6+, async/await.
 
-Lua I'm familiar with through personal hobby projects, specifically for the Pico-8 mini game engine. I've been using it for about 3.5 years as a creative outlet.
+Java was my first language, learned self-taught and at Heriot-Watt University. Solid foundational understanding though not professionally recent.
 
-When people ask about my programming languages, I typically emphasize TypeScript and React as my core strengths. C# and Python represent significant professional experience. I'm always learning and expanding my skills, especially in Python for AI/ML work, which aligns with my career goals.
+Lua through personal hobby projects with Pico-8 mini game engine as a creative outlet.
+
+I emphasize TypeScript/React as core with C# and Python as significant professional experience. Continuously expanding Python/AI skills toward career goals in AI/ML web application development.
 
 ---
 

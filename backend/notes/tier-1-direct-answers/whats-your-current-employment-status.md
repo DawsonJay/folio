@@ -1,14 +1,14 @@
 # What's your current employment status?
 
-I'm currently unemployed. The project I was working on at Nurtur concluded in February 2026 when the team was restructured, after I'd worked there for 3.5 years. While the timing wasn't my choice, it aligns perfectly with my career goals and comes at the right time.
+Currently unemployed. My role at Nurtur ended in February 2026 when the team was restructured after 3.5 years. While the timing wasn't my choice, it aligns with my career goals.
 
-I'm ready to start immediately. There's no notice period required since the project concluded. I'm actively seeking new opportunities and excited about finding a role that aligns with my values and allows me to continue growing as a developer.
+I learned what I could from Nurtur - went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities, let me build the Integrations Dashboard solo, and trusted me with critical systems. I'm grateful for that growth.
 
-I've learned what I could from Nurtur, built solid production experience over 3.5 years, and I'm ready for the next challenge. I've maximized what this role could teach me. I went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities, let me build the Integrations Dashboard solo, trusted me with critical systems. But Nurtur doesn't have AI/robotics work. They don't focus on exploration or environmental technology. The next step I need is more AI/ML focused work, deeper technical challenges, and projects that align with my values.
+But Nurtur doesn't have opportunities to integrate AI/ML into web applications, which is where I want to grow. The next step I need is more AI/ML focused work, deeper technical challenges, and projects aligning with my values. I've maximized what that role could teach me - now I need work that challenges me in directions I want to grow.
 
-I'm seeking a role that uses my current strengths in full-stack web development, AI/ML foundations, and leadership while growing me toward robotics and exploration technology. I want to work with experienced engineers in areas that matter to me. My learning style is goal-driven, so I need work that challenges me in directions I want to grow.
+I'm seeking mid to senior frontend roles using my strengths in React/TypeScript and AI/ML. I want to work with experienced engineers on problems that matter. I'm not running from problems - I'm running toward goals.
 
-I'm ready to start immediately and bring 5.5 years of proven production experience. I'm not running away from problems. I'm running toward my goals.
+I can start immediately with 5.5 years of proven production experience.
 
 ---
 

@@ -1,14 +1,14 @@
 # How comfortable are you with TypeScript?
 
-I'm very comfortable with TypeScript. I've used it daily for 3.5 years at Nurtur from July 2022 to February 2026, building production systems that are still running today. TypeScript is one of my strongest skills and where I can deliver the most immediate value.
+Very comfortable - I've used TypeScript daily for 3.5 years building production systems including dashboards running 3+ years without maintenance and infrastructure managers handling distributed job processing. TypeScript combined with React is where I deliver the most immediate value.
 
-I'm advanced with TypeScript, using it as my primary language for frontend development. I've built complex dashboards like the Nexus Dashboard, worked on core product rebuilds like the Email Editor, created responsive applications like moh-ami, and built multiple portfolio projects. I understand type safety, interfaces, generics, and how to structure TypeScript applications for maintainability and scale.
+I'm advanced with TypeScript, using it as my primary frontend language. I've built complex dashboards managing backend infrastructure, drag-and-drop editors integrating Lexical, and AI-powered applications with LLM integration. I understand type safety, interfaces, generics, utility types, and how to structure large TypeScript applications for maintainability.
 
-I have extensive experience with TypeScript in production environments. I've used it for building full-stack applications, working with complex state management, integrating with APIs, and building reusable component libraries. I understand how to leverage TypeScript's type system to catch errors at compile time and make code more maintainable.
+I'm comfortable with advanced features like conditional types, type inference, mapped types, and discriminated unions. I use TypeScript effectively with React, Redux Toolkit, and modern frameworks. I understand how to leverage the type system to catch errors at compile time, make refactoring safer, and improve code maintainability.
 
-I'm comfortable with advanced TypeScript features like generics, utility types, conditional types, and type inference. I understand how to structure types for complex applications, how to create reusable type definitions, and how to use TypeScript effectively with React, Redux Toolkit, and other modern frameworks.
+The Nexus Dashboard - I used types to model queues, job managers, and instances, reducing runtime errors when wiring data through components. The type system helped catch integration issues early and made the codebase more maintainable as it scaled.
 
-TypeScript is where I have the most production experience and can deliver the most immediate value. It's one of my core strengths alongside React.
+TypeScript isn't just a tool I know - it's fundamental to how I build frontend systems. Type safety, better tooling, and self-documenting code make it essential for production applications.
 
 ---
 

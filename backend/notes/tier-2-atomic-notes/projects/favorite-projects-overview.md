@@ -12,11 +12,11 @@ The most challenging and rewarding aspect was crafting the LLM prompt. Getting t
 
 ## Favorite Ongoing Project: Atlantis
 
-My favorite ongoing project is Atlantis, the lake bed mapping system. This project ties directly to my core passions: AI, robotics, and exploration. The idea of building a system that can explore and map places that are otherwise inaccessible - underwater environments that would be dangerous or impossible to reach - captures my imagination completely.
+My favorite ongoing project is Atlantis, the lake bed mapping system. This project lets me explore hardware integration and autonomous systems as a side project. The idea of building a system that can map underwater environments captures my imagination and challenges my problem-solving abilities.
 
-What I love most about Atlantis is that it's wildly ambitious. I'm not building a simple proof of concept or following a tutorial. I'm engineering a complete system with GPS positioning, ultrasonic sensors, LoRa communication with DNA-style error correction, and sophisticated mapping algorithms. The scope could easily feel overwhelming, but instead it energizes me.
+What I love most about Atlantis is that it's wildly ambitious for a side project. I'm not building a simple proof of concept or following a tutorial. I'm engineering a complete system with GPS positioning, ultrasonic sensors, LoRa communication with DNA-style error correction, and mapping algorithms. The scope could easily feel overwhelming, but instead it energizes me.
 
-The learning journey has been incredible. I've gained deep experience with embedded systems programming, hardware integration, sensor fusion, RF communication protocols, and mechanical design. Each technical challenge I solve teaches me something new about systems thinking, failure modes, and practical engineering. Even though Atlantis isn't deployed yet, the pursuit of this ambitious goal has made me a significantly better engineer.
+The learning journey has been incredible. I've gained experience with hardware integration, sensor work, RF communication protocols, and mechanical design. Each technical challenge I solve teaches me something new about systems thinking, failure modes, and practical engineering. Even though Atlantis isn't deployed yet, pursuing this ambitious side project has made me a better engineer.
 
 ## Favorite Failed Project: Cirrus
 

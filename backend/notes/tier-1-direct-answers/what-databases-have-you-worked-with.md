@@ -1,14 +1,14 @@
 # What databases have you worked with?
 
-I have extensive experience with PostgreSQL databases. I've used it in the Integrations Dashboard, the Nexus Dashboard, cirrus-project, moh-ami, and WhatNow. I understand database design, query optimization, and how to structure data for performance.
+Extensive production experience with PostgreSQL, used in the Integrations Dashboard, Nexus Dashboard, moh-ami, and WhatNow. The Integrations Dashboard has run 3+ years without database-related issues. I design schemas that work reliably at scale.
 
-I've worked with Prisma ORM in moh-ami for type-safe database access and migrations. Prisma provides excellent TypeScript integration, making database work type-safe and reducing errors. I understand how to use Prisma for schema definition, migrations, and querying.
+I've worked with Prisma ORM for type-safe database access and migrations. Prisma's TypeScript integration makes database work type-safe, catching errors at compile time. I understand schema definition, migrations, relationships, and querying patterns that balance convenience with performance.
 
-I have experience with MongoDB from my Ironhack bootcamp, though I haven't used it in professional work. I understand NoSQL concepts and when to use document databases versus relational databases.
+The most interesting database challenge I faced was structuring WhatNow's learning system to balance real-time session data with historical patterns while keeping queries fast. I designed a schema supporting both quick session updates and efficient historical analysis without complex joins slowing the user experience.
 
-I understand database design principles, normalization, indexing strategies, and query optimization. I've worked with complex database schemas, relationships between tables, and how to structure data for both performance and maintainability.
+I understand database design principles - normalization, indexing strategies, query optimization, and when to denormalize for performance. I've worked with complex schemas, table relationships, and structuring data for both performance and maintainability.
 
-My database experience is primarily with PostgreSQL in production systems. The Integrations Dashboard backend uses PostgreSQL and has been running for over 3 years without any database-related issues, demonstrating that I can work with databases effectively in production environments.
+I also have experience with MongoDB from bootcamp and understand NoSQL concepts, though my production work has been relational. I can choose appropriate database architectures based on access patterns and scaling needs.
 
 ---
 

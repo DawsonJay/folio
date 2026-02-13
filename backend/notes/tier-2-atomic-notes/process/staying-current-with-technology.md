@@ -21,7 +21,7 @@
 **Every personal project targets something new**:
 - **WhatNow**: First AI/ML project (contextual bandits)
 - **moh-ami**: First LLM integration (GPT-4o-mini)
-- **Atlantis**: First embedded systems (LoRa, sensors, hardware)
+- **Atlantis**: Side project exploring hardware (LoRa, sensors)
 - **Folio**: First RAG system (embeddings, retrieval)
 
 **Pattern**: Each project deliberately tackles technologies I haven't used before. This forces continuous learning while building portfolio pieces.
@@ -67,7 +67,7 @@ Most developers do the opposite (reading endlessly about frameworks they never u
 **Targeted following**:
 - AI/ML developments (LLMs, embeddings, RAG techniques) because it's my career direction
 - React ecosystem because it's my current professional tool
-- Embedded systems and robotics because it's my long-term goal
+- Advanced AI/ML integration patterns for web applications
 
 **Ignore**:
 - Languages I'm not using (Go, Rust, etc.) - will learn if needed
@@ -102,7 +102,7 @@ Most developers do the opposite (reading endlessly about frameworks they never u
 ## How I Decide What to Learn
 
 ### 1. Does it serve my goals?
-If I'm building toward AI/robotics/exploration technology, learning that new CSS framework isn't a priority. Learning about LLMs, embeddings, or embedded systems is.
+If I'm building toward AI/ML integration in web applications, learning that new CSS framework isn't a priority. Learning about LLMs, embeddings, or advanced AI patterns is.
 
 ### 2. Is it practical, not just trendy?
 I learned contextual bandits not because they're trendy (they're not), but because they solved a real problem for WhatNow.
@@ -144,14 +144,14 @@ I focus on fundamental concepts that will remain relevant (embeddings, semantic 
 - AI/ML (embeddings, LLMs, RAG, contextual bandits)
 - Modern React patterns (hooks, functional components, Redux Toolkit)
 - Full-stack development (Python, TypeScript, FastAPI, Next.js)
-- Beginning embedded systems experience (Atlantis project)
+- Side project experience with hardware integration (Atlantis)
 
 **I'm deliberately not current in**:
 - Technologies outside my focus (mobile development, game engines)
 - Every new JavaScript framework
 - Blockchain/crypto (not aligned with my values or goals)
 
-**This is strategic, not ignorance**: I could learn these if needed, but they don't serve my trajectory toward exploration technology.
+**This is strategic, not ignorance**: I could learn these if needed, but they don't serve my trajectory toward AI/ML integration in web applications.
 
 ## The Philosophy
 

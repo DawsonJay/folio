@@ -22,13 +22,13 @@ I learned that I needed to maintain other parts of my life even during intensive
 
 ### Python and AI/ML Skills
 
-I want to improve my skills and technologies relating to Python the most because I want to become more experienced in AI/ML and grow my talents there. I've used Python for AI/ML projects like WhatNow and moh-ami, but I want to deepen that expertise. This aligns with my long-term career goals of moving toward robotics and exploration technology.
+I want to improve my skills and technologies relating to Python the most because I want to become more experienced in AI/ML and grow my talents there. I've used Python for AI/ML projects like WhatNow and moh-ami, but I want to deepen that expertise. This aligns with my long-term career goals of specializing in AI/ML integration for web applications.
 
 ### Leadership Abilities
 
 I've taught people and I've controlled my own projects before, but I've never been in charge of a team and I would like to develop the skills to be good at that. My "team dad" approach has worked well for mentoring and informal leadership, but I want to develop formal leadership capabilities - managing team dynamics, making strategic decisions, coordinating multiple people toward shared goals.
 
-Leadership skills transcend technology. Whether I'm leading web developers, AI engineers, or robotics teams in the future, these capabilities will be valuable. I'll invest significant time developing them.
+Leadership skills transcend technology. Whether I'm leading web developers or AI engineers in the future, these capabilities will be valuable. I'll invest significant time developing them.
 
 ## The Growth Mindset
 

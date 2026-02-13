@@ -1,22 +1,16 @@
 # What are you looking for in your next role?
 
-I'm looking for opportunities where I can grow my skills and make meaningful contributions. Growth is central to what I want - not just climbing a career ladder, but continuously expanding my technical capabilities, taking on new challenges, and developing as both a developer and a leader. I want to be somewhere that I'm still learning in five years, where there are always new problems to solve and new skills to develop.
+Mid to senior frontend role where I can integrate AI capabilities into products that matter. I want to bring LLM features, intelligent recommendations, and semantic search to web applications - combining React/TypeScript expertise with AI/ML skills I'm building.
 
-I thrive in collaborative environments where the focus is on delivering quality work and supporting team success. I want to work with people who care about what they're building, who communicate openly, who are willing to share knowledge and learn from each other. The best work I've done has been in teams where everyone is motivated and committed to excellence, where we can have genuine technical discussions and push each other to do better work.
+Growth is central. Not just titles, but continuously expanding technical capabilities and leadership responsibility. I want to make architectural decisions, mentor developers, and contribute to technical strategy. I'm building toward roles combining technical depth with team leadership. I need to be somewhere I'm still learning in five years, tackling challenges I can't fully solve yet.
 
-Meaningful work matters to me. I'm energized by projects that solve real problems and where I can see the impact of my work. Building systems that actual users depend on, creating tools that make people's lives easier, solving interesting technical challenges that have real-world consequences - that's what motivates me. I want my work to make a difference.
+I work best in small, motivated teams where everyone believes in the mission and puts aside ego for excellent work. Results-focused cultures - judge me on what I create, not how I create it. My best work has been in teams of 3-4 people who are extremely good at what they do and genuinely care about the outcome.
 
-I value companies that invest in their people's development and provide opportunities for leadership growth. I'm deliberately building toward more senior roles where I can combine technical expertise with leadership and mentoring. I want to work somewhere that recognizes potential, provides opportunities for increased responsibility, and supports people in developing leadership skills. Professional development isn't just nice to have - it's essential for me.
+Technical excellence needs to be valued and rewarded. I want to work somewhere that appreciates well-crafted code, thoughtful architecture, and systems built to last - where taking time to do things right is professional responsibility, not wasted effort. I've built systems that run years without maintenance because quality matters to me.
 
-I prefer small, motivated teams. 3-4 people who all believe in the project and are extremely good at what they do. Everyone has a stake in success and puts aside ego because what we care about is the work. Results-focused culture: "Work that matters, not the process." I want to be judged on what I create, not micromanaged on how I create it. If I need to hike for 2 days with a notebook to solve a problem, that should be fine as long as my work gets done.
+Mission matters. I'm energized by work helping people explore and understand the natural world, or technologies helping humanity live with nature rather than consume it. I'm adaptable on industries, but I need to believe the mission matters.
 
-I'm looking for work that aligns with my values. I want to contribute to projects that help people explore and understand the natural world. Technologies that help humanity live with nature rather than consume it. This doesn't mean every project has to be environmental - but the overall mission should matter. Meaningful work that aligns with my values is more important for long-term satisfaction than compensation alone.
-
-Technical excellence should be valued and rewarded. I want to work somewhere that appreciates well-crafted code, thoughtful architecture, and systems that last. Where taking the time to do things right is seen as professional responsibility, not wasted effort. Where technical debt is taken seriously and quality is prioritized over just shipping features as fast as possible.
-
-I'm adaptable and can find value in different team structures and project types. I've worked in small focused teams and larger organizations, on greenfield projects and legacy systems, with startups and established companies. What matters most is being part of a team where I can contribute meaningfully, continue learning, and help build things that matter.
-
-Ultimately, I'm looking for somewhere I can establish myself long-term. I'm not looking to job-hop or use a role as a stepping stone. I want to find a team and a mission I can commit to, where I can grow from mid-level to senior to potentially tech lead or architect over years of sustained contribution. The right opportunity is one where I can build a career, not just fill a position.
+I'm looking to establish myself long-term. Not job-hopping or seeking a stepping stone. I want a team and mission I can commit to, where I can grow from mid-level to senior to potentially tech lead over years of contribution.
 
 ---
 

@@ -4,7 +4,7 @@ The Integrations Dashboard is one of my proudest achievements at Nurtur. I built
 
 I designed and implemented both the frontend and backend, working with React, TypeScript, PostgreSQL, and API endpoints. The dashboard displays integration status, health metrics, and provides tools for managing API connections and troubleshooting issues. It's used daily by 15+ team members and has become an essential tool for the company.
 
-What makes this project special isn't just that it works - it's that it has required absolutely no maintenance for over 3 years. No crashes. No bug reports. No emergency fixes. It just works, day after day, doing its job reliably. The zero-maintenance record is objective proof of quality - it demonstrates ability to ship production-grade software, anticipate and prevent issues, build for longevity not just immediate needs, and deliver reliable systems that become infrastructure.
+The project has required absolutely no maintenance for over 3 years. No crashes. No bug reports. No emergency fixes. It just works, day after day, doing its job reliably. The zero-maintenance record is objective proof of quality. Production-grade software, anticipating and preventing issues, building for longevity not just immediate needs, delivering reliable systems that become infrastructure.
 
 The dashboard makes the sales team's work easier and more efficient. They still express gratitude for it years later. This isn't theoretical - it's a tool that 15+ people use daily, solving real problems and providing real value.
 

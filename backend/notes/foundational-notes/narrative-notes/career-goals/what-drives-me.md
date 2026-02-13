@@ -30,7 +30,7 @@ I'm always pursuing goals: Learning happens naturally when working toward meanin
 
 Self-directed learning: I taught myself Python to work with Arduinos, C# to make Unity games, Java before university. Each skill emerged from a goal that inspired me. This drive to teach myself whatever I need to achieve ambitious goals is fundamental to who I am.
 
-Pushing to new heights: My career progression from web development → AI/ML → embedded systems → exploration technology isn't random. I'm deliberately building toward work that aligns with my values while continuously expanding what I'm capable of.
+Pushing to new heights: My career progression from web development → AI/ML integration is deliberate. I'm building toward work that aligns with my values while continuously expanding what I'm capable of.
 
 ## Values Alignment
 
@@ -46,9 +46,9 @@ But this felt like my only chance. The one opportunity I might get to be part of
 
 It's hard in the moment to know if you made the right call. My philosophy has always been that you can't choose your future, but you can choose who you are walking into it. I knew that accepting the job would have meant being someone I didn't like or respect anymore. It's the same choice I've made multiple times in my life - that quiet afterwards where the fear of not knowing what came next mixed with the pride of staying true to myself. It wasn't the end of that career. A few weeks later, I stumbled onto another job acting as a volunteer for a small games company, and this one I accepted.
 
-Purpose-driven work: I want to help restore humanity's relationship with the world. Technologies that help people understand the natural world, help them live with it rather than consume it - those are what I want to build.
+Purpose-driven work: I want to build things that matter and have real impact. Technologies that solve real problems and create genuine value for users - those are what I want to build.
 
-My career evolution should reflect my work coming more in line with my values: Each project should move me toward work that matters deeply to me. The Integrations Dashboard helped a sales team work better - collaboration and craftsmanship value. WhatNow helped people discover new experiences - curiosity and collaboration value. Atlantis was about exploring underwater environments - curiosity and craftsmanship value.
+My career evolution should reflect my work coming more in line with my values: Each project should move me toward work that matters deeply to me. The Integrations Dashboard helped a sales team work better - collaboration and craftsmanship value. WhatNow helped people discover new experiences - curiosity and collaboration value. Building AI-powered applications that enhance user experiences.
 
 ## The Craft Itself
 
@@ -60,7 +60,7 @@ Building things that last: The Integrations Dashboard still providing value year
 
 ## Long-term Drive
 
-I want to work on a project like deep sea or space exploration: Something that encourages interest, excitement, and love for the world. That builds empathy with the world. That shares exploration and discovery.
+I want to work on projects that create genuine impact: Building AI-powered web applications that solve meaningful problems and enhance people's lives in tangible ways. Creating systems that provide real value and make a difference.
 
 Making a difference: "I want people to know my name because we made something extraordinary and helpful and good that's making a difference." Not famous for being famous, but known for contributing to work that matters.
 

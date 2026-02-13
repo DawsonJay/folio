@@ -10,7 +10,7 @@ The customer relations aspect was particularly challenging. I found that dealing
 
 The isolation of freelancing was another significant factor. Working alone meant I had no one to share clever solutions with, no one to discuss technical challenges with, no one to learn from through collaboration. I missed the collaborative environment where I could bounce ideas off teammates, get feedback on approaches, and work together to solve problems. The isolation made me realize I need collaborative environments to thrive.
 
-The realization that sharing solutions matters as much as finding them was profound. I learned from freelancing that I need teammates to share solutions with. I'm more motivated when I can show someone a clever approach and they understand why it's elegant. The isolation made me realize that for me, the joy of solving a problem is amplified when I can share it with someone who appreciates the solution.
+I learned from freelancing that I need teammates to share solutions with. I'm more motivated when I can show someone a clever approach and they understand why it's elegant. For me, the joy of solving a problem is amplified when I can share it with someone who appreciates the solution.
 
 I also found that freelancing required more time on business development and client relations than I wanted to spend. I preferred focusing on technical excellence rather than managing client expectations and business development. The independence of freelancing came with trade-offs that didn't align with what I wanted from my career.
 

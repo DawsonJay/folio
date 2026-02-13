@@ -12,7 +12,7 @@ I worked on the Nexus Dashboard, optimizing performance from 15+ seconds to unde
 
 I worked on the Email Editor project, a 4-person team rebuilding the core company product. I developed complex components including a link editor using the Lexical framework. I used Redux Toolkit for state management across multiple team projects.
 
-I was responsible for building production-quality systems that lasted, thinking about performance and user experience, and creating tools that provided real value to teams. The Integrations Dashboard working for 3+ years without maintenance demonstrates the quality of work I delivered.
+I was responsible for building production-quality systems that lasted, thinking about performance and user experience, and creating tools that provided real value to teams. The Integrations Dashboard has run 3+ years without maintenance.
 
 ---
 

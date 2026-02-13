@@ -1,6 +1,6 @@
 # Tell me about Cirrus
 
-Cirrus was an ambitious Canadian weather AI prediction system that combined machine learning, spatial data processing, and complex data visualization to predict weather patterns across Canada. While ultimately cancelled before completion, the project demonstrates technical depth in AI/ML and provides valuable lessons about project scoping and when to pivot.
+Cirrus was an ambitious Canadian weather AI prediction system that combined machine learning, spatial data processing, and complex data visualization to predict weather patterns across Canada. Ultimately cancelled before completion. Technical depth in AI/ML and valuable lessons about project scoping and when to pivot.
 
 The project vision was creating an intelligent weather prediction system specifically tuned for Canadian geography and climate patterns. Canada's vast territory and diverse climate regions present unique challenges for weather prediction - what works for southern Ontario doesn't apply to northern territories. The system would use machine learning to analyze historical weather data, identify regional patterns, and generate predictions more accurate than generic models.
 
@@ -10,7 +10,7 @@ The primary reason for cancellation was data quality too poor - 31% precipitatio
 
 The cancellation decision came from recognizing the project scope exceeded realistic completion as a solo personal project. Weather prediction is fundamentally hard - professional meteorological organizations with large teams and massive resources struggle with it. Building a competitive system alone was unrealistic. The data requirements were extensive and ongoing. The validation needed to prove predictions were actually better than existing systems was complex. The domain expertise required to understand meteorology deeply was beyond my background.
 
-The lessons learned from cancellation are as valuable as completing the project would have been. Recognizing when to cut losses on infeasible projects is critical. Not every ambitious idea should be pursued to completion if evidence shows fundamental problems. The sunk cost fallacy traps many developers into continuing doomed projects. Having the judgment to stop, extract lessons, and move on demonstrates maturity rather than failure.
+The lessons learned from cancellation are valuable. Recognizing when to cut losses on infeasible projects is critical. Not every ambitious idea should be pursued to completion if evidence shows fundamental problems. The sunk cost fallacy traps many developers into continuing doomed projects. Having the judgment to stop, extract lessons, and move on is maturity, not failure.
 
 The technical skills developed transferred to subsequent successful projects. The spatial data processing concepts informed Atlantis mapping system design. The data visualization experience applied to portfolio website design. The machine learning fundamentals enabled WhatNow and moh-ami AI integrations. Nothing was wasted even though the specific project didn't complete.
 

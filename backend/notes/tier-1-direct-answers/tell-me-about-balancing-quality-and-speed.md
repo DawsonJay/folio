@@ -10,7 +10,7 @@ I think perfection is bad - it takes too long and is generally unwanted. I do th
 
 The MVP means "viable" - the minimum viable product has to actually be viable. It can't be a broken prototype. It has to work, provide value, and be something you'd actually use.
 
-Time pressure clarifies priorities. When you have limited time, you're forced to identify what actually matters. This clarity is valuable even when you have more time.
+Time pressure clarifies priorities. When you have limited time, you're forced to identify what actually matters.
 
 The Folio project is now live, providing value, and I'm continuing to improve it. The trellis worked - the structure I built supports ongoing growth without requiring rewrites. That's the approach I'll take to future tight deadlines: build the right structure, ship a viable version, then iterate.
 

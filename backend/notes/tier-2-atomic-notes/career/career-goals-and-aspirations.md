@@ -20,14 +20,14 @@ My primary career goal is to be a valuable member of my team - the person people
 
 **The "team dad" approach**: I bring people together, encourage everyone to be their best, create safe spaces where people can discover their own strength.
 
-**Why this matters long-term**: Leadership skills transcend technology. Whether I'm leading web developers or teams building AI-powered web applications, the core skills are identical:
+**Why this matters long-term**: Leadership skills transcend technology. Whether I'm leading web developers or AI engineering teams building AI-powered web applications, the core skills are identical:
 - Making people feel capable
 - Clear communication
 - Strategic project thinking
 - Mentoring and teaching
 - Creating psychological safety
 
-**Investment in leadership**: I'll spend years developing these capabilities because they matter in any technical field. Senior roles that offer leadership responsibility are exactly what I'm looking for.
+**Investment in leadership**: I'll spend years developing these capabilities because they matter in any technical field. Mid to senior roles that offer increasing leadership responsibility are exactly what I'm looking for.
 
 ### 3. Meaningful Impact
 
@@ -53,7 +53,7 @@ This is where my current expertise (web dev) intersects with expanding capabilit
 
 ### Medium-Term Growth
 
-**Senior technical roles**: Architectural leadership, technical strategy, mentoring developers. These roles require years of experience to do well, and I'm committed to developing that expertise.
+**Mid to senior technical roles**: Architectural leadership, technical strategy, mentoring developers. These roles require years of experience to do well, and I'm committed to developing that expertise.
 
 **Deeper AI/ML capability**: Moving from integrating existing models to understanding how they work, training them, optimizing them. This could be in web application contexts or other domains.
 
@@ -69,7 +69,7 @@ This is where my current expertise (web dev) intersects with expanding capabilit
 - Strategic thinking
 - Time management
 
-**These matter everywhere**: Even if my technical focus shifts over time (from web to AI to embedded systems), these fundamental capabilities remain valuable. Time invested developing them is never wasted.
+**These matter everywhere**: Even if my technical focus shifts over time (from web to deeper AI/ML work), these fundamental capabilities remain valuable. Time invested developing them is never wasted.
 
 ## What I'm NOT Focused On
 
@@ -102,7 +102,7 @@ This could be 2 years or 5+ years depending on what opportunities emerge.
 
 **The common thread**: Leadership, problem-solving, building things that matter. These goals stay constant even if the specific technical domain evolves.
 
-**Not locked into a single path**: I might stay in web development if the right opportunities emerge (AI integration, leadership, meaningful projects). Or I might transition to other technical domains over time. The key is whether I'm growing and providing value.
+**Not locked into a single path**: I might stay in web development with increasing focus on AI integration and leadership. Or I might deepen into AI/ML engineering roles over time. The key is whether I'm growing and providing value.
 
 ## What This Means for Employers
 

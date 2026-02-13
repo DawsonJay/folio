@@ -1,16 +1,16 @@
 # What's your experience with Python?
 
-I've been familiar with Python for around 7 years, but I've been using it as a primary language for AI/ML work for about the past year. I use Python extensively for AI/ML projects, and it's become one of my go-to languages for building AI-powered applications.
+Familiar for 7 years, but actively using as my primary AI/ML language for the past year. Python is how I build AI-powered applications - WhatNow using contextual bandits and reinforcement learning, moh-ami with LLM integration, and Folio, the RAG chatbot you're using now.
 
-I've built WhatNow, an AI-powered activity recommendation system using contextual bandits, which is a form of reinforcement learning. The system uses semantic embeddings to match user context with activities, and it continuously improves over time based on user feedback. I built a two-layer learning architecture with a Session AI for fast session learning and a Base AI for slow base learning.
+WhatNow is end-to-end ML engineering. I built a two-layer learning architecture with Session AI for fast learning and Base AI for stability. The system uses semantic embeddings to match context with activities and continuously improves through user feedback.
 
-I've worked on moh-ami, a French learning tool with LLM integration, where I built structured prompts that produce consistent JSON schema outputs. I've also built Folio, the RAG-powered portfolio chatbot you're talking to right now, which uses LangChain for RAG orchestration and handles retrieval, prompt construction, and response generation.
+For moh-ami, I designed structured prompts producing consistent JSON outputs. For Folio, I used LangChain for RAG orchestration handling retrieval, prompt construction, and response generation.
 
-I'm comfortable with data science libraries like pandas, scikit-learn, and numpy. I've worked with embeddings, understanding how to generate them, store them, and use them for semantic search. I understand the challenges of data quality in AI projects, having learned from an early computer vision project where dataset quality issues led to poor real-world performance despite good validation accuracy.
+I'm comfortable with data science libraries - pandas, scikit-learn, numpy. I understand embeddings - how to generate, store, and use them for semantic search. I learned about data quality importance from early computer vision projects where dataset issues caused poor real-world performance despite good validation accuracy.
 
-I use FastAPI as my go-to framework for Python backends. I've been using it for about a year, and it's become my preferred framework for building RESTful APIs that integrate with AI systems, handle embeddings and vector search, and serve LLM-powered applications.
+FastAPI is my go-to for Python backends. I've been using it a year for building RESTful APIs integrating AI systems, handling embeddings and vector search, serving LLM-powered applications.
 
-I want to improve my Python and AI/ML skills because I want to become more experienced in AI/ML and grow my talents there. This aligns with my long-term career goals of moving toward robotics and exploration technology.
+I'm continuously improving Python/AI skills toward long-term goals in AI/ML web application development.
 
 ---
 

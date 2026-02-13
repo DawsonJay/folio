@@ -1,20 +1,14 @@
 # What are your strengths?
 
-My strengths are a combination of technical depth, creative problem-solving, and leadership. I bring breadth of perspective from art, teaching, and kayaking that inform my technical work. I'm not just good at coding - I bring creativity, thoughtfulness, and a range of perspectives that make me valuable beyond just writing code.
+I combine technical depth with creative problem-solving and leadership. My strongest technical skills are React/TypeScript frontend development and AI/ML integration - contextual bandits, LLM implementation, RAG systems. I've built production systems running 3+ years without maintenance, optimized dashboards from 15+ second load times to under 5 seconds, and mentored 3 developers into full-stack roles.
 
-On the technical side, I'm strong at full-stack development with React and TypeScript, AI/ML integration, and system architecture. I've used React and TypeScript daily for 3.5 years at Nurtur, building production systems that are still running today. I have experience with contextual bandits, LLM integration, embeddings, and RAG systems. I understand how to architect systems for reliability and maintainability, not just functionality.
+Artistic intuition combined with technical rigor. My art background gives me gut instinct when solutions feel wrong or project structure will produce bugs later. I catch issues early before they become expensive. This intuition acts as a compass - I follow it with rigorous logical investigation, not as proof itself.
 
-What makes me unique is the combination of artistic intuition and technical rigor. My art background gives me intuition and flexibility that complement my technical skills. I can often tell through gut instinct when a solution is wrong or when the structure of a project is flawed and will produce bugs later on. This intuition helps me catch issues early, before they become bigger problems.
+I'm strong at problem-solving. I frame limits first, then find creative solutions within constraints. When resources are scarce, turn to cleverness. I have pattern recognition from building multiple systems - new bugs often match patterns I've seen before.
 
-I'm strong at problem-solving. I approach problems by framing limits first, then finding creative solutions within those constraints. When resources are scarce, you have to turn to cleverness and creativity. I have strong intuition about where problems lie, then follow with rigorous logical investigation. The feeling acts as a compass, not as proof.
+I'm skilled at mentoring and team collaboration. My team dad leadership style brings out capability in others. I explain technical concepts to non-technical people - I bridged backend developers and sales teams on the Integrations Dashboard, translating between completely different perspectives.
 
-I'm skilled at mentoring and team collaboration. I've successfully mentored 3 backend developers transitioning to full-stack roles. I've developed a team dad leadership style that brings teams together and helps everyone do their best work. I can explain technical concepts to non-technical people - I bridged backend developers and sales teams on the Integrations Dashboard.
-
-I'm good at building things that last. The Integrations Dashboard I built has been in production for over 3 years without needing any maintenance. I understand how to architect systems for reliability and maintainability. I think about long-term sustainability over short-term convenience.
-
-I'm a fast learner. I taught myself all my programming languages through goal-driven learning. I don't wait for training or permission to learn something new. If a project needs a technology I don't know, I learn it. This adaptability is one of my strongest professional assets.
-
-I'm values-driven, not ego-driven. I'm motivated by passion for meaningful work and alignment with my values, not by needing to be the smartest person in the room. I put aside ego because what matters is creating something excellent together.
+I build things that last. The Integrations Dashboard has run 3+ years without maintenance - long-term sustainability over short-term convenience. I'm a fast learner who taught myself programming through goal-driven projects. If a project needs technology I don't know, I learn it. I'm values-driven, not ego-driven - motivated by meaningful work and creating excellent things together, not being the smartest in the room.
 
 ---
 

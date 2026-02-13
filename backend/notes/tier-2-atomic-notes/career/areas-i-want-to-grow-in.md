@@ -48,7 +48,7 @@
 
 ### Immediate Value
 
-**Senior-level capability from day one**:
+**Production-quality capability from day one**:
 - 5.5 years professional experience
 - Shipped systems still running years later
 - Mentored other developers

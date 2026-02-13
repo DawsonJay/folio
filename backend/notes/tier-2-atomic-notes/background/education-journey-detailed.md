@@ -117,7 +117,7 @@
 **Unconventional but effective**:
 - Two university dropouts → Professional developer in 2+ years
 - Bootcamp + self-teaching → Production systems in multiple companies
-- Continuous learning → Growing from web dev → AI/ML → robotics
+- Continuous learning → Growing from web dev → AI/ML integration
 
 **Demonstrates**:
 - Strategic decision-making (leaving when something isn't working)

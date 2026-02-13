@@ -226,7 +226,7 @@
 - **2021**: Freelance (learned I need teams)
 - **2022**: Back to Nurtur as Full Stack Developer
 - **2023-2024**: Grew into trusted contributor on critical systems, mentor to others
-- **2025**: Ready for next step - more AI/ML work, alignment with values, growth toward robotics/exploration
+- **2025**: Ready for next step - more AI/ML integration work, alignment with values, specializing in AI-powered web applications
 - **2026**: Made redundant, seeking new opportunities in Canada
 - **Source**: `atomic-notes/work/work-experience-timeline.md`
 

@@ -1,20 +1,16 @@
 # Walk me through your career journey
 
-My career journey has been pretty non-linear, but it all connects. I started in art - I completed a Foundation Year in Illustration at the University of Derby. But I realized that while I loved the creative process, I needed something that combined creativity with intellectual challenges. That's what drew me to coding.
+I've spent 5.5 years building production web applications, with the last 3.5 years at Nurtur. Dashboard running 3+ years without maintenance. Infrastructure managers optimized from 15+ seconds to under 5 seconds. Three developers I mentored into full-stack roles. The path here was non-linear and shaped how I work.
 
-I began teaching myself programming around 2014, well before I considered it as a career. I started with Java because I wanted to understand AI concepts. I didn't take courses or follow structured tutorials - I just read books, tried things out, and built small projects. This exploratory approach taught me to learn by doing.
+I started in art, completing a Foundation Year in Illustration at the University of Derby. I realized I needed something combining creativity with intellectual challenges and objective measures of success. That drew me to coding. I started teaching myself programming around 2014 with Java and AI concepts, learning by building projects rather than following tutorials.
 
-I tried studying AI at Heriot-Watt University, but found it too slow and disconnected from reality. I had already been coding for a few years by that point, and the coursework felt like it was holding me back. I completed 2 years of coursework and earned a Certificate of Merit, but I left to pursue a more practical path.
+I tried formal education at Heriot-Watt University but found it too slow - I'd already been coding for years and the coursework held me back. I completed 2 years and earned a Certificate of Merit, but left for a more practical path. The Ironhack bootcamp in May 2020 bridged personal projects into professional skills.
 
-I did an Ironhack bootcamp in May 2020, which was a strategic decision to bridge my personal project work into structured professional skills. The bootcamp was full-stack focused, covering React, Node.js, MongoDB, and professional development practices. Coming out of it, I had a portfolio of projects and the confidence to apply for junior developer positions.
+My first role was Junior Web Developer at BriefYourMarket in October 2020 for 5 months, then 15 months freelancing, which taught me I prefer teams. I need teammates to share solutions with and ability to support others' growth. Solo work wasn't satisfying.
 
-My first professional role was as a Junior Web Developer at BriefYourMarket in October 2020. That lasted 5 months, and it helped me secure my next role. I then spent 15 months as a freelance web developer, which taught me that I prefer working in teams. I learned that I need teammates to share solutions with and the ability to support others' growth.
+I returned when the company was acquired by Nurtur in July 2022, working 3.5 years as Full Stack Developer. I built the Integrations Dashboard in my first four months - 3+ years zero maintenance. I worked on Nexus Dashboard performance optimization and developed a supportive leadership style focused on mentoring.
 
-I returned to the same company in July 2022, but by then it had been bought by Nurtur. I worked there for 3.5 years as a Full Stack Developer, building production systems that are still running today. My proudest achievement is the Integrations Dashboard I built in my first four months there. It's been in production for over 3 years without any maintenance, crashes, or bug reports.
-
-I also worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading and intelligent caching. I mentored backend developers and developed a team dad leadership style focused on supporting teammates.
-
-The project I was working on concluded in February 2026 when the team was restructured. While the timing wasn't my choice, it aligns perfectly with my career goals. I'm currently seeking new opportunities, bringing 5.5 years of proven production experience.
+The team was restructured in February 2026. The timing wasn't my choice, but I'm seeking mid to senior frontend roles integrating AI capabilities with 5.5 years of production experience.
 
 ---
 

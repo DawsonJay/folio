@@ -21,7 +21,7 @@ In 5 years, I want to be a valuable member of my team - the person people go to 
 **Where I can grow**: 
 - **Leadership responsibilities**: Taking charge of projects and teams. This is a complex skill I'll invest time developing because leading well matters in any technical domain.
 - **AI integration in web applications**: Bringing LLM capabilities, RAG systems, and ML to web products. This is where web development and AI intersect.
-- **Senior technical roles**: Architectural decisions, mentoring developers, technical strategy.
+- **Mid to senior technical roles**: Architectural decisions, mentoring developers, technical strategy.
 - **Cross-functional collaboration**: I excel at bridging technical and non-technical teams. This skill deepens with experience.
 
 **What I need from a role**: Opportunities to develop skills that matter to me - leadership, AI integration, team building, technical depth. As long as I'm growing in meaningful ways, I'm committed.
@@ -32,7 +32,7 @@ In 5 years, I want to be a valuable member of my team - the person people go to 
 
 **AI-powered web applications**: The intersection of web development and AI is expanding rapidly. LLMs, embeddings, RAG, recommendation systems - these aren't separate from web dev, they're the future of it.
 
-**Leadership transcends technology**: Whether I'm leading web developers, AI engineers, or robotics teams, the skills are the same: bringing out the best in people, creating psychological safety, clear communication, strategic thinking.
+**Leadership transcends technology**: Whether I'm leading web developers or AI engineers, the skills are the same: bringing out the best in people, creating psychological safety, clear communication, strategic thinking.
 
 ## Commitment Philosophy
 

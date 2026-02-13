@@ -8,9 +8,9 @@ I built it in my first four months at Nurtur, from July to November 2022. It was
 
 The dashboard has been in production for over 3 years without any maintenance, crashes, or bug reports. That longevity isn't an accident. It's the result of careful architecture, thorough testing, and thinking about edge cases upfront. I didn't just build something that worked. I built something that would continue working reliably for years.
 
-What makes this my favorite project isn't just the technical excellence. It's the combination of technical skill, understanding user needs, bridging team communication gaps, and creating something that provides lasting value. I talked at length with both the backend developers and the sales team to understand what they needed. I built something that served both groups effectively.
+I love the combination of technical skill, understanding user needs, bridging team communication gaps, and creating something that provides lasting value. I talked at length with both the backend developers and the sales team to understand what they needed. I built something that served both groups effectively.
 
-It demonstrates that I can take a problem, understand it deeply from multiple perspectives, and build a solution that genuinely helps people. When I think about what I want my work to be, the Integrations Dashboard is a perfect example. It's well-crafted, it helps people, it lasts, and it adds value. That's the kind of work I'm proud to have created.
+I took a problem, understood it deeply from multiple perspectives, and built a solution that genuinely helps people. When I think about what I want my work to be, the Integrations Dashboard is a perfect example. It's well-crafted, it helps people, it lasts, and it adds value. That's the kind of work I'm proud to have created.
 
 ---
 

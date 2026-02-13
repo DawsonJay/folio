@@ -30,7 +30,7 @@ My fundamental values are **curiosity** (continuous learning and exploration), *
 
 **Self-directed learning**: I taught myself Python to work with Arduinos, C# to make Unity games, Java before university. Each skill emerged from a goal that inspired me. This drive to teach myself whatever I need to achieve ambitious goals is fundamental to who I am.
 
-**Pushing to new heights**: My career progression from web development → AI/ML → embedded systems → exploration technology isn't random. I'm deliberately building toward work that aligns with my values while continuously expanding what I'm capable of.
+**Pushing to new heights**: My career progression from web development → AI/ML integration is deliberate. I'm building toward work that aligns with my values while continuously expanding what I'm capable of.
 
 ## Values Alignment
 
@@ -50,7 +50,7 @@ My fundamental values are **curiosity** (continuous learning and exploration), *
 
 ## Long-term Drive
 
-**I want to work on a project like deep sea or space exploration**: Something that encourages interest, excitement, and love for the world. That builds empathy with the world. That shares exploration and discovery.
+**I want to work on projects that create genuine impact**: Something that provides real value to users and solves meaningful problems. Building AI-powered web applications that enhance people's lives in tangible ways.
 
 **Making a difference**: "I want people to know my name because we made something extraordinary and helpful and good that's making a difference." Not famous for being famous, but known for contributing to work that matters.
 

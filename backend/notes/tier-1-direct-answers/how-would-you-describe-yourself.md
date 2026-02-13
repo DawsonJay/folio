@@ -1,6 +1,6 @@
 # How would you describe yourself?
 
-I'm a Full Stack Developer with 5.5 years of professional experience who combines artistic intuition with technical rigor. My art background gives me intuition and flexibility that complement my technical skills. I can often tell through gut instinct when a solution is wrong or when the structure of a project is flawed and will produce bugs later on. This intuition helps me catch issues early, before they become bigger problems.
+I'm a Full Stack Developer with 5.5 years of professional experience who combines artistic intuition with technical rigor. My art background gives me intuition and flexibility that complement my technical skills. I can often tell through gut instinct when a solution is wrong or when the structure of a project is flawed and will produce bugs later on. Catch issues early, before they become bigger problems.
 
 I'm driven by curiosity, collaboration, and craftsmanship. Curiosity is about continuous learning and understanding how complex systems work. Collaboration is about building products that help teams and create real value. Craftsmanship is about taking pride in my work and building things that last. These values drive everything I do as a developer.
 

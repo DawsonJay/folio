@@ -4,9 +4,9 @@ My values system is built on three fundamental principles that guide how I appro
 
 ## Curiosity
 
-Curiosity drives my continuous learning and exploration. I'm motivated by understanding how complex systems work, not just accepting that they do. It's the excitement of solving a difficult problem, discovering elegant solutions, and learning new technologies. Curiosity is what makes me want to explore new domains - whether that's AI/ML, embedded systems, or exploration technology. I'm always pursuing goals that require learning new skills, and I find that learning happens naturally when working toward meaningful objectives.
+Curiosity drives my continuous learning and exploration. I'm motivated by understanding how complex systems work, not just accepting that they do. It's the excitement of solving a difficult problem, discovering elegant solutions, and learning new technologies. Curiosity is what makes me want to explore new domains - AI/ML integration in web applications, intelligent systems, and advanced capabilities. I'm always pursuing goals that require learning new skills, and I find that learning happens naturally when working toward meaningful objectives.
 
-This curiosity shows up in my career progression from web development → AI/ML → embedded systems → exploration technology. Each step wasn't random - I'm deliberately building toward work that challenges me while continuously expanding what I'm capable of. I taught myself Python to work with Arduinos, C# to make Unity games, Java before university. Each skill emerged from a goal that inspired me.
+This curiosity shows up in my career progression from web development → AI/ML integration. Each step wasn't random - I'm deliberately building toward work that challenges me while continuously expanding what I'm capable of. I taught myself Python to work with Arduinos, C# to make Unity games, Java before university. Each skill emerged from a goal that inspired me.
 
 ## Collaboration
 
@@ -24,7 +24,7 @@ I love that feeling of the code clicking into place, of finding the elegant solu
 
 These three values support each other. Curiosity without collaboration becomes isolated cleverness. Collaboration without craftsmanship becomes short-term solutions. Craftsmanship without curiosity becomes stagnant routine. Together, they create a framework where I'm continuously learning, building products that help teams, and taking pride in creating things that last.
 
-My career decisions reflect these values. I left the Heriot-Watt AI program because I realized I was there for the content, not the credential, and my time was better spent building actual projects. I'm building this portfolio and pursuing immigration to Canada because I want to work on projects that align with these values - environmental technology, exploration, systems that help people learn and work together. I'd rather work on something meaningful at lower pay than get rich building systems that don't matter to me.
+My career decisions reflect these values. I left the Heriot-Watt AI program because I realized I was there for the content, not the credential, and my time was better spent building actual projects. I'm building this portfolio and pursuing immigration to Canada because I want to work on projects that align with these values - AI-powered web applications, systems that help people learn and work together, building things that matter. I'd rather work on something meaningful at lower pay than get rich building systems that don't matter to me.
 
 When I evaluate whether I want to work on something, I ask: Does this satisfy my curiosity - does it challenge me to learn and explore? Does this enable collaboration - does it help teams work better together or create value for users? Does this allow craftsmanship - can I build this well, with care, to last? If the answer is yes to these questions, then it's work that matters to me.
 

@@ -1,6 +1,6 @@
 # Tell me about your current role
 
-I'm currently unemployed. The project I was working on at Nurtur concluded in February 2026 when the team was restructured, after I'd worked there for 3.5 years. While the timing wasn't my choice, it aligns perfectly with my career goals and comes at the right time.
+I'm currently unemployed. The project I was working on at Nurtur concluded in February 2026 when the team was restructured, after I'd worked there for 3.5 years. The timing wasn't my choice, but it aligns with my career goals.
 
 I'm ready to start immediately. There's no notice period required since the project concluded. I'm actively seeking new opportunities and excited about finding a role that aligns with my values and allows me to continue growing as a developer.
 

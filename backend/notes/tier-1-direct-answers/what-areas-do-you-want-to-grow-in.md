@@ -8,9 +8,9 @@ I want to grow in architectural decision-making. I've made independent architect
 
 I want to grow in AI integration in web applications. Bringing LLM capabilities, RAG systems, and ML to web products is where web development and AI intersect. This is an area I'm actively building skills in through projects like Folio, and I want to continue developing this expertise.
 
-I want to grow in cross-functional collaboration. I excel at bridging technical and non-technical teams, but I want to deepen this skill. Being able to communicate effectively across different contexts and help teams work together more effectively is valuable, and I want to continue developing this capability.
+I want to grow in cross-functional collaboration. I excel at bridging technical and non-technical teams, but I want to deepen this skill. I want to continue developing this capability to communicate effectively across different contexts and help teams work together more effectively.
 
-I want to grow in senior technical roles. I'm ready for senior roles that combine technical depth with leadership responsibility. I want to make architectural decisions, mentor developers, and contribute to technical strategy while continuing to grow as an engineer and leader.
+I want to grow into mid to senior technical roles. I'm ready for roles that combine technical depth with increasing leadership responsibility. I want to make architectural decisions, mentor developers, and contribute to technical strategy while continuing to grow as an engineer and leader.
 
 ---
 

@@ -28,16 +28,16 @@ In 3.5 years at Nurtur (part of 5.5 years total professional experience), I've:
 ### 2. Immigration to Canada
 **Major life decision**: I'm pursuing permanent residence in Canada through Working Holiday Visa pathway.
 
-**Why Canada**: Natural beauty, environmental values, work-life balance culture, innovation in technology. I want to build my life there.
+**Why Canada**: Natural beauty, work-life balance culture, innovation in technology, strong AI/ML scene. I want to build my life there.
 
 **Timing**: After 5.5 years of professional experience, this transition comes at the right time to make this international move.
 
 ### 3. Values Alignment
 **Current work**: Internal business dashboards. Practical and valuable, but not aligned with my deeper values.
 
-**What I want**: Projects that help people explore and understand the natural world. Technologies for exploration, environmental monitoring, or scientific discovery.
+**What I want**: Projects that create real impact and solve meaningful problems. AI-powered web applications that enhance user experiences and provide genuine value.
 
-**Nurtur can't provide this** - they're a business software company. This isn't a criticism; it's a mismatch of long-term direction that this transition allows me to address.
+**Nurtur can't provide this** - they don't have opportunities to integrate AI/ML into web applications. This isn't a criticism; it's a mismatch of long-term direction that this transition allows me to address.
 
 ## Gratitude for the Experience
 
@@ -59,14 +59,14 @@ In 3.5 years at Nurtur (part of 5.5 years total professional experience), I've:
 
 **In Canada**:
 - Small, motivated team (3-4 people) working on meaningful projects
-- More AI/ML and systems work (not just web interfaces)
-- Projects aligned with exploration or environmental technology
+- More AI/ML integration work combining web development with intelligent capabilities
+- Projects that create real value and solve meaningful problems
 - Growth opportunity to integrate AI/ML capabilities into web applications
 - Results-focused culture (not rigid processes)
 
 **Career progression**:
 - Apply my current skills (full-stack, AI/ML foundations, leadership)
-- Grow toward my long-term goals (exploration technology)
+- Grow toward senior technical contributor in AI-powered web applications
 - Work on projects I can believe in
 - Continue learning and pushing to new heights
 

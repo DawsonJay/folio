@@ -10,9 +10,9 @@ I have extensive experience with PostgreSQL databases. I've used it in the Integ
 
 I have experience with GraphQL through moh-ami, where I built a GraphQL API using Apollo Server. I understand schema design, resolver implementation, and how GraphQL differs from REST APIs. I've also worked with Node.js backends for the Nexus Dashboard.
 
-I understand backend architecture patterns, API design, and how to build systems that are both functional and maintainable. The Integrations Dashboard backend has been running for over 3 years without needing any maintenance. This demonstrates that I can build backend systems that last.
+I understand backend architecture patterns, API design, and how to build systems that are both functional and maintainable. The Integrations Dashboard backend has been running for over 3 years without needing any maintenance. I build backend systems that last.
 
-My backend experience isn't limited to one technology. I can work with C# for enterprise systems, Python for AI/ML applications, and Node.js for JavaScript-based backends. I understand how to choose the right technology for the problem and how to integrate different systems effectively.
+My backend experience covers multiple technologies. C# for enterprise systems, Python for AI/ML applications, and Node.js for JavaScript-based backends. I choose the right technology for the problem and integrate different systems effectively.
 
 ---
 

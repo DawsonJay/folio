@@ -16,7 +16,7 @@ This is about respect for ownership and responsibility. If someone owns the proj
 
 When we both have the same authority, I'll still listen, but if it's an area where I have more experience, I'll go forward with my own approach and they'll accept it. This isn't about ego - it's about recognizing expertise. If I've built similar systems before and understand the tradeoffs, and someone else hasn't, it makes sense for me to lead in that area.
 
-This approach prevents major conflicts because it addresses disagreements early, when they're small and solvable. By listening first, I often discover that what seemed like a disagreement was actually just missing information. By explaining my reasoning, I help others understand my perspective. By respecting authority and expertise, I avoid power struggles that don't serve the project.
+I address disagreements early, when they're small and solvable. By listening first, I often discover that what seemed like a disagreement was actually just missing information. By explaining my reasoning, I help others understand my perspective. By respecting authority and expertise, I avoid power struggles that don't serve the project.
 
 The result is that disagreements become problem-solving conversations rather than conflicts. We're working together to find the best solution, not fighting to win an argument. That's the kind of team environment where good work happens.
 

@@ -2,7 +2,7 @@
 
 Jam Hot represents the beginning of my AI journey and early exploration into machine learning and recommendation systems. Despite the project's failure, it marked the important first step from pure web development into AI/ML work that would eventually lead to successful projects like WhatNow, moh-ami, and Folio.
 
-The motivation to explore AI came from recognizing AI/ML was becoming increasingly important in software development. Many interesting problems require AI techniques. Career growth into senior roles often involves AI understanding. The decision to start learning AI through a personal project rather than just tutorials or courses reflected learning style preference for hands-on experimentation.
+The motivation to explore AI came from recognizing AI/ML was becoming increasingly important in software development. Many interesting problems require AI techniques. Career growth often involves AI understanding. The decision to start learning AI through a personal project rather than just tutorials or courses reflected learning style preference for hands-on experimentation.
 
 The recommendation system focus seemed like accessible AI entry point. Recommendation systems are familiar from daily life - Netflix suggests movies, Spotify suggests music, Amazon suggests products. The perceived familiarity made recommendation systems feel approachable for first AI project. This perception proved partially wrong as recommendation systems are more complex than they appear, but the reasoning made sense initially.
 

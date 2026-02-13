@@ -1,8 +1,8 @@
 # What are your immigration plans?
 
-I'm pursuing immigration to Canada through the Working Holiday Visa pathway, with plans to apply for Permanent Residency after gaining Canadian work experience. This isn't a casual decision or just about getting a visa - it's a carefully considered step toward building a life in a place that aligns with my values and career goals.
+I'm pursuing immigration to Canada through the Working Holiday Visa pathway, with plans to apply for Permanent Residency after gaining Canadian work experience. Not a casual decision or just about getting a visa - carefully considered step toward building a life in a place that aligns with my values and career goals.
 
-My IEC Working Holiday visa application is submitted and in the final stages (biometrics scheduled); I'm currently waiting for the visa to be issued. It doesn't require employer sponsorship. The plan is to work for 1 year with the Working Holiday visa once issued, then apply for Permanent Residency through Canadian Experience Class. This is a long-term commitment to building a career and life in Canada, not just a temporary 2-year stay.
+My IEC Working Holiday visa application is submitted and in the final stages (biometrics scheduled); I'm currently waiting for the visa to be issued. It doesn't require employer sponsorship. The plan is to work for 1 year with the Working Holiday visa once issued, then apply for Permanent Residency through Canadian Experience Class. Long-term commitment to building a career and life in Canada, not just a temporary 2-year stay.
 
 The strategy is remote work first, then relocate. I'll start working remotely from UK immediately upon receiving a job offer, which allows me to start providing value and earning money from day one. This reduces financial pressure of the move and allows time to find appropriate housing without time pressure. Relocation happens after securing job offer and finding housing.
 

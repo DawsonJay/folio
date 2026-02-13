@@ -36,11 +36,11 @@
 
 ## Values Alignment
 
-**Meaningful work that aligns with my values**: I care about curiosity, collaboration, and craftsmanship - about continuous learning, building products that help teams, and taking pride in creating things that last. Ideally my work contributes to this, whether through exploration technology (deep sea/space), environmental solutions, or tools that genuinely help people.
+**Meaningful work that aligns with my values**: I care about curiosity, collaboration, and craftsmanship - about continuous learning, building products that help teams, and taking pride in creating things that last. Ideally my work contributes to this through AI-powered web applications or tools that genuinely help people.
 
 **Ethical work**: I walked away from a freemium games interview because I disagreed with the ethics. I need to believe in what I'm building.
 
 ## Long-term Vision
 
-My ideal is working on a project like deep sea or space exploration - something that encourages interest, excitement, and love for the world, builds empathy with nature, and shares exploration and discovery. But I'm sure there are many projects that align with my values that I would approach with the same passion.
+My ideal is working on projects that create genuine impact and provide real value to users. AI-powered web applications that solve meaningful problems and enhance people's lives in tangible ways. Building systems that matter and align with my values of curiosity, collaboration, and craftsmanship.
 

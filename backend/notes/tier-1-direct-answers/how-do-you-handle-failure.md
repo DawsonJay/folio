@@ -10,7 +10,7 @@ I think perfection is bad - it takes too long and is generally unwanted. I do th
 
 When creating the Integrations and Nexus dashboards, I would take designs to the teams that would use the product and get feedback on them and make adjustments. Having frequent feedback means I got lots of small useful failures instead of large project-breaking ones.
 
-This is the key insight: failure is inevitable, but the timing and scale matter enormously. Small failures early in development are valuable - they teach you what users actually need, what workflows make sense, what assumptions are wrong. Large failures late in development are expensive - they can break the project, waste months of work, or require complete rewrites.
+Failure is inevitable, but the timing and scale matter enormously. Small failures early in development are valuable - they teach you what users actually need, what workflows make sense, what assumptions are wrong. Large failures late in development are expensive - they can break the project, waste months of work, or require complete rewrites.
 
 The feedback loop strategy - showing work early and often, getting small failures frequently - prevents the catastrophic failures that can kill projects. It's better to have ten small course corrections than one massive failure that requires starting over.
 

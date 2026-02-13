@@ -12,7 +12,7 @@ I was made redundant at Nurtur in February 2026. While this wasn't my choice, it
 
 **Next needed step**: More AI/ML focused work, deeper technical challenges, projects that align with my values of curiosity, collaboration, and craftsmanship.
 
-**Long-term vision**: Working on exploration technology (deep sea/space) or environmental systems that help people understand and connect with the natural world.
+**Long-term vision**: Becoming a senior technical contributor specializing in AI-powered web applications that solve real problems and create genuine value.
 
 ## What I've Achieved at Nurtur (3.5 Years, Part of 5.5 Years Total Professional Experience)
 
@@ -29,7 +29,7 @@ I was made redundant at Nurtur in February 2026. While this wasn't my choice, it
 
 **Working Holiday Visa pathway**: Actively pursuing permanent residence in Canada.
 
-**Why Canada**: Natural beauty, environmental values, work-life balance culture, innovation in technology. I want to build my life and career there.
+**Why Canada**: Natural beauty, work-life balance culture, innovation in technology, strong AI/ML scene. I want to build my life and career there.
 
 **Timing**: This transition comes at the right time. I have 5.5 years of professional experience and proven production systems, making this an ideal moment to make the move to Canada.
 
@@ -39,14 +39,14 @@ I was made redundant at Nurtur in February 2026. While this wasn't my choice, it
 
 **Current work**: Internal dashboards for business operations. Practical and valuable, but not aligned with my deeper values.
 
-**What I want**: Work on projects that help people explore and understand the natural world. Technologies that help humanity live with nature rather than consume it.
+**What I want**: Work on projects that create real impact and solve meaningful problems. AI-powered web applications that enhance user experiences and provide genuine value.
 
 **Examples of interest**:
-- Deep sea or space exploration
-- Environmental monitoring systems
-- Robotics for scientific discovery
-- Technologies that build empathy with the natural world
-- Tools that encourage understanding over consumption
+- AI-powered web applications with intelligent features
+- RAG systems and semantic search
+- Recommendation engines and personalized experiences
+- LLM integration that solves real problems
+- Building systems that create tangible value for users
 
 **"I don't want to work for money alone"**: While Nurtur pays well, meaningful work that aligns with my values is more important for long-term satisfaction and sustainability.
 

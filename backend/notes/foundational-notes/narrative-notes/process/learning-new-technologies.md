@@ -54,7 +54,7 @@ Passive learning: Watching long video tutorials or reading textbooks without app
 
 ## Continuous Growth
 
-People who stop learning are the ones who stop making bigger, more exciting goals. My career progression (web dev → AI/ML → embedded → robotics → exploration) ensures I'm always learning because I'm always reaching for something just beyond my current capability. Self-directed learning is a superpower. Many developers wait for training or permission to learn new things. I teach myself whatever I need to achieve my goals. This makes me adaptable and fast.
+People who stop learning are the ones who stop making bigger, more exciting goals. My career progression (web dev → AI/ML integration) ensures I'm always learning because I'm always reaching for something just beyond my current capability. Self-directed learning is a superpower. Many developers wait for training or permission to learn new things. I teach myself whatever I need to achieve my goals. This makes me adaptable and fast.
 
 ## The Result
 

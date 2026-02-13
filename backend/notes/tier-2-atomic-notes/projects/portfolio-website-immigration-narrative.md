@@ -4,9 +4,9 @@ The Portfolio Website serves critical role in Canadian job applications and Work
 
 The immigration context provides competitive advantages. The Working Holiday Visa requires no employer sponsorship enabling immediate work. The two-year validity provides security for employers concerned about visa expiration. The permanent residency pathway shows long-term commitment rather than temporary work arrangement. These advantages position me favorably compared to candidates requiring sponsorship or lacking clear long-term plans.
 
-The professional positioning balances current experience with growth trajectory. Three-plus years full-stack web development establishes credibility. Active growth into AI/robotics shows ambition and learning. The portfolio website itself proves claimed React/TypeScript/Tailwind skills through implementation quality. This combination demonstrates solid current capability with clear upward trajectory.
+The professional positioning balances current experience with growth trajectory. Three-plus years full-stack web development establishes credibility. Active growth into AI/ML integration shows ambition and learning. The portfolio website itself proves claimed React/TypeScript/Tailwind skills through implementation quality. This combination demonstrates solid current capability with clear upward trajectory.
 
-The project showcase strategy targets different job types through diverse projects. WhatNow targets AI/ML companies and data science teams. Nexus targets enterprise development and established tech companies. Atlantis targets robotics, autonomous systems, and exploration companies. Each project resonates with specific employer types enabling tailored applications highlighting relevant projects.
+The project showcase strategy targets different job types through diverse projects. WhatNow targets AI/ML companies and data science teams. Nexus targets enterprise development and established tech companies. Atlantis demonstrates problem-solving and hardware integration as a side project. Each project resonates with specific employer types enabling tailored applications highlighting relevant projects.
 
 The Working Holiday context positions me as ready to work immediately without bureaucratic delays. No work permit processing. No labor market impact assessment. No sponsorship paperwork. Employers can make offers and have me start work on normal timelines. This lack of immigration friction is significant competitive advantage in Canadian job market.
 
@@ -14,7 +14,7 @@ The website design itself demonstrates Canadian cultural fit through professiona
 
 The long-term commitment signal through permanent residency pathway addresses employer concerns about temporary workers leaving after training investment. The explicit plan to work for a year then apply for permanent residency shows serious investment in Canadian life. This commitment makes employers more comfortable investing in training and integration knowing I'm not just passing through.
 
-The portfolio strategy positions technical growth toward Canadian tech ecosystem opportunities. AI/ML skills align with growing Canadian AI sector. Robotics experience targets Canadian aerospace and automation industries. Full-stack skills serve established Canadian tech companies. This strategic skill development targets actual Canadian job market opportunities rather than abstract technical interests.
+The portfolio strategy positions technical growth toward Canadian tech ecosystem opportunities. AI/ML skills align with growing Canadian AI sector. Full-stack web development with AI integration serves established Canadian tech companies. This strategic skill development targets actual Canadian job market opportunities rather than abstract technical interests.
 
 The narrative coherence throughout the portfolio creates consistent story about who I am, what I offer, and why Canada. The projects reflect genuine interests not just resume padding. The growth trajectory shows intentional skill development. The Canadian connections like Cirrus show genuine Canadian engagement. This narrative authenticity makes the portfolio memorable and convincing.
 

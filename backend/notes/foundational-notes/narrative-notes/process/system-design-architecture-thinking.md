@@ -70,7 +70,7 @@ I've also learned that architecture evolves. WhatNow started with manual metadat
 
 My architectural thinking demonstrates: ability to design systems that last (Integrations Dashboard), understanding of performance at scale (Nexus Dashboard optimization), experience making independent technical decisions (solo projects, technology choices), and consideration of trade-offs and scalability.
 
-For senior roles, this demonstrates: architectural decision-making capability, understanding of design patterns and principles, ability to balance trade-offs, and consideration of long-term maintainability and team needs.
+For mid to senior roles, this demonstrates: architectural decision-making capability, understanding of design patterns and principles, ability to balance trade-offs, and consideration of long-term maintainability and team needs.
 
-The combination of crystal formation philosophy, foundation blocks architecture, and performance optimization experience positions me for senior roles where architectural thinking and technical decision-making are key responsibilities.
+The combination of crystal formation philosophy, foundation blocks architecture, and performance optimization experience positions me for mid to senior roles where architectural thinking and technical decision-making are key responsibilities.
 

@@ -14,7 +14,7 @@ My leadership philosophy is that teams work best when everyone feels they have a
 
 I prefer small teams with consensus decision-making and shared project ownership. I don't want to be the sole decision-maker - I want everyone to have input and feel ownership of the work. This creates better outcomes because multiple perspectives catch problems and generate better solutions.
 
-What makes my leadership style effective is that it's authentic. I genuinely care about helping people grow and succeed. I'm not performing leadership - I'm naturally drawn to supporting others and creating environments where everyone can do their best work. This authenticity makes people trust me and want to work with me.
+My leadership style is authentic. I genuinely care about helping people grow and succeed. I'm not performing leadership - I'm naturally drawn to supporting others and creating environments where everyone can do their best work. This authenticity makes people trust me and want to work with me.
 
 ---
 

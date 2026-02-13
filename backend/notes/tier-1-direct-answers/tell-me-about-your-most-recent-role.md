@@ -12,7 +12,7 @@ I conducted regular code reviews and provided technical guidance. I mentored oth
 
 I used React and TypeScript daily for 3.5 years, building production systems that are still running today. I used C# as my primary backend language for 3 years, working with C# APIs, Azure Functions, and backend systems. I worked with PostgreSQL databases, Redux Toolkit for state management, and various other technologies.
 
-The project I was working on concluded in February 2026 when the team was restructured. While the timing wasn't my choice, it aligns perfectly with my career goals. I've learned what I could from Nurtur, built solid production experience, and I'm ready for the next challenge.
+The project I was working on concluded in February 2026 when the team was restructured. The timing wasn't my choice, but it aligns with my career goals. I've learned what I could from Nurtur, built solid production experience, and I'm ready for the next challenge.
 
 ---
 

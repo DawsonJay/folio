@@ -8,7 +8,7 @@ Kayaking taught me a lot of lessons, but some of the most important are that the
 
 In technical work, I handle stress by trusting my intuition. Years of experience give me gut feelings about what's wrong, reducing panic when debugging complex issues. I break problems down - frame the limits first, then find creative solutions within those constraints. I maintain perspective - remembering that I'm solving interesting problems with skilled teammates, not fighting fires alone. Taking breaks when needed - if I need to go hiking for 2 days with a notebook to think through a problem, that's how I work best.
 
-I stay calm under pressure because I know consistent preparation and strong fundamentals mean I can handle whatever comes up. The Integrations Dashboard working for 3+ years without maintenance proves that thoughtful development prevents most problems before they happen, which reduces stress from the start.
+I stay calm under pressure because I know consistent preparation and strong fundamentals mean I can handle whatever comes up. The Integrations Dashboard has run 3+ years without maintenance. Thoughtful development prevents most problems before they happen, which reduces stress from the start.
 
 I move on from mistakes quickly. In both kayaking and debugging, dwelling on errors wastes time. I acknowledge the mistake, learn from it, and refocus on the solution. The real work is done when no one is watching - I learned that success comes from consistent effort in low-pressure moments, not just performance when it matters. This means staying calm under deadline pressure because I know the foundational work is solid.
 

@@ -228,16 +228,15 @@
 **Source**: `linked-in-job-hunter/profile-documents/details.md`
 
 ### Specific Reasons
-- **Natural beauty and connection to the world**: Canada's vast landscapes, commitment to environmental protection, and culture of outdoor recreation align with core values
-- **Environmental values**: Commitment to environmental protection
+- **Natural beauty and connection to the world**: Canada's vast landscapes and culture of outdoor recreation align with core values
 - **Work-life balance culture**: Matches how I want to live and work
-- **Innovation in technology**: Canadian tech sector values building things that matter
-- **Values alignment**: Canadian culture around work-life balance, environmental consciousness, and innovation in technology
+- **Innovation in technology**: Canadian tech sector values building things that matter, strong AI/ML innovation scene
+- **Values alignment**: Canadian culture around work-life balance, quality of life, and innovation in technology
 - **Source**: `atomic-notes/values/canadian-immigration-journey.md`, `atomic-notes/career/why-canada-and-new-opportunities.md`
 
 ### Canadian Tech Culture
-- Focus on environmental technology and exploration projects
-- Companies working on ocean mapping, climate technology, space industry connections, sustainable systems
+- Strong AI/ML innovation scene
+- Companies building cutting-edge AI-powered web applications and intelligent systems
 - Values-aligned projects (exactly the kinds of projects I want to contribute to)
 - Canadian tech sector values building things that matter, not just chasing venture capital and unicorn exits
 - **Source**: `atomic-notes/values/canadian-immigration-journey.md`

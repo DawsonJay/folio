@@ -8,7 +8,7 @@ I'm driven by solving problems through cleverness. When resources are scarce, yo
 
 Making teams better is deeply important to me. I want to be valuable to my team, not just for my technical skills but for how I help the team work together more effectively. I'm more motivated when I can show someone a clever approach and they understand why it's elegant. When I helped backend developers realize they could learn CSS, those moments of helping someone realize they're more capable than they thought drive me as much as solving technical problems.
 
-I'm passionate about building things that matter. Meaningful work that aligns with my values is more important for long-term satisfaction than compensation alone. I want to help restore humanity's relationship with the world by building technologies that help people understand the natural world. I want to help them live with it rather than consume it. My long-term vision involves working on exploration technology like deep sea or space systems, or environmental monitoring that builds empathy with the natural world.
+I'm passionate about building things that matter. Meaningful work that aligns with my values is more important for long-term satisfaction than compensation alone. I want to build AI-powered web applications that solve real problems and create genuine value for users. I'm driven to work on projects that have meaningful impact and align with my values.
 
 I'm always pursuing goals, and learning happens naturally when working toward meaningful objectives. My career progression has been strategic - starting with web development, then expanding into AI/ML integration, continuously building on my strengths while exploring new capabilities that enhance what I can build.
 

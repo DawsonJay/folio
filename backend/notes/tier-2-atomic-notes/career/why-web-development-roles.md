@@ -3,7 +3,7 @@
 ## The Practical Reality
 
 **Primary driver: Moving to Canada**: My priority is immigrating to Canada. Moving internationally is expensive, and I need stable employment to make it happen. I have 3.5 years of production web development experience, which means I can:
-- Get hired in senior roles (not entry-level wages)
+- Get hired in mid to senior roles (not entry-level wages)
 - Start contributing immediately (no learning curve)
 - Save money for future transitions if needed
 - Establish myself professionally in Canada
@@ -32,7 +32,7 @@ These skills are foundational for building AI-powered web applications, intellig
 - Strategic thinking about projects
 - Mentoring and teaching
 
-I value senior web dev roles because they offer leadership responsibility. That's something I'll invest significant time developing because it matters in every technical domain.
+I value mid to senior web dev roles because they offer increasing leadership responsibility. That's something I'll invest significant time developing because it matters in every technical domain.
 
 **My "team dad" leadership style** is equally valuable in web development and AI-powered web application teams.
 
@@ -105,7 +105,7 @@ I'm applying for web dev roles because:
 2. **Financial foundation** - web dev roles pay well enough to save
 3. **Transferable skills** - leadership, architecture, problem-solving matter everywhere
 4. **AI integration bridge** - web dev is where AI meets users
-5. **Leadership opportunities** - senior roles offer this, which I value
+5. **Leadership opportunities** - mid to senior roles offer this, which I value
 
 I'm committing to:
 1. **Excellence** - delivering production-quality work

@@ -1,14 +1,10 @@
 # What's your availability?
 
-I can start immediately. There's no notice period required since the project I was working on at Nurtur concluded in February 2026 when the team was restructured. I'm currently unemployed and actively seeking new opportunities.
+Immediate. No notice period - my role at Nurtur ended in February 2026 when the team was restructured. I'm actively seeking opportunities where I can contribute from day one.
 
-I'm ready to start providing value from day one. I can work remotely immediately upon receiving a job offer, which allows me to begin contributing to a team right away.
+I'm completely flexible on start date and can work remotely immediately upon receiving an offer. Need someone next week? I'm available. Need someone in a month? That works too. I have no contracts or commitments holding me.
 
-I have 5.5 years of proven production experience and can contribute production-quality React/TypeScript/Python code from day one. I've shipped real systems that real users depend on. I'm not looking for a long ramp-up period - I'm ready to dive in and start contributing immediately.
-
-I'm completely flexible on start date. If you need me to start next week, I can do that. If you need me to start in a month, that works too. I have no contracts holding me, so I'm completely flexible on timing.
-
-I'm excited about finding a role that aligns with my values and allows me to continue growing as a developer. I'm ready to start immediately and bring my experience, skills, and enthusiasm to your team.
+With 5.5 years of production experience, I can contribute React/TypeScript/Python code from day one without extensive ramp-up. I've shipped real systems that real users depend on - dashboards running 3+ years without maintenance, infrastructure managers handling distributed jobs. I'm ready to dive in and start providing value immediately.
 
 ---
 

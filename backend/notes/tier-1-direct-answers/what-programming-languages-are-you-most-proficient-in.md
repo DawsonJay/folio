@@ -1,14 +1,14 @@
 # What programming languages are you most proficient in?
 
-I'm most proficient in TypeScript and React, which I've used daily for 3.5 years at Nurtur from July 2022 to February 2026. These are where I have the most production experience and can deliver the most immediate value. I've built production systems that are still running today using these technologies.
+TypeScript and React are my strongest - I've used them daily for 3.5 years building production systems running 3+ years without maintenance and infrastructure managers handling distributed jobs. This is where I deliver the most immediate value.
 
-I have significant professional experience with C#. I used it as my primary backend language for 3 years at Nurtur, working with C# APIs, Azure Functions, and backend systems that supported the frontend dashboards I built. This gave me solid full-stack experience across the entire technology stack.
+I have strong C# experience as my primary backend language for 3 years at Nurtur. I worked with C# APIs, Azure Functions, and backend systems supporting the dashboards I built. Solid full-stack capability across the entire stack.
 
-I use Python extensively for AI/ML projects. I've built WhatNow, an AI-powered activity recommendation system using contextual bandits, moh-ami, a French learning tool with LLM integration, and Folio, the RAG-powered portfolio chatbot you're talking to right now. I've been familiar with Python for around 7 years, but I've been using it as a primary language for AI/ML work for about the past year. I'm comfortable with data science libraries like pandas, scikit-learn, and numpy.
+Python is my AI/ML language. I've built WhatNow using contextual bandits and reinforcement learning, moh-ami with LLM integration, and Folio, the RAG chatbot you're using now. I'm comfortable with data science libraries like pandas, scikit-learn, numpy, and FastAPI for building AI-powered APIs.
 
-JavaScript I'm advanced with, having used it for over 3.5 years professionally. It's the foundation language I use extensively with React. I understand modern JavaScript patterns, ES6+ features, and how to write clean, maintainable JavaScript code.
+JavaScript I'm advanced with, having used it 3.5+ years professionally. It's the foundation I use with React. I understand modern patterns, ES6+ features, async/await, and how to write maintainable code.
 
-When people ask about my programming languages, I typically emphasize TypeScript and React as my core strengths, with C# and Python as significant professional experience. I'm always learning and expanding my skills, especially in Python for AI/ML work, which aligns with my career goals.
+I typically emphasize TypeScript/React as core strengths with C# and Python as significant professional experience. I'm continuously expanding Python/AI skills, which aligns with my career goals in AI/ML web application development.
 
 ---
 

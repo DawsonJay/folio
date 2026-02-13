@@ -14,7 +14,7 @@ My approach to work-life balance is rooted in my core values of curiosity, colla
 
 **Gardening and ecology**: Treating the Earth with the same love, empathy, and respect as I do people I love. Nurturing life and feeling connected to earth's cycles provides grounding and perspective.
 
-**Experiencing awe**: Stars, land, seasons - feeling part of the cosmos. This sense of awe reminds me why I'm drawn to exploration technology and gives me energy to pursue ambitious goals.
+**Experiencing awe**: Stars, land, seasons - feeling part of the cosmos. This sense of awe gives me energy and perspective to pursue ambitious goals.
 
 ## Creative Pursuits
 

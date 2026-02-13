@@ -48,7 +48,7 @@
 
 **Long-term thinking**: I build systems that last. The Integrations Dashboard proves I think about maintainability, not just getting something working.
 
-**Growth trajectory**: I'm deliberately building from web development toward AI/robotics. Each project expands my skills strategically. Hiring me means hiring someone who's always pushing to learn more and take on bigger challenges.
+**Growth trajectory**: I'm deliberately building from web development toward AI/ML integration. Each project expands my skills strategically. Hiring me means hiring someone who's always pushing to learn more and take on bigger challenges.
 
 **Cultural fit**: I care about meaningful work, professional respect, and putting aside ego for the sake of creating something excellent. I want to work on projects that matter, with people who are passionate and skilled.
 

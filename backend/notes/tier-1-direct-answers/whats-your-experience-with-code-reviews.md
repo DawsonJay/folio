@@ -4,7 +4,7 @@ I have extensive experience with code reviews. At Nurtur, I conducted regular co
 
 I've also been on the receiving end of code reviews during my bootcamp and professional work. I understand how to incorporate feedback, respond to comments professionally, and use code reviews as learning opportunities.
 
-My approach to code reviews provides educational feedback. Rather than just approving or rejecting code, I explain why patterns work or don't work, suggest alternative approaches with rationale, and identify learning opportunities in each review. This teaching-through-reviews helps developers understand principles not just follow rules.
+My approach to code reviews provides educational feedback. Rather than just approving or rejecting code, I explain why patterns work or don't work, suggest alternative approaches with rationale, and identify learning opportunities in each review. Teaching-through-reviews - developers understand principles not just follow rules.
 
 When reviewing code, I look for: code quality and maintainability, potential bugs or edge cases, performance implications, alignment with project architecture, opportunities for improvement, and learning moments for the developer.
 

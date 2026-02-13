@@ -1,16 +1,14 @@
 # Do you have experience with LLMs?
 
-Yes, I have extensive experience with LLMs. I've integrated OpenAI's GPT-4o-mini in moh-ami, a French learning tool, and I'm using it in Folio, the RAG-powered portfolio chatbot you're talking to right now. I have significant experience with prompt engineering, designing structured prompts that produce consistent outputs.
+Yes, production experience integrating LLMs into web applications. moh-ami - French learning tool using GPT-4o-mini for detailed educational explanations. Folio - the RAG-powered chatbot you're using right now. My focus is prompt engineering that produces reliable, cost-effective results.
 
-In moh-ami, I built structured prompts that request specific JSON schema outputs, which makes the responses consistent and parseable. The system handles word-by-word mappings, grammar explanations, and cultural context. I designed careful prompts that extract exactly what I need from language models, with validation logic that catches common LLM errors before they reach users.
+In moh-ami, I designed structured prompts requesting specific JSON schemas, making responses consistent and parseable. The system handles word-by-word translations, grammar explanations, and cultural context. I built validation logic catching common LLM errors before they reach users. LLMs are powerful but unpredictable - production systems need careful error handling.
 
-I understand how to work with LLM APIs, handle rate limiting, and build systems that are both functional and cost-effective. I've used OpenAI's API extensively in moh-ami and Folio. I understand the challenges of working with LLMs - they're powerful but unpredictable, and building production systems requires careful prompt engineering, error handling, and cost management.
+Cost is minimal. moh-ami costs about £1-2 monthly for OpenAI API usage. Hosting covered by £5/month Railway subscription that hosts all my projects. I build efficient systems - batching requests, caching responses, choosing appropriate models for each task.
 
-In Folio, I'm using LLMs as part of a RAG system. RAG stands for retrieval-augmented generation, which combines knowledge bases with language models. The system uses embeddings for semantic search to find relevant information, then uses LLMs to generate responses based on that information. This approach provides more accurate and contextual answers than using LLMs alone.
+In Folio, I'm using LLMs as part of a RAG system - retrieval-augmented generation combining knowledge bases with language models. The system uses embeddings for semantic search to find relevant information, then LLMs generate responses based on that context. More accurate answers than using LLMs alone.
 
-I have experience with prompt engineering at an advanced level. I understand how to structure prompts to get consistent outputs, how to handle edge cases, and how to design systems that work reliably with LLMs. I've learned that LLMs are tools that require careful design to use effectively - they're not magic, they need thoughtful integration.
-
-I'm familiar with the cost implications of LLM usage. moh-ami costs under $10 per month for my personal usage, with most of that being hosting costs rather than API usage. I understand how to build efficient systems that use LLMs effectively without breaking the bank.
+My LLM experience focuses on integration. Building complete user experiences - handling streaming responses, designing loading states, managing errors gracefully, and creating interfaces that work reliably with AI capabilities.
 
 ---
 
