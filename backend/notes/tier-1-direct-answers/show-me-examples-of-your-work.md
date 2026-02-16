@@ -2,7 +2,7 @@
 
 My portfolio website at jamesfolio.dev has live demos and GitHub links for all my projects. Folio, the chatbot answering this question right now, uses RAG systems and semantic search. WhatNow is a production recommendation system using contextual bandits. moh-ami is an LLM-powered translation learning tool. All deployed and functional.
 
-The Integrations Dashboard at Nurtur has run 3+ years in production with zero maintenance serving 15+ sales team members daily. I can't share it publicly since it's internal company infrastructure, but the longevity and zero-bug-reports track record speak to code quality and architecture. The Nexus Dashboard - I reduced load times from 15+ seconds to under 5 seconds through strategic loading patterns and caching.
+The Integrations Dashboard at Nurtur has run 3+ years in production with zero maintenance serving the sales team daily. I can't share it publicly since it's internal company infrastructure, but the longevity and zero-bug-reports track record speak to code quality and architecture. The Nexus Dashboard - I reduced load times from 15+ seconds to under 5 seconds through strategic loading patterns and caching.
 
 For AI work, Folio is an end-to-end RAG implementation with 137 atomic notes as embeddings, semantic search, and prompt engineering for accurate responses. The system includes test-driven development with quantitative metrics validating retrieval precision. WhatNow is a machine learning deployment with two-layer learning architecture balancing fast adaptation with stable preferences.
 

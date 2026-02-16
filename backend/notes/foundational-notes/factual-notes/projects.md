@@ -362,7 +362,7 @@ Portfolio website featuring theatrical diorama design system with layered SVG an
 ### Integrations Dashboard
 - **Type**: Internal production system
 - **Status**: Still in production (2+ years later)
-- **Users**: 15+ sales team members (daily use)
+- **Users**: the sales team (daily use)
 - **Technologies**: React/TypeScript (frontend), API endpoints, PostgreSQL (backend)
 - **Outcomes**: Zero maintenance, zero crashes, zero bug reports
 - **Source Code**: Proprietary (cannot share)

@@ -4,7 +4,7 @@ This narrative complements the factual notes about Nexus Dashboard by providing 
 
 ## Context
 
-Nexus Dashboard (also known as Nexus Job Manager) was a modern React/TypeScript microfrontend built to replace a legacy "Robocop" interface for managing a distributed job processing system. The system involved Job Dispatchers, multiple Job Managers, and multi-tenant queues serving different estate-agency customers. The project was delivered as part of a 2-person team, with close collaboration between frontend and backend engineers.
+Nexus Dashboard (also known as Nexus Job Manager) was a modern React/TypeScript microfrontend built to replace a legacy "Robocop" interface for managing a distributed job processing system. The system involved Job Dispatchers, multiple Job Managers, and multi-tenant queues serving different tenants. The project was delivered as part of a 2-person team, with close collaboration between frontend and backend engineers.
 
 ## Story 1: Building a Frontend from Scratch as Part of a 2-Person Team
 
@@ -30,7 +30,7 @@ The result was that support and operations teams could spot issues faster (e.g. 
 
 ## Story 3: Handling Multi-Tenant Complexity Cleanly in the UI
 
-The Job Manager system is multi-tenant: different estate-agency customers run on shared infrastructure but need isolated queues and jobs ("instances"). The status API returned a hierarchical JSON structure that was powerful but quite complex.
+The Job Manager system is multi-tenant: different tenants run on shared infrastructure but need isolated queues and jobs ("instances"). The status API returned a hierarchical JSON structure that was powerful but quite complex.
 
 The task was to present multi-tenant data in a way that was understandable and safe: users needed to see per-customer queues and health, but we had to avoid confusion or cross-tenant leakage.
 

@@ -4,8 +4,7 @@
 
 **Company**: Nurtur (operating as BriefYourMarket.com)  
 **Duration**: July 2022 - February 2026 (3.5 years)  
-**Location**: Derby, UK  
-**Hours**: 9:00 a.m. to 5:30 p.m., Monday to Friday (flexible in practice)
+**Hours**: Standard full-time hours, flexible in practice
 
 ## Primary Responsibilities
 
@@ -25,7 +24,7 @@
 
 ### Nexus Dashboard
 
-**Most critical company system**: The main internal dashboard used by multiple teams daily.
+**Major internal system**: The main internal dashboard used by multiple teams daily.
 
 **My contributions**:
 - Implemented foundation blocks architecture for scalability

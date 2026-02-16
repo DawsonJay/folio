@@ -12,7 +12,7 @@
 
 **Integrations Dashboard**: Sole frontend developer on project that's been in production for 3+ years with zero maintenance. I learned backend implementation under senior mentorship, bridged the gap between backend and sales teams, created something intuitive and stable, and it's still providing value today without me needing to touch it.
 
-**Nexus Dashboard**: Working on company's most critical system, implementing foundation blocks architecture for scalability, focused on developer experience and safety layers.
+**Nexus Dashboard**: Working on a critical internal system, implementing foundation blocks architecture for scalability, focused on developer experience and safety layers.
 
 **Email Editor**: Mentored backend developers learning frontend, implemented Redux Toolkit and Lexical framework, contributed to major production system.
 

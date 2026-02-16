@@ -30,7 +30,7 @@
 - **Start Date**: 18 July 2022
 - **End Date**: 11 February 2026
 - **Duration**: 3 years 7 months (3.5 years)
-- **Location**: Brindley House, Outrams Wharf, Little Eaton, Derby DE21 5EL, United Kingdom
+- **Location**: UK
 - **Employment Type**: Full-time
 - **Probationary Period**: 6 months (completed January 2023)
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `atomic-notes/work/work-experience-timeline.md`
@@ -42,7 +42,7 @@
 - **Source**: `atomic-notes/work/work-experience-timeline.md`, User feedback 2026-02-07
 
 ### Working Conditions
-- **Hours**: 9:00 a.m. to 5:30 p.m., Monday to Friday
+- **Hours**: Full-time, standard business hours
 - **Break**: 60-minute unpaid break daily
 - **Holiday Entitlement**: 30 days (inclusive of public holidays)
 - **Holiday Year**: January 1st to December 31st
@@ -68,7 +68,7 @@
 - **Type**: Primary Frontend Ownership with Backend Mentorship
 - **Timeline**: July 2022 - November 2022 (4 months, first task when started at Nurtur)
 - **Status**: Still in production (3+ years later)
-- **Users**: 15+ sales team members (daily use)
+- **Users**: Sales team (daily use)
 - **Technologies**: React/TypeScript (frontend), API endpoints, PostgreSQL (backend)
 - **Outcomes**: 
   - Zero maintenance required

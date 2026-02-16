@@ -6,7 +6,7 @@ AI/ML capabilities: RAG systems, semantic search with embeddings, and prompt eng
 
 The clever mechanics set Folio apart. The atomic notes system with semantic search creates a knowledge base that's maintainable, accurate, and cost-effective. Instead of relying entirely on expensive LLM calls, the system retrieves only relevant information and constructs focused responses. This makes it practical to run while maintaining quality.
 
-The Integrations Dashboard would be second - production reliability and long-term thinking. Built 3+ years ago, it's still running with zero maintenance, zero bug reports, serving 15+ sales team members daily. That longevity came from solid architecture, clean code, and thinking about maintainability from day one, not just shipping features. Production systems that last years without maintenance are rare.
+The Integrations Dashboard would be second - production reliability and long-term thinking. Built 3+ years ago, it's still running with zero maintenance, zero bug reports, serving the sales team daily. That longevity came from solid architecture, clean code, and thinking about maintainability from day one, not just shipping features. Production systems that last years without maintenance are rare.
 
 The creative approach to Folio matters too. Most portfolio websites are static pages. Folio makes the portfolio itself an AI-powered interactive experience showing AI capabilities while being genuinely useful for evaluating my work.
 

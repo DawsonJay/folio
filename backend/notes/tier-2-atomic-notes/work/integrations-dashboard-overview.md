@@ -2,7 +2,7 @@
 
 The Integrations Dashboard represents one of my proudest professional achievements - my first major project where I was the sole frontend developer and learned backend implementation under senior mentorship. It has run in production for over 3 years with zero maintenance, zero crashes, and zero bug reports. This exceptional reliability combined with continuous user gratitude demonstrates building systems that just work.
 
-The project originated from a barebones buggy backend page that the sales team had to use daily. The existing interface showed raw API integration data in basic HTML tables with minimal formatting and frequent bugs. The 15+ sales team members who used it daily found it frustrating and unreliable. They needed something better but the backend developers who built it had moved on to other priorities.
+The project originated from a barebones buggy backend page that the sales team had to use daily. The existing interface showed raw API integration data in basic HTML tables with minimal formatting and frequent bugs. The sales team who used it daily found it frustrating and unreliable. They needed something better but the backend developers who built it had moved on to other priorities.
 
 I volunteered to rebuild it as a proper full-stack dashboard. This meant designing and implementing the complete React/TypeScript frontend for an intuitive user interface and learning to build backend API endpoints with PostgreSQL database for data access under senior developer mentorship. The project gave me primary ownership as the sole frontend developer, with guidance on backend implementation. This end-to-end responsibility while learning taught me how all the pieces fit together.
 

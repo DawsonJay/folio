@@ -6,7 +6,7 @@ My key responsibilities included front-end development duties, full-stack develo
 
 My major projects included the Integrations Dashboard, where I was the sole frontend developer in my first four months. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented the complete frontend and learned backend implementation under senior mentorship, working with React, TypeScript, PostgreSQL, and API endpoints. The dashboard has been in production for over 3 years without any maintenance, crashes, or bug reports.
 
-I worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading, intelligent caching, and careful data management. I designed a foundation blocks architecture that makes the dashboard maintainable and extensible. I worked on the company's most critical system, implementing architecture designed to adapt to major backend changes without significant frontend rewrites.
+I worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading, intelligent caching, and careful data management. I designed a foundation blocks architecture that makes the dashboard maintainable and extensible. I worked on a critical internal system, implementing architecture designed to adapt to major backend changes without significant frontend rewrites.
 
 I worked on the Email Editor project, a 4-person team rebuilding the core company product - the drag-and-drop email template system for client campaigns. I mentored 3 backend developers transitioning to full-stack roles, teaching them CSS and React concepts. I developed complex components including a link editor using the Lexical framework.
 

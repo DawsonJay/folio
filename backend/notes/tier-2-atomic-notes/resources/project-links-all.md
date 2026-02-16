@@ -52,7 +52,7 @@ This is my current project - an AI-powered portfolio chatbot using Retrieval Aug
 
 My professional work at Nurtur includes:
 
-- **Integrations Dashboard:** Internal production system (proprietary code, cannot share) running for 2+ years with zero maintenance, used daily by 15+ team members
+- **Integrations Dashboard:** Internal production system (proprietary code, cannot share) running for 2+ years with zero maintenance, used daily by the sales team
 - **Nexus Dashboard:** Enterprise component system with foundation block architecture for Job Manager visualization (proprietary)
 - **Email Editor Contributions:** Lexical framework integration and drag-and-drop system improvements (proprietary)
 

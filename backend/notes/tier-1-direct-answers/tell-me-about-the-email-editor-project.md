@@ -1,6 +1,6 @@
 # Tell me about the Email Editor project
 
-The Email Editor was a major team collaboration project at Nurtur rebuilding the core company product - the drag-and-drop email template system for client campaigns. Working in a 4-person team on the company's most critical product with shared ownership and coordinated development.
+The Email Editor was a major team collaboration project at Nurtur rebuilding the core company product - the drag-and-drop email template system for client campaigns. Working in a 4-person team on the a high-stakes internal product with shared ownership and coordinated development.
 
 The core product importance meant this wasn't experimental side project but fundamental business infrastructure. Clients use the email editor daily to create campaign templates. The system needed to be reliable, intuitive, and feature-complete. The high visibility and business criticality created pressure to deliver quality work that wouldn't embarrass the team or disrupt client workflows.
 

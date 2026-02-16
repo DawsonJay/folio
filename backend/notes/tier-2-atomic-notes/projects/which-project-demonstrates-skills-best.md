@@ -12,7 +12,7 @@ Folio - this portfolio chatbot - is my first choice. It's a creative idea that t
 
 ## Second Choice: Integrations Dashboard
 
-The Integrations Dashboard - production reliability and long-term thinking. Built 3+ years ago, it's still running with zero maintenance, zero bug reports, serving 15+ sales team members daily.
+The Integrations Dashboard - production reliability and long-term thinking. Built 3+ years ago, it's still running with zero maintenance, zero bug reports, serving the sales team daily.
 
 **Longevity proof**: That longevity came from solid architecture, clean code, and thinking about maintainability from day one, not just shipping features. Production systems that last years without maintenance are rare.
 

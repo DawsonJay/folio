@@ -1,6 +1,6 @@
 # What was your biggest accomplishment at Nurtur?
 
-The Integrations Dashboard - a production system that ran for 3+ years with zero maintenance, zero crashes, and zero bug reports. Built in my first 4 months at Nurtur (July-November 2022), it's still being used daily by 15+ sales team members. Users continue to express gratitude years later.
+The Integrations Dashboard - a production system that ran for 3+ years with zero maintenance, zero crashes, and zero bug reports. Built in my first 4 months at Nurtur (July-November 2022), it's still being used daily by the sales team. Users continue to express gratitude years later.
 
 I rebuilt a barebones, buggy backend page into an intuitive full-stack dashboard from scratch. I was the sole frontend developer and learned backend implementation under senior mentorship. I designed and implemented the complete React/TypeScript frontend and learned to build backend API endpoints with PostgreSQL under guidance. The architecture was solid from the start - defensive coding, comprehensive error handling, clear separation of concerns.
 

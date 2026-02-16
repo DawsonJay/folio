@@ -2,7 +2,7 @@
 
 The Integrations Dashboard is one of my proudest achievements at Nurtur. I built it in my first four months there, from July to November 2022. It was my first task when I started, and I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard.
 
-I was the sole frontend developer and learned backend implementation under senior mentorship. I designed and implemented the complete React/TypeScript frontend, and learned to build backend API endpoints with PostgreSQL under guidance from a senior developer. The dashboard displays integration status, health metrics, and provides tools for managing API connections and troubleshooting issues. It's used daily by 15+ team members and has become an essential tool for the company.
+I was the sole frontend developer and learned backend implementation under senior mentorship. I designed and implemented the complete React/TypeScript frontend, and learned to build backend API endpoints with PostgreSQL under guidance from a senior developer. The dashboard displays integration status, health metrics, and provides tools for managing API connections and troubleshooting issues. It's used daily by the sales team and has become an essential tool for the company.
 
 The project has required absolutely no maintenance for over 3 years. No crashes. No bug reports. No emergency fixes. It just works, day after day, doing its job reliably. The zero-maintenance record is objective proof of quality. Production-grade software, anticipating and preventing issues, building for longevity not just immediate needs, delivering reliable systems that become infrastructure.
 

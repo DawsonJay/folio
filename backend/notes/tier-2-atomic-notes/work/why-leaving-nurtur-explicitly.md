@@ -12,7 +12,7 @@ In 3.5 years at Nurtur (part of 5.5 years total professional experience), I've:
 - ✅ Developed mentoring capability (teaching backend devs frontend)
 - ✅ Proven full-stack ability
 - ✅ Mastered complex state management (Redux Toolkit)
-- ✅ Worked on company's most critical infrastructure (Nexus Dashboard)
+- ✅ Worked on critical internal infrastructure (Nexus Dashboard)
 
 **I've maximized what this role could teach me.** The redundancy provides an opportunity to pursue different challenges.
 
