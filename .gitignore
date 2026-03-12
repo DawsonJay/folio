@@ -68,3 +68,9 @@ backend/test_*.txt
 backend/compare_embeddings.py
 backend/embeddings.json.backup
 
+# Generated report/output files (repo root)
+direct-answer-quality-report-*.md
+direct-answer-quality-*.json
+recruiter_interview_*.json
+DIRECT-ANSWER-LENGTH-ANALYSIS.md
+
