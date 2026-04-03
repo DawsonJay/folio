@@ -18,7 +18,7 @@ I prefer small, motivated teams. 3-4 people who all believe in the project and a
 
 Ultimately, I'm looking for somewhere I can establish myself long-term. I'm not looking to job-hop or use a role as a stepping stone. I want to find a team and a mission I can commit to, where I can grow from mid-level to senior to potentially tech lead or architect over years of sustained contribution. The right opportunity is one where I can build a career, not just fill a position.
 
-The combination I'm seeking: Meaningful work that aligns with my values, opportunities for growth in leadership and technical depth, collaborative team culture with motivated people, commitment to quality and technical excellence, long-term career potential, and alignment with my goal of moving to Canada and building a life there.
+The combination I'm seeking: Meaningful work that aligns with my values, opportunities for growth in leadership and technical depth, collaborative team culture with motivated people, commitment to quality and technical excellence, and long-term career potential in Canada — where I'm now based and building my career.
 
 If you're building something that matters, if you value both technical excellence and team culture, if you're looking for someone who will grow with you and make your team stronger - that's what I'm looking for, and that's what I'll bring.
 

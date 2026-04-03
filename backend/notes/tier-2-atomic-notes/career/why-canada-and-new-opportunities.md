@@ -1,8 +1,8 @@
 # Why Canada and New Opportunities
 
-## Immigration to Canada
+## In Canada
 
-I'm actively pursuing permanent residence in Canada through the Working Holiday Visa pathway. Canada represents the alignment of my personal values with a place I can build a meaningful life.
+I moved to Canada and I'm based in Halifax, Nova Scotia. IEC Working Holiday visa issued and valid. Pursuing Permanent Residency through Canadian Experience Class after one year of Canadian work experience.
 
 ## Why Canada Specifically
 
@@ -12,7 +12,7 @@ I'm actively pursuing permanent residence in Canada through the Working Holiday 
 
 **Work-life balance and practical innovation**: Canadian tech culture emphasizes sustainable work and building things that matter over chasing unicorns. This aligns with what I'm looking for - meaningful projects at a sustainable pace.
 
-**Nature and outdoor recreation**: I like nature a lot and live in the Peak District for hiking access. Canada's vast landscapes and outdoor culture are a significant benefit, though the career opportunity is the primary driver.
+**Nature and outdoor recreation**: I like nature a lot. Canada's vast landscapes and outdoor culture are a significant benefit, though the career opportunity is the primary driver.
 
 ## What I'm Looking For
 
@@ -51,5 +51,5 @@ I'm actively pursuing permanent residence in Canada through the Working Holiday 
 - Values-driven work ethic that aligns with meaningful projects
 - Range of perspectives (art, teaching, kayaking) that inform technical work
 
-My move to Canada isn't just about finding "a job" - it's about finding where my career can grow in alignment with my values while contributing to projects that matter.
+I moved to Canada to find where my career can grow in alignment with my values while contributing to projects that matter.
 

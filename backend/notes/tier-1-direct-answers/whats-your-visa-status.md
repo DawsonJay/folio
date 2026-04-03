@@ -1,25 +1,18 @@
 # What's your visa status?
 
-My IEC Working Holiday visa application is submitted and in the final stages (biometrics scheduled); I'm currently waiting for the visa to be issued. It doesn't require employer sponsorship. I can start working remotely from the UK immediately while the visa is being issued, then relocate once it's active and housing is arranged.
+My IEC Working Holiday visa is issued and valid. I'm in Canada right now - based in Halifax, Nova Scotia. No employer sponsorship required.
 
-The Working Holiday visa strategy is deliberate. It gives me a two-year window to prove myself in the Canadian job market and demonstrate that I'm someone worth keeping. I'm not looking for shortcuts or trying to game the system - I'm building a portfolio of real work that shows Canadian employers what I can contribute.
+The visa gives me legal work authorization in Canada for up to two years. After one year of Canadian work experience, I'll apply for Permanent Residency through Canadian Experience Class. I'm managing that entire process myself - no burden on an employer.
 
-The plan is to work for 1 year with the Working Holiday visa, then apply for Permanent Residency through Canadian Experience Class. This is a long-term commitment to building a career and life in Canada, not just a temporary 2-year stay. The 2-year visa validity is the initial period, but the goal is to transition to permanent residency and stay in Canada long-term.
-
-I've completed my WES (World Education Services) educational credential assessment for Canadian immigration purposes. I've taken the IELTS English proficiency exam and scored 8.5 overall (C2 level), with perfect scores in listening, reading, and speaking. These aren't just bureaucratic checkboxes - they're demonstrations of my commitment and preparation.
-
-I can start working remotely from the UK immediately upon receiving a job offer, which allows me to begin contributing to a team right away while managing the practical aspects of relocating to Canada. This flexibility means you don't have to wait for me to physically relocate - I can start working and earning immediately.
-
-I don't need visa sponsorship from employers. The Working Holiday visa gives me legal work authorization, and I plan to complete the immigration path independently through Canadian Experience Class after gaining 1 year of Canadian work experience.
+I've completed everything required: IELTS (8.5 overall, C2 level), WES educational credential assessment, and the visa application process. The immigration side is sorted. I'm just looking for the right role.
 
 ---
 
 **emotion:** happy
 **suggestions:**
-- Do you have a work permit for Canada?
 - Do you need visa sponsorship?
 - What are your immigration plans?
-- Are you willing to relocate?
+- Are you planning to stay in Canada long-term?
+- Where in Canada are you based?
 - When can you start?
-- Why do you want to move to Canada?
-
+- Why did you move to Canada?

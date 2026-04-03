@@ -2,7 +2,7 @@
 
 I do silverworking, bookbinding, and baking. I also volunteer at a community garden. These are all hands-on, detail-oriented activities that require patience and craftsmanship - similar mindset to coding but in completely different domains.
 
-I like hiking a lot and chose to live in the Peak District (a big natural park in the centre of England) specifically for access to natural landscapes. I also run regularly.
+I like hiking a lot - one of the reasons I moved to Canada was the access to wilderness and natural landscapes. I also run regularly.
 
 Recently a lot of time has gone into building this portfolio and projects to demonstrate AI/ML capabilities, but the hobbies keep me grounded and give me space away from screens.
 

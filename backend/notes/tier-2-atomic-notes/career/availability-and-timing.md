@@ -1,14 +1,11 @@
 # Availability and Start Date Timeline
 
-I was made redundant at Nurtur in February 2026, and I completed the redundancy process including the notice period. I ensured a smooth transition by thoroughly documenting my work and helping transition my responsibilities to whoever took over the Nexus project. Professional transitions matter to me - I didn't want to leave a team in the lurch.
+I was made redundant at Nurtur in February 2026, and I completed the redundancy process including the notice period. I ensured a smooth transition by thoroughly documenting my work and helping transition my responsibilities. Professional transitions matter to me - I didn't want to leave a team in the lurch.
 
-After receiving a job offer, I'll need to find housing in Canada, which adds some variability to the exact start date. However, I can handle house hunting efficiently, so this shouldn't significantly delay when I can start. I'm flexible and can work with a new employer to find a timeline that works for both parties.
+I'm available to start immediately. Based in Halifax, Nova Scotia. No housing to arrange, no relocation logistics pending, no visa waiting on. I'm a local candidate.
 
-I don't have any other commitments that would affect my start date beyond housing arrangements. My focus is entirely on starting a new role ready to contribute from day one.
+I'm completely flexible on start date. Need someone next week? I can do that. Need someone in a month? That works too.
 
-My ideal timeline would be to secure housing in Canada and then start the new role. However, I understand that different opportunities may have different timelines and I'm flexible about that. One option that provides additional flexibility is that I can work remotely from the UK during the transition period if needed. This means I could start contributing to a new team while finalizing relocation arrangements.
+For interview availability, I can make time whenever needed. I'm flexible with scheduling and can accommodate different time zones.
 
-For interview availability, I can make time whenever needed. I'm flexible with scheduling and can accommodate different time zones easily. Fortunately, because of the time difference between the UK and Canada, most of my interviews have been in the evening UK time, which works very well for me. I can be available for interviews on short notice.
-
-I'm committed to making this work and will be proactive about finding housing once I have an offer. The practical aspects of relocation won't be barriers - I'll handle them efficiently so I can start contributing to a new team as soon as is reasonable after my notice period.
-
+The practical aspects of starting won't be barriers. I'm ready to contribute from day one.

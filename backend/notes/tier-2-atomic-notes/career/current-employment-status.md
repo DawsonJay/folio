@@ -8,7 +8,7 @@ I am currently unemployed and actively seeking new opportunities. I was made red
 
 **Availability**: I can start a new position immediately. I have no notice period, no current employment, and no other commitments that would delay my start date. I am ready to begin work right away.
 
-**Flexibility**: I'm flexible about start dates and can work with employers to find a timeline that works for both parties. I can also work remotely from the UK during the transition period if needed while finalizing relocation arrangements to Canada.
+**Flexibility**: I'm flexible about start dates and can work with employers to find a timeline that works for both parties. Based in Halifax, Nova Scotia - available immediately with no logistics pending.
 
 **Interview Availability**: I'm available for interviews at any time. I can accommodate different time zones easily, and I'm flexible with scheduling. I can be available for interviews on short notice.
 

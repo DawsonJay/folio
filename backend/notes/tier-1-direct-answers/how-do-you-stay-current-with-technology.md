@@ -1,20 +1,14 @@
 # How do you stay current with technology?
 
-I stay current with technology by building projects that require new technologies. I don't learn technologies for their own sake - I learn what I need to achieve something that inspires me. This goal-driven approach means every skill I learn has immediate practical application.
+By building things that require new technologies — not studying for its own sake. The skill has to earn its place in something real.
 
-I'm always pursuing goals, and learning happens naturally when working toward meaningful objectives. My career progression has been strategic - building on web development foundations, then expanding into AI/ML integration. This ensures I'm always learning because I'm always reaching for something just beyond my current capability.
+Portfolio projects are the mechanism: WhatNow required contextual bandits and reinforcement learning. moh-ami needed Next.js 14 App Router, GraphQL, Prisma, and LLM integration. Folio required RAG systems, vector embeddings, and LangChain. Atlantis required embedded systems and LoRa communication. Each project dragged me into skills I then owned.
 
-I learn by doing, not by reading. When I need to learn something new, I read enough to start, then build something that matters. I learn far more from encountering real problems than from tutorials. For example, when I built moh-ami, I needed to learn Next.js 14 App Router, GraphQL, and Prisma ORM. I learned them by building the application, encountering real problems, and solving them.
+I read others' code to understand decisions, not copy patterns. When I needed LLM integration in moh-ami, I studied OpenAI's examples and community approaches — but I wanted to know WHY they made certain choices before adapting them.
 
-I read other people's code and understand why they made certain choices. When I needed to integrate LLMs in moh-ami, I studied OpenAI's examples and other developers' approaches before implementing my own version. But I understand, don't copy. I want to know WHY they made certain choices, not just WHAT they did.
+Teaching also keeps me honest. Explaining CSS to backend developers or technical systems to sales teams forces me to truly understand what I'm saying. The gaps that teaching reveals get filled.
 
-I stay current by working on projects that push me. WhatNow required contextual bandits and reinforcement learning. moh-ami required LLM integration and GraphQL. Folio required RAG systems and embeddings. Atlantis required embedded systems and LoRa communication. Each project expands my skills strategically.
-
-I also stay current by teaching and mentoring. When I mentor backend developers learning CSS or explain technical concepts to sales teams, I have to truly understand something to explain it clearly. Teaching reveals gaps in my knowledge and forces me to fill them.
-
-I believe in continuous learning - you build strong foundations, then keep expanding as new challenges require new skills. This approach has let me move from web development to AI/ML to embedded systems, always building on solid fundamentals while staying open to learning what's needed for the next challenge.
-
-People who stop learning are the ones who stop making bigger, more exciting goals. My career progression ensures I'm always learning because I'm always reaching for something just beyond my current capability.
+The progression is deliberate: web development foundations → AI/ML integration → embedded systems. Always building on what's solid, always reaching for what's next.
 
 ---
 

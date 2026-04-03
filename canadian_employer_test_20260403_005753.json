@@ -1,0 +1,366 @@
+{
+  "summary": {
+    "total": 24,
+    "passes": 16,
+    "warns": 4,
+    "fails": 4,
+    "total_forbidden_hits": 2,
+    "total_required_misses": 12,
+    "total_red_flags": 3,
+    "failed_questions": [
+      "Tell me about a project where you were technical lead",
+      "What are your salary expectations?",
+      "What's your background?",
+      "Where are you based right now?"
+    ],
+    "warned_questions": [
+      "Why are you in Halifax? Are you local?",
+      "When can you start?",
+      "Where do you see yourself in five years?",
+      "Can you relocate to Vancouver if needed?"
+    ],
+    "verdict": "FAIL",
+    "verdict_note": "4 failures across the interview. Significant rework needed."
+  },
+  "results": [
+    {
+      "persona": "Halifax Startup",
+      "question": "Tell me about yourself",
+      "answer": "I'm a Frontend Engineer with 5.5 years of professional experience, specializing in React/TypeScript and AI integration. I build interfaces that last. The Integrations Dashboard I shipped at Nurtur has run 3+ years without maintenance or bug reports. The Nexus Dashboard I worked on went from 15+ second load times to under 5 seconds through strategic loading patterns and caching.\n\nI spent 3.5 years at Nurtur - a real estate tech company with about 20 developers, working in small focused teams of 3-5. I built full-stack applications with strongest expertise in frontend. I led technical architecture for internal dashboards managing distributed job systems, made independent decisions on data fetching and caching strategies, and mentored 3 backend developers transitioning to full-stack roles. The team was restructured in February 2026, so I'm seeking my next opportunity.\n\nI build AI-powered web applications alongside traditional frontend work. I've deployed recommendation systems using machine learning, LLM integrations for language learning, and semantic search chatbots. These aren't side projects - they're production applications solving real problems. I'm working at the intersection of React development and AI capabilities.\n\nI transitioned into tech from art about 11 years ago. Started self-taught in 2014, did an Ironhack bootcamp in 2020, and have been working professionally since. The art background helps with interface design and architectural intuition - I can sense structural problems early. I bridge gaps between technical and non-technical teams and focus on building things that create real value.\n\nI'm looking for mid to senior frontend roles where I can integrate AI capabilities into products that matter. Available immediately.",
+      "answer_preview": "I'm a Frontend Engineer with 5.5 years of professional experience, specializing in React/TypeScript and AI integration. I build interfaces that last. The Integrations Dashboard I shipped at Nurtur has run 3+ years without maintenance or bug reports. ...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 260
+    },
+    {
+      "persona": "Halifax Startup",
+      "question": "Why are you in Halifax? Are you local?",
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I am currently in Halifax as part of my relocation plans to Canada. Relocating to Canada isn't just an option for me; it's a proactive goal that I'm pursuing with intent. I am actively working towards obtaining permanent residence through the Working Holiday Visa pathway. My decision to move to Canada is driven by a strong alignment of personal and professional aspirations. \n\nCanada stands out to me for its welcoming environment, cultural diversity, and numerous opportunities in the tech industry. I believe that the vibrant tech scene here will allow me to grow and develop my skills further. I am particularly excited about the potential to connect my technical work to my immigration goals, especially through projects like Cirrus, which has a Canadian focus. This project not only showcases my technical abilities but also helps construct a narrative around my journey towards permanent residency, reflecting my genuine commitment to making Canada my new home.  \n\nHaving been made redundant at Nurtur in February 2026, I see this as an opportunity to pivot my career while pursuing my immigration plans. I am actively seeking new opportunities that will allow me to contribute to the Canadian tech landscape while I prepare for my application in 2026 when I become eligible. My experience and motivation align perfectly with the values and aspirations that Canada promotes, and I am eager to embrace this new chapter of my life here in Halifax. \n\nOverall, my relocation to Canada is a thoughtful decision, one that combines my career ambitions with personal growth and a desire to be part of a thriving community.",
+      "answer_preview": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I am currently in Halifax as part of my relocation plans to Canada. Relocating to Canada isn't just an option for me; it's a proactive goal that I'm pursu...",
+      "confidence": "medium",
+      "score": 0.376,
+      "forbidden_hits": [],
+      "required_misses": [
+        "no sponsorship"
+      ],
+      "red_flags": [],
+      "pass_fail": "WARN",
+      "word_count": 282
+    },
+    {
+      "persona": "Halifax Startup",
+      "question": "You're already in Canada — great. What's your work authorization status?",
+      "answer": "Yes. My IEC Working Holiday visa is issued and valid - I'm in Canada right now, based in Halifax, Nova Scotia. No employer sponsorship required.\n\nThe Working Holiday visa is a type of open work permit that allows me to work legally in Canada for up to two years for any employer. I don't need companies to do anything on the immigration side - I handle that myself.\n\nAfter one year of Canadian work experience, I'll apply for Permanent Residency through Canadian Experience Class. All the prerequisites are complete: IELTS (8.5 overall, C2 level), WES educational credential assessment, visa approved. The remaining step is simply getting the work experience itself.",
+      "answer_preview": "Yes. My IEC Working Holiday visa is issued and valid - I'm in Canada right now, based in Halifax, Nova Scotia. No employer sponsorship required.\n\nThe Working Holiday visa is a type of open work permit that allows me to work legally in Canada for up t...",
+      "confidence": "direct_answer",
+      "score": 0.711,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 110
+    },
+    {
+      "persona": "Halifax Startup",
+      "question": "When can you start?",
+      "answer": "I can start immediately. There's no notice period - the team at Nurtur was restructured in February 2026, ending that role. I have 5.5 years of production experience and can contribute React/TypeScript/Python code from day one without a long ramp-up period.\n\nI'm completely flexible on start date. Need me next week? I can do that. Need me in a month? That works too. I have no contracts holding me and I'm actively seeking the right opportunity.\n\nI'm based in Halifax, Nova Scotia - available to start locally or remotely from day one. I've shipped real systems that real users depend on and I'm ready to dive in immediately.",
+      "answer_preview": "I can start immediately. There's no notice period - the team at Nurtur was restructured in February 2026, ending that role. I have 5.5 years of production experience and can contribute React/TypeScript/Python code from day one without a long ramp-up ...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [
+        "no sponsorship"
+      ],
+      "red_flags": [],
+      "pass_fail": "WARN",
+      "word_count": 108
+    },
+    {
+      "persona": "Halifax Startup",
+      "question": "Walk me through your React and TypeScript experience",
+      "answer": "React is my strongest skill - used it daily for 3.5 years building production systems. Dashboard running 3+ years without maintenance. Infrastructure managers handling thousands of distributed jobs. AI-powered applications with LLM integration. Where I deliver the most immediate value.\n\nAdvanced with modern React patterns and TypeScript. Built complex dashboards managing backend infrastructure, drag-and-drop editors integrating the Lexical framework, and applications using Next.js 14 App Router with server components. Comfortable with hooks, context, component composition, and structuring large applications for maintainability and scale.\n\nPerformance optimization is a strength. I reduced the Nexus Dashboard load time from 15+ seconds to under 5 seconds through strategic loading patterns, intelligent caching with React Query, and careful component architecture. I identify bottlenecks, optimize rendering, and think across the entire stack from database queries to frontend display.\n\nExtensive state management experience with Redux Toolkit. Used it in production applications handling complex state, async operations with RTK Query, and real-time updates for distributed systems. I know when to use local component state versus global state and how to structure state for complex applications.\n\nI work with the modern React ecosystem - Next.js for server-side rendering, Vite for optimized builds, React Query for data fetching, Material UI for component libraries. I integrate React with AI capabilities, building interfaces for LLM-powered features, recommendation engines, and RAG systems.",
+      "answer_preview": "React is my strongest skill - used it daily for 3.5 years building production systems. Dashboard running 3+ years without maintenance. Infrastructure managers handling thousands of distributed jobs. AI-powered applications with LLM integration. Where...",
+      "confidence": "direct_answer",
+      "score": 0.728,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 219
+    },
+    {
+      "persona": "Halifax Startup",
+      "question": "What was your biggest accomplishment at your last job?",
+      "answer": "At Nurtur, my key responsibilities included front-end development duties, full-stack development (frontend and backend), conducting regular code reviews, providing technical guidance to colleagues, and mentoring other developers. I coordinated with colleagues for department cover during breaks and handled additional duties as necessary.\n\nMy primary focus was React/TypeScript frontend development, but I had full-stack responsibilities including backend work, architecture decisions, and mentoring. I used React and TypeScript daily for 3.5 years, building production systems that are still running today. I used C# as my primary backend language for 3 years, working with C# APIs, Azure Functions, and backend systems.\n\nI conducted regular code reviews and provided technical guidance. I mentored 3 backend developers transitioning to full-stack roles, teaching them CSS and React concepts. I developed a team dad leadership style focused on supporting teammates and creating environments where people can learn and grow.\n\nMy major projects included the Integrations Dashboard, where I was the sole frontend developer in my first four months. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented the complete frontend and learned backend implementation under senior mentorship, working with React, TypeScript, PostgreSQL, and API endpoints.\n\nI worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading, intelligent caching, and careful data management. I designed a foundation blocks architecture that makes the dashboard maintainable and extensible.\n\nI worked on the Email Editor project, a 4-person team rebuilding the core company product. I developed complex components including a link editor using the Lexical framework. I used Redux Toolkit for state management across multiple team projects.\n\nI was responsible for building production-quality systems that lasted, thinking about performance and user experience, and creating tools that provided real value to teams. The Integrations Dashboard has run 3+ years without maintenance.",
+      "answer_preview": "At Nurtur, my key responsibilities included front-end development duties, full-stack development (frontend and backend), conducting regular code reviews, providing technical guidance to colleagues, and mentoring other developers. I coordinated with c...",
+      "confidence": "direct_answer",
+      "score": 0.721,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 303
+    },
+    {
+      "persona": "Halifax Startup",
+      "question": "Tell me about a project where you were technical lead",
+      "answer": "Building Folio, the RAG-powered portfolio chatbot you're talking to right now, was challenging because I needed it up and running as soon as possible so I could start handing out applications. Not a theoretical project or a nice-to-have - essential for my job search. The challenge was balancing quality and features with time. I couldn't just throw something together, but I also couldn't spend months perfecting it.\n\nThe key is to create a good structure that is capable of supporting the full product, but defining a version with an absolute minimum level of content and features so it can start being used as fast as possible and providing value, but not have to be rewritten for the more complete versions. I think of it like a trellis for a seedling. You don't build a full trellis for a tiny seedling - that would take too long and the seedling might not even need it. But you also don't just stick a twig in the ground that will break when the plant grows. You build a structure that's appropriate for now but designed to support future growth.\n\nFor Folio, this meant building solid architecture from the start. The RAG system, embedding storage, and API structure needed to be built correctly because rebuilding those would be expensive. But I didn't need every feature immediately. The minimum viable product had to actually work - real RAG retrieval, real answers, real deployment. It couldn't be a prototype that would break when used.\n\nI've had plenty of small deadlines before so this wasn't totally new, but this required balancing quality architecture with rapid delivery. The pressure was real because this system needed to work reliably from day one - it couldn't be a prototype that would break when used. I cared deeply about getting it right, which meant I was willing to put in the focused effort needed to build something production-ready.\n\nThe Folio project is now live, providing value, and I'm continuing to improve it. The trellis worked - the structure I built supports ongoing growth without requiring rewrites. That's the approach I'll take to future tight deadlines: build the right structure, ship a viable version, then iterate.",
+      "answer_preview": "Building Folio, the RAG-powered portfolio chatbot you're talking to right now, was challenging because I needed it up and running as soon as possible so I could start handing out applications. Not a theoretical project or a nice-to-have - essential f...",
+      "confidence": "direct_answer",
+      "score": 0.703,
+      "forbidden_hits": [],
+      "required_misses": [
+        "halifax",
+        "issued",
+        "no sponsorship"
+      ],
+      "red_flags": [
+        "Too long (364 words — loses attention)"
+      ],
+      "pass_fail": "FAIL",
+      "word_count": 364
+    },
+    {
+      "persona": "Halifax Startup",
+      "question": "What are your salary expectations?",
+      "answer": "Based on my research for full-stack developers with AI/ML experience, I'm looking in the range of £55-75K depending on location, team, and total compensation package. I'm flexible within that range for the right opportunity.\n\nThe range accounts for my 5.5 years of professional experience, production systems that have run 3+ years with zero maintenance, AI/ML integration capabilities, and full-stack ownership. It's based on current market data for mid-to-senior full-stack roles with AI/ML experience.\n\nI care more about finding the right role - meaningful work in AI-powered web applications, a strong team, work-life balance, and growth opportunities - than maximizing the number. If the role is a great fit and the total package makes sense, I'm open to discussing where in that range works for both of us.",
+      "answer_preview": "Based on my research for full-stack developers with AI/ML experience, I'm looking in the range of £55-75K depending on location, team, and total compensation package. I'm flexible within that range for the right opportunity.\n\nThe range accounts for m...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [
+        "Salary question answered without a concrete number/range"
+      ],
+      "pass_fail": "FAIL",
+      "word_count": 127
+    },
+    {
+      "persona": "Toronto AI Company",
+      "question": "What's your background?",
+      "answer": "My background is pretty eclectic. I started in art - I completed a Foundation Year in Illustration at the University of Derby. But I realized that while I loved the creative process, I needed something that combined creativity with intellectual challenges. That's what drew me to coding.\n\nI began teaching myself programming around 2014, well before I considered it as a career. I started with Java because I wanted to understand AI concepts. I didn't take courses or follow structured tutorials - I just read books, tried things out, and built small projects. Exploratory approach that taught learning by doing.\n\nI tried studying AI at Heriot-Watt University, but found it too slow and disconnected from reality. I had already been coding for a few years by that point, and the coursework felt like it was holding me back rather than accelerating my growth. I completed 2 years of coursework and earned a Certificate of Merit for my first year, but I left to pursue a more practical path. The university experience wasn't wasted though - I gained foundational knowledge in machine learning, neural networks, algorithms, and databases that would later inform my work on AI/ML projects.\n\nI did an Ironhack bootcamp in May 2020, which was a strategic decision to bridge my personal project work into structured professional skills. The bootcamp was full-stack focused, covering React, Node.js, MongoDB, and professional development practices. Coming out of it, I had a portfolio of projects and the confidence to apply for junior developer positions. Within a few months, I secured my first professional role as a Junior Web Developer at BriefYourMarket.\n\nI also spent 15 months as a freelance web developer, which taught me that I prefer working in teams. I learned that I need teammates to share solutions with, people to discuss technical challenges with, and the ability to support others' growth. Working alone took that away.\n\nMy most recent role was at Nurtur, where I worked for 3.5 years as a Full Stack Developer, building production systems that are still running today. I'm currently seeking new opportunities.\n\nI combine artistic intuition and technical rigor. My art background gives me a sense of when code structure feels right, when something is done, and how systems should feel to users, not just function correctly. I approach problems with both creative problem-solving and logical investigation.",
+      "answer_preview": "My background is pretty eclectic. I started in art - I completed a Foundation Year in Illustration at the University of Derby. But I realized that while I loved the creative process, I needed something that combined creativity with intellectual chall...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [
+        "Too long (391 words — loses attention)"
+      ],
+      "pass_fail": "FAIL",
+      "word_count": 391
+    },
+    {
+      "persona": "Toronto AI Company",
+      "question": "Where are you based right now?",
+      "answer": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I am currently based in the UK, and I have been working remotely throughout my entire professional career. This has enabled me to develop a strong skill set in collaborative tools and communication strategies that are essential for remote work success. My remote experience spans various roles, including my time at BriefYourMarket and my recent position as a Full Stack Developer at Nurtur, where I worked from July 2022 until February 2026. \n\nDuring my tenure at Nurtur, I was involved in several projects that required extensive teamwork and coordination with colleagues across different time zones. This experience has not only honed my technical skills but also enhanced my ability to adapt to different working styles and cultures, which is particularly beneficial as I pursue new opportunities. \n\nCurrently, I am actively seeking to relocate to Canada, which aligns with my personal and professional aspirations. I am pursuing permanent residence through the Working Holiday Visa pathway, emphasizing my commitment to making Canada my new home. This move is not merely a possibility for me; it is a well-thought-out plan that I am executing with determination. I am excited about the prospect of contributing my skills and experiences to a new team in Canada and embracing the opportunities that come with such a significant transition. \n\nWhile the redundancy at Nurtur was unexpected, it has provided me with the chance to reflect on my career goals and look for roles that will align with my aspirations in Canada. I am ready to start immediately and contribute my expertise in a new setting, bringing my remote work capabilities and adaptability to a new team. \n\nIf you have more specific questions about my work experience, skills, or future plans, I would be happy to elaborate further!",
+      "answer_preview": "The question is a little vague - I'm better with more specific questions, but I'll try my best: I am currently based in the UK, and I have been working remotely throughout my entire professional career. This has enabled me to develop a strong skill s...",
+      "confidence": "medium",
+      "score": 0.317,
+      "forbidden_hits": [
+        "in the uk",
+        "relocate to canada"
+      ],
+      "required_misses": [
+        "halifax",
+        "no sponsorship"
+      ],
+      "red_flags": [],
+      "pass_fail": "FAIL",
+      "word_count": 308
+    },
+    {
+      "persona": "Toronto AI Company",
+      "question": "Do you need visa sponsorship?",
+      "answer": "No. My IEC Working Holiday visa is issued and valid - I'm in Canada right now, based in Halifax. No employer sponsorship required, no immigration paperwork for companies to deal with, no sponsorship costs.\n\nThe Working Holiday visa is an open work permit I manage myself. After one year of Canadian work experience, I'll apply for Permanent Residency through Canadian Experience Class independently. The only thing I need from an employer is the work experience itself.\n\nThere's no burden on the employer's side - it's the same as hiring any other local candidate from an administrative standpoint.",
+      "answer_preview": "No. My IEC Working Holiday visa is issued and valid - I'm in Canada right now, based in Halifax. No employer sponsorship required, no immigration paperwork for companies to deal with, no sponsorship costs.\n\nThe Working Holiday visa is an open work pe...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 97
+    },
+    {
+      "persona": "Toronto AI Company",
+      "question": "I see AI/ML on your CV — tell me about that",
+      "answer": "I've built production AI systems. WhatNow - recommendation engine using contextual bandits and reinforcement learning. moh-ami - LLM-powered language learning tool with structured prompt engineering. Folio - the RAG chatbot you're using right now. My focus is practical AI integration into web applications.\n\nWhatNow is end-to-end machine learning engineering. Two-layer learning architecture where Session AI learns quickly from current interactions while Base AI provides stability from historical data. The system uses semantic embeddings to match user context with 1,249 activities and continuously improves through real usage. Deployed in production and generates its own training data through user interactions - solving the dataset acquisition problem that killed my earlier computer vision projects.\n\nmoh-ami is LLM integration. Designed structured prompts requesting specific JSON schemas. Built validation logic catching common LLM errors before they reach users. The system handles word-by-word translations, grammar explanations, and cultural context through careful prompt engineering. Costs minimal - about £1-2 monthly for OpenAI API.\n\nFolio is RAG system architecture. Using LangChain for orchestration, OpenAI's text-embedding-3-small for semantic search, and GPT-4o-mini for response generation. The atomic notes approach enables precise retrieval - each note is self-contained and covers a single topic, so queries pull exactly relevant information without unrelated content.\n\nMy AI experience focuses on integration. I'm creating AI-powered user interfaces, handling streaming responses, designing loading states, and building complete systems. AI as a capability to integrate into frontend applications.",
+      "answer_preview": "I've built production AI systems. WhatNow - recommendation engine using contextual bandits and reinforcement learning. moh-ami - LLM-powered language learning tool with structured prompt engineering. Folio - the RAG chatbot you're using right now. My...",
+      "confidence": "direct_answer",
+      "score": 0.713,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 231
+    },
+    {
+      "persona": "Toronto AI Company",
+      "question": "What's your experience with RAG systems?",
+      "answer": "I've built Folio, the RAG-powered chatbot you're using right now. RAG stands for retrieval-augmented generation - combining knowledge bases with language models. Using LangChain for orchestration, OpenAI's text-embedding-3-small for semantic search, and GPT-4o-mini for response generation.\n\nThe atomic notes approach is key to Folio's design. Instead of long documents, the knowledge base contains self-contained notes each covering a single topic, written in first person. Granular structure enables precise retrieval - queries pull exactly relevant information without unrelated content dragging in.\n\nEmbeddings convert text into 1536-dimensional vectors where semantically similar content points in similar directions. Searching by meaning, not keywords. A query about leadership retrieves notes mentioning team dad approach even though leadership doesn't appear in them - the embedding understands they're semantically related.\n\nThe technical implementation uses local JSON storage with NumPy similarity calculations for vector search, appropriate for my dataset size. For larger production systems, I'd use dedicated vector databases like Pinecone or Weaviate. Understanding when simpler solutions suffice is part of good engineering.\n\nThe meta aspect - Folio is an AI system presenting an AI/ML portfolio. Practical RAG implementation with real-world trade-offs, not theoretical knowledge.",
+      "answer_preview": "I've built Folio, the RAG-powered chatbot you're using right now. RAG stands for retrieval-augmented generation - combining knowledge bases with language models. Using LangChain for orchestration, OpenAI's text-embedding-3-small for semantic search, ...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 187
+    },
+    {
+      "persona": "Toronto AI Company",
+      "question": "Have you integrated LLMs into web applications?",
+      "answer": "Yes, production experience integrating LLMs into web applications. moh-ami - French learning tool using GPT-4o-mini for detailed educational explanations. Folio - the RAG-powered chatbot you're using right now. My focus is prompt engineering that produces reliable, cost-effective results.\n\nIn moh-ami, I designed structured prompts requesting specific JSON schemas, making responses consistent and parseable. The system handles word-by-word translations, grammar explanations, and cultural context. I built validation logic catching common LLM errors before they reach users. LLMs are powerful but unpredictable - production systems need careful error handling.\n\nCost is minimal. moh-ami costs about £1-2 monthly for OpenAI API usage. Hosting covered by £5/month Railway subscription that hosts all my projects. I build efficient systems - batching requests, caching responses, choosing appropriate models for each task.\n\nIn Folio, I'm using LLMs as part of a RAG system - retrieval-augmented generation combining knowledge bases with language models. The system uses embeddings for semantic search to find relevant information, then LLMs generate responses based on that context. More accurate answers than using LLMs alone.\n\nMy LLM experience focuses on integration. Building complete user experiences - handling streaming responses, designing loading states, managing errors gracefully, and creating interfaces that work reliably with AI capabilities.",
+      "answer_preview": "Yes, production experience integrating LLMs into web applications. moh-ami - French learning tool using GPT-4o-mini for detailed educational explanations. Folio - the RAG-powered chatbot you're using right now. My focus is prompt engineering that pro...",
+      "confidence": "direct_answer",
+      "score": 0.693,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 200
+    },
+    {
+      "persona": "Toronto AI Company",
+      "question": "Are you open to fully remote?",
+      "answer": "Absolutely. My entire 5.5 year career has been remote. I've shipped production systems, mentored distributed teams, and collaborated effectively across time zones. The track record proves remote works for me.\n\nProduction systems running 3+ years without maintenance, infrastructure optimization reducing load times from 15+ seconds to under 5, mentoring 3 backend developers into full-stack roles - all done remotely without being co-located. I can start contributing from day one without setup delays or training on remote tools.\n\nI've worked with distributed teams at Nurtur, reached across departments to gather requirements and feedback, built relationships with colleagues I've never met in person. I use Microsoft Teams, Discord, and adapt quickly to whatever collaboration tools a team prefers. Clear written communication, proactive updates, focused video calls - the habits that make remote effective are already built in.\n\nRemote gives me focused time for deep work - complex debugging, architectural decisions, feature implementation. But I'm not dogmatic about it. If a role needs occasional office time for team events, whiteboarding sessions, or building relationships in person, I'm completely flexible. The goal is effective collaboration and high-quality output, and I've proven I can deliver that remotely.",
+      "answer_preview": "Absolutely. My entire 5.5 year career has been remote. I've shipped production systems, mentored distributed teams, and collaborated effectively across time zones. The track record proves remote works for me.\n\nProduction systems running 3+ years with...",
+      "confidence": "direct_answer",
+      "score": 0.904,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 192
+    },
+    {
+      "persona": "Toronto AI Company",
+      "question": "Why are you looking for a new role?",
+      "answer": "The project I was working on at Nurtur concluded in February 2026 when the team was restructured. The timing wasn't my choice, but it aligns with my career goals. I've learned what I could from Nurtur over 3.5 years, built solid production experience, and I'm ready for the next challenge.\n\nI've maximized what this role could teach me. I went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities on projects like the Integrations Dashboard, trusted me with critical systems like Nexus where I was technical lead. But Nurtur doesn't have opportunities to integrate AI/ML into web applications, which is where I want to grow.\n\nI'm seeking a role that uses my current strengths in full-stack web development while expanding into AI/ML integration. I want to work on web applications that incorporate AI capabilities - things like intelligent search, personalized recommendations, or LLM-powered features. I want to work with experienced engineers in areas that matter to me. My learning style is goal-driven - I learn best through meaningful projects, not abstract study.\n\nI'm ready to start immediately and bring 5.5 years of proven production experience. I'm not running away from problems. I'm running toward my goals.",
+      "answer_preview": "The project I was working on at Nurtur concluded in February 2026 when the team was restructured. The timing wasn't my choice, but it aligns with my career goals. I've learned what I could from Nurtur over 3.5 years, built solid production experience...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 199
+    },
+    {
+      "persona": "Toronto AI Company",
+      "question": "Where do you see yourself in five years?",
+      "answer": "In 5 years, I want to be a valuable member of my team - the person people go to for answers and advice on projects, the one people aren't scared to talk to. I want to be building things that provide real impact and value to the company and my team.\n\nWhat success looks like: Being the go-to person - Not just technically competent, but someone who makes the team stronger. When there's a difficult problem, people come to me because they know I'll help them figure it out without judgment. Leadership and team value - I want to be looking after the people around me. Being valuable to my team is how I look after them - delivering excellent work, mentoring others, making the team more effective. Building things that matter - Projects with real impact, not just features that ship and die. Work that provides genuine value to users and the business.\n\nLooking 5 years into the future, I want to be working in a small team on a project that we all partially own and deeply believe in the outcome of. I want to be working in a field I find exciting and meaningful, solving problems I find interesting - building AI-powered web applications that create real value and have genuine impact.\n\nI don't think much about legacy - it doesn't matter to me if I'm the smartest most important person in the room. I care about the goal that everyone works towards and I want to help achieve that. I want the work to be remembered because it achieved something great. I would be very proud if something I worked on made a real difference to people's lives, even if my name was only a footnote.\n\nI want to be continuing to grow - not just maintaining current skills, but expanding into new areas. My career progression has been strategic - building on web development foundations, then expanding into AI/ML integration. In 5 years I want to be working on projects that reflect this growth trajectory, combining strong web development skills with advanced AI capabilities.",
+      "answer_preview": "In 5 years, I want to be a valuable member of my team - the person people go to for answers and advice on projects, the one people aren't scared to talk to. I want to be building things that provide real impact and value to the company and my team.\n\n...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [
+        "halifax",
+        "issued",
+        "no sponsorship"
+      ],
+      "red_flags": [],
+      "pass_fail": "WARN",
+      "word_count": 349
+    },
+    {
+      "persona": "Vancouver Fintech",
+      "question": "Why did you move to Canada?",
+      "answer": "I've moved - I'm based in Halifax, Nova Scotia right now. But I can tell you why.\n\nCanada has a strong and developing AI industry. Organizations like the Vector Institute, the concentration of AI labs in Montreal and Toronto, and companies building production AI systems at scale make Canada the right place to develop a career in AI-powered web applications. The UK has good tech, but Canada is where the specific work I want to do is happening - not just research, but production systems creating real value.\n\nCanadian tech culture emphasizes work-life balance and practical innovation over chasing unicorns. The focus is on building things that matter and solving real problems. That matches how I think about work.\n\nI like nature a lot. Canada's outdoor recreation culture and vast wilderness are a significant benefit, though the career opportunity is the primary driver.\n\nI'm 31 with 5.5 years of professional experience. This was the right timing - established enough to contribute immediately, young enough to build a long-term career. I made a deliberate choice about where to build the next stage of my career rather than staying by default. I chose Canada.",
+      "answer_preview": "I've moved - I'm based in Halifax, Nova Scotia right now. But I can tell you why.\n\nCanada has a strong and developing AI industry. Organizations like the Vector Institute, the concentration of AI labs in Montreal and Toronto, and companies building p...",
+      "confidence": "direct_answer",
+      "score": 0.888,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 192
+    },
+    {
+      "persona": "Vancouver Fintech",
+      "question": "Are you planning to stay in Canada long-term?",
+      "answer": "Yes. I moved here - that's not a short-term experiment.\n\nThe path is: one year of Canadian work experience, then Permanent Residency application through Canadian Experience Class. I'll apply as soon as I have the year of experience, leaving months for processing within the two-year visa validity period. I'm not treating PR as an afterthought - it's the next step in the plan.\n\nI came because Canada aligns with what I want from my career and my life. Strong AI/ML industry, tech culture that builds things that matter, outdoor recreation culture that fits how I like to live. Those reasons haven't changed since I made the decision to come. I'm here for the long term.\n\nI'm looking for opportunities where I can contribute meaningfully for years - not a short-term contract or a role that has a ceiling I'll hit quickly. I want to grow with a team and build something over time.",
+      "answer_preview": "Yes. I moved here - that's not a short-term experiment.\n\nThe path is: one year of Canadian work experience, then Permanent Residency application through Canadian Experience Class. I'll apply as soon as I have the year of experience, leaving months fo...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 153
+    },
+    {
+      "persona": "Vancouver Fintech",
+      "question": "What's your visa situation?",
+      "answer": "My IEC Working Holiday visa is issued and valid. I'm in Canada right now - based in Halifax, Nova Scotia. No employer sponsorship required.\n\nThe visa gives me legal work authorization in Canada for up to two years. After one year of Canadian work experience, I'll apply for Permanent Residency through Canadian Experience Class. I'm managing that entire process myself - no burden on an employer.\n\nI've completed everything required: IELTS (8.5 overall, C2 level), WES educational credential assessment, and the visa application process. The immigration side is sorted. I'm just looking for the right role.",
+      "answer_preview": "My IEC Working Holiday visa is issued and valid. I'm in Canada right now - based in Halifax, Nova Scotia. No employer sponsorship required.\n\nThe visa gives me legal work authorization in Canada for up to two years. After one year of Canadian work exp...",
+      "confidence": "direct_answer",
+      "score": 0.879,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 96
+    },
+    {
+      "persona": "Vancouver Fintech",
+      "question": "Can you relocate to Vancouver if needed?",
+      "answer": "I am fully committed to relocating to Canada, and I'm actively pursuing this goal through the Working Holiday Visa pathway. My relocation plans are not just an option; they are a central part of my career strategy. I see Canada as a perfect match for my professional aspirations and personal values, which is why I'm focused on making this move happen as soon as possible.\n\nRegarding my availability, I was made redundant at Nurtur in February 2026, completing the redundancy process and ensuring a smooth transition during my notice period. This experience has positioned me to seek new opportunities and challenges, and I'm ready to start immediately. \n\nMy entire professional career has been remote, starting from my initial role at BriefYourMarket to my most recent position at Nurtur. This experience has equipped me with the skills needed to adapt to different work environments and maintain productivity while working from anywhere. I believe that my remote work experience is an asset that aligns well with many modern organizations, especially those looking for talent that can seamlessly integrate into a remote or hybrid setup. \n\nIn summary, I am not only open to relocating to Vancouver but am actively pursuing it as part of my career plan. I am excited about the prospect of new opportunities in Canada, confident that my skills and experience will contribute positively to any organization I join. I look forward to the chance to bring my expertise to a new team while embracing the vibrant culture and opportunities that Canada has to offer.",
+      "answer_preview": "I am fully committed to relocating to Canada, and I'm actively pursuing this goal through the Working Holiday Visa pathway. My relocation plans are not just an option; they are a central part of my career strategy. I see Canada as a perfect match for...",
+      "confidence": "high",
+      "score": 0.538,
+      "forbidden_hits": [],
+      "required_misses": [
+        "halifax",
+        "no sponsorship"
+      ],
+      "red_flags": [],
+      "pass_fail": "WARN",
+      "word_count": 255
+    },
+    {
+      "persona": "Vancouver Fintech",
+      "question": "Tell me about your work experience",
+      "answer": "I have 5.5 years of professional development experience, with my most recent role at Nurtur where I worked for 3.5 years as a Full Stack Developer from July 2022 to February 2026. I'm currently seeking new opportunities.\n\nMy professional experience started at BriefYourMarket.com as a Junior Web Developer in October 2020, which lasted 5 months. I then spent 15 months as a freelance web developer, which taught me that I prefer working in teams. I returned to the same company (now Nurtur) in July 2022 and worked there for 3.5 years until February 2026.\n\nMy strongest expertise is in full-stack web development with React and TypeScript, which I've used daily for 3.5 years at Nurtur. I've built production systems that are still running today, including the Integrations Dashboard, which has been in production for over 3 years without any maintenance. I also worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds, and the Email Editor, where I mentored backend developers transitioning to full-stack roles.\n\nI have significant professional experience with C# as my primary backend language for 3 years at Nurtur. I've also worked extensively with Python for AI/ML projects like WhatNow, moh-ami, and Folio, the RAG-powered portfolio chatbot you're talking to right now.\n\nI've developed leadership and mentoring capabilities. I successfully mentored 3 backend developers transitioning to full-stack roles and developed a team dad leadership style focused on supporting teammates. I can explain technical concepts to non-technical people and bridge communication gaps between different teams.\n\nI'm ready to start immediately and bring 5.5 years of proven production experience. I'm seeking a role that uses my current strengths in full-stack web development while expanding into AI/ML integration, and projects that align with my values of curiosity, collaboration, and craftsmanship.",
+      "answer_preview": "I have 5.5 years of professional development experience, with my most recent role at Nurtur where I worked for 3.5 years as a Full Stack Developer from July 2022 to February 2026. I'm currently seeking new opportunities.\n\nMy professional experience s...",
+      "confidence": "direct_answer",
+      "score": 0.756,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 294
+    },
+    {
+      "persona": "Vancouver Fintech",
+      "question": "How do you handle code reviews?",
+      "answer": "I have extensive experience with code reviews. At Nurtur, I conducted regular code reviews and provided technical guidance to colleagues. I understand how to review code effectively, provide constructive feedback, and ensure code quality before merging.\n\nI've also been on the receiving end of code reviews during my bootcamp and professional work. I understand how to incorporate feedback, respond to comments professionally, and use code reviews as learning opportunities.\n\nMy approach to code reviews provides educational feedback. Rather than just approving or rejecting code, I explain why patterns work or don't work, suggest alternative approaches with rationale, and identify learning opportunities in each review. Teaching-through-reviews - developers understand principles not just follow rules.\n\nWhen reviewing code, I look for: code quality and maintainability, potential bugs or edge cases, performance implications, alignment with project architecture, opportunities for improvement, and learning moments for the developer.\n\nI've used Git workflows for code reviews, understanding branching strategies, pull requests, and collaborative development practices. I understand how to review code effectively, provide constructive feedback, and ensure code quality before merging.\n\nCode reviews are also a teaching opportunity. When I reviewed code from backend developers learning frontend, I explained CSS concepts, React patterns, and frontend best practices. This educational approach helps developers grow their skills while maintaining code quality.\n\nI understand that code reviews are about improving the code and helping the developer grow, not about finding fault or showing superiority. I provide feedback that's constructive, specific, and actionable.",
+      "answer_preview": "I have extensive experience with code reviews. At Nurtur, I conducted regular code reviews and provided technical guidance to colleagues. I understand how to review code effectively, provide constructive feedback, and ensure code quality before mergi...",
+      "confidence": "direct_answer",
+      "score": 0.839,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 243
+    },
+    {
+      "persona": "Vancouver Fintech",
+      "question": "What are you looking for in your next role?",
+      "answer": "Mid to senior frontend role where I can integrate AI capabilities into products that matter. I want to bring LLM features, intelligent recommendations, and semantic search to web applications - combining React/TypeScript expertise with AI/ML skills I'm building.\n\nGrowth is central. Not just titles, but continuously expanding technical capabilities and leadership responsibility. I want to make architectural decisions, mentor developers, and contribute to technical strategy. I'm building toward roles combining technical depth with team leadership. I need to be somewhere I'm still learning in five years, tackling challenges I can't fully solve yet.\n\nI work best in small, motivated teams where everyone believes in the mission and focuses on excellent work. Results-focused cultures - judge me on what I create, not how I create it. My best work has been in teams of 3-4 people who are extremely good at what they do and genuinely care about the outcome.\n\nTechnical excellence needs to be valued and rewarded. I want to work somewhere that appreciates well-crafted code, thoughtful architecture, and systems built to last - where taking time to do things right is professional responsibility, not wasted effort. I've built systems that run years without maintenance because quality matters to me.\n\nMission matters. I'm energized by work helping people explore and understand the natural world, or technologies helping humanity live with nature rather than consume it. I'm adaptable on industries, but I need to believe the mission matters.\n\nI'm looking to establish myself long-term. Not job-hopping or seeking a stepping stone. I want a team and mission I can commit to, where I can grow from mid-level to senior to potentially tech lead over years of contribution.",
+      "answer_preview": "Mid to senior frontend role where I can integrate AI capabilities into products that matter. I want to bring LLM features, intelligent recommendations, and semantic search to web applications - combining React/TypeScript expertise with AI/ML skills I...",
+      "confidence": "direct_answer",
+      "score": 1.0,
+      "forbidden_hits": [],
+      "required_misses": [],
+      "red_flags": [],
+      "pass_fail": "PASS",
+      "word_count": 276
+    }
+  ]
+}

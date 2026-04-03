@@ -1,16 +1,14 @@
 # What motivates you as a developer?
 
-My fundamental values are curiosity, collaboration, and craftsmanship. These drive everything I do as a developer. Curiosity is about continuous learning and understanding how complex systems work. Collaboration is about building products that help teams and create real value. Craftsmanship is about taking pride in my work and building things that last.
+Three things: curiosity, collaboration, and craftsmanship.
 
-I love the moment of stepping back and seeing something perfect. Whether it's art or code, I spend hours in a creative frenzy working on a project. I'll stay up until early morning trying to get one thing perfect. Then I step back and see this perfect thing that I made, something real and lasting. Coding has an advantage over art because success isn't determined by subjective taste. It's determined by skill and the value the code produces.
+Curiosity drives the portfolio projects — WhatNow, moh-ami, Folio, Atlantis. I don't learn technologies for their own sake; I build things that require new skills, and the learning happens naturally. That goal-driven approach means every skill has immediate practical application.
 
-I'm driven by solving problems through cleverness. When resources are scarce, you have to turn to cleverness and creativity. The WhatNow project, an AI-powered activity recommendation system, showed this. I had to solve the dataset problem through evolution from manual metadata to embeddings because I couldn't just collect millions of user interactions. Innovation and practicality can be the same thing.
+Craftsmanship is about the moment of stepping back and seeing something that works properly. The Integrations Dashboard has run 3+ years without a single maintenance call. That outcome matters more to me than any short-term praise for shipping fast.
 
-Making teams better is deeply important to me. I want to be valuable to my team, not just for my technical skills but for how I help the team work together more effectively. I'm more motivated when I can show someone a clever approach and they understand why it's elegant. When I helped backend developers realize they could learn CSS, those moments of helping someone realize they're more capable than they thought drive me as much as solving technical problems.
+Collaboration is making the people around me better. At Nurtur I mentored backend developers into full-stack work — when someone realizes they can do something they thought was beyond them, that drives me as much as solving a hard technical problem.
 
-I'm passionate about building things that matter. Meaningful work that aligns with my values is more important for long-term satisfaction than compensation alone. I want to build AI-powered web applications that solve real problems and create genuine value for users. I'm driven to work on projects that have meaningful impact and align with my values.
-
-I'm always pursuing goals, and learning happens naturally when working toward meaningful objectives. My career progression has been strategic - starting with web development, then expanding into AI/ML integration, continuously building on my strengths while exploring new capabilities that enhance what I can build.
+The combination: meaningful work, cleverly done, alongside people who care about the outcome. That's what I'm looking for.
 
 ---
 

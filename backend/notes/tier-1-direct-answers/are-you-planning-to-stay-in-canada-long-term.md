@@ -1,25 +1,20 @@
 # Are you planning to stay in Canada long-term?
 
-Yes, absolutely. This isn't about "trying out" Canada. It's about choosing where I want to live long-term and finding work that grows with me there. The plan is to work for 1 year with the Working Holiday visa, then apply for Permanent Residency through Canadian Experience Class. This is a long-term commitment to building a career and life in Canada, not just a temporary 2-year stay.
+Yes. I moved here - that's not a short-term experiment.
 
-The 2-year visa validity is the initial period, but the goal is to transition to permanent residency and stay in Canada long-term. I'll start applying for Permanent Residency as soon as I have a year of experience, which leaves months for it to process within the 2-year visa validity period. I have no intention of leaving it until the last minute.
+The path is: one year of Canadian work experience, then Permanent Residency application through Canadian Experience Class. I'll apply as soon as I have the year of experience, leaving months for processing within the two-year visa validity period. I'm not treating PR as an afterthought - it's the next step in the plan.
 
-My motivation for Canada is something I describe as "homesickness for a place I've never been." There's something about Canada - its approach to technology and innovation, its balance between wild spaces and cities, its culture around quality of life and work-life balance - that resonates deeply with me. I've never been there, but everything I learn about it makes me feel like it's where I should be.
+I came because Canada aligns with what I want from my career and my life. Strong AI/ML industry, tech culture that builds things that matter, outdoor recreation culture that fits how I like to live. Those reasons haven't changed since I made the decision to come. I'm here for the long term.
 
-Moving to Canada isn't just about a job - it's about choosing where I want to build my life and career long-term. This commitment means I'm looking for opportunities that grow with me and where I can contribute meaningfully for years. I'm not treating Canada as a convenient destination - I'm investing in becoming part of the Canadian technical community and contributing to Canadian projects.
-
-I'm building specific skills in AI/ML, RAG systems, full-stack development, and hardware integration because these are the capabilities that Canadian companies need for the kinds of projects I want to work on. When I apply for positions, I want to be someone who can contribute immediately to meaningful work.
-
-The timing feels right. I have 5.5 years of professional experience and proven production systems, making this an ideal moment to make the move to Canada. I've built the technical foundation, I understand what I want to work on, and I'm ready to contribute to meaningful projects in a place that aligns with my values.
+I'm looking for opportunities where I can contribute meaningfully for years - not a short-term contract or a role that has a ceiling I'll hit quickly. I want to grow with a team and build something over time.
 
 ---
 
 **emotion:** happy
 **suggestions:**
-- Why do you want to move to Canada?
 - What are your immigration plans?
-- How committed are you to this move?
-- What's your timeline for moving?
-- Are you willing to relocate?
+- Why did you move to Canada?
+- How committed are you to staying?
 - What are you looking for in your next role?
-
+- What are your career goals?
+- What's your visa status?

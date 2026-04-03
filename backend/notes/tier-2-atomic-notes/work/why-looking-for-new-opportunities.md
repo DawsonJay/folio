@@ -25,15 +25,13 @@ I was made redundant at Nurtur in February 2026. While this wasn't my choice, it
 
 **I've maximized what this role could teach me**. The redundancy provides an opportunity to pursue different challenges that align with my growth trajectory.
 
-## Immigration to Canada
+## In Canada
 
-**Working Holiday Visa pathway**: Actively pursuing permanent residence in Canada.
+**Already relocated**: Based in Halifax, Nova Scotia. IEC Working Holiday visa issued and valid. Available immediately.
 
-**Why Canada**: Natural beauty, work-life balance culture, innovation in technology, strong AI/ML scene. I want to build my life and career there.
+**Why Canada**: Natural beauty, work-life balance culture, innovation in technology, strong AI/ML scene. I came to build my life and career here.
 
-**Timing**: This transition comes at the right time. I have 5.5 years of professional experience and proven production systems, making this an ideal moment to make the move to Canada.
-
-**Commitment**: This isn't about "trying out" Canada. It's about choosing where I want to live long-term and finding work that grows with me there.
+**Long-term**: Pursuing Permanent Residency through Canadian Experience Class after one year of Canadian work experience. This isn't about trying out Canada - I made a deliberate choice to be here.
 
 ## Seeking Values Alignment
 
@@ -80,7 +78,7 @@ I was made redundant at Nurtur in February 2026. While this wasn't my choice, it
 
 I'm looking because:
 1. **Transition**: Being made redundant provides opportunity to pursue next career stage
-2. **Geographic**: Moving to Canada for immigration and lifestyle
+2. **Geographic**: In Canada (Halifax) — building career and life here long-term
 3. **Technical**: Need more AI/ML and systems work to continue growth trajectory
 4. **Values**: Want projects that align with curiosity, collaboration, craftsmanship, and helping humanity relate to nature
 5. **Timing**: 5.5 years of professional experience is right time to make this move

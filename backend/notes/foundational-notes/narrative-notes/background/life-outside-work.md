@@ -4,7 +4,7 @@
 
 I do silverworking, bookbinding, and baking. I also volunteer at a community garden. These are all hands-on, detail-oriented activities that require patience and craftsmanship - similar mindset to coding but in completely different domains.
 
-I like hiking a lot and chose to live in the Peak District (a big natural park in the centre of England) specifically for access to natural landscapes. I also run regularly.
+I like hiking a lot - one of the reasons I moved to Canada was the access to wilderness and natural landscapes. I also run regularly.
 
 A lot of my time recently has been spent making projects and setting up this portfolio, so some hobbies have fallen by the side temporarily, but they're activities I return to when I have space.
 
@@ -32,7 +32,7 @@ This hierarchy keeps me balanced. Professional work matters, but it can't come a
 
 ## Connection to Work
 
-My life outside work isn't separate from my professional identity - it supports it. Hiking and connection to nature provide energy and perspective. The Peak District location was a deliberate choice to have access to the kind of environment that keeps me grounded.
+My life outside work isn't separate from my professional identity - it supports it. Hiking and connection to nature provide energy and perspective. Moving to Canada was partly about getting access to the kind of environment that keeps me grounded - the wilderness here is something I genuinely wanted in my life.
 
 The creative identity from art, the focused approach from kayaking competitions, and the supportive mindset from teaching all show up in how I work. They're not just hobbies or history - they're fundamental to who I am as a developer and team member.
 

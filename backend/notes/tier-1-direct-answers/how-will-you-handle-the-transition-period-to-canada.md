@@ -1,22 +1,18 @@
 # How will you handle the transition period to Canada?
 
-I'll start working remotely from the UK immediately upon receiving a job offer, then relocate to Canada once housing is secured. This approach reduces financial pressure and lets me start providing value from day one. I can find appropriate housing without rushing, and there's complete flexibility on relocation timing.
+The transition is already done. I'm based in Halifax, Nova Scotia - I've made the move and I'm settled here.
 
-There are no contracts holding me in the UK - I'm completely flexible on relocation timing. The Working Holiday visa application is submitted and in final stages (biometrics scheduled, waiting for visa to be issued). No work permit sponsorship required. Once the visa is active and housing is arranged, relocation happens smoothly.
+There's no transition period to manage. I'm available to start immediately with no logistical gaps. No relocation to organize, no visa to wait for, no housing to arrange. I'm a local candidate.
 
-For the housing search, I'll coordinate with the employer to understand the best locations relative to the office (if hybrid) or team members (if remote). I'll search remotely from the UK, possibly making a short trip to Canada to view apartments in person if needed. The flexible start (remote from UK) means there's no time pressure to rush housing decisions.
-
-During the remote period from the UK, I'll be fully available during Canadian working hours (adjusting my schedule as needed), attending all meetings and standups virtually, and delivering work at the same quality and pace as if I were in Canada. I've worked remotely before and understand the importance of communication, responsiveness, and building trust with teams you don't see in person daily.
-
-The transition is smooth, low-risk for employers, and maintains productivity throughout.
+My IEC Working Holiday visa is issued and valid. No employer sponsorship required. Nurtur ended February 2026 so I have no notice period. I can start contributing from day one.
 
 ---
 
-**emotion:** thinking
+**emotion:** happy
 **suggestions:**
-- Are you flexible on location within Canada?
-- Do you have housing arranged in Canada?
-- What support do you need for relocation to Canada?
-- Tell me about your relocation timeline
+- Where in Canada are you based?
 - What's your visa status?
-- Can you start immediately?
+- When can you start?
+- Are you open to relocating within Canada?
+- What are you looking for in your next role?
+- Why did you move to Canada?

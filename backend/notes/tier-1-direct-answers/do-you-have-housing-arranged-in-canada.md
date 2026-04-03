@@ -1,18 +1,18 @@
 # Do you have housing arranged in Canada?
 
-Not yet - I'll arrange housing after getting a job offer in the best location for that role. I can start working remotely from the UK immediately, then relocate to Canada while working. This means I start providing value from day one while finding appropriate housing without time pressure.
+Yes. I'm settled in Halifax, Nova Scotia - housing sorted, visa active, ready to work.
 
-Working Holiday visa application is in final stages - biometrics scheduled, waiting for visa to be issued. No employer sponsorship required. I have savings for relocation and can demonstrate the funds required for immigration.
+There's nothing pending on the logistics side. No relocation to organize, no waiting period. I'm a local candidate available immediately.
 
-I'm flexible on location within Canada. The approach is: secure the role, understand where I'll be working and how often in-person is needed, then find housing that supports that. Even fully remote positions typically expect occasional meetups, so location still matters.
+If the role requires relocating to a different city within Canada, I can handle that independently and quickly. I have no lease or other constraint locking me to Halifax.
 
 ---
 
-**emotion:** thinking
+**emotion:** happy
 **suggestions:**
-- What's your immigration status?
-- When can you start working?
-- Where in Canada are you looking?
-- Why are you moving to Canada?
-- What's your availability?
-- Do you need visa sponsorship?
+- Where in Canada are you based?
+- When can you start?
+- Are you open to relocating within Canada?
+- What's your visa status?
+- What are you looking for in your next role?
+- Are you open to remote work?

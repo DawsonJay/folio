@@ -8,7 +8,7 @@ But Nurtur doesn't have opportunities to integrate AI/ML into web applications, 
 
 I'm seeking mid to senior frontend roles using my strengths in React/TypeScript and AI/ML. I want to work with experienced engineers on problems that matter. I'm not running from problems - I'm running toward goals.
 
-I can start immediately with 5.5 years of proven production experience.
+I'm based in Halifax, Nova Scotia and can start immediately with 5.5 years of proven production experience.
 
 ---
 

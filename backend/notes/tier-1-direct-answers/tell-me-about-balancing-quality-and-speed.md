@@ -1,18 +1,14 @@
 # Tell me about balancing quality and speed
 
-Building Folio, the RAG-powered portfolio chatbot you're talking to right now, required balancing quality and features with time. I needed it up and running as soon as possible so I could start handing out applications. This wasn't a theoretical project or a nice-to-have - it was essential for my job search. I couldn't just throw something together, but I also couldn't spend months perfecting it.
+Building Folio under real time pressure — it was essential for my job search, not a theoretical project. I needed it deployed before I could start applications.
 
-The key is to create a good structure that is capable of supporting the full product, but defining a version with an absolute minimum level of content and features so it can start being used as fast as possible and providing value, but not have to be rewritten for the more complete versions. I think of it like a trellis for a seedling. You don't build a full trellis for a tiny seedling - that would take too long and the seedling might not even need it. But you also don't just stick a twig in the ground that will break when the plant grows. You build a structure that's appropriate for now but designed to support future growth.
+The principle I apply: build a structure capable of supporting the full product, but define an absolute minimum scope that actually works. I call it the trellis approach. You don't build a full trellis for a seedling — that takes too long and the plant doesn't need it. But a twig breaks when the plant grows. Build what's appropriate for now, designed to support what's next.
 
-For Folio, this meant building solid architecture from the start. The RAG system, embedding storage, and API structure needed to be built correctly because rebuilding those would be expensive. But I didn't need every feature immediately. The minimum viable product had to actually work - real RAG retrieval, real answers, real deployment. It couldn't be a prototype that would break when used.
+For Folio, the RAG system, embedding storage, and API structure had to be right from day one — those were too expensive to rebuild. But I didn't need every feature immediately. The MVP had to be viable, not perfect. Real retrieval, real answers, real deployment.
 
-I think perfection is bad - it takes too long and is generally unwanted. I do things in broad brushstrokes and test it against the real world. Some things will fail, and those are the things I then improve as they're the parts that are actually needed.
+Time pressure clarifies priorities. Perfection takes too long and is usually unwanted anyway. Ship something real, test against the world, improve the parts that actually matter.
 
-The MVP means "viable" - the minimum viable product has to actually be viable. It can't be a broken prototype. It has to work, provide value, and be something you'd actually use.
-
-Time pressure clarifies priorities. When you have limited time, you're forced to identify what actually matters.
-
-The Folio project is now live, providing value, and I'm continuing to improve it. The trellis worked - the structure I built supports ongoing growth without requiring rewrites. That's the approach I'll take to future tight deadlines: build the right structure, ship a viable version, then iterate.
+Folio is live. The trellis is holding. That's the approach I'll take to any quality/speed trade-off: right structure, viable version, iterate.
 
 ---
 

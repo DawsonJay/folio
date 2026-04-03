@@ -1,18 +1,18 @@
 # Where in Canada are you looking?
 
-I'm flexible on location within Canada. Finding the right role and company fit matters most. I want to be somewhere with a strong tech community and access to outdoor recreation, but I'm not fixated on one particular city.
+I'm based in Halifax, Nova Scotia right now. So Halifax is the natural starting point, but I'm not fixed here.
 
-I've visited Toronto and the botanical gardens. My approach is to find the right role first, then commit fully to the location that makes sense for that opportunity. Even fully remote positions typically expect occasional in-person meetups, so location still matters.
+If the right opportunity is in Toronto, Vancouver, Montreal, or anywhere else in Canada, I can relocate immediately. I have no constraints - no lease locking me in, no other commitments. Finding the right role and team matters more than the specific city.
 
-The flexibility is genuine. I'm moving to Canada for the long term, not for a specific city. Once I have the right role, I'll learn the city, build a network, and make it home.
+Remote is also fine. I've worked remotely my entire career and have a strong track record of delivering in that setup.
 
 ---
 
 **emotion:** thinking
 **suggestions:**
-- Why do you want to move to Canada?
-- What's your immigration timeline?
-- Tell me about your visit to Toronto
+- Are you open to relocating within Canada?
+- Are you open to remote work?
+- When can you start?
 - What are you looking for in a role?
-- Do you need visa sponsorship?
-- What's your availability?
+- What's your visa status?
+- What are your career goals?

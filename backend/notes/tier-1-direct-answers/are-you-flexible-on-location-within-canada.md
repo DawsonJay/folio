@@ -1,22 +1,18 @@
-# Are you flexible on location within Canada?
+# Can you relocate within Canada? Are you flexible on location?
 
-Yes, I'm flexible on location within Canada. Finding the right role and company fit matters most. I'd rather work on meaningful projects with a strong team in any Canadian city than optimize for a specific location.
+Yes. I'm currently based in Halifax, Nova Scotia, but I can relocate within Canada immediately. No constraints holding me here.
 
-I've visited Toronto and the botanical gardens, but I don't have strong preferences beyond that. You only really know how much you'll like a place once you've lived there for a while. I'm open to Toronto, Vancouver, Montreal, or elsewhere depending on where the right opportunity is.
+The right role and team matter more than the specific city. If the best opportunity is in Toronto, Vancouver, Montreal, or anywhere else, I'll move for it. I'm also comfortable with fully remote — my entire career has been remote and I've consistently delivered production systems in that setup.
 
-My approach: find the right role first, then commit to the location that makes sense for that role. Even fully remote positions typically expect occasional in-person meetups, so location still matters. I want to be where the team is based or at least within reasonable travel distance.
-
-The relocation strategy is flexible. I can start working remotely from the UK immediately upon receiving a job offer, then relocate to Canada once housing is secured. This approach reduces financial pressure, allows time to find appropriate housing without time pressure, and lets me start providing value from day one. There are no contracts holding me in the UK - I'm completely flexible on relocation timing.
-
-My Working Holiday visa application is submitted and in final stages (biometrics scheduled, waiting for visa to be issued). No work permit sponsorship required. Once the visa is active and housing is arranged, I can relocate wherever the role requires.
+Halifax is where I landed, but I'm not attached to it. I came to Canada for the career opportunity and the long-term plan, not for a specific location. My IEC Working Holiday visa is active — no employer sponsorship required wherever in Canada the role is.
 
 ---
 
 **emotion:** happy
 **suggestions:**
 - Where in Canada are you looking?
-- Have you been to Canada before?
-- Do you have housing arranged in Canada?
-- How will you handle the transition period to Canada?
-- What support do you need for relocation?
-- Tell me about your relocation timeline
+- Are you open to remote work?
+- When can you start?
+- What are you looking for in your next role?
+- What's your visa status?
+- What are your career goals?

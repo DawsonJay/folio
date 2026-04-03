@@ -1,12 +1,11 @@
-# Relocation Plans and Visa Status for Canada
+# Location and Relocation
 
-Relocating to Canada isn't just something I'm open to - it's my entire plan. I'm not exploring options or considering possibilities. I'm actively pursuing permanent residence in Canada and I'm committed to building my life and career there long-term.
+I'm based in Halifax, Nova Scotia, Canada. IEC Working Holiday visa issued and valid. No work permit sponsorship required from employers.
 
-My IEC Working Holiday visa application is submitted and in the final stages (biometrics scheduled); I'm currently waiting for the visa to be issued. This means I don't need any visa sponsorship from employers. There's no paperwork, no sponsorship costs, no immigration complexity for companies to deal with. I can start working remotely from the UK immediately while the visa is being issued, then relocate once it's active and housing is arranged. Once issued, the visa allows me to work in Canada for up to two years, and after one year of Canadian work experience, I'll apply for permanent residence through the appropriate immigration pathway. I'm managing this entire process myself.
+Halifax is my current base but I'm not fixed here. If the right opportunity is in Toronto, Vancouver, Montreal, or anywhere else in Canada, I can relocate immediately. No constraints holding me to Halifax - no lease, no other commitments.
 
-I haven't secured housing yet, and that's deliberate. I want to remain completely flexible for whatever job offer I receive. As soon as I get an offer, I'll immediately start looking for housing in that specific area. This approach ensures I can choose the right location based on the opportunity rather than being locked into a location before finding the right role.
+I'm flexible about location within Canada. Finding the right role and team matters more than the specific city. The long-term plan is Permanent Residency, so I'm committed to Canada as a whole.
 
-I'm flexible about location anywhere in Canada. My priority is finding the right opportunity and the right team. Whether that's Toronto, Vancouver, Montreal, Calgary, Ottawa, or anywhere else in Canada, I'm committed to making the move. I don't have a preferred city or region - I'm choosing based on where I find the best professional fit.
+For fully remote roles, my track record speaks for itself - my entire career has been remote and I've delivered production systems that have run 3+ years without maintenance.
 
-This relocation is a deliberate, well-planned decision based on alignment with Canadian values, culture, and the opportunities available in the Canadian tech sector. I'm not taking a chance or testing the waters. I have my IEC Working Holiday process in its final stages – the application is submitted, biometrics are scheduled, and I'm waiting for the visa to be issued. I have my immigration pathway planned, and I'm ready to commit to a Canadian employer for the long term. Relocating to Canada is the foundation of my current career planning, and I'm approaching it with the seriousness and commitment that reflects.
-
+What I need from an employer is only the work experience itself. No immigration support or sponsorship required. I handle the immigration path independently.

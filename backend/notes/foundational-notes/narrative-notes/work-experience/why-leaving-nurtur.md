@@ -14,11 +14,11 @@ The Nexus Dashboard project concluded in February 2026 when the team was restruc
 
 The next needed step is more AI/ML focused work, deeper technical challenges, and projects that align with my values of curiosity, collaboration, and craftsmanship. My long-term vision involves becoming a senior technical contributor specializing in AI-powered web applications that solve real problems and create genuine value.
 
-## Immigration to Canada
+## In Canada
 
-Immigration to Canada is a major factor in this transition. I'm actively pursuing permanent residence in Canada through the Working Holiday Visa pathway. Canada represents natural beauty, environmental values, work-life balance culture, and innovation in technology. I want to build my life and career there. This transition comes at the right time - I have 5.5 years of professional experience and proven production systems, making this an ideal moment to make the move to Canada.
+I've relocated to Halifax, Nova Scotia. I have my IEC Working Holiday visa — active, no employer sponsorship required. Canada represents the values I want to build my career around: natural beauty, work-life balance culture, and a tech ecosystem that's building real things.
 
-This isn't about "trying out" Canada. It's about choosing where I want to live long-term and finding work that grows with me there. I'm building specific skills in AI/ML, RAG systems, full-stack development, and hardware integration because these are the capabilities that Canadian companies need for the kinds of projects I want to work on.
+This isn't about "trying out" Canada. I'm here. The move is done. I'm building my career in the Canadian tech ecosystem, focused on AI/ML integration, RAG systems, and full-stack development — capabilities that Canadian companies need for the kinds of projects I want to work on.
 
 ## Values Alignment
 
@@ -46,8 +46,8 @@ I'm handling the transition professionally. I'm committed to a smooth transition
 
 ## The Bottom Line
 
-I'm looking for my next role because: (1) Transition - the project concluded, providing opportunity to pursue next career stage, (2) Geographic - moving to Canada for immigration and lifestyle, (3) Technical - need more AI/ML integration work to continue growth trajectory, (4) Values - want projects that align with curiosity, collaboration, craftsmanship, and building things that matter, (5) Timing - 5.5 years of professional experience is right time to make this move.
+I'm looking for my next role because: (1) Transition - the project concluded, providing opportunity to pursue next career stage, (2) Geographic - relocated to Halifax, Canada; building my career here, (3) Technical - need more AI/ML integration work to continue growth trajectory, (4) Values - want projects that align with curiosity, collaboration, craftsmanship, and building things that matter, (5) Timing - 5.5 years of professional experience and now settled in Canada is the right moment to find the right role.
 
 I'm not running away from problems. I'm running toward my goals. The next role should use my current strengths (full-stack web dev, AI/ML foundations, leadership) while growing me toward senior technical contributor in AI-powered web applications in a Canadian environment with meaningful work.
 
-The project conclusion, while the timing wasn't my choice, came at the right time. I've learned what I could from Nurtur, built solid production experience, and am ready for the next challenge. The transition to Canada and more values-aligned work represents the natural next step in my career progression.
+The project conclusion, while the timing wasn't my choice, came at the right time. I've learned what I could from Nurtur, built solid production experience, and am ready for the next challenge. I'm in Canada now — settled, available, and focused on finding work that aligns with where I want to take my career.

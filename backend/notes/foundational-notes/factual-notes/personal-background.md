@@ -17,7 +17,7 @@
 - **Place of Birth**: Derby, United Kingdom
 - **Nationality**: United Kingdom of Great Britain and Northern Ireland
 - **First Language**: English
-- **Current Location**: United Kingdom (specific location sensitive - only share when necessary)
+- **Current Location**: Halifax, Nova Scotia, Canada
 - **Source**: `linked-in-job-hunter/profile-documents/details.md` (sensitive location details excluded)
 
 ### Official Identification
@@ -123,10 +123,11 @@
 
 ### 2026 - Current Transition
 - **Status**: Unemployed, actively seeking opportunities
-- **Primary Goal**: Moving to Canada - seeking a job to enable relocation
+- **Location**: Based in Halifax, Nova Scotia, Canada (relocated April 2026)
+- **Primary Goal**: Secure work in Canada; available immediately
 - **Secondary Goal**: Bridge to more AI/ML related work (would like to transition but not a requirement)
-- **Priority**: Job that enables Canada move is the primary focus; AI/ML work is preferred but secondary
-- **Source**: `atomic-notes/career/current-employment-status.md`, User feedback 2026-02-07
+- **Relocation**: Can relocate within Canada immediately if required
+- **Source**: `atomic-notes/career/current-employment-status.md`, User feedback 2026-04-02
 
 ---
 
@@ -211,7 +212,7 @@
 - **2022**: Back to Nurtur as Full Stack Developer
 - **2023-2024**: Grew into trusted contributor on critical systems, mentor to others
 - **2025**: Ready for next step - more AI/ML integration work, alignment with values, specializing in AI-powered web applications
-- **2026**: Made redundant, seeking new opportunities in Canada
+- **2026**: Made redundant, relocated to Halifax Canada, seeking new opportunities
 - **Source**: `atomic-notes/work/work-experience-timeline.md`
 
 ---

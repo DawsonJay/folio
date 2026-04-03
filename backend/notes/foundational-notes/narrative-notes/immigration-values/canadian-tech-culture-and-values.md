@@ -18,9 +18,9 @@ What draws me to Canadian tech is the values I've learned about:
 
 ## Nature and Outdoor Recreation
 
-I like nature a lot. I live in the Peak District specifically for access to hiking and natural landscapes. Canada's vast landscapes and culture of outdoor recreation are a significant benefit - I want to live where access to nature is supported by both the geography and the culture.
+I like nature a lot. Canada's vast landscapes and culture of outdoor recreation are a significant benefit - one of the reasons I moved here. I want to live where access to nature is supported by both the geography and the culture.
 
-This is a secondary benefit rather than the primary driver. The career opportunity in AI/ML is what drives the decision, but the outdoor recreation culture and wilderness access matter to me and are a meaningful part of why Canada appeals.
+This is a secondary benefit rather than the primary driver. The career opportunity in AI/ML is what drives the decision, but the outdoor recreation culture and wilderness access matter to me.
 
 ## AI/ML Ecosystem
 
@@ -30,15 +30,15 @@ I'm interested in building AI-powered web applications that solve real problems.
 
 ## What I Know Concretely
 
-**I've visited Toronto**: I've been to Toronto and the botanical gardens, which gave me a taste of what the city is like. But one visit doesn't make me an expert - it just showed me enough to know I want to learn more.
+**Based in Halifax**: I moved to Halifax, Nova Scotia. I'm learning Canadian tech culture from the inside now, not just reading about it.
 
-**I'm flexible on location**: I'm flexible on which Canadian city I end up in. What matters most is finding the right role and company fit. I believe you only really know how much you'll like a place once you've lived there for a while, so I'm open to discovering where in Canada works best for me.
+**I've visited Toronto**: Before moving I visited Toronto and the botanical gardens, which gave me a taste of the city.
 
-**Right role first, then location**: My approach is to find the right role with the right company, then commit to the location that makes sense for that role. Even fully remote positions typically expect occasional in-person meetups, so location still matters even for remote-first companies.
+**Flexible on location within Canada**: I'm based in Halifax but open to relocating within Canada for the right opportunity. What matters most is finding the right role and company fit.
 
 ## One Sentence for Interviews
 
-*"I'm still learning about Canadian tech culture, but the strong AI ecosystem (Vector Institute, AI labs, production systems) and focus on work-life balance align with my career goals. I want to learn more by being part of it rather than just reading about it."*
+*"I'm based in Halifax now - still learning Canadian tech culture from the inside. The strong AI ecosystem and focus on work-life balance are exactly what I came for."*
 
 ## What This Demonstrates
 

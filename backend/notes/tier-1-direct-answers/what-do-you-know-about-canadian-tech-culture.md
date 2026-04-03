@@ -4,17 +4,17 @@ Canada has a strong AI research and industry presence, particularly in Montreal 
 
 Canadian tech culture emphasizes work-life balance and quality of life in ways that align with my values. The focus seems to be on building things that matter and solving real problems over chasing venture capital unicorns. This practical approach to innovation aligns with my values of curiosity, collaboration, and craftsmanship. I want to work on meaningful projects without burning out.
 
-I've visited Toronto and the botanical gardens. I'm flexible on city location - what matters most is finding the right role and company fit first. Canada's vast landscapes and outdoor recreation culture matter to me too. I live in the Peak District specifically for access to nature, and that's part of why Canada appeals.
+I've been to Toronto and I'm now based in Halifax, which has a smaller but growing tech scene — a lot of government tech, defence, and ocean tech, and a tight-knit developer community. Canada's outdoor culture is one of the reasons I'm here. Access to nature is something I genuinely value, and Halifax delivers on that.
 
-I'm honest that I'm still learning and want to learn more by being part of Canadian tech culture rather than just reading about it. You only really know a place once you've lived there. I'm approaching this as someone committed to understanding and contributing to Canadian tech, not just getting a visa.
+I know you only really understand a place once you've lived there. I'm here, I'm invested, and I want to contribute — not just participate in Canadian tech culture but help shape it.
 
 ---
 
 **emotion:** thinking
 **suggestions:**
-- Why do you want to move to Canada?
+- Why did you choose Halifax?
 - What are you looking for in a role?
 - Tell me about your AI/ML experience
 - What drives you as a developer?
-- Where in Canada are you looking?
-- What's your immigration timeline?
+- Are you open to relocating within Canada?
+- What's your visa status?

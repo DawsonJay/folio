@@ -4,7 +4,7 @@ I can start immediately. There's no notice period - the team at Nurtur was restr
 
 I'm completely flexible on start date. Need me next week? I can do that. Need me in a month? That works too. I have no contracts holding me and I'm actively seeking the right opportunity.
 
-I can work remotely immediately upon receiving an offer, which means I can begin contributing right away. I've shipped real systems that real users depend on - I'm ready to dive in and start providing value.
+I'm based in Halifax, Nova Scotia - available to start locally or remotely from day one. My IEC Working Holiday visa is active, so no employer sponsorship is required and there's nothing on my end slowing this down. I've shipped real systems that real users depend on and I'm ready to dive in immediately.
 
 ---
 
