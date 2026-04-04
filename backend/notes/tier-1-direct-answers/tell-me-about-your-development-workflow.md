@@ -14,7 +14,7 @@ Git provides safety nets for experimentation. Commit messages document decision-
 **suggestions:**
 - What's your experience with code reviews?
 - Tell me about version control
-- What development tools do you use?
-- How do you work in a team?
-- How do you ensure code quality?
-- What's your experience with Git?
+- What did you build at Nurtur?
+- Tell me about the Nexus Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project

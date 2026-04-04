@@ -16,10 +16,10 @@ My CSS experience spans multiple approaches, giving me flexibility to choose the
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your frontend development experience
-- How do you approach UI/UX design?
-- What challenges have you faced?
-- Tell me about your React experience
-- How do you ensure code quality?
-- What frontend tools do you use?
+- Tell me about the Email Editor project
+- Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 

@@ -16,5 +16,5 @@ I know you only really understand a place once you've lived there. I'm here, I'm
 - What are you looking for in a role?
 - Tell me about your AI/ML experience
 - What drives you as a developer?
-- Are you open to relocating within Canada?
-- What's your visa status?
+- What are your weaknesses as a developer?
+- Why do you want to work at a startup?

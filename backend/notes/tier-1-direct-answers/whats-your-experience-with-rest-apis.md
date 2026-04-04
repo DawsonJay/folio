@@ -17,9 +17,9 @@ My REST API experience spans both backend development and frontend integration. 
 **emotion:** happy
 **suggestions:**
 - What's your backend development experience?
-- How do you approach API design?
-- What challenges have you faced?
-- Tell me about your work experience
-- How do you ensure code quality?
-- What backend tools do you use?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 

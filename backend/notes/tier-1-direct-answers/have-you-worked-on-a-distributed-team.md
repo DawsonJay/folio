@@ -20,6 +20,6 @@ I've been working remotely for nearly six years now, and I've developed strong i
 - How do you work in a team?
 - How do you communicate technical concepts?
 - What are you looking for in your next role?
-- How do you approach problem-solving?
-- Tell me about your work experience
+- Tell me about BriefYourMarket
+- What did you build at Nurtur?
 

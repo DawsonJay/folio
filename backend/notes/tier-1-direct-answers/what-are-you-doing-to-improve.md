@@ -15,6 +15,6 @@ I'm developing formal leadership capabilities. My team dad approach has worked w
 - What are your career goals?
 - What areas do you want to grow in?
 - What's your biggest weakness?
-- How do you learn new technologies?
-- Have you mentored other developers?
-- What AI/ML experience do you have?
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?

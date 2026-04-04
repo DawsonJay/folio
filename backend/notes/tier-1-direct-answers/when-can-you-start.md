@@ -15,5 +15,5 @@ I'm based in Halifax, Nova Scotia - available to start locally or remotely from 
 - Are you willing to relocate?
 - What are you looking for in your next role?
 - Why are you looking for a new role?
-- What's your current employment status?
+- What did you build at Nurtur?
 

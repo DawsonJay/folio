@@ -15,9 +15,9 @@ TypeScript is where I have the most production experience and can deliver the mo
 **emotion:** happy
 **suggestions:**
 - Tell me about your React experience
-- What projects have you built with TypeScript?
-- How do you ensure code quality?
-- What challenges have you faced?
-- What frontend tools do you use?
-- How do you approach learning new languages?
+- What did you build at Nurtur?
+- Tell me about the Email Editor project
+- Tell me about the Nexus Dashboard
+- Tell me about the moh-ami project
+- What is Folio and how does it work?
 

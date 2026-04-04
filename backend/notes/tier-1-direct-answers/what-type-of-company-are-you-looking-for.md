@@ -16,5 +16,5 @@ Location flexibility is important. I'm relocating to Canada and open to companie
 - What's important to you in a role?
 - What are your career goals?
 - Why are you looking to move to Canada?
-- What size team do you prefer?
-- Tell me about your ideal work environment
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard

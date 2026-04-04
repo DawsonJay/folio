@@ -17,7 +17,7 @@ I build things that last. The Integrations Dashboard has run 3+ years without ma
 - What projects have you built?
 - How do you approach problem-solving?
 - Tell me about your work experience
-- What makes you unique as a developer?
+- Describe your ideal work environment
 - How do you ensure code quality?
-- What are you passionate about?
+- Tell me about the Integrations Dashboard
 

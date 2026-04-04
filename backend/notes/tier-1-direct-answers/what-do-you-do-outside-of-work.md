@@ -14,5 +14,5 @@ Recently a lot of time has gone into building this portfolio and projects to dem
 - How did you transition from art to tech?
 - Tell me about your background
 - How do you manage work-life balance?
-- What drives you as a developer?
-- Tell me about your teaching experience
+- Tell me about the WhatNow project
+- What is Folio and how does it work?

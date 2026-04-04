@@ -19,4 +19,4 @@ Difficult situations require understanding the real problem (not just symptoms),
 - Tell me about the Nexus Dashboard
 - What was your biggest challenge at Nurtur?
 - How did you grow in your position at Nurtur?
-- Tell me about working under pressure
+- Tell me about the Email Editor project

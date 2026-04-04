@@ -17,7 +17,7 @@ TypeScript isn't just a tool I know - it's fundamental to how I build frontend s
 - Tell me about your React experience
 - What projects have you built with TypeScript?
 - How do you ensure code quality?
-- What challenges have you faced?
+- How do you decide when to refactor versus rewrite?
 - What frontend tools do you use?
-- How do you approach learning new languages?
+- Tell me about the Nexus Dashboard
 

@@ -21,5 +21,5 @@ I'm comfortable with advanced Git features like rebasing, cherry-picking, and re
 - What projects have you built?
 - How do you ensure code quality?
 - How do you work in a team?
-- What development tools do you use?
+- What did you build at Nurtur?
 

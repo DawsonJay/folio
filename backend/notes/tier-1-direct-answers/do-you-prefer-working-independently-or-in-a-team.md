@@ -18,6 +18,6 @@ I can work independently when needed. I'm comfortable with self-direction and I 
 - Have you mentored other developers?
 - Tell me about your leadership style
 - How do you communicate technical concepts?
-- What makes you unique as a developer?
+- How do you approach frontend performance optimization?
 - Tell me about your freelance experience
 

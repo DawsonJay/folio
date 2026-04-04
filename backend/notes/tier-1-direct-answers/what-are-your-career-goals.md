@@ -16,8 +16,8 @@ I'm committed as long as I'm growing and providing value. I don't think in fixed
 **suggestions:**
 - What are you looking for in your next role?
 - Why are you looking for a new role?
-- What are you passionate about?
-- What makes you unique as a developer?
+- How do you handle disagreements with teammates?
+- How do you stay current with technology?
 - How do you approach learning new technologies?
 - What are your strongest technical skills?
 

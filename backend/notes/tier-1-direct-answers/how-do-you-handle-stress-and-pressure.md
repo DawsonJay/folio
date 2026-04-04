@@ -18,6 +18,6 @@ I move on from mistakes quickly. In both kayaking and debugging, dwelling on err
 - How do you handle failure?
 - Describe a difficult situation and how you handled it
 - How do you approach problem-solving?
-- What challenges have you faced?
-- How do you work in a team?
+- How do you handle disagreements with teammates?
+- Tell me about the Integrations Dashboard
 

@@ -18,5 +18,5 @@ My GitHub has full source code for personal projects. Portfolio website includes
 - What is WhatNow?
 - Tell me about moh-ami
 - What was the Integrations Dashboard?
-- How do you approach project architecture?
-- What technologies do you use?
+- What did you build at Nurtur?
+- Tell me about the Nexus Dashboard

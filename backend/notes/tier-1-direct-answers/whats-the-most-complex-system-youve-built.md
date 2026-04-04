@@ -19,7 +19,7 @@ The system was designed to adapt to major backend changes without significant fr
 - What challenges did you face building it?
 - Tell me about your work experience
 - How do you approach system design?
-- What makes a project successful?
-- How do you ensure code quality?
-- Tell me about performance optimization
+- Why do you want to work at a startup?
+- What did you build at Nurtur?
+- Tell me about the Nexus Dashboard
 

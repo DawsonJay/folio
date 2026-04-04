@@ -21,5 +21,5 @@ WhatNow is a production-deployed application that I actually use in my daily lif
 - Have you worked with recommendation systems?
 - What's your understanding of embeddings?
 - How do you approach AI system design?
-- What challenges have you faced?
+- How do you approach technical debt?
 

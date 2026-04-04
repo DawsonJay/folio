@@ -14,7 +14,7 @@ I learned from freelancing that isolation isn't healthy for me. Balance means ha
 **suggestions:**
 - What motivates you as a developer?
 - What are your career goals?
-- What are you passionate about?
+- How do you approach technical debt?
 - How do you approach challenges?
-- What makes you unique as a developer?
-- How do you work in a team?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard

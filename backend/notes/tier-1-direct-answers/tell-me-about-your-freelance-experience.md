@@ -20,6 +20,6 @@ This realization led me back to Nurtur (the same company as BriefYourMarket.com,
 - Do you prefer working independently or in a team?
 - What are you looking for in your next role?
 - How do you approach problem-solving?
-- What makes you unique as a developer?
-- Tell me about your work experience
+- Tell me about BriefYourMarket
+- What did you build at Nurtur?
 

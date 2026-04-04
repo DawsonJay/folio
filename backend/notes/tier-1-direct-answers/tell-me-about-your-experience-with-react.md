@@ -16,7 +16,7 @@ I work with the modern React ecosystem - Next.js for server-side rendering, Vite
 **suggestions:**
 - What projects have you built with React?
 - How do you approach React architecture?
-- What challenges have you faced?
+- What are your weaknesses as a developer?
 - Tell me about your state management approach
 - How do you ensure React code quality?
-- What React tools do you use?
+- Tell me about the Nexus Dashboard

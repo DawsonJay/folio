@@ -18,5 +18,5 @@ Long-term, I prioritize projects that align with my values and advance my career
 - Tell me about the Integrations Dashboard
 - What was the Nexus Dashboard architecture?
 - How do you balance quality and speed?
-- What are your career goals?
-- How do you manage your time?
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project

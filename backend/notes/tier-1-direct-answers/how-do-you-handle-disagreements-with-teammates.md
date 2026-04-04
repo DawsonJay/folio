@@ -16,6 +16,6 @@ The result: disagreements become problem-solving conversations. No one wins argu
 - Tell me about a time you disagreed with a coworker
 - How do you communicate technical concepts?
 - Have you mentored other developers?
-- What makes you unique as a developer?
+- How do you approach technical debt?
 - How do you approach problem-solving?
 

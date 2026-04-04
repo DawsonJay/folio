@@ -17,6 +17,6 @@ The best resource is often teammates. When stuck on the Email Editor's Lexical f
 - How do you approach problem-solving?
 - Tell me about debugging a complex issue
 - How do you learn new technologies?
-- What's your debugging process?
+- Tell me about the Email Editor project
 - Tell me about the WhatNow project
 - Tell me about the Nexus Dashboard

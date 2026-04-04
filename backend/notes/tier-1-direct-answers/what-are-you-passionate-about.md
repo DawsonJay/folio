@@ -17,6 +17,6 @@ What I'm passionate about is the combination: creating elegant solutions to hard
 - What projects have you built?
 - How do you approach problem-solving?
 - What are your career goals?
-- What makes you unique as a developer?
+- How do you handle disagreements with teammates?
 - How do you balance work and life?
 - What technologies are you excited about?

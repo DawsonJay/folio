@@ -23,5 +23,5 @@ I understand that code reviews are about improving the code and helping the deve
 - How do you ensure code quality?
 - What's your experience with Git?
 - Tell me about your development workflow
-- How do you communicate technical concepts?
+- What did you build at Nurtur?
 

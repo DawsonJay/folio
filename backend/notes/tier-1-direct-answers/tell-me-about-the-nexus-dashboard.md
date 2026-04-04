@@ -17,7 +17,7 @@ The system handles multi-tenant architecture, allowing users to filter by instan
 - What challenges did you face building it?
 - Tell me about your work experience
 - How do you approach system design?
-- What makes a project successful?
+- Describe your ideal work environment
 - How do you ensure code quality?
-- Tell me about performance optimization
+- What did you build at Nurtur?
 

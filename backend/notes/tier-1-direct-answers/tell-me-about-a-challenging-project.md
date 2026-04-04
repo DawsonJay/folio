@@ -18,6 +18,6 @@ The Folio project is now live, providing value, and I'm continuing to improve it
 - How do you approach tight deadlines?
 - Tell me about your work experience
 - How do you balance quality and speed?
-- What makes a project successful?
-- How do you ensure code quality?
+- How do you approach frontend performance optimization?
+- What is Folio and how does it work?
 

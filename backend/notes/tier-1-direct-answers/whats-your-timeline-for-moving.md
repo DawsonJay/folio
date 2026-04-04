@@ -15,4 +15,4 @@ If the question is about relocating within Canada - I can do that immediately. H
 - When can you start?
 - Are you open to relocating within Canada?
 - Why did you move to Canada?
-- What are you looking for in your next role?
+- What did you build at Nurtur?

@@ -17,9 +17,9 @@ Art and technology are different expressions of the same drive - taking ideas an
 **emotion:** happy
 **suggestions:**
 - Tell me about your work experience
-- What are you passionate about?
+- What are your weaknesses as a developer?
 - How do you approach problem-solving?
-- What makes you unique as a developer?
-- What projects have you built?
-- How do you approach learning new technologies?
+- Why do you want to work at a startup?
+- Tell me about BriefYourMarket
+- Tell me about the Integrations Dashboard
 

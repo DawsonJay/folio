@@ -17,6 +17,6 @@ The small team structure at Nurtur meant everyone contributed across areas when 
 - What was your role at Nurtur?
 - Tell me about a successful team project
 - What size team do you prefer?
-- How did you collaborate with backend developers?
+- Tell me about the Integrations Dashboard
 - Tell me about the Email Editor project
-- How do you handle working in small teams?
+- Tell me about the Nexus Dashboard

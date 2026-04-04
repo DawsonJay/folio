@@ -16,8 +16,8 @@ My LLM experience focuses on integration. Building complete user experiences - h
 **suggestions:**
 - Tell me about moh-ami project
 - How do you approach AI system design?
-- What challenges have you faced?
+- What are your weaknesses as a developer?
 - Tell me about your prompt engineering experience
 - How do you ensure AI system quality?
-- What AI technologies are you learning?
+- What is Folio and how does it work?
 

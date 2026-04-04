@@ -18,6 +18,6 @@ What I learned - trust intuition then prove it, metrics can lie by omission, som
 - How do you handle failure?
 - Tell me about WhatNow project
 - How do you approach debugging?
-- What challenges have you faced?
+- How do you approach frontend performance optimization?
 - How do you ensure code quality?
 

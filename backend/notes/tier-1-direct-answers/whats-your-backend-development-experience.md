@@ -14,9 +14,9 @@ I understand backend architecture patterns, API design, and how to build systems
 
 **emotion:** happy
 **suggestions:**
-- What projects have you built?
-- How do you approach API design?
-- Tell me about your database experience
-- What challenges have you faced?
-- How do you ensure code quality?
-- What backend tools do you use?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?

@@ -17,4 +17,4 @@ My role evolved to include mentoring and technical leadership. I taught CSS and 
 - How did you mentor junior developers?
 - What was your biggest accomplishment at Nurtur?
 - Tell me about the Email Editor project
-- How do you approach technical leadership?
+- Tell me about the Integrations Dashboard

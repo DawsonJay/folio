@@ -20,8 +20,8 @@ These projects cover full-stack development, AI/ML integration, system architect
 **suggestions:**
 - Tell me about WhatNow project
 - Tell me about moh-ami project
-- What project are you most proud of?
-- What challenges have you faced?
-- How do you approach project design?
-- What technologies do you use?
+- Tell me about the Nexus Dashboard
+- What did you build at Nurtur?
+- Tell me about the Atlantis project
+- What is Folio and how does it work?
 

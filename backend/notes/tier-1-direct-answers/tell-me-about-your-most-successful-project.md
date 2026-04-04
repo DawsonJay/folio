@@ -19,7 +19,7 @@ That's the kind of work I'm proud to have created.
 - What challenges did you face building it?
 - Tell me about your work experience
 - How do you approach system design?
-- What makes a project successful?
-- What technologies did you use?
-- How do you ensure code quality?
+- How do you decide when to refactor versus rewrite?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
 

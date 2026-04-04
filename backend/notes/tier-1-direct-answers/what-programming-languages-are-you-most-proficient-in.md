@@ -16,8 +16,8 @@ I typically emphasize TypeScript/React as core strengths with C# and Python as s
 **suggestions:**
 - What projects have you built with Python?
 - How do you approach learning new languages?
-- Tell me about your experience with React
-- What challenges have you faced in development?
-- What's your experience with code reviews?
-- What motivates you as a developer?
+- What did you build at Nurtur?
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 

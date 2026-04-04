@@ -22,6 +22,6 @@ When we both have the same authority, I'll still listen, but if it's an area whe
 - How do you handle disagreements with teammates?
 - How do you communicate technical concepts?
 - Have you mentored other developers?
-- What makes you unique as a developer?
+- How do you approach adding LLM features?
 - How do you approach problem-solving?
 

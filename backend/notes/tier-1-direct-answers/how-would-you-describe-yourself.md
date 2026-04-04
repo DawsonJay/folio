@@ -15,9 +15,9 @@ I'm a fast learner who taught myself all my programming languages through goal-d
 **emotion:** happy
 **suggestions:**
 - What are your strengths?
-- What makes you unique as a developer?
-- What are you passionate about?
+- Tell me about a technical decision you'd do differently
+- How do you handle disagreements with teammates?
 - How do you approach problem-solving?
 - How do you work in a team?
-- What are you looking for in your next role?
+- Tell me about the Integrations Dashboard
 

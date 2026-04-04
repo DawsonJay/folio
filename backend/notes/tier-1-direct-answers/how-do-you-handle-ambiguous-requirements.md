@@ -16,7 +16,7 @@ I propose options with clear tradeoffs. Instead of waiting for perfect requireme
 **suggestions:**
 - Tell me about the Integrations Dashboard
 - How do you approach problem-solving?
-- Tell me about working with stakeholders
-- How do you gather requirements?
-- What was a challenging project?
-- How do you handle scope creep?
+- What did you build at Nurtur?
+- Tell me about the Email Editor project
+- Tell me about the Nexus Dashboard
+- Tell me about the moh-ami project

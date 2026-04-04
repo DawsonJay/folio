@@ -21,7 +21,7 @@ I believe in continuous learning - you build strong foundations, then keep expan
 - How do you learn new technologies?
 - How do you stay current with technology?
 - Tell me about moh-ami project
-- What challenges have you faced?
+- What are your weaknesses as a developer?
 - How do you approach problem-solving?
 - What technologies are you learning?
 

@@ -16,8 +16,8 @@ The lesson I carry: ambitious scope requires honest data validation early. The s
 **suggestions:**
 - What did you learn from that project?
 - How do you handle failure?
-- Tell me about your AI/ML experience
-- What makes a project successful?
-- How do you approach project scoping?
-- What challenges have you faced?
+- Tell me about the Cirrus project
+- Tell me about the Atlantis project
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
 

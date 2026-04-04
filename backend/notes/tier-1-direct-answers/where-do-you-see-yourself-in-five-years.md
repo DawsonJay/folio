@@ -16,8 +16,8 @@ I want to be continuing to grow - not just maintaining current skills, but expan
 **suggestions:**
 - What are your career goals?
 - What are you looking for in your next role?
-- What are you passionate about?
-- What makes you unique as a developer?
+- Why do you want to work at a startup?
+- How do you approach adding LLM features?
 - How do you approach learning new technologies?
 - What are your strongest technical skills?
 

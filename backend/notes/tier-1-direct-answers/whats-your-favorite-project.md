@@ -19,7 +19,7 @@ I took a problem, understood it deeply from multiple perspectives, and built a s
 - What challenges did you face building it?
 - Tell me about your work experience
 - How do you approach system design?
-- What makes a project successful?
-- What technologies did you use?
-- How do you ensure code quality?
+- How do you stay current with technology?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
 

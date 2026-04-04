@@ -20,8 +20,8 @@ My educational journey taught me that practical, hands-on learning works better 
 **suggestions:**
 - How did you get into development?
 - Tell me about your work experience
-- What are you passionate about?
-- How do you approach learning new technologies?
-- What projects have you built?
-- What makes you unique as a developer?
+- Tell me about BriefYourMarket
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 

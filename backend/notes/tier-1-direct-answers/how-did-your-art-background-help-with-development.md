@@ -18,5 +18,5 @@ The creative approach transfers to component architecture and system design. The
 - How did you transition from art to tech?
 - Tell me about your problem-solving approach
 - How do you approach UI/UX design?
-- Tell me about your educational background
-- What made you choose software development?
+- Tell me about the WhatNow project
+- What is Folio and how does it work?

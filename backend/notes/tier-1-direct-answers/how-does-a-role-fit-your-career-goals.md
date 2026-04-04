@@ -18,5 +18,5 @@ I'm looking to establish myself long-term with a team and mission I believe in.
 - What type of company are you looking for?
 - What's important to you in a role?
 - What would make a role a good fit for you?
-- Why are you looking for a new role?
-- How do you approach learning new technologies?
+- Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard

@@ -18,6 +18,6 @@ C# is one of my significant professional languages alongside TypeScript and Pyth
 - What programming languages are you most proficient in?
 - What projects have you built?
 - How do you approach learning new languages?
-- What challenges have you faced?
-- What technologies do you use?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
 

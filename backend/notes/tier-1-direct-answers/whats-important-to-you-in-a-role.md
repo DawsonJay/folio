@@ -19,4 +19,4 @@ Work-life balance and supportive culture. Professional work comes first, but I n
 - What size team do you prefer?
 - What would make a role a good fit for you?
 - Tell me about your biggest accomplishment at Nurtur
-- How do you approach work-life balance?
+- Tell me about the Integrations Dashboard

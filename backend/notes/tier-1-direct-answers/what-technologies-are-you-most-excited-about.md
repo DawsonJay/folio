@@ -16,8 +16,8 @@ I get most excited about technologies when they enable projects that matter to m
 **suggestions:**
 - What projects have you built?
 - What AI/ML experience do you have?
-- What are you passionate about?
+- How do you handle disagreements with teammates?
 - Tell me about WhatNow project
-- How do you approach learning new technologies?
-- What are your career goals?
+- Tell me about the Atlantis project
+- What is Folio and how does it work?
 

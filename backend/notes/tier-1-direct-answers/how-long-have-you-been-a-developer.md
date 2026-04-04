@@ -18,6 +18,6 @@ So while I've been coding for about 11+ years, my professional development exper
 - How did you get into development?
 - What are your strongest technical skills?
 - What projects have you built?
-- How do you approach learning new technologies?
-- What are you passionate about?
+- Tell me about BriefYourMarket
+- What is Folio and how does it work?
 

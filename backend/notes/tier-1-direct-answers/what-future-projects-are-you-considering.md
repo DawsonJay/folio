@@ -11,8 +11,8 @@ In the next few years I want to keep building AI-powered web applications that s
 **emotion:** happy
 **suggestions:**
 - What projects have you built?
-- What are you passionate about?
+- How do you decide when to refactor versus rewrite?
 - What are your career goals?
 - Tell me about WhatNow
-- What technologies are you most excited about?
-- What are you looking for in your next role?
+- Tell me about the moh-ami project
+- What is Folio and how does it work?

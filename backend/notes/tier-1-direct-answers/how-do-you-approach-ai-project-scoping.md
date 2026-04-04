@@ -17,6 +17,6 @@ WhatNow, moh-ami, and Folio succeeded because they were scoped around data I cou
 - Tell me about the WhatNow project
 - What was Cirrus and why did it fail?
 - Tell me about your AI/ML experience
-- How do you evaluate project feasibility?
-- What AI frameworks have you used?
+- Tell me about the Jam Hot project
+- What is Folio and how does it work?
 - Tell me about moh-ami

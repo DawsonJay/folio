@@ -19,7 +19,7 @@ Another difficult situation was optimizing the Nexus Dashboard performance from 
 - Tell me about a time you had to meet a tight deadline
 - How do you handle stress and pressure?
 - How do you approach problem-solving?
-- What challenges have you faced?
-- How do you ensure code quality?
-- Tell me about your work experience
+- How do you approach technical debt?
+- Tell me about the Nexus Dashboard
+- What is Folio and how does it work?
 

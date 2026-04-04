@@ -19,4 +19,4 @@ The creative approach to Folio matters too. Most portfolio websites are static p
 - Tell me about Cirrus and its lessons
 - What other projects have you built?
 - How do you approach AI projects?
-- What's your strongest technical skill?
+- Tell me about the Integrations Dashboard

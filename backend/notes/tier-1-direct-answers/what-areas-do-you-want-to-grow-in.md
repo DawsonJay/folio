@@ -19,7 +19,7 @@ I want to grow into mid to senior technical roles. I'm ready for roles that comb
 - What are your career goals?
 - What are you looking for in your next role?
 - How do you approach learning new technologies?
-- What skills are you developing?
-- What makes you unique as a developer?
-- How do you work in a team?
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 

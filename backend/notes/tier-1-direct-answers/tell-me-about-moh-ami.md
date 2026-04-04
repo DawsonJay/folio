@@ -15,7 +15,7 @@ Built and deployed in a single intensive session January 11, 2026 - from scratch
 **emotion:** happy
 **suggestions:**
 - How do you approach AI system design?
-- What challenges have you faced?
+- How do you approach technical debt?
 - Tell me about your LLM experience
 - How do you ensure AI system quality?
 - What AI technologies are you learning?

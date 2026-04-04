@@ -23,5 +23,5 @@ I was responsible for building production-quality systems that lasted, thinking 
 - Tell me about your work experience
 - What did you do at Nurtur?
 - How do you work in a team?
-- Have you mentored other developers?
+- Tell me about the Email Editor project
 

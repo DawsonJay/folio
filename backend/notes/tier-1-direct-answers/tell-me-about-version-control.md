@@ -23,5 +23,5 @@ Version control enables collaboration, provides safety nets for experimentation,
 - What projects have you built?
 - How do you ensure code quality?
 - How do you work in a team?
-- What development tools do you use?
+- What did you build at Nurtur?
 

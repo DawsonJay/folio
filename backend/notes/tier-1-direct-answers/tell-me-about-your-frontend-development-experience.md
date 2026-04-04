@@ -17,6 +17,6 @@ I'm integrating AI capabilities into frontend work. Creating interfaces for LLM-
 - What projects have you built?
 - How do you approach UI/UX design?
 - Tell me about your React experience
-- What challenges have you faced?
-- How do you ensure code quality?
-- What frontend tools do you use?
+- How do you approach technical debt?
+- Tell me about the Email Editor project
+- Tell me about the Nexus Dashboard

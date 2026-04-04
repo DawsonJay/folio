@@ -16,6 +16,6 @@ It's now live, continuing to evolve, and the trellis is holding. That's how I ap
 - How do you approach tight deadlines?
 - Tell me about your work experience
 - How do you balance quality and speed?
-- What makes a project successful?
-- How do you ensure code quality?
+- Why do you want to work at a startup?
+- What is Folio and how does it work?
 

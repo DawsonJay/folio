@@ -19,4 +19,4 @@ Testing effort matches code criticality. Production systems get comprehensive te
 - Tell me about your development workflow
 - How do you ensure code quality?
 - What testing tools do you use?
-- How do you handle test failures?
+- Tell me about the Integrations Dashboard

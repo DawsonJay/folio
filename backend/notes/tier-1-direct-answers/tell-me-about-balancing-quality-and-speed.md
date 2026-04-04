@@ -16,8 +16,8 @@ Folio is live. The trellis is holding. That's the approach I'll take to any qual
 **suggestions:**
 - Tell me about a time you had to meet a tight deadline
 - How do you approach problem-solving?
-- What challenges have you faced?
+- Describe your ideal work environment
 - How do you ensure code quality?
-- What makes a project successful?
-- How do you approach project scoping?
+- What are your weaknesses as a developer?
+- What is Folio and how does it work?
 

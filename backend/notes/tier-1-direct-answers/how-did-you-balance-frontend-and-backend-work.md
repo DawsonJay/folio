@@ -19,4 +19,4 @@ Full-stack capability doesn't mean equal split - it means understanding both sid
 - How did you grow in your position at Nurtur?
 - Are you more frontend or backend focused?
 - Tell me about working with backend engineers
-- What does full-stack mean to you?
+- Tell me about the Nexus Dashboard

@@ -17,7 +17,7 @@ Watching people grow is what I find rewarding about leadership. Those three deve
 - How do you work in a team?
 - How do you communicate technical concepts?
 - Tell me about your leadership style
-- What makes you unique as a developer?
+- How do you approach frontend performance optimization?
 - How do you approach problem-solving?
-- Tell me about your work experience
+- What did you build at Nurtur?
 

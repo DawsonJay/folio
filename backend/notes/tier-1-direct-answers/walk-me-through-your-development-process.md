@@ -21,4 +21,4 @@ I prioritize based on value versus effort and user impact. What moves the needle
 - What testing approach do you use?
 - How do you prioritize tasks?
 - Tell me about your development workflow
-- How do you gather user feedback?
+- Tell me about the Nexus Dashboard

@@ -17,4 +17,4 @@ The transition happened through self-teaching first (books, Codecademy, Udemy co
 - How did your art background help with development?
 - What made you choose software development?
 - Tell me about your educational background
-- How did you learn to code?
+- What is Folio and how does it work?

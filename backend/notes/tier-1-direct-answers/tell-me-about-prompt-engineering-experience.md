@@ -19,7 +19,7 @@ I understand prompt engineering principles: how to structure prompts for consist
 - Tell me about your LLM experience
 - Tell me about moh-ami project
 - How do you approach AI system design?
-- What challenges have you faced?
+- Tell me about a technical decision you'd do differently
 - How do you ensure AI system quality?
-- What AI technologies are you learning?
+- What is Folio and how does it work?
 

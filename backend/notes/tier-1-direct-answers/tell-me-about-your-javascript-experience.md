@@ -17,7 +17,7 @@ TypeScript is now my preferred choice because type safety catches errors at comp
 - Tell me about your React experience
 - What projects have you built?
 - How do you approach learning new languages?
-- What challenges have you faced?
+- How do you stay current with technology?
 - How do you ensure code quality?
 - What frontend tools do you use?
 

@@ -17,4 +17,4 @@ My style is enabling rather than controlling. Leadership is taking ownership, gu
 - Tell me about the Email Editor project
 - What was your biggest accomplishment at Nurtur?
 - How do you approach team leadership?
-- Tell me about a successful team project
+- Tell me about the Nexus Dashboard

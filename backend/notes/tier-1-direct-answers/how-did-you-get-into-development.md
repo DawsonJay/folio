@@ -17,9 +17,9 @@ What drew me to development was that it's both creative and intellectual. Code e
 **emotion:** happy
 **suggestions:**
 - Tell me about your work experience
-- What are you passionate about?
+- How do you stay current with technology?
 - How do you approach learning new technologies?
 - What projects have you built?
-- What makes you unique as a developer?
-- How do you approach problem-solving?
+- Tell me about BriefYourMarket
+- What is Folio and how does it work?
 

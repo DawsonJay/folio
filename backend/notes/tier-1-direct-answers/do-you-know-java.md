@@ -18,6 +18,6 @@ My current professional focus is on TypeScript, React, Python, and C#, but I hav
 - How do you approach learning new languages?
 - What was your first programming language?
 - What projects have you built?
-- What challenges have you faced?
-- What technologies do you use?
+- Tell me about a technical decision you'd do differently
+- Tell me about BriefYourMarket
 

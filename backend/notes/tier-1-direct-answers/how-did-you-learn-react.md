@@ -14,7 +14,7 @@ I learn by doing, not by reading. I read enough to start, then build. When I get
 **suggestions:**
 - Tell me about your experience with React
 - How do you approach learning new technologies?
-- What was your first React project?
+- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
-- How do you stay current with technology?
-- What frameworks have you learned?
+- Tell me about the Email Editor project
+- Tell me about the Nexus Dashboard

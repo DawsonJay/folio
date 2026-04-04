@@ -17,7 +17,7 @@ My first job gave me professional experience and confidence. It validated that I
 - Tell me about your work experience
 - How did you get into development?
 - Tell me about your freelance experience
-- What are you passionate about?
-- How do you approach learning new technologies?
-- What projects have you built?
+- Why do you want to work at a startup?
+- Tell me about BriefYourMarket
+- What did you build at Nurtur?
 

@@ -19,4 +19,4 @@ When managing scope with stakeholders, I'm clear about tradeoffs. Adding feature
 - How do you manage stakeholder expectations?
 - What was a challenging project?
 - How do you prioritize features?
-- Tell me about project planning
+- What did you build at Nurtur?

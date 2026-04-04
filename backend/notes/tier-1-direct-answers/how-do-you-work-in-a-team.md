@@ -18,6 +18,6 @@ I prefer small teams with consensus decision-making and shared project ownership
 - How do you communicate technical concepts?
 - Tell me about your leadership style
 - How do you handle disagreements with teammates?
-- What makes you unique as a developer?
-- How do you approach problem-solving?
+- What kind of problems do you find most interesting?
+- What did you build at Nurtur?
 

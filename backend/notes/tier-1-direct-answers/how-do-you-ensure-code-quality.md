@@ -16,5 +16,5 @@ Good structure prevents repeated failures. When something goes wrong, I fix it i
 - How do you approach system design?
 - Tell me about the Integrations Dashboard
 - How do you approach problem-solving?
-- How do you work in a team?
-- Tell me about your development workflow
+- What did you build at Nurtur?
+- Tell me about the Nexus Dashboard

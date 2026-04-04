@@ -15,9 +15,9 @@ The biggest pivot was abandoning manual metadata. I started with 17 activities r
 **emotion:** happy
 **suggestions:**
 - How do you approach AI system design?
-- What challenges have you faced?
+- How do you approach frontend performance optimization?
 - Tell me about your LLM experience
 - How do you ensure AI system quality?
 - What AI technologies are you learning?
-- What projects have you built?
+- What is Folio and how does it work?
 

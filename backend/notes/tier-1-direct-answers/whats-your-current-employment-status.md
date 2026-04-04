@@ -17,7 +17,7 @@ I'm based in Halifax, Nova Scotia and can start immediately with 5.5 years of pr
 - Why are you looking for a new role?
 - What are you looking for in your next role?
 - Tell me about your work experience
-- What are you passionate about?
-- What are your career goals?
-- What are your strongest technical skills?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard
 

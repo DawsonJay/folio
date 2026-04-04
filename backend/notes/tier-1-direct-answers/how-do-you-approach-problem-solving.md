@@ -18,8 +18,8 @@ The goal isn't just fixing bugs - it's understanding systems deeply so problems 
 **suggestions:**
 - Tell me about debugging a complex issue
 - How do you handle failure?
-- What challenges have you faced?
-- How do you ensure code quality?
-- Tell me about a mistake you made
-- How do you approach learning new technologies?
+- Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
 

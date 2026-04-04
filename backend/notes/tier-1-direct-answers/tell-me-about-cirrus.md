@@ -22,8 +22,8 @@ The project scoping insight influenced how I approached later projects. WhatNow 
 **suggestions:**
 - What did you learn from that project?
 - How do you handle failure?
-- Tell me about your AI/ML experience
-- What makes a project successful?
-- How do you approach project scoping?
-- What challenges have you faced?
+- Tell me about the Atlantis project
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 

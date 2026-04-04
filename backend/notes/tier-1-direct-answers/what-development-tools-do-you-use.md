@@ -20,6 +20,6 @@ I use development tools that help me work efficiently and maintain code quality.
 - Tell me about your development workflow
 - What projects have you built?
 - How do you ensure code quality?
-- How do you work in a team?
-- What's your experience with Git?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
 

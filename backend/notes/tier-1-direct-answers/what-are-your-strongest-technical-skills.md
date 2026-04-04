@@ -16,9 +16,9 @@ I'm also skilled at mentoring and team collaboration. I've successfully mentored
 
 **emotion:** happy
 **suggestions:**
-- What projects have you built?
-- How do you approach system design?
-- Tell me about your AI/ML experience
-- What's your experience with React?
-- How do you ensure code quality?
-- What technologies are you learning?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?

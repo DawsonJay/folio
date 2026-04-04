@@ -19,7 +19,7 @@ I'm looking to establish myself long-term. Not job-hopping or seeking a stepping
 - Why are you looking for a new role?
 - What are your career goals?
 - What projects have you built?
-- What are you passionate about?
+- Tell me about a technical decision you'd do differently
 - How do you approach work-life balance?
 - What are your strongest technical skills?
 

@@ -20,6 +20,6 @@ I understand how to generate embeddings, store them, and use them for semantic s
 - Tell me about WhatNow project
 - What's your experience with RAG systems?
 - What technologies are you most excited about?
-- What challenges have you faced?
-- What AI technologies are you learning?
+- How do you stay current with technology?
+- What is Folio and how does it work?
 

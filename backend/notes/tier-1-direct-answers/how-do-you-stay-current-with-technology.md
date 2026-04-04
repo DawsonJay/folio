@@ -16,8 +16,8 @@ The progression is deliberate: web development foundations → AI/ML integration
 **suggestions:**
 - How do you learn new technologies?
 - Tell me about a time you had to learn something quickly
-- What technologies are you learning?
-- What projects have you built?
-- How do you approach problem-solving?
-- What are you passionate about?
+- Tell me about the Atlantis project
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 

@@ -17,6 +17,6 @@ I'm flexible on company size as long as the project team is small. A 100-person 
 - What was the team size at Nurtur?
 - Tell me about a successful team project
 - What type of company are you looking for?
-- How do you handle working in small teams?
-- What's important to you in a role?
-- Tell me about your experience mentoring developers
+- Tell me about the Email Editor project
+- Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard

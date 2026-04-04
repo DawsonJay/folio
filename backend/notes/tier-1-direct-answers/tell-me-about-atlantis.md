@@ -18,7 +18,7 @@ Atlantis covers hardware integration beyond web development - LoRa communication
 **suggestions:**
 - Tell me about a project that failed
 - How do you approach project scoping?
-- What challenges have you faced?
+- Why do you want to work at a startup?
 - Tell me about your hardware experience
 - How do you approach problem-solving?
 - What projects have you built?

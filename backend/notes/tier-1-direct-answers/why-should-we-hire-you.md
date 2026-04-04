@@ -16,8 +16,8 @@ Hire me if you're building something that matters and you value technical excell
 **suggestions:**
 - What are you looking for in your next role?
 - What are your career goals?
-- What makes you unique as a developer?
+- Describe your ideal work environment
 - What projects have you built?
 - How do you work in a team?
-- What are you passionate about?
+- What are your weaknesses as a developer?
 

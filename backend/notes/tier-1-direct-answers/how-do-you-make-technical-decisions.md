@@ -13,9 +13,9 @@ On portfolio projects, I've made technology choices based on project needs. What
 **emotion:** thinking
 **suggestions:**
 - How do you approach system design?
-- Tell me about your work experience
-- What challenges have you faced?
-- How do you ensure code quality?
+- Tell me about the Integrations Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
 - Tell me about the Nexus Dashboard
-- How do you approach problem-solving?
+- What is Folio and how does it work?
 

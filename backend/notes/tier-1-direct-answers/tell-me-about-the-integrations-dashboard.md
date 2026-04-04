@@ -21,7 +21,7 @@ The Integrations Dashboard wasn't just a technical project - it was about bridgi
 - Challenges with the Integrations Dashboard?
 - Tell me about your work experience
 - How do you approach system design?
-- What makes a project successful?
+- What kind of problems do you find most interesting?
 - What technologies did you use?
-- How do you ensure code quality?
+- What did you build at Nurtur?
 

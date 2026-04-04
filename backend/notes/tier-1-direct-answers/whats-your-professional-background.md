@@ -18,10 +18,10 @@ The project I was working on at Nurtur concluded in February 2026 when the team 
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your work experience
-- What are your strongest technical skills?
-- What projects have you built?
-- How did you get into development?
-- What are you looking for in your next role?
-- What makes you unique as a developer?
+- Tell me about BriefYourMarket
+- What did you build at Nurtur?
+- Tell me about the Nexus Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 

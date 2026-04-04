@@ -17,7 +17,7 @@ Small failures early in development are valuable - they teach you what users act
 - Tell me about a project that failed
 - Tell me about a mistake you made
 - How do you approach problem-solving?
-- What challenges have you faced?
-- How do you ensure code quality?
-- What did you learn from that project?
+- Describe your ideal work environment
+- Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard
 

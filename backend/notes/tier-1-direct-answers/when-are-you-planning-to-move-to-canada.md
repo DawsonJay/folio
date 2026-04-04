@@ -15,4 +15,4 @@ I'm available immediately - no notice period, Nurtur ended in February 2026. I c
 - Where in Canada are you based?
 - When can you start?
 - Are you open to relocating within Canada?
-- What are you looking for in your next role?
+- What did you build at Nurtur?

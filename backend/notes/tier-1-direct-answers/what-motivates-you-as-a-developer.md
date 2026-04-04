@@ -14,10 +14,10 @@ The combination: meaningful work, cleverly done, alongside people who care about
 
 **emotion:** happy
 **suggestions:**
-- What are you passionate about?
-- What are your career goals?
-- What projects have you built?
-- How do you approach problem-solving?
-- What makes you unique as a developer?
-- What are you looking for in your next role?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
+- Tell me about the Atlantis project
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 

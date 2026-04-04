@@ -19,4 +19,4 @@ Three years of zero-maintenance production use is the real measure of success.
 - How do you work in a team?
 - What was your role at Nurtur?
 - How do you gather user feedback?
-- What makes a project successful?
+- Why do you want to work at a startup?

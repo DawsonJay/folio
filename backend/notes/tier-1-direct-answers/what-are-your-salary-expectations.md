@@ -15,4 +15,4 @@ I care more about finding the right role - meaningful work in AI-powered web app
 - What does the total compensation package look like?
 - Tell me about the team structure
 - What are the growth opportunities?
-- When can you start?
+- How do you approach technical debt?

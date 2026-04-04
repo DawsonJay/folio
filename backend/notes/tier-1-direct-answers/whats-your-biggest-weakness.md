@@ -1,22 +1,20 @@
-# What's your biggest weakness?
+# What's your biggest weakness? What are your weaknesses as a developer?
 
-My tendency to get completely absorbed in projects. When I'm deep in something, I'll stay up until early morning trying to get one thing perfect. That intensity created the Integrations Dashboard running 3+ years without maintenance, but it needs balance to be sustainable.
+My natural inclination is toward craftsmanship — I want code that's well designed, thought through, and built to last. That's why the Integrations Dashboard at Nurtur has run 3+ years without maintenance. Left entirely to my own judgment, I'll push toward the durable solution. I can work with poorly structured code — my first job at BriefYourMarket was debugging a deeply entangled legacy system, and there's something genuinely interesting about that kind of archaeology — but my preference is always to build something I know will make the code base better for my team to work with in the years to come.
 
-The Ironhack bootcamp taught me this hard. I put everything into it, prioritizing it above other commitments. It worked - launched my career - but showed me this intensity isn't sustainable long-term. I've learned to manage it by blocking exercise and social time as scheduled commitments, not optional activities. Sustainable excellence requires maintaining health, relationships, and perspective alongside work.
+The way I manage that in a team context is straightforward: I raise questions of speed versus quality at the first design meeting, not halfway through a sprint. If we agree upfront that this feature needs to ship fast and some things will be revisited later, I'll work to that spec and hold to it. A well-defined specification does most of the work — once the scope and quality bar are agreed, I build to them.
 
-I don't want to eliminate this intensity - it drives my best work. I manage and channel it productively. The same force that creates excellent work when balanced can be unsustainable when unchecked.
+My portfolio projects are proof that this works even without a manager to set limits. Building Folio, WhatNow, and moh-ami alone meant I had to make those trade-offs myself, with no one else to define the scope. I still shipped real products under real constraints. The discipline came from defining what the project needed to be, not everything it could be.
 
-I also want to improve my Python and AI/ML depth. I've built WhatNow, moh-ami, and Folio, but I want deeper expertise integrating AI capabilities into web applications - intelligent search, personalized recommendations, LLM-powered features. This aligns with where frontend development is heading.
-
-I've never formally led a team. My team dad approach works well for mentoring - I've mentored 3 developers into full-stack roles - but I want formal leadership capabilities. Managing team dynamics, strategic decisions, coordinating multiple people. Whether leading web developers or AI engineers, these capabilities matter.
+The inclination toward craftsmanship is real and it doesn't go away — but raising it early means it works with the team rather than against the deadline.
 
 ---
 
 **emotion:** thinking
 **suggestions:**
-- How do you handle stress and pressure?
-- What areas do you want to grow in?
-- How do you learn new technologies?
-- What are your career goals?
-- How do you approach problem-solving?
-- What skills are you developing?
+- What did you build at Nurtur?
+- Tell me about Folio
+- Tell me about the Integrations Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- Tell me about your time at BriefYourMarket

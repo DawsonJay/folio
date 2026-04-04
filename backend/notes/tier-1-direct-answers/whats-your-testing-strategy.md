@@ -18,5 +18,5 @@ Testing effort scales with criticality. The Integrations Dashboard serving the s
 - What tools do you use for testing?
 - Tell me about the Nexus Dashboard project
 - How do you balance speed and quality?
-- What was your biggest testing challenge?
-- How do you approach test-driven development?
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard

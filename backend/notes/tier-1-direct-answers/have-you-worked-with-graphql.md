@@ -17,7 +17,7 @@ My GraphQL experience is primarily with Apollo Server and Apollo Client, though 
 - Tell me about moh-ami project
 - What's your backend development experience?
 - How do you approach API design?
-- What challenges have you faced?
+- What are your weaknesses as a developer?
 - How do you ensure code quality?
 - What backend tools do you use?
 

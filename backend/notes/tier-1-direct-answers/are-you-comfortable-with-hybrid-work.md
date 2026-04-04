@@ -14,7 +14,7 @@ Whatever hybrid model you use, I adapt to it. The goal is contributing effective
 
 **emotion:** happy
 **suggestions:**
-- When can you start?
+- Why do you want to work at a startup?
 - What's your relocation timeline?
 - Are you open to remote work?
 - How do you work in a team?

@@ -19,7 +19,7 @@ The solo nature of WhatNow is actually an advantage for demonstrating skills. Ev
 - How do you balance working independently vs with teams?
 - What was the team size at Nurtur?
 - How did you handle the Integrations Dashboard?
-- Do you prefer working alone or with teams?
+- Tell me about the Email Editor project
 
 **projectLinks:**
 - WhatNow:

@@ -17,9 +17,9 @@ The team was restructured in February 2026. The timing wasn't my choice, but I'm
 **emotion:** happy
 **suggestions:**
 - Tell me about your work experience
-- What are you passionate about?
-- How did you transition from art to tech?
-- What projects have you built?
-- What are you looking for in your next role?
-- What makes you unique as a developer?
+- How do you decide when to refactor versus rewrite?
+- Tell me about BriefYourMarket
+- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard
 

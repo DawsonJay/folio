@@ -16,10 +16,10 @@ I'm ready to start immediately and bring 5.5 years of proven production experien
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your work experience
-- What are your strongest technical skills?
-- What projects have you built?
-- What are you looking for in your next role?
-- How do you work in a team?
-- What are you passionate about?
+- Tell me about BriefYourMarket
+- What did you build at Nurtur?
+- Tell me about the Nexus Dashboard
+- Tell me about the moh-ami project
+- Tell me about the WhatNow project
+- What is Folio and how does it work?
 
