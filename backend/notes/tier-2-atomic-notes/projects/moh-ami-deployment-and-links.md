@@ -2,7 +2,7 @@
 
 moh-ami is fully deployed and accessible as a production application. You can try the live system and explore the source code through these links:
 
-**Live Application:** https://moh-ami-production.up.railway.app/
+**Live Application:** https://moh-ami.jamesfolio.dev
 
 Visit the live app to experience the French learning translation tool in action. Type or paste English text, click translate, and see the detailed word-by-word mappings, grammar explanations, cultural context, and alternative translations. The interactive chunk selection and synchronized scrolling demonstrate the sophisticated UI patterns I implemented.
 

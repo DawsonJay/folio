@@ -2,7 +2,7 @@
 
 WhatNow is fully deployed and accessible as a production application. You can try the live system and explore the source code through these links:
 
-**Live Application:** https://whatnow-frontend.onrender.com
+**Live Application:** https://whatnow.jamesfolio.dev
 
 Visit the live app to experience the contextual bandit recommendation system in action. Select your current context using sliders for mood, energy level, social preference, available time, and weather conditions. The AI generates 50 personalized activity suggestions, you pick your favorites, regenerate if needed, and make a final selection. The system learns from your choices to improve future recommendations.
 

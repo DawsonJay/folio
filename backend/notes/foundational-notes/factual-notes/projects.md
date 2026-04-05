@@ -60,7 +60,7 @@ AI-powered activity recommendation system that helps decide what to do when feel
 - **Source**: `atomic-notes/projects/whatnow-overview-and-motivation.md`, `atomic-notes/resources/project-links-all.md`
 
 ### Links
-- **Live Application**: https://whatnow-frontend.onrender.com
+- **Live Application**: https://whatnow.jamesfolio.dev
 - **Frontend Repository**: https://github.com/DawsonJay/whatnow-frontend
 - **Backend Repository**: https://github.com/DawsonJay/whatnow-backend
 - **Source**: `atomic-notes/resources/project-links-all.md`
@@ -117,7 +117,7 @@ French learning translation tool that provides detailed educational explanations
 - **Source**: `atomic-notes/projects/moh-ami-overview-and-motivation.md`, `atomic-notes/resources/project-links-all.md`, `/home/james/Documents/portfolio-profile/records/moh-ami/`
 
 ### Links
-- **Live Application**: https://moh-ami-production.up.railway.app/
+- **Live Application**: https://moh-ami.jamesfolio.dev
 - **Source Code**: https://github.com/DawsonJay/moh-ami
 - **Source**: `atomic-notes/resources/project-links-all.md`
 

@@ -98,7 +98,7 @@ class DirectAnswerService:
             
             if in_project_links:
                 if stripped.startswith('- '):
-                    project_match = re.match(r'-\s*(\w+):', stripped)
+                    project_match = re.match(r'-\s*([\w-]+):', stripped)
                     if project_match:
                         current_project = project_match.group(1)
                         project_links[current_project] = {}

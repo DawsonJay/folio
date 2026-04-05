@@ -4,7 +4,7 @@ Here's a comprehensive list of my projects with links to live demonstrations and
 
 ## WhatNow - AI Activity Recommendation System
 
-**Live Application:** https://whatnow-frontend.onrender.com
+**Live Application:** https://whatnow.jamesfolio.dev
 
 **Source Code:**
 - Frontend Repository: https://github.com/DawsonJay/whatnow-frontend
@@ -14,7 +14,7 @@ The live application lets you try the contextual bandit recommendation system th
 
 ## moh-ami - French Learning Translation Tool
 
-**Live Application:** https://moh-ami-production.up.railway.app/
+**Live Application:** https://moh-ami.jamesfolio.dev
 
 **Source Code:** https://github.com/DawsonJay/moh-ami
 
