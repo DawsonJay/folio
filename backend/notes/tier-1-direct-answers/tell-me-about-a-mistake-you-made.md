@@ -14,10 +14,10 @@ What I learned - trust intuition then prove it, metrics can lie by omission, som
 
 **emotion:** thinking
 **suggestions:**
-- What did you learn from that mistake?
+- Tell me about a project you learned from
 - How do you handle failure?
-- Tell me about WhatNow project
-- How do you approach debugging?
-- How do you approach frontend performance optimization?
+- Tell me about WhatNow
+- What's your debugging process?
 - How do you ensure code quality?
+- Tell me about a project that failed
 

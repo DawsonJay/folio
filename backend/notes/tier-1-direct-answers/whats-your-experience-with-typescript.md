@@ -14,10 +14,10 @@ TypeScript is where I have the most production experience and can deliver the mo
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your React experience
-- What did you build at Nurtur?
+- Tell me about your experience with React
 - Tell me about the Email Editor project
 - Tell me about the Nexus Dashboard
-- Tell me about the moh-ami project
-- What is Folio and how does it work?
+- Tell me about moh-ami
+- What is Folio?
+- How comfortable are you with TypeScript?
 

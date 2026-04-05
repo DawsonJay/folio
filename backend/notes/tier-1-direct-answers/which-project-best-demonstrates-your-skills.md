@@ -14,9 +14,9 @@ The creative approach to Folio matters too. Most portfolio websites are static p
 
 **emotion:** happy
 **suggestions:**
-- Tell me about the Folio project
-- What is the RAG architecture?
-- Tell me about Cirrus and its lessons
-- What other projects have you built?
-- How do you approach AI projects?
+- What is Folio?
+- Tell me about Cirrus
+- What projects have you built?
+- How do you approach AI project scoping?
 - Tell me about the Integrations Dashboard
+- Tell me about WhatNow

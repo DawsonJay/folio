@@ -15,8 +15,8 @@ Collaboration and stakeholder communication were essential. I made sure everyone
 **emotion:** thinking
 **suggestions:**
 - Tell me about the Integrations Dashboard
-- How do you approach mentoring?
-- What was your role at Nurtur?
+- Have you mentored other developers?
 - Tell me about your leadership style
-- How do you work with stakeholders?
-- What projects did you work on?
+- What projects have you built?
+- Tell me about the Nexus Dashboard
+- What did you do at Nurtur?

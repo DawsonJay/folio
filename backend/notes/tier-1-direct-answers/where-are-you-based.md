@@ -8,11 +8,12 @@ I'm open to relocating elsewhere in Canada if the right opportunity comes up —
 
 ---
 
+**shortTitle:** Where are you based right now?
 **emotion:** happy
 **suggestions:**
-- Are you open to relocating within Canada?
+- Are you flexible on Canadian location?
 - What's your visa status?
 - When can you start?
-- What are you looking for in a role?
-- Why Halifax?
-- What's your immigration status?
+- What are you looking for in your next role?
+- Are you planning to stay in Canada long-term?
+- What are your immigration plans?

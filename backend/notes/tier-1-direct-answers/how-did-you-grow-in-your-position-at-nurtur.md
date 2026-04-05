@@ -12,9 +12,9 @@ My role evolved to include mentoring and technical leadership. I taught CSS and 
 
 **emotion:** thinking
 **suggestions:**
-- What was your role at Nurtur?
 - Tell me about the Nexus Dashboard
-- How did you mentor junior developers?
-- What was your biggest accomplishment at Nurtur?
+- Have you mentored other developers?
+- What was your biggest Nurtur achievement?
 - Tell me about the Email Editor project
 - Tell me about the Integrations Dashboard
+- What did you do at Nurtur?

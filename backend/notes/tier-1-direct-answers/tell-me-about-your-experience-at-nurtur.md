@@ -20,6 +20,6 @@ The team was restructured in February 2026. I'm seeking mid to senior frontend r
 - Tell me about the Nexus Dashboard
 - Tell me about the Email Editor project
 - What did you do at Nurtur?
-- What were your responsibilities at your last job?
+- What were your last job responsibilities?
 - How do you work in a team?
 

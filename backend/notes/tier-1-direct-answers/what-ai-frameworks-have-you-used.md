@@ -14,9 +14,9 @@ My approach favors using existing AI services rather than training models from s
 
 **emotion:** thinking
 **suggestions:**
-- Tell me about your AI/ML experience
-- What is the WhatNow project?
-- Tell me about the Folio chatbot
-- How do you integrate LLMs?
+- What AI/ML experience do you have?
+- Tell me about WhatNow
+- What is Folio?
+- How do you approach adding LLM features?
 - Tell me about moh-ami
-- What's your experience with embeddings?
+- What's your understanding of embeddings?

@@ -15,6 +15,6 @@ What I need from an employer is just the work experience itself. No sponsorship,
 - What's your visa status?
 - Are you planning to stay in Canada long-term?
 - Do you need visa sponsorship?
-- Why did you move to Canada?
-- Where in Canada are you based?
+- Why do you want to move to Canada?
+- Where are you based right now?
 - When can you start?

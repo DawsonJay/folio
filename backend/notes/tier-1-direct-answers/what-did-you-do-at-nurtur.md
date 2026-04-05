@@ -19,7 +19,7 @@ I used React and TypeScript daily for 3.5 years, building production systems tha
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
 - Tell me about the Email Editor project
-- What were your responsibilities at your last job?
+- What were your last job responsibilities?
 - How do you work in a team?
 - Have you mentored other developers?
 

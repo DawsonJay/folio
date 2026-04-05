@@ -13,8 +13,8 @@ Good structure prevents repeated failures. When something goes wrong, I fix it i
 **emotion:** happy
 **suggestions:**
 - What's your experience with code reviews?
-- How do you approach system design?
 - Tell me about the Integrations Dashboard
 - How do you approach problem-solving?
-- What did you build at Nurtur?
 - Tell me about the Nexus Dashboard
+- Tell me about your testing practices
+- When do you refactor versus rewrite?

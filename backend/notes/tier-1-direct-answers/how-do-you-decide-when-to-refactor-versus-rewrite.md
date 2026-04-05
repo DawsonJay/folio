@@ -10,11 +10,12 @@ The clearest case where rewriting was obviously right was Build at BriefYourMark
 
 ---
 
+**shortTitle:** When do you refactor versus rewrite?
 **emotion:** thinking
 **suggestions:**
-- Tell me about your time at BriefYourMarket
 - How do you approach technical debt?
-- How do you approach frontend architecture?
-- How do you ensure code quality long-term?
-- Tell me about a technical decision you'd do differently
-- How do you approach debugging?
+- How do you ensure code quality?
+- What technical decision would you redo?
+- What's your debugging process?
+- Tell me about a mistake you made
+- How do you optimize frontend performance?

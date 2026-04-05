@@ -16,10 +16,10 @@ WhatNow is one of my most successful portfolio projects. Complete end-to-end mac
 
 **emotion:** happy
 **suggestions:**
-- Tell me about WhatNow project
+- Tell me about WhatNow
 - Tell me about contextual bandits
 - What's your understanding of embeddings?
-- How do you approach AI system design?
+- How do you approach AI project scoping?
 - How do you approach adding LLM features?
-- What is Folio and how does it work?
+- What is Folio?
 

@@ -10,9 +10,9 @@ Remote is also fine. I've worked remotely my entire career and have a strong tra
 
 **emotion:** thinking
 **suggestions:**
-- Are you open to relocating within Canada?
+- Are you flexible on Canadian location?
 - Are you open to remote work?
 - When can you start?
-- What are you looking for in a role?
+- What are you looking for in your next role?
 - What's your visa status?
 - What are your career goals?

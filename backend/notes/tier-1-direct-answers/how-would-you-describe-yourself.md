@@ -15,8 +15,8 @@ I'm a fast learner who taught myself all my programming languages through goal-d
 **emotion:** happy
 **suggestions:**
 - What are your strengths?
-- Tell me about a technical decision you'd do differently
-- How do you handle disagreements with teammates?
+- What technical decision would you redo?
+- How do you handle team disagreements?
 - How do you approach problem-solving?
 - How do you work in a team?
 - Tell me about the Integrations Dashboard

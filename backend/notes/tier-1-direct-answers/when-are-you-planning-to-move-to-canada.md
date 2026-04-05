@@ -10,9 +10,9 @@ I'm available immediately - no notice period, Nurtur ended in February 2026. I c
 
 **emotion:** happy
 **suggestions:**
-- Why did you move to Canada?
+- Why do you want to move to Canada?
 - What's your visa status?
-- Where in Canada are you based?
+- Where are you based right now?
 - When can you start?
-- Are you open to relocating within Canada?
-- What did you build at Nurtur?
+- Are you flexible on Canadian location?
+- What are your immigration plans?

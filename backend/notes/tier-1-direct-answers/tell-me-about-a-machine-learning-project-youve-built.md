@@ -18,12 +18,13 @@ The semantic embeddings approach replaced manual metadata tagging. Instead of tr
 
 ---
 
+**shortTitle:** Tell me about an ML project you built?
 **emotion:** happy
 **suggestions:**
-- Tell me about WhatNow project
-- How do you approach AI system design?
-- How do you approach frontend performance optimization?
-- Tell me about the Jam Hot project
-- Tell me about the Cirrus project
-- What is Folio and how does it work?
+- Tell me about WhatNow
+- How do you approach AI project scoping?
+- Tell me about Cirrus
+- What is Folio?
+- Tell me about contextual bandits
+- What AI/ML experience do you have?
 

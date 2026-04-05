@@ -14,10 +14,10 @@ The biggest pivot was abandoning manual metadata. I started with 17 activities r
 
 **emotion:** happy
 **suggestions:**
-- How do you approach AI system design?
-- How do you approach frontend performance optimization?
-- Tell me about your LLM experience
-- How do you ensure AI system quality?
-- What AI technologies are you learning?
-- What is Folio and how does it work?
+- Tell me about contextual bandits
+- What AI/ML experience do you have?
+- Tell me about Atlantis
+- What technologies did you use for WhatNow?
+- How do you approach AI project scoping?
+- What is Folio?
 

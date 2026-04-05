@@ -31,7 +31,7 @@ export default function Suggestions() {
     if (suggestions.length === 0) {
       return;
     }
-    emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: suggestion.text });
+    emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: suggestion.query ?? suggestion.text });
   };
 
   if (suggestions.length === 0) {

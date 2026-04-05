@@ -10,11 +10,12 @@ I'll be honest about the trade-off: larger companies often pay better and carry 
 
 ---
 
+**shortTitle:** Why do you want to work at a startup?
 **emotion:** happy
 **suggestions:**
 - Describe your ideal work environment
 - What are you looking for in your next role?
 - How do you work in a team?
 - What motivates you as a developer?
-- What kind of problems do you find most interesting?
+- What problems interest you most?
 - What are your career goals?

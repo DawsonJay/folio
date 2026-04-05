@@ -17,6 +17,6 @@ What I'm passionate about is the combination: creating elegant solutions to hard
 - What projects have you built?
 - How do you approach problem-solving?
 - What are your career goals?
-- How do you handle disagreements with teammates?
-- How do you balance work and life?
-- What technologies are you excited about?
+- How do you handle team disagreements?
+- How do you manage work-life balance?
+- What technologies are you most excited about?

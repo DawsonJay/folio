@@ -8,6 +8,7 @@ Halifax is where I landed, but I'm not attached to it. I came to Canada for the 
 
 ---
 
+**shortTitle:** Are you flexible on Canadian location?
 **emotion:** happy
 **suggestions:**
 - Where in Canada are you looking?

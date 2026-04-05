@@ -17,7 +17,7 @@ When communicating with non-technical stakeholders, I focus on what they need to
 - Have you mentored other developers?
 - How do you work in a team?
 - Tell me about your leadership style
-- How do you handle disagreements with teammates?
-- What did you build at Nurtur?
+- How do you handle team disagreements?
 - Tell me about the Integrations Dashboard
+- How do you work with non-technical people?
 

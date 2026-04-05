@@ -12,12 +12,13 @@ The other major challenge was the metadata-to-embeddings pivot in October 2025, 
 
 ---
 
+**shortTitle:** What was hardest about building WhatNow?
 **emotion:** thinking
 **suggestions:**
 - Tell me about debugging a complex issue
-- What's the hardest technical challenge you've solved?
+- What's the hardest technical challenge?
 - How do you approach problem-solving?
-- Tell me about the WhatNow project
+- Tell me about WhatNow
 - What's your debugging process?
 - What did you learn from building WhatNow?
 

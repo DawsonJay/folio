@@ -19,9 +19,9 @@ I combine artistic intuition and technical rigor. My art background gives me a s
 **emotion:** happy
 **suggestions:**
 - How did you transition from art to tech?
-- Tell me about your work experience
-- How do you handle disagreements with teammates?
-- Tell me about BriefYourMarket
-- What did you build at Nurtur?
+- How do you handle team disagreements?
 - Tell me about the Integrations Dashboard
+- Tell me about your experience at Nurtur
+- What did you do at Nurtur?
+- Tell me about WhatNow
 

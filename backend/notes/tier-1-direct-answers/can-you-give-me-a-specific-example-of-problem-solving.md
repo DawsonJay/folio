@@ -12,11 +12,12 @@ This example shows my problem-solving approach: investigate rigorously to find r
 
 ---
 
+**shortTitle:** Can you give a problem-solving example?
 **emotion:** thinking
 **suggestions:**
 - Tell me about the Nexus Dashboard
 - How do you approach problem-solving?
-- What's the hardest technical challenge you've solved?
+- What's the hardest technical challenge?
 - Tell me about debugging a complex issue
-- How did you handle difficult situations at work?
-- What was your biggest accomplishment at Nurtur?
+- How do you handle difficult work situations?
+- What was your biggest Nurtur achievement?

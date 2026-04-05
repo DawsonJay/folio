@@ -18,10 +18,10 @@ These projects cover full-stack development, AI/ML integration, system architect
 
 **emotion:** happy
 **suggestions:**
-- Tell me about WhatNow project
-- Tell me about moh-ami project
+- Tell me about WhatNow
+- Tell me about moh-ami
 - Tell me about the Nexus Dashboard
-- What did you build at Nurtur?
-- Tell me about the Atlantis project
-- What is Folio and how does it work?
+- Tell me about Atlantis
+- What is Folio?
+- Tell me about the Integrations Dashboard
 

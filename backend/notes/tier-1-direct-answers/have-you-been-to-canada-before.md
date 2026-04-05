@@ -8,9 +8,9 @@ Halifax is a good fit so far. The outdoor access is exactly what I was looking f
 
 **emotion:** thinking
 **suggestions:**
-- Why did you move to Canada?
+- Why do you want to move to Canada?
 - Where in Canada are you looking?
 - What's your visa status?
-- Why Canada specifically?
+- Why Canada?
 - What do you know about Canadian tech culture?
-- Are you flexible on location within Canada?
+- Are you flexible on Canadian location?

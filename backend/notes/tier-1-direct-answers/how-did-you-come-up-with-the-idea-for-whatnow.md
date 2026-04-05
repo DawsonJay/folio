@@ -10,14 +10,15 @@ The key insight was recognizing that data acquisition is typically the insurmoun
 
 ---
 
+**shortTitle:** How did you come up with the WhatNow idea?
 **emotion:** thinking
 **suggestions:**
-- Tell me about the WhatNow project
+- Tell me about WhatNow
 - What did you learn from building WhatNow?
-- What was the hardest part of building WhatNow?
+- What was hardest about building WhatNow?
 - How do you approach AI project scoping?
-- What other AI projects have you built?
 - What future projects are you considering?
+- Tell me about contextual bandits
 
 **projectLinks:**
 - WhatNow:

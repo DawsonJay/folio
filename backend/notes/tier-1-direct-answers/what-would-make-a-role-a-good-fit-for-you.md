@@ -17,6 +17,6 @@ Practical considerations: Work-life balance (professional work comes first, but 
 - What are your career goals?
 - What type of company are you looking for?
 - What size team do you prefer?
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
+- What's important to you in a role?

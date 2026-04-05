@@ -15,8 +15,8 @@ I use rubber ducking (explaining out loud reveals gaps), version control archaeo
 **emotion:** thinking
 **suggestions:**
 - Tell me about debugging a complex issue
-- What's the hardest technical challenge you've solved?
+- What's the hardest technical challenge?
 - How do you approach problem-solving?
-- Tell me about the WhatNow project
-- What resources do you use to solve complex problems?
-- How do you handle difficult technical problems?
+- Tell me about WhatNow
+- How do you tackle complex problems?
+- Can you give a problem-solving example?

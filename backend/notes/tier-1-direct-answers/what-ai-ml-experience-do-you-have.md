@@ -14,9 +14,9 @@ My AI experience focuses on integration. I'm creating AI-powered user interfaces
 
 **emotion:** happy
 **suggestions:**
-- Tell me about WhatNow project
-- How do you approach AI system design?
-- How do you decide when to refactor versus rewrite?
-- Tell me about your LLM experience
-- Tell me about the moh-ami project
-- What is Folio and how does it work?
+- Tell me about WhatNow
+- Tell me about moh-ami
+- What is Folio?
+- Tell me about contextual bandits
+- How do you approach adding LLM features?
+- What's your experience with RAG systems?

@@ -10,11 +10,12 @@ The key is treating AI as a tool with real limitations, not a wonder solution yo
 
 ---
 
+**shortTitle:** How do you approach adding LLM features?
 **emotion:** thinking
 **suggestions:**
-- What is Folio and how does it work?
-- Tell me about the moh-ami project
+- What is Folio?
+- Tell me about moh-ami
 - What's your experience with RAG systems?
-- Tell me about your AI/ML experience
-- How do you approach system design?
+- What AI/ML experience do you have?
 - How do you ensure code quality?
+- Tell me about prompt engineering experience

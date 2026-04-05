@@ -16,10 +16,10 @@ I took a problem, understood it deeply from multiple perspectives, and built a s
 
 **emotion:** happy
 **suggestions:**
-- What challenges did you face building it?
-- Tell me about your work experience
-- How do you approach system design?
 - How do you stay current with technology?
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
+- Tell me about WhatNow
+- Tell me about Atlantis
+- What project are you most proud of?
+- Show me examples of your work
 

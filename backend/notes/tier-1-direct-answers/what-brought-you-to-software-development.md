@@ -17,9 +17,9 @@ What brought me to software development was finding that perfect intersection of
 **emotion:** happy
 **suggestions:**
 - How did you transition from art to tech?
-- Tell me about your work experience
 - Describe your ideal work environment
 - How do you approach problem-solving?
-- What are your weaknesses as a developer?
-- Tell me about BriefYourMarket
+- What's your biggest weakness?
+- What's your story?
+- Tell me about your educational background
 

@@ -12,9 +12,9 @@ My approach favors using existing AI services (OpenAI API, embedding services, e
 
 **emotion:** thinking
 **suggestions:**
-- Tell me about your AI/ML experience
+- What AI/ML experience do you have?
 - What AI frameworks have you used?
-- Tell me about the WhatNow project
+- Tell me about WhatNow
 - How do you approach AI project scoping?
-- What's your experience with machine learning?
-- Tell me about Cirrus project
+- Tell me about an ML project you built?
+- Tell me about Cirrus

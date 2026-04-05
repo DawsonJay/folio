@@ -16,10 +16,10 @@ I use development tools that help me work efficiently and maintain code quality.
 
 **emotion:** happy
 **suggestions:**
-- How do you approach code reviews?
+- What's your experience with code reviews?
 - Tell me about your development workflow
 - What projects have you built?
 - How do you ensure code quality?
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
+- What's your development environment?
 

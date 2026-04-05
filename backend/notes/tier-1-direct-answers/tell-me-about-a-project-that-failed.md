@@ -14,10 +14,10 @@ The lesson I carry: ambitious scope requires honest data validation early. The s
 
 **emotion:** thinking
 **suggestions:**
-- What did you learn from that project?
+- Tell me about a project you learned from
 - How do you handle failure?
-- Tell me about the Cirrus project
-- Tell me about the Atlantis project
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
+- Tell me about Cirrus
+- Tell me about Atlantis
+- Tell me about moh-ami
+- Tell me about WhatNow
 

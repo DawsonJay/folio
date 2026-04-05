@@ -14,9 +14,9 @@ My GitHub has full source code for personal projects. Portfolio website includes
 
 **emotion:** happy
 **suggestions:**
-- Tell me about the Folio project
-- What is WhatNow?
+- What is Folio?
+- Tell me about WhatNow
 - Tell me about moh-ami
-- What was the Integrations Dashboard?
-- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
+- Tell me about Atlantis

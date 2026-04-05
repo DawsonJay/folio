@@ -16,12 +16,13 @@ I was responsible for building production-quality systems that lasted, thinking 
 
 ---
 
+**shortTitle:** What were your last job responsibilities?
 **emotion:** happy
 **suggestions:**
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
-- Tell me about your work experience
 - What did you do at Nurtur?
 - How do you work in a team?
 - Tell me about the Email Editor project
+- Tell me about your experience at Nurtur
 

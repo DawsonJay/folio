@@ -14,9 +14,9 @@ When managing scope with stakeholders, I'm clear about tradeoffs. Adding feature
 
 **emotion:** thinking
 **suggestions:**
-- How do you define MVP?
 - Tell me about your freelance experience
-- How do you manage stakeholder expectations?
-- What was a challenging project?
-- How do you prioritize features?
-- What did you build at Nurtur?
+- Tell me about a challenging project
+- How do you prioritize tasks?
+- Tell me about balancing quality and speed
+- How do you handle ambiguous requirements?
+- How do you make technical decisions?

@@ -12,9 +12,9 @@ My first professional project was the Integrations Dashboard at Nurtur in July 2
 
 **emotion:** happy
 **suggestions:**
-- How did you learn to code?
-- What challenges did you face transitioning to tech?
+- How did you get into development?
+- What were your tech transition challenges?
 - How did you transition from art to tech?
 - Tell me about your educational background
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
+- What brought you to software development?

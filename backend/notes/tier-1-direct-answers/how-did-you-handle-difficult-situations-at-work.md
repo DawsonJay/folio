@@ -12,11 +12,12 @@ Difficult situations require understanding the real problem (not just symptoms),
 
 ---
 
+**shortTitle:** How do you handle difficult work situations?
 **emotion:** thinking
 **suggestions:**
 - Tell me about debugging a complex issue
 - How do you approach problem-solving?
 - Tell me about the Nexus Dashboard
-- What was your biggest challenge at Nurtur?
 - How did you grow in your position at Nurtur?
 - Tell me about the Email Editor project
+- Tell me about a difficult situation?

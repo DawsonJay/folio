@@ -12,9 +12,9 @@ I know you only really understand a place once you've lived there. I'm here, I'm
 
 **emotion:** thinking
 **suggestions:**
-- Why did you choose Halifax?
-- What are you looking for in a role?
-- Tell me about your AI/ML experience
-- What drives you as a developer?
-- What are your weaknesses as a developer?
+- Where in Canada are you looking?
+- What are you looking for in your next role?
+- What AI/ML experience do you have?
+- What motivates you as a developer?
 - Why do you want to work at a startup?
+- What attracted you to Canadian tech?

@@ -16,8 +16,8 @@ The breadth of my background - art, teaching kayaking, self-taught coding, profe
 **suggestions:**
 - What are your strengths?
 - How do you approach problem-solving?
-- Tell me about your work experience
-- How do you decide when to refactor versus rewrite?
+- When do you refactor versus rewrite?
 - Tell me about the Integrations Dashboard
-- Tell me about the WhatNow project
+- Tell me about WhatNow
+- Why should we hire you?
 

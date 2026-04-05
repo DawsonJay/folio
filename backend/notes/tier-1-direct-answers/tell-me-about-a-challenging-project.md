@@ -14,10 +14,10 @@ The Folio project is now live, providing value, and I'm continuing to improve it
 
 **emotion:** thinking
 **suggestions:**
-- Tell me about a challenging project
-- How do you approach tight deadlines?
-- Tell me about your work experience
-- How do you balance quality and speed?
-- How do you approach frontend performance optimization?
-- What is Folio and how does it work?
+- How do you handle tight deadlines?
+- Tell me about balancing quality and speed
+- What is Folio?
+- Tell me about WhatNow
+- How do you approach problem-solving?
+- Tell me about your most successful project
 

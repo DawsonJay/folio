@@ -15,9 +15,9 @@ I also have experience with MongoDB from bootcamp and understand NoSQL concepts,
 **emotion:** happy
 **suggestions:**
 - What's your backend development experience?
-- How do you approach system design?
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What's your experience with REST APIs?
 

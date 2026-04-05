@@ -16,7 +16,7 @@ I'm looking for mid to senior frontend roles where I can integrate AI capabiliti
 **suggestions:**
 - What projects have you built?
 - How did you transition from art to tech?
-- Tell me about your work experience
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
+- What are your strengths?
+- What are you looking for in your next role?

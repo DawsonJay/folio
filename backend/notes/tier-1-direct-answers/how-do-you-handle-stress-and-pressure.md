@@ -14,10 +14,10 @@ I move on from mistakes quickly. In both kayaking and debugging, dwelling on err
 
 **emotion:** thinking
 **suggestions:**
-- Tell me about a time you had to meet a tight deadline
+- How do you handle tight deadlines?
 - How do you handle failure?
-- Describe a difficult situation and how you handled it
+- Tell me about a difficult situation?
 - How do you approach problem-solving?
-- How do you handle disagreements with teammates?
+- How do you handle team disagreements?
 - Tell me about the Integrations Dashboard
 

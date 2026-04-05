@@ -18,10 +18,10 @@ The project I was working on at Nurtur concluded in February 2026 when the team 
 
 **emotion:** happy
 **suggestions:**
-- Tell me about BriefYourMarket
-- What did you build at Nurtur?
 - Tell me about the Nexus Dashboard
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
+- Tell me about your experience at Nurtur
+- Walk me through your career journey
 

@@ -15,9 +15,9 @@ My deployment experience has primarily been with platforms like Railway, Render,
 **emotion:** happy
 **suggestions:**
 - What's your backend development experience?
-- How do you approach deployment?
-- What kind of problems do you find most interesting?
-- Tell me about your work experience
+- What problems interest you most?
 - How do you ensure code quality?
 - What development tools do you use?
+- What's your experience with cloud platforms?
+- Tell me about your development workflow
 

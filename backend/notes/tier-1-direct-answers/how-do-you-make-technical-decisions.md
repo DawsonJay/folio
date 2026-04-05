@@ -12,10 +12,10 @@ On portfolio projects, I've made technology choices based on project needs. What
 
 **emotion:** thinking
 **suggestions:**
-- How do you approach system design?
 - Tell me about the Integrations Dashboard
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
+- Tell me about moh-ami
+- Tell me about WhatNow
 - Tell me about the Nexus Dashboard
-- What is Folio and how does it work?
+- What is Folio?
+- When do you refactor versus rewrite?
 

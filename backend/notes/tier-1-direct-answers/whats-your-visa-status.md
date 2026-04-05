@@ -13,6 +13,6 @@ I've completed everything required: IELTS (8.5 overall, C2 level), WES education
 - Do you need visa sponsorship?
 - What are your immigration plans?
 - Are you planning to stay in Canada long-term?
-- Where in Canada are you based?
+- Where are you based right now?
 - When can you start?
-- Why did you move to Canada?
+- Why do you want to move to Canada?

@@ -8,16 +8,16 @@ The technical stack uses Next.js 14 App Router, GraphQL API with Apollo Server, 
 
 The LLM integration uses structured prompt engineering. I designed prompts requesting specific JSON schemas, making responses consistent and parseable. The system does semantic chunking - splitting text into meaningful units 50-150 characters rather than word-by-word for more coherent explanations. Validation logic catches common LLM errors before reaching users, with comprehensive error handling for API failures, quota limits, and rate limits.
 
-Built and deployed in a single intensive session January 11, 2026 - from scratch to production-ready in one day. Operating costs are minimal - about $1-2 monthly for OpenAI API usage, with hosting on Railway covered by a £5/month subscription that hosts all my projects.
+Built and deployed in a single intensive session January 11, 2026 - from scratch to production-ready in one day. Operating costs are minimal - about $1-2 monthly for OpenAI API usage. I self-host all my projects including moh-ami and Folio on a Raspberry Pi I set up as a home server.
 
 ---
 
 **emotion:** happy
 **suggestions:**
-- How do you approach AI system design?
 - How do you approach technical debt?
-- Tell me about your LLM experience
-- How do you ensure AI system quality?
-- What AI technologies are you learning?
+- Do you have experience with LLMs?
 - What projects have you built?
+- Tell me about prompt engineering experience
+- How do you approach adding LLM features?
+- What AI/ML experience do you have?
 

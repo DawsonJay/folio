@@ -15,4 +15,4 @@ After one year of Canadian work experience, I'll apply for Permanent Residency t
 - What are your immigration plans?
 - Are you planning to stay in Canada long-term?
 - When can you start?
-- Where in Canada are you based?
+- Where are you based right now?

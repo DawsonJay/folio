@@ -14,7 +14,7 @@ This was a calculated move at the right career stage - established enough to con
 
 **emotion:** happy
 **suggestions:**
-- Why did you move to Canada?
+- Why do you want to move to Canada?
 - What are your immigration plans?
 - What are you looking for in your next role?
 - What are your career goals?

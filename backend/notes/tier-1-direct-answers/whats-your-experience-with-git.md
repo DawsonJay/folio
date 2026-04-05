@@ -16,10 +16,10 @@ I'm comfortable with advanced Git features like rebasing, cherry-picking, and re
 
 **emotion:** happy
 **suggestions:**
-- How do you approach code reviews?
+- What's your experience with code reviews?
 - Tell me about your development workflow
 - What projects have you built?
 - How do you ensure code quality?
 - How do you work in a team?
-- What did you build at Nurtur?
+- Tell me about version control
 

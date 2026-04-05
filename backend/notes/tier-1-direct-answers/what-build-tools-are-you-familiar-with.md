@@ -14,10 +14,10 @@ My build tool experience is primarily with Vite, which I've used in production a
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your frontend development experience
-- How do you approach deployment?
+- Tell me about your frontend experience?
 - Describe your ideal work environment
-- Tell me about your React experience
+- Tell me about your experience with React
 - How do you ensure code quality?
-- What frontend tools do you use?
+- What development tools do you use?
+- What's your development environment?
 

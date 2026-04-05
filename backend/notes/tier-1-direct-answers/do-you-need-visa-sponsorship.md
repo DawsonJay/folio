@@ -14,5 +14,5 @@ There's no burden on the employer's side - it's the same as hiring any other loc
 - Do you have a work permit for Canada?
 - What are your immigration plans?
 - When can you start?
-- Where in Canada are you based?
+- Where are you based right now?
 - Are you planning to stay in Canada long-term?

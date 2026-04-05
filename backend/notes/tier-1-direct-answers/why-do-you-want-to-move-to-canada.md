@@ -18,5 +18,5 @@ I'm 31 with 5.5 years of professional experience. This was the right timing - es
 - What are you looking for in your next role?
 - What are your career goals?
 - Are you planning to stay in Canada long-term?
-- Where in Canada are you based?
+- Where are you based right now?
 - What's your visa status?

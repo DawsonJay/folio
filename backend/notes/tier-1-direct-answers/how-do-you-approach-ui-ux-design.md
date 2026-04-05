@@ -14,7 +14,7 @@ A lot of UX is about feeling. If a design makes you feel even a slight twist of 
 **suggestions:**
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
-- How do you approach system design?
-- What's your experience with React?
-- What did you build at Nurtur?
+- Tell me about your experience with React
 - Tell me about moh-ami
+- Tell me about your frontend experience?
+- What are your strengths?

@@ -16,8 +16,8 @@ I'm committed as long as I'm growing and providing value. I don't think in fixed
 **suggestions:**
 - What are you looking for in your next role?
 - Why are you looking for a new role?
-- How do you handle disagreements with teammates?
 - How do you stay current with technology?
-- How do you approach learning new technologies?
+- How do you approach learning new tech?
 - What are your strongest technical skills?
+- Where do you see yourself in five years?
 

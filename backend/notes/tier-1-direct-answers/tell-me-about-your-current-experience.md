@@ -16,10 +16,10 @@ I'm ready to start immediately and bring 5.5 years of proven production experien
 
 **emotion:** happy
 **suggestions:**
-- Tell me about BriefYourMarket
-- What did you build at Nurtur?
 - Tell me about the Nexus Dashboard
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
+- Tell me about the Integrations Dashboard
+- Tell me about your experience at Nurtur
 

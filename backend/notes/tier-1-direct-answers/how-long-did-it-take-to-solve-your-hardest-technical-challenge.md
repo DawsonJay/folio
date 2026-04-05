@@ -12,11 +12,12 @@ The lesson: hard problems require time to understand, not just time to fix.
 
 ---
 
+**shortTitle:** How long did your hardest challenge take?
 **emotion:** thinking
 **suggestions:**
-- What's the hardest technical challenge you've solved?
+- What's the hardest technical challenge?
 - Tell me about debugging a complex issue
-- What was the hardest part of building WhatNow?
+- What was hardest about building WhatNow?
 - How do you approach problem-solving?
 - What's your debugging process?
-- Tell me about the WhatNow project
+- Tell me about WhatNow

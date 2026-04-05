@@ -15,7 +15,7 @@ I'm not running away from problems. I'm running toward my goals. I've learned wh
 - What are you looking for in your next role?
 - What are your career goals?
 - What projects have you built?
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
+- Tell me about your experience at Nurtur
 

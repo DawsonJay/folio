@@ -20,8 +20,8 @@ The project continued after I left to work on Nexus Dashboard. The team carried 
 **suggestions:**
 - Have you mentored other developers?
 - How do you work in a team?
-- Tell me about your work experience
-- What are your weaknesses as a developer?
-- What did you build at Nurtur?
+- What's your biggest weakness?
 - Tell me about the Nexus Dashboard
+- Tell me about the Integrations Dashboard
+- How do you approach UI/UX design?
 

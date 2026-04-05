@@ -12,12 +12,13 @@ I can work independently when needed. I'm comfortable with self-direction and I 
 
 ---
 
+**shortTitle:** Do you prefer solo or team work?
 **emotion:** happy
 **suggestions:**
 - How do you work in a team?
 - Have you mentored other developers?
 - Tell me about your leadership style
 - How do you communicate technical concepts?
-- How do you approach frontend performance optimization?
 - Tell me about your freelance experience
+- Tell me about a successful team project
 

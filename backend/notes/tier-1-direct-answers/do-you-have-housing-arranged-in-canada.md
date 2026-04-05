@@ -10,9 +10,9 @@ If the role requires relocating to a different city within Canada, I can handle 
 
 **emotion:** happy
 **suggestions:**
-- Where in Canada are you based?
+- Where are you based right now?
 - When can you start?
-- Are you open to relocating within Canada?
+- Are you flexible on Canadian location?
 - What's your visa status?
 - What are you looking for in your next role?
 - Are you open to remote work?

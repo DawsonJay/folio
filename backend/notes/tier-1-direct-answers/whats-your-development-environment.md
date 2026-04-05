@@ -9,8 +9,8 @@ The setup is simple but supports rapid iteration - try concepts in the sandbox, 
 **emotion:** thinking
 **suggestions:**
 - What development tools do you use?
-- How do you approach learning new technologies?
+- How do you approach learning new tech?
 - Tell me about your development workflow
-- What IDEs have you used?
-- How do you test new ideas?
-- What browser tools do you rely on?
+- How do you ensure code quality?
+- What's your experience with Git?
+- Tell me about version control

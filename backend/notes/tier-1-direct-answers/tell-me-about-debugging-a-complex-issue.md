@@ -20,8 +20,8 @@ This was harder than any stack overflow or memory leak I've debugged because it 
 **suggestions:**
 - Tell me about a mistake you made
 - How do you approach problem-solving?
-- Describe your ideal work environment
 - How do you ensure code quality?
-- Tell me about WhatNow project
+- Tell me about WhatNow
 - How do you handle failure?
+- What's your debugging process?
 

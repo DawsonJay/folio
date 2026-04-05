@@ -14,10 +14,10 @@ My current professional focus is on TypeScript, React, Python, and C#, but I hav
 
 **emotion:** happy
 **suggestions:**
-- What programming languages are you most proficient in?
-- How do you approach learning new languages?
-- What was your first programming language?
+- Which programming languages are you best at?
+- How do you approach learning new tech?
+- What was your first programming project?
 - What projects have you built?
-- Tell me about a technical decision you'd do differently
-- Tell me about BriefYourMarket
+- What technical decision would you redo?
+- What's your backend development experience?
 

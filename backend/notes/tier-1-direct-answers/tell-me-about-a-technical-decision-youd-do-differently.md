@@ -10,11 +10,12 @@ The general lesson: before building anything substantial, sketch out what's genu
 
 ---
 
+**shortTitle:** What technical decision would you redo?
 **emotion:** thinking
 **suggestions:**
 - Tell me about Cirrus
 - Tell me about WhatNow
 - Tell me about a project that failed
-- What have you learned from your portfolio projects?
-- How do you approach project scoping?
+- How do you approach AI project scoping?
 - How do you ensure code quality?
+- Tell me about a mistake you made

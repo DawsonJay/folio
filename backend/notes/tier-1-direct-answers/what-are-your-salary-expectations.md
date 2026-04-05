@@ -11,8 +11,8 @@ I care more about finding the right role - meaningful work in AI-powered web app
 **emotion:** thinking
 **suggestions:**
 - What are you looking for in your next role?
-- What benefits do you offer?
-- What does the total compensation package look like?
-- Tell me about the team structure
-- What are the growth opportunities?
-- How do you approach technical debt?
+- What are your career goals?
+- Why are you looking for a new role?
+- When can you start?
+- What's your availability?
+- What are your strongest technical skills?

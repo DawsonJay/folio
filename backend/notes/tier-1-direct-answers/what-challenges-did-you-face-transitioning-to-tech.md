@@ -10,11 +10,12 @@ The transition happened through self-teaching first (books, Codecademy, Udemy co
 
 ---
 
+**shortTitle:** What were your tech transition challenges?
 **emotion:** thinking
 **suggestions:**
 - How did you transition from art to tech?
 - What was your first programming project?
-- How did your art background help with development?
+- How did art help your development career?
 - What made you choose software development?
 - Tell me about your educational background
-- What is Folio and how does it work?
+- What is Folio?

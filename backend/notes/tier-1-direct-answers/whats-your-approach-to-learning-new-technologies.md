@@ -12,12 +12,13 @@ I build strong foundations, then keep expanding as new challenges require new sk
 
 ---
 
+**shortTitle:** How do you approach learning new tech?
 **emotion:** happy
 **suggestions:**
-- Tell me about a time you had to learn something quickly
+- How do you learn something quickly?
 - How do you stay current with technology?
-- What technologies are you learning?
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- What technologies are you most excited about?
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
 

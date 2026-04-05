@@ -8,11 +8,12 @@ What I find genuinely interesting about performance is how it reveals the shape 
 
 ---
 
+**shortTitle:** How do you optimize frontend performance?
 **emotion:** thinking
 **suggestions:**
 - Tell me about the Nexus Dashboard
-- How do you approach frontend architecture?
-- Tell me about a technically challenging problem you've solved
+- What's the hardest technical challenge?
 - How do you ensure code quality?
-- What's your experience with React?
+- Tell me about your experience with React
 - How do you approach technical debt?
+- When do you refactor versus rewrite?

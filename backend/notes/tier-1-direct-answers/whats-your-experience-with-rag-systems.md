@@ -14,10 +14,10 @@ The meta aspect - Folio is an AI system presenting an AI/ML portfolio. Practical
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your AI/ML experience
+- What AI/ML experience do you have?
 - What is Folio?
-- How do you approach system design?
 - What technologies are you most excited about?
-- What kind of problems do you find most interesting?
-- What AI technologies are you learning?
+- What problems interest you most?
+- What's your understanding of embeddings?
+- Tell me about WhatNow
 

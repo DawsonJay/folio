@@ -14,10 +14,10 @@ So while I've been coding for about 11+ years, my professional development exper
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your work experience
 - How did you get into development?
 - What are your strongest technical skills?
 - What projects have you built?
-- Tell me about BriefYourMarket
-- What is Folio and how does it work?
+- What is Folio?
+- Walk me through your career journey
+- What's your story?
 

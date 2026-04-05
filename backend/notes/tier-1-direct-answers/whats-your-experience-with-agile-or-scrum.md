@@ -14,9 +14,9 @@ I learned that Agile works when teams adapt practices to fit actual needs. Teams
 
 **emotion:** thinking
 **suggestions:**
-- How do you prefer to work in teams?
+- How do you work in a team?
 - Tell me about the Email Editor project
-- What was your role at Nurtur?
-- How do you handle team communication?
-- What tools do you use for collaboration?
 - Tell me about your development workflow
+- How do you communicate technical concepts?
+- Tell me about a successful team project
+- What did you do at Nurtur?

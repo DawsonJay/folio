@@ -16,10 +16,10 @@ The system was designed to adapt to major backend changes without significant fr
 
 **emotion:** happy
 **suggestions:**
-- What challenges did you face building it?
-- Tell me about your work experience
-- How do you approach system design?
 - Why do you want to work at a startup?
-- What did you build at Nurtur?
 - Tell me about the Nexus Dashboard
+- Tell me about the Integrations Dashboard
+- Tell me about WhatNow
+- How do you ensure code quality?
+- What project are you most proud of?
 

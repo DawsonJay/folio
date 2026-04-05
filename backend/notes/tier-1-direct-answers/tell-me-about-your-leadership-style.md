@@ -17,7 +17,7 @@ I naturally end up in a connecting role on teams. I bridge gaps between people -
 - Have you mentored other developers?
 - How do you work in a team?
 - How do you communicate technical concepts?
-- Tell me about a technical decision you'd do differently
+- What technical decision would you redo?
 - How do you approach problem-solving?
-- What did you build at Nurtur?
+- Tell me about a project you led?
 

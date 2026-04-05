@@ -13,8 +13,8 @@ The things I loved about art are the same things I love about technology - dream
 **emotion:** happy
 **suggestions:**
 - How did you transition from art to tech?
-- What challenges did you face transitioning to tech?
+- What were your tech transition challenges?
 - Tell me about your educational background
 - What was your first programming project?
-- How did your art background help with development?
-- What drives you as a developer?
+- How did art help your development career?
+- What motivates you as a developer?

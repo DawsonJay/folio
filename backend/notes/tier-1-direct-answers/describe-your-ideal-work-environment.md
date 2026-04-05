@@ -19,4 +19,4 @@ I've also learned that the right environment doesn't always arrive fully formed.
 - What are you looking for in your next role?
 - What motivates you as a developer?
 - How do you work in a team?
-- What did you build at Nurtur?
+- Do you prefer solo or team work?

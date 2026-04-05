@@ -8,11 +8,12 @@ If the question is about relocating within Canada to a different city - I can co
 
 ---
 
+**shortTitle:** What relocation support do you need?
 **emotion:** happy
 **suggestions:**
 - What's your visa status?
 - Do you need visa sponsorship?
-- Are you open to relocating within Canada?
-- Where in Canada are you based?
+- Are you flexible on Canadian location?
+- Where are you based right now?
 - When can you start?
 - What are you looking for in your next role?

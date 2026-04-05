@@ -14,10 +14,10 @@ WhatNow taught me that building complete systems end-to-end provides more learni
 
 **emotion:** thinking
 **suggestions:**
-- Tell me about the WhatNow project
-- How did you come up with the idea for WhatNow?
-- What was the hardest part of building WhatNow?
-- How do you approach learning new technologies?
+- Tell me about WhatNow
+- How did you come up with the WhatNow idea?
+- What was hardest about building WhatNow?
+- How do you approach learning new tech?
 - What future projects are you considering?
 - How do you approach AI project scoping?
 

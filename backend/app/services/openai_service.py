@@ -30,9 +30,10 @@ class OpenAIService:
         return [item.embedding for item in response.data]
     
     def generate_chat_response(
-        self, 
-        question: str, 
+        self,
+        question: str,
         context: str,
+        suggestion_list: str = "",
         project_links: Optional[Dict[str, Dict[str, str]]] = None,
         qualification: Optional[str] = None
     ) -> dict:
@@ -82,7 +83,7 @@ PROJECT STATUS (ALWAYS EXPLICIT):
 JSON: {"answer":"","emotion":"happy|thinking|surprised|derp","suggestions":[{"text":""}×6],"projectLinks":{"Name":{"demo":"","github":""}}}
 
 Emotion: happy (positive) / thinking (technical) / surprised (impressive) / derp (limitations)
-Suggestions: 6 QUESTIONS (not statements) about James, max 45 char. BROAD/GENERAL questions about major portfolio topics (projects, skills, work experience, technical approach). NOT narrow/specific. Format: "What...", "How...", "Tell me about...". NEVER generic/company-preference questions. CRITICAL: Each suggestion must be SELF-CONTAINED - meaningful when asked independently without requiring context from the previous question. Avoid vague references like "that", "this", "it" - include specific project names, technologies, or topics when relevant."""
+Suggestions: Choose exactly 6 from the SUGGESTION LIST provided in the user message. Pick the 6 most relevant to the answer just given. Use the EXACT text from the list — do not alter, abbreviate, or invent new suggestions."""
 
         qualification_prefix = f'\n\nStart: "{qualification}"' if qualification else ""
         
@@ -93,7 +94,12 @@ Links: {project_links_json}
 
 Q: {question}{qualification_prefix}
 
-Write a detailed answer using the context provided. Assess context richness: if context has multiple detailed notes, technical challenges, project stories, or comprehensive information, write 300-400 words. If moderate detail, write 200-300 words. If sparse, write 150-200 words minimum. Use the available context - don't summarize everything into a brief answer. Include links if relevant. 6 BROAD/GENERAL QUESTION suggestions about major portfolio topics (NOT narrow/specific questions). Each suggestion must be SELF-CONTAINED - meaningful when asked independently without requiring context from this answer. Avoid vague references like "that", "this", "it" - include specific project names, technologies, or topics. JSON only."""
+Write a detailed answer using the context provided. Assess context richness: if context has multiple detailed notes, technical challenges, project stories, or comprehensive information, write 300-400 words. If moderate detail, write 200-300 words. If sparse, write 150-200 words minimum. Use the available context - don't summarize everything into a brief answer. Include links if relevant.
+
+Choose exactly 6 suggestions from the SUGGESTION LIST below. Pick the ones most relevant to the answer just given. Use the EXACT text from the list. JSON only.
+
+SUGGESTION LIST:
+{suggestion_list}"""
         
         messages = [
             {"role": "system", "content": system_message},
@@ -116,12 +122,22 @@ Write a detailed answer using the context provided. Assess context richness: if 
         if not isinstance(result.get("suggestions"), list):
             result["suggestions"] = []
         
+        fallbacks = [
+            "Tell me about yourself",
+            "What are your strongest technical skills?",
+            "What projects have you built?",
+            "Why are you looking for a new role?",
+            "What is Folio?",
+            "What are you looking for in your next role?",
+        ]
+        i = 0
         while len(result["suggestions"]) < 6:
-            result["suggestions"].append({"text": f"Tell me more about that"})
+            result["suggestions"].append({"text": fallbacks[i % len(fallbacks)]})
+            i += 1
         
         return result
     
-    def generate_redirect_response(self, question: str, weak_context: str) -> dict:
+    def generate_redirect_response(self, question: str, weak_context: str, suggestion_list: str = "") -> dict:
         system_message = """Answer AS James (1st person ALWAYS). Mention Folio only if asked about Folio project.
 
 CRITICAL: Use ONLY facts from context. NEVER invent project descriptions or details.
@@ -136,13 +152,16 @@ STATUS: If mention projects, state "ongoing"/"completed"/"cancelled" explicitly.
 
 JSON: {"answer":"","emotion":"thinking|derp","suggestions":[{"text":""}×6]}
 
-Suggestions: 6 QUESTIONS (not statements) about James, max 45 char. BROAD/GENERAL questions about major portfolio topics (projects, skills, work experience, technical approach). NOT narrow/specific. Format: "What...", "How...", "Tell me about...". NEVER generic/company-preference."""
+Suggestions: Choose exactly 6 from the SUGGESTION LIST provided in the user message. Use the EXACT text from the list — do not alter, abbreviate, or invent new suggestions."""
 
         user_message = f"""Q: {question}
 
 Context: {weak_context}
 
-Answer the question using the context provided. If the context contains relevant information, provide a detailed answer (150-300 words). If context is truly insufficient, acknowledge that and suggest 6 BROAD/GENERAL QUESTION alternatives about James's major portfolio topics (projects, skills, work experience), max 45 char each. NOT narrow/specific. JSON only."""
+Answer the question using the context provided. If the context contains relevant information, provide a detailed answer (150-300 words). If context is truly insufficient, acknowledge that. Choose exactly 6 suggestions from the SUGGESTION LIST below. Use the EXACT text from the list. JSON only.
+
+SUGGESTION LIST:
+{suggestion_list}"""
         
         messages = [
             {"role": "system", "content": system_message},
@@ -165,8 +184,18 @@ Answer the question using the context provided. If the context contains relevant
         if not isinstance(result.get("suggestions"), list):
             result["suggestions"] = []
         
+        fallbacks = [
+            "Tell me about yourself",
+            "What are your strongest technical skills?",
+            "What projects have you built?",
+            "Why are you looking for a new role?",
+            "What is Folio?",
+            "What are you looking for in your next role?",
+        ]
+        i = 0
         while len(result["suggestions"]) < 6:
-            result["suggestions"].append({"text": "What projects have you built?"})
+            result["suggestions"].append({"text": fallbacks[i % len(fallbacks)]})
+            i += 1
         
         return result
     
@@ -175,12 +204,12 @@ Answer the question using the context provided. If the context contains relevant
             "answer": "That seems outside the scope of my portfolio knowledge base. I'm here to answer questions about James's professional experience, technical skills, and project work.\n\nWhat would you like to know about his development experience, projects, or technical approach?",
             "emotion": "thinking",
             "suggestions": [
+                {"text": "Tell me about yourself"},
+                {"text": "What are your strongest technical skills?"},
                 {"text": "What projects have you built?"},
-                {"text": "Tell me about your AI/ML work"},
-                {"text": "What's your backend experience?"},
-                {"text": "How do you approach debugging?"},
-                {"text": "What's your frontend stack?"},
-                {"text": "Tell me about your work process"}
+                {"text": "Why are you looking for a new role?"},
+                {"text": "How do you approach problem-solving?"},
+                {"text": "How did you transition from art to tech?"}
             ]
         }
     
@@ -190,11 +219,11 @@ Answer the question using the context provided. If the context contains relevant
             "emotion": "annoyed",
             "suggestions": [
                 {"text": "What is Folio?"},
-                {"text": "How does Folio work?"},
-                {"text": "What tech powers Folio?"},
-                {"text": "Why did you build Folio?"},
-                {"text": "Tell me about the RAG system"},
-                {"text": "How did you build Folio?"}
+                {"text": "What's your experience with RAG systems?"},
+                {"text": "Do you have experience with LLMs?"},
+                {"text": "What AI/ML experience do you have?"},
+                {"text": "What are your strongest technical skills?"},
+                {"text": "Tell me about yourself"}
             ]
         }
 

@@ -16,10 +16,10 @@ I took a problem, understood it deeply from multiple perspectives, and built a s
 
 **emotion:** happy
 **suggestions:**
-- What challenges did you face building it?
-- Tell me about your work experience
-- How do you approach system design?
-- What are your weaknesses as a developer?
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
+- What's your biggest weakness?
+- Tell me about WhatNow
+- Tell me about the Nexus Dashboard
+- How do you ensure code quality?
+- What project are you most proud of?
 

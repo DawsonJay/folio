@@ -14,11 +14,11 @@ The solo nature of WhatNow is actually an advantage for demonstrating skills. Ev
 
 **emotion:** happy
 **suggestions:**
-- Tell me about the WhatNow project
+- Tell me about WhatNow
 - Tell me about a successful team project
-- How do you balance working independently vs with teams?
+- Do you prefer solo or team work?
 - What was the team size at Nurtur?
-- How did you handle the Integrations Dashboard?
+- Tell me about the Integrations Dashboard
 - Tell me about the Email Editor project
 
 **projectLinks:**

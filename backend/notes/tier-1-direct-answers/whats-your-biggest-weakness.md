@@ -10,11 +10,12 @@ The inclination toward craftsmanship is real and it doesn't go away — but rais
 
 ---
 
+**shortTitle:** What's your biggest weakness?
 **emotion:** thinking
 **suggestions:**
-- What did you build at Nurtur?
-- Tell me about Folio
+- What is Folio?
 - Tell me about the Integrations Dashboard
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- Tell me about your time at BriefYourMarket
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What are you doing to improve?
+- What are your strengths?

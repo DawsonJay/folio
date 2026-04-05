@@ -19,5 +19,5 @@ Hire me if you're building something that matters and you value technical excell
 - Describe your ideal work environment
 - What projects have you built?
 - How do you work in a team?
-- What are your weaknesses as a developer?
+- What's your biggest weakness?
 

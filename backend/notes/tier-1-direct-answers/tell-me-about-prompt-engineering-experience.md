@@ -16,10 +16,10 @@ I understand prompt engineering principles: how to structure prompts for consist
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your LLM experience
-- Tell me about moh-ami project
-- How do you approach AI system design?
-- Tell me about a technical decision you'd do differently
-- How do you ensure AI system quality?
-- What is Folio and how does it work?
+- Do you have experience with LLMs?
+- Tell me about moh-ami
+- What technical decision would you redo?
+- What is Folio?
+- How do you approach adding LLM features?
+- What's your experience with RAG systems?
 

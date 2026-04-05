@@ -16,10 +16,10 @@ What drew me to development was that it's both creative and intellectual. Code e
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your work experience
 - How do you stay current with technology?
-- How do you approach learning new technologies?
+- How do you approach learning new tech?
 - What projects have you built?
-- Tell me about BriefYourMarket
-- What is Folio and how does it work?
+- What is Folio?
+- Tell me about your educational background
+- What's your story?
 

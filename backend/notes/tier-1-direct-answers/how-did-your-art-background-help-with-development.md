@@ -12,11 +12,12 @@ The creative approach transfers to component architecture and system design. The
 
 ---
 
+**shortTitle:** How did art help your development career?
 **emotion:** thinking
 **suggestions:**
-- What challenges did you face transitioning to tech?
+- What were your tech transition challenges?
 - How did you transition from art to tech?
-- Tell me about your problem-solving approach
+- How do you approach problem-solving?
 - How do you approach UI/UX design?
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- Tell me about WhatNow
+- What is Folio?

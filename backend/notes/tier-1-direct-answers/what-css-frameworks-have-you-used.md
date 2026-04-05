@@ -19,7 +19,7 @@ My CSS experience spans multiple approaches, giving me flexibility to choose the
 - Tell me about the Email Editor project
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
 

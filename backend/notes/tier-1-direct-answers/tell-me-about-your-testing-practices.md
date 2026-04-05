@@ -14,9 +14,9 @@ Testing effort matches code criticality. Production systems get comprehensive te
 
 **emotion:** thinking
 **suggestions:**
-- How do you decide what to test?
-- What was the Nexus Dashboard complexity?
 - Tell me about your development workflow
 - How do you ensure code quality?
-- What testing tools do you use?
 - Tell me about the Integrations Dashboard
+- Tell me about the Nexus Dashboard
+- How do you test your projects?
+- What's your testing strategy?

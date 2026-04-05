@@ -18,7 +18,7 @@ I prioritize based on value versus effort and user impact. What moves the needle
 **suggestions:**
 - How do you handle ambiguous requirements?
 - Tell me about the Integrations Dashboard
-- What testing approach do you use?
+- What's your testing strategy?
 - How do you prioritize tasks?
 - Tell me about your development workflow
 - Tell me about the Nexus Dashboard

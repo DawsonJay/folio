@@ -14,12 +14,12 @@ WhatNow demonstrates full-stack AI/ML engineering - complete system from databas
 
 **emotion:** happy
 **suggestions:**
-- Tell me about the WhatNow project
+- Tell me about WhatNow
 - How did you learn React?
-- What's your experience with FastAPI?
-- How do you choose technologies for projects?
 - What AI frameworks have you used?
-- Tell me about your machine learning experience
+- What AI/ML experience do you have?
+- How do you make technical decisions?
+- Tell me about contextual bandits
 
 **projectLinks:**
 - WhatNow:

@@ -16,12 +16,13 @@ When we both have the same authority, I'll still listen, but if it's an area whe
 
 ---
 
+**shortTitle:** Tell me about disagreeing with a coworker?
 **emotion:** thinking
 **suggestions:**
 - How do you work in a team?
-- How do you handle disagreements with teammates?
+- How do you handle team disagreements?
 - How do you communicate technical concepts?
 - Have you mentored other developers?
-- How do you approach adding LLM features?
 - How do you approach problem-solving?
+- Tell me about your leadership style
 

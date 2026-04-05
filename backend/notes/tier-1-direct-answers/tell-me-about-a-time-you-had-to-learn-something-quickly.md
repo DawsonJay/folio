@@ -16,12 +16,13 @@ I believe in continuous learning - you build strong foundations, then keep expan
 
 ---
 
+**shortTitle:** How do you learn something quickly?
 **emotion:** happy
 **suggestions:**
-- How do you learn new technologies?
+- How do you approach learning new tech?
 - How do you stay current with technology?
-- Tell me about moh-ami project
-- What are your weaknesses as a developer?
+- Tell me about moh-ami
+- What's your biggest weakness?
 - How do you approach problem-solving?
-- What technologies are you learning?
+- What technologies are you most excited about?
 

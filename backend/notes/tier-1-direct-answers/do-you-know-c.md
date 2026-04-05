@@ -15,9 +15,9 @@ C# is one of my significant professional languages alongside TypeScript and Pyth
 **emotion:** happy
 **suggestions:**
 - What's your backend development experience?
-- What programming languages are you most proficient in?
+- Which programming languages are you best at?
 - What projects have you built?
-- How do you approach learning new languages?
-- What did you build at Nurtur?
+- How do you approach learning new tech?
 - Tell me about the Integrations Dashboard
+- Tell me about your experience at Nurtur
 

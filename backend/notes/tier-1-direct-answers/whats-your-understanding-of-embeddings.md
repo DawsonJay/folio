@@ -16,10 +16,10 @@ I understand how to generate embeddings, store them, and use them for semantic s
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your AI/ML experience
-- Tell me about WhatNow project
+- What AI/ML experience do you have?
+- Tell me about WhatNow
 - What's your experience with RAG systems?
 - What technologies are you most excited about?
 - How do you stay current with technology?
-- What is Folio and how does it work?
+- What is Folio?
 

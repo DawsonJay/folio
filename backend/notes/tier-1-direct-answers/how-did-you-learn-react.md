@@ -13,8 +13,8 @@ I learn by doing, not by reading. I read enough to start, then build. When I get
 **emotion:** thinking
 **suggestions:**
 - Tell me about your experience with React
-- How do you approach learning new technologies?
-- What did you build at Nurtur?
+- How do you approach learning new tech?
 - Tell me about the Integrations Dashboard
 - Tell me about the Email Editor project
 - Tell me about the Nexus Dashboard
+- Tell me about your frontend experience?

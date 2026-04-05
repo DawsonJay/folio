@@ -14,9 +14,9 @@ I visited Toronto and the botanical gardens previously. I like the respect Canad
 
 **emotion:** thinking
 **suggestions:**
-- Why are you looking to move to Canada?
+- Why do you want to move to Canada?
 - What do you know about Canadian tech culture?
-- Are you flexible on location within Canada?
+- Are you flexible on Canadian location?
 - What are your career goals?
-- Tell me about your AI/ML experience
-- How will you handle the transition period to Canada?
+- What AI/ML experience do you have?
+- How will you handle the move to Canada?

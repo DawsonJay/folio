@@ -1,5 +1,6 @@
 export interface Suggestion {
   text: string;
+  query?: string;
 }
 
 export interface ProjectLinks {

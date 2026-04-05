@@ -11,6 +11,7 @@ router = APIRouter()
 
 class Suggestion(BaseModel):
     text: str
+    query: Optional[str] = None
 
 class ProjectLinks(BaseModel):
     demo: Optional[str] = None
@@ -36,17 +37,8 @@ INITIAL_SUGGESTIONS = [
     {"text": "Tell me about your current experience"},
     {"text": "Why are you looking for a new role?"},
     {"text": "What are your strongest technical skills?"},
-    {"text": "Tell me about a project you're proud of"},
+    {"text": "What project are you most proud of?"},
     {"text": "What are you looking for in your next role?"}
-]
-
-FOLLOW_UP_SUGGESTIONS = [
-    {"text": "Tell me more about that"},
-    {"text": "What was the biggest challenge?"},
-    {"text": "Can you show me an example?"},
-    {"text": "How did you handle that?"},
-    {"text": "What did you learn from this?"},
-    {"text": "What would you do differently?"}
 ]
 
 @router.get("/suggestions", response_model=SuggestionsResponse)
@@ -97,6 +89,14 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     direct_answer_storage = LocalEmbeddingStorage(storage_path=str(DIRECT_ANSWER_EMBEDDINGS_FILE))
     direct_answer_service = DirectAnswerService()
     profanity_filter = ProfanityFilter()
+
+    da_index = direct_answer_service.get_index()
+    suggestion_list = "\n".join(f"- {e['shortTitle']}" for e in da_index)
+
+    def resolve_llm_suggestions(raw_suggestions: list) -> list:
+        """Resolve LLM-returned suggestion dicts to {text, query} via the index."""
+        texts = [s.get("text", "") for s in raw_suggestions if s.get("text")]
+        return direct_answer_service._resolve_suggestions(texts, da_index, "llm-response")
     
     profanity_check = profanity_filter.check_question(request.question)
     
@@ -129,7 +129,7 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
                 return log_and_return(ChatResponse(
                     answer=direct_answer["answer"],
                     emotion=direct_answer["emotion"],
-                    suggestions=[Suggestion(text=s) for s in direct_answer["suggestions"]],
+                    suggestions=[Suggestion(**s) for s in direct_answer["suggestions"]],
                     projectLinks=project_links_response,
                     confidence="direct_answer",
                     top_score=direct_answer_results[0]['score']
@@ -181,11 +181,11 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     # < 0.3: Low confidence - redirect
     
     if top_score < CONFIDENCE_MEDIUM:
-        result = openai_service.generate_redirect_response(request.question, context)
+        result = openai_service.generate_redirect_response(request.question, context, suggestion_list=suggestion_list)
         return log_and_return(ChatResponse(
             answer=result["answer"],
             emotion=result["emotion"],
-            suggestions=[Suggestion(**s) for s in result["suggestions"]],
+            suggestions=[Suggestion(**s) for s in resolve_llm_suggestions(result["suggestions"])],
             confidence="redirect",
             top_score=top_score
         ))
@@ -194,40 +194,46 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     if top_score < CONFIDENCE_HIGH:
         qualification = "The question is a little vague - I'm better with more specific questions, but I'll try my best:"
         result = openai_service.generate_chat_response(
-            request.question, 
-            context, 
-            project_links,
+            request.question,
+            context,
+            suggestion_list=suggestion_list,
+            project_links=project_links,
             qualification=qualification
         )
-        
+
         project_links_response = None
         if result.get("projectLinks"):
             project_links_response = {
                 k: ProjectLinks(**v) for k, v in result["projectLinks"].items()
             }
-        
+
         return log_and_return(ChatResponse(
             answer=result["answer"],
             emotion=result["emotion"],
-            suggestions=[Suggestion(**s) for s in result["suggestions"]],
+            suggestions=[Suggestion(**s) for s in resolve_llm_suggestions(result["suggestions"])],
             projectLinks=project_links_response,
             confidence="medium",
             top_score=top_score
         ))
     
     # High confidence (>= 0.4): Full answer
-    result = openai_service.generate_chat_response(request.question, context, project_links)
-    
+    result = openai_service.generate_chat_response(
+        request.question,
+        context,
+        suggestion_list=suggestion_list,
+        project_links=project_links
+    )
+
     project_links_response = None
     if result.get("projectLinks"):
         project_links_response = {
             k: ProjectLinks(**v) for k, v in result["projectLinks"].items()
         }
-    
+
     return log_and_return(ChatResponse(
         answer=result["answer"],
         emotion=result["emotion"],
-        suggestions=[Suggestion(**s) for s in result["suggestions"]],
+        suggestions=[Suggestion(**s) for s in resolve_llm_suggestions(result["suggestions"])],
         projectLinks=project_links_response,
         confidence="high",
         top_score=top_score

@@ -14,12 +14,13 @@ Another difficult situation was optimizing the Nexus Dashboard performance from 
 
 ---
 
+**shortTitle:** Tell me about a difficult situation?
 **emotion:** thinking
 **suggestions:**
-- Tell me about a time you had to meet a tight deadline
+- How do you handle tight deadlines?
 - How do you handle stress and pressure?
 - How do you approach problem-solving?
-- How do you approach technical debt?
 - Tell me about the Nexus Dashboard
-- What is Folio and how does it work?
+- Tell me about a challenging project
+- What is Folio?
 

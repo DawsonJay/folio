@@ -12,10 +12,10 @@ Remote gives me focused time for deep work - complex debugging, architectural de
 
 **emotion:** happy
 **suggestions:**
-- How do you approach adding LLM features?
 - What's your availability?
 - Are you willing to relocate?
-- How do you work in a team?
 - What are you looking for in your next role?
-- What did you build at Nurtur?
+- Where in Canada are you looking?
+- Have you worked on a distributed team?
+- What's your current employment status?
 

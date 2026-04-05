@@ -20,6 +20,6 @@ The goal isn't just fixing bugs - it's understanding systems deeply so problems 
 - How do you handle failure?
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
+- Tell me about moh-ami
+- Tell me about WhatNow
 

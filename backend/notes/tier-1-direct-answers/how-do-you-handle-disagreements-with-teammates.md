@@ -10,12 +10,13 @@ The result: disagreements become problem-solving conversations. No one wins argu
 
 ---
 
+**shortTitle:** How do you handle team disagreements?
 **emotion:** thinking
 **suggestions:**
 - How do you work in a team?
-- Tell me about a time you disagreed with a coworker
+- Tell me about disagreeing with a coworker?
 - How do you communicate technical concepts?
 - Have you mentored other developers?
-- How do you approach technical debt?
 - How do you approach problem-solving?
+- Tell me about your leadership style
 

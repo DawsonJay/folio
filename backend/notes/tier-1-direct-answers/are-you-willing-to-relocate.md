@@ -11,7 +11,7 @@ I'm not attached to Halifax specifically - it's where I landed when I moved to C
 **emotion:** happy
 **suggestions:**
 - Are you open to remote work?
-- Where in Canada are you based?
+- Where are you based right now?
 - When can you start?
 - What are you looking for in your next role?
 - What's your visa status?

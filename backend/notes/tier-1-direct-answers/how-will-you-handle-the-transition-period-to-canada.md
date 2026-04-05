@@ -8,11 +8,12 @@ My IEC Working Holiday visa is issued and valid. No employer sponsorship require
 
 ---
 
+**shortTitle:** How will you handle the move to Canada?
 **emotion:** happy
 **suggestions:**
-- Where in Canada are you based?
+- Where are you based right now?
 - What's your visa status?
 - When can you start?
-- Are you open to relocating within Canada?
+- Are you flexible on Canadian location?
 - What are you looking for in your next role?
-- What did you build at Nurtur?
+- What are your career goals?

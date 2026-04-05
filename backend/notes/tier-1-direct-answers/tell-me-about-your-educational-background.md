@@ -19,9 +19,9 @@ My educational journey taught me that practical, hands-on learning works better 
 **emotion:** happy
 **suggestions:**
 - How did you get into development?
-- Tell me about your work experience
-- Tell me about BriefYourMarket
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
+- How did you transition from art to tech?
+- What's your story?
 

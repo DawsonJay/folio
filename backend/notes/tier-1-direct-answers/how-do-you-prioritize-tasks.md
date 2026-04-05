@@ -14,9 +14,9 @@ Long-term, I prioritize projects that align with my values and advance my career
 
 **emotion:** thinking
 **suggestions:**
-- How do you handle competing priorities?
 - Tell me about the Integrations Dashboard
-- What was the Nexus Dashboard architecture?
-- How do you balance quality and speed?
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
+- Tell me about the Nexus Dashboard
+- Tell me about balancing quality and speed
+- Tell me about moh-ami
+- Tell me about WhatNow
+- How do you handle scope creep?

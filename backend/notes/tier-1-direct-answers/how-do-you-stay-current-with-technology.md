@@ -14,10 +14,10 @@ The progression is deliberate: web development foundations → AI/ML integration
 
 **emotion:** happy
 **suggestions:**
-- How do you learn new technologies?
-- Tell me about a time you had to learn something quickly
-- Tell me about the Atlantis project
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- How do you approach learning new tech?
+- How do you learn something quickly?
+- Tell me about Atlantis
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
 

@@ -16,9 +16,9 @@ Testing effort matches what's at stake. The Integrations Dashboard's 3+ years wi
 
 **emotion:** thinking
 **suggestions:**
-- What testing tools do you use?
-- What did you build at Nurtur?
-- Tell me about the moh-ami project
 - Tell me about the Nexus Dashboard
-- What was the Integrations Dashboard?
-- Tell me about the WhatNow project
+- Tell me about moh-ami
+- Tell me about the Integrations Dashboard
+- Tell me about WhatNow
+- How do you ensure code quality?
+- Tell me about your testing practices

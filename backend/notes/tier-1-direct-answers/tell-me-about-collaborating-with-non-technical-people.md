@@ -12,12 +12,13 @@ Background helps: art, teaching kayaking, bridging teams. I've always moved betw
 
 ---
 
+**shortTitle:** How do you work with non-technical people?
 **emotion:** happy
 **suggestions:**
 - How do you communicate technical concepts?
 - How do you work in a team?
 - Have you mentored other developers?
 - Tell me about your leadership style
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
+- How do you handle team disagreements?
 

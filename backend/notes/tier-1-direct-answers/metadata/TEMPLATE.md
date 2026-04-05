@@ -4,14 +4,15 @@
 
 ---
 
+**shortTitle:** [Shorter rephrased question, only required if the # Title exceeds 45 characters]
 **emotion:** happy
 **suggestions:**
-- What inspired your projects?
-- How do you approach UI/UX design?
-- Tell me about your AI/ML experience.
-- What challenges did you face with [project]?
-- How do you integrate LLMs in projects?
-- What future projects are you considering?
+- [Exact shortTitle of another direct answer file]
+- [Exact shortTitle of another direct answer file]
+- [Exact shortTitle of another direct answer file]
+- [Exact shortTitle of another direct answer file]
+- [Exact shortTitle of another direct answer file]
+- [Exact shortTitle of another direct answer file]
 
 **projectLinks:** (optional, only include if discussing projects in detail)
 - ProjectName:
@@ -123,20 +124,34 @@ Choose one: `happy`, `thinking`, `surprised`, `derp`, `tired`, `annoyed`
 - **tired**: Long processes, repetitive topics
 - **annoyed**: Frustrations, negative experiences (use sparingly)
 
+### shortTitle (optional field)
+
+Only add `**shortTitle:**` when the `# Title` exceeds 45 characters. The shortTitle must:
+- Still be a well-formed question (it is the exact text submitted when a user clicks the suggestion chip)
+- Be a shorter rephrasing of the same question, not a label or summary
+- Be 45 characters or fewer
+
+Example:
+- Title: `# Tell me about a time you had to meet a tight deadline` (53 chars)
+- shortTitle: `How do you handle tight deadlines?` (34 chars ✓)
+
+When shortTitle is absent, the full title is used as the display text.
+
 ### Suggestions
+
 - Exactly 6 suggestions required
-- Format as questions (not statements)
-- Max 45 characters per question
-- **SELF-CONTAINED**: Each question must be meaningful independently
-- Avoid vague references like "that", "this", "it"
-- Include specific project names, technologies, or topics
-- These are curiosity hooks - make people want to explore more
-- Format: "What...", "How...", "Tell me about..."
-- Examples:
-  - ❌ Bad: "What was that project about?" (needs context)
-  - ✅ Good: "Tell me about the WhatNow project"
-  - ❌ Bad: "How did you optimize performance?" (which project?)
-  - ✅ Good: "How did you optimize the Nexus Dashboard?"
+- **Must be the exact `shortTitle` (or full title if no shortTitle) of an existing direct answer file** — never invent suggestions that don't correspond to a real file
+- Pick suggestions a recruiter would most naturally want to ask next given the topic of this answer
+- Span different areas — don't pick 6 project questions for a project answer; mix in skills, experience, and behavioural questions
+- **SELF-CONTAINED**: Each question must be meaningful without any previous context
+- Avoid the current file's own question as a suggestion
+- Examples of valid suggestions (all are exact shortTitles from the index):
+  - ✅ "Tell me about WhatNow"
+  - ✅ "How do you handle tight deadlines?"
+  - ✅ "What is Folio?"
+  - ❌ "What was that project about?" (not in index, needs context)
+  - ❌ "Tell me about the WhatNow project" (not exact — shortTitle is "Tell me about WhatNow")
+  - ❌ "How did you optimize performance?" (not in index, ambiguous)
 
 ### Project Links (Optional)
 - Only include if discussing projects in detail
@@ -225,4 +240,6 @@ Before finalizing any answer, verify:
 - [ ] **No prescriptive language** (no "demonstrates", "proves", "shows what")
 - [ ] **Facts verified** (every date, number, claim checked against foundational notes)
 - [ ] **Recruiter concerns addressed** (if Tier 1: context, availability, career path clear)
+- [ ] **shortTitle added** (if # Title exceeds 45 chars, shortTitle is a shorter question form)
+- [ ] **All 6 suggestions are exact shortTitles** from existing direct answer files
 

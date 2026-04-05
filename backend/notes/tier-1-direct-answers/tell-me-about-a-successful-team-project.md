@@ -15,8 +15,8 @@ Three years of zero-maintenance production use is the real measure of success.
 **emotion:** happy
 **suggestions:**
 - Tell me about the Integrations Dashboard
-- What is crystal formation architecture?
 - How do you work in a team?
-- What was your role at Nurtur?
-- How do you gather user feedback?
 - Why do you want to work at a startup?
+- Tell me about the Nexus Dashboard
+- Have you mentored other developers?
+- What was the team size at Nurtur?

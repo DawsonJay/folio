@@ -17,9 +17,9 @@ I'm continuously improving Python/AI skills toward long-term goals in AI/ML web 
 **emotion:** happy
 **suggestions:**
 - Tell me about WhatNow
-- Tell me about your AI/ML experience
-- How do you approach learning new languages?
-- What are your weaknesses as a developer?
-- Tell me about the moh-ami project
-- What is Folio and how does it work?
+- What AI/ML experience do you have?
+- How do you approach learning new tech?
+- What's your biggest weakness?
+- Tell me about moh-ami
+- What is Folio?
 

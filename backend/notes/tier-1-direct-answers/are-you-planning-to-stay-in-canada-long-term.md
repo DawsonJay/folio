@@ -13,8 +13,8 @@ I'm looking for opportunities where I can contribute meaningfully for years - no
 **emotion:** happy
 **suggestions:**
 - What are your immigration plans?
-- Why did you move to Canada?
-- How committed are you to staying?
+- Why do you want to move to Canada?
+- How committed are you to this move?
 - What are you looking for in your next role?
 - What are your career goals?
 - What's your visa status?

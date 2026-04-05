@@ -12,12 +12,13 @@ I typically emphasize TypeScript/React as core strengths with C# and Python as s
 
 ---
 
+**shortTitle:** Which programming languages are you best at?
 **emotion:** happy
 **suggestions:**
-- What projects have you built with Python?
-- How do you approach learning new languages?
-- What did you build at Nurtur?
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- What Python projects have you built?
+- How do you approach learning new tech?
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
+- What are your strongest technical skills?
 

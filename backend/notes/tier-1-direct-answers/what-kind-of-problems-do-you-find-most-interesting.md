@@ -8,11 +8,12 @@ What drains me is work where quality doesn't matter and won't outlast the sprint
 
 ---
 
+**shortTitle:** What problems interest you most?
 **emotion:** happy
 **suggestions:**
 - Tell me about Atlantis
 - Tell me about the Nexus Dashboard
 - What motivates you as a developer?
-- How do you approach frontend architecture?
-- Tell me about your AI/ML experience
+- What AI/ML experience do you have?
 - What are you looking for in your next role?
+- Tell me about WhatNow

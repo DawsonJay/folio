@@ -18,10 +18,10 @@ The Integrations Dashboard wasn't just a technical project - it was about bridgi
 
 **emotion:** happy
 **suggestions:**
-- Challenges with the Integrations Dashboard?
-- Tell me about your work experience
-- How do you approach system design?
-- What kind of problems do you find most interesting?
-- What technologies did you use?
-- What did you build at Nurtur?
+- What problems interest you most?
+- Tell me about the Nexus Dashboard
+- Tell me about the Email Editor project
+- What was your biggest Nurtur achievement?
+- How do you ensure code quality?
+- How do you work with non-technical people?
 

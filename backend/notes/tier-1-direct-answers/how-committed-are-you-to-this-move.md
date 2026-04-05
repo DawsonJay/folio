@@ -14,7 +14,7 @@ I moved because Canada has a strong AI/ML industry, a tech culture that builds t
 **suggestions:**
 - What are your immigration plans?
 - What's your visa status?
-- Why did you move to Canada?
+- Why do you want to move to Canada?
 - Are you planning to stay in Canada long-term?
 - What are you looking for in your next role?
-- Where in Canada are you based?
+- Where are you based right now?

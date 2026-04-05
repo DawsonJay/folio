@@ -16,10 +16,10 @@ My state management experience is primarily with Redux Toolkit in production app
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your React experience
-- How do you approach system design?
-- What did you build at Nurtur?
+- Tell me about your experience with React
 - Tell me about the Email Editor project
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
+- Tell me about moh-ami
+- Tell me about WhatNow
+- How do you ensure code quality?
+- Tell me about the Nexus Dashboard
 

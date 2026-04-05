@@ -16,9 +16,9 @@ That's the kind of work I'm proud to have created.
 
 **emotion:** happy
 **suggestions:**
-- What challenges did you face building it?
-- Tell me about your work experience
-- How do you approach system design?
-- Tell me about a technical decision you'd do differently
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
+- What technical decision would you redo?
+- How do you ensure code quality?
+- Tell me about WhatNow
+- Tell me about the Nexus Dashboard
+- What's your proudest achievement?

@@ -10,11 +10,12 @@ My style is enabling rather than controlling. Leadership is taking ownership, gu
 
 ---
 
+**shortTitle:** Tell me about a project you led?
 **emotion:** happy
 **suggestions:**
 - Tell me about the Integrations Dashboard
-- How did you mentor junior developers?
+- Have you mentored other developers?
 - Tell me about the Email Editor project
-- What was your biggest accomplishment at Nurtur?
-- How do you approach team leadership?
+- What was your biggest Nurtur achievement?
+- Tell me about your leadership style
 - Tell me about the Nexus Dashboard

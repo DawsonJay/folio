@@ -16,10 +16,10 @@ WhatNow is a production-deployed application that I actually use in my daily lif
 
 **emotion:** happy
 **suggestions:**
-- Tell me about WhatNow project
-- Tell me about a machine learning project you've built
+- Tell me about WhatNow
+- Tell me about an ML project you built?
 - Have you worked with recommendation systems?
 - What's your understanding of embeddings?
-- How do you approach AI system design?
-- How do you approach technical debt?
+- How do you approach AI project scoping?
+- What AI/ML experience do you have?
 

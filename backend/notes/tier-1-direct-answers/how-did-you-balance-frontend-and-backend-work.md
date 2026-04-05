@@ -12,11 +12,12 @@ Full-stack capability doesn't mean equal split - it means understanding both sid
 
 ---
 
+**shortTitle:** How did you balance frontend and backend?
 **emotion:** thinking
 **suggestions:**
-- What was your role at Nurtur?
 - Tell me about the Integrations Dashboard
 - How did you grow in your position at Nurtur?
-- Are you more frontend or backend focused?
-- Tell me about working with backend engineers
 - Tell me about the Nexus Dashboard
+- Tell me about your frontend experience?
+- What's your backend development experience?
+- What did you do at Nurtur?

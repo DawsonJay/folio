@@ -18,8 +18,8 @@ I want to grow into mid to senior technical roles. I'm ready for roles that comb
 **suggestions:**
 - What are your career goals?
 - What are you looking for in your next role?
-- How do you approach learning new technologies?
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- How do you approach learning new tech?
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
 

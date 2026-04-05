@@ -10,9 +10,9 @@ If the question is about relocating within Canada - I can do that immediately. H
 
 **emotion:** happy
 **suggestions:**
-- Where in Canada are you based?
+- Where are you based right now?
 - What's your visa status?
 - When can you start?
-- Are you open to relocating within Canada?
-- Why did you move to Canada?
-- What did you build at Nurtur?
+- Are you flexible on Canadian location?
+- Why do you want to move to Canada?
+- What are you looking for in your next role?

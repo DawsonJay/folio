@@ -10,9 +10,9 @@ Recently a lot of time has gone into building this portfolio and projects to dem
 
 **emotion:** happy
 **suggestions:**
-- What was your kayaking experience?
 - How did you transition from art to tech?
-- Tell me about your background
+- What's your background?
 - How do you manage work-life balance?
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- Tell me about WhatNow
+- What is Folio?
+- What are you passionate about?

@@ -14,9 +14,9 @@ I understand backend architecture patterns, API design, and how to build systems
 
 **emotion:** happy
 **suggestions:**
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
+- What databases have you worked with?

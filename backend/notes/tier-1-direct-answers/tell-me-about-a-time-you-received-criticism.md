@@ -13,8 +13,8 @@ I learned from mentoring backend developers to listen to what people actually ne
 **emotion:** thinking
 **suggestions:**
 - Tell me about the Integrations Dashboard
-- How do you handle team feedback?
-- What's your approach to code reviews?
-- How do you work with stakeholders?
+- What's your experience with code reviews?
 - Tell me about your leadership style
-- How do you gather user feedback?
+- How do you work in a team?
+- How do you handle team disagreements?
+- Have you mentored other developers?

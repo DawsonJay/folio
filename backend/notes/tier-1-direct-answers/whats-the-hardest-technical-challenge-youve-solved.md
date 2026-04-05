@@ -10,10 +10,11 @@ The fix was simple once I understood the root cause - increase epsilon from 0.05
 
 ---
 
+**shortTitle:** What's the hardest technical challenge?
 **emotion:** thinking
 **suggestions:**
 - Tell me about debugging a complex issue
-- What was the WhatNow project?
+- Tell me about WhatNow
 - How do you approach problem-solving?
 - What's your debugging process?
 - Tell me about a challenging project

@@ -14,10 +14,10 @@ The system handles multi-tenant architecture, allowing users to filter by instan
 
 **emotion:** happy
 **suggestions:**
-- What challenges did you face building it?
-- Tell me about your work experience
-- How do you approach system design?
 - Describe your ideal work environment
 - How do you ensure code quality?
-- What did you build at Nurtur?
+- Tell me about the Integrations Dashboard
+- Tell me about the Email Editor project
+- How do you optimize frontend performance?
+- What was your biggest Nurtur achievement?
 

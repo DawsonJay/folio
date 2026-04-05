@@ -14,10 +14,10 @@ Folio is live. The trellis is holding. That's the approach I'll take to any qual
 
 **emotion:** thinking
 **suggestions:**
-- Tell me about a time you had to meet a tight deadline
+- How do you handle tight deadlines?
 - How do you approach problem-solving?
 - Describe your ideal work environment
 - How do you ensure code quality?
-- What are your weaknesses as a developer?
-- What is Folio and how does it work?
+- What's your biggest weakness?
+- What is Folio?
 

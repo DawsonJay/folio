@@ -15,9 +15,9 @@ I combine artistic instinct with technical rigour. My background gives me a sens
 **emotion:** happy
 **suggestions:**
 - How did you transition from art to tech?
-- Tell me about your work experience
-- What kind of problems do you find most interesting?
-- What technologies do you use?
-- Tell me about BriefYourMarket
-- What did you build at Nurtur?
+- What problems interest you most?
+- What are your strongest technical skills?
+- Tell me about your experience at Nurtur
+- Walk me through your career journey
+- What's your story?
 

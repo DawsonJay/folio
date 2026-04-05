@@ -13,8 +13,8 @@ I'm willing to disagree constructively when values are at stake, but for most te
 **emotion:** thinking
 **suggestions:**
 - Tell me about the Integrations Dashboard
-- What's your leadership style?
-- How do you mentor developers?
-- Tell me about teaching and mentoring
+- Tell me about your leadership style
+- Have you mentored other developers?
 - How do you work in a team?
-- Tell me about stakeholder management
+- How do you handle team disagreements?
+- How do you communicate technical concepts?

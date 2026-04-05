@@ -15,5 +15,5 @@ With 5.5 years of production experience, I can contribute React/TypeScript/Pytho
 - Are you willing to relocate?
 - What are you looking for in your next role?
 - Why are you looking for a new role?
-- What did you build at Nurtur?
+- What's your current employment status?
 

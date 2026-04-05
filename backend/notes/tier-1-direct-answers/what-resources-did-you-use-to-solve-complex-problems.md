@@ -12,11 +12,12 @@ The best resource is often teammates. When stuck on the Email Editor's Lexical f
 
 ---
 
+**shortTitle:** How do you tackle complex problems?
 **emotion:** thinking
 **suggestions:**
 - How do you approach problem-solving?
 - Tell me about debugging a complex issue
-- How do you learn new technologies?
+- How do you approach learning new tech?
 - Tell me about the Email Editor project
-- Tell me about the WhatNow project
+- Tell me about WhatNow
 - Tell me about the Nexus Dashboard

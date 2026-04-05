@@ -12,11 +12,12 @@ What makes me most proud isn't the technical implementation - it's that I built 
 
 ---
 
+**shortTitle:** What was your biggest Nurtur achievement?
 **emotion:** happy
 **suggestions:**
 - Tell me about the Integrations Dashboard
 - How did you grow in your position at Nurtur?
-- What was your role at Nurtur?
 - Tell me about a successful team project
-- What technologies did you use at Nurtur?
 - How do you ensure code quality?
+- Tell me about the Nexus Dashboard
+- Tell me about the Email Editor project

@@ -16,10 +16,10 @@ The team was restructured in February 2026. The timing wasn't my choice, but I'm
 
 **emotion:** happy
 **suggestions:**
-- Tell me about your work experience
-- How do you decide when to refactor versus rewrite?
-- Tell me about BriefYourMarket
-- What did you build at Nurtur?
 - Tell me about the Integrations Dashboard
 - Tell me about the Nexus Dashboard
+- What's your story?
+- Tell me about your experience at Nurtur
+- How did you get into development?
+- Tell me about your freelance experience
 

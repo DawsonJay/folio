@@ -13,11 +13,11 @@ WhatNow is now a production system I use daily. The AI continuously learns from 
 **emotion:** thinking
 **suggestions:**
 - What technologies did you use for WhatNow?
-- What was the hardest part of building WhatNow?
-- How did you come up with the idea for WhatNow?
-- Tell me about the WhatNow project
+- What was hardest about building WhatNow?
+- How did you come up with the WhatNow idea?
+- Tell me about WhatNow
 - What did you learn from building WhatNow?
-- How do you approach project timelines?
+- How do you approach AI project scoping?
 
 **projectLinks:**
 - WhatNow:

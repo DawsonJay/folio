@@ -14,9 +14,9 @@ WhatNow, moh-ami, and Folio succeeded because they were scoped around data I cou
 
 **emotion:** thinking
 **suggestions:**
-- Tell me about the WhatNow project
-- What was Cirrus and why did it fail?
-- Tell me about your AI/ML experience
-- Tell me about the Jam Hot project
-- What is Folio and how does it work?
+- Tell me about WhatNow
+- Tell me about Cirrus
+- What AI/ML experience do you have?
+- What is Folio?
 - Tell me about moh-ami
+- How do you approach adding LLM features?

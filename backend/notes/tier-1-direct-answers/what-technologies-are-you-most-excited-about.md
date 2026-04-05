@@ -16,8 +16,8 @@ I get most excited about technologies when they enable projects that matter to m
 **suggestions:**
 - What projects have you built?
 - What AI/ML experience do you have?
-- How do you handle disagreements with teammates?
-- Tell me about WhatNow project
-- Tell me about the Atlantis project
-- What is Folio and how does it work?
+- Tell me about WhatNow
+- Tell me about Atlantis
+- What is Folio?
+- Tell me about moh-ami
 

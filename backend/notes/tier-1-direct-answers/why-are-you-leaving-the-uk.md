@@ -12,7 +12,7 @@ The UK gave me my education and my career start. Nothing against it. But I made 
 
 **emotion:** thinking
 **suggestions:**
-- Why did you move to Canada?
+- Why do you want to move to Canada?
 - What are your immigration plans?
 - What are your career goals?
 - What are you looking for in your next role?

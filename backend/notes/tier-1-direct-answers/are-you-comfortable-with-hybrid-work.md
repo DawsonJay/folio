@@ -15,8 +15,8 @@ Whatever hybrid model you use, I adapt to it. The goal is contributing effective
 **emotion:** happy
 **suggestions:**
 - Why do you want to work at a startup?
-- What's your relocation timeline?
+- What's your timeline for moving?
 - Are you open to remote work?
 - How do you work in a team?
-- What's your communication style?
-- Tell me about your experience with distributed teams
+- What are you looking for in your next role?
+- Have you worked on a distributed team?

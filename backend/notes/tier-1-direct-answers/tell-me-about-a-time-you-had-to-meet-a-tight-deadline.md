@@ -10,12 +10,13 @@ It's now live, continuing to evolve, and the trellis is holding. That's how I ap
 
 ---
 
+**shortTitle:** How do you handle tight deadlines?
 **emotion:** thinking
 **suggestions:**
 - Tell me about a challenging project
-- How do you approach tight deadlines?
-- Tell me about your work experience
-- How do you balance quality and speed?
-- Why do you want to work at a startup?
-- What is Folio and how does it work?
+- Tell me about balancing quality and speed
+- What is Folio?
+- How do you approach problem-solving?
+- Tell me about WhatNow
+- Tell me about your most successful project
 

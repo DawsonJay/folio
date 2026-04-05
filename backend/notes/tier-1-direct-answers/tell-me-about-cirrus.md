@@ -20,10 +20,10 @@ The project scoping insight influenced how I approached later projects. WhatNow 
 
 **emotion:** thinking
 **suggestions:**
-- What did you learn from that project?
+- Tell me about a project you learned from
 - How do you handle failure?
-- Tell me about the Atlantis project
-- Tell me about the moh-ami project
-- Tell me about the WhatNow project
-- What is Folio and how does it work?
+- Tell me about Atlantis
+- Tell me about moh-ami
+- Tell me about WhatNow
+- What is Folio?
 

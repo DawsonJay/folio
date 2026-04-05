@@ -12,11 +12,12 @@ I'm integrating AI capabilities into frontend work. Creating interfaces for LLM-
 
 ---
 
+**shortTitle:** Tell me about your frontend experience?
 **emotion:** happy
 **suggestions:**
 - What projects have you built?
 - How do you approach UI/UX design?
-- Tell me about your React experience
+- Tell me about your experience with React
 - How do you approach technical debt?
 - Tell me about the Email Editor project
 - Tell me about the Nexus Dashboard

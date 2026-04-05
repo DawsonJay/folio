@@ -20,10 +20,10 @@ The learning journey from Jam Hot to WhatNow - growth in project selection, scop
 
 **emotion:** thinking
 **suggestions:**
-- What did you learn from that project?
 - How do you handle failure?
-- Tell me about your AI/ML experience
+- What AI/ML experience do you have?
 - How do you approach adding LLM features?
-- Tell me about the Jam Hot project
-- Tell me about the WhatNow project
+- Tell me about WhatNow
+- Tell me about Cirrus
+- Tell me about a project that failed
 

@@ -12,9 +12,9 @@ I've shipped imperfect code — clutter I knew I'd clean up later. I've never sh
 
 **emotion:** thinking
 **suggestions:**
-- Tell me about your time at BriefYourMarket
-- How do you decide when to refactor versus rewrite?
-- How do you approach frontend architecture?
+- When do you refactor versus rewrite?
 - How do you ensure code quality?
 - Tell me about the Integrations Dashboard
-- How do you approach performance optimization?
+- How do you optimize frontend performance?
+- Tell me about your freelance experience
+- What technical decision would you redo?
