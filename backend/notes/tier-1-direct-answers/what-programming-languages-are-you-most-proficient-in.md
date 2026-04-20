@@ -21,4 +21,3 @@ I typically emphasize TypeScript/React as core strengths with C# and Python as s
 - Tell me about WhatNow
 - What is Folio?
 - What are your strongest technical skills?
-

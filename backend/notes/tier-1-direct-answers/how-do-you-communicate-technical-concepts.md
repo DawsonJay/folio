@@ -21,3 +21,6 @@ When communicating with non-technical stakeholders, I focus on what they need to
 - Tell me about the Integrations Dashboard
 - How do you work with non-technical people?
 
+**variants:**
+- How do you explain frontend decisions to people who don't work in that area?
+- How do you explain your work to people who aren't frontend developers?

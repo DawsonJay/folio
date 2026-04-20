@@ -20,4 +20,3 @@ Hire me if you're building something that matters and you value technical excell
 - What projects have you built?
 - How do you work in a team?
 - What's your biggest weakness?
-

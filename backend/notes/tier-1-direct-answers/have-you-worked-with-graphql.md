@@ -20,4 +20,3 @@ My GraphQL experience is primarily with Apollo Server and Apollo Client, though 
 - What's your biggest weakness?
 - What's your experience with REST APIs?
 - What databases have you worked with?
-

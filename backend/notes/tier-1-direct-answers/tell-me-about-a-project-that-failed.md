@@ -20,4 +20,3 @@ The lesson I carry: ambitious scope requires honest data validation early. The s
 - Tell me about Atlantis
 - Tell me about moh-ami
 - Tell me about WhatNow
-

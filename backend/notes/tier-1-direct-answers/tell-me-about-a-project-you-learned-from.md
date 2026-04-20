@@ -26,4 +26,3 @@ The learning journey from Jam Hot to WhatNow - growth in project selection, scop
 - Tell me about WhatNow
 - Tell me about Cirrus
 - Tell me about a project that failed
-

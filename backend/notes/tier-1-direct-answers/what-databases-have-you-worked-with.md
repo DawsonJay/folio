@@ -20,4 +20,3 @@ I also have experience with MongoDB from bootcamp and understand NoSQL concepts,
 - Tell me about moh-ami
 - Tell me about WhatNow
 - What's your experience with REST APIs?
-

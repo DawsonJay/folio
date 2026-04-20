@@ -22,4 +22,3 @@ My REST API experience spans both backend development and frontend integration. 
 - Tell me about WhatNow
 - What is Folio?
 - What databases have you worked with?
-

@@ -20,4 +20,3 @@ My current professional focus is on TypeScript, React, Python, and C#, but I hav
 - What projects have you built?
 - What technical decision would you redo?
 - What's your backend development experience?
-

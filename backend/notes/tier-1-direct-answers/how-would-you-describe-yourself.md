@@ -20,4 +20,3 @@ I'm a fast learner who taught myself all my programming languages through goal-d
 - How do you approach problem-solving?
 - How do you work in a team?
 - Tell me about the Integrations Dashboard
-

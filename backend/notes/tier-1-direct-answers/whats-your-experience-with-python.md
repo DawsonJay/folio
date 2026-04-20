@@ -22,4 +22,3 @@ I'm continuously improving Python/AI skills toward long-term goals in AI/ML web 
 - What's your biggest weakness?
 - Tell me about moh-ami
 - What is Folio?
-

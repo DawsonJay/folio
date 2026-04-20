@@ -20,4 +20,3 @@ The system handles multi-tenant architecture, allowing users to filter by instan
 - Tell me about the Email Editor project
 - How do you optimize frontend performance?
 - What was your biggest Nurtur achievement?
-

@@ -24,4 +24,3 @@ The Integrations Dashboard wasn't just a technical project - it was about bridgi
 - What was your biggest Nurtur achievement?
 - How do you ensure code quality?
 - How do you work with non-technical people?
-

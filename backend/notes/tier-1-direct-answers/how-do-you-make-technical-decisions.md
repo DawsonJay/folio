@@ -18,4 +18,3 @@ On portfolio projects, I've made technology choices based on project needs. What
 - Tell me about the Nexus Dashboard
 - What is Folio?
 - When do you refactor versus rewrite?
-

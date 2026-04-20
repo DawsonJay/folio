@@ -21,4 +21,3 @@ I can work independently when needed. I'm comfortable with self-direction and I 
 - How do you communicate technical concepts?
 - Tell me about your freelance experience
 - Tell me about a successful team project
-

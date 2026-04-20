@@ -21,3 +21,7 @@ I prefer small teams with consensus decision-making and shared project ownership
 - What problems interest you most?
 - Tell me about a successful team project
 
+**variants:**
+- What's your role in a small team?
+- What position do you naturally play in a team?
+- What does a good team look like to you?

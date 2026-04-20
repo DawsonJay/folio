@@ -24,4 +24,3 @@ Version control enables collaboration, provides safety nets for experimentation,
 - How do you work in a team?
 - Tell me about your development workflow
 - What development tools do you use?
-

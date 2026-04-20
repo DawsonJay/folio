@@ -20,4 +20,3 @@ C# is one of my significant professional languages alongside TypeScript and Pyth
 - How do you approach learning new tech?
 - Tell me about the Integrations Dashboard
 - Tell me about your experience at Nurtur
-

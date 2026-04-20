@@ -22,4 +22,3 @@ What brought me to software development was finding that perfect intersection of
 - What's your biggest weakness?
 - What's your story?
 - Tell me about your educational background
-

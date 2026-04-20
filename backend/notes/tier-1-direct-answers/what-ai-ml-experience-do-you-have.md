@@ -20,3 +20,6 @@ My AI experience focuses on integration. I'm creating AI-powered user interfaces
 - Tell me about contextual bandits
 - How do you approach adding LLM features?
 - What's your experience with RAG systems?
+
+**variants:**
+- Have you built interfaces that display AI or ML output before?

@@ -22,4 +22,3 @@ I understand prompt engineering principles: how to structure prompts for consist
 - What is Folio?
 - How do you approach adding LLM features?
 - What's your experience with RAG systems?
-

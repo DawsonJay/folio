@@ -20,4 +20,3 @@ The combination: meaningful work, cleverly done, alongside people who care about
 - Tell me about WhatNow
 - What is Folio?
 - What are you passionate about?
-

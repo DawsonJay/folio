@@ -22,4 +22,3 @@ The meta aspect is deliberate. Folio is an AI system presenting an AI/ML portfol
 - What's your experience with RAG systems?
 - Tell me about WhatNow
 - What's your understanding of embeddings?
-

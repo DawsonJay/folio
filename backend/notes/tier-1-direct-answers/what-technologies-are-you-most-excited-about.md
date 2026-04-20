@@ -20,4 +20,3 @@ I get most excited about technologies when they enable projects that matter to m
 - Tell me about Atlantis
 - What is Folio?
 - Tell me about moh-ami
-

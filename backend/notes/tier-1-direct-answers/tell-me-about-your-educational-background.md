@@ -24,4 +24,3 @@ My educational journey taught me that practical, hands-on learning works better 
 - What is Folio?
 - How did you transition from art to tech?
 - What's your story?
-

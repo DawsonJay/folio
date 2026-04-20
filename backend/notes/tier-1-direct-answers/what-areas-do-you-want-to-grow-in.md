@@ -23,3 +23,6 @@ I want to grow into mid to senior technical roles. I'm ready for roles that comb
 - Tell me about WhatNow
 - What is Folio?
 
+**variants:**
+- Are you interested in being cross-trained in AI work over time?
+- Would you be open to learning more about AI as part of this role?

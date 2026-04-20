@@ -22,4 +22,3 @@ I understand how to generate embeddings, store them, and use them for semantic s
 - What technologies are you most excited about?
 - How do you stay current with technology?
 - What is Folio?
-

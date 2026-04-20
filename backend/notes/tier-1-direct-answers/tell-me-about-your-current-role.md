@@ -20,4 +20,3 @@ I'm ready to start immediately and bring 5.5 years of proven production experien
 - Tell me about the Nexus Dashboard
 - Tell me about your experience at Nurtur
 - What's your current employment status?
-

@@ -22,4 +22,3 @@ The system was designed to adapt to major backend changes without significant fr
 - Tell me about WhatNow
 - How do you ensure code quality?
 - What project are you most proud of?
-

@@ -20,4 +20,3 @@ The project concluded in February 2026 when the team was restructured. I've lear
 - What were your last job responsibilities?
 - Tell me about the Email Editor project
 - Tell me about your experience at Nurtur
-

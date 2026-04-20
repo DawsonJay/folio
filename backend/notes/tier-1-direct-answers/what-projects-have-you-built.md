@@ -24,4 +24,3 @@ These projects cover full-stack development, AI/ML integration, system architect
 - Tell me about Atlantis
 - What is Folio?
 - Tell me about the Integrations Dashboard
-

@@ -19,6 +19,11 @@
   - demo: https://...
   - github: https://...
 
+**variants:** (optional, only add after verifying the answer genuinely fits the phrasing)
+- [Alternative phrasing of the H1 title an employer might use]
+- [Alternative phrasing of the H1 title an employer might use]
+- [Alternative phrasing of the H1 title an employer might use]
+
 ## Format Guidelines
 
 ### The STANDALONE + CURIOSITY Framework
@@ -127,15 +132,26 @@ Choose one: `happy`, `thinking`, `surprised`, `derp`, `tired`, `annoyed`
 ### shortTitle (optional field)
 
 Only add `**shortTitle:**` when the `# Title` exceeds 45 characters. The shortTitle must:
-- Still be a well-formed question (it is the exact text submitted when a user clicks the suggestion chip)
+- Still be a well-formed question
 - Be a shorter rephrasing of the same question, not a label or summary
 - Be 45 characters or fewer
 
-Example:
-- Title: `# Tell me about a time you had to meet a tight deadline` (53 chars)
-- shortTitle: `How do you handle tight deadlines?` (34 chars ✓)
+**How shortTitle and the H1 title are used differently:**
 
-When shortTitle is absent, the full title is used as the display text.
+| | H1 `# Title` | `**shortTitle:**` |
+|---|---|---|
+| Suggestion chip display | — | shown as the chip label |
+| Clicked chip query | — | submits the H1 title as the search query |
+| Suggestions list in other files | — | what other files must reference exactly |
+| Embedding / semantic matching | embedded | not embedded |
+
+The shortTitle is purely a display label. When a user clicks a suggestion chip, the full H1 title is what gets sent as the query so the embedding matcher works correctly. This is also why variants (see below) must be phrasings of the H1 — they are what the matcher actually sees.
+
+Example:
+- Title: `# Tell me about a time you had to meet a tight deadline` (53 chars) — this is embedded and submitted on click
+- shortTitle: `How do you handle tight deadlines?` (34 chars ✓) — this is what appears on the chip and in other files' suggestions lists
+
+When shortTitle is absent, the H1 title serves as both the display text and the submitted query.
 
 ### Suggestions
 
@@ -157,6 +173,27 @@ When shortTitle is absent, the full title is used as the display text.
 - Only include if discussing projects in detail
 - Format: Project name as key, demo and github URLs
 - Use actual project links from your portfolio
+
+### Variants (Optional)
+
+Variants are alternative phrasings of the H1 title. When the embed script runs, each variant is embedded separately (stored as `note_id__v1`, `__v2`, etc.) and points to the same file. This gives the semantic matcher more surface area to find the right answer when an employer phrases the question differently from the H1.
+
+**Critical rule: only add variants you have verified.** A variant that is close in topic but not a genuine match for the answer will cause the system to serve a confident wrong answer — which is worse than a RAG fallback. Test before adding.
+
+**Format:**
+```
+**variants:**
+- How do you optimize slow-loading pages?
+- What do you do when a page takes too long to load?
+- How do you improve frontend performance?
+```
+
+**Rules:**
+- 3–4 bullet points (no fewer, no more than 4)
+- Each variant must be a question an employer would naturally ask that this answer genuinely addresses
+- Variants should differ meaningfully from the H1 — don't add near-duplicates
+- Place after all other metadata fields, at the end of the file
+- After adding variants, re-run `embed_direct_answers.py` to regenerate embeddings
 
 ## GOLD STANDARD Example: "Tell me about yourself"
 
@@ -242,4 +279,5 @@ Before finalizing any answer, verify:
 - [ ] **Recruiter concerns addressed** (if Tier 1: context, availability, career path clear)
 - [ ] **shortTitle added** (if # Title exceeds 45 chars, shortTitle is a shorter question form)
 - [ ] **All 6 suggestions are exact shortTitles** from existing direct answer files
+- [ ] **Variants verified** (if added: each phrasing genuinely answered by this file; re-embed after adding)
 

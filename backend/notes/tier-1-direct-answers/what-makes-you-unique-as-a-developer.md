@@ -20,4 +20,3 @@ The breadth of my background - art, teaching kayaking, self-taught coding, profe
 - Tell me about the Integrations Dashboard
 - Tell me about WhatNow
 - Why should we hire you?
-

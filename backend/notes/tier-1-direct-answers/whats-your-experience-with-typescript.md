@@ -20,4 +20,3 @@ TypeScript is where I have the most production experience and can deliver the mo
 - Tell me about moh-ami
 - What is Folio?
 - How comfortable are you with TypeScript?
-

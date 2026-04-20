@@ -24,4 +24,3 @@ This was harder than any stack overflow or memory leak I've debugged because it 
 - Tell me about WhatNow
 - How do you handle failure?
 - What's your debugging process?
-

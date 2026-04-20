@@ -22,4 +22,3 @@ I took a problem, understood it deeply from multiple perspectives, and built a s
 - Tell me about the Nexus Dashboard
 - How do you ensure code quality?
 - What project are you most proud of?
-

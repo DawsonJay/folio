@@ -22,4 +22,3 @@ Art and technology are different expressions of the same drive - taking ideas an
 - What were your tech transition challenges?
 - How did art help your development career?
 - What brought you to software development?
-

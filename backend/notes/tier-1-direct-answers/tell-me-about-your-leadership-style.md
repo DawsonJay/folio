@@ -20,4 +20,3 @@ I naturally end up in a connecting role on teams. I bridge gaps between people -
 - What technical decision would you redo?
 - How do you approach problem-solving?
 - Tell me about a project you led?
-

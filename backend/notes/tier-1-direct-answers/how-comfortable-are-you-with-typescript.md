@@ -20,4 +20,3 @@ TypeScript isn't just a tool I know - it's fundamental to how I build frontend s
 - Tell me about the Nexus Dashboard
 - Tell me about the Email Editor project
 - What's your experience with TypeScript?
-

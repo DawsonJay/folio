@@ -20,4 +20,3 @@ My first job gave me professional experience and confidence. It validated that I
 - Walk me through your career journey
 - What's your story?
 - Tell me about the Integrations Dashboard
-

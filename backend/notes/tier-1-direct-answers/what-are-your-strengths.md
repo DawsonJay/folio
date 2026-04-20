@@ -20,4 +20,3 @@ I build things that last. The Integrations Dashboard has run 3+ years without ma
 - How do you ensure code quality?
 - Tell me about the Integrations Dashboard
 - Tell me about your most successful project
-

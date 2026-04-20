@@ -20,4 +20,3 @@ I move on from mistakes quickly. In both kayaking and debugging, dwelling on err
 - How do you approach problem-solving?
 - How do you handle team disagreements?
 - Tell me about the Integrations Dashboard
-

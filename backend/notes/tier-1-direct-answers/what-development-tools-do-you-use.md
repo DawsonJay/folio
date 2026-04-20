@@ -22,4 +22,3 @@ I use development tools that help me work efficiently and maintain code quality.
 - How do you ensure code quality?
 - Tell me about the Integrations Dashboard
 - What's your development environment?
-

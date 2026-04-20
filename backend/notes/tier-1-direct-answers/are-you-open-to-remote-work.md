@@ -18,4 +18,3 @@ Remote gives me focused time for deep work - complex debugging, architectural de
 - Where in Canada are you looking?
 - Have you worked on a distributed team?
 - What's your current employment status?
-

@@ -26,4 +26,3 @@ The project scoping insight influenced how I approached later projects. WhatNow 
 - Tell me about moh-ami
 - Tell me about WhatNow
 - What is Folio?
-

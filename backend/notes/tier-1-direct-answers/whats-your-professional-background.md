@@ -24,4 +24,3 @@ The project I was working on at Nurtur concluded in February 2026 when the team 
 - What is Folio?
 - Tell me about your experience at Nurtur
 - Walk me through your career journey
-

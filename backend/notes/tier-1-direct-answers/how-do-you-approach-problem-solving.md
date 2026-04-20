@@ -22,4 +22,3 @@ The goal isn't just fixing bugs - it's understanding systems deeply so problems 
 - Tell me about the Nexus Dashboard
 - Tell me about moh-ami
 - Tell me about WhatNow
-

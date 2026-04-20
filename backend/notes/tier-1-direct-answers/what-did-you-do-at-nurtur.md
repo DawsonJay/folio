@@ -22,4 +22,3 @@ I used React and TypeScript daily for 3.5 years, building production systems tha
 - What were your last job responsibilities?
 - How do you work in a team?
 - Have you mentored other developers?
-

@@ -22,4 +22,3 @@ I took a problem, understood it deeply from multiple perspectives, and built a s
 - Tell me about Atlantis
 - What project are you most proud of?
 - Show me examples of your work
-

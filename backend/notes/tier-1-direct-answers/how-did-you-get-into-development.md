@@ -22,4 +22,3 @@ What drew me to development was that it's both creative and intellectual. Code e
 - What is Folio?
 - Tell me about your educational background
 - What's your story?
-

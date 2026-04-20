@@ -22,4 +22,3 @@ That's the kind of work I'm proud to have created.
 - Tell me about WhatNow
 - Tell me about the Nexus Dashboard
 - What project are you most proud of?
-

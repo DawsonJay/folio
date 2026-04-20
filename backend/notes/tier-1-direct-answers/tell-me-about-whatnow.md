@@ -20,4 +20,3 @@ The biggest pivot was abandoning manual metadata. I started with 17 activities r
 - What technologies did you use for WhatNow?
 - How do you approach AI project scoping?
 - What is Folio?
-

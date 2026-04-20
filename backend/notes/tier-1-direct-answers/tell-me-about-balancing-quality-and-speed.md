@@ -20,4 +20,3 @@ Folio is live. The trellis is holding. That's the approach I'll take to any qual
 - How do you ensure code quality?
 - What's your biggest weakness?
 - What is Folio?
-

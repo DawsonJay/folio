@@ -22,4 +22,3 @@ My state management experience is primarily with Redux Toolkit in production app
 - Tell me about WhatNow
 - How do you ensure code quality?
 - Tell me about the Nexus Dashboard
-

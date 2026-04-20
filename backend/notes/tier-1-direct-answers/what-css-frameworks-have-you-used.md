@@ -22,4 +22,3 @@ My CSS experience spans multiple approaches, giving me flexibility to choose the
 - Tell me about moh-ami
 - Tell me about WhatNow
 - What is Folio?
-

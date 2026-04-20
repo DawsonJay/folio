@@ -22,4 +22,3 @@ WhatNow is one of my most successful portfolio projects. Complete end-to-end mac
 - How do you approach AI project scoping?
 - How do you approach adding LLM features?
 - What is Folio?
-

@@ -25,4 +25,3 @@ I was responsible for building production-quality systems that lasted, thinking 
 - How do you work in a team?
 - Tell me about the Email Editor project
 - Tell me about your experience at Nurtur
-

@@ -24,4 +24,3 @@ I combine artistic intuition and technical rigor. My art background gives me a s
 - Tell me about your experience at Nurtur
 - What did you do at Nurtur?
 - Tell me about WhatNow
-

@@ -20,4 +20,3 @@ My LLM experience focuses on integration. Building complete user experiences - h
 - How do you approach adding LLM features?
 - What AI/ML experience do you have?
 - What's your experience with RAG systems?
-

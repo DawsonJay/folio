@@ -22,4 +22,3 @@ I'm looking to establish myself long-term. Not job-hopping or seeking a stepping
 - What technical decision would you redo?
 - How do you manage work-life balance?
 - What are your strongest technical skills?
-

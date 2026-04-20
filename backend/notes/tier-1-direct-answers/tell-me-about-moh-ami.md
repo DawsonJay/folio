@@ -20,4 +20,3 @@ Built and deployed in a single intensive session January 11, 2026 - from scratch
 - Tell me about prompt engineering experience
 - How do you approach adding LLM features?
 - What AI/ML experience do you have?
-

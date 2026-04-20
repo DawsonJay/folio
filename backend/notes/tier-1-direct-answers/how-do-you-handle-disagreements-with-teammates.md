@@ -20,3 +20,7 @@ The result: disagreements become problem-solving conversations. No one wins argu
 - How do you approach problem-solving?
 - Tell me about your leadership style
 
+**variants:**
+- How do you handle disagreements about technical direction?
+- How do you handle conflict when you disagree on the technical approach?
+- What do you do when your team can't agree on how to build something?

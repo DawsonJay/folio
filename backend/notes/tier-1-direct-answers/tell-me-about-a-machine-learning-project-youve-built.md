@@ -27,4 +27,3 @@ The semantic embeddings approach replaced manual metadata tagging. Instead of tr
 - What is Folio?
 - Tell me about contextual bandits
 - What AI/ML experience do you have?
-

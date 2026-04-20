@@ -20,4 +20,3 @@ I want to be continuing to grow - not just maintaining current skills, but expan
 - How do you approach adding LLM features?
 - How do you approach learning new tech?
 - What are your strongest technical skills?
-

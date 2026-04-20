@@ -24,4 +24,3 @@ I understand that code reviews are about improving the code and helping the deve
 - What's your experience with Git?
 - Tell me about your development workflow
 - Tell me about version control
-

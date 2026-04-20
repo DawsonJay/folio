@@ -21,4 +21,3 @@ Background helps: art, teaching kayaking, bridging teams. I've always moved betw
 - Tell me about your leadership style
 - Tell me about the Integrations Dashboard
 - How do you handle team disagreements?
-

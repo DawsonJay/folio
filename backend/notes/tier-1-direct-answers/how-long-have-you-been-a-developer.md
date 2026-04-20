@@ -20,4 +20,3 @@ So while I've been coding for about 11+ years, my professional development exper
 - What is Folio?
 - Walk me through your career journey
 - What's your story?
-

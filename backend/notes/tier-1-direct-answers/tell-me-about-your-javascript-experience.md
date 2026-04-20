@@ -20,4 +20,3 @@ TypeScript is now my preferred choice because type safety catches errors at comp
 - How do you stay current with technology?
 - How do you ensure code quality?
 - How comfortable are you with TypeScript?
-

@@ -22,4 +22,3 @@ I'm comfortable with advanced Git features like rebasing, cherry-picking, and re
 - How do you ensure code quality?
 - How do you work in a team?
 - Tell me about version control
-

@@ -22,4 +22,3 @@ I've been working remotely for nearly six years now, and I've developed strong i
 - What are you looking for in your next role?
 - Tell me about your freelance experience
 - Do you prefer solo or team work?
-

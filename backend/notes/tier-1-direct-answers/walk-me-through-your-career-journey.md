@@ -22,4 +22,3 @@ The team was restructured in February 2026. The timing wasn't my choice, but I'm
 - Tell me about your experience at Nurtur
 - How did you get into development?
 - Tell me about your freelance experience
-

@@ -20,4 +20,3 @@ What I learned - trust intuition then prove it, metrics can lie by omission, som
 - What's your debugging process?
 - How do you ensure code quality?
 - Tell me about a project that failed
-

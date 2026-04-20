@@ -23,4 +23,3 @@ Another difficult situation was optimizing the Nexus Dashboard performance from 
 - Tell me about the Nexus Dashboard
 - Tell me about a challenging project
 - What is Folio?
-

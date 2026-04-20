@@ -24,4 +24,3 @@ The project continued after I left to work on Nexus Dashboard. The team carried 
 - Tell me about the Nexus Dashboard
 - Tell me about the Integrations Dashboard
 - How do you approach UI/UX design?
-

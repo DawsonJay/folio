@@ -20,6 +20,37 @@ def extract_question_title(file_path: Path) -> str:
     
     raise ValueError(f"No question title found in {file_path} (expected # header on first line)")
 
+
+def extract_variants(file_path: Path) -> list:
+    """Extract variant phrasings from the **variants:** block after the --- separator.
+
+    Variants live in the metadata section (after ---) so load_direct_answer ignores them.
+    Returns an empty list if no variants block is present — safe default for files without one.
+    """
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    parts = content.split('---', 1)
+    if len(parts) < 2:
+        return []
+
+    variants = []
+    in_variants = False
+
+    for line in parts[1].splitlines():
+        stripped = line.strip()
+        if stripped == '**variants:**':
+            in_variants = True
+            continue
+        if in_variants:
+            if stripped.startswith('- '):
+                variants.append(stripped[2:].strip())
+            elif stripped.startswith('**') or (stripped and not stripped.startswith('-')):
+                break
+
+    return variants
+
+
 def main():
     print("Initializing services...")
     openai_service = OpenAIService()
@@ -61,25 +92,25 @@ def main():
         try:
             question_title = extract_question_title(note_file)
             print(f"      Question: {question_title}")
-            
-            print(f"      Generating embedding...")
-            embedding = openai_service.get_embedding(question_title)
-            
+
             file_path_relative = f"notes/tier-1-direct-answers/{note_file.name}"
-            
             metadata = {
                 "type": "direct_answer",
                 "question": question_title,
                 "file_path": file_path_relative
             }
-            
             note_id = note_file.stem
-            vectors_to_store.append((
-                note_id,
-                embedding,
-                metadata
-            ))
-            
+
+            print(f"      Generating embedding...")
+            embedding = openai_service.get_embedding(question_title)
+            vectors_to_store.append((note_id, embedding, metadata))
+
+            variants = extract_variants(note_file)
+            if variants:
+                print(f"      Generating {len(variants)} variant embedding(s)...")
+            for j, variant in enumerate(variants, 1):
+                vectors_to_store.append((f"{note_id}__v{j}", openai_service.get_embedding(variant), metadata))
+
         except Exception as e:
             print(f"      ERROR: Failed to process {note_file.name}: {e}")
             continue

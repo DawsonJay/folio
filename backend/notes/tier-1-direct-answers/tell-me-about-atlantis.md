@@ -22,4 +22,3 @@ Atlantis covers hardware integration beyond web development - LoRa communication
 - What future projects are you considering?
 - What's the most complex system you've built?
 - Tell me about WhatNow
-

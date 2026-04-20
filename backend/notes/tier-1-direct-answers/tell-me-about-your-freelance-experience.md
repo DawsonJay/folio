@@ -22,4 +22,3 @@ This realization led me back to Nurtur (the same company as BriefYourMarket.com,
 - How do you approach problem-solving?
 - What was your first development job?
 - Tell me about your experience at Nurtur
-

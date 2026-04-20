@@ -25,4 +25,3 @@ When we both have the same authority, I'll still listen, but if it's an area whe
 - Have you mentored other developers?
 - How do you approach problem-solving?
 - Tell me about your leadership style
-

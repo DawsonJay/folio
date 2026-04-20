@@ -19,4 +19,3 @@ It's now live, continuing to evolve, and the trellis is holding. That's how I ap
 - How do you approach problem-solving?
 - Tell me about WhatNow
 - Tell me about your most successful project
-

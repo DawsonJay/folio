@@ -22,4 +22,3 @@ I'm ready to start immediately and bring 5.5 years of proven production experien
 - What is Folio?
 - Tell me about the Integrations Dashboard
 - Tell me about your experience at Nurtur
-

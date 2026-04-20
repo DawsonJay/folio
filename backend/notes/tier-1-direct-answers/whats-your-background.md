@@ -20,4 +20,3 @@ I combine artistic instinct with technical rigour. My background gives me a sens
 - Tell me about your experience at Nurtur
 - Walk me through your career journey
 - What's your story?
-

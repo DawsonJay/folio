@@ -22,4 +22,3 @@ The team was restructured in February 2026. I'm seeking mid to senior frontend r
 - What did you do at Nurtur?
 - What were your last job responsibilities?
 - How do you work in a team?
-

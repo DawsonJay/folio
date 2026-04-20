@@ -22,4 +22,3 @@ WhatNow is a production-deployed application that I actually use in my daily lif
 - What's your understanding of embeddings?
 - How do you approach AI project scoping?
 - What AI/ML experience do you have?
-

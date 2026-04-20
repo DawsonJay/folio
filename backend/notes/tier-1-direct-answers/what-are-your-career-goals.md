@@ -20,4 +20,3 @@ I'm committed as long as I'm growing and providing value. I don't think in fixed
 - How do you approach learning new tech?
 - What are your strongest technical skills?
 - Where do you see yourself in five years?
-

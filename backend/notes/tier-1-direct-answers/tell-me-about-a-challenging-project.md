@@ -20,4 +20,3 @@ The Folio project is now live, providing value, and I'm continuing to improve it
 - Tell me about WhatNow
 - How do you approach problem-solving?
 - Tell me about your most successful project
-

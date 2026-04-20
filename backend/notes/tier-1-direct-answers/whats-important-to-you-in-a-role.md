@@ -20,3 +20,7 @@ Work-life balance and supportive culture. Professional work comes first, but I n
 - What would make a role a good fit for you?
 - What was your biggest Nurtur achievement?
 - Tell me about the Integrations Dashboard
+
+**variants:**
+- What kind of work makes you feel like you're contributing to something worthwhile?
+- What work do you find most meaningful?

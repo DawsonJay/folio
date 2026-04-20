@@ -20,4 +20,3 @@ I'm based in Halifax, Nova Scotia and can start immediately with 5.5 years of pr
 - Tell me about the Nexus Dashboard
 - Tell me about your experience at Nurtur
 - When can you start?
-

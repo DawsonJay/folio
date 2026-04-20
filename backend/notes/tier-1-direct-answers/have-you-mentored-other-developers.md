@@ -20,4 +20,3 @@ Watching people grow is what I find rewarding about leadership. Those three deve
 - How do you approach problem-solving?
 - Tell me about the Integrations Dashboard
 - Tell me about a project you led?
-
