@@ -24,4 +24,4 @@ WhatNow demonstrates full-stack AI/ML engineering - complete system from databas
 **projectLinks:**
 - WhatNow:
   - demo: https://whatnow.onrender.com/
-  - github: https://github.com/yourusername/whatnow
+  - github: https://github.com/DawsonJay/whatnow-frontend

@@ -8,7 +8,7 @@ Investigation means gathering evidence - logs, error messages, reproduction step
 
 On WhatNow's invisible recommendation bias, I spent a week debugging. No error message, metrics looked fine, but users felt recommendations were "samey." My intuition said something was structurally off. Through systematic investigation - checking training data, visualizing embeddings, testing hypotheses - I isolated the contextual bandit's exploration parameter as the culprit.
 
-I use rubber ducking (explaining out loud reveals gaps), version control archaeology (git history shows when problems were introduced), simplify and rebuild (strip to simplest form, watch where it breaks), and team collaboration (fresh perspectives). I take breaks when stuck - hiking or stepping away lets my subconscious process the problem.
+When stuck, I talk through the problem out loud — explaining it reveals gaps in my own understanding. Git history is useful too: if I can pinpoint when something changed, I already know roughly where to look. If the system is complex, I strip it back to the simplest form that still reproduces the issue, then add pieces back in until it breaks. And sometimes the most effective thing is to step away — hiking or getting out of the building lets the subconscious do work the conscious mind gets in the way of.
 
 ---
 

@@ -22,4 +22,4 @@ WhatNow is now a production system I use daily. The AI continuously learns from 
 **projectLinks:**
 - WhatNow:
   - demo: https://whatnow.onrender.com/
-  - github: https://github.com/yourusername/whatnow
+  - github: https://github.com/DawsonJay/whatnow-frontend

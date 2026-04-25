@@ -8,7 +8,7 @@ I tried studying AI at Heriot-Watt University from 2017 to 2019, completing 2 ye
 
 I did an Ironhack bootcamp in May 2020, which was a strategic decision to bridge my personal project work into structured professional skills. Coming out of it, I had a portfolio of projects and the confidence to apply for junior developer positions. Within a few months, I secured my first professional role.
 
-So while I've been coding for about 11+ years, my professional development experience is 5.5 years. I've been working continuously as a developer since October 2020, building production systems that are still running today.
+So: 11+ years coding, 5.5 years professional. The distinction matters because the self-taught years built habits and instincts that the professional years refined, not replaced.
 
 ---
 

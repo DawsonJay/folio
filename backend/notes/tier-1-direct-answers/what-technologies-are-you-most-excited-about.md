@@ -8,7 +8,7 @@ I'm excited about reinforcement learning and contextual bandits. I built WhatNow
 
 I'm also excited about embedded systems and hardware-software integration. I'm working on Atlantis, a lake bed mapping system that combines LoRa communication, GPS positioning, and ultrasonic sensors. The challenge of building systems that work in extreme environments, where real-time communication is impossible or impractical, requires autonomous decision-making and robust failure recovery. Side project that explores hardware challenges.
 
-I get most excited about technologies when they enable projects that matter to me. The technology is a tool, but the goal is building things that provide real value and align with my values of curiosity, collaboration, and craftsmanship.
+The common thread: technologies that solve problems I actually have or that unlock things I couldn't build before. If I'm genuinely excited about something, I tend to build something with it — which is probably the most honest test of whether the excitement is real.
 
 ---
 

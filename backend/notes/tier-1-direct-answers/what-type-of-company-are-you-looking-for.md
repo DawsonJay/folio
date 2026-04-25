@@ -2,7 +2,7 @@
 
 I'm looking for companies working on AI-powered web applications - where AI isn't just a buzzword but a core mechanism of the product. I want to build systems where LLMs, RAG, or ML actually solve problems for users, not just generate marketing copy.
 
-Small to mid-sized companies fit best. Large companies offer resources but often mean bureaucracy, slow decision-making, and distant connection to impact. Startups offer excitement but can lack stability and clear direction. Small to mid-sized companies (roughly 10-100 people, depending on structure) balance meaningful work with stability. Individual contributions are visible and impactful, teams are small enough for direct collaboration, and there's room to grow without rigid career ladders.
+Smaller is better for how I work. At Nurtur I was on teams of three to five people — small enough that everyone's contribution was visible, close enough that collaboration was real rather than ceremonial. That's the environment where I do my best work and where I can also be genuinely useful to the people around me. I'm not looking for a large org with a well-defined career ladder; I'm looking for a place where I can make real decisions and see what they produce.
 
 I care about mission and values. I want to work on products I believe provide real value, with teams that prioritize quality over shipping fast, and in environments where people support each other's growth. At Nurtur, the small teams (3-5 people) meant I could mentor backend developers, make architectural decisions, and see my work directly impact the sales team using the Integrations Dashboard daily. That connection between work and impact matters.
 

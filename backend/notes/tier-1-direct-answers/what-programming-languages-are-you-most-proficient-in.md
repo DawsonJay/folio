@@ -8,7 +8,7 @@ Python is my AI/ML language. I've built WhatNow using contextual bandits and rei
 
 JavaScript I'm advanced with, having used it 3.5+ years professionally. It's the foundation I use with React. I understand modern patterns, ES6+ features, async/await, and how to write maintainable code.
 
-I typically emphasize TypeScript/React as core strengths with C# and Python as significant professional experience. I'm continuously expanding Python/AI skills, which aligns with my career goals in AI/ML web application development.
+The direction of travel is TypeScript/React as the foundation with Python and AI/ML integration as the growing specialisation.
 
 ---
 

@@ -1,14 +1,12 @@
 # What would make a role a good fit for you?
 
-A good fit combines technical challenge, team culture, and growth opportunity. I need work that lets me build things that matter, people who support each other's growth, and opportunities to develop skills I care about.
+Work I can care about, on a team small enough that my contribution is visible, with enough responsibility that I'm growing rather than just maintaining.
 
-Technical fit: Building AI-powered web applications where AI is a core mechanism, not just a feature. Full-stack or frontend roles working with React/TypeScript, integrating LLM capabilities, RAG systems, or ML into production applications. Projects where quality matters - I build systems that last (Integrations Dashboard: 3+ years, zero maintenance). I want environments that value doing things properly over rushing to ship.
+On the technical side, I'm looking for roles where AI is doing real work — not a marketing feature, but a core mechanism of the product. Frontend or full-stack work integrating LLMs, RAG, or ML into production systems is where I'm aiming. I also care about quality. The Integrations Dashboard I built at Nurtur is still running zero-maintenance three years later, and that's the standard I hold myself to. I want to be somewhere that values that over shipping fast and moving on.
 
-Team and culture fit: Small teams (3-5 people) with direct collaboration and visible impact. People who support each other's growth and create psychological safety. At Nurtur, I thrived mentoring 3 backend developers, conducting code reviews, and working closely with a backend engineer on Nexus. I need that collaborative environment where I can share clever solutions with people who understand them.
+On the team side, small is better. The Nurtur teams I worked on were usually three to five people — close enough that everyone's work is visible and collaboration is real, not process. I need people I can share a problem with, or hand something off to and trust they'll handle it well.
 
-Growth opportunity: Mid to senior roles where I make architectural decisions, mentor developers, and contribute to technical strategy. I've proven these capabilities but need to formalize them. I want to grow in leadership, AI integration, and technical depth - becoming the go-to person on my team for difficult problems.
-
-Practical considerations: Work-life balance (professional work comes first, but I need time for relationships, exercise, personal projects), location flexibility in Canada (Toronto, Vancouver, Montreal, or elsewhere - I'm relocating), and mission I believe in (building products that provide real value to users).
+The mission matters too. I'm not looking for the most prestigious logo — I want to work on something I genuinely think is worth building.
 
 ---
 

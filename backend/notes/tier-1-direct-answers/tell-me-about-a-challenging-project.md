@@ -4,11 +4,9 @@ Building Folio, the RAG-powered portfolio chatbot you're talking to right now, w
 
 The key is to create a good structure that is capable of supporting the full product, but defining a version with an absolute minimum level of content and features so it can start being used as fast as possible and providing value, but not have to be rewritten for the more complete versions. I think of it like a trellis for a seedling. You don't build a full trellis for a tiny seedling - that would take too long and the seedling might not even need it. But you also don't just stick a twig in the ground that will break when the plant grows. You build a structure that's appropriate for now but designed to support future growth.
 
-For Folio, this meant building solid architecture from the start. The RAG system, embedding storage, and API structure needed to be built correctly because rebuilding those would be expensive. But I didn't need every feature immediately. The minimum viable product had to actually work - real RAG retrieval, real answers, real deployment. It couldn't be a prototype that would break when used.
+For Folio, this meant building solid architecture from the start. The RAG system, embedding storage, and API structure needed to be built correctly because rebuilding those would be expensive. But I didn't need every feature immediately. The minimum viable product had to actually work — real RAG retrieval, real answers, real deployment — not just look convincing in a demo.
 
-I've had plenty of small deadlines before so this wasn't totally new, but this required balancing quality architecture with rapid delivery. The pressure was real because this system needed to work reliably from day one - it couldn't be a prototype that would break when used. I cared deeply about getting it right, which meant I was willing to put in the focused effort needed to build something production-ready.
-
-The Folio project is now live, providing value, and I'm continuing to improve it. The trellis worked - the structure I built supports ongoing growth without requiring rewrites. That's the approach I'll take to future tight deadlines: build the right structure, ship a viable version, then iterate.
+It's now live, still growing, and the trellis is holding. That's the template I apply to any tight deadline: get the structure right, ship something real, iterate on what actually matters to users.
 
 ---
 

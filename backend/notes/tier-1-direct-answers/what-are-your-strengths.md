@@ -6,7 +6,7 @@ Artistic intuition combined with technical rigor. My art background gives me gut
 
 I'm strong at problem-solving. I frame limits first, then find creative solutions within constraints. When resources are scarce, turn to cleverness. I have pattern recognition from building multiple systems - new bugs often match patterns I've seen before.
 
-I'm skilled at mentoring and team collaboration. My team dad leadership style brings out capability in others. I explain technical concepts to non-technical people - I bridged backend developers and sales teams on the Integrations Dashboard, translating between completely different perspectives.
+I'm skilled at mentoring and team collaboration. I bring out capability in others rather than creating dependency — three backend developers now work confidently across the full stack because I focused on explaining the reasoning, not just the answer. I also bridge technical and non-technical teams effectively: on the Integrations Dashboard I spent as much time translating between the backend team and the sales team as I did writing code.
 
 I build things that last. The Integrations Dashboard has run 3+ years without maintenance - long-term sustainability over short-term convenience. I'm a fast learner who taught myself programming through goal-driven projects. If a project needs technology I don't know, I learn it. I'm motivated by meaningful work and creating excellent things together, not being the smartest in the room.
 

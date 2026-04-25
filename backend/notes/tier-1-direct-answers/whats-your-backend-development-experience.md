@@ -1,14 +1,10 @@
 # What's your backend development experience?
 
-I have 3 years of professional backend development experience with C# and Azure Functions at Nurtur. I also have experience with Python and FastAPI for AI/ML projects. I've built RESTful APIs, worked with PostgreSQL databases, and integrated complex backend systems. I understand full-stack architecture and can work across the entire stack.
+My professional backend experience splits into two distinct phases. At Nurtur I worked in C# for three years — C# APIs, Azure Functions, and the backend layer for the dashboards I built. My first project there was the Integrations Dashboard: I built the API endpoints under senior mentorship, and those endpoints are still running daily by the sales team three years later with no maintenance. That's where I developed my instincts for backend systems that actually have to last.
 
-At Nurtur, I used C# as my primary backend language for 3 years. I worked with C# APIs, Azure Functions, and backend systems that supported the frontend dashboards I built. I built the backend for the Integrations Dashboard, creating API endpoints that the sales team still uses daily. This gave me solid experience with serverless architecture, API design, and backend systems that serve frontend applications.
+The second phase is Python and FastAPI for AI/ML backends — WhatNow (contextual bandits recommendation engine), moh-ami (LLM integration with structured outputs), and Folio (RAG system with semantic search). That work involved integrating OpenAI APIs, handling vector embeddings, managing database migrations with Prisma, and building systems that behave reliably when the AI component is non-deterministic. Different set of constraints from a standard REST API.
 
-I have experience with Python and FastAPI for AI/ML projects. I've built backends for WhatNow (contextual bandits recommendation system), moh-ami (LLM-powered French learning), and Folio (RAG-powered chatbot). I understand how to build RESTful APIs that integrate with AI systems, handle embeddings and vector search, and serve LLM-powered applications.
-
-I have extensive experience with PostgreSQL databases across multiple projects - Integrations Dashboard, Nexus, moh-ami, WhatNow. I understand database design, query optimization, and how to structure data for performance. I've also worked with GraphQL through moh-ami and Node.js backends.
-
-I understand backend architecture patterns, API design, and how to build systems that are both functional and maintainable. The Integrations Dashboard backend has been running for over 3 years without needing any maintenance. I build backend systems that last.
+PostgreSQL runs through both phases — I've used it across the Integrations Dashboard, Nexus, moh-ami, and WhatNow. I also have GraphQL experience through moh-ami, where I built the API with Apollo Server. Across all of it: I think in terms of what the frontend actually needs, which means the APIs I build tend to match usage patterns closely rather than just exposing a data model.
 
 ---
 

@@ -1,12 +1,12 @@
 # How do you ensure code quality?
 
-The Integrations Dashboard I built at Nurtur has run 3+ years with zero maintenance, zero crashes, and zero bug reports. That record comes from three things: architectural decisions that prioritize simplicity, thorough code reviews, and building systems that prevent repeated failures.
+The Integrations Dashboard I built at Nurtur has run 3+ years with zero maintenance, zero crashes, and zero bug reports. That record comes from how the system was built, not from luck.
 
-My architectural thinking follows what I call crystal formation - simple, clean components that combine into sophisticated structure. Minimal dependencies reduce risk of external libraries breaking. Conservative technology choices use proven stable tools. Clear separation of concerns makes code understandable years later. The Nexus Dashboard I worked on used foundation blocks architecture - reusable components that could adapt to backend changes without frontend rewrites.
+My approach to architecture is what I'd call crystal formation — simple components that compose into sophisticated structure, with clear separation of concerns so each part is understandable in isolation. I keep dependencies minimal and choose proven tools over interesting ones. The Nexus Dashboard used a foundation blocks architecture: reusable components that could absorb backend changes without requiring frontend rewrites. That kind of adaptability is worth designing for upfront.
 
-I conduct regular code reviews and provide educational feedback. Rather than just approving or rejecting code, I explain why patterns work or don't work and suggest alternative approaches with rationale. When reviewing, I look for maintainability, potential bugs, performance implications, and alignment with project architecture. At Nurtur, I mentored 3 backend developers transitioning to full-stack roles through this teaching-through-reviews approach.
+Code reviews are where I catch things before they become problems. At Nurtur I reviewed regularly and tried to make that feedback educational — not just flagging what was wrong but explaining why a different pattern was better, so the developer could make the same call next time without needing a review. I mentored three backend developers through that approach as they transitioned to full-stack work.
 
-Good structure prevents repeated failures. When something goes wrong, I fix it in ways that strengthen the overall system. The Integrations Dashboard's zero-maintenance record isn't because nothing went wrong during development - it's because I fixed issues in ways that prevented similar failures later.
+When something does go wrong, I fix it in a way that prevents the same failure from happening again. That's the part most people skip — patching the symptom rather than strengthening the underlying system. The Integrations Dashboard's record isn't because nothing went wrong during development.
 
 ---
 

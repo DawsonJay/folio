@@ -1,16 +1,12 @@
 # What development tools do you use?
 
-I use a variety of development tools depending on the project and context. For version control, I use Git and GitHub extensively. I have 10+ repositories on GitHub and understand Git workflows, branching strategies, and collaborative development practices.
+VS Code is my primary editor, with the TypeScript, ESLint, and Prettier extensions doing most of the work before I even run the code. For TypeScript projects I rely on the type-checker as a first pass — if it compiles cleanly, a lot of potential errors are already ruled out.
 
-For code editing, I use VS Code with various extensions for TypeScript, React, Python, and other technologies. I understand how to configure development environments, use debugging tools, and leverage IDE features effectively.
+For testing I've used Jest, React Testing Library, and Wallaby. Wallaby running as a continuous background runner is genuinely useful — feedback on every save rather than running a suite manually.
 
-For testing, I've used manual testing extensively (the Integrations Dashboard's zero-bug record came from comprehensive manual testing), and I understand testing concepts including unit testing, integration testing, and end-to-end testing. I can work with different testing frameworks when needed.
+Git and GitHub for version control across everything. For deployment, Railway and Render for personal backend projects, Vercel and Netlify for frontend. At Nurtur deployment was handled at the infrastructure level, so my personal project experience is where I've had to manage it directly.
 
-For deployment, I've used platforms like Railway, Render, Vercel, and Netlify. I understand how to deploy applications, configure environments, and manage deployments effectively.
-
-For communication and collaboration, I've used Microsoft Teams extensively at Nurtur, and I'm comfortable with various remote collaboration platforms. I understand how to work effectively in distributed teams and use collaboration tools productively.
-
-I use development tools that help me work efficiently and maintain code quality. I'm adaptable and can learn new tools quickly when needed for specific projects or team requirements.
+Microsoft Teams throughout my time at Nurtur. I adapt quickly to whatever communication tooling a team uses — the tool matters much less than the habits around it.
 
 ---
 

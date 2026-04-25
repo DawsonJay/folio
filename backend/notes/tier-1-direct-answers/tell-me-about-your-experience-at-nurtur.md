@@ -1,16 +1,12 @@
 # Tell me about your experience at Nurtur
 
-I worked at Nurtur for 3.5 years as a Full Stack Developer - a real estate tech company with about 20 developers where I worked in small focused teams of 3-5. Dashboard running 3+ years with zero maintenance. Infrastructure managers optimized from 15+ seconds to under 5 seconds. Three developers I mentored into full-stack roles. I went from bootcamp graduate to confident production engineer.
+Nurtur is where I went from a bootcamp graduate to someone who could own a production system end-to-end, mentor other developers, and make architectural decisions with real consequences.
 
-My proudest achievement is the Integrations Dashboard I built in my first four months. My first task was rebuilding a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented the entire system - React/TypeScript frontend, PostgreSQL backend, API endpoints. The sales team uses it daily and still expresses gratitude years later. Three years without maintenance, crashes, or bug reports.
+The thing that shaped how I work most was the first project: the Integrations Dashboard. I was handed a vague brief, given full ownership of the frontend, and had to figure out what the right thing to build was — by talking to the sales team who'd use it and the backend team who'd power it — before writing much code. That project running three years without maintenance is proof the approach worked, and I've used the same approach since.
 
-The Nexus Dashboard was my most complex project - an internal system managing distributed job processing infrastructure. I optimized load times from 15+ seconds to under 5 seconds through strategic loading patterns, intelligent caching with React Query, and careful data management. I designed a foundation blocks architecture enabling rapid iteration - new graphs in 10 minutes, new pages in 30 minutes. Built as a microfrontend using Module Federation.
+By the time I reached Nexus I was the technical lead on the frontend side. The backend was complex and shifting, and I had to design a component architecture that could absorb changes without becoming a maintenance burden. That's a different kind of engineering problem than shipping features — it requires thinking about future states you can't fully predict.
 
-I worked on the Email Editor rebuild with a 4-person team replacing the core company product. I mentored 3 backend developers transitioning to full-stack roles, teaching CSS and React patterns. I built complex components including a link editor integrating the Lexical framework. Redux Toolkit for state management, regular code reviews.
-
-I developed supportive leadership focused on bringing out capability in others. Professional respect and autonomy to structure my own work.
-
-The team was restructured in February 2026. I'm seeking mid to senior frontend roles where I can continue growing.
+The mentoring side of Nurtur grew naturally. I wasn't assigned to it formally at first; I was just the person backend developers came to when they had frontend questions. Over time that became more structured — working through CSS concepts, React patterns, code reviews with explanation rather than just approval or rejection. Watching three people move from uncertainty about the frontend to genuine confidence in it was one of the more satisfying things about working there.
 
 ---
 

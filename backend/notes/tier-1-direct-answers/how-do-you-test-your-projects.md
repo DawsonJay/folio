@@ -1,16 +1,10 @@
 # How do you test your projects?
 
-I've tested production systems for 3.5 years at Nurtur using Jest, React Testing Library, and Wallaby. Testing approach depends on the project's criticality and longevity. Production systems that people depend on get comprehensive testing. Personal experiments get selective testing or manual-only testing.
+My philosophy is testing user workflows rather than chasing coverage numbers. I write tests that mimic what users actually do — the paths they follow, the actions they take — rather than testing every possible code path. If a user would never encounter a particular path in normal usage, testing it exhaustively is lower priority than ensuring the critical flows work reliably.
 
-For work projects at Nurtur, I followed a consistent approach. Manual testing of common user actions first to ensure stability. Get a teammate to check it in the browser - fresh eyes catch things you miss. Run the existing test suite to verify nothing broke. Then write tests for the new feature using Jest and React Testing Library. I used Wallaby for continuous feedback as I developed.
+At Nurtur I used Jest and React Testing Library with Wallaby running in the background as a continuous runner. My process on any new feature was: manual stability check first, get a teammate to take a fresh look in the browser, run the existing test suite, then write tests for the new feature. That order matters — I'd rather know the feature works before I write tests to document that it works.
 
-My philosophy is testing user workflows rather than aiming for exhaustive coverage. I write tests that mimic what users actually do - logging in, creating items, navigating between pages. If users would never encounter a code path in normal usage, testing it exhaustively is lower priority than ensuring critical paths work reliably.
-
-For personal projects like WhatNow and moh-ami, I'm more pragmatic. They have tests for critical functionality but less comprehensive coverage because there's no team relying on the codebase and the cost of a bug is lower. I still test user actions, but I'm selective about which actions need automated tests versus manual verification.
-
-The Nexus Dashboard taught me to write tests incrementally. I didn't write tests at the start, and as complexity grew, manual testing everything took longer than coding. Retrofitting tests onto a complex system was a trial. Now I write tests as I build features rather than all at once later.
-
-Testing effort matches what's at stake. The Integrations Dashboard's 3+ years without bugs came from thorough testing combined with simple architecture that's resistant to errors.
+The Nexus Dashboard taught me an expensive lesson: I didn't write tests at the start, and as the system grew in complexity, manually verifying everything after each change took longer than the coding itself. Retrofitting tests onto a complex codebase is genuinely painful. Now I write them incrementally as features land. For personal projects like WhatNow and moh-ami, I'm more selective — critical functionality is covered, but the test suite is lighter because the cost of a bug is lower and there's no team depending on the codebase.
 
 ---
 

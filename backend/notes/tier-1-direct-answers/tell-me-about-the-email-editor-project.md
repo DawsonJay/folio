@@ -1,18 +1,12 @@
 # Tell me about the Email Editor project
 
-The Email Editor was a major team collaboration project at Nurtur rebuilding the core company product - the drag-and-drop email template system for client campaigns. Working in a 4-person team on the a high-stakes internal product with shared ownership and coordinated development.
+The Email Editor was a rebuild of Nurtur's core product — the drag-and-drop email template system clients used daily for campaign creation. A four-person team, genuine business criticality, shared ownership across frontend and backend.
 
-The core product importance meant this wasn't experimental side project but fundamental business infrastructure. Clients use the email editor daily to create campaign templates. The system needed to be reliable, intuitive, and feature-complete. The high visibility and business criticality created pressure to deliver quality work that wouldn't embarrass the team or disrupt client workflows.
+The team composition shaped the work as much as the technical requirements. Three of the four were backend developers transitioning into full-stack roles, which meant the collaboration involved a lot of explanation — helping them understand component thinking, CSS patterns, and state management in React while they were contributing to production code in parallel. The code reviews were more educational than gatekeeping: I'd explain why a CSS pattern worked the way it did, connect it to concepts they already had from backend development. By the time I moved to the Nexus project, all three were contributing to the frontend independently.
 
-The team composition included myself and three backend developers transitioning to full-stack roles. This created mentoring dynamic where I helped backend developers become comfortable with frontend development. The collaboration required coordinating across different experience levels ensuring everyone contributed effectively while developing their skills.
+My main technical contribution was a link editor component built on the Lexical framework — Lexical is a rich text editing library with a plugin architecture, and building a custom plugin required understanding its state management and extension points in some depth. State across the editor used Redux Toolkit, which made sense given multiple developers working on interconnected features: centralised state gave everyone a clear place to look when something behaved unexpectedly.
 
-The mentoring role helping backend developers transition to full-stack work was rewarding. I explained frontend concepts, reviewed their code with educational feedback, pair programmed on challenging features, and supported their learning. All three backend developers now contribute confidently to the frontend codebase.
-
-I developed complex components including a link editor using the Lexical framework. Lexical provides rich text editing capabilities with custom plugins and extensions. Building the link editor required understanding Lexical's architecture, plugin system, and state management. This specialized framework knowledge shows ability to learn complex libraries and integrate them effectively.
-
-I used Redux Toolkit for state management across the complex editor application. The email template state, undo/redo history, component selections, and editing modes all lived in Redux store. This centralized state management was essential for multiple developers working on different features that needed to interact with shared state.
-
-The project continued after I left to work on Nexus Dashboard. The team carried on without me. I wasn't leading the project - I was contributing as part of a team, working on creating small components (specifically the link editor component using Lexical framework). Team effort, not dependent on any single person.
+The project continued without me when I moved to Nexus. That's how it should work — I was contributing to a team effort, not creating something that depended on me staying.
 
 ---
 

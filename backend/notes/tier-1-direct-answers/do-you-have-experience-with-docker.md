@@ -1,14 +1,8 @@
 # Do you have experience with Docker?
 
-I have some experience with Docker, though it's not a primary tool in my current workflow. I understand Docker concepts like containers, images, Dockerfiles, and how to use Docker for local development and deployment.
+Some, but it's not a core part of my workflow yet. My deployment experience has primarily been with Railway, Render, and Vercel for personal projects, and at Nurtur deployment was handled at the infrastructure level rather than by the application developers. Docker was abstracted away.
 
-I've used Docker in personal projects for containerizing applications and ensuring consistent development environments. I understand how to write Dockerfiles, build images, run containers, and manage Docker volumes and networks.
-
-I understand the benefits of Docker: consistent environments across development and production, isolation of dependencies, easier deployment, and scalability. I've used Docker Compose for managing multi-container applications.
-
-While I haven't used Docker extensively in professional work, I understand the concepts and can work with Docker when needed. I'm comfortable learning and using Docker for projects that require it.
-
-My deployment experience has primarily been with platforms like Railway, Render, and Vercel that handle containerization automatically, but I understand Docker fundamentals and can work with it when necessary.
+I've worked with Docker in personal projects — writing Dockerfiles, building images, running containers, Docker Compose for multi-container setups — so the fundamentals are there. It's a tool I can work with and pick up properly if a role requires it, but I'd rather be honest that my hands-on depth is limited than oversell it.
 
 ---
 

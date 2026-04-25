@@ -25,4 +25,4 @@ The other major challenge was the metadata-to-embeddings pivot in October 2025, 
 **projectLinks:**
 - WhatNow:
   - demo: https://whatnow.onrender.com/
-  - github: https://github.com/yourusername/whatnow
+  - github: https://github.com/DawsonJay/whatnow-frontend

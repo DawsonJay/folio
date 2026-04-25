@@ -1,14 +1,10 @@
 # How do you handle stress and pressure?
 
-I've developed strong stress management skills through kayaking slalom competition and high-pressure technical work. As a kayaking slalom competitor, I learned to handle tremendous pressure. Slalom is a sport where you paddle through gates on a river as fast as possible. It requires technical skill, but also character traits that transfer to development work.
+Kayaking slalom competition taught me more about pressure than anything in development has. Slalom is unforgiving — a missed gate adds time and you can't undo it, so the only option is to refocus immediately and paddle the next section cleanly. Dwelling on the mistake means missing the next gate too. I competed at a level that required training on frozen rivers at 6am without anyone pushing me. The discipline for that kind of preparation is entirely internal.
 
-Kayaking taught me to move on from mistakes quickly - missing a gate adds to your final time, and dwelling on it means missing more gates. I learned to train relentlessly without supervision, manage time and resources while juggling university, and get up on frozen mornings to train on an icy river because missing a day was unacceptable. The real work is done when no one is watching or pushing you. I didn't win every competition, but the ones I lost didn't hold me back.
+That carries directly into technical work. The thing that keeps me calm under pressure is preparation and process. When something's broken and the stakes are high, I don't panic because I know how to approach it: understand the root cause before touching anything, isolate variables, form a hypothesis, test it. Having a process removes the emotional reaction. I also move on from mistakes quickly — acknowledge it, fix it, refocus. Dwelling doesn't help anyone.
 
-In technical work, I handle stress by trusting my intuition. Years of experience give me gut feelings about what's wrong, reducing panic when debugging complex issues. I break problems down - frame the limits first, then find creative solutions within those constraints. I maintain perspective - remembering that I'm solving interesting problems with skilled teammates, not fighting fires alone.
-
-I stay calm under pressure because I know consistent preparation and strong fundamentals mean I can handle whatever comes up. The Integrations Dashboard has run 3+ years without maintenance. Thoughtful development prevents most problems before they happen, which reduces stress from the start.
-
-I move on from mistakes quickly. In both kayaking and debugging, dwelling on errors wastes time. I acknowledge the mistake, learn from it, and refocus on the solution. Success comes from consistent effort in low-pressure moments, not just performance when it matters.
+The other thing kayaking taught me: the real work happens in the low-pressure moments, not the high-stakes ones. Systems that are solid and well-understood don't generate as many crises in the first place.
 
 ---
 

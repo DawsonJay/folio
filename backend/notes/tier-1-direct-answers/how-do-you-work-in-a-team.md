@@ -4,11 +4,11 @@ I prefer working in teams. I spent 15 months as a freelance web developer, and w
 
 I prefer working in small teams (3-4 people) where I can have focused collaboration but also work independently when needed. I can do deep work on my own tasks, then come together with the team to coordinate, share solutions, and get feedback.
 
-My leadership style is what people have called the "team dad" approach. It's about bringing people together, creating spaces where people feel safe to learn and grow, and genuinely caring about the people I work with. I've successfully mentored 3 backend developers transitioning to full-stack roles at Nurtur. I make people feel rock-solid confidence in their ability to learn something, even if it seems difficult at first.
+The kind of contribution I make beyond my own tasks: I've mentored three backend developers at Nurtur through their transition into full-stack work, focusing on explaining the reasoning rather than just giving the answer. I create spaces where people feel safe to learn rather than guarded about what they don't know yet.
 
 I naturally end up in a connecting role on teams. I bridge gaps between people - helping backend developers understand what frontend developers need, translating technical constraints into language non-technical stakeholders can understand, and making sure people are communicating effectively. Most conflicts come from misunderstanding rather than genuine disagreement, and often just facilitating clear communication resolves things.
 
-I prefer small teams with consensus decision-making and shared project ownership. I want everyone to have input and feel ownership of the work. Multiple perspectives catch problems and generate better solutions.
+Small teams with shared ownership are where I do my best work. Close enough that decisions are conversations, and everyone's perspective on the product is visible.
 
 ---
 

@@ -1,14 +1,10 @@
 # Tell me about a mistake you made
 
-The hardest bug I've fixed wasn't a crash - it was invisible bias in WhatNow's recommendation algorithm. The system worked, metrics looked fine, but user feedback suggested recommendations felt samey. Not obviously wrong, just not diverse enough.
+Building WhatNow's recommendation system, I set the exploration parameter too low — epsilon at 0.05, meaning the algorithm favoured exploiting what it already knew over exploring new options 95% of the time. The system worked correctly. The code did exactly what I wrote it to do. That was the problem.
 
-I spent a week debugging before realizing my contextual bandit's exploration parameter was too low. Epsilon was 0.05, meaning 5 percent exploration and 95 percent exploitation. The algorithm showed safe recommendations that performed acceptably, so metrics didn't flag problems. But users weren't discovering genuinely new experiences.
+The mistake was a design assumption I didn't question. I tuned the parameter conservatively to avoid erratic recommendations, but didn't think hard enough about what "safe" recommendations would feel like over time — samey, predictable, not exciting. Users couldn't articulate what was wrong, and my metrics didn't flag it because engagement looked acceptable. I was measuring the wrong things.
 
-What made this hard - no error messages, the system worked exactly as coded, metrics showed acceptable engagement, and users couldn't articulate what felt wrong. The bug was in my design choices, not implementation. I wasn't measuring the right things.
-
-I changed epsilon from 0.05 to 0.15, implemented adaptive exploration, and added diversity metrics to track. Category diversity increased 40 percent, semantic distance between recommendations increased 25 percent, and users reported feeling like they were discovering things.
-
-What I learned - trust intuition then prove it, metrics can lie by omission, sometimes the bug is the design, and user feedback matters even when vague. Deep understanding beats trial and error. This required seeing what wasn't there - recommendations users never got to experience.
+I caught it because something felt off, spent a week investigating until I understood it, then adjusted epsilon to 0.15 and added diversity metrics to track. Category diversity increased 40%, average semantic distance between recommendations increased 25%, and the system started feeling genuinely exploratory. An algorithm doing exactly what you told it to do can still be wrong if you didn't think carefully enough about what you were actually asking for.
 
 ---
 

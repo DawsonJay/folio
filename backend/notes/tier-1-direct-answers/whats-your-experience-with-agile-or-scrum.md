@@ -6,9 +6,7 @@ We tracked work using Jira with sprint boards and work items. When I started we 
 
 The Email Editor project shows how this worked in practice. We created a dedicated Jira board, defined work items, and assigned them to fill sprints for our 4-person team. Daily standups coordinated our work. Then we spent the rest of the day on our items. The project progressed in this rhythm - plan, execute, coordinate daily, complete the sprint, repeat.
 
-What worked well was the balance between structure and flexibility. Daily or twice-weekly standups prevented silos without being heavy-handed. Jira boards provided visibility without micromanagement. Work items created accountability while allowing flexibility in how we accomplished them. The approach served the team rather than the team serving the process.
-
-I learned that Agile works when teams adapt practices to fit actual needs. Teams in rapid development had more frequent standups. Teams in maintenance mode met less often. This pragmatic approach made Agile effective rather than bureaucratic.
+What worked was that the process was adapted to fit what the team actually needed rather than followed as a ritual. Standups were 20 minutes, not an hour. Work items were sized for a sprint, not padded to fill one. When something wasn't useful, it got dropped.
 
 ---
 

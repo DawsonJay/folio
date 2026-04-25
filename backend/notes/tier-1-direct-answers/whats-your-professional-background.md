@@ -1,18 +1,12 @@
 # What's your professional background?
 
-I have 5.5 years of professional development experience. My professional career started in October 2020 at BriefYourMarket.com as a Junior Web Developer, which lasted 5 months. I then spent 15 months as a freelance web developer, which taught me that I prefer working in teams.
+5.5 years of professional development experience, with a longer personal background in coding that goes back to 2014.
 
-I returned to the same company in July 2022, but by then it had been bought by Nurtur. I worked there for 3.5 years as a Full Stack Developer, building production systems that are still running today. My proudest achievement is the Integrations Dashboard I built in my first four months there. It's been in production for over 3 years without any maintenance, crashes, or bug reports.
+The professional path: Junior Web Developer at BriefYourMarket in October 2020 for five months, then 15 months freelancing — which taught me I work better in teams than alone — then back to the same company in July 2022 when it had been acquired by Nurtur, where I worked as a Full Stack Developer for 3.5 years until February 2026 when the team was restructured.
 
-I also worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading and intelligent caching. I worked on the Email Editor, a 4-person team rebuilding the core company product, where I mentored 3 backend developers transitioning to full-stack roles.
+At Nurtur the main body of work was React and TypeScript on the frontend, with C# and Azure Functions on the backend. I built three significant systems: the Integrations Dashboard (zero maintenance in three-plus years), the Nexus Dashboard (performance optimisation from 15+ seconds to sub-5, as technical lead), and contributed to the Email Editor rebuild on a four-person team. In parallel I mentored three backend developers transitioning into full-stack roles.
 
-I've been coding for much longer though - I started teaching myself programming around 2014, well before I considered it as a career. I began with Java because I wanted to understand AI concepts. I tried studying AI at Heriot-Watt University from 2017 to 2019, completing 2 years of coursework and earning a Certificate of Merit.
-
-I did an Ironhack bootcamp in May 2020, which was a strategic decision to bridge my personal project work into structured professional skills. Coming out of it, I had a portfolio of projects and the confidence to apply for junior developer positions.
-
-My professional background is primarily in full-stack web development with React and TypeScript, which I've used daily for 3.5 years at Nurtur. I have significant professional experience with C# as my primary backend language for 3 years. I've also worked extensively with Python for AI/ML projects like WhatNow, moh-ami, and Folio.
-
-The project I was working on at Nurtur concluded in February 2026 when the team was restructured. I'm currently seeking new opportunities, bringing 5.5 years of proven production experience.
+Alongside the professional work I've been building AI-focused personal projects for the past year — WhatNow (contextual bandits recommendation system), moh-ami (LLM-powered translation tool), and Folio (the RAG chatbot you're talking to). That's the direction I'm building toward: frontend and full-stack roles where AI is a core part of the product.
 
 ---
 

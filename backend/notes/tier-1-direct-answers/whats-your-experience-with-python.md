@@ -10,7 +10,7 @@ I'm comfortable with data science libraries - pandas, scikit-learn, numpy. I und
 
 FastAPI is my go-to for Python backends. I've been using it a year for building RESTful APIs integrating AI systems, handling embeddings and vector search, serving LLM-powered applications.
 
-I'm continuously improving Python/AI skills toward long-term goals in AI/ML web application development.
+Python is where my AI/ML work lives, and that's the direction I'm building toward professionally.
 
 ---
 

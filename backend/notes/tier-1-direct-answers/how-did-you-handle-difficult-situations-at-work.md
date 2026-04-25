@@ -8,7 +8,6 @@ Load time dropped from 15+ seconds to sub-5 seconds. This required balancing use
 
 Another difficult situation: leaving the Email Editor project mid-development to work on Nexus in October 2025. The team depended on me for frontend architecture and mentoring. I handled the transition by documenting my work thoroughly, ensuring the 3 backend developers I'd been mentoring could continue without me, and making sure no critical tasks were left incomplete. The project continued successfully after I left.
 
-Difficult situations require understanding the real problem (not just symptoms), systematic investigation, pragmatic solutions that balance constraints, and clear communication with stakeholders.
 
 ---
 

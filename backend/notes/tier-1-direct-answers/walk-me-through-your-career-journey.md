@@ -1,6 +1,6 @@
 # Walk me through your career journey
 
-I've spent 5.5 years building production web applications, with the last 3.5 years at Nurtur. Dashboard running 3+ years without maintenance. Infrastructure managers optimized from 15+ seconds to under 5 seconds. Three developers I mentored into full-stack roles. The path here was non-linear and shaped how I work.
+I've spent 5.5 years building production web applications, with the last 3.5 years at Nurtur. The highlights: a dashboard running 3+ years without maintenance, infrastructure management tools optimized from 15+ seconds to under 5, and three developers I mentored through the transition from backend to full-stack. The path here was non-linear and shaped how I work.
 
 I started in art, completing a Foundation Year in Illustration at the University of Derby. I realized I needed something combining creativity with intellectual challenges and objective measures of success. That drew me to coding. I started teaching myself programming around 2014 with Java and AI concepts, learning by building projects rather than following tutorials.
 

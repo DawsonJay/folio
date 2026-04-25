@@ -1,18 +1,10 @@
 # What were your responsibilities at your last job?
 
-At Nurtur, my key responsibilities included front-end development duties, full-stack development (frontend and backend), conducting regular code reviews, providing technical guidance to colleagues, and mentoring other developers. I coordinated with colleagues for department cover during breaks and handled additional duties as necessary.
+At Nurtur I was the sole frontend developer on two of the three major projects I worked on, which meant full ownership of the frontend architecture, UI design, and component decisions. For the Integrations Dashboard I also built backend API endpoints under senior mentorship. For the Nexus Dashboard I was technical lead on the frontend, working in parallel with a backend engineer.
 
-My primary focus was React/TypeScript frontend development, but I had full-stack responsibilities including backend work, architecture decisions, and mentoring. I used React and TypeScript daily for 3.5 years, building production systems that are still running today. I used C# as my primary backend language for 3 years, working with C# APIs, Azure Functions, and backend systems.
+Code reviews were a standing responsibility throughout. I reviewed regularly and tried to make that feedback educational — explaining why a pattern was better, not just flagging what was wrong — partly because I was also mentoring three backend developers through their transition into full-stack work. That mentoring happened in parallel with the project work: pair programming sessions, answering questions, reviewing their React and CSS code as it came in.
 
-I conducted regular code reviews and provided technical guidance. I mentored 3 backend developers transitioning to full-stack roles, teaching them CSS and React concepts. I developed a team dad leadership style focused on supporting teammates and creating environments where people can learn and grow.
-
-My major projects included the Integrations Dashboard, where I was the sole frontend developer in my first four months. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I designed and implemented the complete frontend and learned backend implementation under senior mentorship, working with React, TypeScript, PostgreSQL, and API endpoints.
-
-I worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds through strategic loading, intelligent caching, and careful data management. I designed a foundation blocks architecture that makes the dashboard maintainable and extensible.
-
-I worked on the Email Editor project, a 4-person team rebuilding the core company product. I developed complex components including a link editor using the Lexical framework. I used Redux Toolkit for state management across multiple team projects.
-
-I was responsible for building production-quality systems that lasted, thinking about performance and user experience, and creating tools that provided real value to teams. The Integrations Dashboard has run 3+ years without maintenance.
+Beyond the project work, I bridged between teams. The Integrations Dashboard required regular conversation with both the backend team (who built the API) and the sales team (who'd actually use the dashboard) to understand what each needed from the other. That kind of translation — making backend constraints legible to business users and making user needs legible to engineers — was an informal but consistent part of the role.
 
 ---
 

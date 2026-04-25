@@ -4,7 +4,7 @@ I've built Folio, the RAG-powered chatbot you're using right now. RAG stands for
 
 The atomic notes approach is key to Folio's design. Instead of long documents, the knowledge base contains self-contained notes each covering a single topic, written in first person. Granular structure enables precise retrieval - queries pull exactly relevant information without unrelated content dragging in.
 
-Embeddings convert text into 1536-dimensional vectors where semantically similar content points in similar directions. Searching by meaning, not keywords. A query about leadership retrieves notes mentioning team dad approach even though leadership doesn't appear in them - the embedding understands they're semantically related.
+Embeddings convert text into 1536-dimensional vectors where semantically similar content points in similar directions. Searching by meaning, not keywords. A query about leadership retrieves notes about mentoring and code reviews even if those words don't appear in the query — the embedding understands they're semantically related.
 
 The technical implementation uses local JSON storage with NumPy similarity calculations for vector search, appropriate for my dataset size. For larger production systems, I'd use dedicated vector databases like Pinecone or Weaviate. Understanding when simpler solutions suffice is part of good engineering.
 

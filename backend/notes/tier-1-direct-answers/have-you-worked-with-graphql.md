@@ -1,14 +1,10 @@
 # Have you worked with GraphQL?
 
-Yes, I have experience with GraphQL. I've worked with it in moh-ami, a French learning translation tool, where I built a GraphQL API using Apollo Server and Apollo Client. I understand schema design, resolver implementation, and how GraphQL differs from REST APIs.
+Yes — moh-ami is built on GraphQL throughout. I used Apollo Server for the backend API and Apollo Client for frontend data fetching with automatic caching.
 
-In moh-ami, I used Apollo Server for the backend GraphQL API and Apollo Client for frontend data fetching with automatic caching. GraphQL provided flexible data fetching, allowing the frontend to request exactly the data it needed without over-fetching or under-fetching. This was particularly useful for the complex translation data structure.
+The reason I chose GraphQL over REST for that project was the data shape. moh-ami is a French learning translation tool, and the translation data has complex relationships — text segments, their translations, associated grammar notes, difficulty levels. With REST I'd either over-fetch (send everything and filter client-side) or build multiple endpoints for different views. GraphQL let the frontend request exactly what each component needed in a single query, which kept both the API and the frontend logic clean.
 
-I understand GraphQL concepts like queries, mutations, subscriptions, and how to design schemas that are both flexible and maintainable. I've worked with type-safe GraphQL using TypeScript, ensuring that the schema and client code stay in sync.
-
-I understand how GraphQL differs from REST APIs. GraphQL provides a single endpoint with a flexible query language, while REST uses multiple endpoints with fixed responses. GraphQL is particularly useful when you need flexible data fetching or when working with complex data relationships.
-
-My GraphQL experience is primarily with Apollo Server and Apollo Client, though I understand the core concepts that apply to any GraphQL implementation. I've used it in production applications and understand how to structure GraphQL APIs effectively.
+The implementation involved defining the schema first, then writing resolvers that mapped to the Prisma database layer. Working with TypeScript throughout meant the schema types and the client code stayed in sync — if a field changed in the schema, the TypeScript compiler flagged every place it was used. That's the version of GraphQL that's worth using; without type safety it's hard to justify the added complexity over REST.
 
 ---
 

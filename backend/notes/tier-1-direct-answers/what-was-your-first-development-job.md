@@ -8,7 +8,7 @@ The role gave me my first professional experience with React, JavaScript, and we
 
 After this role ended, I spent 15 months as a freelance web developer, which taught me that I prefer working in teams. I then returned to the same company in July 2022, but by then it had been bought by Nurtur. I worked there for 3.5 years as a Full Stack Developer, building production systems that are still running today.
 
-My first job gave me professional experience and confidence. It validated that I could make it professionally after my transition from art to tech, and it set the foundation for my career growth.
+Five months wasn't long, but it answered the key question: could I do this professionally after a non-traditional path? The answer was yes, and that confidence carried into everything after.
 
 ---
 

@@ -1,16 +1,14 @@
 # Tell me about your most successful project
 
-I'm proud of the Integrations Dashboard I built at Nurtur. It's been in production for over 3 years without any maintenance, crashes, or bug reports. But that's not why I'm proud of it. I'm proud because it genuinely helps people. The sales team uses it every day. They still express gratitude for it years later. It's become an essential tool that the company depends on.
+The Nexus Dashboard at Nurtur — the most technically demanding thing I've built professionally and the clearest example of where architectural thinking made the difference.
 
-I built it in my first four months at Nurtur, from July to November 2022. It was my first task when I started there. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I was the sole frontend developer and learned backend implementation under senior mentorship, working with React, TypeScript, PostgreSQL, and API endpoints.
+The starting point was a dashboard with 15+ second load times. Users were staring at a blank screen, not knowing if the app had frozen. The backend exposed a complex system of queues, virtual machines, and job managers, and the original implementation was pulling everything upfront — full objects when only counts were needed, all data loaded immediately regardless of whether the user would ever see it.
 
-My most successful project combines technical skill, understanding user needs, bridging team communication gaps, and creating something that provides lasting value. I talked at length with both the backend developers and the sales team to understand what they needed. The Integrations Dashboard wasn't just a technical project - it was about bridging the gap between two teams that needed to work together but didn't speak the same language. I built something that served both groups effectively.
+The fix required rethinking the data flow, not patching the symptoms. I moved to strategic loading: counts displayed immediately (fast, lightweight), full objects fetched only when the user expanded a section. I added React Query for intelligent caching to prevent the same data being requested multiple times, and buffer systems to manage large datasets in chunks. I also added loading progress so users understood what was happening rather than staring at nothing.
 
-The maintenance-free record isn't an accident. It's the result of careful architecture, thorough testing, and thinking about edge cases upfront. I didn't just build something that worked. I built something that would continue working reliably for years. Quality engineering creates lasting value.
+Load time dropped to under five seconds. But the more lasting decision was the foundation blocks architecture — a library of modular, composable components that could adapt when the backend changed. I was working as technical lead alongside a backend engineer, and we both knew the backend structure was unstable during that period. Building the frontend to absorb changes without rewrites was the actual engineering challenge. It held up.
 
-I took a problem, understood it deeply from multiple perspectives, and built a solution that genuinely helps people. When I think about what I want my work to be, the Integrations Dashboard is a perfect example. It's well-crafted, it helps people, it lasts, and it adds value. It's run for years without me touching it - systems that become infrastructure people can depend on without ongoing maintenance burden.
-
-That's the kind of work I'm proud to have created.
+That project is my best example of what it looks like to solve the real problem rather than the stated one.
 
 ---
 

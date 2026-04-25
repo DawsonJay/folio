@@ -10,7 +10,7 @@ I began teaching myself programming around 2014, well before I considered it as 
 
 I did an Ironhack bootcamp in May 2020, which was a strategic decision to bridge my personal project work into structured professional skills. Within a few months, I secured my first professional role as a Junior Web Developer at BriefYourMarket.
 
-What brought me to software development was finding that perfect intersection of creativity and logic, of making things and solving problems, of artistic expression and technical excellence.
+The Heriot-Watt coursework and the Ironhack bootcamp were steps along that path, not the origin of it. The origin was realising that code let me build things that worked or didn't, which is a better feedback loop than public opinion.
 
 ---
 

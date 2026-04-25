@@ -6,9 +6,9 @@ I know when something is done. When working on a painting or throwing a pot, the
 
 My art background means I fail forward naturally. Art doesn't come with a plan - you have a vision and feel your way toward it, where failures become creative solutions. When I hit technical constraints or discover my initial approach won't work, I pivot and adapt. WhatNow started with 17 manually-tagged activities and evolved into 1,249 activities with AI embeddings when I adapted after manual tagging didn't scale.
 
-My leadership approach is supportive and focused on bringing out capability in others. I've mentored 3 backend developers into full-stack roles, bridged communication between technical and non-technical teams, and created environments where people feel confident tackling challenges they thought were beyond them. I don't need to be the smartest person in the room - I'd rather create capability in others.
+My approach to people is similar: I've mentored three backend developers into full-stack roles, and I'd rather build capability in others than be the one with all the answers. The Nurtur teams I worked on were better because of that, not just because of what I shipped.
 
-The breadth of my background - art, teaching kayaking, self-taught coding, professional development, AI integration - gives me different perspectives.
+The unusual combination of art training, kayaking competition, self-taught programming, and production AI work means I bring instincts to problems that a more conventional path doesn't produce. That cross-domain thinking shows up most clearly in the early stages of a problem — where pattern recognition and framing matter more than implementation speed.
 
 ---
 

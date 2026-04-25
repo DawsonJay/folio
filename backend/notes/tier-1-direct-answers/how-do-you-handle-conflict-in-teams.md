@@ -1,12 +1,10 @@
 # How do you handle conflict in teams?
 
-When building the Integrations Dashboard, there were natural tensions between what the backend team thought was needed and what the sales team actually wanted. Backend developers had been building in isolation without checking with users. I bridged this gap by talking at length with both teams to understand their different perspectives. The communication breakdown came from different worldviews - sales thought in terms of customers, backend in terms of code and fields. I created space for both teams to explain their needs and found solutions respecting backend's technical constraints while serving the sales team's actual workflow.
+The clearest example I have is building the Integrations Dashboard. There were real tensions between the backend team — who had been building in isolation, making decisions they thought were right — and the sales team who'd actually be using it. The communication had broken down because they were thinking in completely different terms: sales in customers and workflows, backend in code and fields. Neither was wrong, they just hadn't been talking.
 
-My approach is to listen to understand before presenting my perspective. Often disagreements come from different valid concerns that all need addressing. What matters is the project and creating something valuable, not being right. I respect that people have their own perspectives. My role isn't to force my view but help the team find the best solution together.
+I talked to both sides at length before proposing anything. Once I understood each perspective, I could find a design that respected the backend's actual technical constraints while serving what the sales team needed in practice. The conflict didn't really require arbitration — it required translation.
 
-Most conflicts come from feeling inadequate or misunderstood, not actual technical differences. I learned this from mentoring backend developers transitioning to frontend. I make people feel it's okay to not know something right now, focus on the problem we're solving together, and acknowledge valid concerns even if we can't address them immediately.
-
-I'm willing to disagree constructively when values are at stake, but for most technical decisions I trust the consensus process and my teammates' expertise. The goal is making decisions by consensus where everyone feels heard and has stake in the project's success.
+My general approach: I focus on understanding what someone actually means before deciding whether I agree. Most disagreements in teams come from people talking past each other, not from genuine incompatibility. When there is a genuine conflict, I say what I think clearly but keep the focus on the project outcome rather than who's right.
 
 ---
 

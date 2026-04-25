@@ -1,14 +1,8 @@
 # Tell me about your JavaScript experience
 
-Advanced - 3.5+ years professionally. It's the foundation I use with React for building production systems running 3+ years without maintenance and infrastructure managers handling distributed jobs.
+JavaScript is the foundation everything sits on — 3.5 years of daily professional use at Nurtur, with a longer personal history going back to self-taught coding in 2014. The fundamentals (closures, scope, async patterns, the event loop, prototypes) are well understood rather than just memorised.
 
-I understand JavaScript fundamentals deeply - closures, scope, prototypes, asynchronous patterns. Comfortable with ES6+ features like arrow functions, destructuring, template literals, async/await, promises, and modules. I know how to write clean, maintainable code that scales.
-
-I've worked with JavaScript in production applications building complex frontend interfaces, working with APIs, and handling user interactions. I understand debugging effectively, optimizing performance, and writing code that lasts.
-
-My JavaScript experience is primarily React development, though I've also used it for backend with Node.js. I understand how JavaScript works in different contexts - browser event loops, Node.js runtime, module systems - and can adapt to different environments.
-
-TypeScript is now my preferred choice because type safety catches errors at compile time and makes refactoring safer, but my JavaScript foundation is solid.
+I moved to TypeScript early in my professional career and it's now my default. The reason is practical: type safety catches integration errors at compile time, refactoring is safer, and the types serve as documentation. But the TypeScript is only as useful as the JavaScript understanding underneath it — knowing what the runtime is actually doing matters when you're debugging something the type system didn't catch.
 
 ---
 

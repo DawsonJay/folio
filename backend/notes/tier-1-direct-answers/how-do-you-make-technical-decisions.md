@@ -1,12 +1,10 @@
 # How do you make technical decisions?
 
-When I make architectural decisions, I consider maintainability (will this be easy to understand and modify later?), performance (does this approach scale?), extensibility (can we add features without major refactoring?), and team needs (does this make the codebase easier for teammates to work with?).
+The question I anchor every decision to is: what does this system actually need to do, and what will make it hardest to change later? Everything else follows from that.
 
-On Integrations Dashboard, I made frontend architectural decisions as the sole frontend developer, with guidance on backend choices from a senior developer. I chose React because it allowed rapid development. I designed the component structure to be simple and maintainable because I knew this would be a long-term system. That simplicity contributed to the zero-maintenance record.
+On the Nexus Dashboard, I knew the backend was complex and unstable — it was likely to change significantly before we shipped. So the architectural priority was adaptability over polish. I chose a foundation blocks approach: a library of composable, tested components that could be rearranged as requirements shifted without requiring frontend rewrites. That decision shaped every tool and structural choice that followed. I also brought in React Query early for caching because 15+ seconds load time was making the system unusable — that was a user impact decision, not a code preference.
 
-On Nexus Dashboard, I chose the foundation blocks architecture because the backend system was complex and could change. I needed an architecture that could adapt without major rewrites. I chose React Query for caching because performance was critical (15+ seconds load time was unacceptable). I designed safety layers to prevent accidental data corruption because the system managed critical infrastructure.
-
-On portfolio projects, I've made technology choices based on project needs. WhatNow needed contextual bandits, so I chose Python/FastAPI. moh-ami needed GraphQL for flexible data fetching, so I chose Apollo. Folio needed RAG orchestration, so I chose LangChain. Each decision was driven by the specific requirements of the project.
+On personal projects I make technology decisions based on fit rather than familiarity. WhatNow needed contextual bandits, so I used Python and FastAPI. moh-ami needed flexible data fetching across a complex translation schema, so GraphQL with Apollo made sense. Folio needed RAG orchestration, so LangChain. The point is that the problem defines the tool — I don't apply the same stack to every project and adjust later.
 
 ---
 

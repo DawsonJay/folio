@@ -1,16 +1,12 @@
 # What's your favorite project?
 
-I'm proud of the Integrations Dashboard I built at Nurtur. I love that it's well-made enough to have lasted for years with no major problems. I love that it's something that actively helps the people I worked with and makes their work life better. I like that it adds value.
+WhatNow. It's the project I'm most attached to because it was entirely my idea, I solved every problem myself, and I actually use it. There's no better quality control than building something for your own daily life.
 
-This isn't just about technical achievement, though the maintenance-free record is objectively impressive. It's about creating something that genuinely improves people's daily work. The sales team uses it every day. They still express gratitude for it years later. It's become an essential tool that the company depends on.
+The concept started from a genuine frustration — I had too many options for how to spend my time and no good way to decide. I built a contextual bandits recommendation system that learns my preferences over time: I enter my current state (mood, energy, social preference, available time, weather) and it surfaces personalized suggestions from a database of 1,249 activities matched using semantic embeddings. The AI learns from every choice I make.
 
-I built it in my first four months at Nurtur, from July to November 2022. It was my first task when I started there. I rebuilt a barebones buggy backend page into an intuitive full-stack dashboard. I was the sole frontend developer and learned backend implementation under senior mentorship, working with React, TypeScript, PostgreSQL, and API endpoints.
+What I love about it technically is the design challenges it forced. How do you balance a system that learns from recent choices without becoming erratic? I built a two-layer architecture — a session layer for fast in-session adaptation and a base layer that updates slowly from all historical data. How do you handle 1,249 activities without manual tagging? Semantic embeddings. The project evolved significantly from its original form as each early approach revealed its limitations, and I find that iterative process genuinely satisfying.
 
-The dashboard has been in production for over 3 years without any maintenance, crashes, or bug reports. That longevity isn't an accident. It's the result of careful architecture, thorough testing, and thinking about edge cases upfront. I didn't just build something that worked. I built something that would continue working reliably for years.
-
-I love the combination of technical skill, understanding user needs, bridging team communication gaps, and creating something that provides lasting value. I talked at length with both the backend developers and the sales team to understand what they needed. I built something that served both groups effectively.
-
-I took a problem, understood it deeply from multiple perspectives, and built a solution that genuinely helps people. When I think about what I want my work to be, the Integrations Dashboard is a perfect example. It's well-crafted, it helps people, it lasts, and it adds value. That's the kind of work I'm proud to have created.
+The Integrations Dashboard is what I'm most professionally proud of. WhatNow is what I'd most want to keep building.
 
 ---
 

@@ -6,7 +6,6 @@ The ideation process was systematic. I needed an AI project that didn't require 
 
 WhatNow solves a real problem I experience - decision fatigue when I want to do something but don't know what. Having an AI suggest activities based on current mood and energy level often surfaces ideas I wouldn't have thought of myself.
 
-The key insight was recognizing that data acquisition is typically the insurmountable barrier for individual developers building AI projects. WhatNow works because it generates its own data through usage. This insight now guides my project selection - I look for AI applications where the data problem is solvable.
 
 ---
 
@@ -23,4 +22,4 @@ The key insight was recognizing that data acquisition is typically the insurmoun
 **projectLinks:**
 - WhatNow:
   - demo: https://whatnow.onrender.com/
-  - github: https://github.com/yourusername/whatnow
+  - github: https://github.com/DawsonJay/whatnow-frontend

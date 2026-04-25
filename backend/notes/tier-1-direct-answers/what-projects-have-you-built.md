@@ -12,7 +12,7 @@ I'm also building Folio, the RAG-powered portfolio chatbot you're talking to rig
 
 I've also worked on projects that didn't complete. Cirrus was a Canadian weather AI prediction system that I cancelled due to data quality issues - project scoping and when to pivot. Jam Hot was a computer vision project that failed due to dataset quality - insights that informed WhatNow's architecture.
 
-These projects cover full-stack development, AI/ML integration, system architecture, performance optimization, and hardware-software integration. Taking projects from concept through production deployment.
+The failed projects are part of the picture too — they're where a lot of the design instincts behind the successful ones came from.
 
 ---
 

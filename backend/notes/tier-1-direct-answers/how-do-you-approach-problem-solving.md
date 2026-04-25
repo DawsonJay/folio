@@ -1,16 +1,10 @@
 # How do you approach problem-solving?
 
-I combine artistic intuition with rigorous logical investigation. My art background gives me gut instinct about where problems lie - which acts as a compass, not proof. I follow intuition with systematic investigation.
+I start by framing limits before jumping to solutions. What do we actually know? What's fixed — the database schema, an external API, a performance constraint — and what's flexible? Getting that clear first stops me from solving the wrong version of the problem.
 
-I frame limits first, then find creative solutions within constraints. What do we know? What's the actual error? What are the constraints - performance, resources, time? What can't change - external APIs, database schema, existing systems? What's the scope of impact? Define success - what does solved look like? Sometimes the real problem isn't what it first appears to be.
+The other thing I rely on is pattern recognition from experience. I've worked across enough different systems — the Integrations Dashboard, Nexus, WhatNow, moh-ami — that new problems often match something I've seen before, even if the surface looks different. I'll follow that instinct but verify it: gather evidence, isolate variables (frontend or backend? all users or specific conditions?), and work through hypotheses in order of likelihood. On WhatNow I sensed the recommendation algorithm wasn't quite right before the metrics confirmed it. That kind of intuition is useful as a compass, not as proof.
 
-My gut often points to the right code area or system boundary. On WhatNow, I sensed the recommendation algorithm wasn't right before metrics confirmed it. Pattern recognition helps - from projects like Integrations Dashboard, Nexus, and moh-ami, I've seen many problem categories. New bugs often match patterns I've seen before.
-
-I gather evidence - logs, error messages, reproduction steps, affected users, timing. I isolate variables systematically. Frontend or backend? Data or code? All users or specific conditions? Form hypotheses based on evidence and intuition, ranked by probability and ease of testing. Test methodically. When confirmed, test the fix thoroughly.
-
-I don't patch symptoms. If the bug reveals deeper architectural problems, the fix might need to be substantial. I learn for next time - what caused this? How can we prevent similar issues?
-
-The goal isn't just fixing bugs - it's understanding systems deeply so problems become rare. The Integrations Dashboard has run 3+ years without maintenance. Thoughtful development prevents most bugs before they happen.
+I also try not to patch symptoms. If a bug is a sign of something structural, the fix needs to address the structure. The Integrations Dashboard running 3+ years without maintenance isn't because nothing went wrong during development — it's because when things did go wrong, I fixed them in ways that strengthened the system rather than working around it.
 
 ---
 

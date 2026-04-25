@@ -1,14 +1,10 @@
 # How do you handle ambiguous requirements?
 
-I've handled ambiguous requirements on multiple projects at Nurtur - the Integrations Dashboard, Nexus foundation blocks, and Email Editor all started with unclear needs. My approach is to frame the limits first, then find creative solutions within those constraints. Ambiguous requirements usually mean stakeholders know they have a problem but don't know what the solution looks like. I focus on understanding the real problem rather than immediately jumping to implementation.
+My approach is to frame the limits before jumping to solutions. Ambiguous requirements usually mean the stakeholder knows they have a problem but doesn't know what the solution looks like — so the first job is to understand the real problem, not to start building the imagined one.
 
-I ask why, not just what. What problem are you trying to solve? What does success look like? Who are the users and what do they actually need? The Integrations Dashboard started with "better access to backend data" - that wasn't a clear requirement. Through conversations I learned they needed quick customer lookups, integration status checks, and troubleshooting tools, all without understanding backend database structure. That clarity shaped everything.
+The Integrations Dashboard started with "better access to backend data." That's not a requirement, it's a direction. Through conversations with both the backend team and the sales team who'd be using it, I learned what they actually needed: fast customer lookups, integration status checks, and troubleshooting tools — all without needing to understand backend database structure. That clarity completely shaped the architecture. Without it I'd have built the wrong thing.
 
-I define constraints explicitly. What's actually fixed versus flexible? What systems can't be changed? What's the budget in time, money, and infrastructure? Often ambiguity comes from competing priorities or limited resources. Naming constraints explicitly helps find elegant solutions. When resources are scarce, you have to turn to cleverness and creativity.
-
-I create clarity through prototypes. Often stakeholders can't articulate requirements until they see something concrete. On moh-ami, the UI went through rapid iteration because requirements were complex. Each iteration clarified what users actually needed versus what we thought they needed. I gather real feedback early and often rather than waiting until something is "done."
-
-I propose options with clear tradeoffs. Instead of waiting for perfect requirements, I offer concrete alternatives. We could build X which does A, B, C and takes 2 weeks, or Y which does A, B and takes 1 week. This gives stakeholders something concrete to evaluate and often clarifies what they actually care about most.
+Once I understand the problem, I make constraints explicit — what's fixed (the existing schema, the timeline, what the backend can serve) and what's flexible. That's usually where good solutions come from. When something is tightly constrained, you have to be clever rather than just building what's obvious. I'll also prototype early when requirements are genuinely unclear — stakeholders often can't articulate what they want until they can react to something concrete.
 
 ---
 

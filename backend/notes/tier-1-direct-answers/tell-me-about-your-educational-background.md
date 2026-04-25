@@ -12,7 +12,7 @@ The bootcamp validated my self-taught foundation. While other students were lear
 
 I've also completed an IELTS exam with an overall band score of 8.5 (C2 level), with perfect scores in listening, reading, and speaking.
 
-My educational journey taught me that practical, hands-on learning works better for me than theoretical academic study. I learn best by doing, not by studying. This is why bootcamp was more valuable than university for me, and why my portfolio projects continue to teach me more than courses ever did.
+The Heriot-Watt AI coursework did give me something the bootcamp didn't: a solid conceptual foundation in machine learning, neural networks, and algorithms that I later put to work on WhatNow, moh-ami, and Folio. None of those projects were built from scratch — the theory was there, waiting for the right application.
 
 ---
 

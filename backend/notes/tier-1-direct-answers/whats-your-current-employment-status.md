@@ -2,11 +2,7 @@
 
 Currently unemployed. My role at Nurtur ended in February 2026 when the team was restructured after 3.5 years. While the timing wasn't my choice, it aligns with my career goals.
 
-I learned what I could from Nurtur - went from bootcamp graduate to confident production engineer. They gave me mentoring opportunities on the Integrations Dashboard, and trusted me with critical systems like Nexus where I was technical lead. I'm grateful for that growth.
-
-But Nurtur doesn't have opportunities to integrate AI/ML into web applications, which is where I want to grow. The next step I need is more AI/ML focused work, deeper technical challenges, and projects aligning with my values. I've maximized what that role could teach me - now I need work that challenges me in directions I want to grow.
-
-I'm seeking mid to senior frontend roles using my strengths in React/TypeScript and AI/ML. I want to work with experienced engineers on problems that matter. I'm not running from problems - I'm running toward goals.
+Nurtur gave me a lot — the Integrations Dashboard as my first project, then Nexus as technical lead, and three years of growing into production systems that actually have to work. The team being restructured in February wasn't something I'd chosen, but I'd been planning a move to Canada in parallel, so the timing aligned. I'm looking for what's next: full-stack or frontend work where AI is genuinely part of the product, not an afterthought.
 
 I'm based in Halifax, Nova Scotia and can start immediately with 5.5 years of proven production experience.
 

@@ -1,16 +1,10 @@
 # What CSS frameworks have you used?
 
-I have extensive experience with Material UI, which I've used continuously for 5.5 years at both BriefYourMarket.com and Nurtur. I've used it in the Nexus Dashboard, Email Editor, Integrations Dashboard, and other team projects. Material UI provides a comprehensive component library and theming system that I'm very comfortable with.
+Material UI is where most of my professional CSS work has lived — five-plus years across BriefYourMarket and Nurtur, used in the Integrations Dashboard, Nexus Dashboard, and Email Editor. It's a component library with theming built in, which means the design decisions are largely handled at the theme level and individual components inherit consistently. It suits internal tooling well where you want a coherent visual system without designing everything from scratch.
 
-I've worked with Tailwind CSS in WhatNow and moh-ami. Tailwind provides utility-first CSS that allows for rapid development and consistent design. I understand how to use Tailwind's utility classes, customize the theme, and build responsive designs.
+For personal projects I've used Tailwind (WhatNow, moh-ami) and styled-components (portfolio website). Tailwind's utility-first approach is genuinely fast for iteration — you're making visual decisions directly in the markup rather than switching between files. Styled-components co-locates styles with the component that uses them, which I find makes it easier to see when a component's scope is getting too wide.
 
-I've used styled-components for 5.5 years in my portfolio website. styled-components provides component-scoped styles and theme integration, allowing for dynamic styling based on props and theme values. I understand how to use styled-components effectively with React.
-
-I've used SCSS/Sass for 5 years in various projects. SCSS provides variables, nesting, mixins, and other features that make CSS more maintainable. I understand how to structure SCSS files, use variables for theming, and organize styles effectively.
-
-I have experience with CSS-in-JS approaches through styled-components, and I understand the trade-offs between different CSS approaches. I can work with CSS frameworks, utility-first CSS, CSS-in-JS, and plain CSS depending on project needs.
-
-My CSS experience spans multiple approaches, giving me flexibility to choose the right tool for each project. I understand responsive design, CSS Grid, Flexbox, and modern CSS features.
+I've also used SCSS/Sass across various projects. The choice between these tools matters less than having a consistent structure within a project — the worst outcomes come from mixing approaches arbitrarily rather than picking one and following it through.
 
 ---
 

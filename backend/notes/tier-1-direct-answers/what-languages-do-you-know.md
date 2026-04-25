@@ -12,7 +12,7 @@ Java was my first language, learned self-taught and at Heriot-Watt University. S
 
 Lua through personal hobby projects with Pico-8 mini game engine as a creative outlet.
 
-I emphasize TypeScript/React as core with C# and Python as significant professional experience. Continuously expanding Python/AI skills toward career goals in AI/ML web application development.
+Lua through personal hobby projects with Pico-8 mini game engine as a creative outlet — a different context but the same instinct to build things rather than just read about them.
 
 ---
 

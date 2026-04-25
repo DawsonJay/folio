@@ -10,9 +10,7 @@ Why this was hard: No error message. The system worked exactly as coded. The bug
 
 I changed epsilon from 0.05 to 0.15, implemented adaptive exploration, and added diversity metrics to track. Category diversity increased by 40%, average semantic distance between recommendations increased by 25%, and users reported feeling like they were discovering things.
 
-What I learned: Trust your intuition, then prove it. Metrics can lie by omission - everything I was measuring said fine, but I wasn't measuring the right things. Sometimes the bug is the design. User feedback matters - even vague feedback can point to real problems. Deep understanding beats trial and error.
-
-This was harder than any stack overflow or memory leak I've debugged because it required seeing what wasn't there: the recommendations users never got to experience.
+This was harder than any stack overflow or memory leak I've debugged because it required seeing what wasn't there — the recommendations users never got to experience. Everything I was measuring said the system was fine. It was. I just wasn't measuring the right things.
 
 ---
 

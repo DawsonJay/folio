@@ -2,7 +2,7 @@
 
 Folio - this portfolio chatbot you're talking to right now. It's a creative idea that took a range of skills to make and uses clever mechanics to increase reliability and reduce cost.
 
-AI/ML capabilities: RAG systems, semantic search with embeddings, and prompt engineering. Full-stack development with FastAPI backend and React frontend. System design through atomic notes architecture and retrieval pipeline. Testing and iteration using test-driven development with measurable metrics. Problem-solving by creating a maintainable, accurate, cost-effective knowledge base rather than expensive LLM calls with huge context windows.
+It demonstrates RAG architecture, semantic search with embeddings, and prompt engineering on the AI side — alongside full-stack development with a FastAPI backend and React frontend. The atomic notes architecture is the core design decision: instead of stuffing everything into a single context window and paying for expensive LLM calls, the system retrieves only the relevant information for each question. That makes it accurate, cost-effective, and maintainable in a way that a naive LLM wrapper wouldn't be.
 
 The clever mechanics set Folio apart. The atomic notes system with semantic search creates a knowledge base that's maintainable, accurate, and cost-effective. Instead of relying entirely on expensive LLM calls, the system retrieves only relevant information and constructs focused responses. This makes it practical to run while maintaining quality.
 

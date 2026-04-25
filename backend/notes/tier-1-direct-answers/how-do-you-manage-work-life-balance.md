@@ -1,12 +1,10 @@
 # How do you manage work-life balance?
 
-I'm a multiple gold medalist in kayaking slalom and was an instructor. Connection to nature - kayaking, hiking - provides energy and perspective. If I need to go hiking for 2 days with a notebook to think through a problem, that's how I work best. Nature provides space for deep thinking and creative problem-solving away from screens.
+Being outdoors is non-negotiable for me. I kayak, hike, and spend time in nature regularly — not as a hobby I squeeze in around work, but as something I protect because it's how I sustain the quality of my thinking. Time away from screens, especially in the kind of landscape you get in Nova Scotia, is where I process complex problems. Some of my best solutions have come during a long hike, not at a desk.
 
-I block time for exercise and social activities as scheduled commitments, not optional activities. When I get deeply invested in a project, I can become absorbed and need to actively manage my time. The Integrations Dashboard that's run 3+ years without maintenance came from intense focus, but that intensity needs balance to be sustainable.
+When I get deeply invested in something I can become absorbed — I learned that about myself during freelancing. I was productive but isolated, and over time that became draining. The fix wasn't discipline, it was structure: I treat time for exercise and social connection like commitments rather than optional extras.
 
-My philosophy is work that matters, not the process. I want to be judged on results, not hours at a desk. Good work comes from a healthy, energized person who maintains health, relationships, and perspective alongside work.
-
-I learned from freelancing that isolation isn't healthy for me. Balance means having a small, motivated team where I can share clever solutions with people who understand them. At Nurtur, working in teams of 3-5 provided that collaborative environment while still allowing deep focus.
+My view on hours is that I want to be measured on what I produce, not on time at a desk. Good work requires being rested, clear-headed, and engaged — not grinding through exhaustion and calling it dedication.
 
 ---
 

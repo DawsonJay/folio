@@ -8,7 +8,7 @@ I work with embeddings extensively - generating them, storing them, and retrievi
 
 For development, I use FastAPI for Python backends integrating AI capabilities, React for frontends consuming AI services, and Prisma ORM for database management including vector storage. I've worked with Vercel AI SDK for streaming responses and building AI-powered interfaces.
 
-My approach favors using existing AI services rather than training models from scratch. OpenAI API, embedding services, and established frameworks let me build production applications quickly. I focus effort on product design, user experience, and integration rather than reinventing AI infrastructure. This pragmatic approach means I ship working AI-powered applications instead of getting stuck in research mode.
+My approach is to use existing AI services rather than build infrastructure from scratch. OpenAI for embeddings and language models, LangChain for orchestration, FastAPI for the backend layer — the goal is shipping something that works and provides real value, not reinventing what already exists.
 
 ---
 

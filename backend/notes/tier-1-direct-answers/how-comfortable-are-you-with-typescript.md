@@ -1,14 +1,10 @@
 # How comfortable are you with TypeScript?
 
-Very comfortable - I've used TypeScript daily for 3.5 years building production systems including dashboards running 3+ years without maintenance and infrastructure managers handling distributed job processing. TypeScript combined with React is where I deliver the most immediate value.
+TypeScript has been my primary language for 3.5 years of daily professional use at Nurtur. It's the language I think in when building frontend systems.
 
-I'm advanced with TypeScript, using it as my primary frontend language. I've built complex dashboards managing backend infrastructure, drag-and-drop editors integrating Lexical, and AI-powered applications with LLM integration. I understand type safety, interfaces, generics, utility types, and how to structure large TypeScript applications for maintainability.
+The Nexus Dashboard is probably the best example of how I actually use it. The system dealt with queues, job managers, instances, and multi-tenant structures — all with complex relationships between them. Modelling those relationships through the type system meant that wiring data through components caught integration errors at compile time rather than at runtime in front of a user. As the codebase scaled, the types also served as living documentation of what each piece of the system expected and returned — useful when a backend contract changed and I needed to find every affected component quickly.
 
-I'm comfortable with advanced features like conditional types, type inference, mapped types, and discriminated unions. I use TypeScript effectively with React, Redux Toolkit, and modern frameworks. I understand how to leverage the type system to catch errors at compile time, make refactoring safer, and improve code maintainability.
-
-The Nexus Dashboard - I used types to model queues, job managers, and instances, reducing runtime errors when wiring data through components. The type system helped catch integration issues early and made the codebase more maintainable as it scaled.
-
-TypeScript isn't just a tool I know - it's fundamental to how I build frontend systems. Type safety, better tooling, and self-documenting code make it essential for production applications.
+I'm comfortable with generics, discriminated unions, mapped types, utility types, and the practical patterns that make large TypeScript codebases maintainable. React/TypeScript is where I deliver the most immediate value.
 
 ---
 

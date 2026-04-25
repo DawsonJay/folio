@@ -8,9 +8,9 @@ My strongest expertise is in full-stack web development with React and TypeScrip
 
 I have significant professional experience with C# as my primary backend language for 3 years at Nurtur. I've also worked extensively with Python for AI/ML projects like WhatNow, moh-ami, and Folio, the RAG-powered portfolio chatbot you're talking to right now.
 
-I've developed leadership and mentoring capabilities. I successfully mentored 3 backend developers transitioning to full-stack roles and developed a team dad leadership style focused on supporting teammates. I can explain technical concepts to non-technical people and bridge communication gaps between different teams.
+Beyond the project work: I mentored three backend developers through their transition into full-stack roles, conducted regular code reviews, and became the person newer developers came to with frontend questions. That's a consistent pattern across all 3.5 years at Nurtur — not an assigned responsibility, just how the work evolved.
 
-I'm ready to start immediately and bring 5.5 years of proven production experience. I'm seeking a role that uses my current strengths in full-stack web development while expanding into AI/ML integration, and projects that align with my values of curiosity, collaboration, and craftsmanship.
+I'm available immediately and looking for full-stack or frontend roles where AI is a core part of the product.
 
 ---
 

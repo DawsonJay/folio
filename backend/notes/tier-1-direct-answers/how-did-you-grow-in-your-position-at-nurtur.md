@@ -6,7 +6,7 @@ Growth came through taking ownership of increasingly complex projects. Integrati
 
 I went from implementing features to architecting systems. For Nexus, I designed the frontend architecture to adapt to backend changes without significant rewrites, reduced dashboard load time from 15+ seconds to sub-5 seconds through strategic loading and caching, and created comprehensive documentation for future developers.
 
-My role evolved to include mentoring and technical leadership. I taught CSS and frontend concepts to backend developers, conducted regular code reviews with educational feedback, and bridged gaps between technical and non-technical teams (backend engineers and sales teams). This growth from junior individual contributor to trusted mentor and technical guide happened organically as I proved capability and reliability.
+My role evolved to include mentoring and technical guidance alongside the hands-on work. I taught CSS and frontend concepts to backend developers transitioning to full-stack roles, conducted code reviews with feedback focused on explaining the why rather than just the what, and regularly bridged between the backend team and the sales team when they needed to understand each other's constraints.
 
 ---
 

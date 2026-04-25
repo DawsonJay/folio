@@ -1,6 +1,6 @@
 # Why should we hire you?
 
-I deliver production systems that scale and last. Dashboard running 3+ years with zero maintenance. Infrastructure manager optimized from 15+ seconds to under 5 seconds. Three developers I mentored now working confidently across the full stack. I make teams stronger while shipping reliable code.
+I deliver production systems that scale and last: the Integrations Dashboard running 3+ years with zero maintenance, the Nexus Dashboard optimized from 15+ seconds to under 5, and three developers mentored into confident full-stack contributors. I make teams stronger while shipping reliable code.
 
 I combine frontend depth with AI integration expertise. I've spent 3.5 years building React/TypeScript applications professionally, and I'm integrating machine learning for recommendations, LLM-powered features for language learning, and semantic search chatbots. I'm working where frontend development and AI capabilities intersect.
 

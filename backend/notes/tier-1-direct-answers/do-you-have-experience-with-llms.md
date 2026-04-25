@@ -1,6 +1,6 @@
 # Do you have experience with LLMs?
 
-Yes, production experience integrating LLMs into web applications. moh-ami - French learning tool using GPT-4o-mini for detailed educational explanations. Folio - the RAG-powered chatbot you're using right now. My focus is prompt engineering that produces reliable, cost-effective results.
+Yes — production experience integrating LLMs into web applications. moh-ami uses GPT-4o-mini to provide detailed educational explanations for French language learners. Folio is the RAG-powered chatbot you're using right now. In both cases the focus is on prompt engineering that produces reliable, cost-effective results rather than impressive demos that don't hold up in practice.
 
 In moh-ami, I designed structured prompts requesting specific JSON schemas, making responses consistent and parseable. The system handles word-by-word translations, grammar explanations, and cultural context. I built validation logic catching common LLM errors before they reach users. LLMs are powerful but unpredictable - production systems need careful error handling.
 
@@ -8,7 +8,7 @@ Cost is minimal. moh-ami costs about £1-2 monthly for OpenAI API usage. I self-
 
 In Folio, I'm using LLMs as part of a RAG system - retrieval-augmented generation combining knowledge bases with language models. The system uses embeddings for semantic search to find relevant information, then LLMs generate responses based on that context. More accurate answers than using LLMs alone.
 
-My LLM experience focuses on integration. Building complete user experiences - handling streaming responses, designing loading states, managing errors gracefully, and creating interfaces that work reliably with AI capabilities.
+My LLM experience is primarily about integration — building the full user experience around the model: handling streaming responses, designing loading states, managing errors gracefully, and creating interfaces that work reliably when the AI is inherently non-deterministic.
 
 ---
 

@@ -8,7 +8,7 @@ Canada also offers better work-life balance and values alignment than other tech
 
 The timing aligns with my career trajectory. I've spent 5.5 years building production web applications and proving full-stack capability. Now I'm ready to deepen into AI integration work - bringing ML capabilities to web products. Canada's growing AI ecosystem offers those opportunities at a time when I'm positioned to take advantage of them.
 
-I visited Toronto and the botanical gardens previously. I like the respect Canada has for land and nature, and the work-life balance fits what I'm looking for in the next stage of my career.
+I did visit Toronto before moving, which confirmed what I'd come to believe about how Canadians value the balance between work and life. That's not a minor consideration — it's one of the reasons I'm here.
 
 ---
 

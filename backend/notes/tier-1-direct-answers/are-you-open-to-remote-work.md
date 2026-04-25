@@ -1,12 +1,8 @@
 # Are you open to remote work?
 
-Absolutely. My entire 5.5 year career has been remote. I've shipped production systems, mentored distributed teams, and collaborated effectively across time zones. The track record proves remote works for me.
+Yes. My entire career has been remote — 5.5 years across BriefYourMarket and Nurtur — so there's no adjustment period. The communication habits are already there: clear written updates, proactive flagging of blockers, not waiting to be asked. At Nurtur I regularly reached across to teams I'd never met in person to gather requirements and get design feedback. Relationships built remotely are real relationships, they just require more intentionality.
 
-Production systems running 3+ years without maintenance, infrastructure optimization reducing load times from 15+ seconds to under 5, mentoring 3 backend developers into full-stack roles - all done remotely without being co-located. I can start contributing from day one without setup delays or training on remote tools.
-
-I've worked with distributed teams at Nurtur, reached across departments to gather requirements and feedback, built relationships with colleagues I've never met in person. I use Microsoft Teams, Discord, and adapt quickly to whatever collaboration tools a team prefers. Clear written communication, proactive updates, focused video calls - the habits that make remote effective are already built in.
-
-Remote gives me focused time for deep work - complex debugging, architectural decisions, feature implementation. But I'm not dogmatic about it. If a role needs occasional office time for team events, whiteboarding sessions, or building relationships in person, I'm completely flexible. The goal is effective collaboration and high-quality output, and I've proven I can deliver that remotely.
+I'm flexible on whatever setup a role needs. If occasional in-person time is part of the arrangement, that's fine — some things genuinely benefit from being in the same room.
 
 ---
 

@@ -24,4 +24,4 @@ WhatNow taught me that building complete systems end-to-end provides more learni
 **projectLinks:**
 - WhatNow:
   - demo: https://whatnow.onrender.com/
-  - github: https://github.com/yourusername/whatnow
+  - github: https://github.com/DawsonJay/whatnow-frontend

@@ -1,18 +1,10 @@
 # What's your experience with code reviews?
 
-I have extensive experience with code reviews. At Nurtur, I conducted regular code reviews and provided technical guidance to colleagues. I understand how to review code effectively, provide constructive feedback, and ensure code quality before merging.
+Code reviews were a regular part of my work at Nurtur, and I approached them as teaching moments rather than gatekeeping. The goal of a review isn't just to prevent bad code from merging — it's to build the reviewer's understanding so the next piece of code is better without needing a review.
 
-I've also been on the receiving end of code reviews during my bootcamp and professional work. I understand how to incorporate feedback, respond to comments professionally, and use code reviews as learning opportunities.
+The clearest example is the three backend developers I mentored as they transitioned into full-stack roles. They were learning CSS and React while contributing to production code. When I reviewed their work, I didn't just flag what was wrong — I explained why a different pattern was better and connected it to things they already understood from their backend experience. "A CSS selector works a bit like a database query" lands differently than "don't use this selector." Over time that meant they were making the right calls without needing me to catch them first.
 
-My approach to code reviews provides educational feedback. Rather than just approving or rejecting code, I explain why patterns work or don't work, suggest alternative approaches with rationale, and identify learning opportunities in each review. Teaching-through-reviews - developers understand principles not just follow rules.
-
-When reviewing code, I look for: code quality and maintainability, potential bugs or edge cases, performance implications, alignment with project architecture, opportunities for improvement, and learning moments for the developer.
-
-I've used Git workflows for code reviews, understanding branching strategies, pull requests, and collaborative development practices. I understand how to review code effectively, provide constructive feedback, and ensure code quality before merging.
-
-Code reviews are also a teaching opportunity. When I reviewed code from backend developers learning frontend, I explained CSS concepts, React patterns, and frontend best practices. This educational approach helps developers grow their skills while maintaining code quality.
-
-I understand that code reviews are about improving the code and helping the developer grow, not about finding fault or showing superiority. I provide feedback that's constructive, specific, and actionable.
+On the receiving end, I treat feedback the same way: I want to understand the reasoning, not just make the change. If I disagree I'll say so and explain my thinking, but I approach it as trying to get to the right answer rather than defending what I wrote. Working that way builds enough trust that reviewers can be direct, which makes the whole process faster and more useful.
 
 ---
 

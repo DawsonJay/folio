@@ -4,11 +4,9 @@ The Integrations Dashboard - a production system that ran for 3+ years with zero
 
 I rebuilt a barebones, buggy backend page into an intuitive full-stack dashboard from scratch. I was the sole frontend developer and learned backend implementation under senior mentorship. I designed and implemented the complete React/TypeScript frontend and learned to build backend API endpoints with PostgreSQL under guidance. The architecture was solid from the start - defensive coding, comprehensive error handling, clear separation of concerns.
 
-Zero maintenance for 3+ years in a production business-critical system is rare. It means the architecture was right, the code quality was high, and the system was built to handle real usage patterns. No emergency fixes, no performance degradation, no user complaints. It just works.
+Zero maintenance for 3+ years in a business-critical system is rare. The architecture was right, the code quality was high, and the system was built to handle real usage patterns rather than just pass a demo. No emergency fixes, no performance degradation, no user complaints.
 
-The dashboard demonstrates what I bring to teams: full-stack ownership from concept through design and implementation, production systems built to last, code quality that prevents future maintenance burden, and stakeholder value - the sales team relies on it daily.
-
-What makes me most proud isn't the technical implementation - it's that I built something people genuinely rely on and appreciate. Building systems that last and provide real value is more satisfying than technically impressive prototypes that never see production use.
+What makes me most proud isn't the technical implementation — it's that the sales team still relies on it and still talks about it. Production systems that genuinely help people and keep working are more satisfying to build than impressive prototypes that never see real use.
 
 ---
 

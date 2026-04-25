@@ -1,20 +1,18 @@
 # Tell me about a project you learned from
 
-The evolution from Jam Hot failure to WhatNow success. Learning from setbacks and applying lessons to achieve better outcomes. Failed projects inform successful ones - value comes from lessons learned not just completed projects.
+Jam Hot — a computer vision project for fruit recognition that I stopped because the model didn't work in the real world. On the Fruit-360 dataset it achieved 86% validation accuracy. With actual photos taken in normal conditions, 0%. The dataset had been captured in a controlled environment: consistent lighting, clean backgrounds, perfect angles. Real fruit doesn't look like that.
 
-Jam Hot was a computer vision project for fruit recognition that I stopped working on due to dataset quality issues. I used the Fruit-360 dataset which achieved 86% validation accuracy but 0% real-world accuracy due to controlled environment training data. The dataset was trained in a controlled environment, so when I tested it with actual photos, the model failed completely. Crucial lesson about data quality in computer vision projects.
+The lesson wasn't technical — it was about data and scope. The dataset I was depending on was the wrong shape for the problem I was trying to solve, and I had no way to fix that without building a completely different dataset from scratch.
 
-The scoping lesson applied directly to WhatNow. Where Jam Hot attempted comprehensive fruit recognition across many categories, WhatNow focused narrowly on activity recommendations using a specific algorithm (contextual bandits). Constrained scope made completion realistic rather than indefinitely aspirational.
+WhatNow came directly out of that failure. The key design decisions were all shaped by what went wrong with Jam Hot:
 
-The data strategy changed fundamentally. Jam Hot required data acquisition of high-quality labeled images of fruits in various conditions, which proved challenging. WhatNow used a database of activities that I could generate and curate myself, eliminating the data acquisition bottleneck. Strategic choice to work within data constraints rather than hoping to overcome them reflected Jam Hot's data lesson learned.
+The data problem became the design. Instead of sourcing external datasets I couldn't control, WhatNow generates its own training data through usage — every interaction I have with it provides a labeled example. The system learns from me, not from a dataset someone else built.
 
-Jam Hot needed external datasets that were hard to acquire and validate. WhatNow generates its own training data through usage - every interaction provides labeled examples. Self-training approach solved the data problem that killed Jam Hot. Insight now guides my project selection - I look for AI applications where the data problem is solvable.
+Scope was defined by what I could actually finish. Jam Hot attempted comprehensive fruit recognition across many categories with no clear endpoint. WhatNow focused on one thing: activity recommendations using a specific algorithm. A constrained, completable scope.
 
-The validation strategy changed. Jam Hot had validation accuracy that didn't translate to real-world performance. WhatNow validates through actual usage - if recommendations are useful, the system works. Real-world validation is more meaningful than abstract metrics. The shift from academic validation to practical validation reflects learning from Jam Hot's false confidence.
+Real-world performance replaced academic metrics. Jam Hot looked successful on paper right up until it didn't work. WhatNow validates against actual use — if recommendations feel right, the system is working. I use it in daily life, so the quality of its output is something I experience directly.
 
-The project structure improved. Jam Hot was unstructured exploration without clear milestones. WhatNow had defined phases: database population, algorithm implementation, frontend development, deployment. Structure made progress measurable and completion achievable.
-
-The learning journey from Jam Hot to WhatNow - growth in project selection, scoping, data strategy, validation, and execution. These improvements didn't come from external training or courses - they came from reflecting on failure and applying lessons systematically. Self-directed learning and improvement.
+The result is a production-deployed AI system I use every day. The contrast with Jam Hot is the point.
 
 ---
 

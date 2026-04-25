@@ -8,7 +8,7 @@ Before committing to an AI project, I check data availability first. What data d
 
 Cirrus and Jam Hot taught me what "too big" looks like. Cirrus failed because weather forecasting needs meteorological expertise I didn't have and serious data infrastructure. Jam Hot failed because music recommendation needs extensive listening history I couldn't obtain. Both persisted too long on unrealistic ambitions.
 
-WhatNow, moh-ami, and Folio succeeded because they were scoped around data I could access, used existing AI services rather than building from scratch, and had clear success metrics. I ask before starting: what needs to be true for this to work, and can I make those things true? If the answer involves months of data collection or beating OpenAI, the project is mis-scoped.
+The question I ask before starting any AI project: what needs to be true for this to work, and can I actually make those things true? If the answer involves months of data collection or requires solving a problem that OpenAI hasn't solved, the project is mis-scoped. WhatNow, moh-ami, and Folio all passed that test. Cirrus and Jam Hot didn't.
 
 ---
 

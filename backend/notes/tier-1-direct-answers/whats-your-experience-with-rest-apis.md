@@ -1,16 +1,10 @@
 # What's your experience with REST APIs?
 
-I have extensive experience with REST APIs. I've built RESTful APIs using FastAPI for Python backends and C# for .NET backends. I understand REST principles, HTTP methods, status codes, and how to design APIs that are both functional and maintainable.
+REST APIs run through all of my production work. On the backend I've built them in two stacks: C# at Nurtur for professional work, and Python with FastAPI for personal AI projects.
 
-At Nurtur, I built REST APIs using C# for the Integrations Dashboard and other backend systems. I've also built REST APIs using FastAPI for Python projects like WhatNow, moh-ami, and Folio. I understand how to structure endpoints, handle request/response formats, implement authentication, and manage error handling.
+The Integrations Dashboard API was my first professional backend work. Under senior mentorship I designed and built the endpoints that the sales team's dashboard runs on — they're still serving requests three years later with no maintenance. The key decision there was designing the API around what the frontend actually needed to display, not what seemed like a complete data model. That thinking — build the API for the consumer, not in the abstract — is something I carry into every project.
 
-I understand REST principles: using appropriate HTTP methods (GET, POST, PUT, DELETE), following RESTful URL patterns, using proper status codes, and designing APIs that are intuitive and consistent. I've worked with both simple CRUD APIs and more complex APIs with nested resources and relationships.
-
-I have experience with API design, including versioning strategies, pagination, filtering, and sorting. I understand how to document APIs effectively and how to test APIs to ensure they work correctly.
-
-I've also worked with third-party REST APIs, integrating external services into applications. I understand how to handle API rate limiting, error responses, and how to build resilient integrations that handle failures gracefully.
-
-My REST API experience spans both backend development and frontend integration. I understand how to build APIs that serve frontend applications effectively, and I understand how to consume APIs from the frontend using fetch, axios, or other HTTP clients.
+FastAPI I've used as the backbone for WhatNow, moh-ami, and Folio. Each has different constraints: WhatNow's endpoints handle recommendation requests and write back learning data; moh-ami passes structured prompts to OpenAI and returns JSON translations; Folio's RAG pipeline retrieves embeddings, runs semantic search, and constructs responses before sending anything to the LLM. Building APIs that wrap AI systems has its own set of considerations — the response is non-deterministic, latency is higher, and error handling needs to account for the external service failing or returning something unexpected.
 
 ---
 

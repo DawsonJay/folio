@@ -1,6 +1,6 @@
 # What AI/ML experience do you have?
 
-I've built production AI systems. WhatNow - recommendation engine using contextual bandits and reinforcement learning. moh-ami - LLM-powered language learning tool with structured prompt engineering. Folio - the RAG chatbot you're using right now. My focus is practical AI integration into web applications.
+I've built three production AI systems: WhatNow (recommendation engine using contextual bandits and reinforcement learning), moh-ami (LLM-powered language learning tool with structured prompt engineering), and Folio (the RAG chatbot you're using right now). The focus across all three is practical AI integration into web applications — not research or prototype work, but production systems with real users and real constraints.
 
 WhatNow is end-to-end machine learning engineering. Two-layer learning architecture where Session AI learns quickly from current interactions while Base AI provides stability from historical data. The system uses semantic embeddings to match user context with 1,249 activities and continuously improves through real usage. Deployed in production and generates its own training data through user interactions - solving the dataset acquisition problem that killed my earlier computer vision projects.
 

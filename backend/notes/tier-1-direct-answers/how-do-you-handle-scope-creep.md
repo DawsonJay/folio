@@ -6,9 +6,7 @@ I dealt with scope creep a lot during freelance work. One client kept adding fea
 
 This approach worked because it gave her a clear timeline to the first working version while acknowledging her ideas had value. Many features she thought were essential early on turned out not to matter once she could actually use the core product. The backlog prevented scope creep during critical initial development.
 
-I push back on scope expansion when it delays core value delivery, complicates architecture unnecessarily, or is based on speculation rather than evidence. If someone can't articulate what problem a feature solves beyond "it would be nice," it's probably not essential to the MVP.
-
-When managing scope with stakeholders, I'm clear about tradeoffs. Adding features means either longer timeline or cutting other features. I propose concrete alternatives and use timelines to make tradeoffs explicit. This MVP takes 3 weeks. Adding that feature makes it 5 weeks. Is the feature worth 2 extra weeks, or should we ship the MVP first and add it after based on real usage?
+When scope starts expanding, I make the tradeoff explicit: adding that feature means either a longer timeline or cutting something else — which do you prefer? That framing usually focuses the conversation quickly. Features that can't survive "what problem does this solve?" don't belong in the MVP. Most of the time, once someone can actually use the core product, the extras they thought were essential turn out not to matter.
 
 ---
 

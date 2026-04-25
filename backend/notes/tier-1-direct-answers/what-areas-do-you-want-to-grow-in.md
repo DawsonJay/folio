@@ -1,16 +1,12 @@
 # What areas do you want to grow in?
 
-I want to improve my Python and AI/ML skills. I want to become more experienced in AI/ML and grow my talents there. I've used Python for AI/ML projects like WhatNow, an activity recommendation system, and moh-ami, a French learning tool, but I want to deepen that expertise. I'm particularly interested in integrating AI capabilities into web applications - things like intelligent search, personalized recommendations, and LLM-powered features that enhance user experiences.
+Three main areas.
 
-I've also never been in charge of a team formally, and I would like to develop the skills to be good at that. My team dad approach has worked well for mentoring and informal leadership, but I want to develop formal leadership capabilities. I want to take on more leadership while remaining a technical contributor. I want to be a technical leader who helps teams work better together while still writing code and solving technical problems.
+AI and ML integration is where I'm most actively building. WhatNow, moh-ami, and Folio have given me solid production experience with contextual bandits, LLM integration, and RAG systems, but I want to go deeper — more complex architectures, larger datasets, more demanding real-world constraints. That's the professional direction I'm building toward.
 
-I want to grow in architectural decision-making. I've made independent architectural decisions on solo projects and chosen technology stacks for team projects, but I want to develop deeper expertise in system design and architecture. I want to be able to make architectural decisions that support long-term maintainability and team productivity.
+Formal leadership is the other significant gap. I've mentored three backend developers into full-stack roles and naturally ended up in a connecting role on teams, but that grew organically rather than by design. I want to develop the formal side: taking ownership of a project from the start, coordinating across people, making architectural calls with real consequences for the team, not just for my own code.
 
-I want to grow in AI integration in web applications. Bringing LLM capabilities, RAG systems, and ML to web products is where web development and AI intersect. This is an area I'm actively building skills in through projects like Folio, and I want to continue developing this expertise.
-
-I want to grow in cross-functional collaboration. I excel at bridging technical and non-technical teams, but I want to deepen this skill. I want to continue developing this capability to communicate effectively across different contexts and help teams work together more effectively.
-
-I want to grow into mid to senior technical roles. I'm ready for roles that combine technical depth with increasing leadership responsibility. I want to make architectural decisions, mentor developers, and contribute to technical strategy while continuing to grow as an engineer and leader.
+Architectural decision-making at greater scale. The Nexus Dashboard gave me the most experience in this — designing a component system resilient to backend changes, thinking about future states I couldn't fully predict. I want more of that. It's the kind of engineering that requires a different mode of thinking from writing features, and it's the mode I find most interesting.
 
 ---
 

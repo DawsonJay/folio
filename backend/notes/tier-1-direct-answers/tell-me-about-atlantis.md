@@ -1,6 +1,6 @@
 # Tell me about Atlantis
 
-Atlantis (formally "The Momo") is a lake bed mapping system for impossible-to-reach places. The project underwent a major strategic pivot from underwater drone to surface boat with towed probe - problem-solving and adaptation in hardware development.
+Atlantis (formally "The Momo") is a lake bed mapping system for impossible-to-reach places — a hardware project that underwent a major pivot when the original underwater drone design ran into problems that weren't solvable at my budget.
 
 Started as an ambitious underwater drone using Raspberry Pi 4 for processing and Pi Pico for real-time sensor control. Original design included four brushless motors, IMU sensors, pressure sensors, ultrasonic obstacle detection, and underwater camera. But I realized waterproofing at depth, underwater communication, and safe recovery created overwhelming challenges.
 

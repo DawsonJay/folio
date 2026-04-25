@@ -1,14 +1,8 @@
 # Are you comfortable with hybrid work?
 
-Absolutely. My entire 5.5 year career has been remote. I've shipped production systems, mentored distributed teams, and collaborated effectively across time zones without being co-located. I'm already equipped with the communication habits that make hybrid work effective.
+Yes — and hybrid is actually my preference over fully remote. My whole career has been remote, so I've built the habits that make it work: clear written communication, proactive updates, not hoarding context that teammates need. What remote doesn't give you easily is the spontaneous conversation, the whiteboard sketch, the relationship you build over lunch. Hybrid gives you both.
 
-I can start contributing immediately from day one. Production systems running 3+ years without maintenance, infrastructure optimization, team mentoring - all done remotely. The track record is there. Whether I'm working from home or in the office, the output quality stays consistent.
-
-Hybrid actually gives the best of both. Remote days for deep focus work - complex features, debugging, architectural thinking. In-office days for collaboration, whiteboarding, building relationships with teammates. I'm completely flexible on the specific arrangement - two days, three days, core hours, whatever works best for the team.
-
-I value in-person collaboration. The spontaneous conversations, the ability to sketch ideas on a whiteboard, the relationships you build having lunch with teammates. Remote-only misses that. But I also know how to make remote work effective - clear communication, proactive updates, respecting focus time, making the most of synchronous collaboration when we're together.
-
-Whatever hybrid model you use, I adapt to it. The goal is contributing effectively to the team's success, and I've proven I can do that regardless of where I'm sitting.
+The split that works for me is remote time for deep focus — complex debugging, architectural decisions, building out a feature without interruption — and in-office time for the things that genuinely benefit from proximity. I don't need a specific ratio. I adapt to whatever the team uses.
 
 ---
 

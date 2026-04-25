@@ -6,7 +6,7 @@ My learning approach is goal-driven and hands-on. I don't learn technologies in 
 
 I teach myself fundamentals first, then build something real immediately. I learn far more from encountering real problems than from tutorials. For React specifically: I learned component thinking, state management patterns, hooks architecture, and performance optimization through building dashboards at production scale. The Nexus Dashboard taught me microfrontends and Module Federation. The Email Editor taught me Lexical framework integration.
 
-I learn by doing, not by reading. I read enough to start, then build. When I get stuck, I consult documentation, search for solutions, or ask teammates. This hands-on approach means every skill has immediate practical application.
+The Nexus Dashboard added microfrontends and Module Federation. The Email Editor added Lexical framework integration for the rich text components. Each project pushed into new territory, which is how the depth actually builds.
 
 ---
 

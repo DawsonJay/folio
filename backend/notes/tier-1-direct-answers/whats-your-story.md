@@ -1,18 +1,10 @@
 # What's your story?
 
-My story is about finding my way from art to technology, discovering that creativity and technical rigor aren't opposites - they're complementary. I completed a Foundation Year in Illustration at the University of Derby, but I realized that while I loved the creative process, I needed something that combined creativity with intellectual challenges. Coding gave me that same satisfaction of bringing ideas into reality, but with clear, objective parameters for success.
+I started in art — a Foundation Year in Illustration — but realized it didn't satisfy the intellectual side of me. I loved making things, but I needed the feedback loop that art doesn't give you: did this actually work or not? Coding does. I started teaching myself around 2014, tried an AI degree at Heriot-Watt that was too slow and too disconnected from building things, then did an Ironhack bootcamp in 2020 to bridge my self-taught skills into a professional career.
 
-I began teaching myself programming around 2014, well before I considered it as a career. I started with Java because I wanted to understand AI concepts. I tried studying AI at Heriot-Watt University, but found it too slow and disconnected from reality. I completed 2 years of coursework and earned a Certificate of Merit, but I left to pursue a more practical path.
+My first role was Junior Developer at BriefYourMarket, then 15 months freelancing — which confirmed I work better in teams than alone. I went back to the same company in 2022, by then part of Nurtur, and spent 3.5 years there as a Full Stack Developer. The work I'm most proud of is the Integrations Dashboard I built in my first four months: it's still running three years later without a single maintenance call, which is the kind of outcome I care about most.
 
-I did an Ironhack bootcamp in May 2020, which was a strategic decision to bridge my personal project work into structured professional skills. Within a few months, I secured my first professional role as a Junior Web Developer at BriefYourMarket.
-
-I spent 15 months as a freelance web developer, which taught me that I prefer working in teams. I learned that I need teammates to share solutions with, people to discuss technical challenges with, and the ability to support others' growth.
-
-I returned to the same company in July 2022, but by then it had been bought by Nurtur. I worked there for 3.5 years as a Full Stack Developer, building production systems that are still running today. My proudest achievement is the Integrations Dashboard I built in my first four months there. It's been in production for over 3 years without any maintenance, crashes, or bug reports.
-
-The project I was working on concluded in February 2026 when the team was restructured. I'm currently seeking new opportunities, bringing 5.5 years of production experience.
-
-I combine artistic intuition and technical rigor. My art background gives me a sense of when code structure feels right, when something is done, and how systems should feel to users, not just function correctly.
+The team was made redundant in February 2026. I'd been planning a move to Canada for some time — I did my IELTS, WES assessment, and IEC visa while still working — so I relocated to Halifax shortly after. I'm now looking for what's next, with 5.5 years of production experience and a portfolio of AI projects I've been building in parallel.
 
 ---
 
