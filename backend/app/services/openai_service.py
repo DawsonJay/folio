@@ -1,6 +1,6 @@
 import os
 import json
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Any
 from openai import OpenAI
 
 class OpenAIService:
@@ -28,6 +28,49 @@ class OpenAIService:
             input=texts
         )
         return [item.embedding for item in response.data]
+    
+    def match_direct_answer_title(
+        self, question: str, candidate_titles: List[str]
+    ) -> Dict[str, Any]:
+        if not candidate_titles:
+            return {"title": None, "confidence": 0.0}
+        allowed = set(candidate_titles)
+        list_block = "\n".join(f"- {t}" for t in candidate_titles)
+        system_message = (
+            "You map user questions to at most one pre-written question title from a closed list.\n"
+            'Return JSON only: {"title": <string or null>, "confidence": <number 0-1>}\n'
+            "Rules:\n"
+            '- "title" must be EXACTLY one of the list strings below, character-for-character, or null.\n'
+            "- If the user is asking the same thing as a title (including casual phrasing), pick that title.\n"
+            "- If none match strongly, set title to null and confidence to 0.0-0.3.\n"
+            "- confidence: how well the user question and the selected title are semantically the same ask."
+        )
+        user_message = f"User question:\n{question}\n\nAllowed titles (choose one exactly or null):\n{list_block}"
+        response = self.client.chat.completions.create(
+            model=self.chat_model,
+            messages=[
+                {"role": "system", "content": system_message},
+                {"role": "user", "content": user_message},
+            ],
+            temperature=0.1,
+            max_tokens=64,
+            response_format={"type": "json_object"},
+        )
+        result = json.loads(response.choices[0].message.content)
+        title = result.get("title")
+        conf_raw = result.get("confidence", 0.0)
+        try:
+            conf = float(conf_raw)
+        except (TypeError, ValueError):
+            conf = 0.0
+        conf = max(0.0, min(1.0, conf))
+        if title in (None, ""):
+            return {"title": None, "confidence": conf}
+        if not isinstance(title, str):
+            return {"title": None, "confidence": 0.0}
+        if title not in allowed:
+            return {"title": None, "confidence": 0.0}
+        return {"title": title, "confidence": conf}
     
     def generate_chat_response(
         self,

@@ -12,7 +12,7 @@ load_dotenv(Path(__file__).parent.parent / ".env")
 from app.services.openai_service import OpenAIService
 from app.services.embedding_storage import LocalEmbeddingStorage
 
-DIRECT_ANSWER_THRESHOLD = 0.65
+DIRECT_ANSWER_THRESHOLD = 0.75
 BORDERLINE_LOW = 0.50
 
 class TestResult:

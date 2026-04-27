@@ -39,10 +39,27 @@ OPENAI_API_KEY=sk-proj-...your-key-here
 
 ### Step 3: Install Dependencies
 
+Create a virtual environment and install with **that** Python (not global `pip`), so `npm run dev:all` can run the API from `backend/venv`.
+
+**Windows (PowerShell):**
+
+```powershell
+cd backend
+python -m venv venv
+.\venv\Scripts\python.exe -m pip install --upgrade pip
+.\venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+**macOS / Linux:**
+
 ```bash
 cd backend
-pip install -r requirements.txt
+python3 -m venv venv
+./venv/bin/python -m pip install --upgrade pip
+./venv/bin/python -m pip install -r requirements.txt
 ```
+
+If you see `Defaulting to user installation` when you run `pip install`, you are not using the venv; use the `venv\...python -m pip` form above.
 
 ### Step 4: Embed the Notes
 

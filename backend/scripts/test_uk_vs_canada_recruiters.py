@@ -13,7 +13,7 @@ from app.services.openai_service import OpenAIService
 from app.services.embedding_storage import LocalEmbeddingStorage
 from app.services.direct_answer_service import DirectAnswerService
 
-DIRECT_ANSWER_THRESHOLD = 0.65
+DIRECT_ANSWER_THRESHOLD = 0.75
 
 UK_RECRUITER_QUESTIONS = [
     "Why are you looking for a new role?",

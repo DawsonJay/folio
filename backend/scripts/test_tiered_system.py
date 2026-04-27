@@ -14,7 +14,7 @@ from app.services.embedding_storage import LocalEmbeddingStorage
 from app.services.direct_answer_service import DirectAnswerService
 from app.api.chat import chat, ChatRequest
 
-DIRECT_ANSWER_THRESHOLD = 0.65
+DIRECT_ANSWER_MODES = ("direct_answer", "direct_answer_llm_match")
 
 TEST_QUESTIONS = {
     "Should Match Direct Answer (Tier 1)": [
@@ -89,13 +89,12 @@ async def main():
             
             # Determine expected behavior
             if category == "Should Match Direct Answer (Tier 1)":
-                expected = "direct_answer"
-                status = "✓" if result["confidence"] == expected else "✗"
+                status = "✓" if result["confidence"] in DIRECT_ANSWER_MODES else "✗"
             elif category == "Should Fall Through to RAG (Tier 2)":
                 expected = ["high", "medium", "redirect", "off_topic"]
                 status = "✓" if result["confidence"] in expected else "✗"
-            else:  # Edge Cases
-                expected = ["high", "medium", "redirect", "off_topic"]
+            else:  # Edge Cases (borderline; Tier 1.5 may map to a direct answer)
+                expected = ["high", "medium", "redirect", "off_topic"] + list(DIRECT_ANSWER_MODES)
                 status = "✓" if result["confidence"] in expected else "?"
             
             print(f"  {status} Confidence: {result['confidence']} (score: {result['top_score']:.3f})")
@@ -109,14 +108,16 @@ async def main():
     print("Summary:")
     print("-" * 80)
     
-    # Tier 1 (Direct Answers)
+    # Tier 1 + 1.5 (Direct answer files)
     tier1_results = results["Should Match Direct Answer (Tier 1)"]
-    tier1_matches = sum(1 for r in tier1_results if r["confidence"] == "direct_answer")
-    print(f"Tier 1 (Direct Answers): {tier1_matches}/{len(tier1_results)} correctly matched")
+    tier1_matches = sum(1 for r in tier1_results if r["confidence"] in DIRECT_ANSWER_MODES)
+    print(f"Direct answer (Tier 1/1.5): {tier1_matches}/{len(tier1_results)} correctly matched")
     
-    # Tier 2 (RAG Fallback)
+    # Tier 2 (RAG Fallback) — not a scripted direct answer
     tier2_results = results["Should Fall Through to RAG (Tier 2)"]
-    tier2_fallthrough = sum(1 for r in tier2_results if r["confidence"] in ["high", "medium", "redirect", "off_topic"])
+    tier2_fallthrough = sum(
+        1 for r in tier2_results if r["confidence"] not in DIRECT_ANSWER_MODES
+    )
     print(f"Tier 2 (RAG Fallback): {tier2_fallthrough}/{len(tier2_results)} correctly fell through")
     
     # Edge Cases

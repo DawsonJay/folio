@@ -53,6 +53,7 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     from app.services.profanity_filter import ProfanityFilter
     from app.services.project_links import extract_project_links
     from app.services.direct_answer_service import DirectAnswerService
+    from app.services.direct_answer_routing import try_resolve_direct_answer
     from app.services.analytics_service import AnalyticsService
     from pathlib import Path
     import logging
@@ -80,7 +81,6 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     VERY_LOW_THRESHOLD = 0.20
     CONFIDENCE_HIGH = 0.40
     CONFIDENCE_MEDIUM = 0.30
-    DIRECT_ANSWER_THRESHOLD = 0.65
     EMBEDDINGS_FILE = Path(__file__).parent.parent.parent / "embeddings.json"
     DIRECT_ANSWER_EMBEDDINGS_FILE = Path(__file__).parent.parent.parent / "direct-answer-embeddings.json"
     
@@ -113,31 +113,29 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     query_embedding = openai_service.get_embedding(request.question)
     
     try:
-        direct_answer_results = direct_answer_storage.query_similar(query_embedding, top_k=1)
-        
-        if direct_answer_results and direct_answer_results[0]['score'] >= DIRECT_ANSWER_THRESHOLD:
-            try:
-                file_path = direct_answer_results[0]['metadata']['file_path']
-                direct_answer = direct_answer_service.load_direct_answer(file_path)
-                
-                project_links_response = None
-                if direct_answer.get("projectLinks"):
-                    project_links_response = {
-                        k: ProjectLinks(**v) for k, v in direct_answer["projectLinks"].items()
-                    }
-                
-                return log_and_return(ChatResponse(
-                    answer=direct_answer["answer"],
-                    emotion=direct_answer["emotion"],
-                    suggestions=[Suggestion(**s) for s in direct_answer["suggestions"]],
-                    projectLinks=project_links_response,
-                    confidence="direct_answer",
-                    top_score=direct_answer_results[0]['score']
-                ))
-            except Exception as e:
-                logger.warning(f"Failed to load direct answer: {e}, falling back to RAG")
+        direct_payload = try_resolve_direct_answer(
+            openai_service,
+            direct_answer_storage,
+            direct_answer_service,
+            query_embedding,
+            request.question,
+        )
+        if direct_payload:
+            project_links_response = None
+            if direct_payload.get("projectLinks"):
+                project_links_response = {
+                    k: ProjectLinks(**v) for k, v in direct_payload["projectLinks"].items()
+                }
+            return log_and_return(ChatResponse(
+                answer=direct_payload["answer"],
+                emotion=direct_payload["emotion"],
+                suggestions=[Suggestion(**s) for s in direct_payload["suggestions"]],
+                projectLinks=project_links_response,
+                confidence=direct_payload["confidence"],
+                top_score=direct_payload["top_score"],
+            ))
     except Exception as e:
-        logger.warning(f"Direct answer query failed: {e}, falling back to RAG")
+        logger.warning(f"Direct answer routing failed: {e}, falling back to RAG")
     
     similar_notes = embedding_storage.query_similar(query_embedding, top_k=5)
     

@@ -12,11 +12,11 @@ from app.services.openai_service import OpenAIService
 from app.services.embedding_storage import LocalEmbeddingStorage
 
 TARGET_QUESTION = "Tell me about yourself"
-DIRECT_ANSWER_THRESHOLD = 0.65
+DIRECT_ANSWER_THRESHOLD = 0.75
 BORDERLINE_LOW = 0.50
 
 TEST_QUESTIONS = {
-    "Category 1: Close Matches (Expected: >= 0.65)": [
+    "Category 1: Close Matches (Expected: >= 0.75)": [
         "Tell me about yourself",
         "Can you tell me about yourself?",
         "Tell me about yourself, please",
@@ -25,7 +25,7 @@ TEST_QUESTIONS = {
         "Tell me a bit about yourself",
         "What can you tell me about yourself?",
     ],
-    "Category 2: Moderate Variations (Expected: 0.50-0.65)": [
+    "Category 2: Moderate Variations (Expected: 0.50-0.75)": [
         "Who are you?",
         "What's your background?",
         "Give me an overview of yourself",
@@ -132,11 +132,11 @@ def main():
     print("Summary:")
     print("-" * 80)
     
-    category1_results = results["Category 1: Close Matches (Expected: >= 0.65)"]
+    category1_results = results["Category 1: Close Matches (Expected: >= 0.75)"]
     category1_matches = sum(1 for _, score, _, _ in category1_results['results'] if score >= DIRECT_ANSWER_THRESHOLD)
     print(f"- Close matches: {category1_matches}/{len(category1_results['results'])} matched (>= {DIRECT_ANSWER_THRESHOLD})")
     
-    category2_results = results["Category 2: Moderate Variations (Expected: 0.50-0.65)"]
+    category2_results = results["Category 2: Moderate Variations (Expected: 0.50-0.75)"]
     category2_in_range = sum(1 for _, score, _, _ in category2_results['results'] if BORDERLINE_LOW <= score < DIRECT_ANSWER_THRESHOLD)
     print(f"- Borderline: {category2_in_range}/{len(category2_results['results'])} in range ({BORDERLINE_LOW}-{DIRECT_ANSWER_THRESHOLD})")
     
