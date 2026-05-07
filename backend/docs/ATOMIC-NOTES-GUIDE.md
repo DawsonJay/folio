@@ -4,13 +4,13 @@ A practical guide for creating embedding-optimized notes for the Folio RAG syste
 
 ## Introduction
 
-Atomic notes are self-contained, semantically coherent chunks of information that form the knowledge base for the Folio chatbot. These notes are embedded using OpenAI's `text-embedding-3-small` model and stored in Pinecone, where they're retrieved based on semantic similarity to user questions.
+Atomic notes are self-contained, semantically coherent chunks of information that form the **Tier 2** knowledge base for the Folio chatbot. They are embedded with OpenAI (`text-embedding-3-small`) and stored in **`backend/embeddings.json`** with cosine-similarity retrieval in code (see [`app/services/embedding_storage.py`](../app/services/embedding_storage.py)).
 
 The way you write these notes directly impacts how well the RAG system performs. Well-written notes lead to better retrieval, more accurate answers, and a superior user experience.
 
 **Why this matters:** The LLM doesn't see all your notes at once. It only sees the 3-5 most relevant notes retrieved by the embedding system. If notes are poorly written, the right information might not be retrieved, or the LLM might struggle to synthesize a good answer.
 
-For technical details on how embeddings and RAG work, see [ATOMIC-NOTES-TECHNICAL.md](ATOMIC-NOTES-TECHNICAL.md).
+For how Tier 1 vs Tier 2 fit together, see [TIERED-NOTES-SYSTEM.md](TIERED-NOTES-SYSTEM.md). Historical deep-dive on an earlier Pinecone/LangChain sketch: [ATOMIC-NOTES-TECHNICAL-ARCHIVE-PINECONE-LANGCHAIN.md](ATOMIC-NOTES-TECHNICAL-ARCHIVE-PINECONE-LANGCHAIN.md).
 
 ## Core Principles
 
@@ -66,7 +66,7 @@ Structure notes to answer common questions people might ask.
 
 I've been building backend APIs with FastAPI for the past 2 years, using it as my primary framework for Python web development. FastAPI is my go-to choice for building REST APIs because of its automatic API documentation, type validation with Pydantic, and excellent async support.
 
-I've used FastAPI in production applications including the Folio portfolio chatbot backend, where I integrated it with PostgreSQL, implemented RAG systems using LangChain, and built rate limiting with Redis. I'm experienced with async endpoints, dependency injection, middleware, and deploying FastAPI applications to production environments like Railway.
+I've used FastAPI in production applications including the Folio portfolio chatbot backend, where I wired OpenAI embeddings and chat, SQLite or PostgreSQL via SQLAlchemy, and a tiered RAG pipeline with local vector storage. I'm experienced with async endpoints, dependency injection, middleware, and deploying FastAPI apps to Railway.
 
 I prefer FastAPI over Flask or Django for API development because it's modern, fast, and has built-in support for async operations which is essential for AI-powered applications.
 ```
@@ -173,24 +173,18 @@ I use Python for backend development, building APIs and web services. When peopl
 
 ### 9. Metadata for Filtering (Optional)
 
-While the note content should be natural language, you can use Pinecone metadata for filtering.
+The embedding script stores **metadata per vector** in `embeddings.json` (e.g. `category`, `file_path`, `type: "direct_answer"` for Tier 1). The chat layer can filter retrieval by these fields (see [`embedding_storage.py`](../app/services/embedding_storage.py) `query_similar` `filter`).
 
-**Structure in Pinecone:**
+**Example metadata shape (conceptual):**
+
 ```python
 {
-    "id": "react-experience-001",
-    "values": [0.023, -0.145, ...],  # embedding vector
-    "metadata": {
-        "type": "skill",           # For filtering: skill/project/experience
-        "technology": "React",     # For filtering by technology
-        "level": "advanced",       # For filtering by level
-        "year": "2024",           # For temporal filtering
-        "content": "I have 3 years..."  # Natural text for embedding
-    }
+    "category": "tier-2-atomic-notes",
+    "file_path": "notes/tier-2-atomic-notes/projects/example.md",
 }
 ```
 
-**Why:** Metadata enables filtering (e.g., "only show skill notes" or "only show recent notes"), while natural content drives semantic matching.
+**Why:** Metadata enables targeted retrieval (e.g. direct-answer candidates only), while natural note text drives semantic similarity.
 
 ## Note Structure Template
 
@@ -382,7 +376,7 @@ I built Folio as a minimalist portfolio website featuring an AI chatbot that ans
 
 The frontend is built with React and TypeScript, featuring a single message bubble interface with smooth crossfade transitions, an animated avatar with emotion states, and an event-driven architecture for clean component communication. I implemented custom hooks for dynamic height constraints and used Sass for styling.
 
-The backend uses Python with FastAPI, integrating LangChain for RAG orchestration, OpenAI's GPT-4o-mini for chat completion, and Pinecone as a vector database for semantic search. I designed an atomic notes system where knowledge is stored as semantically coherent chunks that are embedded and retrieved based on similarity to user questions. The system includes rate limiting, session management with compact context tracking, and analytics logging.
+The backend uses Python with FastAPI, OpenAI (`text-embedding-3-small` + `gpt-4o-mini`), and a local embedding store with cosine similarity — no external vector database in the shipped design. Tier 1 uses hand-written Q&A in `notes/tier-1-direct-answers/`; Tier 2 uses atomic markdown under `backend/notes/`. Optional PostgreSQL (or SQLite) backs analytics when enabled.
 
 This project demonstrates my full-stack development capabilities, my understanding of modern AI/LLM technologies, and my ability to create polished, production-ready applications with attention to user experience.
 ```
@@ -401,7 +395,7 @@ I know FastAPI. Used it in projects.
 
 I've been building backend APIs with FastAPI for the past 2 years, using it as my primary framework for Python web development. FastAPI is my go-to choice for building REST APIs because of its automatic API documentation with OpenAPI, type validation using Pydantic, and excellent async support for high-performance applications.
 
-I've used FastAPI in production applications including the Folio portfolio chatbot backend, where I built endpoints for chat interactions, integrated with PostgreSQL for data persistence, implemented rate limiting with Redis, and orchestrated RAG operations using LangChain. I'm experienced with async endpoints, dependency injection for database sessions, custom middleware, and deploying FastAPI applications to platforms like Railway.
+I've used FastAPI in production applications including the Folio portfolio chatbot backend, where I built chat endpoints, wired SQLAlchemy to PostgreSQL or SQLite, added structured JSON responses with emotion and suggestion chips, and implemented tiered retrieval plus RAG fallbacks. I'm experienced with async endpoints, dependency injection for database sessions, custom middleware, and deploying to Railway.
 
 I prefer FastAPI over Flask or Django for API development because it's modern, fast, and has built-in support for async operations which is essential for AI-powered applications that make external API calls. The automatic validation and documentation save development time and reduce bugs.
 ```
@@ -425,7 +419,7 @@ When writing a note, check that it has:
 
 ## Next Steps
 
-1. Read [ATOMIC-NOTES-TECHNICAL.md](ATOMIC-NOTES-TECHNICAL.md) to understand the technical foundation
+1. Read [TIERED-NOTES-SYSTEM.md](TIERED-NOTES-SYSTEM.md) for how notes are retrieved today; optional historical spec: [ATOMIC-NOTES-TECHNICAL-ARCHIVE-PINECONE-LANGCHAIN.md](ATOMIC-NOTES-TECHNICAL-ARCHIVE-PINECONE-LANGCHAIN.md)
 2. Use the note structure template to write your first notes
 3. Start with 5-10 notes covering your key skills and projects
 4. Test retrieval with sample questions

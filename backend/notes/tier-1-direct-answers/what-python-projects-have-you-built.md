@@ -6,7 +6,7 @@ WhatNow is an AI-powered activity recommendation system. Python backend with Fas
 
 moh-ami is a French learning translation tool with LLM integration. I designed structured prompts that produce consistent JSON outputs for word-by-word mappings, grammar explanations, and cultural context. Full-stack with Next.js frontend and GraphQL API; Python powers the LLM integration.
 
-Folio is the RAG-powered portfolio chatbot you're talking to now. Python backend with FastAPI and LangChain for RAG orchestration - retrieval, prompt construction, response generation. Uses embeddings and vector similarity for the knowledge base.
+Folio is the RAG-powered portfolio chatbot you're talking to now: FastAPI backend, OpenAI embeddings and chat, NumPy similarity over locally stored vectors, plus structured JSON responses for the UI.
 
 All three are production applications, self-hosted on a Raspberry Pi I set up as a home server. WhatNow and moh-ami are live with public links; Folio is the system serving this conversation.
 

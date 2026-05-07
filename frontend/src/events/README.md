@@ -6,6 +6,8 @@ Type-safe, centralized event system for component communication in the Folio fro
 
 The event system enables decoupled component communication through a singleton event bus. Components can emit and listen to events without direct dependencies, making the codebase more modular and testable.
 
+In the app, chat components emit events and [`../api/ChatApiClient.ts`](../api/ChatApiClient.ts) subscribes to drive API calls; startup wiring lives with the chat UI (e.g. [`../main.tsx`](../main.tsx) and landing/chat components).
+
 ## Key Features
 
 - **Type-safe**: Discriminated unions ensure compile-time type safety
@@ -19,17 +21,25 @@ The event system enables decoupled component communication through a singleton e
 ### Basic Event Emission
 
 ```tsx
+import React, { useState } from 'react';
 import { useEmit } from '../hooks/useEventBus';
 import { EVENT_TYPES } from '../events/eventTypes';
 
 function InputComponent() {
   const emit = useEmit();
-  
-  const handleSubmit = (question: string) => {
-    emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question });
+  const [value, setValue] = useState('');
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    emit(EVENT_TYPES.CHAT_QUESTION_ASKED, { question: value.trim() });
   };
-  
-  return <input onSubmit={handleSubmit} />;
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input value={value} onChange={(e) => setValue(e.target.value)} />
+      <button type="submit">Ask</button>
+    </form>
+  );
 }
 ```
 
@@ -130,13 +140,13 @@ export type ChatEvent =
 
 ## Testing
 
-The event system is fully tested. See:
-- `__tests__/eventBus.test.ts` - Event bus unit tests
-- `__tests__/integration.test.tsx` - Integration tests
-- `../../hooks/__tests__/useEventBus.test.tsx` - React hook tests
+Paths are relative to the **`frontend/`** directory:
 
-Run tests with:
+- `src/__tests__/events/eventBus.test.ts` — event bus unit tests
+- `src/__tests__/events/integration.test.tsx` — integration tests
+- `src/__tests__/hooks/useEventBus.test.tsx` — React hook tests
+
 ```bash
+cd frontend
 npm test
 ```
-

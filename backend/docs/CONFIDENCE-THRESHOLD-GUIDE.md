@@ -631,5 +631,5 @@ Key implementation points:
 4. Tune threshold based on results
 5. Monitor and iterate
 
-For questions or issues, refer to the technical specification in `ATOMIC-NOTES-TECHNICAL.md`.
+For architecture context, see [TIERED-NOTES-SYSTEM.md](TIERED-NOTES-SYSTEM.md) and archived background in [ATOMIC-NOTES-TECHNICAL-ARCHIVE-PINECONE-LANGCHAIN.md](ATOMIC-NOTES-TECHNICAL-ARCHIVE-PINECONE-LANGCHAIN.md).
 

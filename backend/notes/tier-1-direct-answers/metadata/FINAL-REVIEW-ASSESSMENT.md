@@ -163,7 +163,7 @@ After implementing recommended improvements, the notes now present a **well-roun
   - Portfolio projects: Led technical direction (WhatNow, moh-ami, Folio) ✅
 - **Mentoring**: 3 backend developers, documented impact ✅
 - **Documentation**: Created comprehensive guides for future developers ✅
-- **Technology choices**: Redux Toolkit, Lexical, React Query, GraphQL, LangChain ✅
+- **Technology choices**: Redux Toolkit, Lexical, React Query, GraphQL, OpenAI embeddings/chat ✅
 
 #### Problem-Solving at Scale - **STRONG** ✅
 - **Performance optimization**: 15+ seconds → sub-5 seconds (Nexus Dashboard) ✅
@@ -174,7 +174,7 @@ After implementing recommended improvements, the notes now present a **well-roun
 #### AI/ML Integration - **AHEAD OF MANY SENIORS** ✅
 - **Contextual bandits**: WhatNow (two-layer learning architecture) ✅
 - **LLM integration**: moh-ami (structured prompts, GraphQL) ✅
-- **RAG systems**: Folio (LangChain orchestration) ✅
+- **RAG systems**: Folio (FastAPI + local embeddings + tiered notes) ✅
 - **Embeddings**: Semantic search and matching ✅
 
 #### Explicit Senior Positioning - **NEW** ✅
@@ -241,7 +241,7 @@ After implementing recommended improvements, the notes now present a **well-roun
 ### 5. AI/ML Integration (Ahead of Many Seniors) ✅
 - **Contextual bandits**: WhatNow (two-layer learning architecture)
 - **LLM integration**: moh-ami (structured prompts, GraphQL)
-- **RAG systems**: Folio (LangChain orchestration)
+- **RAG systems**: Folio (FastAPI + local embeddings + tiered notes)
 - **Embeddings**: Semantic search and matching
 
 ---

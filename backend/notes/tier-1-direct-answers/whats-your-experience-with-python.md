@@ -4,7 +4,7 @@ Familiar for 7 years, but actively using as my primary AI/ML language for the pa
 
 WhatNow is end-to-end ML engineering. I built a two-layer learning architecture with Session AI for fast learning and Base AI for stability. The system uses semantic embeddings to match context with activities and continuously improves through user feedback.
 
-For moh-ami, I designed structured prompts producing consistent JSON outputs. For Folio, I used LangChain for RAG orchestration handling retrieval, prompt construction, and response generation.
+For moh-ami, I designed structured prompts producing consistent JSON outputs. For Folio, FastAPI orchestrates retrieval: direct-answer embeddings first, then semantic search over atomic notes before calling the model for a structured JSON answer for the UI.
 
 I'm comfortable with data science libraries - pandas, scikit-learn, numpy. I understand embeddings - how to generate, store, and use them for semantic search. I learned about data quality importance from early computer vision projects where dataset issues caused poor real-world performance despite good validation accuracy.
 

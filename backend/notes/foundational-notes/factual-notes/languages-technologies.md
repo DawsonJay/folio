@@ -212,12 +212,12 @@
 - **Projects**: WhatNow (contextual bandits for activity recommendations, October 2025 - present)
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `projects.md`
 
-### LangChain
-- **Proficiency**: Advanced
-- **Usage Period**: January 2026 - present
-- **Projects**: Folio (RAG orchestration)
-- **Source**: `atomic-notes/projects/folio-overview-and-motivation.md`, `atomic-notes/projects/folio-rag-system-architecture.md`
-- **Notes**: Used for RAG workflow orchestration, handling retrieval, prompt construction, and response generation. First used in Folio project (started January 2026).
+### RAG pipelines (custom, Folio)
+- **Proficiency**: Advanced  
+- **Usage Period**: January 2026 – present  
+- **Projects**: Folio (tiered embeddings, cosine similarity over local vectors, structured JSON replies)  
+- **Source**: `backend/docs/TIERED-NOTES-SYSTEM.md`, codebase  
+- **Notes**: Retrieval and prompting are implemented with the OpenAI SDK inside FastAPI — the production Folio codebase does not depend on LangChain or a hosted vector SaaS.
 
 ---
 
@@ -360,7 +360,7 @@
 - [x] SCSS/Sass usage dates (May 2020 - present, learned at Ironhack bootcamp)
 - [x] Apollo Client usage dates (~February 2025 - present, ~1 year)
 - [x] Apollo Server usage dates (~February 2025 - present, ~1 year)
-- [x] LangChain usage dates (January 2026 - present)
+- [x] Folio RAG stack captured (FastAPI + OpenAI embeddings/chat + local vectors)
 - [x] Vite usage dates (February 2024 - present)
 - [x] EmailJS usage dates (~February 2025 - present, ~1 year)
 - [x] Redis usage dates (January 2026 - present)

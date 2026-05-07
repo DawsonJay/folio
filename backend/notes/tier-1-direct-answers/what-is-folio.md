@@ -6,7 +6,7 @@ Traditional portfolios are passive. Employers read what you write in the order y
 
 Folio solves this by making my portfolio conversational. Ask natural language questions like Tell me about your React experience or What was the biggest challenge in WhatNow? The system retrieves relevant information and generates personalized answers maintaining my authentic first-person voice. Different employers get different information based on what they care about. The portfolio adapts to conversation rather than forcing everyone through the same linear narrative.
 
-The technical architecture combines several modern AI technologies. LangChain orchestrates the RAG workflow. OpenAI's text-embedding-3-small generates 1536-dimension semantic embeddings enabling similarity search. Local JSON storage with NumPy similarity calculations handles vector search for my dataset size. GPT-4o-mini generates chat responses using retrieved context. Frontend uses React/TypeScript, backend uses FastAPI.
+The technical stack is FastAPI on the backend with OpenAI embeddings (`text-embedding-3-small`), cosine similarity over vectors stored in local JSON (`embeddings.json`), Tier 1 direct answers for common recruiter questions, then Tier 2 retrieval + `gpt-4o-mini` for synthesized replies. The frontend is React and TypeScript with an event-driven UI layer.
 
 The atomic notes approach is central. Instead of long documents, the knowledge base contains self-contained notes each covering a single topic, written in first person as if I'm speaking directly. This granular approach enables precise retrieval - the system pulls exactly relevant information without unrelated content.
 

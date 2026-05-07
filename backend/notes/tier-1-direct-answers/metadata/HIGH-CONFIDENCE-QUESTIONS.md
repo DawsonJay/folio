@@ -146,7 +146,7 @@ The foundational notes provide:
 ### MEDIUM Priority
 
 - [HIGH] "What's your experience with RAG systems?"
-  - **Sources**: `foundational-notes/factual-notes/languages-technologies.md` (LangChain section), `foundational-notes/narrative-notes/projects/building-folio-story.md`
+  - **Sources**: `foundational-notes/factual-notes/languages-technologies.md` (custom RAG / Folio stack), `foundational-notes/narrative-notes/projects/building-folio-story.md`
 
 - [HIGH] "What's your understanding of embeddings?"
   - **Sources**: `foundational-notes/narrative-notes/projects/building-whatnow-story.md`, `foundational-notes/factual-notes/projects.md` (WhatNow section)

@@ -1,45 +1,27 @@
-# Folio Backend Setup Instructions
+# Folio Backend — Local setup
 
-## What's Been Created
+This guide matches the current codebase: **FastAPI**, **OpenAI** embeddings + chat, **local embedding store** (`backend/embeddings.json`), **SQLAlchemy** with PostgreSQL or SQLite, and optional **Docker Compose** PostgreSQL for parity with production analytics.
 
-✅ **20 Atomic Notes** - All written and ready in `backend/notes/`
-✅ **Backend Services** - OpenAI and Pinecone services created
-✅ **Embedding Script** - Script ready to embed notes into Pinecone
-✅ **Requirements Updated** - Added openai and pinecone-client dependencies
+## Prerequisites
 
-## What You Need to Do
+- Python **3.11+**
+- **`backend/venv`** recommended (required if you use `npm run dev:all` from `frontend/`)
+- **OpenAI API key** (required for chat and embeddings)
+- **Node** / **Docker** only if you run the frontend or Compose DB
 
-### Step 1: Get OpenAI API Key
+## Environment variables
 
-You only need one API key:
+Copy [`.env.example`](../.env.example) to **`backend/.env`**.
 
-**OpenAI API Key:**
-1. Go to https://platform.openai.com/api-keys
-2. Create a new API key
-3. Copy it (you won't be able to see it again)
+| Variable | Required | Purpose |
+| -------- | -------- | ------- |
+| `OPENAI_API_KEY` | **Yes** | Embeddings (`text-embedding-3-small`) and chat (`gpt-4o-mini`) |
+| `DATABASE_URL` | No | Defaults to `sqlite:///./folio.db` ([`app/database.py`](../app/database.py)). Use PostgreSQL locally or on Railway for analytics. |
+| `PORT` | No | Default `8000` locally; Railway sets automatically |
 
-**Note:** We use local storage (JSON file) instead of Pinecone. For datasets under 1000 notes, local storage is faster, simpler, and free. No Pinecone account needed!
+## Install dependencies (venv)
 
-### Step 2: Create .env File
-
-Create a `.env` file in the `backend/` directory:
-
-```bash
-cd backend
-touch .env
-```
-
-Add your OpenAI API key to `.env`:
-
-```env
-OPENAI_API_KEY=sk-proj-...your-key-here
-```
-
-**Important:** Never commit this `.env` file to git! It's already in `.gitignore`.
-
-### Step 3: Install Dependencies
-
-Create a virtual environment and install with **that** Python (not global `pip`), so `npm run dev:all` can run the API from `backend/venv`.
+Use the venv interpreter so packages install in the right place:
 
 **Windows (PowerShell):**
 
@@ -59,113 +41,93 @@ python3 -m venv venv
 ./venv/bin/python -m pip install -r requirements.txt
 ```
 
-If you see `Defaulting to user installation` when you run `pip install`, you are not using the venv; use the `venv\...python -m pip` form above.
+## Embedding pipeline (after changing notes)
 
-### Step 4: Embed the Notes
+Embeddings are stored in **`backend/embeddings.json`** ([`app/services/embedding_storage.py`](../app/services/embedding_storage.py)). Rebuild whenever Tier 1 or Tier 2 markdown changes.
 
-Run the embedding script:
+From **`backend/`**:
 
 ```bash
+# Tier 1: hand-written Q&A under notes/tier-1-direct-answers/ (excludes metadata/*.md)
+python scripts/embed_direct_answers.py
+
+# Tier 2 (+ all other notes): all *.md under backend/notes/ except metadata dirs and template exclusions
 python scripts/embed_notes.py
 ```
 
-This will:
-- Read all 20 markdown notes
-- Generate embeddings using OpenAI (cost: ~$0.02 for 20 notes)
-- Store embeddings locally in `backend/embeddings.json` (~30KB)
-- Show progress and confirmation
+**Optional checks:**
 
-Expected output:
-```
-Initializing services...
-Reading notes from /path/to/backend/notes...
-Found 20 note files
-  Read: skills/python-backend-experience
-  Read: skills/react-frontend-experience
-  ...
-Generating embeddings for 20 notes...
-  [1/20] Embedding: python-backend-experience
-  ...
-Storing 20 embeddings locally...
-Storage stats: {'total_notes': 20, 'storage_path': 'backend/embeddings.json'}
-✅ Successfully embedded 20 notes into local storage!
-```
+- [`scripts/test_retrieval.py`](../scripts/test_retrieval.py) — manual retrieval smoke tests (if present)
 
-### Step 5: Run Test Queries
-
-After embedding, test the retrieval system:
+## Run the API
 
 ```bash
-python scripts/test_retrieval.py
+cd backend
+uvicorn app.main:app --reload
 ```
 
-This will run test queries and show:
-- Which notes were retrieved for each query
-- Relevance scores
-- Whether retrieval behavior matches expectations
+- API root: `http://localhost:8000`
+- Interactive docs: `http://localhost:8000/docs`
 
-## Cost Estimates
+## Database and analytics
 
-**OpenAI:**
-- Embeddings: ~$0.001 per 20 notes
-- Chat completions for testing: ~$0.01 per 100 queries
-- Total for full test cycle: < $0.10
+Chat can run with the default **SQLite** file. For **`/api/analytics/*`** and production-like behavior, use **PostgreSQL**:
 
-**Local Storage:**
-- Embeddings stored in `backend/embeddings.json`
-- ~30KB for 20 notes, ~1.2MB for 200 notes
-- No cost, no external service needed
+```bash
+cd backend
+docker-compose up -d
+alembic upgrade head
+```
 
-## Troubleshooting
+Compose profile and credentials should match your `docker-compose.yml` (defaults are documented in [ANALYTICS-SETUP.md](ANALYTICS-SETUP.md)).
 
-**"OPENAI_API_KEY environment variable is not set"**
-- Make sure `.env` file exists in `backend/` directory
-- Check that API key is correctly formatted (starts with `sk-proj-` or `sk-`)
-- Try loading manually: `export OPENAI_API_KEY=your-key`
+Set in `.env`:
 
-**"Embeddings file not found"**
-- The script creates `backend/embeddings.json` automatically
-- Make sure you have write permissions in the `backend/` directory
+```env
+DATABASE_URL=postgresql://folio_user:folio_password@localhost:5432/folio_db
+```
 
-**Rate limiting errors**
-- OpenAI free tier has rate limits
-- The script processes notes one at a time to avoid hitting limits
-- If you hit limits, wait a few minutes and try again
+Then start the API again. Full analytics setup, API examples, and troubleshooting: **[ANALYTICS-SETUP.md](ANALYTICS-SETUP.md)**.
 
-**Performance:**
-- Local storage is actually faster than Pinecone for small datasets
-- Query time: <20ms for 200 notes (vs 100-400ms for Pinecone network calls)
-- Scales well up to ~1000 notes, then consider Pinecone if needed
+## Frontend + backend together
 
-## Next Steps After Embedding
+From **`frontend/`**:
 
-1. Run test queries (`scripts/test_retrieval.py`)
-2. Review which notes get retrieved for different questions
-3. Evaluate answer quality and relevance
-4. Iterate on note content or retrieval strategy as needed
-5. Add more notes based on what works well
+```bash
+npm install
+npm run dev:all
+```
 
-## Files Created
+This expects **`backend/venv`** with dependencies installed. See root [README](../../README.md).
+
+## Project layout (relevant paths)
 
 ```
 backend/
 ├── app/
+│   ├── main.py
+│   ├── database.py
+│   ├── api/
 │   └── services/
-│       ├── openai_service.py       # OpenAI API integration
-│       └── embedding_storage.py   # Local embedding storage (JSON)
-├── scripts/
-│   ├── embed_notes.py              # Embed notes into local storage
-│   └── test_retrieval.py           # Test retrieval behavior
-├── embeddings.json                 # Generated by embed_notes.py
 ├── notes/
-│   ├── skills/                     # 3 notes
-│   ├── work/                       # 2 notes
-│   ├── values/                     # 2 notes
-│   ├── background/                 # 2 notes
-│   ├── resources/                  # 1 note
-│   ├── projects/                   # 10 notes
-│   └── README.md                   # Notes documentation
-├── requirements.txt                # Updated with openai, pinecone
-└── SETUP-INSTRUCTIONS.md          # This file
+│   ├── tier-1-direct-answers/   # Tier 1 direct answers
+│   └── tier-2-atomic-notes/     # Tier 2 RAG corpus (and other note trees)
+├── scripts/
+│   ├── embed_direct_answers.py
+│   ├── embed_notes.py
+│   └── ...
+├── embeddings.json              # Generated — do not edit by hand
+├── alembic/
+├── docker-compose.yml
+├── requirements.txt
+└── docs/                        # This folder
 ```
 
+## Further reading
+
+| Topic | Doc |
+| ----- | --- |
+| Backend doc index | [README.md](README.md) |
+| Tiered routing architecture | [TIERED-NOTES-SYSTEM.md](TIERED-NOTES-SYSTEM.md) |
+| Analytics | [ANALYTICS-SETUP.md](ANALYTICS-SETUP.md) |
+| Railway deploy | [RAILWAY_DEPLOYMENT.md](RAILWAY_DEPLOYMENT.md) |

@@ -162,9 +162,9 @@ AI-powered portfolio chatbot that uses Retrieval Augmented Generation (RAG) to a
 - **Frontend**: React, TypeScript
 - **Backend**: FastAPI
 - **AI/ML**: 
-  - LangChain for RAG orchestration
+  - FastAPI orchestration with OpenAI SDK (tiered embeddings, cosine similarity search over local vectors, GPT-4o-mini for replies)
   - OpenAI text-embedding-3-small (1536 dimensions) for embeddings
-  - Local JSON file storage with NumPy similarity calculations
+  - Local JSON embedding store with NumPy similarity calculations
   - OpenAI GPT-4o-mini for chat responses
 - **Knowledge Base**: Atomic notes (200-500 token self-contained notes)
 - **Source**: `atomic-notes/projects/folio-overview-and-motivation.md`, `atomic-notes/projects/folio-rag-system-architecture.md`

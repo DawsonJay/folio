@@ -6,7 +6,7 @@ WhatNow is end-to-end machine learning engineering. Two-layer learning architect
 
 moh-ami is LLM integration. Designed structured prompts requesting specific JSON schemas. Built validation logic catching common LLM errors before they reach users. The system handles word-by-word translations, grammar explanations, and cultural context through careful prompt engineering. Costs minimal - about £1-2 monthly for OpenAI API.
 
-Folio is RAG system architecture. Using LangChain for orchestration, OpenAI's text-embedding-3-small for semantic search, and GPT-4o-mini for response generation. The atomic notes approach enables precise retrieval - each note is self-contained and covers a single topic, so queries pull exactly relevant information without unrelated content.
+Folio is RAG architecture I shipped in FastAPI: Tier 1 embeddings over curated Q&A, Tier 2 embeddings over atomic markdown notes, confidence-style routing, OpenAI `text-embedding-3-small` plus `gpt-4o-mini`, everything stored in a local embedding file rather than a hosted vector DB — appropriate for this corpus size.
 
 My AI experience focuses on integration. I'm creating AI-powered user interfaces, handling streaming responses, designing loading states, and building complete systems. AI as a capability to integrate into frontend applications.
 

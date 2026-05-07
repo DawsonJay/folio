@@ -370,7 +370,7 @@ These questions don't need factual notes but need diplomatic answer templates:
 
 - [ ] "What AI frameworks have you used?"
   - **Gap**: Frameworks not comprehensively listed
-  - **Available**: LangChain, OpenAI API, contextual bandits
+  - **Available**: OpenAI API, contextual bandits, custom FastAPI RAG (embeddings + local similarity)
   - **Missing**: Complete list of AI frameworks
 
 - [ ] "What resources do you follow?"

@@ -28,7 +28,7 @@ On Integrations Dashboard, I made frontend architectural decisions as the sole f
 
 On Nexus Dashboard, I chose the foundation blocks architecture because the backend system was complex and could change. I needed an architecture that could adapt without major rewrites. I chose React Query for caching because performance was critical (15+ seconds load time was unacceptable). I designed safety layers to prevent accidental data corruption because the system managed critical infrastructure.
 
-On portfolio projects, I've made technology choices based on project needs. WhatNow needed contextual bandits and reinforcement learning, so I chose Python/FastAPI for the backend. moh-ami needed GraphQL for flexible data fetching, so I chose Apollo Server/Client. Folio needed RAG orchestration, so I chose LangChain. Each decision was driven by the specific requirements of the project.
+On portfolio projects, I've made technology choices based on project needs. WhatNow needed contextual bandits and reinforcement learning, so I chose Python/FastAPI for the backend. moh-ami needed GraphQL for flexible data fetching, so I chose Apollo Server/Client. Folio needed fast iteration on retrieval quality, so I kept embeddings plus similarity search transparent in application code rather than hiding it inside a DSL. Each decision was driven by the specific requirements of the project.
 
 ## Design Patterns and Principles
 
@@ -48,7 +48,7 @@ On Integrations Dashboard, I chose simplicity over flexibility. The dashboard ha
 
 On Nexus Dashboard, I balanced performance and maintainability. The foundation blocks architecture maintained code clarity while enabling performance optimizations. React Query provided caching without adding complexity to component code. The architecture supported both maintainability and performance.
 
-On portfolio projects, I've balanced current needs and future needs. WhatNow started simple (manual metadata) and evolved to embeddings and contextual bandits as requirements became clear. moh-ami used GraphQL for flexibility even though REST might have been simpler initially. Folio uses LangChain for RAG orchestration even though custom implementation might have been faster to build.
+On portfolio projects, I've balanced current needs and future needs. WhatNow started simple (manual metadata) and evolved to embeddings and contextual bandits as requirements became clear. moh-ami used GraphQL for flexibility even though REST might have been simpler initially. Folio uses explicit FastAPI services for RAG retrieval even though stacking another framework layer might feel faster initially — I prioritized clarity while the behavior was still changing weekly.
 
 ## Scalability Considerations
 

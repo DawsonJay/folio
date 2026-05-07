@@ -8,7 +8,7 @@ I've built moh-ami, a French learning translation tool with LLM integration. It 
 
 I'm working on Atlantis, a lake bed mapping system that demonstrates hardware and embedded systems skills. It's a remote-controlled surface boat that tows a weighted probe equipped with eight ultrasonic sensors. The system uses LoRa long-range communication and GPS positioning to create highly accurate 3D maps of lake beds.
 
-I'm also building Folio, the RAG-powered portfolio chatbot you're talking to right now. It uses LangChain for RAG orchestration, handles retrieval, prompt construction, and response generation. The system uses embeddings for semantic search and integrates with OpenAI for generating responses.
+I'm also building Folio, the RAG-powered portfolio chatbot you're talking to right now. FastAPI backend, Tier 1 and Tier 2 embeddings in a local JSON store, cosine similarity with NumPy, OpenAI embeddings and GPT-4o-mini for replies, React/TypeScript frontend with an event-driven chat flow.
 
 I've also worked on projects that didn't complete. Cirrus was a Canadian weather AI prediction system that I cancelled due to data quality issues - project scoping and when to pivot. Jam Hot was a computer vision project that failed due to dataset quality - insights that informed WhatNow's architecture.
 

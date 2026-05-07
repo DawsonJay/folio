@@ -120,18 +120,16 @@ Once root directory is set to `frontend`:
 
 Set these in Railway dashboard → Backend Service → Variables:
 
-**Required:**
+**Required for production chat + RAG:**
 - `PORT` (auto-set by Railway)
-- `DATABASE_URL` - PostgreSQL connection string (auto-provided by Railway if PostgreSQL service is added)
+- `OPENAI_API_KEY` - OpenAI key for embeddings and chat
 
-**For future RAG implementation:**
-- `OPENAI_API_KEY` - Your OpenAI API key
-- `PINECONE_API_KEY` - Your Pinecone API key
-- `PINECONE_ENVIRONMENT` - Your Pinecone environment
-- `PINECONE_INDEX_NAME` - Your Pinecone index name
+**Database (analytics + persistence):**
+- `DATABASE_URL` - PostgreSQL connection string (auto-provided by Railway if you add a PostgreSQL plugin). The app normalizes `postgresql://` for SQLAlchemy and adds SSL for hosted URLs in [`app/database.py`](../app/database.py).
 
-**For future rate limiting:**
-- `REDIS_URL` - Redis connection string (Railway provides this if you add a Redis service)
+After adding PostgreSQL, run migrations once (e.g. `alembic upgrade head`) so analytics tables exist. See [SETUP-INSTRUCTIONS.md](SETUP-INSTRUCTIONS.md) / [ANALYTICS-SETUP.md](ANALYTICS-SETUP.md).
+
+Embeddings ship with the repo or are regenerated in CI/deploy; runtime uses **`backend/embeddings.json`** — no Pinecone or separate vector SaaS is required by the current code.
 
 #### Frontend Service Variables
 
@@ -247,5 +245,5 @@ After successful deployment:
 2. Configure production environment variables for both services
 3. Update CORS settings for production (restrict to frontend domain)
 4. Set up monitoring and logging for both services
-5. Add PostgreSQL and Redis services when ready
+5. Add PostgreSQL when you want hosted analytics parity (optional for minimal demos if using SQLite fallback in build — production should use Postgres)
 6. Configure Railway networking if needed (service-to-service communication)

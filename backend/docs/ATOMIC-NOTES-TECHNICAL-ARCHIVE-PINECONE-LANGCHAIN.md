@@ -1,5 +1,7 @@
 # Atomic Notes Technical Specification
 
+**Archived (historical):** This document mixes accurate embedding theory with an **obsolete Pinecone + LangChain** deployment sketch. The running app uses **local `embeddings.json` + NumPy** and FastAPI services, not LangChain. Keep [TIERED-NOTES-SYSTEM.md](TIERED-NOTES-SYSTEM.md) and [ATOMIC-NOTES-GUIDE.md](ATOMIC-NOTES-GUIDE.md) as the live references.
+
 Technical deep-dive into how embeddings, vector search, and RAG work in the Folio system.
 
 ## Introduction
@@ -10,11 +12,11 @@ For practical guidance on writing notes, see [ATOMIC-NOTES-GUIDE.md](ATOMIC-NOTE
 
 ### System Overview
 
-The Folio RAG system uses three key technologies:
+The Folio RAG system uses these ideas (see code for the exact pipeline):
 - **OpenAI text-embedding-3-small**: Converts text to semantic vectors
-- **Local JSON Storage**: Stores embeddings locally for fast retrieval
-- **NumPy**: Performs cosine similarity calculations for semantic search
-- **LangChain**: Orchestrates retrieval and generation
+- **Local JSON storage**: Stores embeddings for fast retrieval (`backend/embeddings.json`)
+- **NumPy**: Cosine similarity for semantic search
+- **LangChain / Pinecone (not used in current code)**: Legacy sections below describe an alternative stack for historical context only
 
 The system transforms your knowledge base (atomic notes) into embeddings, stores them locally, and retrieves relevant notes based on semantic similarity to user questions. The LLM then synthesizes these notes into coherent answers.
 

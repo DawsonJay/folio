@@ -1,6 +1,6 @@
 # What's your experience with RAG systems?
 
-I've built Folio, the RAG-powered chatbot you're using right now. RAG stands for retrieval-augmented generation - combining knowledge bases with language models. Using LangChain for orchestration, OpenAI's text-embedding-3-small for semantic search, and GPT-4o-mini for response generation.
+I've built Folio, the RAG-powered chatbot you're using right now. RAG stands for retrieval-augmented generation — combining a knowledge base with language models. Folio uses FastAPI services for routing and retrieval, OpenAI's `text-embedding-3-small` for semantic vectors, local embedding storage with NumPy cosine similarity, plus `gpt-4o-mini` for answer synthesis when a hand-written direct answer doesn't win on similarity.
 
 The atomic notes approach is key to Folio's design. Instead of long documents, the knowledge base contains self-contained notes each covering a single topic, written in first person. Granular structure enables precise retrieval - queries pull exactly relevant information without unrelated content dragging in.
 

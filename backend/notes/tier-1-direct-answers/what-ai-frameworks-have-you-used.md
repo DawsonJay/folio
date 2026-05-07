@@ -1,14 +1,12 @@
 # What AI frameworks have you used?
 
-I use LangChain for building LLM applications, OpenAI API for embeddings and language models, and I've implemented contextual bandits for recommendation systems. For Folio, I use LangChain with OpenAI embeddings for semantic search and RAG architecture. For moh-ami, I integrated OpenAI API for translation explanations and language learning assistance.
+I use the **OpenAI API** heavily (embeddings + chat with JSON outputs), **FastAPI** for Python service boundaries, and **custom Python/JS** where frameworks add noise — WhatNow's contextual bandits are hand-rolled because I needed the same ideas on both backend and frontend.
 
-WhatNow uses a custom contextual bandits implementation for activity recommendations. The system learns from user choices to improve future suggestions, balancing immediate responsiveness with long-term learning. I built a two-layer learning architecture combining fast adaptation with stable long-term preferences.
+**Folio (this chatbot)** is intentionally not “framework-first” RAG: routing, Tier 1 vs Tier 2 retrieval, similarity search over a local embedding store, and structured responses are plain FastAPI + NumPy-style cosine similarity plus the OpenAI client. That's easier to tune and explain in interviews than a black-box chain wrapper.
 
-I work with embeddings extensively - generating them, storing them, and retrieving them for semantic search. The Folio portfolio chatbot uses 137 atomic notes as embeddings retrieved based on query similarity. This RAG approach combines retrieval with generation for accurate, grounded responses.
+For **moh-ami**, orchestration stays in Next.js/App Router routes and structured prompts validated in code rather than delegating semantics to an external orchestration toolkit.
 
-For development, I use FastAPI for Python backends integrating AI capabilities, React for frontends consuming AI services, and Prisma ORM for database management including vector storage. I've worked with Vercel AI SDK for streaming responses and building AI-powered interfaces.
-
-My approach is to use existing AI services rather than build infrastructure from scratch. OpenAI for embeddings and language models, LangChain for orchestration, FastAPI for the backend layer — the goal is shipping something that works and provides real value, not reinventing what already exists.
+I've used ecosystem patterns people associate with LangChain-style pipelines, but Folio shipped as readable application code rather than stacking another dependency layer.
 
 ---
 

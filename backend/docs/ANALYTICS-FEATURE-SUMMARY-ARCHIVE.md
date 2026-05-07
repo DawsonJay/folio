@@ -1,5 +1,7 @@
 # Analytics Feature - Implementation Summary
 
+**Archived summary:** Operational setup and testing now live in [ANALYTICS-SETUP.md](ANALYTICS-SETUP.md). This file is retained as a milestone record of components added.
+
 ## What Was Built
 
 A complete analytics system for tracking user questions with the following components:

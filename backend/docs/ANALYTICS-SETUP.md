@@ -172,6 +172,72 @@ Response:
 4. Each question is stored with full metadata (confidence, response time, etc.)
 5. Analytics endpoints aggregate this data to show unique questions with counts
 
+## Testing analytics
+
+Use the same prerequisites as [Local Development Setup](#local-development-setup): PostgreSQL (e.g. Docker Compose), `DATABASE_URL` + `OPENAI_API_KEY` in `backend/.env`, `alembic upgrade head`, and `uvicorn app.main:app --reload`.
+
+### Option 1: Automated script (recommended)
+
+```bash
+cd backend
+python scripts/test_analytics.py
+```
+
+This resets analytics, posts several chat questions (with duplicates), checks counts, and exercises optional query filters (`days`, `limit`).
+
+### Option 2: Manual testing with curl
+
+**Reset:**
+
+```bash
+curl -X POST http://localhost:8000/api/analytics/reset
+```
+
+**Ask questions via chat:**
+
+```bash
+curl -X POST http://localhost:8000/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What is Folio?"}'
+
+curl -X POST http://localhost:8000/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"question": "Tell me about your experience"}'
+
+curl -X POST http://localhost:8000/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"question": "What is Folio?"}'
+```
+
+**Inspect aggregates:**
+
+```bash
+curl "http://localhost:8000/api/analytics/questions?days=7&limit=10"
+```
+
+### Option 3: FastAPI `/docs`
+
+Open `http://localhost:8000/docs`, try `GET /api/analytics/questions` and `POST /api/analytics/reset`.
+
+### Option 4: Database inspection
+
+With Docker Postgres (container name may vary; check `docker ps`):
+
+```bash
+docker exec -it folio_postgres_local psql -U folio_user -d folio_db -c \
+  "SELECT question_text, confidence, response_time_ms, timestamp FROM analytics_events ORDER BY timestamp DESC LIMIT 10;"
+```
+
+### Verify behavior
+
+- Chat still works if analytics persistence fails (errors should be swallowed in the chat path where implemented).
+- Duplicate question texts aggregate with `count` > 1 in `/api/analytics/questions`.
+- `GET /db-test` reports DB connectivity if you need to debug connection issues locally.
+
+### Alternative: existing local PostgreSQL
+
+If you already run Postgres on port 5432 instead of Compose, point `DATABASE_URL` at your instance, create database `folio_db`, then run `alembic upgrade head`. See [SETUP-INSTRUCTIONS.md](SETUP-INSTRUCTIONS.md).
+
 ## Production Deployment
 
 On Railway (or other production environments):

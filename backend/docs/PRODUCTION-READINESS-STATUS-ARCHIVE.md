@@ -1,8 +1,11 @@
 # Folio RAG System: Production Readiness Status
 
-**Status**: ✅ **PRODUCTION READY**  
+**Archived snapshot (2026-01-29):** Metrics and claims here are historical. For current behavior and setup, use the root [`README.md`](../../README.md) and [`backend/docs/README.md`](README.md). Do not treat this file as live production sign-off.
+
+**Status (historical)**: Previously marked production ready — verify against current code before relying on any numbers below.
+
 **Last Updated**: 2026-01-29  
-**System Score**: 3.77/5.0 (Good)
+**System Score (historical)**: 3.77/5.0 (Good)
 
 ## Quick Stats
 

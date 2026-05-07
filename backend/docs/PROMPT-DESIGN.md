@@ -4,7 +4,7 @@
 
 The Folio RAG system uses ultra-compressed prompts optimized for token efficiency while maintaining clarity and instruction completeness. All prompts use JSON mode for reliable structured outputs.
 
-## Design Principles
+**Implementation context:** Retrieval and Tier 1 routing are implemented in FastAPI (`app/api/chat.py` and related services), not LangChain; see [TIERED-NOTES-SYSTEM.md](TIERED-NOTES-SYSTEM.md) and [CONFIDENCE-THRESHOLD-GUIDE.md](CONFIDENCE-THRESHOLD-GUIDE.md).
 
 1. **Token Efficiency**: Minimize prompt tokens without losing critical instructions
 2. **Structured Output**: Use JSON mode for reliable, parseable responses

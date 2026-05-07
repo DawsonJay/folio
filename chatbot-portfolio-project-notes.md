@@ -1,5 +1,7 @@
 # Folio - Design Notes
 
+> **Stale sections warning:** Early parts of this file describe Pinecone/LangChain and a two-page-only UX. Treat the **[root README](README.md)**, **`backend/docs/`**, and the running code as authoritative. Archive-style ideas may still help with history, but do not paste stack claims without verifying against the repo.
+
 ## Project Overview
 
 **Project Name**: Folio  

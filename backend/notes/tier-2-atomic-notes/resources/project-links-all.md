@@ -46,7 +46,7 @@ This website itself is a portfolio project featuring a theatrical diorama design
 
 **Source Code:** Will be published when complete
 
-This is my current project - an AI-powered portfolio chatbot using Retrieval Augmented Generation (RAG). The system combines LangChain for orchestration, Pinecone for vector storage, OpenAI embeddings for semantic search, and GPT-4o-mini for response generation. The frontend is built with React and TypeScript using event-driven architecture, while the backend uses FastAPI with atomic notes stored as embeddings. This represents the cutting edge of my AI/ML and full-stack development capabilities.
+This is my current project — an AI-powered portfolio chatbot using Retrieval Augmented Generation (RAG). The backend uses FastAPI with OpenAI embeddings (`text-embedding-3-small`) and cosine similarity search over vectors stored locally; common questions map to Tier 1 hand-written answers before falling back to broader RAG over atomic markdown notes, with `gpt-4o-mini` generating answers when needed. The frontend is React and TypeScript with an event-driven chat UI.
 
 ## Professional Work at Nurtur
 

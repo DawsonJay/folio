@@ -1,6 +1,6 @@
 # What are your salary expectations?
 
-Based on my research for full-stack developers with AI/ML experience in Canada, I'm looking in the range of $85,000–$110,000 CAD depending on location, team, and total compensation package. I'm flexible within that range for the right opportunity.
+Based on my research for full-stack developers with AI/ML experience in Canada, I'm targeting a range of $130,000–$165,000 CAD depending on scope, location, and total compensation package. I'm flexible within that range for the right opportunity.
 
 The range accounts for my 5.5 years of professional experience, production systems that have run 3+ years with zero maintenance, AI/ML integration capabilities, and full-stack ownership. It's based on current market data for mid-to-senior full-stack roles with AI/ML experience in the Canadian market.
 

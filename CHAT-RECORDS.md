@@ -168,14 +168,14 @@ Include all specific content the user requested, such as:
 ```
 
 ## Example
-When user says: "create a chat record with details on the RAG system implementation we just completed, showing the LangChain integration, Pinecone vector store setup, and compact context file approach"
+When user says: "create a chat record with details on the RAG system implementation we just completed, showing the FastAPI retrieval pipeline, local embedding storage, and tiered note strategy"
 
 **You must:**
-1. Execute `date -u +%Y-%m-%d-%H%M` to get timestamp
+1. Execute `date -u +%Y-%m-%d-%H%M` to get timestamp (or the Windows equivalent from user rules)
 2. Create file at `/home/james/Documents/portfolio-profile/records/folio/chat-record-[timestamp].md`
 3. Write header: `# Chat Record - [timestamp]`
 4. Include complete Chat Context section with all subsections
-5. Add section: `## RAG System Implementation` with LangChain integration, Pinecone vector store setup, compact context file approach, and technical details
+5. Add section: `## RAG System Implementation` with FastAPI retrieval, local embedding JSON + cosine similarity, Tier 1/Tier 2 notes, structured JSON responses, and technical details
 
 ## Important Rules
 - **Always use GMT/UTC timezone** for timestamps

@@ -73,25 +73,16 @@ When people ask about my programming languages, I typically emphasize TypeScript
 ### Directory Structure
 
 ```
-/notes
-  /direct-answers/
-    - what-languages-do-you-know.md
-    - tell-me-about-yourself.md
-    - why-did-you-leave-nurtur.md
-    - what-is-your-current-employment-status.md
-    - do-you-know-csharp.md
-    - do-you-know-java.md
-    - what-is-your-experience-with-react.md
-    - what-is-your-experience-with-python.md
-    - what-are-your-strongest-skills.md
-    - are-you-open-to-remote-work.md
-    - tell-me-about-whatnow.md
-    - tell-me-about-moh-ami.md
-    - tell-me-about-atlantis.md
-    - [20-30 total common questions]
+backend/notes/
+  tier-1-direct-answers/     # Tier 1: one polished answer per common question (.md files)
+    metadata/                # Catalogs/specs — excluded from embedding scripts
+  tier-2-atomic-notes/       # Tier 2: atomic corpus for RAG (plus other note trees under notes/)
+  ...
 ```
 
 ### Retrieval Logic
+
+Implementation lives in `app/services/direct_answer_routing.py`, `app/services/embedding_storage.py`, and `app/api/chat.py`. The pseudocode below is the original design sketch; thresholds and guards are defined in code.
 
 ```python
 def find_direct_answer(query):
