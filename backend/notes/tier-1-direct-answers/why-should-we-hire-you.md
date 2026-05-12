@@ -2,7 +2,7 @@
 
 I deliver production systems that scale and last: the Integrations Dashboard running 3+ years with zero maintenance, the Nexus Dashboard optimized from 15+ seconds to under 5, and three developers mentored into confident full-stack contributors. I make teams stronger while shipping reliable code.
 
-I combine frontend depth with AI integration expertise. I've spent 3.5 years building React/TypeScript applications professionally, and I'm integrating machine learning for recommendations, LLM-powered features for language learning, and semantic search chatbots. I'm working where frontend development and AI capabilities intersect.
+I combine frontend depth with AI integration expertise. I've built React and TypeScript applications professionally since October 2020 — BriefYourMarket, freelance, and Nurtur — with the pairing from Ironhack (May 2020), and I'm integrating machine learning for recommendations, LLM-powered features for language learning, and semantic search chatbots. I'm working where frontend development and AI capabilities intersect.
 
 I bridge technical and non-technical teams. I've translated between backend engineers and sales teams, taught CSS to backend developers, and explained complex systems to non-technical stakeholders. My art background gives me intuition for code structure - I catch architectural issues early before they become expensive.
 

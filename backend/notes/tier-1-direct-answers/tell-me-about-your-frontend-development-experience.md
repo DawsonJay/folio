@@ -1,6 +1,6 @@
 # Tell me about your frontend development experience
 
-Three and a half years of professional frontend experience building production React/TypeScript systems: the Integrations Dashboard (zero maintenance in 3+ years), the Nexus Dashboard (15+ second load times down to under 5 seconds), and the Email Editor rebuild — all at Nurtur alongside more complex state management for systems processing thousands of distributed jobs.
+Five and a half years of professional frontend experience with React and TypeScript — from BriefYourMarket and freelance work through Nurtur — with the stack rooted in Ironhack (May 2020). Highlights at Nurtur include the Integrations Dashboard (zero maintenance in 3+ years), the Nexus Dashboard (15+ second load times down to under 5 seconds), and the Email Editor rebuild, alongside complex state management for systems processing thousands of distributed jobs.
 
 I'm advanced with React and TypeScript - where I deliver the most immediate value. I've built complex dashboards managing backend infrastructure, drag-and-drop email editors integrating the Lexical framework, and AI-powered applications with LLM integration and contextual bandits. Comfortable with hooks, context, component composition, Redux Toolkit for state management, and modern patterns like server components with Next.js 14.
 

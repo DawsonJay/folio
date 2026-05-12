@@ -51,7 +51,7 @@ Pre-written, polished answers to common recruiter questions. If query matches cl
 
 I know TypeScript, React, C#, Python, Java, and Lua. 
 
-My strongest languages are **TypeScript and React**, which I've used daily for 3.5 years at Nurtur (July 2022 - February 2026). These are where I have the most production experience and can deliver the most value.
+My strongest languages are **TypeScript and React**, which I've used daily across 5.5 years of professional work (October 2020 - February 2026: BriefYourMarket, freelance, and Nurtur), with the stack from Ironhack (May 2020). These are where I have the most production experience and can deliver the most value.
 
 I have significant professional experience with **C#** - I used it as my primary backend language for 3 years at Nurtur, working with C# APIs, Azure Functions, and backend systems.
 

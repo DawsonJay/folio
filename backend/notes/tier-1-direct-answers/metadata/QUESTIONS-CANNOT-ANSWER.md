@@ -183,7 +183,7 @@ These questions don't need factual notes but need diplomatic answer templates:
 
 - [ ] "How long did it take to become proficient in React?"
   - **Gap**: No timeline for proficiency achievement
-  - **Available**: React experience (3.5 years)
+  - **Available**: React experience (5.5 years professional continuous use with TypeScript from first role)
   - **Missing**: Timeline to proficiency
 
 - [ ] "How do you decide when to learn something new?"

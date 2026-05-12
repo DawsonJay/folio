@@ -99,7 +99,7 @@ The foundational notes provide:
 ### MEDIUM Priority
 
 - [HIGH] "How comfortable are you with TypeScript?"
-  - **Sources**: `foundational-notes/factual-notes/languages-technologies.md` (TypeScript section - Advanced, 3.5 years)
+  - **Sources**: `foundational-notes/factual-notes/languages-technologies.md` (TypeScript section - Advanced, 5.5 years daily professional use)
 
 - [HIGH] "What databases have you worked with?"
   - **Sources**: `foundational-notes/factual-notes/languages-technologies.md` (PostgreSQL, Prisma ORM sections)
@@ -442,7 +442,7 @@ The foundational notes provide:
   - **Sources**: `foundational-notes/factual-notes/languages-technologies.md` (Java section - Intermediate, 6 years)
 
 - [HIGH] "What's your experience with TypeScript?"
-  - **Sources**: `foundational-notes/factual-notes/languages-technologies.md` (TypeScript section - Advanced, 3.5 years daily professional use)
+  - **Sources**: `foundational-notes/factual-notes/languages-technologies.md` (TypeScript section - Advanced, 5.5 years daily professional use from first role)
 
 ---
 

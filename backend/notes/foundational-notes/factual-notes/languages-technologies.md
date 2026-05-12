@@ -15,21 +15,21 @@
 
 ### TypeScript
 - **Proficiency**: Advanced
-- **Years of Experience**: 3.5 years (daily professional use)
-- **Usage Period**: July 2022 - February 2026 (Nurtur)
-- **Usage Context**: Daily professional use at Nurtur
-- **Projects**: Nexus Dashboard, Email Editor, moh-ami, portfolio website, flashy-cardy-course
+- **Years of Experience**: 5.5 years (daily professional use, October 2020 - February 2026)
+- **Usage Period**: October 2020 - February 2026 (BriefYourMarket, freelance, Nurtur)
+- **Usage Context**: Daily professional use from first developer role; core frontend stack with React across all employers and freelance
+- **Projects**: BriefYourMarket.com work, freelance client online shop, Nexus Dashboard, Email Editor, moh-ami, portfolio website, flashy-cardy-course
 - **Source**: `atomic-notes/skills/programming-languages-familiarity.md`, `linked-in-job-hunter/profile-documents/experience.md`
-- **Notes**: Primary language for frontend development. Strongest language alongside React.
+- **Notes**: Primary language for frontend development. Strongest language alongside React. Stack solidified at Ironhack (May 2020) before first professional role.
 
 ### JavaScript
 - **Proficiency**: Advanced
-- **Years of Experience**: 3.5+ years
+- **Years of Experience**: 5.5+ years professional continuous (October 2020 - February 2026); longer including bootcamp from May 2020
 - **Usage Period**: May 2020 - present
 - **Usage Context**: Professional work, bootcamp, personal projects
-- **Projects**: portfolio, flashy-cardy-course, Nexus Dashboard, moh-ami
+- **Projects**: portfolio, flashy-cardy-course, Nexus Dashboard, moh-ami, freelance client online shop, BriefYourMarket.com work
 - **Source**: `atomic-notes/skills/programming-languages-familiarity.md`, `linked-in-job-hunter/profile-documents/experience.md`
-- **Notes**: Foundation language, used extensively with React
+- **Notes**: Runtime foundation under React and TypeScript across the same professional arc (bootcamp through Nurtur).
 
 ### C#
 - **Proficiency**: Intermediate (professional experience)
@@ -83,10 +83,11 @@
 
 ### React
 - **Proficiency**: Advanced
-- **Years of Experience**: 3.5 years
-- **Usage Period**: July 2022 - February 2026 (professional), May 2020 - present (projects)
-- **Projects**: portfolio, flashy-cardy-course, Nexus Dashboard, Email Editor, moh-ami
+- **Years of Experience**: 5.5 years (daily professional use, October 2020 - February 2026)
+- **Usage Period**: October 2020 - February 2026 (professional continuous: BriefYourMarket, freelance, Nurtur); May 2020 - present (includes Ironhack bootcamp and personal projects)
+- **Projects**: BriefYourMarket.com work, freelance client online shop, portfolio, flashy-cardy-course, Nexus Dashboard, Email Editor, moh-ami
 - **Source**: `atomic-notes/skills/react-frontend-experience.md`, `linked-in-job-hunter/profile-documents/experience.md`
+- **Notes**: Core professional framework alongside TypeScript from first developer role; introduced at Ironhack (May 2020).
 
 ### Material UI
 - **Proficiency**: Advanced

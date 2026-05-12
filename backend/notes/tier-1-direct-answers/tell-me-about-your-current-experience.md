@@ -4,7 +4,7 @@ I have 5.5 years of professional development experience, with my most recent rol
 
 My professional experience started at BriefYourMarket.com as a Junior Web Developer in October 2020, which lasted 5 months. I then spent 15 months as a freelance web developer, which taught me that I prefer working in teams. I returned to the same company (now Nurtur) in July 2022 and worked there for 3.5 years until February 2026.
 
-My strongest expertise is in full-stack web development with React and TypeScript, which I've used daily for 3.5 years at Nurtur. I've built production systems that are still running today, including the Integrations Dashboard, which has been in production for over 3 years without any maintenance. I also worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds, and the Email Editor, where I mentored backend developers transitioning to full-stack roles.
+My strongest expertise is in full-stack web development with React and TypeScript, which I've used daily since October 2020 — BriefYourMarket, freelance, and my 3.5 years at Nurtur — with that stack rooted in Ironhack (May 2020). I've built production systems that are still running today, including the Integrations Dashboard, which has been in production for over 3 years without any maintenance. I also worked on the Nexus Dashboard, optimizing performance from 15+ seconds to under 5 seconds, and the Email Editor, where I mentored backend developers transitioning to full-stack roles.
 
 I have significant professional experience with C# as my primary backend language for 3 years at Nurtur. I've also worked extensively with Python for AI/ML projects like WhatNow, moh-ami, and Folio, the RAG-powered portfolio chatbot you're talking to right now.
 

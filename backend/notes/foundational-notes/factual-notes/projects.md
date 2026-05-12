@@ -430,11 +430,13 @@ Portfolio website featuring theatrical diorama design system with layered SVG an
 - **Note**: Early career work, nothing especially notable to document as separate projects
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`
 
-### Freelance Work
-- **Project**: Online shop for a client
-- **Outcome**: Client never made use of it despite significant work invested
-- **Note**: Disappointing experience, not significant enough to document as a portfolio project
-- **Source**: User feedback 2026-02-07
+### Freelance Work (March 2021 - June 2022)
+- **Project**: Client online shop (e-commerce)
+- **Technologies**: React, TypeScript, Stripe, Firebase Hosting, Firestore
+- **Delivery**: Production-ready build; payments and critical user flows verified end-to-end before handover
+- **Client go-live**: Client did not launch the shop to customers after handover (business/adoption decision outside engineering scope)
+- **Note**: Substantive client work during freelance period; not packaged as a public portfolio demo
+- **Source**: `foundational-notes/factual-notes/work-experience.md`, User feedback 2026-02-07
 
 ---
 

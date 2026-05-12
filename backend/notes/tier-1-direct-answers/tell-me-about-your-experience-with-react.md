@@ -1,6 +1,6 @@
 # Tell me about your experience with React
 
-React is my strongest skill — 3.5 years of daily professional use at Nurtur, building production systems that are still running. The range includes internal dashboards (Integrations Dashboard, zero maintenance in 3+ years), infrastructure management tools (Nexus Dashboard, thousands of distributed jobs), drag-and-drop editors (Email Editor, Lexical framework), and personal AI-powered applications with LLM integration.
+React is my strongest skill — I've used it daily across 5.5 years of professional work (BriefYourMarket, freelance, Nurtur), with Ironhack (May 2020) as where React and TypeScript became my core stack. The range includes internal dashboards at Nurtur (Integrations Dashboard, zero maintenance in 3+ years), infrastructure tools (Nexus Dashboard, thousands of distributed jobs), drag-and-drop editors (Email Editor, Lexical framework), and personal AI-powered applications with LLM integration.
 
 I'm comfortable with modern React patterns throughout: hooks, context, component composition, Next.js 14 App Router with server components, and structuring large applications so they stay maintainable as the codebase grows.
 

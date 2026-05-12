@@ -8,7 +8,7 @@
 **Duration**: 9 weeks intensive + 3 weeks final project
 
 **Curriculum**:
-- Frontend: HTML/CSS, JavaScript, React
+- Frontend: HTML/CSS, JavaScript, React, TypeScript
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Full-stack project development
@@ -74,7 +74,7 @@
 **Pattern**: I learn what I need to achieve goals that inspire me. Never took a course in these languages - learned through building projects.
 
 ### During and After Bootcamp
-- **TypeScript**: Learned through professional work and personal projects
+- **TypeScript**: Introduced at Ironhack (May 2020); used daily with React in every professional role from October 2020 onward
 - **Redux Toolkit**: Self-taught for Nurtur work (Email Editor, Nexus)
 - **Machine Learning**: Contextual bandits for WhatNow, taught myself through implementation
 - **LLM Integration**: OpenAI APIs and prompt engineering for moh-ami

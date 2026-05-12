@@ -82,7 +82,7 @@ def main():
     stats = storage.get_stats()
     print(f"Storage stats: {stats}")
     
-    print(f"\n✅ Successfully embedded {len(notes_data)} notes into local storage!")
+    print(f"\nOK: Successfully embedded {len(notes_data)} notes into local storage!")
     print(f"   Storage location: {storage.storage_path}")
 
 if __name__ == "__main__":

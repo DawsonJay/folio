@@ -2,7 +2,7 @@
 
 After my first professional role at BriefYourMarket.com ended in February 2021, I spent 15 months as a freelance web developer. This period taught me valuable lessons about what I need in my work environment.
 
-I built websites for small businesses and web applications for clients, handling everything from initial consultation through deployment. The work ranged from simple brochure sites to more complex applications with databases and user authentication.
+The main paid build was a **client online shop**: **React** and **TypeScript**, **Stripe** (I verified checkout and payments end-to-end before handover), **Firebase Hosting**, and **Firestore**. I still handled broader freelance responsibilities — consultation, scoping, deployment — but that shop was the substantive technical delivery.
 
 I gained experience in customer relations, business development, project management, and handling ambiguous requirements. These skills are valuable, but I discovered they weren't the skills I wanted to focus on.
 

@@ -1,6 +1,6 @@
 # What's your experience with TypeScript?
 
-TypeScript has been my primary frontend language for 3.5 years of daily professional use at Nurtur. It's the language I think in when building frontend systems.
+TypeScript has been my primary frontend language across 5.5 years of professional work — BriefYourMarket, freelance, and Nurtur — with React and TypeScript established at Ironhack (May 2020) before my first role in October 2020. The most intensive production ownership was my 3.5 years at Nurtur. It's the language I think in when building frontend systems.
 
 The Nexus Dashboard is probably the clearest example of how I actually use the type system. The dashboard modelled queues, job managers, instances, and multi-tenant structures — all with complex relationships. Modelling those in TypeScript meant wiring data through components caught integration errors at compile time rather than at runtime. As the codebase scaled, the types also served as living documentation of what each part of the system expected and returned — useful when a backend contract changed and I needed to find every affected component quickly.
 

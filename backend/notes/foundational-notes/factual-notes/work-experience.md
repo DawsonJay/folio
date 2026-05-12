@@ -150,12 +150,16 @@
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `atomic-notes/work/work-experience-timeline.md`
 
 ### What I Did
-- Independent full-stack web development work
-- Client projects: Built online shop for a client (client never made use of it despite significant work invested)
-- No other relevant client projects aside from the online shop
-- Business development
-- Customer relations
+- Independent full-stack web development for clients
+- **Primary client project**: Production-ready **online shop** — **React** and **TypeScript** frontend, **Stripe** for payments (**checkout verified end-to-end before handover**), **Firebase Hosting** and **Firestore** for hosting and backend data
+- No other major client projects in this period
+- Business development and customer relations
 - **Source**: `linked-in-job-hunter/profile-documents/experience.md`, `atomic-notes/work/work-experience-timeline.md`, User feedback 2026-02-07
+
+### Outcomes (delivery vs client go-live)
+- **Delivery**: Handed over a fully exercised shop; personally verified flows including payments before handover
+- **Client go-live**: Client did not launch the shop to customers after handover — separate from technical completeness of the build
+- **Source**: User feedback 2026-02-07
 
 ### Why I Left
 - Didn't enjoy customer relations aspect

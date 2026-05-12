@@ -1,10 +1,10 @@
 # React Frontend Development Experience
 
-I've been building React applications for over 3 years, and it's my primary framework for frontend development. My experience spans from small personal projects to enterprise-level applications at Nurtur, where I worked as a Full Stack Developer for 3.5 years (part of 5.5 years total professional experience) until February 2026.
+I've been building React applications professionally for 5.5 years (October 2020 - February 2026) — from my first role at BriefYourMarket through freelance work and my 3.5 years as a Full Stack Developer at Nurtur. Ironhack (May 2020) is where React and TypeScript became my core frontend stack. It's my primary framework for frontend development, from client projects to enterprise dashboards and product work at Nurtur.
 
 I work exclusively with modern React patterns - functional components with Hooks, not class components. I'm very comfortable with the core Hooks like useState, useEffect, useContext, useMemo, and useCallback, and I understand when and why to use each one. I've built custom hooks to encapsulate reusable logic, like useScrollTracking for my portfolio's article navigation system and useDioramaAnimation for coordinating SVG animations.
 
-TypeScript is my default choice for React projects now. I appreciate the type safety it provides, especially in larger applications where catching errors at compile time saves significant debugging time. I'm experienced with typing props, state, hooks, and event handlers. In my current Folio project, WhatNow frontend migration, and moh-ami, TypeScript has been essential for maintaining code quality.
+TypeScript has been my default with React since I entered the industry — the same pairing from Ironhack through BriefYourMarket, freelance, and Nurtur. I appreciate the type safety it provides, especially in larger applications where catching errors at compile time saves significant debugging time. I'm experienced with typing props, state, hooks, and event handlers. In Folio, WhatNow, moh-ami, and production work at Nurtur, TypeScript has been essential for maintaining code quality.
 
 For state management, I've used several approaches depending on project complexity. Context API with useContext for simpler apps like my portfolio website, Redux Toolkit for more complex applications like WhatNow and moh-ami, and component-level state when appropriate. I understand the tradeoffs between different state management approaches and can choose the right tool for the job.
 

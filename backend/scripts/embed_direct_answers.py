@@ -126,7 +126,7 @@ def main():
     stats = storage.get_stats()
     print(f"Storage stats: {stats}")
     
-    print(f"\n✅ Successfully embedded {len(vectors_to_store)} direct answer questions!")
+    print(f"\nOK: Successfully embedded {len(vectors_to_store)} direct answer questions!")
     print(f"   Storage location: {storage.storage_path}")
 
 if __name__ == "__main__":
